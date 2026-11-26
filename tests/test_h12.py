@@ -104,3 +104,16 @@ class Shl(unittest.TestCase):
         self.assertEqual((b["leagueCode"], b["home"]["team"], b["goalieAway"]), ("shl", "Färjestad BK", None))
         with self.assertRaises(ValueError):
             h12_shl.build(json.loads(json.dumps(st.snapshot())), games)
+
+
+class JarvisElo(unittest.TestCase):
+    def test_seeds_and_european_link(self):
+        import jelo
+        ms = [{"utc": "2023-07-20", "lid": 42, "league": "UCL", "home": 1, "away": 3, "hn": "A", "an": "C", "hg": 2, "ag": 0},
+              {"utc": "2023-08-01", "lid": 47, "league": "PL (47)", "home": 1, "away": 2, "hn": "A", "an": "B", "hg": 3, "ag": 0},
+              {"utc": "2023-08-02", "lid": 64, "league": "SP (64)", "home": 3, "away": 4, "hn": "C", "an": "D", "hg": 1, "ag": 1}]
+        clubs, leagues = jelo.rate(ms)
+        self.assertEqual(clubs[3]["league"], "SP (64)")                 # league from domestic games, not Europe
+        self.assertGreater(leagues["PL (47)"]["mean"], leagues["SP (64)"]["mean"])
+        # zero-sum: rating points only move between clubs
+        self.assertAlmostEqual(sum(c["elo"] for c in clubs.values()), 1650 * 2 + 1460 * 2, places=6)
