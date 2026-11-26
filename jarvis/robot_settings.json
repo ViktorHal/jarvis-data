@@ -1,0 +1,75 @@
+{
+ "note": "copy of brain/markets.markets and the active decision profile, for the hourly robot (fetch/autoprice.py). Keep in step with the database (the weekly task checks it).",
+ "updated": "2026-11-26T21:30:00Z",
+ "markets": {
+  "60-minute result": {
+   "status": "active"
+  },
+  "Both teams to score": {
+   "status": "active"
+  },
+  "Cards": {
+   "status": "trial"
+  },
+  "Corners": {
+   "status": "trial"
+  },
+  "Double chance": {
+   "status": "active"
+  },
+  "Draw no bet": {
+   "status": "active"
+  },
+  "Half with most goals": {
+   "status": "trial"
+  },
+  "Match result": {
+   "status": "active"
+  },
+  "Moneyline": {
+   "status": "active"
+  },
+  "Moneyline (incl. OT)": {
+   "status": "active"
+  },
+  "Player points": {
+   "status": "trial"
+  },
+  "Player shots": {
+   "status": "trial"
+  },
+  "Player shots on goal": {
+   "status": "trial"
+  },
+  "Player shots on target": {
+   "status": "trial"
+  },
+  "Puck line": {
+   "status": "trial"
+  },
+  "Red card": {
+   "status": "shadow"
+  },
+  "Spread": {
+   "status": "active"
+  },
+  "Team corners": {
+   "status": "trial"
+  },
+  "Team goals": {
+   "status": "active"
+  },
+  "Total goals": {
+   "status": "active"
+  },
+  "Total goals (60 min)": {
+   "status": "active"
+  },
+  "Total points": {
+   "status": "active"
+  }
+ },
+ "config": {
+  "profile": "hitrate"
+ }
+}

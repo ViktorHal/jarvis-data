@@ -37,7 +37,7 @@ try:  # hockey model 1.2 (production for hockey from 26 Nov 2026 when its inputs
 except Exception:  # a missing or broken hockey12.py falls back to 1.1, recorded per match
     hockey12 = None
 
-VERSION = "3.5"
+VERSION = "3.6"
 
 DEFAULT_CONFIG = {
     "mode": "shadow",                 # "shadow" | "active"
@@ -51,7 +51,8 @@ DEFAULT_CONFIG = {
     "qualityMin": 55,
     "trial": {"edge": 0.05, "qualityMin": 60},
     "minStartMinutes": 30,
-    "maxPerEvent": None,              # owner, 26 Nov 2026: no cap per match; products sharing a match are flagged
+    "maxPerEvent": 2,                 # 3.6 (owner, 26 Nov 2026 evening): at most two products per match, so the picks spread
+                                      # over the whole slate (ten products on NEC - Rennes was too many)
     "maxNewPerRun": None,             # no cap on how many bets a run may post (owner's decision)
     "sports": {"football": "on", "hockey": "on", "basketball": "off"},
     "hockeyModel": "1.2",             # owner, 26 Nov 2026; "1.1" switches hockey back to the old model
@@ -67,7 +68,9 @@ DEFAULT_CONFIG = {
     # joint probability >= builderMinProb, no long shots, no acca. Probabilities, minimum prices and the value
     # rules themselves are identical in both profiles; the profile only chooses which passing lines are shown.
     "profile": "value",
-    "hitrate": {"minProb": 0.60, "tiers": ["safe", "value"], "builderMinProb": 0.30, "acca": False,
+    # 3.6: goal builders only at a 45% joint chance with both legs at least 2 points above the market (the old 30% gave
+    # one long-odds builder on every match); at most three multi-match combos per run
+    "hitrate": {"minProb": 0.60, "tiers": ["safe", "value"], "builderMinProb": 0.45, "builderLegGap": 2.0, "acca": False,
                 # 3.2 (owner, 26 Nov 2026): likely bets with no public price to compare with (shots, corners, cards,
                 # team goals...): posted as "check at BetMGM" with Jarvis' minimum price; likely multi-match combos
                 # and same-match builders with a player leg. Never added when the model disagrees with the market
@@ -77,8 +80,15 @@ DEFAULT_CONFIG = {
                 # merged (one line per market group per match, since e.g. over 0.5 and over 1.5 team goals are the
                 # same bet twice), and a match is used in one combo at most
                 "check": {"minProb": 0.65, "minOdds": [1.25, 1.65]},
-                "combo": {"legMinProb": 0.75, "legMinOdds": 1.12, "minJoint": 0.50, "maxLegs": 3},
-                "playerBuilder": {"goalMinProb": 0.75, "playerMinProb": 0.65, "minJoint": 0.45, "odds": [1.6, 3.5]}},
+                "combo": {"legMinProb": 0.75, "legMinOdds": 1.12, "minJoint": 0.50, "maxLegs": 3, "max": 3},
+                "playerBuilder": {"goalMinProb": 0.75, "playerMinProb": 0.65, "minJoint": 0.45, "odds": [1.6, 3.5]},
+                # 3.6: lines a bookmaker actually offers. Unpriced corners/cards lines far from the expected count (under
+                # 12.5 corners when 9.6 are expected) are near-certain on paper but rarely on offer: only lines within
+                # this distance of the model's expectation are used
+                "lineWindow": {"Corners": 2.0, "Team corners": 1.5, "Cards": 1.5}},
+    # 3.6: strong favourites list (owner): the most likely result/goal line per match, shown with its minimum price.
+    # A list, not a recommendation: such lines are usually priced fairly, so they rarely pass the value rules.
+    "favourites": {"minProb": 0.60, "maxProb": 0.92, "max": 15, "groups": ["Match result"]},
 }
 
 SPORT_KEY = {"football": "football", "ice hockey": "hockey", "hockey": "hockey",
@@ -709,6 +719,29 @@ def _calibrated(m, r):
     """Unpriced corners/cards lines only from the calibrated v2 model."""
     f = SET_PIECE.get(r["group"])
     return f is None or str((m.get("expected") or {}).get(f, "")).startswith("v2")
+_LINE = re.compile(r"(over|under) (\d+(?:\.\d+)?)$", re.I)
+
+
+def _near(m, r, cfg):
+    """3.6: an unpriced corners/cards line is used only when it lies within lineWindow of the expected count."""
+    win = ((cfg.get("hitrate") or {}).get("lineWindow") or {}).get(r["group"])
+    if win is None:
+        return True
+    mt = _LINE.search(r["selection"])
+    exp = m.get("expected") or {}
+    if not mt:
+        return True
+    line = float(mt.group(2))
+    if r["group"] == "Corners":
+        e = exp.get("corners")
+    elif r["group"] == "Cards":
+        e = exp.get("cards")
+    else:   # Team corners: "<team> over x"
+        g = m.get("grid") or {}
+        e = exp.get("corners_home") if r["selection"].startswith(str(g.get("home", "\0")) + " ") else exp.get("corners_away")
+    return not isinstance(e, (int, float)) or abs(line - e) <= win
+
+
 _rank = lambda r: 0 if FAMILY_GROUP.get(r["group"]) in ("goals", "hockey") else 1 if r["group"].startswith("Player") else 2
 GOAL_OVER = re.compile(r"(^Over )|( over )|(^Yes$)")
 
@@ -807,15 +840,15 @@ def extra_products(processed, cfg, rules, room, add, taken):
                     or (m["id"], _gkey(r)) in used_keys:
                 continue
             # unpriced corners/cards are not calibrated yet: they may be single checks, never legs of a combo
-            if not (r[rules]["post"] or (_checkable(r, rules) and r["group"] in COMBO_UNPRICED and _calibrated(m, r))):
+            if not (r[rules]["post"] or (_checkable(r, rules) and r["group"] in COMBO_UNPRICED and _calibrated(m, r) and _near(m, r, cfg))):
                 continue
             if best is None or (_rank(r), -r["prob"]) < (_rank(best), -best["prob"]):
                 best = r
         if best:
             cands.append((m, best))
     cands.sort(key=lambda x: (_rank(x[1]), -x[1]["prob"]))
-    used = set()
-    while True:
+    used, n_combo = set(), 0
+    while n_combo < cb.get("max", 99):
         legs, P = [], 1.0
         for m, r in cands:
             if m["id"] in used or not room(m["id"]) or len(legs) >= cb["maxLegs"]:
@@ -837,12 +870,13 @@ def extra_products(processed, cfg, rules, room, add, taken):
             continue
         if add(bet, [m["id"] for m, _ in legs]):
             used_keys |= {(m["id"], _gkey(r)) for m, r in legs}
+            n_combo += 1
     # check-at-BetMGM singles: the most likely unpriced line per match in a sensible price range
     for m in processed:
         if not room(m["id"]):
             continue
         lines = [r for r in m["markets"] if r["group"] in CHECK_FAMILIES and _checkable(r, rules) and ok_group(m, r)
-                 and _calibrated(m, r)
+                 and _calibrated(m, r) and _near(m, r, cfg)
                  and r["prob"] / 100 >= ck["minProb"] and ck["minOdds"][0] <= r["minOdds"] <= ck["minOdds"][1]
                  and (m["id"], r["key"]) not in taken]
         seen = {k for mid, k in used_keys if mid == m["id"]}      # not again what a combo/builder/single already holds
@@ -939,7 +973,7 @@ def build_products(processed, open_bets, cfg, rules):
         if not g or not room(m["id"]):
             continue
         pool = [r for r in m["markets"] if r["group"] in cfg["goalFamilies"] and r["gap"] is not None
-                and r["gap"] > 0 and r["status"] in ("active", "trial")
+                and r["gap"] > (hr.get("builderLegGap", 0) if hr is not None else 0) and r["status"] in ("active", "trial")
                 and not [w for w in r[rules]["why"] if w.startswith(("sport", "market", "starts", "model-market"))]]
         pool.sort(key=lambda r: -r["gap"])
         for i in range(len(pool)):
@@ -1000,7 +1034,37 @@ def run(payload, cfg=None):
             # what the other product profile would have posted with the active rules (recorded, never posted)
             "otherProfileProducts": build_products(processed, open_bets,
                                                    dict(cfg, profile="value" if cfg.get("profile") == "hitrate" else "hitrate"), active),
+            "favourites": favourites(processed, cfg, active),
             "summary": summarise(processed), "coverage": run_coverage(processed)}
+
+
+def favourites(processed, cfg, rules):
+    """3.6: the most likely result/goal line of each match (one per match), for the strong-favourites list.
+    Only lines with their data verified, active/trial, and not more than gapMax away from the market."""
+    fc = cfg.get("favourites") or {}
+    out = []
+    for m in processed:
+        best = None
+        for r in m["markets"]:
+            if r["group"] not in fc.get("groups", []) or r["prob"] / 100 < fc.get("minProb", 0.72):
+                continue
+            if r["status"] not in ("active", "trial") or [w for w in r[rules]["why"] if w.startswith(("data", "sport", "starts", "market"))]:
+                continue
+            if r.get("gap") is not None and abs(r["gap"]) / 100 > cfg["gapMax"]:
+                continue
+            if r["prob"] / 100 > fc.get("maxProb", 0.87):      # 1.07 shots such as over 0.5 goals are no use to anyone
+                continue
+            # prefer the plainest bet: a match result when one qualifies, otherwise the most likely line
+            score = (r["group"] != "Match result", -r["prob"])
+            if best is None or score < best[0]:
+                best = (score, r)
+        if best:
+            r = best[1]
+            out.append({"matchId": m["id"], "event": m["event"], "start": m["start"], "pick": _pick(r), "key": r["key"],
+                        "prob": r["prob"], "fair": round(100 / r["prob"], 2), "minOdds": r["minOdds"], "pMarket": r.get("pMarket"), "odds": r["odds"],
+                        "value": bool(r[rules]["post"])})
+    out.sort(key=lambda x: -x["prob"])
+    return out[:fc.get("max", 12)]
 
 
 def run_coverage(processed):
