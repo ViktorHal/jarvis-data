@@ -793,8 +793,8 @@
     "cards": 4.48,
     "cardsModel": "v2",
     "corners": 10.9,
-    "corners_away": 5.31,
-    "corners_home": 5.4,
+    "corners_away": 5.32,
+    "corners_home": 5.39,
     "home_goals": 1.62,
     "setPieceModel": "v2"
    },
@@ -833,35 +833,22 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_6_5",
-     "minOdds": 1.29,
+     "minOdds": 1.28,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 81.5,
+     "prob": 81.6,
      "selection": "Under 6.5",
      "status": "trial"
     },
     {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Dynamo_Dresden_over_2_5",
-     "minOdds": 1.3,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 80.4,
-     "selection": "Dynamo Dresden over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": 0.5,
-     "gap": 4.2,
+     "ev": 0.7,
+     "gap": 4.3,
      "group": "Team goals",
      "key": "Team_goals_Dynamo_Dresden_over_0_5",
      "minOdds": 1.31,
-     "odds": 1.2513,
-     "pMarket": 76.1,
+     "odds": 1.2538,
+     "pMarket": 76.0,
      "post": false,
      "prob": 80.3,
      "selection": "Dynamo Dresden over 0.5",
@@ -871,12 +858,25 @@
      "ev": null,
      "gap": null,
      "group": "Team corners",
-     "key": "Team_corners_St_Pauli_over_2_5",
-     "minOdds": 1.32,
+     "key": "Team_corners_Dynamo_Dresden_over_2_5",
+     "minOdds": 1.31,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.8,
+     "prob": 80.3,
+     "selection": "Dynamo Dresden over 2.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_St_Pauli_over_2_5",
+     "minOdds": 1.31,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 79.9,
      "selection": "St. Pauli over 2.5",
      "status": "trial"
     },
@@ -889,7 +889,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.5,
+     "prob": 79.4,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -908,12 +908,12 @@
     },
     {
      "ev": null,
-     "gap": 14.7,
+     "gap": 15.1,
      "group": "Double chance",
      "key": "Double_chance_Dynamo_Dresden_or_draw",
      "minOdds": 1.38,
      "odds": null,
-     "pMarket": 61.8,
+     "pMarket": 61.4,
      "post": false,
      "prob": 76.5,
      "selection": "Dynamo Dresden or draw",
@@ -967,7 +967,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 69.8,
+     "prob": 69.9,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -980,7 +980,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 69.0,
+     "prob": 68.8,
      "selection": "Dynamo Dresden over 3.5",
      "status": "trial"
     },
@@ -999,29 +999,29 @@
     },
     {
      "ev": null,
-     "gap": 20.5,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_St_Pauli_over_3_5",
+     "minOdds": 1.55,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 68.3,
+     "selection": "St. Pauli over 3.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": 21.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Dynamo_Dresden",
      "minOdds": 1.56,
      "odds": null,
-     "pMarket": 47.7,
+     "pMarket": 47.2,
      "post": false,
      "prob": 68.2,
      "selection": "Dynamo Dresden",
      "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_St_Pauli_over_3_5",
-     "minOdds": 1.56,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 68.1,
-     "selection": "St. Pauli over 3.5",
-     "status": "trial"
     },
     {
      "ev": null,
@@ -1037,13 +1037,13 @@
      "status": "trial"
     },
     {
-     "ev": -20.9,
-     "gap": -13.2,
+     "ev": -21.0,
+     "gap": -13.3,
      "group": "Team goals",
      "key": "Team_goals_St_Pauli_over_0_5",
      "minOdds": 1.65,
-     "odds": 1.2262,
-     "pMarket": 77.7,
+     "odds": 1.2247,
+     "pMarket": 77.8,
      "post": false,
      "prob": 64.5,
      "selection": "St. Pauli over 0.5",
@@ -1054,11 +1054,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Over_3_5",
-     "minOdds": 1.69,
+     "minOdds": 1.7,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 63.0,
+     "prob": 62.8,
      "selection": "Over 3.5",
      "status": "trial"
     },
@@ -1076,13 +1076,13 @@
      "status": "active"
     },
     {
-     "ev": 10.1,
-     "gap": 6.5,
+     "ev": 11.1,
+     "gap": 6.9,
      "group": "Team goals",
      "key": "Team_goals_Dynamo_Dresden_over_1_5",
      "minOdds": 2.27,
-     "odds": 2.28,
-     "pMarket": 41.8,
+     "odds": 2.3,
+     "pMarket": 41.4,
      "post": true,
      "prob": 48.3,
      "selection": "Dynamo Dresden over 1.5",
@@ -2194,13 +2194,13 @@
      "status": "active"
     },
     {
-     "ev": -0.9,
-     "gap": 3.2,
+     "ev": -1.7,
+     "gap": 2.7,
      "group": "Corners",
      "key": "Corners_Under_11_5",
      "minOdds": 1.7,
-     "odds": 1.578,
-     "pMarket": 59.6,
+     "odds": 1.565,
+     "pMarket": 60.1,
      "post": false,
      "prob": 62.8,
      "selection": "Under 11.5",
@@ -4724,352 +4724,6 @@
    ],
    "sport": "football",
    "start": "2026-11-28T17:15:00Z"
-  },
-  {
-   "coverage": 78,
-   "event": "Leeds United – Coventry City",
-   "expected": {
-    "away_goals": 0.9,
-    "cards": 3.58,
-    "cardsModel": "v2",
-    "corners": 9.9,
-    "corners_away": 3.49,
-    "corners_home": 6.7,
-    "home_goals": 1.67,
-    "setPieceModel": "v2"
-   },
-   "goalModel": "stats",
-   "id": "2026-11-28-leeds-united-coventry-city",
-   "league": "England - Premier League",
-   "lines": [
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Over_0_5",
-     "minOdds": 1.14,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 91.6,
-     "selection": "Over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_6_5",
-     "minOdds": 1.14,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 91.2,
-     "selection": "Under 6.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Under_4_5",
-     "minOdds": 1.18,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 88.2,
-     "selection": "Under 4.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Leeds_United_over_2_5",
-     "minOdds": 1.21,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 86.6,
-     "selection": "Leeds United over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_5_5",
-     "minOdds": 1.26,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 83.1,
-     "selection": "Under 5.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Dominic_Calvert_Lewin_1_",
-     "minOdds": 1.27,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 82.7,
-     "selection": "Dominic Calvert-Lewin 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team goals",
-     "key": "Team_goals_Leeds_United_over_0_5",
-     "minOdds": 1.29,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 81.2,
-     "selection": "Leeds United over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": -4.8,
-     "group": "Double chance",
-     "key": "Double_chance_Leeds_United_or_draw",
-     "minOdds": 1.3,
-     "odds": null,
-     "pMarket": 85.4,
-     "post": false,
-     "prob": 80.6,
-     "selection": "Leeds United or draw",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Brandon_Thomas_Asante_1_",
-     "minOdds": 1.33,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 79.1,
-     "selection": "Brandon Thomas-Asante 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Leeds_United_over_3_5",
-     "minOdds": 1.33,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 78.8,
-     "selection": "Leeds United over 3.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Under_12_5",
-     "minOdds": 1.39,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 75.9,
-     "selection": "Under 12.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Taiwo_Awoniyi_1_",
-     "minOdds": 1.4,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 75.2,
-     "selection": "Taiwo Awoniyi 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Noah_Okafor_1_",
-     "minOdds": 1.42,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 74.5,
-     "selection": "Noah Okafor 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": -4.8,
-     "group": "Double chance",
-     "key": "Double_chance_Leeds_United_or_Coventry_City",
-     "minOdds": 1.42,
-     "odds": null,
-     "pMarket": 79.2,
-     "post": false,
-     "prob": 74.4,
-     "selection": "Leeds United or Coventry City",
-     "status": "active"
-    },
-    {
-     "ev": 7.8,
-     "gap": 8.0,
-     "group": "Total goals",
-     "key": "Total_goals_Under_3_5",
-     "minOdds": 1.42,
-     "odds": 1.4505,
-     "pMarket": 66.3,
-     "post": false,
-     "prob": 74.3,
-     "selection": "Under 3.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": -7.5,
-     "group": "Draw no bet",
-     "key": "Draw_no_bet_Leeds_United",
-     "minOdds": 1.43,
-     "odds": null,
-     "pMarket": 81.5,
-     "post": false,
-     "prob": 74.0,
-     "selection": "Leeds United",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Jack_Rudoni_1_",
-     "minOdds": 1.43,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 73.9,
-     "selection": "Jack Rudoni 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Over_1_5",
-     "minOdds": 1.44,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 73.3,
-     "selection": "Over 1.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Ao_Tanaka_1_",
-     "minOdds": 1.49,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 70.9,
-     "selection": "Ao Tanaka 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_4_5",
-     "minOdds": 1.5,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 70.4,
-     "selection": "Under 4.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Over_7_5",
-     "minOdds": 1.51,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 70.1,
-     "selection": "Over 7.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Leeds_United_over_4_5",
-     "minOdds": 1.54,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 68.9,
-     "selection": "Leeds United over 4.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Under_11_5",
-     "minOdds": 1.55,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 68.4,
-     "selection": "Under 11.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Over_2_5",
-     "minOdds": 1.58,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 67.1,
-     "selection": "Over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots on target",
-     "key": "Player_shots_on_target_Dominic_Calvert_Lewin_1_",
-     "minOdds": 1.65,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 64.5,
-     "selection": "Dominic Calvert-Lewin 1+",
-     "status": "trial"
-    }
-   ],
-   "sport": "football",
-   "start": "2026-11-28T15:00:00Z"
   },
   {
    "coverage": 78,
@@ -9638,352 +9292,6 @@
   },
   {
    "coverage": 78,
-   "event": "FC Koln – Elversberg",
-   "expected": {
-    "away_goals": 1.32,
-    "cards": 3.85,
-    "cardsModel": "v2",
-    "corners": 10.6,
-    "corners_away": 4.36,
-    "corners_home": 6.44,
-    "home_goals": 1.82,
-    "setPieceModel": "v2"
-   },
-   "goalModel": "stats",
-   "id": "2026-11-28-fc-koln-elversberg",
-   "league": "Germany - Bundesliga",
-   "lines": [
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Over_0_5",
-     "minOdds": 1.09,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 95.0,
-     "selection": "Over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Sa_d_El_Mala_1_",
-     "minOdds": 1.15,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 90.7,
-     "selection": "Saïd El Mala 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_6_5",
-     "minOdds": 1.18,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 88.7,
-     "selection": "Under 6.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_FC_Koln_over_2_5",
-     "minOdds": 1.22,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 85.6,
-     "selection": "FC Koln over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team goals",
-     "key": "Team_goals_FC_Koln_over_0_5",
-     "minOdds": 1.25,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 83.8,
-     "selection": "FC Koln over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Over_1_5",
-     "minOdds": 1.27,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 82.6,
-     "selection": "Over 1.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Mikey_Moore_1_",
-     "minOdds": 1.3,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 80.6,
-     "selection": "Mikey Moore 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_5_5",
-     "minOdds": 1.32,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 79.4,
-     "selection": "Under 5.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Under_4_5",
-     "minOdds": 1.33,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 79.2,
-     "selection": "Under 4.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Maurice_Krattenmacher_1_",
-     "minOdds": 1.34,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 78.6,
-     "selection": "Maurice Krattenmacher 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_FC_Koln_over_3_5",
-     "minOdds": 1.36,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 77.1,
-     "selection": "FC Koln over 3.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": 0.5,
-     "group": "Double chance",
-     "key": "Double_chance_FC_Koln_or_Elversberg",
-     "minOdds": 1.39,
-     "odds": null,
-     "pMarket": 75.3,
-     "post": false,
-     "prob": 75.8,
-     "selection": "FC Koln or Elversberg",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Lukas_Petkov_1_",
-     "minOdds": 1.4,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 75.5,
-     "selection": "Lukas Petkov 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Sa_d_El_Mala_2_",
-     "minOdds": 1.4,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 75.4,
-     "selection": "Saïd El Mala 2+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Over_7_5",
-     "minOdds": 1.4,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 75.3,
-     "selection": "Over 7.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Marius_B_lter_1_",
-     "minOdds": 1.44,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 73.3,
-     "selection": "Marius Bülter 1+",
-     "status": "trial"
-    },
-    {
-     "ev": -5.1,
-     "gap": -0.3,
-     "group": "Team goals",
-     "key": "Team_goals_Elversberg_over_0_5",
-     "minOdds": 1.44,
-     "odds": 1.2959,
-     "pMarket": 73.5,
-     "post": false,
-     "prob": 73.2,
-     "selection": "Elversberg over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": 0.1,
-     "group": "Double chance",
-     "key": "Double_chance_FC_Koln_or_draw",
-     "minOdds": 1.45,
-     "odds": null,
-     "pMarket": 72.7,
-     "post": false,
-     "prob": 72.8,
-     "selection": "FC Koln or draw",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Elversberg_over_2_5",
-     "minOdds": 1.47,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 71.9,
-     "selection": "Elversberg over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Over_2_5",
-     "minOdds": 1.48,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 71.3,
-     "selection": "Over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Under_12_5",
-     "minOdds": 1.51,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 70.1,
-     "selection": "Under 12.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_FC_Koln_over_4_5",
-     "minOdds": 1.59,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 66.7,
-     "selection": "FC Koln over 4.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Over_8_5",
-     "minOdds": 1.61,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 66.1,
-     "selection": "Over 8.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_4_5",
-     "minOdds": 1.62,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 65.7,
-     "selection": "Under 4.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": 0.5,
-     "group": "Draw no bet",
-     "key": "Draw_no_bet_FC_Koln",
-     "minOdds": 1.66,
-     "odds": null,
-     "pMarket": 63.7,
-     "post": false,
-     "prob": 64.2,
-     "selection": "FC Koln",
-     "status": "active"
-    }
-   ],
-   "sport": "football",
-   "start": "2026-11-28T14:30:00Z"
-  },
-  {
-   "coverage": 78,
    "event": "Stuttgart – Eintracht Frankfurt",
    "expected": {
     "away_goals": 1.62,
@@ -10673,352 +9981,6 @@
    ],
    "sport": "football",
    "start": "2026-11-27T19:30:00Z"
-  },
-  {
-   "coverage": 78,
-   "event": "Paderborn – Schalke 04",
-   "expected": {
-    "away_goals": 1.4,
-    "cards": 3.61,
-    "cardsModel": "v2",
-    "corners": 10.4,
-    "corners_away": 4.47,
-    "corners_home": 5.88,
-    "home_goals": 1.76,
-    "setPieceModel": "v2"
-   },
-   "goalModel": "stats",
-   "id": "2026-11-28-paderborn-schalke-04",
-   "league": "Germany - Bundesliga",
-   "lines": [
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Over_0_5",
-     "minOdds": 1.09,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 95.1,
-     "selection": "Over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_6_5",
-     "minOdds": 1.14,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 91.0,
-     "selection": "Under 6.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Adil_Aouchiche_1_",
-     "minOdds": 1.18,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 88.3,
-     "selection": "Adil Aouchiche 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Paderborn_over_2_5",
-     "minOdds": 1.26,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 83.1,
-     "selection": "Paderborn over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Over_1_5",
-     "minOdds": 1.26,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 82.9,
-     "selection": "Over 1.5",
-     "status": "active"
-    },
-    {
-     "ev": 2.6,
-     "gap": 5.9,
-     "group": "Team goals",
-     "key": "Team_goals_Paderborn_over_0_5",
-     "minOdds": 1.26,
-     "odds": 1.2392,
-     "pMarket": 76.9,
-     "post": false,
-     "prob": 82.8,
-     "selection": "Paderborn over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_5_5",
-     "minOdds": 1.26,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 82.8,
-     "selection": "Under 5.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Kenan_Karaman_1_",
-     "minOdds": 1.29,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 81.3,
-     "selection": "Kenan Karaman 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Under_4_5",
-     "minOdds": 1.33,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 78.8,
-     "selection": "Under 4.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Stefano_Marino_1_",
-     "minOdds": 1.35,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 77.9,
-     "selection": "Stefano Marino 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Chukwubuike_Adamu_1_",
-     "minOdds": 1.35,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 77.7,
-     "selection": "Chukwubuike Adamu 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": 3.2,
-     "group": "Double chance",
-     "key": "Double_chance_Paderborn_or_Schalke_04",
-     "minOdds": 1.4,
-     "odds": null,
-     "pMarket": 72.3,
-     "post": false,
-     "prob": 75.5,
-     "selection": "Paderborn or Schalke 04",
-     "status": "active"
-    },
-    {
-     "ev": -3.8,
-     "gap": 0.8,
-     "group": "Team goals",
-     "key": "Team_goals_Schalke_04_over_0_5",
-     "minOdds": 1.4,
-     "odds": 1.2778,
-     "pMarket": 74.5,
-     "post": false,
-     "prob": 75.3,
-     "selection": "Schalke 04 over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Over_7_5",
-     "minOdds": 1.43,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 73.7,
-     "selection": "Over 7.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Marvin_Pieringer_1_",
-     "minOdds": 1.44,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 73.5,
-     "selection": "Marvin Pieringer 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Paderborn_over_3_5",
-     "minOdds": 1.44,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 73.1,
-     "selection": "Paderborn over 3.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Schalke_04_over_2_5",
-     "minOdds": 1.44,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 73.1,
-     "selection": "Schalke 04 over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Under_12_5",
-     "minOdds": 1.47,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 72.0,
-     "selection": "Under 12.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Laurin_Ulrich_1_",
-     "minOdds": 1.49,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 71.2,
-     "selection": "Laurin Ulrich 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Adil_Aouchiche_2_",
-     "minOdds": 1.51,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 70.3,
-     "selection": "Adil Aouchiche 2+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": 4.0,
-     "group": "Double chance",
-     "key": "Double_chance_Paderborn_or_draw",
-     "minOdds": 1.51,
-     "odds": null,
-     "pMarket": 66.0,
-     "post": false,
-     "prob": 70.0,
-     "selection": "Paderborn or draw",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_4_5",
-     "minOdds": 1.52,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 69.9,
-     "selection": "Under 4.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Over_2_5",
-     "minOdds": 1.57,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 67.5,
-     "selection": "Over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": -1.1,
-     "gap": 3.3,
-     "group": "Corners",
-     "key": "Corners_Over_8_5",
-     "minOdds": 1.66,
-     "odds": 1.5376,
-     "pMarket": 61.0,
-     "post": false,
-     "prob": 64.3,
-     "selection": "Over 8.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Under_11_5",
-     "minOdds": 1.66,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 64.1,
-     "selection": "Under 11.5",
-     "status": "trial"
-    }
-   ],
-   "sport": "football",
-   "start": "2026-11-28T14:30:00Z"
   },
   {
    "coverage": 78,
@@ -14679,352 +13641,6 @@
   },
   {
    "coverage": 78,
-   "event": "Levante – Racing Santander",
-   "expected": {
-    "away_goals": 1.41,
-    "cards": 4.54,
-    "cardsModel": "v2",
-    "corners": 10.0,
-    "corners_away": 3.96,
-    "corners_home": 6.2,
-    "home_goals": 2.2,
-    "setPieceModel": "v2"
-   },
-   "goalModel": "stats",
-   "id": "2026-11-27-levante-racing-santander",
-   "league": "Spain - La Liga",
-   "lines": [
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Over_0_5",
-     "minOdds": 1.07,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 96.8,
-     "selection": "Over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Yassir_Zabiri_1_",
-     "minOdds": 1.16,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 89.5,
-     "selection": "Yassir Zabiri 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team goals",
-     "key": "Team_goals_Levante_over_0_5",
-     "minOdds": 1.17,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 88.9,
-     "selection": "Levante over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Over_1_5",
-     "minOdds": 1.19,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 88.0,
-     "selection": "Over 1.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Roger_Brugu_1_",
-     "minOdds": 1.2,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 86.8,
-     "selection": "Roger Brugué 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Adri_n_De_La_Fuente_1_",
-     "minOdds": 1.22,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 85.5,
-     "selection": "Adrián De La Fuente 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Sergio_Canales_1_",
-     "minOdds": 1.22,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 85.5,
-     "selection": "Sergio Canales 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Levante_over_2_5",
-     "minOdds": 1.24,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 84.6,
-     "selection": "Levante over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Iv_n_Romero_1_",
-     "minOdds": 1.26,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 82.9,
-     "selection": "Iván Romero 1+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_6_5",
-     "minOdds": 1.3,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 80.8,
-     "selection": "Under 6.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Over_2_5",
-     "minOdds": 1.31,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 80.1,
-     "selection": "Over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": 2.3,
-     "group": "Double chance",
-     "key": "Double_chance_Levante_or_Racing_Santander",
-     "minOdds": 1.33,
-     "odds": null,
-     "pMarket": 76.4,
-     "post": false,
-     "prob": 78.7,
-     "selection": "Levante or Racing Santander",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": 4.9,
-     "group": "Double chance",
-     "key": "Double_chance_Levante_or_draw",
-     "minOdds": 1.38,
-     "odds": null,
-     "pMarket": 71.4,
-     "post": false,
-     "prob": 76.3,
-     "selection": "Levante or draw",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots on target",
-     "key": "Player_shots_on_target_Yassir_Zabiri_1_",
-     "minOdds": 1.39,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 76.0,
-     "selection": "Yassir Zabiri 1+",
-     "status": "trial"
-    },
-    {
-     "ev": -8.4,
-     "gap": -3.0,
-     "group": "Team goals",
-     "key": "Team_goals_Racing_Santander_over_0_5",
-     "minOdds": 1.39,
-     "odds": 1.2123,
-     "pMarket": 78.6,
-     "post": false,
-     "prob": 75.6,
-     "selection": "Racing Santander over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Levante_over_3_5",
-     "minOdds": 1.4,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 75.5,
-     "selection": "Levante over 3.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Under_12_5",
-     "minOdds": 1.4,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 75.2,
-     "selection": "Under 12.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Yassir_Zabiri_2_",
-     "minOdds": 1.45,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 72.8,
-     "selection": "Yassir Zabiri 2+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Over_7_5",
-     "minOdds": 1.49,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 70.8,
-     "selection": "Over 7.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Total goals",
-     "key": "Total_goals_Under_4_5",
-     "minOdds": 1.5,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 70.4,
-     "selection": "Under 4.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": 7.4,
-     "group": "Draw no bet",
-     "key": "Draw_no_bet_Levante",
-     "minOdds": 1.52,
-     "odds": null,
-     "pMarket": 62.5,
-     "post": false,
-     "prob": 69.9,
-     "selection": "Levante",
-     "status": "active"
-    },
-    {
-     "ev": -2.6,
-     "gap": 1.4,
-     "group": "Total goals",
-     "key": "Total_goals_Over_2_5",
-     "minOdds": 1.52,
-     "odds": 1.3937,
-     "pMarket": 68.5,
-     "post": false,
-     "prob": 69.9,
-     "selection": "Over 2.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_5_5",
-     "minOdds": 1.54,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 68.9,
-     "selection": "Under 5.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Both teams to score",
-     "key": "Both_teams_to_score_Yes",
-     "minOdds": 1.57,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 67.7,
-     "selection": "Yes",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Under_11_5",
-     "minOdds": 1.57,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 67.6,
-     "selection": "Under 11.5",
-     "status": "trial"
-    }
-   ],
-   "sport": "football",
-   "start": "2026-11-27T20:00:00Z"
-  },
-  {
-   "coverage": 78,
    "event": "Academico de Viseu – Alverca",
    "expected": {
     "away_goals": 1.31,
@@ -15420,26 +14036,26 @@
      "status": "trial"
     },
     {
-     "ev": -2.9,
-     "gap": 1.5,
+     "ev": -2.5,
+     "gap": 1.4,
      "group": "Total goals",
      "key": "Total_goals_Under_3_5",
      "minOdds": 1.38,
-     "odds": 1.2732,
-     "pMarket": 74.8,
+     "odds": 1.2778,
+     "pMarket": 74.9,
      "post": false,
      "prob": 76.3,
      "selection": "Under 3.5",
      "status": "active"
     },
     {
-     "ev": -5.5,
-     "gap": -0.6,
+     "ev": -5.2,
+     "gap": -0.3,
      "group": "Team goals",
      "key": "Team_goals_Maritimo_over_0_5",
      "minOdds": 1.38,
-     "odds": 1.2404,
-     "pMarket": 76.8,
+     "odds": 1.2445,
+     "pMarket": 76.5,
      "post": false,
      "prob": 76.2,
      "selection": "Maritimo over 0.5",
@@ -15447,12 +14063,12 @@
     },
     {
      "ev": null,
-     "gap": -0.1,
+     "gap": -0.2,
      "group": "Double chance",
      "key": "Double_chance_Maritimo_or_draw",
      "minOdds": 1.44,
      "odds": null,
-     "pMarket": 73.6,
+     "pMarket": 73.7,
      "post": false,
      "prob": 73.5,
      "selection": "Maritimo or draw",
@@ -15472,13 +14088,13 @@
      "status": "active"
     },
     {
-     "ev": -3.5,
-     "gap": 0.9,
+     "ev": -3.2,
+     "gap": 0.8,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.48,
-     "odds": 1.3497,
-     "pMarket": 70.6,
+     "odds": 1.3534,
+     "pMarket": 70.7,
      "post": false,
      "prob": 71.5,
      "selection": "Over 1.5",
@@ -15525,12 +14141,12 @@
     },
     {
      "ev": null,
-     "gap": -0.1,
+     "gap": -0.2,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Maritimo",
      "minOdds": 1.69,
      "odds": null,
-     "pMarket": 63.2,
+     "pMarket": 63.3,
      "post": false,
      "prob": 63.1,
      "selection": "Maritimo",
@@ -17645,13 +16261,13 @@
      "status": "trial"
     },
     {
-     "ev": 2.7,
-     "gap": 6.1,
+     "ev": 3.0,
+     "gap": 6.0,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.25,
-     "odds": 1.2227,
-     "pMarket": 77.9,
+     "odds": 1.2257,
+     "pMarket": 78.0,
      "post": false,
      "prob": 84.0,
      "selection": "Under 4.5",
@@ -17684,13 +16300,13 @@
      "status": "trial"
     },
     {
-     "ev": -7.2,
-     "gap": -2.1,
+     "ev": -7.0,
+     "gap": -2.3,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.34,
-     "odds": 1.1835,
-     "pMarket": 80.5,
+     "odds": 1.1866,
+     "pMarket": 80.7,
      "post": false,
      "prob": 78.4,
      "selection": "Over 1.5",
@@ -17762,13 +16378,13 @@
      "status": "trial"
     },
     {
-     "ev": -7.6,
-     "gap": -2.3,
+     "ev": -7.3,
+     "gap": -2.0,
      "group": "Team goals",
      "key": "Team_goals_Southampton_over_0_5",
      "minOdds": 1.42,
-     "odds": 1.2404,
-     "pMarket": 76.8,
+     "odds": 1.2445,
+     "pMarket": 76.5,
      "post": false,
      "prob": 74.5,
      "selection": "Southampton over 0.5",
@@ -17874,17 +16490,17 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 69.3,
+     "prob": 69.2,
      "selection": "Southampton over 3.5",
      "status": "trial"
     },
     {
-     "ev": 5.3,
+     "ev": 5.7,
      "gap": 6.2,
      "group": "Total goals",
      "key": "Total_goals_Under_3_5",
      "minOdds": 1.56,
-     "odds": 1.5464,
+     "odds": 1.5525,
      "pMarket": 61.9,
      "post": false,
      "prob": 68.1,
@@ -22303,6 +20919,1390 @@
    "start": "2026-11-27T19:45:00Z"
   },
   {
+   "coverage": 78,
+   "event": "Leeds United – Coventry City",
+   "expected": {
+    "away_goals": 0.9,
+    "cards": 3.58,
+    "cardsModel": "v2",
+    "corners": 9.9,
+    "corners_away": 3.49,
+    "corners_home": 6.7,
+    "home_goals": 1.67,
+    "setPieceModel": "v2"
+   },
+   "goalModel": "stats",
+   "id": "2026-11-28-leeds-united-coventry-city",
+   "league": "England - Premier League",
+   "lines": [
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Over_0_5",
+     "minOdds": 1.14,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 91.6,
+     "selection": "Over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_6_5",
+     "minOdds": 1.14,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 91.2,
+     "selection": "Under 6.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Under_4_5",
+     "minOdds": 1.18,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 88.2,
+     "selection": "Under 4.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Leeds_United_over_2_5",
+     "minOdds": 1.21,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 86.6,
+     "selection": "Leeds United over 2.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_5_5",
+     "minOdds": 1.26,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 83.1,
+     "selection": "Under 5.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Dominic_Calvert_Lewin_1_",
+     "minOdds": 1.27,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 82.7,
+     "selection": "Dominic Calvert-Lewin 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team goals",
+     "key": "Team_goals_Leeds_United_over_0_5",
+     "minOdds": 1.29,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 81.2,
+     "selection": "Leeds United over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": -4.8,
+     "group": "Double chance",
+     "key": "Double_chance_Leeds_United_or_draw",
+     "minOdds": 1.3,
+     "odds": null,
+     "pMarket": 85.4,
+     "post": false,
+     "prob": 80.6,
+     "selection": "Leeds United or draw",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Brandon_Thomas_Asante_1_",
+     "minOdds": 1.33,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 79.1,
+     "selection": "Brandon Thomas-Asante 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Leeds_United_over_3_5",
+     "minOdds": 1.33,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 78.8,
+     "selection": "Leeds United over 3.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Under_12_5",
+     "minOdds": 1.39,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 75.9,
+     "selection": "Under 12.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Taiwo_Awoniyi_1_",
+     "minOdds": 1.4,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 75.2,
+     "selection": "Taiwo Awoniyi 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Noah_Okafor_1_",
+     "minOdds": 1.42,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 74.5,
+     "selection": "Noah Okafor 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": -4.8,
+     "group": "Double chance",
+     "key": "Double_chance_Leeds_United_or_Coventry_City",
+     "minOdds": 1.42,
+     "odds": null,
+     "pMarket": 79.2,
+     "post": false,
+     "prob": 74.4,
+     "selection": "Leeds United or Coventry City",
+     "status": "active"
+    },
+    {
+     "ev": 7.8,
+     "gap": 8.0,
+     "group": "Total goals",
+     "key": "Total_goals_Under_3_5",
+     "minOdds": 1.42,
+     "odds": 1.4505,
+     "pMarket": 66.3,
+     "post": false,
+     "prob": 74.3,
+     "selection": "Under 3.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": -7.5,
+     "group": "Draw no bet",
+     "key": "Draw_no_bet_Leeds_United",
+     "minOdds": 1.43,
+     "odds": null,
+     "pMarket": 81.5,
+     "post": false,
+     "prob": 74.0,
+     "selection": "Leeds United",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Jack_Rudoni_1_",
+     "minOdds": 1.43,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 73.9,
+     "selection": "Jack Rudoni 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Over_1_5",
+     "minOdds": 1.44,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 73.3,
+     "selection": "Over 1.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Ao_Tanaka_1_",
+     "minOdds": 1.49,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 70.9,
+     "selection": "Ao Tanaka 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_4_5",
+     "minOdds": 1.5,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 70.4,
+     "selection": "Under 4.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Over_7_5",
+     "minOdds": 1.51,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 70.1,
+     "selection": "Over 7.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Leeds_United_over_4_5",
+     "minOdds": 1.54,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 68.9,
+     "selection": "Leeds United over 4.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Under_11_5",
+     "minOdds": 1.55,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 68.4,
+     "selection": "Under 11.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Over_2_5",
+     "minOdds": 1.58,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 67.1,
+     "selection": "Over 2.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots on target",
+     "key": "Player_shots_on_target_Dominic_Calvert_Lewin_1_",
+     "minOdds": 1.65,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 64.5,
+     "selection": "Dominic Calvert-Lewin 1+",
+     "status": "trial"
+    }
+   ],
+   "sport": "football",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  {
+   "coverage": 78,
+   "event": "FC Koln – Elversberg",
+   "expected": {
+    "away_goals": 1.32,
+    "cards": 3.85,
+    "cardsModel": "v2",
+    "corners": 10.6,
+    "corners_away": 4.36,
+    "corners_home": 6.44,
+    "home_goals": 1.82,
+    "setPieceModel": "v2"
+   },
+   "goalModel": "stats",
+   "id": "2026-11-28-fc-koln-elversberg",
+   "league": "Germany - Bundesliga",
+   "lines": [
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Over_0_5",
+     "minOdds": 1.09,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 95.0,
+     "selection": "Over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Sa_d_El_Mala_1_",
+     "minOdds": 1.15,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 90.7,
+     "selection": "Saïd El Mala 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_6_5",
+     "minOdds": 1.18,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 88.7,
+     "selection": "Under 6.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_FC_Koln_over_2_5",
+     "minOdds": 1.22,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 85.6,
+     "selection": "FC Koln over 2.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team goals",
+     "key": "Team_goals_FC_Koln_over_0_5",
+     "minOdds": 1.25,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 83.8,
+     "selection": "FC Koln over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Over_1_5",
+     "minOdds": 1.27,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 82.6,
+     "selection": "Over 1.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Mikey_Moore_1_",
+     "minOdds": 1.3,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 80.6,
+     "selection": "Mikey Moore 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_5_5",
+     "minOdds": 1.32,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 79.4,
+     "selection": "Under 5.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Under_4_5",
+     "minOdds": 1.33,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 79.2,
+     "selection": "Under 4.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Maurice_Krattenmacher_1_",
+     "minOdds": 1.34,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 78.6,
+     "selection": "Maurice Krattenmacher 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_FC_Koln_over_3_5",
+     "minOdds": 1.36,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 77.1,
+     "selection": "FC Koln over 3.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": 0.5,
+     "group": "Double chance",
+     "key": "Double_chance_FC_Koln_or_Elversberg",
+     "minOdds": 1.39,
+     "odds": null,
+     "pMarket": 75.3,
+     "post": false,
+     "prob": 75.8,
+     "selection": "FC Koln or Elversberg",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Lukas_Petkov_1_",
+     "minOdds": 1.4,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 75.5,
+     "selection": "Lukas Petkov 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Sa_d_El_Mala_2_",
+     "minOdds": 1.4,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 75.4,
+     "selection": "Saïd El Mala 2+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Over_7_5",
+     "minOdds": 1.4,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 75.3,
+     "selection": "Over 7.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Marius_B_lter_1_",
+     "minOdds": 1.44,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 73.3,
+     "selection": "Marius Bülter 1+",
+     "status": "trial"
+    },
+    {
+     "ev": -5.1,
+     "gap": -0.3,
+     "group": "Team goals",
+     "key": "Team_goals_Elversberg_over_0_5",
+     "minOdds": 1.44,
+     "odds": 1.2959,
+     "pMarket": 73.5,
+     "post": false,
+     "prob": 73.2,
+     "selection": "Elversberg over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": 0.1,
+     "group": "Double chance",
+     "key": "Double_chance_FC_Koln_or_draw",
+     "minOdds": 1.45,
+     "odds": null,
+     "pMarket": 72.7,
+     "post": false,
+     "prob": 72.8,
+     "selection": "FC Koln or draw",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Elversberg_over_2_5",
+     "minOdds": 1.47,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 71.9,
+     "selection": "Elversberg over 2.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Over_2_5",
+     "minOdds": 1.48,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 71.3,
+     "selection": "Over 2.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Under_12_5",
+     "minOdds": 1.51,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 70.1,
+     "selection": "Under 12.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_FC_Koln_over_4_5",
+     "minOdds": 1.59,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 66.7,
+     "selection": "FC Koln over 4.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Over_8_5",
+     "minOdds": 1.61,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 66.1,
+     "selection": "Over 8.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_4_5",
+     "minOdds": 1.62,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 65.7,
+     "selection": "Under 4.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": 0.5,
+     "group": "Draw no bet",
+     "key": "Draw_no_bet_FC_Koln",
+     "minOdds": 1.66,
+     "odds": null,
+     "pMarket": 63.7,
+     "post": false,
+     "prob": 64.2,
+     "selection": "FC Koln",
+     "status": "active"
+    }
+   ],
+   "sport": "football",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  {
+   "coverage": 78,
+   "event": "Paderborn – Schalke 04",
+   "expected": {
+    "away_goals": 1.4,
+    "cards": 3.61,
+    "cardsModel": "v2",
+    "corners": 10.4,
+    "corners_away": 4.47,
+    "corners_home": 5.88,
+    "home_goals": 1.76,
+    "setPieceModel": "v2"
+   },
+   "goalModel": "stats",
+   "id": "2026-11-28-paderborn-schalke-04",
+   "league": "Germany - Bundesliga",
+   "lines": [
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Over_0_5",
+     "minOdds": 1.09,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 95.1,
+     "selection": "Over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_6_5",
+     "minOdds": 1.14,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 91.0,
+     "selection": "Under 6.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Adil_Aouchiche_1_",
+     "minOdds": 1.18,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 88.3,
+     "selection": "Adil Aouchiche 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Paderborn_over_2_5",
+     "minOdds": 1.26,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 83.1,
+     "selection": "Paderborn over 2.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Over_1_5",
+     "minOdds": 1.26,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 82.9,
+     "selection": "Over 1.5",
+     "status": "active"
+    },
+    {
+     "ev": 2.6,
+     "gap": 5.9,
+     "group": "Team goals",
+     "key": "Team_goals_Paderborn_over_0_5",
+     "minOdds": 1.26,
+     "odds": 1.2392,
+     "pMarket": 76.9,
+     "post": false,
+     "prob": 82.8,
+     "selection": "Paderborn over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_5_5",
+     "minOdds": 1.26,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 82.8,
+     "selection": "Under 5.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Kenan_Karaman_1_",
+     "minOdds": 1.29,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 81.3,
+     "selection": "Kenan Karaman 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Under_4_5",
+     "minOdds": 1.33,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 78.8,
+     "selection": "Under 4.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Stefano_Marino_1_",
+     "minOdds": 1.35,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 77.9,
+     "selection": "Stefano Marino 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Chukwubuike_Adamu_1_",
+     "minOdds": 1.35,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 77.7,
+     "selection": "Chukwubuike Adamu 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": 3.2,
+     "group": "Double chance",
+     "key": "Double_chance_Paderborn_or_Schalke_04",
+     "minOdds": 1.4,
+     "odds": null,
+     "pMarket": 72.3,
+     "post": false,
+     "prob": 75.5,
+     "selection": "Paderborn or Schalke 04",
+     "status": "active"
+    },
+    {
+     "ev": -3.8,
+     "gap": 0.8,
+     "group": "Team goals",
+     "key": "Team_goals_Schalke_04_over_0_5",
+     "minOdds": 1.4,
+     "odds": 1.2778,
+     "pMarket": 74.5,
+     "post": false,
+     "prob": 75.3,
+     "selection": "Schalke 04 over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Over_7_5",
+     "minOdds": 1.43,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 73.7,
+     "selection": "Over 7.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Marvin_Pieringer_1_",
+     "minOdds": 1.44,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 73.5,
+     "selection": "Marvin Pieringer 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Paderborn_over_3_5",
+     "minOdds": 1.44,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 73.1,
+     "selection": "Paderborn over 3.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Schalke_04_over_2_5",
+     "minOdds": 1.44,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 73.1,
+     "selection": "Schalke 04 over 2.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Under_12_5",
+     "minOdds": 1.47,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 72.0,
+     "selection": "Under 12.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Laurin_Ulrich_1_",
+     "minOdds": 1.49,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 71.2,
+     "selection": "Laurin Ulrich 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Adil_Aouchiche_2_",
+     "minOdds": 1.51,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 70.3,
+     "selection": "Adil Aouchiche 2+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": 4.0,
+     "group": "Double chance",
+     "key": "Double_chance_Paderborn_or_draw",
+     "minOdds": 1.51,
+     "odds": null,
+     "pMarket": 66.0,
+     "post": false,
+     "prob": 70.0,
+     "selection": "Paderborn or draw",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_4_5",
+     "minOdds": 1.52,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 69.9,
+     "selection": "Under 4.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Over_2_5",
+     "minOdds": 1.57,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 67.5,
+     "selection": "Over 2.5",
+     "status": "trial"
+    },
+    {
+     "ev": -1.1,
+     "gap": 3.3,
+     "group": "Corners",
+     "key": "Corners_Over_8_5",
+     "minOdds": 1.66,
+     "odds": 1.5376,
+     "pMarket": 61.0,
+     "post": false,
+     "prob": 64.3,
+     "selection": "Over 8.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Under_11_5",
+     "minOdds": 1.66,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 64.1,
+     "selection": "Under 11.5",
+     "status": "trial"
+    }
+   ],
+   "sport": "football",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  {
+   "coverage": 78,
+   "event": "Levante – Racing Santander",
+   "expected": {
+    "away_goals": 1.41,
+    "cards": 4.54,
+    "cardsModel": "v2",
+    "corners": 10.0,
+    "corners_away": 3.96,
+    "corners_home": 6.2,
+    "home_goals": 2.2,
+    "setPieceModel": "v2"
+   },
+   "goalModel": "stats",
+   "id": "2026-11-27-levante-racing-santander",
+   "league": "Spain - La Liga",
+   "lines": [
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Over_0_5",
+     "minOdds": 1.07,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 96.8,
+     "selection": "Over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Yassir_Zabiri_1_",
+     "minOdds": 1.16,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 89.5,
+     "selection": "Yassir Zabiri 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team goals",
+     "key": "Team_goals_Levante_over_0_5",
+     "minOdds": 1.17,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 88.9,
+     "selection": "Levante over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Over_1_5",
+     "minOdds": 1.19,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 88.0,
+     "selection": "Over 1.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Roger_Brugu_1_",
+     "minOdds": 1.2,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 86.8,
+     "selection": "Roger Brugué 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Adri_n_De_La_Fuente_1_",
+     "minOdds": 1.22,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 85.5,
+     "selection": "Adrián De La Fuente 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Sergio_Canales_1_",
+     "minOdds": 1.22,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 85.5,
+     "selection": "Sergio Canales 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Levante_over_2_5",
+     "minOdds": 1.24,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 84.6,
+     "selection": "Levante over 2.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Iv_n_Romero_1_",
+     "minOdds": 1.26,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 82.9,
+     "selection": "Iván Romero 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_6_5",
+     "minOdds": 1.3,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 80.8,
+     "selection": "Under 6.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Over_2_5",
+     "minOdds": 1.31,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 80.1,
+     "selection": "Over 2.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": 2.3,
+     "group": "Double chance",
+     "key": "Double_chance_Levante_or_Racing_Santander",
+     "minOdds": 1.33,
+     "odds": null,
+     "pMarket": 76.4,
+     "post": false,
+     "prob": 78.7,
+     "selection": "Levante or Racing Santander",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": 4.9,
+     "group": "Double chance",
+     "key": "Double_chance_Levante_or_draw",
+     "minOdds": 1.38,
+     "odds": null,
+     "pMarket": 71.4,
+     "post": false,
+     "prob": 76.3,
+     "selection": "Levante or draw",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots on target",
+     "key": "Player_shots_on_target_Yassir_Zabiri_1_",
+     "minOdds": 1.39,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 76.0,
+     "selection": "Yassir Zabiri 1+",
+     "status": "trial"
+    },
+    {
+     "ev": -8.4,
+     "gap": -3.0,
+     "group": "Team goals",
+     "key": "Team_goals_Racing_Santander_over_0_5",
+     "minOdds": 1.39,
+     "odds": 1.2123,
+     "pMarket": 78.6,
+     "post": false,
+     "prob": 75.6,
+     "selection": "Racing Santander over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Levante_over_3_5",
+     "minOdds": 1.4,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 75.5,
+     "selection": "Levante over 3.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Under_12_5",
+     "minOdds": 1.4,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 75.2,
+     "selection": "Under 12.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Yassir_Zabiri_2_",
+     "minOdds": 1.45,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 72.8,
+     "selection": "Yassir Zabiri 2+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Over_7_5",
+     "minOdds": 1.49,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 70.8,
+     "selection": "Over 7.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Under_4_5",
+     "minOdds": 1.5,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 70.4,
+     "selection": "Under 4.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": 7.4,
+     "group": "Draw no bet",
+     "key": "Draw_no_bet_Levante",
+     "minOdds": 1.52,
+     "odds": null,
+     "pMarket": 62.5,
+     "post": false,
+     "prob": 69.9,
+     "selection": "Levante",
+     "status": "active"
+    },
+    {
+     "ev": -2.6,
+     "gap": 1.4,
+     "group": "Total goals",
+     "key": "Total_goals_Over_2_5",
+     "minOdds": 1.52,
+     "odds": 1.3937,
+     "pMarket": 68.5,
+     "post": false,
+     "prob": 69.9,
+     "selection": "Over 2.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_5_5",
+     "minOdds": 1.54,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 68.9,
+     "selection": "Under 5.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Both teams to score",
+     "key": "Both_teams_to_score_Yes",
+     "minOdds": 1.57,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 67.7,
+     "selection": "Yes",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Corners",
+     "key": "Corners_Under_11_5",
+     "minOdds": 1.57,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 67.6,
+     "selection": "Under 11.5",
+     "status": "trial"
+    }
+   ],
+   "sport": "football",
+   "start": "2026-11-27T20:00:00Z"
+  },
+  {
    "coverage": 56,
    "event": "Boston Bruins – Toronto Maple Leafs",
    "expected": {
@@ -22353,13 +22353,13 @@
      "status": "trial"
     },
     {
-     "ev": -1.5,
-     "gap": 0.6,
+     "ev": -1.3,
+     "gap": 0.8,
      "group": "Moneyline (incl. OT)",
      "key": "Moneyline_incl_OT_Boston_Bruins",
      "minOdds": 1.75,
-     "odds": 1.6098,
-     "pMarket": 60.6,
+     "odds": 1.6135,
+     "pMarket": 60.4,
      "post": false,
      "prob": 61.2,
      "selection": "Boston Bruins",
@@ -23245,13 +23245,13 @@
  ],
  "meta": {
   "decisionVersion": "3.6",
-  "fetchedAt": "2026-11-26T20:28:43Z",
+  "fetchedAt": "2026-11-26T20:29:48Z",
   "matches": 85,
   "note": "priced by code from repo data and Pinnacle; line-ups, injuries and referees are NOT known to the robot",
-  "oddsFetchedAt": "2026-11-26T19:50:44Z",
+  "oddsFetchedAt": "2026-11-26T20:29:48Z",
   "products": 125,
   "profile": "hitrate",
-  "repoCommit": "a00f37af642ef60a2cf833b10d66795bd014a99f",
+  "repoCommit": "b8b09c4d6a6763626e51e3c2e953d4eeb5d217bb",
   "rules": "v1",
   "skipped": 0
  },
@@ -23269,7 +23269,7 @@
     "minOddsV2": 1.27,
     "nEff": 164,
     "odds": 1.2915,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 73.7,
     "pMarketKind": "single",
@@ -23319,7 +23319,7 @@
     "minOddsV2": 1.31,
     "nEff": 164,
     "odds": 1.3484,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 71.2,
     "pMarketKind": "novig",
@@ -23369,7 +23369,7 @@
     "minOddsV2": 1.41,
     "nEff": 164,
     "odds": 1.431,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 66.4,
     "pMarketKind": "novig",
@@ -23401,7 +23401,7 @@
    "needsSquadCheck": false,
    "rank": 3,
    "sharedWith": [
-    78
+    74
    ],
    "start": "2026-11-28T14:30:00Z",
    "tier": "safe"
@@ -23419,7 +23419,7 @@
     "minOddsV2": 1.45,
     "nEff": 164,
     "odds": 1.4673,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 65.0,
     "pMarketKind": "novig",
@@ -23469,7 +23469,7 @@
     "minOddsV2": 1.46,
     "nEff": 164,
     "odds": 1.4785,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 64.2,
     "pMarketKind": "novig",
@@ -23501,7 +23501,7 @@
    "needsSquadCheck": false,
    "rank": 5,
    "sharedWith": [
-    70
+    68
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -23519,7 +23519,7 @@
     "minOddsV2": 1.46,
     "nEff": 164,
     "odds": 1.5076,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 63.7,
     "pMarketKind": "novig",
@@ -23551,7 +23551,7 @@
    "needsSquadCheck": false,
    "rank": 6,
    "sharedWith": [
-    57
+    55
    ],
    "start": "2026-11-28T19:45:00Z",
    "tier": "safe"
@@ -23569,7 +23569,7 @@
     "minOddsV2": 1.5,
     "nEff": 164,
     "odds": 1.5155,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 62.8,
     "pMarketKind": "single",
@@ -23619,7 +23619,7 @@
     "minOddsV2": 1.51,
     "nEff": 164,
     "odds": 1.5208,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 62.6,
     "pMarketKind": "single",
@@ -23651,7 +23651,7 @@
    "needsSquadCheck": false,
    "rank": 8,
    "sharedWith": [
-    109
+    104
    ],
    "start": "2026-11-28T19:45:00Z",
    "tier": "value"
@@ -23669,7 +23669,7 @@
     "minOddsV2": 1.64,
     "nEff": 164,
     "odds": 1.6757,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 57.5,
     "pMarketKind": "novig",
@@ -23719,7 +23719,7 @@
     "minOddsV2": 1.73,
     "nEff": 164,
     "odds": 1.813,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 53.4,
     "pMarketKind": "novig",
@@ -23751,7 +23751,7 @@
    "needsSquadCheck": false,
    "rank": 10,
    "sharedWith": [
-    77
+    123
    ],
    "start": "2026-11-28T14:30:00Z",
    "tier": "value"
@@ -23769,7 +23769,7 @@
     "minOddsV2": 1.75,
     "nEff": 164,
     "odds": 1.7752,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 53.6,
     "pMarketKind": "single",
@@ -23801,7 +23801,7 @@
    "needsSquadCheck": false,
    "rank": 11,
    "sharedWith": [
-    81
+    77
    ],
    "start": "2026-11-28T19:45:00Z",
    "tier": "value"
@@ -23819,7 +23819,7 @@
     "minOddsV2": 1.75,
     "nEff": 164,
     "odds": 1.7937,
-    "oddsAgeMin": 38,
+    "oddsAgeMin": 0,
     "oddsStale": false,
     "pMarket": 53.1,
     "pMarketKind": "single",
@@ -23851,7 +23851,7 @@
    "needsSquadCheck": false,
    "rank": 12,
    "sharedWith": [
-    119
+    114
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "value"
@@ -23965,7 +23965,7 @@
    "pick": "Caykur Rizespor over 0.5 (Team goals)",
    "rank": 14,
    "sharedWith": [
-    105
+    100
    ],
    "start": "2026-11-27T17:00:00Z",
    "tier": "safe"
@@ -24129,8 +24129,8 @@
    "pick": "Over 0.5 (Total goals) + Al-Hilal over 0.5 (Team goals) + Under 4.5 (Total goals)",
    "rank": 15,
    "sharedWith": [
-    113,
-    122
+    108,
+    117
    ],
    "start": "2026-11-27T17:00:00Z",
    "tier": "combo"
@@ -24187,7 +24187,7 @@
    "pick": "Lommel over 0.5 (Team goals)",
    "rank": 16,
    "sharedWith": [
-    108
+    103
    ],
    "start": "2026-11-28T19:45:00Z",
    "tier": "safe"
@@ -24301,7 +24301,7 @@
    "pick": "Under 3.5 (Cards)",
    "rank": 18,
    "sharedWith": [
-    83
+    79
    ],
    "start": "2026-11-28T17:45:00Z",
    "tier": "safe"
@@ -24358,7 +24358,7 @@
    "pick": "Under 5.5 (Cards)",
    "rank": 19,
    "sharedWith": [
-    98
+    93
    ],
    "start": "2026-11-28T15:30:00Z",
    "tier": "safe"
@@ -24415,7 +24415,7 @@
    "pick": "Under 5.5 (Cards)",
    "rank": 20,
    "sharedWith": [
-    104
+    99
    ],
    "start": "2026-11-27T17:00:00Z",
    "tier": "safe"
@@ -24754,7 +24754,7 @@
    "pick": "Under 5.5 (Cards)",
    "rank": 26,
    "sharedWith": [
-    61
+    59
    ],
    "start": "2026-11-28T16:00:00Z",
    "tier": "safe"
@@ -24868,7 +24868,7 @@
    "pick": "Over 2.5 (Cards)",
    "rank": 28,
    "sharedWith": [
-    111
+    106
    ],
    "start": "2026-11-28T12:30:00Z",
    "tier": "safe"
@@ -25086,7 +25086,7 @@
    "pick": "Under 5.5 (Cards)",
    "rank": 30,
    "sharedWith": [
-    103
+    98
    ],
    "start": "2026-11-27T17:30:00Z",
    "tier": "safe"
@@ -25200,10 +25200,67 @@
    "pick": "Under 4.5 (Cards)",
    "rank": 32,
    "sharedWith": [
-    107
+    102
    ],
    "start": "2026-11-28T19:45:00Z",
    "tier": "safe"
+  },
+  {
+   "event": "Dynamo Dresden – St. Pauli",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.43,
+    "gap": null,
+    "group": "Cards",
+    "key": "Cards_Under_5_5",
+    "minOdds": 1.52,
+    "minOddsV1": 1.52,
+    "minOddsV2": 1.5,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 66.8,
+    "prob": 69.9,
+    "probHigh": 74.9,
+    "probLow": 64.9,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 5.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-dynamo-dresden-st-pauli",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 5.5 (Cards)",
+   "rank": 33,
+   "sharedWith": [
+    7
+   ],
+   "start": "2026-11-28T12:00:00Z",
+   "tier": "value"
   },
   {
    "event": "Hertha BSC – Karlsruher",
@@ -25255,64 +25312,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 2.5 (Cards)",
-   "rank": 33,
-   "start": "2026-11-28T12:00:00Z",
-   "tier": "value"
-  },
-  {
-   "event": "Dynamo Dresden – St. Pauli",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.43,
-    "gap": null,
-    "group": "Cards",
-    "key": "Cards_Under_5_5",
-    "minOdds": 1.52,
-    "minOddsV1": 1.52,
-    "minOddsV2": 1.5,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 66.7,
-    "prob": 69.8,
-    "probHigh": 74.8,
-    "probLow": 64.8,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Under 5.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-dynamo-dresden-st-pauli",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Under 5.5 (Cards)",
    "rank": 34,
-   "sharedWith": [
-    7
-   ],
    "start": "2026-11-28T12:00:00Z",
    "tier": "value"
   },
@@ -25368,7 +25368,7 @@
    "pick": "Over 2.5 (Cards)",
    "rank": 35,
    "sharedWith": [
-    59
+    57
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "value"
@@ -25482,7 +25482,7 @@
    "pick": "Under 12.5 (Corners)",
    "rank": 37,
    "sharedWith": [
-    102
+    97
    ],
    "start": "2026-11-27T17:30:00Z",
    "tier": "value"
@@ -25596,7 +25596,7 @@
    "pick": "Under 11.5 (Corners)",
    "rank": 39,
    "sharedWith": [
-    58
+    56
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "value"
@@ -25710,7 +25710,7 @@
    "pick": "Over 7.5 (Corners)",
    "rank": 41,
    "sharedWith": [
-    60
+    58
    ],
    "start": "2026-11-28T16:00:00Z",
    "tier": "value"
@@ -25931,7 +25931,7 @@
    "pick": "Jacob Murrell 1+ (Player shots)",
    "rank": 43,
    "sharedWith": [
-    72
+    70
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -26102,7 +26102,7 @@
    "pick": "Taïryk Arconte 1+ (Player shots)",
    "rank": 46,
    "sharedWith": [
-    117
+    112
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -26159,7 +26159,7 @@
    "pick": "Joël Piroe 1+ (Player shots)",
    "rank": 47,
    "sharedWith": [
-    28
+    26
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -26216,7 +26216,7 @@
    "pick": "Deniz Undav 1+ (Player shots)",
    "rank": 48,
    "sharedWith": [
-    17
+    16
    ],
    "start": "2026-11-28T17:30:00Z",
    "tier": "safe"
@@ -26273,7 +26273,7 @@
    "pick": "Kylian Mbappé 2+ (Player shots)",
    "rank": 49,
    "sharedWith": [
-    63
+    61
    ],
    "start": "2026-11-28T20:00:00Z",
    "tier": "safe"
@@ -26330,7 +26330,7 @@
    "pick": "Thom van Bergen 2+ (Player shots)",
    "rank": 50,
    "sharedWith": [
-    88
+    84
    ],
    "start": "2026-11-27T19:00:00Z",
    "tier": "safe"
@@ -26387,7 +26387,7 @@
    "pick": "Gustav Isaksen 1+ (Player shots)",
    "rank": 51,
    "sharedWith": [
-    80
+    76
    ],
    "start": "2026-11-28T17:00:00Z",
    "tier": "safe"
@@ -26444,7 +26444,7 @@
    "pick": "Giorgi Tsitaishvili 1+ (Player shots)",
    "rank": 52,
    "sharedWith": [
-    95
+    91
    ],
    "start": "2026-11-28T13:00:00Z",
    "tier": "safe"
@@ -26558,7 +26558,7 @@
    "pick": "Dan Ndoye 1+ (Player shots)",
    "rank": 54,
    "sharedWith": [
-    65
+    63
    ],
    "start": "2026-11-27T20:00:00Z",
    "tier": "safe"
@@ -26729,7 +26729,7 @@
    "pick": "Iván Romero 1+ (Player shots)",
    "rank": 57,
    "sharedWith": [
-    21
+    28
    ],
    "start": "2026-11-27T20:00:00Z",
    "tier": "safe"
@@ -26786,66 +26786,9 @@
    "pick": "Ferrán Torres 1+ (Player shots)",
    "rank": 58,
    "sharedWith": [
-    54
-   ],
-   "start": "2026-11-28T19:45:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "Leeds United – Coventry City",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.21,
-    "gap": null,
-    "group": "Player shots",
-    "key": "Player_shots_Dominic_Calvert_Lewin_1_",
-    "minOdds": 1.27,
-    "minOddsV1": 1.27,
-    "minOddsV2": 1.25,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 80.1,
-    "prob": 82.7,
-    "probHigh": 87.7,
-    "probLow": 77.7,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Dominic Calvert-Lewin 1+",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-leeds-united-coventry-city",
-   "needsPrice": true,
-   "needsSquadCheck": true,
-   "pick": "Dominic Calvert-Lewin 1+ (Player shots)",
-   "rank": 59,
-   "sharedWith": [
     52
    ],
-   "start": "2026-11-28T15:00:00Z",
+   "start": "2026-11-28T19:45:00Z",
    "tier": "safe"
   },
   {
@@ -26898,7 +26841,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Francesco Pio Esposito 1+ (Player shots)",
-   "rank": 60,
+   "rank": 59,
    "sharedWith": [
     4
    ],
@@ -26955,11 +26898,68 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Devin Haen 1+ (Player shots)",
-   "rank": 61,
+   "rank": 60,
    "sharedWith": [
-    87
+    83
    ],
    "start": "2026-11-27T19:00:00Z",
+   "tier": "safe"
+  },
+  {
+   "event": "Leeds United – Coventry City",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.21,
+    "gap": null,
+    "group": "Player shots",
+    "key": "Player_shots_Dominic_Calvert_Lewin_1_",
+    "minOdds": 1.27,
+    "minOddsV1": 1.27,
+    "minOddsV2": 1.25,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 80.1,
+    "prob": 82.7,
+    "probHigh": 87.7,
+    "probLow": 77.7,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Dominic Calvert-Lewin 1+",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-leeds-united-coventry-city",
+   "needsPrice": true,
+   "needsSquadCheck": true,
+   "pick": "Dominic Calvert-Lewin 1+ (Player shots)",
+   "rank": 61,
+   "sharedWith": [
+    121
+   ],
+   "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
   },
   {
@@ -27014,7 +27014,7 @@
    "pick": "Kwame Poku 1+ (Player shots)",
    "rank": 62,
    "sharedWith": [
-    25
+    23
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -27071,7 +27071,7 @@
    "pick": "Bobby Clark 1+ (Player shots)",
    "rank": 63,
    "sharedWith": [
-    26
+    24
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -27185,7 +27185,7 @@
    "pick": "Niclas Füllkrug 2+ (Player shots)",
    "rank": 65,
    "sharedWith": [
-    18
+    17
    ],
    "start": "2026-11-27T19:30:00Z",
    "tier": "safe"
@@ -27242,7 +27242,7 @@
    "pick": "Pathé Mboup 1+ (Player shots)",
    "rank": 66,
    "sharedWith": [
-    56
+    54
    ],
    "start": "2026-11-27T19:45:00Z",
    "tier": "safe"
@@ -27299,7 +27299,7 @@
    "pick": "Akor Adams 1+ (Player shots)",
    "rank": 67,
    "sharedWith": [
-    124
+    119
    ],
    "start": "2026-11-27T19:45:00Z",
    "tier": "safe"
@@ -27356,7 +27356,7 @@
    "pick": "Andre Brooks 1+ (Player shots)",
    "rank": 68,
    "sharedWith": [
-    112
+    107
    ],
    "start": "2026-11-28T12:30:00Z",
    "tier": "safe"
@@ -27413,7 +27413,7 @@
    "pick": "Simone Lontani 1+ (Player shots)",
    "rank": 69,
    "sharedWith": [
-    19
+    18
    ],
    "start": "2026-11-28T14:00:00Z",
    "tier": "safe"
@@ -27527,7 +27527,7 @@
    "pick": "Arda Güler 1+ (Player shots)",
    "rank": 71,
    "sharedWith": [
-    62
+    60
    ],
    "start": "2026-11-28T20:00:00Z",
    "tier": "safe"
@@ -27584,7 +27584,7 @@
    "pick": "Eseosa Sule 1+ (Player shots)",
    "rank": 72,
    "sharedWith": [
-    69
+    67
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -27641,7 +27641,7 @@
    "pick": "Ludovic Ajorque 1+ (Player shots)",
    "rank": 73,
    "sharedWith": [
-    55
+    53
    ],
    "start": "2026-11-27T19:45:00Z",
    "tier": "safe"
@@ -27698,7 +27698,7 @@
    "pick": "Cole Palmer 1+ (Player shots)",
    "rank": 74,
    "sharedWith": [
-    64
+    62
    ],
    "start": "2026-11-27T20:00:00Z",
    "tier": "safe"
@@ -27812,66 +27812,9 @@
    "pick": "Tyreece John-Jules 1+ (Player shots)",
    "rank": 76,
    "sharedWith": [
-    68
+    66
    ],
    "start": "2026-11-28T15:00:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "Paderborn – Schalke 04",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.23,
-    "gap": null,
-    "group": "Player shots",
-    "key": "Player_shots_Kenan_Karaman_1_",
-    "minOdds": 1.29,
-    "minOddsV1": 1.29,
-    "minOddsV2": 1.28,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 78.6,
-    "prob": 81.3,
-    "probHigh": 86.3,
-    "probLow": 76.3,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Kenan Karaman 1+",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-paderborn-schalke-04",
-   "needsPrice": true,
-   "needsSquadCheck": true,
-   "pick": "Kenan Karaman 1+ (Player shots)",
-   "rank": 77,
-   "sharedWith": [
-    0
-   ],
-   "start": "2026-11-28T14:30:00Z",
    "tier": "safe"
   },
   {
@@ -27924,9 +27867,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Pedro Díaz 2+ (Player shots)",
-   "rank": 78,
+   "rank": 77,
    "sharedWith": [
-    94
+    90
    ],
    "start": "2026-11-28T13:00:00Z",
    "tier": "safe"
@@ -27981,11 +27924,68 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Lyndon Dykes 1+ (Player shots)",
-   "rank": 79,
+   "rank": 78,
    "sharedWith": [
-    116
+    111
    ],
    "start": "2026-11-28T15:00:00Z",
+   "tier": "safe"
+  },
+  {
+   "event": "Paderborn – Schalke 04",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.23,
+    "gap": null,
+    "group": "Player shots",
+    "key": "Player_shots_Kenan_Karaman_1_",
+    "minOdds": 1.29,
+    "minOddsV1": 1.29,
+    "minOddsV2": 1.28,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 78.6,
+    "prob": 81.3,
+    "probHigh": 86.3,
+    "probLow": 76.3,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Kenan Karaman 1+",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-paderborn-schalke-04",
+   "needsPrice": true,
+   "needsSquadCheck": true,
+   "pick": "Kenan Karaman 1+ (Player shots)",
+   "rank": 79,
+   "sharedWith": [
+    0
+   ],
+   "start": "2026-11-28T14:30:00Z",
    "tier": "safe"
   },
   {
@@ -28097,66 +28097,9 @@
    "pick": "Aymen Sliti 1+ (Player shots)",
    "rank": 81,
    "sharedWith": [
-    86
+    82
    ],
    "start": "2026-11-28T15:30:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "FC Koln – Elversberg",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.24,
-    "gap": null,
-    "group": "Player shots",
-    "key": "Player_shots_Mikey_Moore_1_",
-    "minOdds": 1.3,
-    "minOddsV1": 1.3,
-    "minOddsV2": 1.29,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 77.9,
-    "prob": 80.6,
-    "probHigh": 85.6,
-    "probLow": 75.6,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Mikey Moore 1+",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-fc-koln-elversberg",
-   "needsPrice": true,
-   "needsSquadCheck": true,
-   "pick": "Mikey Moore 1+ (Player shots)",
-   "rank": 82,
-   "sharedWith": [
-    16
-   ],
-   "start": "2026-11-28T14:30:00Z",
    "tier": "safe"
   },
   {
@@ -28209,9 +28152,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Barbero 1+ (Player shots)",
-   "rank": 83,
+   "rank": 82,
    "sharedWith": [
-    99
+    94
    ],
    "start": "2026-11-28T15:30:00Z",
    "tier": "safe"
@@ -28266,11 +28209,68 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Oladapo Afolayan 1+ (Player shots)",
+   "rank": 83,
+   "sharedWith": [
+    25
+   ],
+   "start": "2026-11-28T12:30:00Z",
+   "tier": "safe"
+  },
+  {
+   "event": "FC Koln – Elversberg",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.24,
+    "gap": null,
+    "group": "Player shots",
+    "key": "Player_shots_Mikey_Moore_1_",
+    "minOdds": 1.3,
+    "minOddsV1": 1.3,
+    "minOddsV2": 1.29,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 77.9,
+    "prob": 80.6,
+    "probHigh": 85.6,
+    "probLow": 75.6,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Mikey Moore 1+",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-fc-koln-elversberg",
+   "needsPrice": true,
+   "needsSquadCheck": true,
+   "pick": "Mikey Moore 1+ (Player shots)",
    "rank": 84,
    "sharedWith": [
     27
    ],
-   "start": "2026-11-28T12:30:00Z",
+   "start": "2026-11-28T14:30:00Z",
    "tier": "safe"
   },
   {
@@ -28439,7 +28439,7 @@
    "pick": "Irakli Yegoian 1+ (Player shots)",
    "rank": 87,
    "sharedWith": [
-    85
+    81
    ],
    "start": "2026-11-28T15:30:00Z",
    "tier": "safe"
@@ -28553,7 +28553,7 @@
    "pick": "Achraf Hakimi 1+ (Player shots)",
    "rank": 89,
    "sharedWith": [
-    53
+    51
    ],
    "start": "2026-11-28T19:45:00Z",
    "tier": "safe"
@@ -28667,7 +28667,7 @@
    "pick": "Rúben Rodrigues 1+ (Player shots)",
    "rank": 91,
    "sharedWith": [
-    121
+    116
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -28724,7 +28724,7 @@
    "pick": "Chupe 1+ (Player shots)",
    "rank": 92,
    "sharedWith": [
-    93
+    89
    ],
    "start": "2026-11-28T15:15:00Z",
    "tier": "safe"
@@ -28781,64 +28781,7 @@
    "pick": "Carlos Vicente 1+ (Player shots)",
    "rank": 93,
    "sharedWith": [
-    120
-   ],
-   "start": "2026-11-28T15:00:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "Leeds United – Coventry City",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.26,
-    "gap": null,
-    "group": "Player shots",
-    "key": "Player_shots_Brandon_Thomas_Asante_1_",
-    "minOdds": 1.33,
-    "minOddsV1": 1.33,
-    "minOddsV2": 1.32,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 76.3,
-    "prob": 79.1,
-    "probHigh": 84.1,
-    "probLow": 74.1,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Brandon Thomas-Asante 1+",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-leeds-united-coventry-city",
-   "needsPrice": true,
-   "needsSquadCheck": true,
-   "pick": "Brandon Thomas-Asante 1+ (Player shots)",
-   "rank": 94,
-   "sharedWith": [
-    51
+    115
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -28893,11 +28836,68 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Ruben van Bommel 1+ (Player shots)",
-   "rank": 95,
+   "rank": 94,
    "sharedWith": [
-    84
+    80
    ],
    "start": "2026-11-28T17:45:00Z",
+   "tier": "safe"
+  },
+  {
+   "event": "Leeds United – Coventry City",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.26,
+    "gap": null,
+    "group": "Player shots",
+    "key": "Player_shots_Brandon_Thomas_Asante_1_",
+    "minOdds": 1.33,
+    "minOddsV1": 1.33,
+    "minOddsV2": 1.32,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 76.3,
+    "prob": 79.1,
+    "probHigh": 84.1,
+    "probLow": 74.1,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Brandon Thomas-Asante 1+",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-leeds-united-coventry-city",
+   "needsPrice": true,
+   "needsSquadCheck": true,
+   "pick": "Brandon Thomas-Asante 1+ (Player shots)",
+   "rank": 95,
+   "sharedWith": [
+    120
+   ],
+   "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
   },
   {
@@ -28952,7 +28952,7 @@
    "pick": "Finn Azaz 1+ (Player shots)",
    "rank": 96,
    "sharedWith": [
-    24
+    22
    ],
    "start": "2026-11-27T20:00:00Z",
    "tier": "safe"
@@ -29009,7 +29009,7 @@
    "pick": "Lucas Cepeda 1+ (Player shots)",
    "rank": 97,
    "sharedWith": [
-    91
+    87
    ],
    "start": "2026-11-28T17:30:00Z",
    "tier": "safe"
@@ -29123,7 +29123,7 @@
    "pick": "Tijjani Noslin 1+ (Player shots)",
    "rank": 99,
    "sharedWith": [
-    79
+    75
    ],
    "start": "2026-11-28T17:00:00Z",
    "tier": "safe"
@@ -29294,7 +29294,7 @@
    "pick": "Federico Bernardeschi 2+ (Player shots)",
    "rank": 102,
    "sharedWith": [
-    123
+    118
    ],
    "start": "2026-11-27T19:45:00Z",
    "tier": "safe"
@@ -29351,7 +29351,7 @@
    "pick": "João Guilherme 1+ (Player shots)",
    "rank": 103,
    "sharedWith": [
-    22
+    20
    ],
    "start": "2026-11-28T18:00:00Z",
    "tier": "safe"
@@ -29408,7 +29408,7 @@
    "pick": "Djeidi Gassama 2+ (Player shots)",
    "rank": 104,
    "sharedWith": [
-    71
+    69
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -29465,7 +29465,7 @@
    "pick": "Nico Williams 2+ (Player shots)",
    "rank": 105,
    "sharedWith": [
-    92
+    88
    ],
    "start": "2026-11-28T15:15:00Z",
    "tier": "safe"
@@ -29579,7 +29579,7 @@
    "pick": "Julián Álvarez 2+ (Player shots)",
    "rank": 107,
    "sharedWith": [
-    90
+    86
    ],
    "start": "2026-11-28T17:30:00Z",
    "tier": "safe"
@@ -29636,7 +29636,7 @@
    "pick": "Milan Zonneveld 2+ (Player shots)",
    "rank": 108,
    "sharedWith": [
-    20
+    19
    ],
    "start": "2026-11-28T20:00:00Z",
    "tier": "safe"
@@ -29740,7 +29740,7 @@
    "pick": "Werder Bremen over 0.5 (Team goals) + Robin Hack 1+ (Player shots)",
    "rank": 109,
    "sharedWith": [
-    76
+    73
    ],
    "start": "2026-11-27T19:30:00Z",
    "tier": "builder"
@@ -29761,7 +29761,7 @@
      "minOddsV2": 1.2,
      "nEff": 164,
      "odds": 1.1235,
-     "oddsAgeMin": 38,
+     "oddsAgeMin": 0,
      "oddsStale": false,
      "pMarket": 84.6,
      "pMarketKind": "novig",
@@ -29846,113 +29846,9 @@
    "pick": "Over 1.5 (Total goals) + Mitchell van Bergen 1+ (Player shots)",
    "rank": 110,
    "sharedWith": [
-    89
+    85
    ],
    "start": "2026-11-28T20:00:00Z",
-   "tier": "builder"
-  },
-  {
-   "confidence": 64.7,
-   "event": "Levante – Racing Santander",
-   "kind": "playerBuilder",
-   "legs": [
-    {
-     "ev": null,
-     "fair": 1.12,
-     "gap": null,
-     "group": "Team goals",
-     "key": "Team_goals_Levante_over_0_5",
-     "minOdds": 1.17,
-     "minOddsV1": 1.17,
-     "minOddsV2": 1.16,
-     "nEff": 164,
-     "odds": null,
-     "oddsAgeMin": null,
-     "oddsStale": null,
-     "pMarket": null,
-     "pMarketKind": null,
-     "pQ": 86.7,
-     "prob": 88.9,
-     "probHigh": 93.9,
-     "probLow": 83.9,
-     "qualityBreakdown": {
-      "data": 7,
-      "ev": 0,
-      "evidence": 9,
-      "info": 2,
-      "market": 5,
-      "model": 20
-     },
-     "qualityScore": 43,
-     "selection": "Levante over 0.5",
-     "status": "active",
-     "v1": {
-      "post": false,
-      "why": [
-       "quality 43 < 55"
-      ]
-     },
-     "v2": {
-      "post": false,
-      "why": [
-       "quality 43 < 55"
-      ]
-     }
-    },
-    {
-     "ev": null,
-     "fair": 1.37,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Yassir_Zabiri_2_",
-     "minOdds": 1.45,
-     "minOddsV1": 1.45,
-     "minOddsV2": 1.44,
-     "nEff": 164,
-     "odds": null,
-     "oddsAgeMin": null,
-     "oddsStale": null,
-     "pMarket": null,
-     "pMarketKind": null,
-     "pQ": 69.8,
-     "prob": 72.8,
-     "probHigh": 77.8,
-     "probLow": 67.8,
-     "qualityBreakdown": {
-      "data": 7,
-      "ev": 0,
-      "evidence": 9,
-      "info": 2,
-      "market": 5,
-      "model": 10
-     },
-     "qualityScore": 33,
-     "selection": "Yassir Zabiri 2+",
-     "status": "trial",
-     "v1": {
-      "post": false,
-      "why": [
-       "quality 33 < 60"
-      ]
-     },
-     "v2": {
-      "post": false,
-      "why": [
-       "quality 33 < 60"
-      ]
-     }
-    }
-   ],
-   "matchId": "2026-11-27-levante-racing-santander",
-   "minOdds": 1.6,
-   "needsPrice": true,
-   "needsSquadCheck": true,
-   "pick": "Levante over 0.5 (Team goals) + Yassir Zabiri 2+ (Player shots)",
-   "rank": 111,
-   "sharedWith": [
-    96
-   ],
-   "start": "2026-11-27T20:00:00Z",
    "tier": "builder"
   },
   {
@@ -30052,11 +29948,115 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Valentín Castellanos 2+ (Player shots)",
-   "rank": 112,
+   "rank": 111,
    "sharedWith": [
-    118
+    113
    ],
    "start": "2026-11-28T15:00:00Z",
+   "tier": "builder"
+  },
+  {
+   "confidence": 64.7,
+   "event": "Levante – Racing Santander",
+   "kind": "playerBuilder",
+   "legs": [
+    {
+     "ev": null,
+     "fair": 1.12,
+     "gap": null,
+     "group": "Team goals",
+     "key": "Team_goals_Levante_over_0_5",
+     "minOdds": 1.17,
+     "minOddsV1": 1.17,
+     "minOddsV2": 1.16,
+     "nEff": 164,
+     "odds": null,
+     "oddsAgeMin": null,
+     "oddsStale": null,
+     "pMarket": null,
+     "pMarketKind": null,
+     "pQ": 86.7,
+     "prob": 88.9,
+     "probHigh": 93.9,
+     "probLow": 83.9,
+     "qualityBreakdown": {
+      "data": 7,
+      "ev": 0,
+      "evidence": 9,
+      "info": 2,
+      "market": 5,
+      "model": 20
+     },
+     "qualityScore": 43,
+     "selection": "Levante over 0.5",
+     "status": "active",
+     "v1": {
+      "post": false,
+      "why": [
+       "quality 43 < 55"
+      ]
+     },
+     "v2": {
+      "post": false,
+      "why": [
+       "quality 43 < 55"
+      ]
+     }
+    },
+    {
+     "ev": null,
+     "fair": 1.37,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Yassir_Zabiri_2_",
+     "minOdds": 1.45,
+     "minOddsV1": 1.45,
+     "minOddsV2": 1.44,
+     "nEff": 164,
+     "odds": null,
+     "oddsAgeMin": null,
+     "oddsStale": null,
+     "pMarket": null,
+     "pMarketKind": null,
+     "pQ": 69.8,
+     "prob": 72.8,
+     "probHigh": 77.8,
+     "probLow": 67.8,
+     "qualityBreakdown": {
+      "data": 7,
+      "ev": 0,
+      "evidence": 9,
+      "info": 2,
+      "market": 5,
+      "model": 10
+     },
+     "qualityScore": 33,
+     "selection": "Yassir Zabiri 2+",
+     "status": "trial",
+     "v1": {
+      "post": false,
+      "why": [
+       "quality 33 < 60"
+      ]
+     },
+     "v2": {
+      "post": false,
+      "why": [
+       "quality 33 < 60"
+      ]
+     }
+    }
+   ],
+   "matchId": "2026-11-27-levante-racing-santander",
+   "minOdds": 1.6,
+   "needsPrice": true,
+   "needsSquadCheck": true,
+   "pick": "Levante over 0.5 (Team goals) + Yassir Zabiri 2+ (Player shots)",
+   "rank": 112,
+   "sharedWith": [
+    124
+   ],
+   "start": "2026-11-27T20:00:00Z",
    "tier": "builder"
   },
   {
@@ -30158,7 +30158,7 @@
    "pick": "Over 0.5 (Total goals) + Farès Ghedjemis 3+ (Player shots)",
    "rank": 113,
    "sharedWith": [
-    82
+    78
    ],
    "start": "2026-11-28T14:00:00Z",
    "tier": "builder"
@@ -30179,7 +30179,7 @@
      "minOddsV2": 1.39,
      "nEff": 164,
      "odds": 1.3058,
-     "oddsAgeMin": 38,
+     "oddsAgeMin": 0,
      "oddsStale": false,
      "pMarket": 72.6,
      "pMarketKind": "novig",
@@ -30264,7 +30264,7 @@
    "pick": "Over 1.5 (Total goals) + André Clovis 1+ (Player shots)",
    "rank": 114,
    "sharedWith": [
-    97
+    92
    ],
    "start": "2026-11-28T18:00:00Z",
    "tier": "builder"
@@ -30368,7 +30368,7 @@
    "pick": "Over 0.5 (Total goals) + Jordan Ayew 1+ (Player shots)",
    "rank": 115,
    "sharedWith": [
-    110
+    105
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "builder"
@@ -30576,7 +30576,7 @@
    "pick": "Over 1.5 (Total goals) + Jonathan Burkardt 2+ (Player shots)",
    "rank": 117,
    "sharedWith": [
-    75
+    72
    ],
    "start": "2026-11-28T17:30:00Z",
    "tier": "builder"
@@ -30597,7 +30597,7 @@
      "minOddsV2": 1.3,
      "nEff": 164,
      "odds": 1.3003,
-     "oddsAgeMin": 38,
+     "oddsAgeMin": 0,
      "oddsStale": false,
      "pMarket": 72.9,
      "pMarketKind": "novig",
@@ -30681,7 +30681,7 @@
    "pick": "Over 1.5 (Total goals) + Charlie Kelman 1+ (Player shots)",
    "rank": 118,
    "sharedWith": [
-    115
+    110
    ],
    "start": "2026-11-28T12:30:00Z",
    "tier": "builder"
@@ -30702,7 +30702,7 @@
      "minOddsV2": 1.34,
      "nEff": 164,
      "odds": 1.2217,
-     "oddsAgeMin": 38,
+     "oddsAgeMin": 0,
      "oddsStale": false,
      "pMarket": 78.0,
      "pMarketKind": "single",
@@ -30787,7 +30787,7 @@
    "pick": "Hibernian over 0.5 (Team goals) + Tawanda Maswanhise 1+ (Player shots)",
    "rank": 119,
    "sharedWith": [
-    73
+    71
    ],
    "start": "2026-11-28T17:45:00Z",
    "tier": "builder"
@@ -30808,7 +30808,7 @@
      "minOddsV2": 1.33,
      "nEff": 164,
      "odds": 1.2653,
-     "oddsAgeMin": 38,
+     "oddsAgeMin": 0,
      "oddsStale": false,
      "pMarket": 75.3,
      "pMarketKind": "single",
@@ -30893,7 +30893,7 @@
    "pick": "Brentford over 0.5 (Team goals) + Keane Lewis-Potter 1+ (Player shots)",
    "rank": 120,
    "sharedWith": [
-    66
+    64
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "builder"
@@ -31015,7 +31015,7 @@
      "minOddsV2": 1.23,
      "nEff": 164,
      "odds": 1.1984,
-     "oddsAgeMin": 38,
+     "oddsAgeMin": 0,
      "oddsStale": false,
      "pMarket": 79.1,
      "pMarketKind": "novig",
@@ -31100,7 +31100,7 @@
    "pick": "Over 1.5 (Total goals) + Ayoub Mouloua 1+ (Player shots)",
    "rank": 122,
    "sharedWith": [
-    67
+    65
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "builder"
@@ -31121,7 +31121,7 @@
      "minOddsV2": 1.31,
      "nEff": 164,
      "odds": 1.2959,
-     "oddsAgeMin": 38,
+     "oddsAgeMin": 0,
      "oddsStale": false,
      "pMarket": 73.1,
      "pMarketKind": "novig",
@@ -31206,7 +31206,7 @@
    "pick": "Over 1.5 (Total goals) + Iker Bravo 1+ (Player shots)",
    "rank": 123,
    "sharedWith": [
-    114
+    109
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "builder"
@@ -31310,7 +31310,7 @@
    "pick": "FC Koln over 0.5 (Team goals) + Lukas Petkov 1+ (Player shots)",
    "rank": 124,
    "sharedWith": [
-    74
+    122
    ],
    "start": "2026-11-28T14:30:00Z",
    "tier": "builder"
@@ -31414,7 +31414,7 @@
    "pick": "Over 0.5 (Total goals) + Cyle Larin 2+ (Player shots)",
    "rank": 125,
    "sharedWith": [
-    106
+    101
    ],
    "start": "2026-11-27T20:00:00Z",
    "tier": "builder"
@@ -31424,7 +31424,7 @@
  "summary": {
   "both": 56,
   "lines": 5529,
-  "priced": 1091,
+  "priced": 1093,
   "v1Only": 0,
   "v1Post": 56,
   "v2Only": 30,
