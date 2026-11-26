@@ -2194,13 +2194,13 @@
      "status": "active"
     },
     {
-     "ev": -1.7,
-     "gap": 2.7,
+     "ev": -2.3,
+     "gap": 2.3,
      "group": "Corners",
      "key": "Corners_Under_11_5",
      "minOdds": 1.7,
-     "odds": 1.565,
-     "pMarket": 60.1,
+     "odds": 1.5556,
+     "pMarket": 60.5,
      "post": false,
      "prob": 62.8,
      "selection": "Under 11.5",
@@ -6873,11 +6873,11 @@
    "event": "Nottingham Forest – Chelsea",
    "expected": {
     "away_goals": 1.11,
-    "cards": 4.44,
+    "cards": 4.45,
     "cardsModel": "v2",
     "corners": 9.6,
     "corners_away": 4.58,
-    "corners_home": 5.1,
+    "corners_home": 5.09,
     "home_goals": 1.48,
     "setPieceModel": "v2"
    },
@@ -6946,7 +6946,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 82.0,
+     "prob": 81.9,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -6985,7 +6985,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.0,
+     "prob": 79.1,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -7034,7 +7034,7 @@
      "group": "Team goals",
      "key": "Team_goals_Nottingham_Forest_over_0_5",
      "minOdds": 1.36,
-     "odds": 1.2427,
+     "odds": 1.2433,
      "pMarket": 76.6,
      "post": false,
      "prob": 77.3,
@@ -7095,12 +7095,12 @@
     },
     {
      "ev": null,
-     "gap": 1.1,
+     "gap": 1.0,
      "group": "Double chance",
      "key": "Double_chance_Nottingham_Forest_or_Chelsea",
      "minOdds": 1.45,
      "odds": null,
-     "pMarket": 71.5,
+     "pMarket": 71.6,
      "post": false,
      "prob": 72.6,
      "selection": "Nottingham Forest or Chelsea",
@@ -7108,12 +7108,12 @@
     },
     {
      "ev": null,
-     "gap": 5.9,
+     "gap": 6.1,
      "group": "Double chance",
      "key": "Double_chance_Nottingham_Forest_or_draw",
      "minOdds": 1.46,
      "odds": null,
-     "pMarket": 66.5,
+     "pMarket": 66.3,
      "post": false,
      "prob": 72.4,
      "selection": "Nottingham Forest or draw",
@@ -7154,7 +7154,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 70.5,
+     "prob": 70.4,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -7172,12 +7172,12 @@
      "status": "trial"
     },
     {
-     "ev": -14.2,
+     "ev": -14.3,
      "gap": -7.4,
      "group": "Team goals",
      "key": "Team_goals_Chelsea_over_0_5",
      "minOdds": 1.59,
-     "odds": 1.2801,
+     "odds": 1.2793,
      "pMarket": 74.4,
      "post": false,
      "prob": 67.0,
@@ -7193,7 +7193,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 66.0,
+     "prob": 65.9,
      "selection": "Nottingham Forest over 3.5",
      "status": "trial"
     },
@@ -7202,11 +7202,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Over_3_5",
-     "minOdds": 1.72,
+     "minOdds": 1.71,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 62.3,
+     "prob": 62.4,
      "selection": "Over 3.5",
      "status": "trial"
     }
@@ -7569,7 +7569,7 @@
     "cardsModel": "v2",
     "corners": 11.5,
     "corners_away": 4.64,
-    "corners_home": 7.04,
+    "corners_home": 7.05,
     "home_goals": 1.84,
     "setPieceModel": "v2"
    },
@@ -7643,13 +7643,13 @@
      "status": "trial"
     },
     {
-     "ev": 0.8,
-     "gap": 5.0,
+     "ev": 0.5,
+     "gap": 4.8,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.24,
-     "odds": 1.1984,
-     "pMarket": 79.1,
+     "odds": 1.1953,
+     "pMarket": 79.3,
      "post": false,
      "prob": 84.1,
      "selection": "Over 1.5",
@@ -7747,13 +7747,13 @@
      "status": "trial"
     },
     {
-     "ev": -8.4,
-     "gap": -2.7,
+     "ev": -8.2,
+     "gap": -2.6,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.36,
-     "odds": 1.1866,
-     "pMarket": 79.9,
+     "odds": 1.1894,
+     "pMarket": 79.8,
      "post": false,
      "prob": 77.2,
      "selection": "Under 4.5",
@@ -7761,25 +7761,25 @@
     },
     {
      "ev": null,
-     "gap": 0.7,
+     "gap": 0.5,
      "group": "Double chance",
      "key": "Double_chance_Aberdeen_or_Dundee_FC",
      "minOdds": 1.38,
      "odds": null,
-     "pMarket": 75.4,
+     "pMarket": 75.6,
      "post": false,
      "prob": 76.1,
      "selection": "Aberdeen or Dundee FC",
      "status": "active"
     },
     {
-     "ev": 2.4,
-     "gap": 5.3,
+     "ev": 2.8,
+     "gap": 5.6,
      "group": "Team goals",
      "key": "Team_goals_Dundee_FC_over_0_5",
      "minOdds": 1.39,
-     "odds": 1.3521,
-     "pMarket": 70.4,
+     "odds": 1.3584,
+     "pMarket": 70.1,
      "post": false,
      "prob": 75.7,
      "selection": "Dundee FC over 0.5",
@@ -7878,12 +7878,12 @@
     },
     {
      "ev": null,
-     "gap": -5.1,
+     "gap": -5.2,
      "group": "Double chance",
      "key": "Double_chance_Aberdeen_or_draw",
      "minOdds": 1.49,
      "odds": null,
-     "pMarket": 75.9,
+     "pMarket": 76.0,
      "post": false,
      "prob": 70.8,
      "selection": "Aberdeen or draw",
@@ -11717,11 +11717,11 @@
    "event": "Excelsior – Telstar",
    "expected": {
     "away_goals": 1.5,
-    "cards": 2.96,
+    "cards": 2.97,
     "cardsModel": "v2",
     "corners": 10.2,
-    "corners_away": 3.79,
-    "corners_home": 6.43,
+    "corners_away": 3.81,
+    "corners_home": 6.4,
     "home_goals": 1.48,
     "setPieceModel": "v2"
    },
@@ -11734,11 +11734,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_6_5",
-     "minOdds": 1.08,
+     "minOdds": 1.09,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 95.8,
+     "prob": 95.7,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -11777,7 +11777,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 85.6,
+     "prob": 85.5,
      "selection": "Excelsior over 2.5",
      "status": "trial"
     },
@@ -11795,30 +11795,17 @@
      "status": "trial"
     },
     {
-     "ev": -3.0,
-     "gap": 1.8,
+     "ev": -3.1,
+     "gap": 1.7,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.28,
-     "odds": 1.1855,
-     "pMarket": 80.0,
+     "odds": 1.1845,
+     "pMarket": 80.1,
      "post": false,
      "prob": 81.8,
      "selection": "Under 4.5",
      "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_4_5",
-     "minOdds": 1.29,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 81.1,
-     "selection": "Under 4.5",
-     "status": "trial"
     },
     {
      "ev": null,
@@ -11831,6 +11818,19 @@
      "post": false,
      "prob": 81.0,
      "selection": "Aymen Sliti 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_4_5",
+     "minOdds": 1.3,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 80.9,
+     "selection": "Under 4.5",
      "status": "trial"
     },
     {
@@ -11873,13 +11873,13 @@
      "status": "trial"
     },
     {
-     "ev": 1.8,
-     "gap": 5.0,
+     "ev": 1.5,
+     "gap": 4.8,
      "group": "Team goals",
      "key": "Team_goals_Telstar_over_0_5",
      "minOdds": 1.35,
-     "odds": 1.3106,
-     "pMarket": 72.7,
+     "odds": 1.3067,
+     "pMarket": 72.9,
      "post": false,
      "prob": 77.7,
      "selection": "Telstar over 0.5",
@@ -11903,22 +11903,22 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Excelsior_over_3_5",
-     "minOdds": 1.36,
+     "minOdds": 1.37,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.1,
+     "prob": 76.9,
      "selection": "Excelsior over 3.5",
      "status": "trial"
     },
     {
      "ev": null,
-     "gap": 0.4,
+     "gap": 0.5,
      "group": "Double chance",
      "key": "Double_chance_Excelsior_or_Telstar",
      "minOdds": 1.42,
      "odds": null,
-     "pMarket": 73.9,
+     "pMarket": 73.8,
      "post": false,
      "prob": 74.3,
      "selection": "Excelsior or Telstar",
@@ -11929,11 +11929,11 @@
      "gap": null,
      "group": "Corners",
      "key": "Corners_Under_12_5",
-     "minOdds": 1.44,
+     "minOdds": 1.43,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 73.5,
+     "prob": 73.6,
      "selection": "Under 12.5",
      "status": "trial"
     },
@@ -11953,19 +11953,6 @@
     {
      "ev": null,
      "gap": null,
-     "group": "Corners",
-     "key": "Corners_Over_7_5",
-     "minOdds": 1.46,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 72.4,
-     "selection": "Over 7.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
      "group": "Player shots",
      "key": "Player_shots_David_Garden_1_",
      "minOdds": 1.46,
@@ -11979,13 +11966,26 @@
     {
      "ev": null,
      "gap": null,
+     "group": "Corners",
+     "key": "Corners_Over_7_5",
+     "minOdds": 1.46,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 72.3,
+     "selection": "Over 7.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Excelsior_over_4_5",
      "minOdds": 1.6,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 66.6,
+     "prob": 66.3,
      "selection": "Excelsior over 4.5",
      "status": "trial"
     },
@@ -12005,36 +12005,36 @@
     {
      "ev": null,
      "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_3_5",
-     "minOdds": 1.62,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 65.6,
-     "selection": "Under 3.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Telstar_over_2_5",
      "minOdds": 1.62,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 65.5,
+     "prob": 65.7,
      "selection": "Telstar over 2.5",
      "status": "trial"
     },
     {
-     "ev": -3.9,
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_3_5",
+     "minOdds": 1.63,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 65.4,
+     "selection": "Under 3.5",
+     "status": "trial"
+    },
+    {
+     "ev": -4.0,
      "gap": 0.8,
      "group": "Total goals",
      "key": "Total_goals_Under_3_5",
      "minOdds": 1.64,
-     "odds": 1.4785,
+     "odds": 1.4762,
      "pMarket": 64.2,
      "post": false,
      "prob": 65.0,
@@ -12043,12 +12043,12 @@
     },
     {
      "ev": null,
-     "gap": 10.8,
+     "gap": 10.3,
      "group": "Double chance",
      "key": "Double_chance_Telstar_or_draw",
      "minOdds": 1.69,
      "odds": null,
-     "pMarket": 52.5,
+     "pMarket": 53.0,
      "post": false,
      "prob": 63.3,
      "selection": "Telstar or draw",
@@ -12408,8 +12408,8 @@
    "coverage": 32,
    "event": "Cambuur Leeuwaarden – Sparta Rotterdam",
    "expected": {
-    "away_goals": 1.55,
-    "home_goals": 1.87
+    "away_goals": 1.54,
+    "home_goals": 1.88
    },
    "goalModel": "market",
    "id": "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam",
@@ -12424,7 +12424,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 96.1,
+     "prob": 96.2,
      "selection": "Over 0.5",
      "status": "active"
     },
@@ -12442,15 +12442,15 @@
      "status": "trial"
     },
     {
-     "ev": -3.4,
-     "gap": 1.4,
+     "ev": -3.3,
+     "gap": 1.5,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.21,
      "odds": 1.1235,
      "pMarket": 84.6,
      "post": false,
-     "prob": 86.0,
+     "prob": 86.1,
      "selection": "Over 1.5",
      "status": "active"
     },
@@ -12459,11 +12459,11 @@
      "gap": null,
      "group": "Team goals",
      "key": "Team_goals_Cambuur_Leeuwaarden_over_0_5",
-     "minOdds": 1.24,
+     "minOdds": 1.23,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 84.5,
+     "prob": 84.8,
      "selection": "Cambuur Leeuwaarden over 0.5",
      "status": "active"
     },
@@ -12472,11 +12472,11 @@
      "gap": null,
      "group": "Team goals",
      "key": "Team_goals_Sparta_Rotterdam_over_0_5",
-     "minOdds": 1.33,
+     "minOdds": 1.34,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 78.7,
+     "prob": 78.5,
      "selection": "Sparta Rotterdam over 0.5",
      "status": "active"
     },
@@ -12507,15 +12507,15 @@
      "status": "trial"
     },
     {
-     "ev": -1.6,
-     "gap": 2.8,
+     "ev": -1.7,
+     "gap": 2.6,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
-     "minOdds": 1.42,
-     "odds": 1.3268,
+     "minOdds": 1.43,
+     "odds": 1.3279,
      "pMarket": 71.4,
      "post": false,
-     "prob": 74.2,
+     "prob": 74.0,
      "selection": "Under 4.5",
      "status": "active"
     },
@@ -12534,14 +12534,14 @@
     },
     {
      "ev": null,
-     "gap": -0.4,
+     "gap": -0.3,
      "group": "Double chance",
      "key": "Double_chance_Cambuur_Leeuwaarden_or_draw",
-     "minOdds": 1.55,
+     "minOdds": 1.54,
      "odds": null,
-     "pMarket": 68.7,
+     "pMarket": 69.1,
      "post": false,
-     "prob": 68.3,
+     "prob": 68.8,
      "selection": "Cambuur Leeuwaarden or draw",
      "status": "active"
     },
@@ -12567,20 +12567,20 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 67.1,
+     "prob": 67.2,
      "selection": "Yes",
      "status": "active"
     },
     {
-     "ev": -5.4,
-     "gap": -0.2,
+     "ev": -5.3,
+     "gap": -0.1,
      "group": "Total goals",
      "key": "Total_goals_Over_2_5",
      "minOdds": 1.6,
-     "odds": 1.4274,
+     "odds": 1.4255,
      "pMarket": 66.5,
      "post": false,
-     "prob": 66.3,
+     "prob": 66.4,
      "selection": "Over 2.5",
      "status": "active"
     },
@@ -20600,8 +20600,8 @@
     "cards": 4.28,
     "cardsModel": "v2",
     "corners": 9.4,
-    "corners_away": 4.11,
-    "corners_home": 5.3,
+    "corners_away": 4.09,
+    "corners_home": 5.32,
     "home_goals": 1.34,
     "setPieceModel": "v2"
    },
@@ -20644,7 +20644,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 83.9,
+     "prob": 84.0,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -20666,11 +20666,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Alanyaspor_over_2_5",
-     "minOdds": 1.32,
+     "minOdds": 1.31,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.7,
+     "prob": 79.9,
      "selection": "Alanyaspor over 2.5",
      "status": "trial"
     },
@@ -20683,7 +20683,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.2,
+     "prob": 77.1,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -20701,26 +20701,26 @@
      "status": "active"
     },
     {
-     "ev": -1.1,
-     "gap": 2.8,
+     "ev": -0.8,
+     "gap": 3.0,
      "group": "Team goals",
      "key": "Team_goals_Konyaspor_over_0_5",
      "minOdds": 1.39,
-     "odds": 1.3086,
-     "pMarket": 72.8,
+     "odds": 1.3125,
+     "pMarket": 72.6,
      "post": false,
      "prob": 75.6,
      "selection": "Konyaspor over 0.5",
      "status": "active"
     },
     {
-     "ev": -3.4,
-     "gap": 1.1,
+     "ev": -3.7,
+     "gap": 0.8,
      "group": "Team goals",
      "key": "Team_goals_Alanyaspor_over_0_5",
      "minOdds": 1.43,
-     "odds": 1.3096,
-     "pMarket": 72.7,
+     "odds": 1.3049,
+     "pMarket": 73.0,
      "post": false,
      "prob": 73.8,
      "selection": "Alanyaspor over 0.5",
@@ -20761,18 +20761,18 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 72.9,
+     "prob": 73.0,
      "selection": "Under 5.5",
      "status": "trial"
     },
     {
      "ev": -8.2,
-     "gap": -3.0,
+     "gap": -2.9,
      "group": "Total goals",
      "key": "Total_goals_Under_3_5",
      "minOdds": 1.5,
      "odds": 1.304,
-     "pMarket": 73.4,
+     "pMarket": 73.3,
      "post": false,
      "prob": 70.4,
      "selection": "Under 3.5",
@@ -20787,7 +20787,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 69.4,
+     "prob": 69.1,
      "selection": "Konyaspor over 2.5",
      "status": "trial"
     },
@@ -20800,31 +20800,31 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 68.0,
+     "prob": 68.2,
      "selection": "Alanyaspor over 3.5",
      "status": "trial"
     },
     {
-     "ev": -4.4,
-     "gap": 1.8,
+     "ev": -4.3,
+     "gap": 1.9,
      "group": "Corners",
      "key": "Corners_Over_7_5",
      "minOdds": 1.62,
      "odds": 1.4566,
      "pMarket": 63.8,
      "post": false,
-     "prob": 65.6,
+     "prob": 65.7,
      "selection": "Over 7.5",
      "status": "trial"
     },
     {
      "ev": null,
-     "gap": 0.1,
+     "gap": 0.6,
      "group": "Double chance",
      "key": "Double_chance_Konyaspor_or_draw",
      "minOdds": 1.64,
      "odds": null,
-     "pMarket": 65.0,
+     "pMarket": 64.5,
      "post": false,
      "prob": 65.1,
      "selection": "Konyaspor or draw",
@@ -20845,25 +20845,25 @@
     },
     {
      "ev": null,
-     "gap": -2.8,
+     "gap": -3.3,
      "group": "Double chance",
      "key": "Double_chance_Alanyaspor_or_draw",
      "minOdds": 1.73,
      "odds": null,
-     "pMarket": 64.7,
+     "pMarket": 65.2,
      "post": false,
      "prob": 61.9,
      "selection": "Alanyaspor or draw",
      "status": "active"
     },
     {
-     "ev": 8.5,
-     "gap": 5.0,
+     "ev": 9.3,
+     "gap": 5.3,
      "group": "Team goals",
      "key": "Team_goals_Konyaspor_over_1_5",
      "minOdds": 2.72,
-     "odds": 2.64,
-     "pMarket": 36.1,
+     "odds": 2.66,
+     "pMarket": 35.8,
      "post": false,
      "prob": 41.1,
      "selection": "Konyaspor over 1.5",
@@ -23542,19 +23542,356 @@
    ],
    "sport": "hockey",
    "start": "2026-11-28T01:00:00Z"
+  },
+  {
+   "coverage": 56,
+   "event": "Brynas IF – HC Orebro",
+   "expected": {
+    "away_goals": 2.48,
+    "home_goals": 3.08
+   },
+   "goalModel": "h12",
+   "id": "2026-11-28-brynas-if-hc-orebro",
+   "league": "Sweden - SHL",
+   "lines": [
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals (60 min)",
+     "key": "Total_goals_60_min_Under_6_5",
+     "minOdds": 1.57,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 67.6,
+     "selection": "Under 6.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Puck line",
+     "key": "Puck_line_HC_Orebro_1_5",
+     "minOdds": 1.62,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 65.6,
+     "selection": "HC Orebro +1.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals (60 min)",
+     "key": "Total_goals_60_min_Over_4_5",
+     "minOdds": 1.63,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 65.2,
+     "selection": "Over 4.5",
+     "status": "active"
+    }
+   ],
+   "sport": "hockey",
+   "start": "2026-11-28T14:15:00Z"
+  },
+  {
+   "coverage": 56,
+   "event": "Lulea – Rogle BK",
+   "expected": {
+    "away_goals": 2.44,
+    "home_goals": 2.78
+   },
+   "goalModel": "h12",
+   "id": "2026-11-28-lulea-rogle-bk",
+   "league": "Sweden - SHL",
+   "lines": [
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals (60 min)",
+     "key": "Total_goals_60_min_Under_6_5",
+     "minOdds": 1.45,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 73.0,
+     "selection": "Under 6.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Puck line",
+     "key": "Puck_line_Rogle_BK_1_5",
+     "minOdds": 1.51,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 70.2,
+     "selection": "Rogle BK +1.5",
+     "status": "trial"
+    }
+   ],
+   "sport": "hockey",
+   "start": "2026-11-28T17:00:00Z"
+  },
+  {
+   "coverage": 56,
+   "event": "HV 71 – IF Bjorkloven",
+   "expected": {
+    "away_goals": 2.55,
+    "home_goals": 2.97
+   },
+   "goalModel": "h12",
+   "id": "2026-11-28-hv-71-if-bjorkloven",
+   "league": "Sweden - SHL",
+   "lines": [
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Puck line",
+     "key": "Puck_line_IF_Bjorkloven_1_5",
+     "minOdds": 1.55,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 68.3,
+     "selection": "IF Bjorkloven +1.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals (60 min)",
+     "key": "Total_goals_60_min_Under_6_5",
+     "minOdds": 1.55,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 68.3,
+     "selection": "Under 6.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals (60 min)",
+     "key": "Total_goals_60_min_Over_4_5",
+     "minOdds": 1.65,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 64.6,
+     "selection": "Over 4.5",
+     "status": "active"
+    }
+   ],
+   "sport": "hockey",
+   "start": "2026-11-28T17:00:00Z"
+  },
+  {
+   "coverage": 56,
+   "event": "Vaxjo Lakers – Frolunda HC",
+   "expected": {
+    "away_goals": 2.6,
+    "home_goals": 2.44
+   },
+   "goalModel": "h12",
+   "id": "2026-11-28-vaxjo-lakers-frolunda-hc",
+   "league": "Sweden - SHL",
+   "lines": [
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Puck line",
+     "key": "Puck_line_Frolunda_HC_1_5",
+     "minOdds": 1.35,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 77.6,
+     "selection": "Frolunda HC +1.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals (60 min)",
+     "key": "Total_goals_60_min_Under_6_5",
+     "minOdds": 1.39,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 75.7,
+     "selection": "Under 6.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals (60 min)",
+     "key": "Total_goals_60_min_Under_5_5",
+     "minOdds": 1.75,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 61.0,
+     "selection": "Under 5.5",
+     "status": "active"
+    }
+   ],
+   "sport": "hockey",
+   "start": "2026-11-28T17:00:00Z"
+  },
+  {
+   "coverage": 56,
+   "event": "Timra IK – Linkopings HC",
+   "expected": {
+    "away_goals": 2.37,
+    "home_goals": 3.12
+   },
+   "goalModel": "h12",
+   "id": "2026-11-28-timra-ik-linkopings-hc",
+   "league": "Sweden - SHL",
+   "lines": [
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals (60 min)",
+     "key": "Total_goals_60_min_Under_6_5",
+     "minOdds": 1.54,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 68.9,
+     "selection": "Under 6.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals (60 min)",
+     "key": "Total_goals_60_min_Over_4_5",
+     "minOdds": 1.67,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 64.0,
+     "selection": "Over 4.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Puck line",
+     "key": "Puck_line_Linkopings_HC_1_5",
+     "minOdds": 1.68,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 63.4,
+     "selection": "Linkopings HC +1.5",
+     "status": "trial"
+    },
+    {
+     "ev": -9.7,
+     "gap": -2.6,
+     "group": "Moneyline (incl. OT)",
+     "key": "Moneyline_incl_OT_Timra_IK",
+     "minOdds": 1.72,
+     "odds": 1.4545,
+     "pMarket": 64.7,
+     "post": false,
+     "prob": 62.1,
+     "selection": "Timra IK",
+     "status": "active"
+    }
+   ],
+   "sport": "hockey",
+   "start": "2026-11-28T14:15:00Z"
+  },
+  {
+   "coverage": 56,
+   "event": "Skelleftea AIK – Farjestads BK",
+   "expected": {
+    "away_goals": 2.67,
+    "home_goals": 2.58
+   },
+   "goalModel": "h12",
+   "id": "2026-11-28-skelleftea-aik-farjestads-bk",
+   "league": "Sweden - SHL",
+   "lines": [
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Puck line",
+     "key": "Puck_line_Farjestads_BK_1_5",
+     "minOdds": 1.38,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 76.2,
+     "selection": "Farjestads BK +1.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals (60 min)",
+     "key": "Total_goals_60_min_Under_6_5",
+     "minOdds": 1.46,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 72.5,
+     "selection": "Under 6.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals (60 min)",
+     "key": "Total_goals_60_min_Over_4_5",
+     "minOdds": 1.78,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 60.2,
+     "selection": "Over 4.5",
+     "status": "active"
+    },
+    {
+     "ev": 10.5,
+     "gap": 7.3,
+     "group": "Moneyline (incl. OT)",
+     "key": "Moneyline_incl_OT_Farjestads_BK",
+     "minOdds": 2.14,
+     "odds": 2.17,
+     "pMarket": 43.6,
+     "post": true,
+     "prob": 50.9,
+     "selection": "Farjestads BK",
+     "status": "active"
+    }
+   ],
+   "sport": "hockey",
+   "start": "2026-11-28T14:15:00Z"
   }
  ],
  "meta": {
   "decisionVersion": "3.6",
-  "fetchedAt": "2026-11-26T20:47:08Z",
-  "matches": 86,
+  "fetchedAt": "2026-11-26T21:45:21Z",
+  "matches": 92,
   "note": "priced by code from repo data and Pinnacle; line-ups, injuries and referees are NOT known to the robot",
-  "oddsFetchedAt": "2026-11-26T20:47:07Z",
+  "oddsFetchedAt": "2026-11-26T21:45:20Z",
   "products": 127,
   "profile": "hitrate",
-  "repoCommit": "6436a798d0e5a7084865d4e58ec5a4275d29fcee",
+  "repoCommit": "167b100f252913f0af033c1d905a853b5302f63e",
   "rules": "v1",
-  "skipped": 0
+  "skipped": 1
  },
  "products": [
   {
@@ -24722,6 +25059,63 @@
    "tier": "safe"
   },
   {
+   "event": "Alanyaspor – Konyaspor",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.37,
+    "gap": null,
+    "group": "Cards",
+    "key": "Cards_Under_5_5",
+    "minOdds": 1.45,
+    "minOddsV1": 1.45,
+    "minOddsV2": 1.43,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 70.0,
+    "prob": 73.0,
+    "probHigh": 78.0,
+    "probLow": 68.0,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 5.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-27-alanyaspor-konyaspor",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 5.5 (Cards)",
+   "rank": 21,
+   "sharedWith": [
+    29
+   ],
+   "start": "2026-11-27T17:00:00Z",
+   "tier": "safe"
+  },
+  {
    "event": "Heidenheim – Nurnberg",
    "kind": "check",
    "line": {
@@ -24771,65 +25165,8 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 21,
-   "start": "2026-11-27T17:30:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "Alanyaspor – Konyaspor",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.37,
-    "gap": null,
-    "group": "Cards",
-    "key": "Cards_Under_5_5",
-    "minOdds": 1.45,
-    "minOddsV1": 1.45,
-    "minOddsV2": 1.44,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 69.9,
-    "prob": 72.9,
-    "probHigh": 77.9,
-    "probLow": 67.9,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Under 5.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-27-alanyaspor-konyaspor",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Under 5.5 (Cards)",
    "rank": 22,
-   "sharedWith": [
-    29
-   ],
-   "start": "2026-11-27T17:00:00Z",
+   "start": "2026-11-27T17:30:00Z",
    "tier": "safe"
   },
   {
@@ -30166,9 +30503,9 @@
    "kind": "playerBuilder",
    "legs": [
     {
-     "ev": -3.4,
+     "ev": -3.3,
      "fair": 1.16,
-     "gap": 1.4,
+     "gap": 1.5,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.21,
@@ -30180,10 +30517,10 @@
      "oddsStale": false,
      "pMarket": 84.6,
      "pMarketKind": "novig",
-     "pQ": 83.6,
-     "prob": 86.0,
-     "probHigh": 91.0,
-     "probLow": 81.0,
+     "pQ": 83.7,
+     "prob": 86.1,
+     "probHigh": 91.1,
+     "probLow": 81.1,
      "qualityBreakdown": {
       "data": 6,
       "ev": 0.0,
@@ -31420,19 +31757,19 @@
    "kind": "playerBuilder",
    "legs": [
     {
-     "ev": 0.8,
+     "ev": 0.5,
      "fair": 1.19,
-     "gap": 5.0,
+     "gap": 4.8,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.24,
      "minOddsV1": 1.24,
      "minOddsV2": 1.23,
      "nEff": 164,
-     "odds": 1.1984,
+     "odds": 1.1953,
      "oddsAgeMin": 0,
      "oddsStale": false,
-     "pMarket": 79.1,
+     "pMarket": 79.3,
      "pMarketKind": "novig",
      "pQ": 81.5,
      "prob": 84.1,
@@ -31440,7 +31777,7 @@
      "probLow": 79.1,
      "qualityBreakdown": {
       "data": 7,
-      "ev": 2.4,
+      "ev": 1.6,
       "evidence": 9,
       "info": 2,
       "market": 5,
@@ -31835,14 +32172,21 @@
    "tier": "builder"
   }
  ],
- "skipped": [],
+ "skipped": [
+  {
+   "event": "Malmo IF – Djurgardens IF",
+   "league": "Sweden - SHL",
+   "reason": "team not found: Malmo IF",
+   "start": "2026-11-28T14:15:00Z"
+  }
+ ],
  "summary": {
-  "both": 56,
-  "lines": 5586,
-  "priced": 1107,
+  "both": 58,
+  "lines": 5664,
+  "priced": 1119,
   "v1Only": 0,
-  "v1Post": 56,
+  "v1Post": 58,
   "v2Only": 33,
-  "v2Post": 89
+  "v2Post": 91
  }
 }
