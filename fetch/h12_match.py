@@ -27,9 +27,11 @@ def find_team(snap, q):
     T = snap["teams"]
     if q in T:
         return q
-    for k, v in T.items():
-        if v.get("abbrev") and v["abbrev"].upper() == q.upper():
-            return k
+    # an abbreviation can belong to a renamed franchise too (UTA: Utah Hockey Club, then Utah Mammoth):
+    # the team that played most recently is the current one
+    ab = [k for k, v in T.items() if (v.get("abbrev") or "").upper() == q.upper()]
+    if ab:
+        return max(ab, key=lambda k: T[k].get("lastDate") or "")
     hits = [k for k in T if fold(k) == fold(q)]
     return hits[0] if len(hits) == 1 else None
 
@@ -43,7 +45,7 @@ def find_goalie(snap, q):
     return hits[0] if len(hits) == 1 else q          # unknown -> kept as named, league prior
 
 
-def block(snap, home, away, day, gh=None, ga=None):
+def block(snap, home, away, day, gh=None, ga=None, league="nhl"):
     h, a = find_team(snap, home), find_team(snap, away)
     if not h or not a:
         raise KeyError(f"team not in h12 state: {home if not h else away}")
@@ -52,8 +54,11 @@ def block(snap, home, away, day, gh=None, ga=None):
     b = H.match_block(snap, h, a, find_goalie(snap, gh), find_goalie(snap, ga),
                       T[h]["lastDate"] == prev, T[a]["lastDate"] == prev)
     b["gameDate"] = day
-    # the state must include yesterday's games, or a back-to-back could be missed
-    b["stateBehind"] = (snap.get("gamesThrough") or "") < prev
+    # yesterday's games must be in the state, or a back-to-back (and one game of form) could be missed:
+    # the state holds every game completed before its fetch, and the last of yesterday's games ends before
+    # 08:00 UTC on game day (NHL, US evenings) or before midnight UTC (SHL)
+    done = f"{day}T08:00:00Z" if league == "nhl" else f"{day}T00:00:00Z"
+    b["stateBehind"] = (snap.get("meta") or {}).get("fetchedAt", "") < done
     return b
 
 
@@ -64,7 +69,7 @@ def main(argv):
     rel = f"{league}/h12_state.json"
     snap = json.load(open(os.path.join(DATA, rel), encoding="utf-8"))
     try:
-        b = block(snap, home, away, day, gh, ga)
+        b = block(snap, home, away, day, gh, ga, league)
     except KeyError as e:
         print(json.dumps({"error": str(e)}))
         return 2

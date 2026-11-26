@@ -56,6 +56,10 @@ class Match(unittest.TestCase):
         self.assertEqual(h12_match.find_team(self.snap, "montreal canadiens"), name)
         self.assertIsNone(h12_match.find_team(self.snap, "Nowhere"))
 
+    def test_abbreviation_prefers_current_franchise(self):
+        snap = json.load(open(os.path.join(HERE, "..", "data", "nhl", "h12_seed.json")))
+        self.assertEqual(h12_match.find_team(snap, "UTA"), "Utah Mammoth")
+
     def test_block_copies_exact_numbers_and_flags_b2b(self):
         T = self.snap["teams"]
         h, a = sorted(T)[:2]
@@ -67,9 +71,14 @@ class Match(unittest.TestCase):
         for f in ("sf", "sa", "gf", "ga", "n"):
             self.assertEqual(b["home"][f], T[h][f])
         self.assertEqual(b["params"], self.snap["params"])
-        far = h12_match.block(self.snap, h, a, "2026-12-30")
-        self.assertTrue(far["stateBehind"])
+        self.assertFalse(b["stateBehind"])                       # fetched 26 Nov, game long before
+        far = h12_match.block(self.snap, h, a, "2026-11-26")       # fetched 10:20 UTC on game day: complete
+        self.assertFalse(far["stateBehind"])
         self.assertFalse(far["b2bHome"])
+        nxt = h12_match.block(self.snap, h, a, "2026-11-27")       # 26 Nov games not finished at fetch
+        self.assertTrue(nxt["stateBehind"])
+        self.assertFalse(h12_match.block(self.snap, h, a, "2026-11-26", league="shl")["stateBehind"])
+        self.assertTrue(h12_match.block(self.snap, h, a, "2026-11-27", league="shl")["stateBehind"])
 
 
 if __name__ == "__main__":
