@@ -3,7 +3,7 @@
   "Arntzen, Jonas": {
    "ga": 29.0,
    "gaa": 3.03,
-   "gp_team": 19.0,
+   "gp_team": 20.0,
    "gpi": 10.0,
    "shutouts": 0.0,
    "sog": 287.0,
@@ -25,7 +25,7 @@
   "Chrona, Magnus": {
    "ga": 25.0,
    "gaa": 2.38,
-   "gp_team": 18.0,
+   "gp_team": 19.0,
    "gpi": 13.0,
    "shutouts": 0.0,
    "sog": 238.0,
@@ -34,15 +34,15 @@
    "toi": "630:25"
   },
   "Clang, Calle": {
-   "ga": 17.0,
-   "gaa": 2.59,
-   "gp_team": 19.0,
-   "gpi": 7.0,
+   "ga": 18.0,
+   "gaa": 2.38,
+   "gp_team": 20.0,
+   "gpi": 8.0,
    "shutouts": 0.0,
-   "sog": 164.0,
-   "sv_pct": 0.8963,
+   "sog": 197.0,
+   "sv_pct": 0.9086,
    "team": "RBK",
-   "toi": "393:09"
+   "toi": "453:09"
   },
   "Dichow, Frederik": {
    "ga": 5.0,
@@ -58,7 +58,7 @@
   "Gunnarsson, Jonas": {
    "ga": 1.0,
    "gaa": 2.51,
-   "gp_team": 11.0,
+   "gp_team": 12.0,
    "gpi": 1.0,
    "shutouts": 0.0,
    "sog": 6.0,
@@ -69,7 +69,7 @@
   "Hellberg, Magnus": {
    "ga": 37.0,
    "gaa": 2.45,
-   "gp_team": 18.0,
+   "gp_team": 19.0,
    "gpi": 16.0,
    "shutouts": 1.0,
    "sog": 457.0,
@@ -80,7 +80,7 @@
   "Holm, Arvid": {
    "ga": 36.0,
    "gaa": 2.93,
-   "gp_team": 19.0,
+   "gp_team": 20.0,
    "gpi": 13.0,
    "shutouts": 0.0,
    "sog": 290.0,
@@ -91,7 +91,7 @@
   "Högberg, Marcus": {
    "ga": 45.0,
    "gaa": 3.92,
-   "gp_team": 18.0,
+   "gp_team": 19.0,
    "gpi": 12.0,
    "shutouts": 1.0,
    "sog": 359.0,
@@ -100,53 +100,53 @@
    "toi": "689:14"
   },
   "Ignatjew, Waltteri": {
-   "ga": 14.0,
-   "gaa": 2.35,
-   "gp_team": 18.0,
-   "gpi": 7.0,
-   "shutouts": 0.0,
-   "sog": 176.0,
-   "sv_pct": 0.9205,
-   "team": "LHC",
-   "toi": "357:23"
-  },
-  "Johansson, Jacob": {
-   "ga": 35.0,
-   "gaa": 2.17,
-   "gp_team": 18.0,
-   "gpi": 17.0,
-   "shutouts": 2.0,
-   "sog": 383.0,
-   "sv_pct": 0.9086,
-   "team": "TIK",
-   "toi": "966:39"
-  },
-  "Johansson, Lars": {
-   "ga": 23.0,
-   "gaa": 2.3,
-   "gp_team": 21.0,
-   "gpi": 11.0,
-   "shutouts": 1.0,
-   "sog": 301.0,
-   "sv_pct": 0.9236,
-   "team": "FRÖ",
-   "toi": "599:12"
-  },
-  "Källgren, Erik": {
-   "ga": 22.0,
-   "gaa": 3.02,
-   "gp_team": 17.0,
+   "ga": 18.0,
+   "gaa": 2.59,
+   "gp_team": 19.0,
    "gpi": 8.0,
    "shutouts": 0.0,
-   "sog": 169.0,
-   "sv_pct": 0.8698,
+   "sog": 203.0,
+   "sv_pct": 0.9113,
+   "team": "LHC",
+   "toi": "417:23"
+  },
+  "Johansson, Jacob": {
+   "ga": 39.0,
+   "gaa": 2.27,
+   "gp_team": 19.0,
+   "gpi": 18.0,
+   "shutouts": 2.0,
+   "sog": 411.0,
+   "sv_pct": 0.9051,
+   "team": "TIK",
+   "toi": "1031:01"
+  },
+  "Johansson, Lars": {
+   "ga": 25.0,
+   "gaa": 2.28,
+   "gp_team": 22.0,
+   "gpi": 12.0,
+   "shutouts": 1.0,
+   "sog": 316.0,
+   "sv_pct": 0.9209,
+   "team": "FRÖ",
+   "toi": "659:12"
+  },
+  "Källgren, Erik": {
+   "ga": 23.0,
+   "gaa": 2.77,
+   "gp_team": 18.0,
+   "gpi": 9.0,
+   "shutouts": 0.0,
+   "sog": 188.0,
+   "sv_pct": 0.8777,
    "team": "BIF",
-   "toi": "437:26"
+   "toi": "497:26"
   },
   "Lampinen, Jani": {
    "ga": 11.0,
    "gaa": 4.62,
-   "gp_team": 18.0,
+   "gp_team": 19.0,
    "gpi": 3.0,
    "shutouts": 0.0,
    "sog": 59.0,
@@ -168,7 +168,7 @@
   "Larmi, Emil": {
    "ga": 13.0,
    "gaa": 1.44,
-   "gp_team": 18.0,
+   "gp_team": 19.0,
    "gpi": 9.0,
    "shutouts": 1.0,
    "sog": 220.0,
@@ -177,15 +177,15 @@
    "toi": "543:30"
   },
   "Larsson, Filip": {
-   "ga": 22.0,
-   "gaa": 2.32,
-   "gp_team": 17.0,
-   "gpi": 10.0,
+   "ga": 23.0,
+   "gaa": 2.19,
+   "gp_team": 18.0,
+   "gpi": 11.0,
    "shutouts": 1.0,
-   "sog": 295.0,
-   "sv_pct": 0.9254,
+   "sog": 328.0,
+   "sv_pct": 0.9299,
    "team": "ÖHK",
-   "toi": "569:34"
+   "toi": "629:34"
   },
   "Lassinantti, Joel": {
    "ga": 27.0,
@@ -199,53 +199,53 @@
    "toi": "881:35"
   },
   "Lehtinen, Lassi": {
-   "ga": 25.0,
-   "gaa": 3.1,
-   "gp_team": 18.0,
-   "gpi": 9.0,
+   "ga": 29.0,
+   "gaa": 3.21,
+   "gp_team": 19.0,
+   "gpi": 10.0,
    "shutouts": 1.0,
-   "sog": 271.0,
-   "sv_pct": 0.9077,
+   "sog": 302.0,
+   "sv_pct": 0.904,
    "team": "IFB",
-   "toi": "483:20"
+   "toi": "541:56"
   },
   "Liv, Herman": {
-   "ga": 20.0,
-   "gaa": 3.79,
-   "gp_team": 18.0,
-   "gpi": 6.0,
+   "ga": 22.0,
+   "gaa": 3.53,
+   "gp_team": 19.0,
+   "gpi": 7.0,
    "shutouts": 0.0,
-   "sog": 153.0,
-   "sv_pct": 0.8693,
+   "sog": 179.0,
+   "sv_pct": 0.8771,
    "team": "HV71",
-   "toi": "316:26"
+   "toi": "374:08"
   },
   "Mann, Strauss": {
-   "ga": 30.0,
-   "gaa": 1.99,
-   "gp_team": 17.0,
-   "gpi": 15.0,
+   "ga": 33.0,
+   "gaa": 2.06,
+   "gp_team": 18.0,
+   "gpi": 16.0,
    "shutouts": 0.0,
-   "sog": 313.0,
-   "sv_pct": 0.9042,
+   "sog": 339.0,
+   "sv_pct": 0.9027,
    "team": "SKE",
-   "toi": "903:40"
+   "toi": "962:52"
   },
   "Marmenlind, Daniel": {
-   "ga": 15.0,
-   "gaa": 3.69,
-   "gp_team": 19.0,
-   "gpi": 4.0,
+   "ga": 18.0,
+   "gaa": 3.56,
+   "gp_team": 20.0,
+   "gpi": 5.0,
    "shutouts": 0.0,
-   "sog": 134.0,
-   "sv_pct": 0.8881,
+   "sog": 153.0,
+   "sv_pct": 0.8824,
    "team": "DIF",
-   "toi": "243:40"
+   "toi": "303:32"
   },
   "Normann, Tobias": {
    "ga": 22.0,
    "gaa": 1.98,
-   "gp_team": 18.0,
+   "gp_team": 19.0,
    "gpi": 11.0,
    "shutouts": 2.0,
    "sog": 215.0,
@@ -256,7 +256,7 @@
   "Persson, Ludvig": {
    "ga": 18.0,
    "gaa": 2.14,
-   "gp_team": 18.0,
+   "gp_team": 19.0,
    "gpi": 10.0,
    "shutouts": 1.0,
    "sog": 231.0,
@@ -267,7 +267,7 @@
   "Ringquist, Anton": {
    "ga": 4.0,
    "gaa": 6.23,
-   "gp_team": 7.0,
+   "gp_team": 8.0,
    "gpi": 1.0,
    "shutouts": 0.0,
    "sog": 16.0,
@@ -287,20 +287,20 @@
    "toi": "753:32"
   },
   "Thelin, Melker": {
-   "ga": 10.0,
-   "gaa": 1.1,
-   "gp_team": 18.0,
-   "gpi": 9.0,
+   "ga": 14.0,
+   "gaa": 1.37,
+   "gp_team": 19.0,
+   "gpi": 10.0,
    "shutouts": 3.0,
-   "sog": 204.0,
-   "sv_pct": 0.951,
+   "sog": 234.0,
+   "sv_pct": 0.9402,
    "team": "FBK",
-   "toi": "546:01"
+   "toi": "611:01"
   },
   "Tuohimaa, Frans": {
    "ga": 27.0,
    "gaa": 2.78,
-   "gp_team": 18.0,
+   "gp_team": 19.0,
    "gpi": 10.0,
    "shutouts": 0.0,
    "sog": 277.0,
@@ -320,20 +320,20 @@
    "toi": "262:50"
   },
   "Åhman, Adam": {
-   "ga": 32.0,
-   "gaa": 3.71,
-   "gp_team": 18.0,
-   "gpi": 10.0,
+   "ga": 33.0,
+   "gaa": 3.42,
+   "gp_team": 19.0,
+   "gpi": 11.0,
    "shutouts": 0.0,
-   "sog": 228.0,
-   "sv_pct": 0.8596,
+   "sog": 259.0,
+   "sv_pct": 0.8726,
    "team": "VÄX",
-   "toi": "518:12"
+   "toi": "578:12"
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-26T19:42:17Z",
-  "lastUpdate": "2026-11-24 21:34",
+  "fetchedAt": "2026-11-26T21:31:34Z",
+  "lastUpdate": "2026-11-26 21:52",
   "note": "team = federation code (e.g. FBK Färjestad, RBK Rögle); gp_team = team games, gpi = games this goalie played",
   "season": "2026/27",
   "source": "https://stats.swehockey.se/Players/Statistics/LeadingGoaliesSVS/20961"
