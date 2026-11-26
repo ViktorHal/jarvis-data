@@ -1,0 +1,840 @@
+{
+ "meta": {
+  "fetchedAt": "2026-11-26T10:06:10Z",
+  "league": "Ligue 1",
+  "note": "statz.ai's own xG model; last5 = last five league games",
+  "season": "2026/2027",
+  "source": "https://statz.ai/competitions/ligue-1/xg",
+  "updatedText": "Updated 22 November 2026, after the last game"
+ },
+ "teams": {
+  "Angers SCO": {
+   "all": {
+    "ga": 23.0,
+    "ga_pg": 2.091,
+    "goals": 9.0,
+    "goals_pg": 0.818,
+    "played": 11,
+    "xg": 14.0,
+    "xg_pg": 1.273,
+    "xga": 22.0,
+    "xga_pg": 2.0
+   },
+   "away": {
+    "ga": 12.0,
+    "ga_pg": 2.4,
+    "goals": 4.0,
+    "goals_pg": 0.8,
+    "played": 5,
+    "xg": 4.6,
+    "xg_pg": 0.92,
+    "xga": 12.2,
+    "xga_pg": 2.44
+   },
+   "home": {
+    "ga": 11.0,
+    "ga_pg": 1.833,
+    "goals": 5.0,
+    "goals_pg": 0.833,
+    "played": 6,
+    "xg": 9.4,
+    "xg_pg": 1.567,
+    "xga": 9.8,
+    "xga_pg": 1.633
+   },
+   "last5": {
+    "ga": 13.0,
+    "ga_pg": 2.6,
+    "goals": 2.0,
+    "goals_pg": 0.4,
+    "played": 5,
+    "xg": 4.7,
+    "xg_pg": 0.94,
+    "xga": 11.1,
+    "xga_pg": 2.22
+   }
+  },
+  "Auxerre": {
+   "all": {
+    "ga": 25.0,
+    "ga_pg": 2.273,
+    "goals": 14.0,
+    "goals_pg": 1.273,
+    "played": 11,
+    "xg": 11.6,
+    "xg_pg": 1.055,
+    "xga": 20.4,
+    "xga_pg": 1.855
+   },
+   "away": {
+    "ga": 19.0,
+    "ga_pg": 3.167,
+    "goals": 9.0,
+    "goals_pg": 1.5,
+    "played": 6,
+    "xg": 6.0,
+    "xg_pg": 1.0,
+    "xga": 15.7,
+    "xga_pg": 2.617
+   },
+   "home": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 5.6,
+    "xg_pg": 1.12,
+    "xga": 4.7,
+    "xga_pg": 0.94
+   },
+   "last5": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 6.0,
+    "goals_pg": 1.2,
+    "played": 5,
+    "xg": 4.0,
+    "xg_pg": 0.8,
+    "xga": 8.6,
+    "xga_pg": 1.72
+   }
+  },
+  "Brest": {
+   "all": {
+    "ga": 12.0,
+    "ga_pg": 1.091,
+    "goals": 19.0,
+    "goals_pg": 1.727,
+    "played": 11,
+    "xg": 19.7,
+    "xg_pg": 1.791,
+    "xga": 14.6,
+    "xga_pg": 1.327
+   },
+   "away": {
+    "ga": 6.0,
+    "ga_pg": 1.0,
+    "goals": 9.0,
+    "goals_pg": 1.5,
+    "played": 6,
+    "xg": 9.2,
+    "xg_pg": 1.533,
+    "xga": 10.0,
+    "xga_pg": 1.667
+   },
+   "home": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 10.0,
+    "goals_pg": 2.0,
+    "played": 5,
+    "xg": 10.6,
+    "xg_pg": 2.12,
+    "xga": 4.6,
+    "xga_pg": 0.92
+   },
+   "last5": {
+    "ga": 3.0,
+    "ga_pg": 0.6,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 6.5,
+    "xg_pg": 1.3,
+    "xga": 7.6,
+    "xga_pg": 1.52
+   }
+  },
+  "LOSC Lille": {
+   "all": {
+    "ga": 8.0,
+    "ga_pg": 0.727,
+    "goals": 14.0,
+    "goals_pg": 1.273,
+    "played": 11,
+    "xg": 12.7,
+    "xg_pg": 1.155,
+    "xga": 15.0,
+    "xga_pg": 1.364
+   },
+   "away": {
+    "ga": 4.0,
+    "ga_pg": 0.8,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 4.9,
+    "xg_pg": 0.98,
+    "xga": 10.0,
+    "xga_pg": 2.0
+   },
+   "home": {
+    "ga": 4.0,
+    "ga_pg": 0.667,
+    "goals": 7.0,
+    "goals_pg": 1.167,
+    "played": 6,
+    "xg": 7.8,
+    "xg_pg": 1.3,
+    "xga": 5.0,
+    "xga_pg": 0.833
+   },
+   "last5": {
+    "ga": 4.0,
+    "ga_pg": 0.8,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 5.5,
+    "xg_pg": 1.1,
+    "xga": 5.1,
+    "xga_pg": 1.02
+   }
+  },
+  "Le Havre": {
+   "all": {
+    "ga": 25.0,
+    "ga_pg": 2.273,
+    "goals": 10.0,
+    "goals_pg": 0.909,
+    "played": 11,
+    "xg": 18.1,
+    "xg_pg": 1.645,
+    "xga": 18.1,
+    "xga_pg": 1.645
+   },
+   "away": {
+    "ga": 12.0,
+    "ga_pg": 2.4,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 8.8,
+    "xg_pg": 1.76,
+    "xga": 8.5,
+    "xga_pg": 1.7
+   },
+   "home": {
+    "ga": 13.0,
+    "ga_pg": 2.167,
+    "goals": 3.0,
+    "goals_pg": 0.5,
+    "played": 6,
+    "xg": 9.3,
+    "xg_pg": 1.55,
+    "xga": 9.6,
+    "xga_pg": 1.6
+   },
+   "last5": {
+    "ga": 17.0,
+    "ga_pg": 3.4,
+    "goals": 6.0,
+    "goals_pg": 1.2,
+    "played": 5,
+    "xg": 8.2,
+    "xg_pg": 1.64,
+    "xga": 8.6,
+    "xga_pg": 1.72
+   }
+  },
+  "Le Mans": {
+   "all": {
+    "ga": 21.0,
+    "ga_pg": 1.909,
+    "goals": 15.0,
+    "goals_pg": 1.364,
+    "played": 11,
+    "xg": 18.3,
+    "xg_pg": 1.664,
+    "xga": 19.1,
+    "xga_pg": 1.736
+   },
+   "away": {
+    "ga": 12.0,
+    "ga_pg": 2.0,
+    "goals": 8.0,
+    "goals_pg": 1.333,
+    "played": 6,
+    "xg": 10.0,
+    "xg_pg": 1.667,
+    "xga": 11.1,
+    "xga_pg": 1.85
+   },
+   "home": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 8.3,
+    "xg_pg": 1.66,
+    "xga": 8.0,
+    "xga_pg": 1.6
+   },
+   "last5": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 8.5,
+    "xg_pg": 1.7,
+    "xga": 6.5,
+    "xga_pg": 1.3
+   }
+  },
+  "Lens": {
+   "all": {
+    "ga": 16.0,
+    "ga_pg": 1.455,
+    "goals": 18.0,
+    "goals_pg": 1.636,
+    "played": 11,
+    "xg": 18.3,
+    "xg_pg": 1.664,
+    "xga": 16.8,
+    "xga_pg": 1.527
+   },
+   "away": {
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 7.5,
+    "xg_pg": 1.5,
+    "xga": 9.1,
+    "xga_pg": 1.82
+   },
+   "home": {
+    "ga": 8.0,
+    "ga_pg": 1.333,
+    "goals": 11.0,
+    "goals_pg": 1.833,
+    "played": 6,
+    "xg": 10.8,
+    "xg_pg": 1.8,
+    "xga": 7.7,
+    "xga_pg": 1.283
+   },
+   "last5": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 6.4,
+    "xg_pg": 1.28,
+    "xga": 6.0,
+    "xga_pg": 1.2
+   }
+  },
+  "Lorient": {
+   "all": {
+    "ga": 9.0,
+    "ga_pg": 0.818,
+    "goals": 10.0,
+    "goals_pg": 0.909,
+    "played": 11,
+    "xg": 13.4,
+    "xg_pg": 1.218,
+    "xga": 12.5,
+    "xga_pg": 1.136
+   },
+   "away": {
+    "ga": 2.0,
+    "ga_pg": 0.4,
+    "goals": 4.0,
+    "goals_pg": 0.8,
+    "played": 5,
+    "xg": 5.1,
+    "xg_pg": 1.02,
+    "xga": 5.0,
+    "xga_pg": 1.0
+   },
+   "home": {
+    "ga": 7.0,
+    "ga_pg": 1.167,
+    "goals": 6.0,
+    "goals_pg": 1.0,
+    "played": 6,
+    "xg": 8.4,
+    "xg_pg": 1.4,
+    "xga": 7.5,
+    "xga_pg": 1.25
+   },
+   "last5": {
+    "ga": 3.0,
+    "ga_pg": 0.6,
+    "goals": 4.0,
+    "goals_pg": 0.8,
+    "played": 5,
+    "xg": 6.9,
+    "xg_pg": 1.38,
+    "xga": 4.5,
+    "xga_pg": 0.9
+   }
+  },
+  "Monaco": {
+   "all": {
+    "ga": 12.0,
+    "ga_pg": 1.091,
+    "goals": 14.0,
+    "goals_pg": 1.273,
+    "played": 11,
+    "xg": 14.6,
+    "xg_pg": 1.327,
+    "xga": 15.1,
+    "xga_pg": 1.373
+   },
+   "away": {
+    "ga": 7.0,
+    "ga_pg": 1.167,
+    "goals": 6.0,
+    "goals_pg": 1.0,
+    "played": 6,
+    "xg": 6.4,
+    "xg_pg": 1.067,
+    "xga": 9.6,
+    "xga_pg": 1.6
+   },
+   "home": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 8.0,
+    "goals_pg": 1.6,
+    "played": 5,
+    "xg": 8.2,
+    "xg_pg": 1.64,
+    "xga": 5.5,
+    "xga_pg": 1.1
+   },
+   "last5": {
+    "ga": 7.0,
+    "ga_pg": 1.4,
+    "goals": 4.0,
+    "goals_pg": 0.8,
+    "played": 5,
+    "xg": 7.4,
+    "xg_pg": 1.48,
+    "xga": 6.3,
+    "xga_pg": 1.26
+   }
+  },
+  "Nice": {
+   "all": {
+    "ga": 15.0,
+    "ga_pg": 1.364,
+    "goals": 17.0,
+    "goals_pg": 1.545,
+    "played": 11,
+    "xg": 13.7,
+    "xg_pg": 1.245,
+    "xga": 16.6,
+    "xga_pg": 1.509
+   },
+   "away": {
+    "ga": 7.0,
+    "ga_pg": 1.4,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 5.8,
+    "xg_pg": 1.16,
+    "xga": 7.9,
+    "xga_pg": 1.58
+   },
+   "home": {
+    "ga": 8.0,
+    "ga_pg": 1.333,
+    "goals": 12.0,
+    "goals_pg": 2.0,
+    "played": 6,
+    "xg": 7.9,
+    "xg_pg": 1.317,
+    "xga": 8.7,
+    "xga_pg": 1.45
+   },
+   "last5": {
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 12.0,
+    "goals_pg": 2.4,
+    "played": 5,
+    "xg": 7.8,
+    "xg_pg": 1.56,
+    "xga": 8.4,
+    "xga_pg": 1.68
+   }
+  },
+  "Olympique Lyonnais": {
+   "all": {
+    "ga": 9.0,
+    "ga_pg": 0.818,
+    "goals": 16.0,
+    "goals_pg": 1.455,
+    "played": 11,
+    "xg": 17.2,
+    "xg_pg": 1.564,
+    "xga": 12.6,
+    "xga_pg": 1.145
+   },
+   "away": {
+    "ga": 6.0,
+    "ga_pg": 1.0,
+    "goals": 4.0,
+    "goals_pg": 0.667,
+    "played": 6,
+    "xg": 5.8,
+    "xg_pg": 0.967,
+    "xga": 8.2,
+    "xga_pg": 1.367
+   },
+   "home": {
+    "ga": 3.0,
+    "ga_pg": 0.6,
+    "goals": 12.0,
+    "goals_pg": 2.4,
+    "played": 5,
+    "xg": 11.4,
+    "xg_pg": 2.28,
+    "xga": 4.4,
+    "xga_pg": 0.88
+   },
+   "last5": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 6.5,
+    "xg_pg": 1.3,
+    "xga": 6.1,
+    "xga_pg": 1.22
+   }
+  },
+  "Olympique Marseille": {
+   "all": {
+    "ga": 17.0,
+    "ga_pg": 1.545,
+    "goals": 24.0,
+    "goals_pg": 2.182,
+    "played": 11,
+    "xg": 17.7,
+    "xg_pg": 1.609,
+    "xga": 23.7,
+    "xga_pg": 2.155
+   },
+   "away": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 9.0,
+    "goals_pg": 1.8,
+    "played": 5,
+    "xg": 8.7,
+    "xg_pg": 1.74,
+    "xga": 7.3,
+    "xga_pg": 1.46
+   },
+   "home": {
+    "ga": 11.0,
+    "ga_pg": 1.833,
+    "goals": 15.0,
+    "goals_pg": 2.5,
+    "played": 6,
+    "xg": 9.0,
+    "xg_pg": 1.5,
+    "xga": 16.3,
+    "xga_pg": 2.717
+   },
+   "last5": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 15.0,
+    "goals_pg": 3.0,
+    "played": 5,
+    "xg": 8.4,
+    "xg_pg": 1.68,
+    "xga": 12.0,
+    "xga_pg": 2.4
+   }
+  },
+  "Paris": {
+   "all": {
+    "ga": 10.0,
+    "ga_pg": 0.909,
+    "goals": 21.0,
+    "goals_pg": 1.909,
+    "played": 11,
+    "xg": 19.1,
+    "xg_pg": 1.736,
+    "xga": 11.2,
+    "xga_pg": 1.018
+   },
+   "away": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 6.3,
+    "xg_pg": 1.26,
+    "xga": 4.4,
+    "xga_pg": 0.88
+   },
+   "home": {
+    "ga": 5.0,
+    "ga_pg": 0.833,
+    "goals": 16.0,
+    "goals_pg": 2.667,
+    "played": 6,
+    "xg": 12.8,
+    "xg_pg": 2.133,
+    "xga": 6.8,
+    "xga_pg": 1.133
+   },
+   "last5": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 13.0,
+    "goals_pg": 2.6,
+    "played": 5,
+    "xg": 9.7,
+    "xg_pg": 1.94,
+    "xga": 6.2,
+    "xga_pg": 1.24
+   }
+  },
+  "Paris Saint Germain": {
+   "all": {
+    "ga": 12.0,
+    "ga_pg": 1.091,
+    "goals": 25.0,
+    "goals_pg": 2.273,
+    "played": 11,
+    "xg": 24.7,
+    "xg_pg": 2.245,
+    "xga": 12.1,
+    "xga_pg": 1.1
+   },
+   "away": {
+    "ga": 9.0,
+    "ga_pg": 1.286,
+    "goals": 18.0,
+    "goals_pg": 2.571,
+    "played": 7,
+    "xg": 15.5,
+    "xg_pg": 2.214,
+    "xga": 8.5,
+    "xga_pg": 1.214
+   },
+   "home": {
+    "ga": 3.0,
+    "ga_pg": 0.75,
+    "goals": 7.0,
+    "goals_pg": 1.75,
+    "played": 4,
+    "xg": 9.2,
+    "xg_pg": 2.3,
+    "xga": 3.6,
+    "xga_pg": 0.9
+   },
+   "last5": {
+    "ga": 4.0,
+    "ga_pg": 0.8,
+    "goals": 14.0,
+    "goals_pg": 2.8,
+    "played": 5,
+    "xg": 10.0,
+    "xg_pg": 2.0,
+    "xga": 5.5,
+    "xga_pg": 1.1
+   }
+  },
+  "Rennes": {
+   "all": {
+    "ga": 22.0,
+    "ga_pg": 2.0,
+    "goals": 22.0,
+    "goals_pg": 2.0,
+    "played": 11,
+    "xg": 20.2,
+    "xg_pg": 1.836,
+    "xga": 20.5,
+    "xga_pg": 1.864
+   },
+   "away": {
+    "ga": 15.0,
+    "ga_pg": 3.0,
+    "goals": 8.0,
+    "goals_pg": 1.6,
+    "played": 5,
+    "xg": 9.3,
+    "xg_pg": 1.86,
+    "xga": 13.1,
+    "xga_pg": 2.62
+   },
+   "home": {
+    "ga": 7.0,
+    "ga_pg": 1.167,
+    "goals": 14.0,
+    "goals_pg": 2.333,
+    "played": 6,
+    "xg": 10.8,
+    "xg_pg": 1.8,
+    "xga": 7.5,
+    "xga_pg": 1.25
+   },
+   "last5": {
+    "ga": 12.0,
+    "ga_pg": 2.4,
+    "goals": 10.0,
+    "goals_pg": 2.0,
+    "played": 5,
+    "xg": 9.2,
+    "xg_pg": 1.84,
+    "xga": 9.4,
+    "xga_pg": 1.88
+   }
+  },
+  "Strasbourg": {
+   "all": {
+    "ga": 23.0,
+    "ga_pg": 2.091,
+    "goals": 18.0,
+    "goals_pg": 1.636,
+    "played": 11,
+    "xg": 15.9,
+    "xg_pg": 1.445,
+    "xga": 19.1,
+    "xga_pg": 1.736
+   },
+   "away": {
+    "ga": 16.0,
+    "ga_pg": 2.667,
+    "goals": 9.0,
+    "goals_pg": 1.5,
+    "played": 6,
+    "xg": 6.0,
+    "xg_pg": 1.0,
+    "xga": 10.4,
+    "xga_pg": 1.733
+   },
+   "home": {
+    "ga": 7.0,
+    "ga_pg": 1.4,
+    "goals": 9.0,
+    "goals_pg": 1.8,
+    "played": 5,
+    "xg": 9.9,
+    "xg_pg": 1.98,
+    "xga": 8.8,
+    "xga_pg": 1.76
+   },
+   "last5": {
+    "ga": 11.0,
+    "ga_pg": 2.2,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 8.5,
+    "xg_pg": 1.7,
+    "xga": 7.5,
+    "xga_pg": 1.5
+   }
+  },
+  "Toulouse": {
+   "all": {
+    "ga": 15.0,
+    "ga_pg": 1.364,
+    "goals": 16.0,
+    "goals_pg": 1.455,
+    "played": 11,
+    "xg": 17.4,
+    "xg_pg": 1.582,
+    "xga": 16.8,
+    "xga_pg": 1.527
+   },
+   "away": {
+    "ga": 9.0,
+    "ga_pg": 1.5,
+    "goals": 10.0,
+    "goals_pg": 1.667,
+    "played": 6,
+    "xg": 8.1,
+    "xg_pg": 1.35,
+    "xga": 10.4,
+    "xga_pg": 1.733
+   },
+   "home": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 6.0,
+    "goals_pg": 1.2,
+    "played": 5,
+    "xg": 9.3,
+    "xg_pg": 1.86,
+    "xga": 6.4,
+    "xga_pg": 1.28
+   },
+   "last5": {
+    "ga": 4.0,
+    "ga_pg": 0.8,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 6.5,
+    "xg_pg": 1.3,
+    "xga": 6.2,
+    "xga_pg": 1.24
+   }
+  },
+  "Troyes": {
+   "all": {
+    "ga": 18.0,
+    "ga_pg": 1.636,
+    "goals": 10.0,
+    "goals_pg": 0.909,
+    "played": 11,
+    "xg": 14.8,
+    "xg_pg": 1.345,
+    "xga": 15.5,
+    "xga_pg": 1.409
+   },
+   "away": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 2.0,
+    "goals_pg": 0.4,
+    "played": 5,
+    "xg": 5.3,
+    "xg_pg": 1.06,
+    "xga": 7.1,
+    "xga_pg": 1.42
+   },
+   "home": {
+    "ga": 12.0,
+    "ga_pg": 2.0,
+    "goals": 8.0,
+    "goals_pg": 1.333,
+    "played": 6,
+    "xg": 9.5,
+    "xg_pg": 1.583,
+    "xga": 8.4,
+    "xga_pg": 1.4
+   },
+   "last5": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 6.0,
+    "goals_pg": 1.2,
+    "played": 5,
+    "xg": 6.4,
+    "xg_pg": 1.28,
+    "xga": 5.5,
+    "xga_pg": 1.1
+   }
+  }
+ }
+}

@@ -1,0 +1,564 @@
+{
+ "meta": {
+  "fetchedAt": "2026-11-26T10:06:22Z",
+  "league": "Scottish Premiership",
+  "note": "statz.ai's own xG model; last5 = last five league games",
+  "season": "2026/2027",
+  "source": "https://statz.ai/competitions/scottish-premiership/xg",
+  "updatedText": "Updated 24 November 2026, after the last game"
+ },
+ "teams": {
+  "Aberdeen": {
+   "all": {
+    "ga": 23.0,
+    "ga_pg": 1.643,
+    "goals": 18.0,
+    "goals_pg": 1.286,
+    "played": 14,
+    "xg": 18.8,
+    "xg_pg": 1.343,
+    "xga": 24.3,
+    "xga_pg": 1.736
+   },
+   "away": {
+    "ga": 14.0,
+    "ga_pg": 2.0,
+    "goals": 13.0,
+    "goals_pg": 1.857,
+    "played": 7,
+    "xg": 7.8,
+    "xg_pg": 1.114,
+    "xga": 13.9,
+    "xga_pg": 1.986
+   },
+   "home": {
+    "ga": 9.0,
+    "ga_pg": 1.286,
+    "goals": 5.0,
+    "goals_pg": 0.714,
+    "played": 7,
+    "xg": 11.0,
+    "xg_pg": 1.571,
+    "xga": 10.4,
+    "xga_pg": 1.486
+   },
+   "last5": {
+    "ga": 13.0,
+    "ga_pg": 2.6,
+    "goals": 8.0,
+    "goals_pg": 1.6,
+    "played": 5,
+    "xg": 7.2,
+    "xg_pg": 1.44,
+    "xga": 10.7,
+    "xga_pg": 2.14
+   }
+  },
+  "Celtic": {
+   "all": {
+    "ga": 11.0,
+    "ga_pg": 0.786,
+    "goals": 32.0,
+    "goals_pg": 2.286,
+    "played": 14,
+    "xg": 34.2,
+    "xg_pg": 2.443,
+    "xga": 17.7,
+    "xga_pg": 1.264
+   },
+   "away": {
+    "ga": 5.0,
+    "ga_pg": 0.833,
+    "goals": 12.0,
+    "goals_pg": 2.0,
+    "played": 6,
+    "xg": 17.9,
+    "xg_pg": 2.983,
+    "xga": 7.8,
+    "xga_pg": 1.3
+   },
+   "home": {
+    "ga": 6.0,
+    "ga_pg": 0.75,
+    "goals": 20.0,
+    "goals_pg": 2.5,
+    "played": 8,
+    "xg": 16.3,
+    "xg_pg": 2.038,
+    "xga": 9.8,
+    "xga_pg": 1.225
+   },
+   "last5": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 9.0,
+    "goals_pg": 1.8,
+    "played": 5,
+    "xg": 10.5,
+    "xg_pg": 2.1,
+    "xga": 6.5,
+    "xga_pg": 1.3
+   }
+  },
+  "Dundee": {
+   "all": {
+    "ga": 25.0,
+    "ga_pg": 1.786,
+    "goals": 19.0,
+    "goals_pg": 1.357,
+    "played": 14,
+    "xg": 18.4,
+    "xg_pg": 1.314,
+    "xga": 27.4,
+    "xga_pg": 1.957
+   },
+   "away": {
+    "ga": 10.0,
+    "ga_pg": 1.429,
+    "goals": 8.0,
+    "goals_pg": 1.143,
+    "played": 7,
+    "xg": 9.0,
+    "xg_pg": 1.286,
+    "xga": 13.3,
+    "xga_pg": 1.9
+   },
+   "home": {
+    "ga": 15.0,
+    "ga_pg": 2.143,
+    "goals": 11.0,
+    "goals_pg": 1.571,
+    "played": 7,
+    "xg": 9.4,
+    "xg_pg": 1.343,
+    "xga": 14.1,
+    "xga_pg": 2.014
+   },
+   "last5": {
+    "ga": 15.0,
+    "ga_pg": 3.0,
+    "goals": 6.0,
+    "goals_pg": 1.2,
+    "played": 5,
+    "xg": 6.4,
+    "xg_pg": 1.28,
+    "xga": 10.8,
+    "xga_pg": 2.16
+   }
+  },
+  "Dundee United": {
+   "all": {
+    "ga": 17.0,
+    "ga_pg": 1.308,
+    "goals": 21.0,
+    "goals_pg": 1.615,
+    "played": 13,
+    "xg": 22.6,
+    "xg_pg": 1.738,
+    "xga": 23.1,
+    "xga_pg": 1.777
+   },
+   "away": {
+    "ga": 10.0,
+    "ga_pg": 1.429,
+    "goals": 14.0,
+    "goals_pg": 2.0,
+    "played": 7,
+    "xg": 10.0,
+    "xg_pg": 1.429,
+    "xga": 12.7,
+    "xga_pg": 1.814
+   },
+   "home": {
+    "ga": 7.0,
+    "ga_pg": 1.167,
+    "goals": 7.0,
+    "goals_pg": 1.167,
+    "played": 6,
+    "xg": 12.6,
+    "xg_pg": 2.1,
+    "xga": 10.4,
+    "xga_pg": 1.733
+   },
+   "last5": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 11.0,
+    "goals_pg": 2.2,
+    "played": 5,
+    "xg": 8.1,
+    "xg_pg": 1.62,
+    "xga": 9.5,
+    "xga_pg": 1.9
+   }
+  },
+  "Falkirk": {
+   "all": {
+    "ga": 15.0,
+    "ga_pg": 1.071,
+    "goals": 22.0,
+    "goals_pg": 1.571,
+    "played": 14,
+    "xg": 18.1,
+    "xg_pg": 1.293,
+    "xga": 26.0,
+    "xga_pg": 1.857
+   },
+   "away": {
+    "ga": 7.0,
+    "ga_pg": 1.0,
+    "goals": 11.0,
+    "goals_pg": 1.571,
+    "played": 7,
+    "xg": 7.2,
+    "xg_pg": 1.029,
+    "xga": 13.2,
+    "xga_pg": 1.886
+   },
+   "home": {
+    "ga": 8.0,
+    "ga_pg": 1.143,
+    "goals": 11.0,
+    "goals_pg": 1.571,
+    "played": 7,
+    "xg": 11.0,
+    "xg_pg": 1.571,
+    "xga": 12.8,
+    "xga_pg": 1.829
+   },
+   "last5": {
+    "ga": 3.0,
+    "ga_pg": 0.6,
+    "goals": 13.0,
+    "goals_pg": 2.6,
+    "played": 5,
+    "xg": 8.4,
+    "xg_pg": 1.68,
+    "xga": 10.2,
+    "xga_pg": 2.04
+   }
+  },
+  "Hearts": {
+   "all": {
+    "ga": 22.0,
+    "ga_pg": 1.692,
+    "goals": 34.0,
+    "goals_pg": 2.615,
+    "played": 13,
+    "xg": 26.5,
+    "xg_pg": 2.038,
+    "xga": 18.5,
+    "xga_pg": 1.423
+   },
+   "away": {
+    "ga": 13.0,
+    "ga_pg": 1.857,
+    "goals": 17.0,
+    "goals_pg": 2.429,
+    "played": 7,
+    "xg": 12.3,
+    "xg_pg": 1.757,
+    "xga": 11.2,
+    "xga_pg": 1.6
+   },
+   "home": {
+    "ga": 9.0,
+    "ga_pg": 1.5,
+    "goals": 17.0,
+    "goals_pg": 2.833,
+    "played": 6,
+    "xg": 14.1,
+    "xg_pg": 2.35,
+    "xga": 7.3,
+    "xga_pg": 1.217
+   },
+   "last5": {
+    "ga": 14.0,
+    "ga_pg": 2.8,
+    "goals": 15.0,
+    "goals_pg": 3.0,
+    "played": 5,
+    "xg": 10.6,
+    "xg_pg": 2.12,
+    "xga": 9.0,
+    "xga_pg": 1.8
+   }
+  },
+  "Hibernian": {
+   "all": {
+    "ga": 22.0,
+    "ga_pg": 1.571,
+    "goals": 17.0,
+    "goals_pg": 1.214,
+    "played": 14,
+    "xg": 24.0,
+    "xg_pg": 1.714,
+    "xga": 21.0,
+    "xga_pg": 1.5
+   },
+   "away": {
+    "ga": 6.0,
+    "ga_pg": 1.0,
+    "goals": 10.0,
+    "goals_pg": 1.667,
+    "played": 6,
+    "xg": 10.7,
+    "xg_pg": 1.783,
+    "xga": 10.8,
+    "xga_pg": 1.8
+   },
+   "home": {
+    "ga": 16.0,
+    "ga_pg": 2.0,
+    "goals": 7.0,
+    "goals_pg": 0.875,
+    "played": 8,
+    "xg": 13.2,
+    "xg_pg": 1.65,
+    "xga": 10.2,
+    "xga_pg": 1.275
+   },
+   "last5": {
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 8.0,
+    "goals_pg": 1.6,
+    "played": 5,
+    "xg": 8.1,
+    "xg_pg": 1.62,
+    "xga": 7.6,
+    "xga_pg": 1.52
+   }
+  },
+  "Kilmarnock": {
+   "all": {
+    "ga": 33.0,
+    "ga_pg": 2.357,
+    "goals": 15.0,
+    "goals_pg": 1.071,
+    "played": 14,
+    "xg": 21.2,
+    "xg_pg": 1.514,
+    "xga": 30.8,
+    "xga_pg": 2.2
+   },
+   "away": {
+    "ga": 14.0,
+    "ga_pg": 2.0,
+    "goals": 6.0,
+    "goals_pg": 0.857,
+    "played": 7,
+    "xg": 10.8,
+    "xg_pg": 1.543,
+    "xga": 12.4,
+    "xga_pg": 1.771
+   },
+   "home": {
+    "ga": 19.0,
+    "ga_pg": 2.714,
+    "goals": 9.0,
+    "goals_pg": 1.286,
+    "played": 7,
+    "xg": 10.4,
+    "xg_pg": 1.486,
+    "xga": 18.4,
+    "xga_pg": 2.629
+   },
+   "last5": {
+    "ga": 13.0,
+    "ga_pg": 2.6,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 10.5,
+    "xg_pg": 2.1,
+    "xga": 8.1,
+    "xga_pg": 1.62
+   }
+  },
+  "Motherwell": {
+   "all": {
+    "ga": 23.0,
+    "ga_pg": 1.643,
+    "goals": 16.0,
+    "goals_pg": 1.143,
+    "played": 14,
+    "xg": 23.2,
+    "xg_pg": 1.657,
+    "xga": 26.2,
+    "xga_pg": 1.871
+   },
+   "away": {
+    "ga": 13.0,
+    "ga_pg": 1.857,
+    "goals": 11.0,
+    "goals_pg": 1.571,
+    "played": 7,
+    "xg": 12.8,
+    "xg_pg": 1.829,
+    "xga": 16.8,
+    "xga_pg": 2.4
+   },
+   "home": {
+    "ga": 10.0,
+    "ga_pg": 1.429,
+    "goals": 5.0,
+    "goals_pg": 0.714,
+    "played": 7,
+    "xg": 10.4,
+    "xg_pg": 1.486,
+    "xga": 9.4,
+    "xga_pg": 1.343
+   },
+   "last5": {
+    "ga": 7.0,
+    "ga_pg": 1.4,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 7.4,
+    "xg_pg": 1.48,
+    "xga": 7.7,
+    "xga_pg": 1.54
+   }
+  },
+  "Rangers": {
+   "all": {
+    "ga": 12.0,
+    "ga_pg": 0.857,
+    "goals": 26.0,
+    "goals_pg": 1.857,
+    "played": 14,
+    "xg": 36.0,
+    "xg_pg": 2.571,
+    "xga": 14.4,
+    "xga_pg": 1.029
+   },
+   "away": {
+    "ga": 7.0,
+    "ga_pg": 0.875,
+    "goals": 13.0,
+    "goals_pg": 1.625,
+    "played": 8,
+    "xg": 18.0,
+    "xg_pg": 2.25,
+    "xga": 8.1,
+    "xga_pg": 1.012
+   },
+   "home": {
+    "ga": 5.0,
+    "ga_pg": 0.833,
+    "goals": 13.0,
+    "goals_pg": 2.167,
+    "played": 6,
+    "xg": 18.0,
+    "xg_pg": 3.0,
+    "xga": 6.3,
+    "xga_pg": 1.05
+   },
+   "last5": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 13.0,
+    "goals_pg": 2.6,
+    "played": 5,
+    "xg": 15.4,
+    "xg_pg": 3.08,
+    "xga": 5.1,
+    "xga_pg": 1.02
+   }
+  },
+  "St. Johnstone": {
+   "all": {
+    "ga": 22.0,
+    "ga_pg": 1.571,
+    "goals": 18.0,
+    "goals_pg": 1.286,
+    "played": 14,
+    "xg": 19.9,
+    "xg_pg": 1.421,
+    "xga": 26.9,
+    "xga_pg": 1.921
+   },
+   "away": {
+    "ga": 12.0,
+    "ga_pg": 1.714,
+    "goals": 6.0,
+    "goals_pg": 0.857,
+    "played": 7,
+    "xg": 8.4,
+    "xg_pg": 1.2,
+    "xga": 16.8,
+    "xga_pg": 2.4
+   },
+   "home": {
+    "ga": 10.0,
+    "ga_pg": 1.429,
+    "goals": 12.0,
+    "goals_pg": 1.714,
+    "played": 7,
+    "xg": 11.6,
+    "xg_pg": 1.657,
+    "xga": 10.1,
+    "xga_pg": 1.443
+   },
+   "last5": {
+    "ga": 11.0,
+    "ga_pg": 2.2,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 7.2,
+    "xg_pg": 1.44,
+    "xga": 12.8,
+    "xga_pg": 2.56
+   }
+  },
+  "St. Mirren": {
+   "all": {
+    "ga": 26.0,
+    "ga_pg": 1.857,
+    "goals": 13.0,
+    "goals_pg": 0.929,
+    "played": 14,
+    "xg": 20.7,
+    "xg_pg": 1.479,
+    "xga": 27.2,
+    "xga_pg": 1.943
+   },
+   "away": {
+    "ga": 14.0,
+    "ga_pg": 2.0,
+    "goals": 5.0,
+    "goals_pg": 0.714,
+    "played": 7,
+    "xg": 8.4,
+    "xg_pg": 1.2,
+    "xga": 13.1,
+    "xga_pg": 1.871
+   },
+   "home": {
+    "ga": 12.0,
+    "ga_pg": 1.714,
+    "goals": 8.0,
+    "goals_pg": 1.143,
+    "played": 7,
+    "xg": 12.3,
+    "xg_pg": 1.757,
+    "xga": 14.1,
+    "xga_pg": 2.014
+   },
+   "last5": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 4.0,
+    "goals_pg": 0.8,
+    "played": 5,
+    "xg": 7.2,
+    "xg_pg": 1.44,
+    "xga": 10.1,
+    "xga_pg": 2.02
+   }
+  }
+ }
+}

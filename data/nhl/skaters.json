@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-26T09:49:12Z",
+  "fetchedAt": "2026-11-26T10:05:55Z",
   "minGames": 5,
   "rows": 789,
   "season": "2026-27",
@@ -54,14 +54,6 @@
    "shots_pg": 3.0,
    "team": "CBJ",
    "toi_pg_sec": 1239.5652
-  },
-  "Adam Fox": {
-   "gp": 24,
-   "points_pg": 1.125,
-   "pos": "D",
-   "shots_pg": 1.583,
-   "team": "NYR",
-   "toi_pg_sec": 1374.125
   },
   "Adam Gaudette": {
    "gp": 12,
@@ -1183,14 +1175,6 @@
    "team": "TOR",
    "toi_pg_sec": 877.0526
   },
-  "Connor Bedard": {
-   "gp": 15,
-   "points_pg": 1.2,
-   "pos": "C",
-   "shots_pg": 2.933,
-   "team": "CHI",
-   "toi_pg_sec": 1208.4
-  },
   "Connor Brown": {
    "gp": 17,
    "points_pg": 0.7647,
@@ -1238,14 +1222,6 @@
    "shots_pg": 0.963,
    "team": "EDM",
    "toi_pg_sec": 1250.4074
-  },
-  "Conor Garland": {
-   "gp": 15,
-   "points_pg": 0.06666,
-   "pos": "R",
-   "shots_pg": 1.2,
-   "team": "CBJ",
-   "toi_pg_sec": 813.0
   },
   "Conor Geekie": {
    "gp": 20,
@@ -1783,6 +1759,14 @@
    "team": "EDM",
    "toi_pg_sec": 1542.6296
   },
+  "Evan Rodrigues": {
+   "gp": 25,
+   "points_pg": 0.56,
+   "pos": "C",
+   "shots_pg": 1.48,
+   "team": "NJD",
+   "toi_pg_sec": 933.84
+  },
   "Evgeni Malkin": {
    "gp": 20,
    "points_pg": 1.0,
@@ -1991,14 +1975,6 @@
    "team": "OTT",
    "toi_pg_sec": 307.5
   },
-  "Haydn Fleury": {
-   "gp": 14,
-   "points_pg": 0.21428,
-   "pos": "D",
-   "shots_pg": 1.0,
-   "team": "WPG",
-   "toi_pg_sec": 860.1428
-  },
   "Hendrix Lapierre": {
    "gp": 19,
    "points_pg": 0.42105,
@@ -2006,14 +1982,6 @@
    "shots_pg": 1.053,
    "team": "PIT",
    "toi_pg_sec": 745.421
-  },
-  "Henry Thrun": {
-   "gp": 5,
-   "points_pg": 0.0,
-   "pos": "D",
-   "shots_pg": 0.0,
-   "team": "WPG",
-   "toi_pg_sec": 898.0
   },
   "Hunter McDonald": {
    "gp": 5,
@@ -2447,14 +2415,6 @@
    "team": "NYI",
    "toi_pg_sec": 930.0476
   },
-  "Jeff Malott": {
-   "gp": 25,
-   "points_pg": 0.32,
-   "pos": "L",
-   "shots_pg": 1.48,
-   "team": "ANA",
-   "toi_pg_sec": 637.48
-  },
   "Jeff Viel": {
    "gp": 21,
    "points_pg": 0.14285,
@@ -2767,14 +2727,6 @@
    "team": "MTL",
    "toi_pg_sec": 1102.3076
   },
-  "Justin Barron": {
-   "gp": 22,
-   "points_pg": 0.68181,
-   "pos": "D",
-   "shots_pg": 1.409,
-   "team": "STL",
-   "toi_pg_sec": 1007.2727
-  },
   "Justin Brazeau": {
    "gp": 9,
    "points_pg": 0.11111,
@@ -2927,14 +2879,6 @@
    "team": "SJS",
    "toi_pg_sec": 939.2173
   },
-  "Kirby Dach": {
-   "gp": 23,
-   "points_pg": 0.34782,
-   "pos": "C",
-   "shots_pg": 0.87,
-   "team": "MTL,DET",
-   "toi_pg_sec": 708.7391
-  },
   "Kirill Kaprizov": {
    "gp": 27,
    "points_pg": 1.81481,
@@ -3062,14 +3006,6 @@
    "shots_pg": 1.654,
    "team": "VAN",
    "toi_pg_sec": 843.8461
-  },
-  "Lian Bichsel": {
-   "gp": 18,
-   "points_pg": 0.05555,
-   "pos": "D",
-   "shots_pg": 0.556,
-   "team": "DAL",
-   "toi_pg_sec": 928.7777
   },
   "Linus Karlsson": {
    "gp": 27,
@@ -4599,14 +4535,6 @@
    "team": "CGY",
    "toi_pg_sec": 874.8076
   },
-  "Ryan Tverberg": {
-   "gp": 7,
-   "points_pg": 0.0,
-   "pos": "C",
-   "shots_pg": 0.571,
-   "team": "TOR",
-   "toi_pg_sec": 684.2857
-  },
   "Ryan Winterton": {
    "gp": 22,
    "points_pg": 0.31818,
@@ -4902,14 +4830,6 @@
    "shots_pg": 1.625,
    "team": "NYI",
    "toi_pg_sec": 1094.375
-  },
-  "Simon Nemec": {
-   "gp": 26,
-   "points_pg": 0.46153,
-   "pos": "D",
-   "shots_pg": 1.538,
-   "team": "CGY",
-   "toi_pg_sec": 1268.0769
   },
   "Spencer Stastney": {
    "gp": 18,

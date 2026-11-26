@@ -1,0 +1,840 @@
+{
+ "meta": {
+  "fetchedAt": "2026-11-26T10:06:07Z",
+  "league": "Bundesliga",
+  "note": "statz.ai's own xG model; last5 = last five league games",
+  "season": "2026/2027",
+  "source": "https://statz.ai/competitions/bundesliga/xg",
+  "updatedText": "Updated 22 November 2026, after the last game"
+ },
+ "teams": {
+  "Bayer 04 Leverkusen": {
+   "all": {
+    "ga": 17.0,
+    "ga_pg": 1.7,
+    "goals": 24.0,
+    "goals_pg": 2.4,
+    "played": 10,
+    "xg": 21.0,
+    "xg_pg": 2.1,
+    "xga": 15.2,
+    "xga_pg": 1.52
+   },
+   "away": {
+    "ga": 12.0,
+    "ga_pg": 2.4,
+    "goals": 10.0,
+    "goals_pg": 2.0,
+    "played": 5,
+    "xg": 9.0,
+    "xg_pg": 1.8,
+    "xga": 9.6,
+    "xga_pg": 1.92
+   },
+   "home": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 14.0,
+    "goals_pg": 2.8,
+    "played": 5,
+    "xg": 12.0,
+    "xg_pg": 2.4,
+    "xga": 5.6,
+    "xga_pg": 1.12
+   },
+   "last5": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 10.0,
+    "goals_pg": 2.0,
+    "played": 5,
+    "xg": 9.0,
+    "xg_pg": 1.8,
+    "xga": 8.9,
+    "xga_pg": 1.78
+   }
+  },
+  "Borussia Dortmund": {
+   "all": {
+    "ga": 7.0,
+    "ga_pg": 0.7,
+    "goals": 17.0,
+    "goals_pg": 1.7,
+    "played": 10,
+    "xg": 15.9,
+    "xg_pg": 1.59,
+    "xga": 11.5,
+    "xga_pg": 1.15
+   },
+   "away": {
+    "ga": 4.0,
+    "ga_pg": 0.8,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 7.3,
+    "xg_pg": 1.46,
+    "xga": 7.2,
+    "xga_pg": 1.44
+   },
+   "home": {
+    "ga": 3.0,
+    "ga_pg": 0.6,
+    "goals": 10.0,
+    "goals_pg": 2.0,
+    "played": 5,
+    "xg": 8.6,
+    "xg_pg": 1.72,
+    "xga": 4.3,
+    "xga_pg": 0.86
+   },
+   "last5": {
+    "ga": 3.0,
+    "ga_pg": 0.6,
+    "goals": 6.0,
+    "goals_pg": 1.2,
+    "played": 5,
+    "xg": 7.0,
+    "xg_pg": 1.4,
+    "xga": 6.9,
+    "xga_pg": 1.38
+   }
+  },
+  "Borussia Mönchengladbach": {
+   "all": {
+    "ga": 26.0,
+    "ga_pg": 2.6,
+    "goals": 12.0,
+    "goals_pg": 1.2,
+    "played": 10,
+    "xg": 15.3,
+    "xg_pg": 1.53,
+    "xga": 23.0,
+    "xga_pg": 2.3
+   },
+   "away": {
+    "ga": 15.0,
+    "ga_pg": 3.0,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 7.1,
+    "xg_pg": 1.42,
+    "xga": 12.7,
+    "xga_pg": 2.54
+   },
+   "home": {
+    "ga": 11.0,
+    "ga_pg": 2.2,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 8.2,
+    "xg_pg": 1.64,
+    "xga": 10.4,
+    "xga_pg": 2.08
+   },
+   "last5": {
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 6.7,
+    "xg_pg": 1.34,
+    "xga": 8.9,
+    "xga_pg": 1.78
+   }
+  },
+  "Eintracht Frankfurt": {
+   "all": {
+    "ga": 20.0,
+    "ga_pg": 2.0,
+    "goals": 16.0,
+    "goals_pg": 1.6,
+    "played": 10,
+    "xg": 17.3,
+    "xg_pg": 1.73,
+    "xga": 21.1,
+    "xga_pg": 2.11
+   },
+   "away": {
+    "ga": 13.0,
+    "ga_pg": 2.6,
+    "goals": 8.0,
+    "goals_pg": 1.6,
+    "played": 5,
+    "xg": 6.9,
+    "xg_pg": 1.38,
+    "xga": 12.2,
+    "xga_pg": 2.44
+   },
+   "home": {
+    "ga": 7.0,
+    "ga_pg": 1.4,
+    "goals": 8.0,
+    "goals_pg": 1.6,
+    "played": 5,
+    "xg": 10.4,
+    "xg_pg": 2.08,
+    "xga": 8.8,
+    "xga_pg": 1.76
+   },
+   "last5": {
+    "ga": 4.0,
+    "ga_pg": 0.8,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 8.3,
+    "xg_pg": 1.66,
+    "xga": 8.1,
+    "xga_pg": 1.62
+   }
+  },
+  "Elversberg": {
+   "all": {
+    "ga": 19.0,
+    "ga_pg": 1.9,
+    "goals": 17.0,
+    "goals_pg": 1.7,
+    "played": 10,
+    "xg": 15.7,
+    "xg_pg": 1.57,
+    "xga": 21.0,
+    "xga_pg": 2.1
+   },
+   "away": {
+    "ga": 10.0,
+    "ga_pg": 2.0,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 6.3,
+    "xg_pg": 1.26,
+    "xga": 9.7,
+    "xga_pg": 1.94
+   },
+   "home": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 12.0,
+    "goals_pg": 2.4,
+    "played": 5,
+    "xg": 9.5,
+    "xg_pg": 1.9,
+    "xga": 11.2,
+    "xga_pg": 2.24
+   },
+   "last5": {
+    "ga": 11.0,
+    "ga_pg": 2.2,
+    "goals": 9.0,
+    "goals_pg": 1.8,
+    "played": 5,
+    "xg": 9.3,
+    "xg_pg": 1.86,
+    "xga": 11.0,
+    "xga_pg": 2.2
+   }
+  },
+  "FC Augsburg": {
+   "all": {
+    "ga": 21.0,
+    "ga_pg": 2.1,
+    "goals": 23.0,
+    "goals_pg": 2.3,
+    "played": 10,
+    "xg": 21.7,
+    "xg_pg": 2.17,
+    "xga": 25.0,
+    "xga_pg": 2.5
+   },
+   "away": {
+    "ga": 13.0,
+    "ga_pg": 3.25,
+    "goals": 11.0,
+    "goals_pg": 2.75,
+    "played": 4,
+    "xg": 8.2,
+    "xg_pg": 2.05,
+    "xga": 12.0,
+    "xga_pg": 3.0
+   },
+   "home": {
+    "ga": 8.0,
+    "ga_pg": 1.333,
+    "goals": 12.0,
+    "goals_pg": 2.0,
+    "played": 6,
+    "xg": 13.5,
+    "xg_pg": 2.25,
+    "xga": 13.0,
+    "xga_pg": 2.167
+   },
+   "last5": {
+    "ga": 13.0,
+    "ga_pg": 2.6,
+    "goals": 10.0,
+    "goals_pg": 2.0,
+    "played": 5,
+    "xg": 13.0,
+    "xg_pg": 2.6,
+    "xga": 10.7,
+    "xga_pg": 2.14
+   }
+  },
+  "FC Bayern München": {
+   "all": {
+    "ga": 10.0,
+    "ga_pg": 1.0,
+    "goals": 30.0,
+    "goals_pg": 3.0,
+    "played": 10,
+    "xg": 28.7,
+    "xg_pg": 2.87,
+    "xga": 9.6,
+    "xga_pg": 0.96
+   },
+   "away": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 9.0,
+    "goals_pg": 1.8,
+    "played": 5,
+    "xg": 14.2,
+    "xg_pg": 2.84,
+    "xga": 4.9,
+    "xga_pg": 0.98
+   },
+   "home": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 21.0,
+    "goals_pg": 4.2,
+    "played": 5,
+    "xg": 14.5,
+    "xg_pg": 2.9,
+    "xga": 4.7,
+    "xga_pg": 0.94
+   },
+   "last5": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 14.0,
+    "goals_pg": 2.8,
+    "played": 5,
+    "xg": 13.6,
+    "xg_pg": 2.72,
+    "xga": 5.5,
+    "xga_pg": 1.1
+   }
+  },
+  "FC Köln": {
+   "all": {
+    "ga": 15.0,
+    "ga_pg": 1.5,
+    "goals": 11.0,
+    "goals_pg": 1.1,
+    "played": 10,
+    "xg": 15.6,
+    "xg_pg": 1.56,
+    "xga": 15.7,
+    "xga_pg": 1.57
+   },
+   "away": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 4.0,
+    "goals_pg": 0.8,
+    "played": 5,
+    "xg": 7.5,
+    "xg_pg": 1.5,
+    "xga": 9.1,
+    "xga_pg": 1.82
+   },
+   "home": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 8.1,
+    "xg_pg": 1.62,
+    "xga": 6.6,
+    "xga_pg": 1.32
+   },
+   "last5": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 3.0,
+    "goals_pg": 0.6,
+    "played": 5,
+    "xg": 6.2,
+    "xg_pg": 1.24,
+    "xga": 6.0,
+    "xga_pg": 1.2
+   }
+  },
+  "FC Union Berlin": {
+   "all": {
+    "ga": 26.0,
+    "ga_pg": 2.6,
+    "goals": 8.0,
+    "goals_pg": 0.8,
+    "played": 10,
+    "xg": 11.1,
+    "xg_pg": 1.11,
+    "xga": 22.6,
+    "xga_pg": 2.26
+   },
+   "away": {
+    "ga": 14.0,
+    "ga_pg": 3.5,
+    "goals": 1.0,
+    "goals_pg": 0.25,
+    "played": 4,
+    "xg": 2.5,
+    "xg_pg": 0.625,
+    "xga": 11.3,
+    "xga_pg": 2.825
+   },
+   "home": {
+    "ga": 12.0,
+    "ga_pg": 2.0,
+    "goals": 7.0,
+    "goals_pg": 1.167,
+    "played": 6,
+    "xg": 8.5,
+    "xg_pg": 1.417,
+    "xga": 11.3,
+    "xga_pg": 1.883
+   },
+   "last5": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 3.0,
+    "goals_pg": 0.6,
+    "played": 5,
+    "xg": 4.5,
+    "xg_pg": 0.9,
+    "xga": 12.4,
+    "xga_pg": 2.48
+   }
+  },
+  "FSV Mainz 05": {
+   "all": {
+    "ga": 22.0,
+    "ga_pg": 2.2,
+    "goals": 19.0,
+    "goals_pg": 1.9,
+    "played": 10,
+    "xg": 17.8,
+    "xg_pg": 1.78,
+    "xga": 19.5,
+    "xga_pg": 1.95
+   },
+   "away": {
+    "ga": 10.0,
+    "ga_pg": 2.0,
+    "goals": 12.0,
+    "goals_pg": 2.4,
+    "played": 5,
+    "xg": 8.9,
+    "xg_pg": 1.78,
+    "xga": 8.8,
+    "xga_pg": 1.76
+   },
+   "home": {
+    "ga": 12.0,
+    "ga_pg": 2.4,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 8.9,
+    "xg_pg": 1.78,
+    "xga": 10.7,
+    "xga_pg": 2.14
+   },
+   "last5": {
+    "ga": 12.0,
+    "ga_pg": 2.4,
+    "goals": 6.0,
+    "goals_pg": 1.2,
+    "played": 5,
+    "xg": 5.8,
+    "xg_pg": 1.16,
+    "xga": 11.2,
+    "xga_pg": 2.24
+   }
+  },
+  "Hamburger SV": {
+   "all": {
+    "ga": 24.0,
+    "ga_pg": 2.4,
+    "goals": 10.0,
+    "goals_pg": 1.0,
+    "played": 10,
+    "xg": 11.4,
+    "xg_pg": 1.14,
+    "xga": 19.1,
+    "xga_pg": 1.91
+   },
+   "away": {
+    "ga": 17.0,
+    "ga_pg": 2.833,
+    "goals": 4.0,
+    "goals_pg": 0.667,
+    "played": 6,
+    "xg": 6.9,
+    "xg_pg": 1.15,
+    "xga": 10.9,
+    "xga_pg": 1.817
+   },
+   "home": {
+    "ga": 7.0,
+    "ga_pg": 1.75,
+    "goals": 6.0,
+    "goals_pg": 1.5,
+    "played": 4,
+    "xg": 4.6,
+    "xg_pg": 1.15,
+    "xga": 8.2,
+    "xga_pg": 2.05
+   },
+   "last5": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 6.7,
+    "xg_pg": 1.34,
+    "xga": 9.5,
+    "xga_pg": 1.9
+   }
+  },
+  "Paderborn": {
+   "all": {
+    "ga": 15.0,
+    "ga_pg": 1.5,
+    "goals": 8.0,
+    "goals_pg": 0.8,
+    "played": 10,
+    "xg": 12.0,
+    "xg_pg": 1.2,
+    "xga": 16.9,
+    "xga_pg": 1.69
+   },
+   "away": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 2.0,
+    "goals_pg": 0.4,
+    "played": 5,
+    "xg": 4.3,
+    "xg_pg": 0.86,
+    "xga": 9.6,
+    "xga_pg": 1.92
+   },
+   "home": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 6.0,
+    "goals_pg": 1.2,
+    "played": 5,
+    "xg": 7.6,
+    "xg_pg": 1.52,
+    "xga": 7.3,
+    "xga_pg": 1.46
+   },
+   "last5": {
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 6.9,
+    "xg_pg": 1.38,
+    "xga": 8.6,
+    "xga_pg": 1.72
+   }
+  },
+  "RB Leipzig": {
+   "all": {
+    "ga": 14.0,
+    "ga_pg": 1.4,
+    "goals": 32.0,
+    "goals_pg": 3.2,
+    "played": 10,
+    "xg": 26.5,
+    "xg_pg": 2.65,
+    "xga": 13.3,
+    "xga_pg": 1.33
+   },
+   "away": {
+    "ga": 12.0,
+    "ga_pg": 2.4,
+    "goals": 9.0,
+    "goals_pg": 1.8,
+    "played": 5,
+    "xg": 11.6,
+    "xg_pg": 2.32,
+    "xga": 8.0,
+    "xga_pg": 1.6
+   },
+   "home": {
+    "ga": 2.0,
+    "ga_pg": 0.4,
+    "goals": 23.0,
+    "goals_pg": 4.6,
+    "played": 5,
+    "xg": 15.0,
+    "xg_pg": 3.0,
+    "xga": 5.4,
+    "xga_pg": 1.08
+   },
+   "last5": {
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 17.0,
+    "goals_pg": 3.4,
+    "played": 5,
+    "xg": 14.4,
+    "xg_pg": 2.88,
+    "xga": 7.5,
+    "xga_pg": 1.5
+   }
+  },
+  "SC Freiburg": {
+   "all": {
+    "ga": 10.0,
+    "ga_pg": 1.0,
+    "goals": 21.0,
+    "goals_pg": 2.1,
+    "played": 10,
+    "xg": 17.8,
+    "xg_pg": 1.78,
+    "xga": 11.0,
+    "xga_pg": 1.1
+   },
+   "away": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 7.5,
+    "xg_pg": 1.5,
+    "xga": 7.1,
+    "xga_pg": 1.42
+   },
+   "home": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 14.0,
+    "goals_pg": 2.8,
+    "played": 5,
+    "xg": 10.2,
+    "xg_pg": 2.04,
+    "xga": 3.9,
+    "xga_pg": 0.78
+   },
+   "last5": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 7.4,
+    "xg_pg": 1.48,
+    "xga": 6.6,
+    "xga_pg": 1.32
+   }
+  },
+  "Schalke 04": {
+   "all": {
+    "ga": 11.0,
+    "ga_pg": 1.1,
+    "goals": 5.0,
+    "goals_pg": 0.5,
+    "played": 10,
+    "xg": 12.0,
+    "xg_pg": 1.2,
+    "xga": 19.5,
+    "xga_pg": 1.95
+   },
+   "away": {
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 7.6,
+    "xg_pg": 1.52,
+    "xga": 9.9,
+    "xga_pg": 1.98
+   },
+   "home": {
+    "ga": 3.0,
+    "ga_pg": 0.6,
+    "goals": 0.0,
+    "goals_pg": 0.0,
+    "played": 5,
+    "xg": 4.3,
+    "xg_pg": 0.86,
+    "xga": 9.6,
+    "xga_pg": 1.92
+   },
+   "last5": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 1.0,
+    "goals_pg": 0.2,
+    "played": 5,
+    "xg": 5.8,
+    "xg_pg": 1.16,
+    "xga": 9.1,
+    "xga_pg": 1.82
+   }
+  },
+  "TSG Hoffenheim": {
+   "all": {
+    "ga": 18.0,
+    "ga_pg": 1.8,
+    "goals": 16.0,
+    "goals_pg": 1.6,
+    "played": 10,
+    "xg": 19.4,
+    "xg_pg": 1.94,
+    "xga": 16.0,
+    "xga_pg": 1.6
+   },
+   "away": {
+    "ga": 10.0,
+    "ga_pg": 2.0,
+    "goals": 5.0,
+    "goals_pg": 1.0,
+    "played": 5,
+    "xg": 8.9,
+    "xg_pg": 1.78,
+    "xga": 7.8,
+    "xga_pg": 1.56
+   },
+   "home": {
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 11.0,
+    "goals_pg": 2.2,
+    "played": 5,
+    "xg": 10.5,
+    "xg_pg": 2.1,
+    "xga": 8.1,
+    "xga_pg": 1.62
+   },
+   "last5": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 10.2,
+    "xg_pg": 2.04,
+    "xga": 7.9,
+    "xga_pg": 1.58
+   }
+  },
+  "VfB Stuttgart": {
+   "all": {
+    "ga": 15.0,
+    "ga_pg": 1.5,
+    "goals": 15.0,
+    "goals_pg": 1.5,
+    "played": 10,
+    "xg": 19.7,
+    "xg_pg": 1.97,
+    "xga": 19.8,
+    "xga_pg": 1.98
+   },
+   "away": {
+    "ga": 10.0,
+    "ga_pg": 1.667,
+    "goals": 8.0,
+    "goals_pg": 1.333,
+    "played": 6,
+    "xg": 11.9,
+    "xg_pg": 1.983,
+    "xga": 11.9,
+    "xga_pg": 1.983
+   },
+   "home": {
+    "ga": 5.0,
+    "ga_pg": 1.25,
+    "goals": 7.0,
+    "goals_pg": 1.75,
+    "played": 4,
+    "xg": 7.8,
+    "xg_pg": 1.95,
+    "xga": 7.9,
+    "xga_pg": 1.975
+   },
+   "last5": {
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 10.0,
+    "xg_pg": 2.0,
+    "xga": 9.4,
+    "xga_pg": 1.88
+   }
+  },
+  "Werder Bremen": {
+   "all": {
+    "ga": 15.0,
+    "ga_pg": 1.5,
+    "goals": 21.0,
+    "goals_pg": 2.1,
+    "played": 10,
+    "xg": 16.3,
+    "xg_pg": 1.63,
+    "xga": 15.4,
+    "xga_pg": 1.54
+   },
+   "away": {
+    "ga": 10.0,
+    "ga_pg": 2.0,
+    "goals": 7.0,
+    "goals_pg": 1.4,
+    "played": 5,
+    "xg": 7.3,
+    "xg_pg": 1.46,
+    "xga": 8.4,
+    "xga_pg": 1.68
+   },
+   "home": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 14.0,
+    "goals_pg": 2.8,
+    "played": 5,
+    "xg": 9.0,
+    "xg_pg": 1.8,
+    "xga": 6.9,
+    "xga_pg": 1.38
+   },
+   "last5": {
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 11.0,
+    "goals_pg": 2.2,
+    "played": 5,
+    "xg": 10.4,
+    "xg_pg": 2.08,
+    "xga": 7.0,
+    "xga_pg": 1.4
+   }
+  }
+ }
+}
