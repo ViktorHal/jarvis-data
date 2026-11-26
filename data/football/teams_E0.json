@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 4.464,
+  "corners_home_pg": 5.127,
+  "matches": 110,
+  "yellow_matches": 110,
+  "yellow_pg": 4.091
+ },
  "meta": {
   "code": "E0",
-  "fetchedAt": "2026-11-26T12:57:58Z",
+  "fetchedAt": "2026-11-26T15:18:15Z",
   "lastMatchDate": "2026-11-23",
   "league": "Premier League",
   "matches": 110,

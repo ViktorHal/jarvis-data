@@ -316,8 +316,8 @@
    "gaa": 2.07515,
    "gp": 23,
    "gs": 23,
-   "shots_against": 598,
-   "sv_pct": 0.91973,
+   "shots_against": 599,
+   "sv_pct": 0.91986,
    "team": "MIN"
   },
   "Jet Greaves": {
@@ -634,7 +634,7 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-26T12:58:19Z",
+  "fetchedAt": "2026-11-26T15:18:29Z",
   "season": "2026-27",
   "source": "https://api.nhle.com/stats/rest/en/goalie/summary?limit=-1&cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
  }

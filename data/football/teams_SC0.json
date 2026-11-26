@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 5.253,
+  "corners_home_pg": 6.06,
+  "matches": 83,
+  "yellow_matches": 83,
+  "yellow_pg": 3.783
+ },
  "meta": {
   "code": "SC0",
-  "fetchedAt": "2026-11-26T12:58:13Z",
+  "fetchedAt": "2026-11-26T15:18:25Z",
   "lastMatchDate": "2026-11-24",
   "league": "Scottish Premiership",
   "matches": 83,

@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 3.934,
+  "corners_home_pg": 4.882,
+  "matches": 76,
+  "yellow_matches": 76,
+  "yellow_pg": 4.855
+ },
  "meta": {
   "code": "G1",
-  "fetchedAt": "2026-11-26T12:58:11Z",
+  "fetchedAt": "2026-11-26T15:18:24Z",
   "lastMatchDate": "2026-11-23",
   "league": "Super League Greece",
   "matches": 76,

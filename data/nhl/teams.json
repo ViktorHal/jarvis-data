@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-26T12:58:19Z",
+  "fetchedAt": "2026-11-26T15:18:29Z",
   "season": "2026-27",
   "sources": [
    "https://api-web.nhle.com/v1/standings/now",
@@ -286,7 +286,7 @@
    "road_ga": 38,
    "road_gf": 63,
    "road_gp": 18,
-   "shots_against_pg": 25.85185,
+   "shots_against_pg": 25.88888,
    "shots_for_pg": 28.85185
   },
   "MTL": {
@@ -567,7 +567,7 @@
    "road_gf": 48,
    "road_gp": 15,
    "shots_against_pg": 24.96153,
-   "shots_for_pg": 28.80769
+   "shots_for_pg": 28.84615
   },
   "VAN": {
    "ga_pg": 4.407,

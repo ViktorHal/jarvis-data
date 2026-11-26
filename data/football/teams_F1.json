@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 4.283,
+  "corners_home_pg": 4.818,
+  "matches": 99,
+  "yellow_matches": 99,
+  "yellow_pg": 3.475
+ },
  "meta": {
   "code": "F1",
-  "fetchedAt": "2026-11-26T12:58:05Z",
+  "fetchedAt": "2026-11-26T15:18:20Z",
   "lastMatchDate": "2026-11-22",
   "league": "Ligue 1",
   "matches": 99,

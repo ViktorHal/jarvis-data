@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 4.154,
+  "corners_home_pg": 5.272,
+  "matches": 162,
+  "yellow_matches": 162,
+  "yellow_pg": 5.586
+ },
  "meta": {
   "code": "SP2",
-  "fetchedAt": "2026-11-26T12:58:14Z",
+  "fetchedAt": "2026-11-26T15:18:26Z",
   "lastMatchDate": "2026-11-23",
   "league": "La Liga 2",
   "matches": 162,

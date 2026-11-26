@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 4.669,
+  "corners_home_pg": 4.9,
+  "matches": 130,
+  "yellow_matches": 130,
+  "yellow_pg": 3.962
+ },
  "meta": {
   "code": "I2",
-  "fetchedAt": "2026-11-26T12:58:15Z",
+  "fetchedAt": "2026-11-26T15:18:27Z",
   "lastMatchDate": "2026-11-25",
   "league": "Serie B",
   "matches": 130,

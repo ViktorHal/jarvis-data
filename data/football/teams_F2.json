@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 4.299,
+  "corners_home_pg": 5.12,
+  "matches": 117,
+  "yellow_matches": 117,
+  "yellow_pg": 3.932
+ },
  "meta": {
   "code": "F2",
-  "fetchedAt": "2026-11-26T12:58:17Z",
+  "fetchedAt": "2026-11-26T15:18:28Z",
   "lastMatchDate": "2026-11-23",
   "league": "Ligue 2",
   "matches": 117,

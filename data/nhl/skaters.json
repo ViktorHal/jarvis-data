@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-26T12:58:19Z",
+  "fetchedAt": "2026-11-26T15:18:29Z",
   "minGames": 5,
   "rows": 789,
   "season": "2026-27",
@@ -590,14 +590,6 @@
    "shots_pg": 2.0,
    "team": "PIT",
    "toi_pg_sec": 1062.7619
-  },
-  "Ben Meyers": {
-   "gp": 20,
-   "points_pg": 0.35,
-   "pos": "C",
-   "shots_pg": 0.95,
-   "team": "SEA",
-   "toi_pg_sec": 722.3
   },
   "Berkly Catton": {
    "gp": 22,
@@ -1782,14 +1774,6 @@
    "shots_pg": 2.519,
    "team": "EDM",
    "toi_pg_sec": 1542.6296
-  },
-  "Evan Rodrigues": {
-   "gp": 25,
-   "points_pg": 0.56,
-   "pos": "C",
-   "shots_pg": 1.48,
-   "team": "NJD",
-   "toi_pg_sec": 933.84
   },
   "Evgeni Malkin": {
    "gp": 20,
@@ -3091,7 +3075,7 @@
    "gp": 23,
    "points_pg": 1.21739,
    "pos": "C",
-   "shots_pg": 1.609,
+   "shots_pg": 1.652,
    "team": "UTA",
    "toi_pg_sec": 1138.5652
   },
@@ -4215,14 +4199,6 @@
    "team": "COL",
    "toi_pg_sec": 775.5833
   },
-  "Parker Wotherspoon": {
-   "gp": 13,
-   "points_pg": 0.07692,
-   "pos": "D",
-   "shots_pg": 0.923,
-   "team": "VGK",
-   "toi_pg_sec": 1073.4615
-  },
   "Patrick Kane": {
    "gp": 22,
    "points_pg": 0.81818,
@@ -4430,14 +4406,6 @@
    "shots_pg": 0.333,
    "team": "MIN",
    "toi_pg_sec": 519.0
-  },
-  "Robert Thomas": {
-   "gp": 25,
-   "points_pg": 1.0,
-   "pos": "C",
-   "shots_pg": 1.4,
-   "team": "STL",
-   "toi_pg_sec": 1209.68
   },
   "Roger McQueen": {
    "gp": 21,

@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 4.274,
+  "corners_home_pg": 5.855,
+  "matches": 117,
+  "yellow_matches": 117,
+  "yellow_pg": 3.017
+ },
  "meta": {
   "code": "N1",
-  "fetchedAt": "2026-11-26T12:58:06Z",
+  "fetchedAt": "2026-11-26T15:18:21Z",
   "lastMatchDate": "2026-11-22",
   "league": "Eredivisie",
   "matches": 117,

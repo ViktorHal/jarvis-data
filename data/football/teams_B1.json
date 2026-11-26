@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 4.833,
+  "corners_home_pg": 5.435,
+  "matches": 108,
+  "yellow_matches": 108,
+  "yellow_pg": 3.611
+ },
  "meta": {
   "code": "B1",
-  "fetchedAt": "2026-11-26T12:58:07Z",
+  "fetchedAt": "2026-11-26T15:18:21Z",
   "lastMatchDate": "2026-11-22",
   "league": "Belgian Pro League",
   "matches": 108,

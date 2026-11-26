@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 5.352,
+  "corners_home_pg": 5.694,
+  "matches": 108,
+  "yellow_matches": 108,
+  "yellow_pg": 4.13
+ },
  "meta": {
   "code": "D2",
-  "fetchedAt": "2026-11-26T12:58:16Z",
+  "fetchedAt": "2026-11-26T15:18:27Z",
   "lastMatchDate": "2026-11-22",
   "league": "2. Bundesliga",
   "matches": 108,

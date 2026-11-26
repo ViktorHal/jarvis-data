@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 3.663,
+  "corners_home_pg": 5.224,
+  "matches": 98,
+  "yellow_matches": 98,
+  "yellow_pg": 4.327
+ },
  "meta": {
   "code": "P1",
-  "fetchedAt": "2026-11-26T12:58:09Z",
+  "fetchedAt": "2026-11-26T15:18:22Z",
   "lastMatchDate": "2026-11-08",
   "league": "Primeira Liga",
   "matches": 98,

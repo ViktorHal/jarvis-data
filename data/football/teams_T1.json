@@ -1,7 +1,14 @@
 {
+ "league": {
+  "corners_away_pg": 4.157,
+  "corners_home_pg": 5.157,
+  "matches": 108,
+  "yellow_matches": 108,
+  "yellow_pg": 3.981
+ },
  "meta": {
   "code": "T1",
-  "fetchedAt": "2026-11-26T12:58:10Z",
+  "fetchedAt": "2026-11-26T15:18:23Z",
   "lastMatchDate": "2026-11-23",
   "league": "Super Lig",
   "matches": 108,
