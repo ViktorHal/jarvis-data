@@ -117,3 +117,14 @@ class JarvisElo(unittest.TestCase):
         self.assertGreater(leagues["PL (47)"]["mean"], leagues["SP (64)"]["mean"])
         # zero-sum: rating points only move between clubs
         self.assertAlmostEqual(sum(c["elo"] for c in clubs.values()), 1650 * 2 + 1460 * 2, places=6)
+
+
+class EloMatch(unittest.TestCase):
+    def test_find_and_league_elo(self):
+        import elo_match
+        clubs = {"1": {"name": "Heart of Midlothian", "elo": 1450.0, "league": "Premiership (64)", "games": 50},
+                 "2": {"name": "Monaco", "elo": 1700.0, "league": "Ligue 1 (53)", "games": 60},
+                 "3": {"name": "Atlético Madrid", "elo": 1800.0, "league": "LaLiga (87)", "games": 70}}
+        self.assertEqual(elo_match.find(clubs, "Hearts"), "1")
+        self.assertEqual(elo_match.find(clubs, "atletico madrid"), "3")
+        self.assertIsNone(elo_match.find(clubs, "Nowhere FC"))

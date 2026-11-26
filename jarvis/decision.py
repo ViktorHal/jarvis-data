@@ -37,7 +37,7 @@ try:  # hockey model 1.2 (production for hockey from 26 Nov 2026 when its inputs
 except Exception:  # a missing or broken hockey12.py falls back to 1.1, recorded per match
     hockey12 = None
 
-VERSION = "3.4"
+VERSION = "3.5"
 
 DEFAULT_CONFIG = {
     "mode": "shadow",                 # "shadow" | "active"
@@ -292,10 +292,7 @@ def evaluate_line(p, *, rules, cfg, status, tier, odds, gap, quality, minutes_to
 # ---------------------------------------------------------------- score grid (exact goal combos)
 def football_lambdas(inp):
     """Mirror of model.football's expected goals; a unit test keeps the two in step."""
-    h, a = inp["home"], inp["away"]
-    ha = inp.get("home_adv", model.P["home_adv"])
-    gs = model.P["goal_scale"]
-    return (math.sqrt(h["xgf"] * a["xga"]) * ha * gs, math.sqrt(a["xgf"] * h["xga"]) / ha * gs)
+    return model.goal_rates(inp)
 
 
 def leg_predicate(group, selection, hn, an):
