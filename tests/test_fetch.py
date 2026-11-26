@@ -182,3 +182,25 @@ class TestSHL(Base):
         shl.run(log, today=date(2026, 11, 26))
         self.assertEqual(log.sources["shl schedule"]["status"], "failed")
         self.assertFalse(os.path.exists(os.path.join(self.tmp.name, "shl/teams.json")))
+
+
+class TestXG(Base):
+    PAGE = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixtures", "statz_xg.html"), encoding="utf-8").read()
+
+    def test_parse_four_tables(self):
+        import xg
+        season, upd, sp = xg.parse(self.PAGE)
+        self.assertEqual(season, "2026/2027")
+        self.assertEqual(set(sp), {"all", "home", "away", "last5"})
+        self.assertTrue(upd.startswith("Updated 23 November 2026"))
+        row = next(iter(sp["all"].values()))
+        self.assertAlmostEqual(row["xg_pg"], round(row["xg"] / row["played"], 3))
+
+    def test_wrong_season_is_rejected(self):
+        import xg
+        common.get = Fake({"statz.ai": self.PAGE.replace("2026/2027", "2025/2026")})
+        log = common.Log()
+        xg.time.sleep = lambda s: None
+        xg.run(log)
+        self.assertTrue(all(s["status"] == "failed" for s in log.sources.values()))
+        self.assertIn("not 2026/27", log.sources["xg premier-league"]["error"])
