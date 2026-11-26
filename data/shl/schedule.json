@@ -1,0 +1,56 @@
+{
+ "games": [
+  {
+   "away": "IF Björklöven",
+   "date": "2026-11-26",
+   "home": "Frölunda HC",
+   "played": false,
+   "startUTC": "2026-11-26T18:00:00Z",
+   "time": "19:00"
+  },
+  {
+   "away": "Brynäs IF",
+   "date": "2026-11-26",
+   "home": "Linköping HC",
+   "played": false,
+   "startUTC": "2026-11-26T18:00:00Z",
+   "time": "19:00"
+  },
+  {
+   "away": "Rögle BK",
+   "date": "2026-11-26",
+   "home": "Skellefteå AIK",
+   "played": false,
+   "startUTC": "2026-11-26T18:00:00Z",
+   "time": "19:00"
+  },
+  {
+   "away": "Färjestad BK",
+   "date": "2026-11-26",
+   "home": "Timrå IK",
+   "played": false,
+   "startUTC": "2026-11-26T18:00:00Z",
+   "time": "19:00"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "date": "2026-11-26",
+   "home": "Växjö Lakers HC",
+   "played": false,
+   "startUTC": "2026-11-26T18:00:00Z",
+   "time": "19:00"
+  },
+  {
+   "away": "HV 71",
+   "date": "2026-11-26",
+   "home": "Örebro HK",
+   "played": false,
+   "startUTC": "2026-11-26T18:00:00Z",
+   "time": "19:00"
+  }
+ ],
+ "meta": {
+  "fetchedAt": "2026-11-26T09:49:13Z",
+  "source": "https://stats.swehockey.se/ScheduleAndResults/Schedule/20961"
+ }
+}

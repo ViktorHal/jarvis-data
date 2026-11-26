@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-26T09:17:01Z",
+  "fetchedAt": "2026-11-26T09:49:12Z",
   "minGames": 5,
   "rows": 789,
   "season": "2026-27",
@@ -1782,14 +1782,6 @@
    "shots_pg": 2.519,
    "team": "EDM",
    "toi_pg_sec": 1542.6296
-  },
-  "Evan Rodrigues": {
-   "gp": 25,
-   "points_pg": 0.56,
-   "pos": "C",
-   "shots_pg": 1.48,
-   "team": "NJD",
-   "toi_pg_sec": 933.84
   },
   "Evgeni Malkin": {
    "gp": 20,
