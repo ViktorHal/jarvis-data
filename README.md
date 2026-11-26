@@ -12,7 +12,8 @@ Personal, non-commercial use. No bookmaker websites are accessed; prices come fr
 |---|---|---|
 | [football-data.co.uk](https://www.football-data.co.uk) | 2026/27 results, shots, shots on target, corners, fouls, cards, referees, prices (incl. Pinnacle and closing prices), upcoming fixtures with prices | `data/football/` |
 | NHL.com public JSON (`api-web.nhle.com`, `api.nhle.com/stats/rest`) | standings with last 10, shots, PP/PK, goalies, skaters, schedule, who played yesterday | `data/nhl/` |
-| [ClubElo](http://clubelo.com) | daily Elo snapshot for every club | `data/elo/` |
+| [stats.swehockey.se](https://stats.swehockey.se) | SHL 2026/27: every game with period scores (regulation, overtime, shootout), team table with last 10, home/away, back-to-back; today's and tomorrow's games | `data/shl/` |
+| [ClubElo](http://clubelo.com) | daily Elo snapshot for every club (currently unreachable from GitHub's servers) | `data/elo/` |
 
 `data/manifest.json` records, for every source and run, whether the fetch worked, how many rows it
 returned and when. A failed source never deletes the last good file; every file carries `fetchedAt`.

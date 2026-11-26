@@ -146,3 +146,39 @@ class TestRunAll(Base):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestSHL(Base):
+    PAGE = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixtures", "shl_schedule.html"), encoding="utf-8").read()
+
+    def test_parse_real_page_rows(self):
+        import shl
+        g = shl.parse_schedule(self.PAGE)
+        self.assertEqual(len(g), 10)
+        hv = next(x for x in g if x["home"] == "HV 71")                  # team names with digits
+        self.assertEqual((hv["hg"], hv["ag"], hv["reg_hg"], hv["reg_ag"], hv["overtime"], hv["shootout"]), (4, 5, 4, 4, True, False))
+        so = next(x for x in g if x["home"] == "Frölunda HC" and x["away"] == "Färjestad BK")
+        self.assertEqual((so["hg"], so["ag"], so["reg_hg"], so["reg_ag"], so["shootout"]), (3, 2, 2, 2, True))
+        lr = next(x for x in g if x["away"] == "Rögle BK")
+        self.assertEqual((lr["date"], lr["startUTC"], lr["hg"], lr["ag"]), ("2026-09-19", "2026-09-19T16:00:00Z", 4, 2))
+        fut = [x for x in g if not x["played"]]
+        self.assertEqual(len(fut), 2)
+        self.assertEqual(fut[0]["startUTC"], "2026-11-26T18:00:00Z")     # 19:00 Stockholm in winter
+
+    def test_team_table_excludes_shootout_goal(self):
+        import shl
+        t = shl.team_table(shl.parse_schedule(self.PAGE), date(2026, 9, 23))
+        fr = t["Frölunda HC"]
+        self.assertEqual(fr["gp"], 2)
+        self.assertEqual(fr["gf_pg"], 3.5)        # 5 + 2 (shootout goal excluded) = 7 / 2
+        self.assertEqual(fr["reg_gf_pg"], 3.5)    # 5 + 2
+        self.assertTrue(fr["played_yesterday"])   # played 22 Sep
+        self.assertEqual(t["Rögle BK"]["ga_pg"], 4.0)
+
+    def test_run_rejects_a_page_without_games(self):
+        import shl
+        common.get = Fake({"stats.swehockey.se": "<html>maintenance</html>"})
+        log = common.Log()
+        shl.run(log, today=date(2026, 11, 26))
+        self.assertEqual(log.sources["shl schedule"]["status"], "failed")
+        self.assertFalse(os.path.exists(os.path.join(self.tmp.name, "shl/teams.json")))
