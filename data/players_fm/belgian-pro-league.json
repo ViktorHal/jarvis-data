@@ -1,0 +1,13 @@
+{
+ "meta": {
+  "complete": false,
+  "fetchedAt": "2026-11-26T16:31:17Z",
+  "finished": 108,
+  "fotmobLeagueId": 40,
+  "league": "belgian-pro-league",
+  "matches": 0,
+  "note": "shots from the shot map (own goals excluded); on target = on target and not blocked; use only when complete is true (every finished match counted)",
+  "source": "FotMob match data"
+ },
+ "players": {}
+}
