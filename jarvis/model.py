@@ -47,6 +47,10 @@ P = {
     # elo_c fitted on 17,106 domestic matches 2024-2026 (Poisson goals on Elo difference) and checked on 1,062
     # European club matches (log-loss 3.059 with it v 3.180 without).
     "elo_c": 0.7,
+    # player shots (26 Nov 2026, research/player_shots_backtest.json: FotMob 2025/26 top five leagues, 7,510 starts of
+    # regular shooters): counts are negative binomial with r 3, not Poisson (Poisson was 10-13 points too
+    # confident: "74%" lines landed 61%). exp_minutes should be the player's average minutes per start.
+    "player_r": 3,
     "player_scale": 1.0,      # multiplier on player shot rates
     "hockey_home_adv": 1.04,
     "hockey_draw_inflation": 1.08,
@@ -198,12 +202,12 @@ def football(m):
         f = pl.get("exp_minutes", 80) / 90 * pl.get("opp_factor", 1.0) * P["player_scale"]
         if "sot_p90" in pl:
             lam = pl["sot_p90"] * f
-            out += [price("Player shots on target", f"{pl['name']} 1+", 1 - math.exp(-lam)),
-                    price("Player shots on target", f"{pl['name']} 2+", pois_over(1.5, lam))]
+            out += [price("Player shots on target", f"{pl['name']} 1+", nb_over(0.5, lam, P["player_r"])),
+                    price("Player shots on target", f"{pl['name']} 2+", nb_over(1.5, lam, P["player_r"]))]
         if "shots_p90" in pl:
             lam = pl["shots_p90"] * f
             for k in (1, 2, 3):
-                out.append(price("Player shots", f"{pl['name']} {k}+", pois_over(k - 0.5, lam)))
+                out.append(price("Player shots", f"{pl['name']} {k}+", nb_over(k - 0.5, lam, P["player_r"])))
     return out, exp
 
 
