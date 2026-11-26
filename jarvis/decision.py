@@ -693,6 +693,14 @@ _rank = lambda r: 0 if FAMILY_GROUP.get(r["group"]) in ("goals", "hockey") else 
 GOAL_OVER = re.compile(r"(^Over )|( over )|(^Yes$)")
 
 
+def _gkey(r):
+    """Near-duplicate key: one market group per match, and every player market of one player counts as one
+    (Oyarzabal 2+ shots and Oyarzabal 1+ on target are the same bet twice)."""
+    if r["group"].startswith("Player"):
+        return "player:" + r["selection"].rsplit(" ", 1)[0]
+    return FAMILY_GROUP.get(r["group"], r["group"])
+
+
 def _distrusted(m, cfg):
     """Family groups in which the model sits more than gapMax away from the market on some priced line:
     the model is not trusted for unpriced lines of that group in this match."""
@@ -709,6 +717,19 @@ def _checkable(r, rules):
     return not [w for w in r[rules]["why"] if not w.startswith("quality")]
 
 
+def _rows_of(b):
+    """(matchId, line row) for every line a product holds."""
+    if "line" in b:
+        return [(b["matchId"], b["line"])]
+    out = []
+    for l in b.get("legs") or []:
+        if isinstance(l, dict) and "line" in l:
+            out.append((l["matchId"], l["line"]))
+        elif isinstance(l, dict) and "group" in l:
+            out.append((b.get("matchId"), l))
+    return out
+
+
 def _pick(r):
     return f'{r["selection"]} ({r["group"]})'
 
@@ -723,13 +744,47 @@ def extra_products(processed, cfg, rules, room, add, taken):
     ck, cb, pb = hr["check"], hr["combo"], hr["playerBuilder"]
     trust = {m["id"]: _distrusted(m, cfg) for m in processed}
     ok_group = lambda m, r: FAMILY_GROUP.get(r["group"], r["group"]) not in trust[m["id"]]
-    # multi-match combos first: one leg per match, the most likely legs
+    # what the value singles and goal builders already hold (never offered twice)
+    used_keys = set()
+    for b in add.products:
+        for mid, r in _rows_of(b):
+            used_keys.add((mid, _gkey(r)))
+    # same-match builders first (owner's favourite): a likely goal leg (over/yes) + a likely player-shots leg. Priced as independent legs:
+    # both lean the same way (more attacking play), so the real joint chance is at least the product - cautious.
+    for m in processed:
+        if not room(m["id"]):
+            continue
+        goal = [r for r in m["markets"] if r["group"] in ("Total goals", "Team goals", "Both teams to score")
+                and GOAL_OVER.search(r["selection"]) and r["prob"] / 100 >= pb["goalMinProb"] and ok_group(m, r)
+                and (r[rules]["post"] or _checkable(r, rules) or (r.get("gap") is not None and abs(r["gap"]) / 100 <= cfg["gapMax"]
+                                                               and not [w for w in r[rules]["why"] if w.startswith(("data", "sport", "market", "starts"))]))]
+        plays = [r for r in m["markets"] if r["group"] in PLAYER_FAMILIES and r["prob"] / 100 >= pb["playerMinProb"]
+                 and _checkable(r, rules)]
+        goal = [r for r in goal if (m["id"], _gkey(r)) not in used_keys]
+        plays = [r for r in plays if (m["id"], _gkey(r)) not in used_keys]
+        best = None
+        for g in goal:
+            for pl in plays:
+                pj = g["prob"] / 100 * pl["prob"] / 100
+                if pj < pb["minJoint"]:
+                    continue
+                Pj, mo = combo_min_odds([(g["prob"] / 100, g["nEff"]), (pl["prob"] / 100, pl["nEff"])], cfg, rules)
+                if not (pb["odds"][0] <= mo <= pb["odds"][1]):
+                    continue
+                if best is None or Pj > best["confidence"] / 100:
+                    best = {"tier": "builder", "kind": "playerBuilder", "matchId": m["id"], "event": m["event"], "start": m["start"],
+                            "pick": f"{_pick(g)} + {_pick(pl)}",
+                            "confidence": round(Pj * 100, 1), "minOdds": mo, "needsPrice": True, "legs": [g, pl]}
+        if best and add(best, [m["id"]]):
+            used_keys |= {(m["id"], _gkey(r)) for r in best["legs"]}
+    # multi-match combos from what is left: one leg per match, the most likely legs
     cands = []
     for m in processed:
         best = None
         for r in m["markets"]:
             p = r["prob"] / 100
-            if p < cb["legMinProb"] or r["minOdds"] < cb["legMinOdds"] or not ok_group(m, r) or (m["id"], r["key"]) in taken:
+            if p < cb["legMinProb"] or r["minOdds"] < cb["legMinOdds"] or not ok_group(m, r) or (m["id"], r["key"]) in taken \
+                    or (m["id"], _gkey(r)) in used_keys:
                 continue
             # unpriced corners/cards are not calibrated yet: they may be single checks, never legs of a combo
             if not (r[rules]["post"] or (_checkable(r, rules) and r["group"] in COMBO_UNPRICED)):
@@ -760,33 +815,8 @@ def extra_products(processed, cfg, rules, room, add, taken):
         used |= {m["id"] for m, _ in legs}        # each match in one combo at most, whatever happens below
         if odds is not None and odds < mo:
             continue
-        add(bet, [m["id"] for m, _ in legs])
-    # same-match builder: a likely goal leg (over/yes) + a likely player-shots leg. Priced as independent legs:
-    # both lean the same way (more attacking play), so the real joint chance is at least the product - cautious.
-    for m in processed:
-        if not room(m["id"]):
-            continue
-        goal = [r for r in m["markets"] if r["group"] in ("Total goals", "Team goals", "Both teams to score")
-                and GOAL_OVER.search(r["selection"]) and r["prob"] / 100 >= pb["goalMinProb"] and ok_group(m, r)
-                and (r[rules]["post"] or _checkable(r, rules) or (r.get("gap") is not None and abs(r["gap"]) / 100 <= cfg["gapMax"]
-                                                               and not [w for w in r[rules]["why"] if w.startswith(("data", "sport", "market", "starts"))]))]
-        plays = [r for r in m["markets"] if r["group"] in PLAYER_FAMILIES and r["prob"] / 100 >= pb["playerMinProb"]
-                 and _checkable(r, rules)]
-        best = None
-        for g in goal:
-            for pl in plays:
-                pj = g["prob"] / 100 * pl["prob"] / 100
-                if pj < pb["minJoint"]:
-                    continue
-                Pj, mo = combo_min_odds([(g["prob"] / 100, g["nEff"]), (pl["prob"] / 100, pl["nEff"])], cfg, rules)
-                if not (pb["odds"][0] <= mo <= pb["odds"][1]):
-                    continue
-                if best is None or Pj > best["confidence"] / 100:
-                    best = {"tier": "builder", "kind": "playerBuilder", "matchId": m["id"], "event": m["event"], "start": m["start"],
-                            "pick": f"{_pick(g)} + {_pick(pl)}",
-                            "confidence": round(Pj * 100, 1), "minOdds": mo, "needsPrice": True, "legs": [g, pl]}
-        if best:
-            add(best, [m["id"]])
+        if add(bet, [m["id"] for m, _ in legs]):
+            used_keys |= {(m["id"], _gkey(r)) for m, r in legs}
     # check-at-BetMGM singles: the most likely unpriced line per match in a sensible price range
     for m in processed:
         if not room(m["id"]):
@@ -794,9 +824,9 @@ def extra_products(processed, cfg, rules, room, add, taken):
         lines = [r for r in m["markets"] if r["group"] in CHECK_FAMILIES and _checkable(r, rules) and ok_group(m, r)
                  and r["prob"] / 100 >= ck["minProb"] and ck["minOdds"][0] <= r["minOdds"] <= ck["minOdds"][1]
                  and (m["id"], r["key"]) not in taken]
-        seen = set()
+        seen = {k for mid, k in used_keys if mid == m["id"]}      # not again what a combo/builder/single already holds
         for r in sorted(lines, key=lambda r: -r["prob"]):
-            grp = FAMILY_GROUP.get(r["group"], r["group"])
+            grp = _gkey(r)
             if grp in seen:
                 continue
             seen.add(grp)
@@ -825,6 +855,7 @@ def build_products(processed, open_bets, cfg, rules):
             per_event[m] = per_event.get(m, 0) + 1
         new.append(bet)
         return True
+    add.products = new          # extra_products reads what is already offered
 
     # singles: the best postable priced line per market group of each event (near-duplicates merged, no quota)
     for m in processed:
@@ -833,7 +864,7 @@ def build_products(processed, open_bets, cfg, rules):
                  and (hr is None or r["prob"] / 100 >= hr.get("minProb", 0.60))]
         seen = set()
         for r in sorted(cands, key=lambda r: -r["ev"]):
-            grp = FAMILY_GROUP.get(r["group"], r["group"])
+            grp = _gkey(r)
             if grp in seen:
                 continue
             t = _tier_for(r["odds"], r["prob"] / 100, r["ev"] / 100, cfg)
