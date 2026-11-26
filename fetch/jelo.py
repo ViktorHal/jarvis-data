@@ -121,6 +121,8 @@ def run(log: Log):
             except Exception as e:
                 failed.append(f"{lid}|current: {str(e)[:60]}")
             time.sleep(0.5)
+        if not matches:
+            raise ValueError("no results from FotMob: " + "; ".join(failed[:3]))
         write_json("elo/jelo_results.json", cache)
         clubs, leagues = rate(matches)
         write_json("elo/jelo.json", {"meta": {"fetchedAt": now_iso(), "source": "FotMob results, Elo computed by jarvis-data",
