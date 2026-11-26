@@ -1,0 +1,13 @@
+{
+ "meta": {
+  "code": "F2",
+  "fetchedAt": "2026-11-26T09:13:29Z",
+  "lastMatchDate": "2026-11-23",
+  "league": "Ligue 2",
+  "matches": 117,
+  "note": "per-game averages over matches where the column exists; no xG in this source",
+  "season": "2026/27",
+  "source": "https://www.football-data.co.uk/mmz4281/2627/F2.csv"
+ },
+ "referees": {}
+}

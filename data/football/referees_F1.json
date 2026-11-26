@@ -1,0 +1,13 @@
+{
+ "meta": {
+  "code": "F1",
+  "fetchedAt": "2026-11-26T09:13:15Z",
+  "lastMatchDate": "2026-11-22",
+  "league": "Ligue 1",
+  "matches": 99,
+  "note": "per-game averages over matches where the column exists; no xG in this source",
+  "season": "2026/27",
+  "source": "https://www.football-data.co.uk/mmz4281/2627/F1.csv"
+ },
+ "referees": {}
+}

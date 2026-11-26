@@ -1,0 +1,182 @@
+{
+ "failed": 1,
+ "ok": 24,
+ "runAt": "2026-11-26T09:15:55Z",
+ "sources": {
+  "clubelo": {
+   "at": "2026-11-26T09:15:55Z",
+   "error": "<urlopen error timed out>",
+   "rows": 0,
+   "status": "failed",
+   "url": "http://api.clubelo.com/2026-11-26"
+  },
+  "football-data B1": {
+   "at": "2026-11-26T09:13:18Z",
+   "note": null,
+   "rows": 108,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/B1.csv"
+  },
+  "football-data D1": {
+   "at": "2026-11-26T09:13:13Z",
+   "note": null,
+   "rows": 90,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv"
+  },
+  "football-data D2": {
+   "at": "2026-11-26T09:13:27Z",
+   "note": null,
+   "rows": 108,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/D2.csv"
+  },
+  "football-data E0": {
+   "at": "2026-11-26T09:13:08Z",
+   "note": null,
+   "rows": 110,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv"
+  },
+  "football-data E1": {
+   "at": "2026-11-26T09:13:09Z",
+   "note": null,
+   "rows": 192,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/E1.csv"
+  },
+  "football-data F1": {
+   "at": "2026-11-26T09:13:15Z",
+   "note": null,
+   "rows": 99,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv"
+  },
+  "football-data F2": {
+   "at": "2026-11-26T09:13:29Z",
+   "note": null,
+   "rows": 117,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/F2.csv"
+  },
+  "football-data G1": {
+   "at": "2026-11-26T09:13:22Z",
+   "note": null,
+   "rows": 76,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/G1.csv"
+  },
+  "football-data I1": {
+   "at": "2026-11-26T09:13:12Z",
+   "note": null,
+   "rows": 120,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/I1.csv"
+  },
+  "football-data I2": {
+   "at": "2026-11-26T09:13:26Z",
+   "note": null,
+   "rows": 120,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/I2.csv"
+  },
+  "football-data N1": {
+   "at": "2026-11-26T09:13:17Z",
+   "note": null,
+   "rows": 117,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/N1.csv"
+  },
+  "football-data P1": {
+   "at": "2026-11-26T09:13:19Z",
+   "note": null,
+   "rows": 98,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/P1.csv"
+  },
+  "football-data SC0": {
+   "at": "2026-11-26T09:13:23Z",
+   "note": null,
+   "rows": 81,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/SC0.csv"
+  },
+  "football-data SP1": {
+   "at": "2026-11-26T09:13:11Z",
+   "note": null,
+   "rows": 129,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv"
+  },
+  "football-data SP2": {
+   "at": "2026-11-26T09:13:25Z",
+   "note": null,
+   "rows": 162,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/SP2.csv"
+  },
+  "football-data T1": {
+   "at": "2026-11-26T09:13:21Z",
+   "note": null,
+   "rows": 108,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/mmz4281/2627/T1.csv"
+  },
+  "football-data fixtures": {
+   "at": "2026-11-26T09:13:30Z",
+   "note": null,
+   "rows": 43,
+   "status": "ok",
+   "url": "https://www.football-data.co.uk/fixtures.csv"
+  },
+  "nhl goalies": {
+   "at": "2026-11-26T09:13:30Z",
+   "note": null,
+   "rows": 79,
+   "status": "ok",
+   "url": "https://api.nhle.com/stats/rest/en/goalie/summary?limit=-1&cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
+  },
+  "nhl schedule 2026-11-26": {
+   "at": "2026-11-26T09:13:30Z",
+   "note": null,
+   "rows": 0,
+   "status": "ok",
+   "url": "https://api-web.nhle.com/v1/score/2026-11-26"
+  },
+  "nhl schedule 2026-11-27": {
+   "at": "2026-11-26T09:13:31Z",
+   "note": null,
+   "rows": 15,
+   "status": "ok",
+   "url": "https://api-web.nhle.com/v1/score/2026-11-27"
+  },
+  "nhl skaters": {
+   "at": "2026-11-26T09:13:30Z",
+   "note": null,
+   "rows": 91,
+   "status": "ok",
+   "url": "https://api.nhle.com/stats/rest/en/skater/summary?limit=-1&cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
+  },
+  "nhl standings": {
+   "at": "2026-11-26T09:13:30Z",
+   "note": null,
+   "rows": 32,
+   "status": "ok",
+   "url": "https://api-web.nhle.com/v1/standings/now"
+  },
+  "nhl team summary": {
+   "at": "2026-11-26T09:13:30Z",
+   "note": null,
+   "rows": 32,
+   "status": "ok",
+   "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
+  },
+  "nhl yesterday": {
+   "at": "2026-11-26T09:13:30Z",
+   "note": "teams that played on 2026-11-25 (US date)",
+   "rows": 28,
+   "status": "ok",
+   "url": "https://api-web.nhle.com/v1/score/2026-11-25"
+  }
+ }
+}

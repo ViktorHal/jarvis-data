@@ -1,0 +1,13 @@
+{
+ "meta": {
+  "code": "P1",
+  "fetchedAt": "2026-11-26T09:13:19Z",
+  "lastMatchDate": "2026-11-08",
+  "league": "Primeira Liga",
+  "matches": 98,
+  "note": "per-game averages over matches where the column exists; no xG in this source",
+  "season": "2026/27",
+  "source": "https://www.football-data.co.uk/mmz4281/2627/P1.csv"
+ },
+ "referees": {}
+}

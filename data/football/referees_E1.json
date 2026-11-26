@@ -1,0 +1,218 @@
+{
+ "meta": {
+  "code": "E1",
+  "fetchedAt": "2026-11-26T09:13:09Z",
+  "lastMatchDate": "2026-11-22",
+  "league": "Championship",
+  "matches": 192,
+  "note": "per-game averages over matches where the column exists; no xG in this source",
+  "season": "2026/27",
+  "source": "https://www.football-data.co.uk/mmz4281/2627/E1.csv"
+ },
+ "referees": {
+  "A Backhouse": {
+   "fouls_pg": 19.29,
+   "games": 7,
+   "red_rate": 0.0,
+   "yellow_pg": 4.143
+  },
+  "A Herczeg": {
+   "fouls_pg": 23.86,
+   "games": 7,
+   "red_rate": 0.143,
+   "yellow_pg": 4.143
+  },
+  "A Kitchen": {
+   "fouls_pg": 23.75,
+   "games": 8,
+   "red_rate": 0.0,
+   "yellow_pg": 3.875
+  },
+  "A Madley": {
+   "fouls_pg": 14.5,
+   "games": 2,
+   "red_rate": 0.0,
+   "yellow_pg": 1.5
+  },
+  "B Speedie": {
+   "fouls_pg": 23.29,
+   "games": 7,
+   "red_rate": 0.0,
+   "yellow_pg": 2.429
+  },
+  "D Webb": {
+   "fouls_pg": 20.67,
+   "games": 6,
+   "red_rate": 0.0,
+   "yellow_pg": 2.5
+  },
+  "E Bell": {
+   "fouls_pg": 21.0,
+   "games": 6,
+   "red_rate": 0.167,
+   "yellow_pg": 4.5
+  },
+  "E Duckworth": {
+   "fouls_pg": 18.67,
+   "games": 6,
+   "red_rate": 0.0,
+   "yellow_pg": 3.667
+  },
+  "F Hallam": {
+   "fouls_pg": 21.5,
+   "games": 4,
+   "red_rate": 0.0,
+   "yellow_pg": 3.5
+  },
+  "G Ward": {
+   "fouls_pg": 21.12,
+   "games": 8,
+   "red_rate": 0.0,
+   "yellow_pg": 3.625
+  },
+  "J Bell": {
+   "fouls_pg": 20.67,
+   "games": 6,
+   "red_rate": 0.167,
+   "yellow_pg": 3.833
+  },
+  "J Busby": {
+   "fouls_pg": 22.57,
+   "games": 7,
+   "red_rate": 0.0,
+   "yellow_pg": 3.571
+  },
+  "J Smith": {
+   "fouls_pg": 25.11,
+   "games": 9,
+   "red_rate": 0.111,
+   "yellow_pg": 4.889
+  },
+  "L Smith": {
+   "fouls_pg": 21.25,
+   "games": 8,
+   "red_rate": 0.125,
+   "yellow_pg": 3.875
+  },
+  "M Corlett": {
+   "fouls_pg": 22.0,
+   "games": 4,
+   "red_rate": 0.0,
+   "yellow_pg": 4.75
+  },
+  "M Donohue": {
+   "fouls_pg": 20.57,
+   "games": 7,
+   "red_rate": 0.0,
+   "yellow_pg": 4.286
+  },
+  "M Madley": {
+   "fouls_pg": 22.0,
+   "games": 1,
+   "red_rate": 0.0,
+   "yellow_pg": 5.0
+  },
+  "M Salisbury": {
+   "fouls_pg": 26.0,
+   "games": 2,
+   "red_rate": 0.0,
+   "yellow_pg": 5.5
+  },
+  "O Langford": {
+   "fouls_pg": 20.5,
+   "games": 8,
+   "red_rate": 0.125,
+   "yellow_pg": 3.625
+  },
+  "P Tierney": {
+   "fouls_pg": 28.0,
+   "games": 2,
+   "red_rate": 0.5,
+   "yellow_pg": 3.0
+  },
+  "R Jones": {
+   "fouls_pg": 23.67,
+   "games": 3,
+   "red_rate": 0.0,
+   "yellow_pg": 3.333
+  },
+  "R Madley": {
+   "fouls_pg": 21.0,
+   "games": 8,
+   "red_rate": 0.5,
+   "yellow_pg": 3.75
+  },
+  "R Ricardo": {
+   "fouls_pg": 21.71,
+   "games": 7,
+   "red_rate": 0.143,
+   "yellow_pg": 4.714
+  },
+  "S Allison": {
+   "fouls_pg": 22.0,
+   "games": 8,
+   "red_rate": 0.25,
+   "yellow_pg": 2.875
+  },
+  "S Hooper": {
+   "fouls_pg": 21.33,
+   "games": 3,
+   "red_rate": 0.0,
+   "yellow_pg": 3.667
+  },
+  "S Martin": {
+   "fouls_pg": 23.33,
+   "games": 6,
+   "red_rate": 0.333,
+   "yellow_pg": 4.667
+  },
+  "T Bramall": {
+   "fouls_pg": 28.5,
+   "games": 2,
+   "red_rate": 0.0,
+   "yellow_pg": 6.0
+  },
+  "T Harrington": {
+   "fouls_pg": 26.5,
+   "games": 2,
+   "red_rate": 0.0,
+   "yellow_pg": 3.0
+  },
+  "T Kirk": {
+   "fouls_pg": 22.2,
+   "games": 5,
+   "red_rate": 0.4,
+   "yellow_pg": 4.2
+  },
+  "T Nield": {
+   "fouls_pg": 20.88,
+   "games": 8,
+   "red_rate": 0.125,
+   "yellow_pg": 2.75
+  },
+  "T Parsons": {
+   "fouls_pg": 23.0,
+   "games": 3,
+   "red_rate": 0.333,
+   "yellow_pg": 4.333
+  },
+  "T Reeves": {
+   "fouls_pg": 22.29,
+   "games": 7,
+   "red_rate": 0.0,
+   "yellow_pg": 4.143
+  },
+  "T Robinson": {
+   "fouls_pg": 26.56,
+   "games": 9,
+   "red_rate": 0.0,
+   "yellow_pg": 5.333
+  },
+  "W Finnie": {
+   "fouls_pg": 22.33,
+   "games": 6,
+   "red_rate": 0.5,
+   "yellow_pg": 3.0
+  }
+ }
+}

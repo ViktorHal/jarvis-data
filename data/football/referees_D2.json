@@ -1,0 +1,13 @@
+{
+ "meta": {
+  "code": "D2",
+  "fetchedAt": "2026-11-26T09:13:27Z",
+  "lastMatchDate": "2026-11-22",
+  "league": "2. Bundesliga",
+  "matches": 108,
+  "note": "per-game averages over matches where the column exists; no xG in this source",
+  "season": "2026/27",
+  "source": "https://www.football-data.co.uk/mmz4281/2627/D2.csv"
+ },
+ "referees": {}
+}

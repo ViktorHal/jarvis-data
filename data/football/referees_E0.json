@@ -1,0 +1,140 @@
+{
+ "meta": {
+  "code": "E0",
+  "fetchedAt": "2026-11-26T09:13:08Z",
+  "lastMatchDate": "2026-11-23",
+  "league": "Premier League",
+  "matches": 110,
+  "note": "per-game averages over matches where the column exists; no xG in this source",
+  "season": "2026/27",
+  "source": "https://www.football-data.co.uk/mmz4281/2627/E0.csv"
+ },
+ "referees": {
+  "A Herczeg": {
+   "fouls_pg": 23.33,
+   "games": 3,
+   "red_rate": 0.0,
+   "yellow_pg": 3.667
+  },
+  "A Madley": {
+   "fouls_pg": 25.83,
+   "games": 6,
+   "red_rate": 0.0,
+   "yellow_pg": 4.667
+  },
+  "C Kavanagh": {
+   "fouls_pg": 26.88,
+   "games": 8,
+   "red_rate": 0.5,
+   "yellow_pg": 5.0
+  },
+  "C Pawson": {
+   "fouls_pg": 24.67,
+   "games": 6,
+   "red_rate": 0.333,
+   "yellow_pg": 4.0
+  },
+  "D England": {
+   "fouls_pg": 22.0,
+   "games": 7,
+   "red_rate": 0.0,
+   "yellow_pg": 3.571
+  },
+  "F Hallam": {
+   "fouls_pg": 22.5,
+   "games": 4,
+   "red_rate": 0.0,
+   "yellow_pg": 4.25
+  },
+  "J Brooks": {
+   "fouls_pg": 21.14,
+   "games": 7,
+   "red_rate": 0.571,
+   "yellow_pg": 5.286
+  },
+  "J Gillett": {
+   "fouls_pg": 24.29,
+   "games": 7,
+   "red_rate": 0.0,
+   "yellow_pg": 5.286
+  },
+  "J Smith": {
+   "fouls_pg": 19.0,
+   "games": 1,
+   "red_rate": 0.0,
+   "yellow_pg": 5.0
+  },
+  "L Smith": {
+   "fouls_pg": 18.0,
+   "games": 1,
+   "red_rate": 0.0,
+   "yellow_pg": 6.0
+  },
+  "M Oliver": {
+   "fouls_pg": 21.67,
+   "games": 9,
+   "red_rate": 0.333,
+   "yellow_pg": 3.111
+  },
+  "M Salisbury": {
+   "fouls_pg": 23.0,
+   "games": 4,
+   "red_rate": 0.0,
+   "yellow_pg": 2.75
+  },
+  "P Bankes": {
+   "fouls_pg": 24.57,
+   "games": 7,
+   "red_rate": 0.429,
+   "yellow_pg": 5.143
+  },
+  "P Tierney": {
+   "fouls_pg": 24.2,
+   "games": 5,
+   "red_rate": 0.0,
+   "yellow_pg": 4.4
+  },
+  "R Jones": {
+   "fouls_pg": 27.43,
+   "games": 7,
+   "red_rate": 0.0,
+   "yellow_pg": 3.286
+  },
+  "S Attwell": {
+   "fouls_pg": 24.5,
+   "games": 6,
+   "red_rate": 0.333,
+   "yellow_pg": 4.833
+  },
+  "S Barrott": {
+   "fouls_pg": 20.38,
+   "games": 8,
+   "red_rate": 0.125,
+   "yellow_pg": 2.75
+  },
+  "S Hooper": {
+   "fouls_pg": 25.5,
+   "games": 2,
+   "red_rate": 0.5,
+   "yellow_pg": 4.5
+  },
+  "T Bramall": {
+   "fouls_pg": 21.5,
+   "games": 6,
+   "red_rate": 0.167,
+   "yellow_pg": 2.5
+  },
+  "T Harrington": {
+   "fouls_pg": 21.6,
+   "games": 5,
+   "red_rate": 0.2,
+   "yellow_pg": 3.8
+  },
+  "T Kirk": {
+   "fouls_pg": 25.0,
+   "games": 1,
+   "red_rate": 0.0,
+   "yellow_pg": 6.0
+  }
+ }
+}

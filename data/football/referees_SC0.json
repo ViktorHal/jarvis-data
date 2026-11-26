@@ -1,0 +1,104 @@
+{
+ "meta": {
+  "code": "SC0",
+  "fetchedAt": "2026-11-26T09:13:23Z",
+  "lastMatchDate": "2026-11-21",
+  "league": "Scottish Premiership",
+  "matches": 81,
+  "note": "per-game averages over matches where the column exists; no xG in this source",
+  "season": "2026/27",
+  "source": "https://www.football-data.co.uk/mmz4281/2627/SC0.csv"
+ },
+ "referees": {
+  "C Graham": {
+   "fouls_pg": 25.5,
+   "games": 4,
+   "red_rate": 0.5,
+   "yellow_pg": 4.0
+  },
+  "C Scott": {
+   "fouls_pg": 21.4,
+   "games": 5,
+   "red_rate": 0.4,
+   "yellow_pg": 2.8
+  },
+  "C Spence": {
+   "fouls_pg": 19.0,
+   "games": 1,
+   "red_rate": 0.0,
+   "yellow_pg": 2.0
+  },
+  "C Stirling": {
+   "fouls_pg": 29.0,
+   "games": 1,
+   "red_rate": 0.0,
+   "yellow_pg": 4.0
+  },
+  "D Dickinson": {
+   "fouls_pg": 23.38,
+   "games": 8,
+   "red_rate": 0.125,
+   "yellow_pg": 3.625
+  },
+  "D McFarlane": {
+   "fouls_pg": 29.5,
+   "games": 2,
+   "red_rate": 0.0,
+   "yellow_pg": 4.0
+  },
+  "D Nicolson": {
+   "fouls_pg": 25.56,
+   "games": 9,
+   "red_rate": 0.0,
+   "yellow_pg": 3.667
+  },
+  "D Robertson": {
+   "fouls_pg": 26.86,
+   "games": 7,
+   "red_rate": 0.286,
+   "yellow_pg": 4.286
+  },
+  "J Beaton": {
+   "fouls_pg": 25.56,
+   "games": 9,
+   "red_rate": 0.111,
+   "yellow_pg": 4.778
+  },
+  "K Clancy": {
+   "fouls_pg": 24.0,
+   "games": 2,
+   "red_rate": 0.0,
+   "yellow_pg": 3.5
+  },
+  "M MacDermid": {
+   "fouls_pg": 24.86,
+   "games": 7,
+   "red_rate": 0.143,
+   "yellow_pg": 4.429
+  },
+  "N Walsh": {
+   "fouls_pg": 29.0,
+   "games": 7,
+   "red_rate": 0.0,
+   "yellow_pg": 3.857
+  },
+  "R Hardie": {
+   "fouls_pg": 23.8,
+   "games": 5,
+   "red_rate": 0.0,
+   "yellow_pg": 4.0
+  },
+  "R Lee": {
+   "fouls_pg": 22.71,
+   "games": 7,
+   "red_rate": 0.143,
+   "yellow_pg": 2.143
+  },
+  "S McLean": {
+   "fouls_pg": 20.14,
+   "games": 7,
+   "red_rate": 0.143,
+   "yellow_pg": 3.571
+  }
+ }
+}

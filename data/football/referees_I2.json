@@ -1,0 +1,13 @@
+{
+ "meta": {
+  "code": "I2",
+  "fetchedAt": "2026-11-26T09:13:26Z",
+  "lastMatchDate": "2026-11-22",
+  "league": "Serie B",
+  "matches": 120,
+  "note": "per-game averages over matches where the column exists; no xG in this source",
+  "season": "2026/27",
+  "source": "https://www.football-data.co.uk/mmz4281/2627/I2.csv"
+ },
+ "referees": {}
+}

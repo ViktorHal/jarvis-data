@@ -1,0 +1,641 @@
+{
+ "goalies": {
+  "Adin Hill": {
+   "gaa": 2.60786,
+   "gp": 13,
+   "gs": 12,
+   "shots_against": 315,
+   "sv_pct": 0.89841,
+   "team": "VGK"
+  },
+  "Akira Schmid": {
+   "gaa": 2.98476,
+   "gp": 11,
+   "gs": 10,
+   "shots_against": 279,
+   "sv_pct": 0.8853,
+   "team": "FLA"
+  },
+  "Alex Lyon": {
+   "gaa": 3.29949,
+   "gp": 4,
+   "gs": 4,
+   "shots_against": 118,
+   "sv_pct": 0.88983,
+   "team": "BUF"
+  },
+  "Alex Nedeljkovic": {
+   "gaa": 3.4566,
+   "gp": 10,
+   "gs": 10,
+   "shots_against": 315,
+   "sv_pct": 0.88888,
+   "team": "SJS"
+  },
+  "Andrei Vasilevskiy": {
+   "gaa": 2.56311,
+   "gp": 18,
+   "gs": 18,
+   "shots_against": 447,
+   "sv_pct": 0.89709,
+   "team": "TBL"
+  },
+  "Anthony Stolarz": {
+   "gaa": 2.76471,
+   "gp": 12,
+   "gs": 12,
+   "shots_against": 338,
+   "sv_pct": 0.90236,
+   "team": "TOR"
+  },
+  "Anton Forsberg": {
+   "gaa": 2.59638,
+   "gp": 9,
+   "gs": 8,
+   "shots_against": 223,
+   "sv_pct": 0.90134,
+   "team": "LAK"
+  },
+  "Arsenii Sergeev": {
+   "gaa": 5.0,
+   "gp": 1,
+   "gs": 1,
+   "shots_against": 34,
+   "sv_pct": 0.85294,
+   "team": "CGY"
+  },
+  "Arturs Silovs": {
+   "gaa": 3.3728,
+   "gp": 15,
+   "gs": 15,
+   "shots_against": 396,
+   "sv_pct": 0.87373,
+   "team": "PIT"
+  },
+  "Arvid Soderblom": {
+   "gaa": 4.67041,
+   "gp": 5,
+   "gs": 4,
+   "shots_against": 133,
+   "sv_pct": 0.8421,
+   "team": "CHI"
+  },
+  "Brandon Bussi": {
+   "gaa": 2.66827,
+   "gp": 10,
+   "gs": 10,
+   "shots_against": 248,
+   "sv_pct": 0.89112,
+   "team": "CAR"
+  },
+  "Calvin Pickard": {
+   "gaa": 3.6013,
+   "gp": 3,
+   "gs": 3,
+   "shots_against": 76,
+   "sv_pct": 0.85526,
+   "team": "MIN"
+  },
+  "Cam Talbot": {
+   "gaa": 2.61053,
+   "gp": 14,
+   "gs": 13,
+   "shots_against": 378,
+   "sv_pct": 0.9074,
+   "team": "CBJ"
+  },
+  "Carter Hart": {
+   "gaa": 2.83397,
+   "gp": 14,
+   "gs": 14,
+   "shots_against": 348,
+   "sv_pct": 0.88505,
+   "team": "VGK"
+  },
+  "Casey DeSmith": {
+   "gaa": 2.36363,
+   "gp": 6,
+   "gs": 5,
+   "shots_against": 139,
+   "sv_pct": 0.90647,
+   "team": "DAL"
+  },
+  "Charlie Lindgren": {
+   "gaa": 3.83517,
+   "gp": 8,
+   "gs": 6,
+   "shots_against": 185,
+   "sv_pct": 0.84864,
+   "team": "WSH"
+  },
+  "Clay Stevenson": {
+   "gaa": 3.60924,
+   "gp": 5,
+   "gs": 4,
+   "shots_against": 123,
+   "sv_pct": 0.86991,
+   "team": "WPG"
+  },
+  "Colten Ellis": {
+   "gaa": 3.38969,
+   "gp": 8,
+   "gs": 7,
+   "shots_against": 181,
+   "sv_pct": 0.87292,
+   "team": "BUF"
+  },
+  "Connor Hellebuyck": {
+   "gaa": 2.62142,
+   "gp": 11,
+   "gs": 11,
+   "shots_against": 268,
+   "sv_pct": 0.89925,
+   "team": "NJD"
+  },
+  "Cooper Black": {
+   "gaa": 3.15328,
+   "gp": 1,
+   "gs": 1,
+   "shots_against": 21,
+   "sv_pct": 0.85714,
+   "team": "FLA"
+  },
+  "Dan Vladar": {
+   "gaa": 3.28788,
+   "gp": 13,
+   "gs": 13,
+   "shots_against": 340,
+   "sv_pct": 0.87647,
+   "team": "PHI"
+  },
+  "Daniil Tarasov": {
+   "gaa": 1.88393,
+   "gp": 11,
+   "gs": 9,
+   "shots_against": 273,
+   "sv_pct": 0.9304,
+   "team": "DET"
+  },
+  "Darcy Kuemper": {
+   "gaa": 3.054,
+   "gp": 14,
+   "gs": 14,
+   "shots_against": 377,
+   "sv_pct": 0.89124,
+   "team": "LAK"
+  },
+  "Dennis Hildeby": {
+   "gaa": 2.97206,
+   "gp": 6,
+   "gs": 6,
+   "shots_against": 156,
+   "sv_pct": 0.88461,
+   "team": "TBL"
+  },
+  "Devin Cooley": {
+   "gaa": 2.81492,
+   "gp": 11,
+   "gs": 11,
+   "shots_against": 319,
+   "sv_pct": 0.90909,
+   "team": "CGY"
+  },
+  "Devon Levi": {
+   "gaa": 2.92439,
+   "gp": 14,
+   "gs": 14,
+   "shots_against": 371,
+   "sv_pct": 0.89218,
+   "team": "EDM"
+  },
+  "Drew Commesso": {
+   "gaa": 3.0,
+   "gp": 1,
+   "gs": 1,
+   "shots_against": 25,
+   "sv_pct": 0.88,
+   "team": "CHI"
+  },
+  "Dustin Wolf": {
+   "gaa": 3.42224,
+   "gp": 15,
+   "gs": 14,
+   "shots_against": 409,
+   "sv_pct": 0.87775,
+   "team": "CGY"
+  },
+  "Dylan Garand": {
+   "gaa": 2.49139,
+   "gp": 16,
+   "gs": 14,
+   "shots_against": 396,
+   "sv_pct": 0.90909,
+   "team": "NYR"
+  },
+  "Filip Gustavsson": {
+   "gaa": 2.01624,
+   "gp": 1,
+   "gs": 1,
+   "shots_against": 24,
+   "sv_pct": 0.91666,
+   "team": "MIN"
+  },
+  "Igor Shesterkin": {
+   "gaa": 1.79316,
+   "gp": 5,
+   "gs": 5,
+   "shots_against": 109,
+   "sv_pct": 0.9266,
+   "team": "NYR"
+  },
+  "Ilya Sorokin": {
+   "gaa": 2.39847,
+   "gp": 17,
+   "gs": 17,
+   "shots_against": 494,
+   "sv_pct": 0.917,
+   "team": "NYI"
+  },
+  "Jacob Fowler": {
+   "gaa": 2.54272,
+   "gp": 16,
+   "gs": 16,
+   "shots_against": 463,
+   "sv_pct": 0.91144,
+   "team": "MTL"
+  },
+  "Jacob Markstrom": {
+   "gaa": 2.62565,
+   "gp": 14,
+   "gs": 14,
+   "shots_against": 330,
+   "sv_pct": 0.89393,
+   "team": "FLA"
+  },
+  "Jake Allen": {
+   "gaa": 3.31178,
+   "gp": 11,
+   "gs": 10,
+   "shots_against": 284,
+   "sv_pct": 0.87323,
+   "team": "NJD"
+  },
+  "Jake Oettinger": {
+   "gaa": 2.07119,
+   "gp": 19,
+   "gs": 19,
+   "shots_against": 441,
+   "sv_pct": 0.91156,
+   "team": "DAL"
+  },
+  "Jakub Dobes": {
+   "gaa": 3.44759,
+   "gp": 10,
+   "gs": 10,
+   "shots_against": 258,
+   "sv_pct": 0.86821,
+   "team": "MTL"
+  },
+  "James Reimer": {
+   "gaa": 9.0,
+   "gp": 1,
+   "gs": 1,
+   "shots_against": 8,
+   "sv_pct": 0.625,
+   "team": "NYR"
+  },
+  "Jeremy Swayman": {
+   "gaa": 2.67357,
+   "gp": 18,
+   "gs": 18,
+   "shots_against": 478,
+   "sv_pct": 0.90167,
+   "team": "BOS"
+  },
+  "Jesper Wallstedt": {
+   "gaa": 2.07515,
+   "gp": 23,
+   "gs": 23,
+   "shots_against": 598,
+   "sv_pct": 0.91973,
+   "team": "MIN"
+  },
+  "Jet Greaves": {
+   "gaa": 3.42027,
+   "gp": 11,
+   "gs": 10,
+   "shots_against": 265,
+   "sv_pct": 0.87547,
+   "team": "CBJ"
+  },
+  "Joel Hofer": {
+   "gaa": 2.31987,
+   "gp": 18,
+   "gs": 18,
+   "shots_against": 525,
+   "sv_pct": 0.92,
+   "team": "STL"
+  },
+  "Joey Daccord": {
+   "gaa": 3.68894,
+   "gp": 12,
+   "gs": 11,
+   "shots_against": 294,
+   "sv_pct": 0.87755,
+   "team": "SEA"
+  },
+  "John Gibson": {
+   "gaa": 3.54219,
+   "gp": 14,
+   "gs": 14,
+   "shots_against": 319,
+   "sv_pct": 0.86206,
+   "team": "DET"
+  },
+  "Jonas Johansson": {
+   "gaa": 4.60247,
+   "gp": 4,
+   "gs": 4,
+   "shots_against": 105,
+   "sv_pct": 0.84761,
+   "team": "OTT"
+  },
+  "Joonas Korpisalo": {
+   "gaa": 2.50888,
+   "gp": 4,
+   "gs": 4,
+   "shots_against": 113,
+   "sv_pct": 0.9115,
+   "team": "NYR"
+  },
+  "Jordan Binnington": {
+   "gaa": 4.76974,
+   "gp": 7,
+   "gs": 7,
+   "shots_against": 215,
+   "sv_pct": 0.84651,
+   "team": "STL"
+  },
+  "Joseph Woll": {
+   "gaa": 3.29349,
+   "gp": 14,
+   "gs": 14,
+   "shots_against": 406,
+   "sv_pct": 0.88669,
+   "team": "PHI"
+  },
+  "Justus Annunen": {
+   "gaa": 3.9757,
+   "gp": 7,
+   "gs": 6,
+   "shots_against": 162,
+   "sv_pct": 0.86419,
+   "team": "NSH"
+  },
+  "Juuse Saros": {
+   "gaa": 2.41245,
+   "gp": 18,
+   "gs": 17,
+   "shots_against": 523,
+   "sv_pct": 0.91778,
+   "team": "NSH"
+  },
+  "Karel Vejmelka": {
+   "gaa": 3.13706,
+   "gp": 17,
+   "gs": 16,
+   "shots_against": 393,
+   "sv_pct": 0.87277,
+   "team": "UTA"
+  },
+  "Kevin Lankinen": {
+   "gaa": 5.69059,
+   "gp": 10,
+   "gs": 8,
+   "shots_against": 238,
+   "sv_pct": 0.81512,
+   "team": "VAN"
+  },
+  "Laurent Brossoit": {
+   "gaa": 2.84717,
+   "gp": 6,
+   "gs": 6,
+   "shots_against": 151,
+   "sv_pct": 0.88741,
+   "team": "ANA"
+  },
+  "Leevi Merilainen": {
+   "gaa": 3.57052,
+   "gp": 19,
+   "gs": 17,
+   "shots_against": 547,
+   "sv_pct": 0.88482,
+   "team": "VAN"
+  },
+  "Linus Ullmark": {
+   "gaa": 1.63214,
+   "gp": 14,
+   "gs": 14,
+   "shots_against": 336,
+   "sv_pct": 0.93452,
+   "team": "OTT"
+  },
+  "Logan Thompson": {
+   "gaa": 3.39152,
+   "gp": 16,
+   "gs": 16,
+   "shots_against": 399,
+   "sv_pct": 0.87719,
+   "team": "WSH"
+  },
+  "Lukas Dostal": {
+   "gaa": 3.86902,
+   "gp": 14,
+   "gs": 13,
+   "shots_against": 329,
+   "sv_pct": 0.85714,
+   "team": "ANA"
+  },
+  "Mackenzie Blackwood": {
+   "gaa": 2.40983,
+   "gp": 18,
+   "gs": 17,
+   "shots_against": 466,
+   "sv_pct": 0.90987,
+   "team": "COL"
+  },
+  "Matt Murray": {
+   "gaa": 1.84757,
+   "gp": 1,
+   "gs": 1,
+   "shots_against": 20,
+   "sv_pct": 0.9,
+   "team": "NSH"
+  },
+  "Matt Tomkins": {
+   "gaa": 3.09145,
+   "gp": 2,
+   "gs": 2,
+   "shots_against": 50,
+   "sv_pct": 0.88,
+   "team": "EDM"
+  },
+  "Michael DiPietro": {
+   "gaa": 2.15099,
+   "gp": 7,
+   "gs": 6,
+   "shots_against": 181,
+   "sv_pct": 0.92265,
+   "team": "BOS"
+  },
+  "Michal Postava": {
+   "gaa": 2.89098,
+   "gp": 2,
+   "gs": 1,
+   "shots_against": 35,
+   "sv_pct": 0.88571,
+   "team": "DET"
+  },
+  "Nico Daws": {
+   "gaa": 2.55516,
+   "gp": 10,
+   "gs": 8,
+   "shots_against": 215,
+   "sv_pct": 0.89302,
+   "team": "NJD,WPG"
+  },
+  "Nikita Tolopilo": {
+   "gaa": 4.94958,
+   "gp": 2,
+   "gs": 2,
+   "shots_against": 48,
+   "sv_pct": 0.875,
+   "team": "VAN"
+  },
+  "Philipp Grubauer": {
+   "gaa": 3.01657,
+   "gp": 14,
+   "gs": 11,
+   "shots_against": 349,
+   "sv_pct": 0.89398,
+   "team": "SEA"
+  },
+  "Pyotr Kochetkov": {
+   "gaa": 1.80053,
+   "gp": 15,
+   "gs": 15,
+   "shots_against": 302,
+   "sv_pct": 0.91059,
+   "team": "CAR"
+  },
+  "Samuel Ersson": {
+   "gaa": 3.43131,
+   "gp": 11,
+   "gs": 8,
+   "shots_against": 236,
+   "sv_pct": 0.86864,
+   "team": "OTT"
+  },
+  "Scott Wedgewood": {
+   "gaa": 3.38114,
+   "gp": 7,
+   "gs": 7,
+   "shots_against": 188,
+   "sv_pct": 0.88297,
+   "team": "COL"
+  },
+  "Sebastian Cossa": {
+   "gaa": 3.09437,
+   "gp": 11,
+   "gs": 10,
+   "shots_against": 251,
+   "sv_pct": 0.88047,
+   "team": "UTA"
+  },
+  "Semyon Varlamov": {
+   "gaa": 2.79199,
+   "gp": 7,
+   "gs": 7,
+   "shots_against": 180,
+   "sv_pct": 0.88888,
+   "team": "NYI"
+  },
+  "Sergei Bobrovsky": {
+   "gaa": 3.64995,
+   "gp": 14,
+   "gs": 14,
+   "shots_against": 404,
+   "sv_pct": 0.87376,
+   "team": "TOR"
+  },
+  "Sergei Murashov": {
+   "gaa": 3.34738,
+   "gp": 9,
+   "gs": 9,
+   "shots_against": 274,
+   "sv_pct": 0.89051,
+   "team": "PIT"
+  },
+  "Spencer Knight": {
+   "gaa": 3.32291,
+   "gp": 20,
+   "gs": 20,
+   "shots_against": 599,
+   "sv_pct": 0.89148,
+   "team": "CHI"
+  },
+  "Spencer Martin": {
+   "gaa": 5.09193,
+   "gp": 1,
+   "gs": 0,
+   "shots_against": 18,
+   "sv_pct": 0.83333,
+   "team": "NYR"
+  },
+  "Stuart Skinner": {
+   "gaa": 3.24194,
+   "gp": 18,
+   "gs": 18,
+   "shots_against": 479,
+   "sv_pct": 0.88726,
+   "team": "WPG"
+  },
+  "Tristan Jarry": {
+   "gaa": 2.57383,
+   "gp": 11,
+   "gs": 11,
+   "shots_against": 301,
+   "sv_pct": 0.90697,
+   "team": "EDM"
+  },
+  "Ukko-Pekka Luukkonen": {
+   "gaa": 3.19666,
+   "gp": 15,
+   "gs": 14,
+   "shots_against": 399,
+   "sv_pct": 0.88471,
+   "team": "BUF"
+  },
+  "Ville Husso": {
+   "gaa": 3.5455,
+   "gp": 9,
+   "gs": 7,
+   "shots_against": 185,
+   "sv_pct": 0.85405,
+   "team": "ANA"
+  },
+  "Yaroslav Askarov": {
+   "gaa": 3.27124,
+   "gp": 17,
+   "gs": 17,
+   "shots_against": 504,
+   "sv_pct": 0.88888,
+   "team": "SJS"
+  }
+ },
+ "meta": {
+  "fetchedAt": "2026-11-26T09:13:30Z",
+  "season": "2026-27",
+  "source": "https://api.nhle.com/stats/rest/en/goalie/summary?limit=-1&cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
+ }
+}
