@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-26T11:19:46Z",
+  "fetchedAt": "2026-11-26T12:58:19Z",
   "minGames": 5,
   "rows": 789,
   "season": "2026-27",
@@ -1071,6 +1071,14 @@
    "team": "LAK",
    "toi_pg_sec": 946.3636
   },
+  "Cody Glass": {
+   "gp": 25,
+   "points_pg": 0.28,
+   "pos": "C",
+   "shots_pg": 1.24,
+   "team": "NJD",
+   "toi_pg_sec": 730.88
+  },
   "Cole Caufield": {
    "gp": 26,
    "points_pg": 0.76923,
@@ -1606,6 +1614,14 @@
    "shots_pg": 1.923,
    "team": "TOR",
    "toi_pg_sec": 1006.423
+  },
+  "Eeli Tolvanen": {
+   "gp": 24,
+   "points_pg": 0.25,
+   "pos": "R",
+   "shots_pg": 1.083,
+   "team": "NYR",
+   "toi_pg_sec": 733.7916
   },
   "Eetu Luostarinen": {
    "gp": 25,
@@ -2903,6 +2919,14 @@
    "team": "CHI",
    "toi_pg_sec": 629.4285
   },
+  "Kevin Stenlund": {
+   "gp": 26,
+   "points_pg": 0.30769,
+   "pos": "C",
+   "shots_pg": 0.885,
+   "team": "UTA",
+   "toi_pg_sec": 813.8846
+  },
   "Kiefer Sherwood": {
    "gp": 23,
    "points_pg": 0.34782,
@@ -3422,6 +3446,14 @@
    "shots_pg": 1.375,
    "team": "WSH",
    "toi_pg_sec": 1279.0
+  },
+  "Matthew Kessel": {
+   "gp": 17,
+   "points_pg": 0.29411,
+   "pos": "D",
+   "shots_pg": 0.882,
+   "team": "NYI",
+   "toi_pg_sec": 830.3529
   },
   "Matthew Knies": {
    "gp": 23,
@@ -4247,6 +4279,14 @@
    "team": "BUF",
    "toi_pg_sec": 871.16
   },
+  "Philip Broberg": {
+   "gp": 25,
+   "points_pg": 0.72,
+   "pos": "D",
+   "shots_pg": 2.12,
+   "team": "STL",
+   "toi_pg_sec": 1496.28
+  },
   "Philip Tomasino": {
    "gp": 12,
    "points_pg": 0.58333,
@@ -4927,6 +4967,14 @@
    "team": "COL",
    "toi_pg_sec": 910.2083
   },
+  "Tage Thompson": {
+   "gp": 25,
+   "points_pg": 1.2,
+   "pos": "C",
+   "shots_pg": 3.88,
+   "team": "BUF",
+   "toi_pg_sec": 1186.16
+  },
   "Tanner Jeannot": {
    "gp": 24,
    "points_pg": 0.25,
@@ -5022,6 +5070,14 @@
    "shots_pg": 0.524,
    "team": "WSH",
    "toi_pg_sec": 985.5714
+  },
+  "Tom Willander": {
+   "gp": 23,
+   "points_pg": 0.17391,
+   "pos": "D",
+   "shots_pg": 0.913,
+   "team": "VAN",
+   "toi_pg_sec": 1215.0434
   },
   "Tom Wilson": {
    "gp": 22,
@@ -5247,6 +5303,14 @@
    "team": "ANA",
    "toi_pg_sec": 943.625
   },
+  "Tyson Kozak": {
+   "gp": 15,
+   "points_pg": 0.26666,
+   "pos": "C",
+   "shots_pg": 0.467,
+   "team": "BUF",
+   "toi_pg_sec": 654.8666
+  },
   "Uvis Balinskis": {
    "gp": 12,
    "points_pg": 0.08333,
@@ -5278,6 +5342,14 @@
    "shots_pg": 1.542,
    "team": "NYI",
    "toi_pg_sec": 879.3333
+  },
+  "Victor Hedman": {
+   "gp": 22,
+   "points_pg": 0.27272,
+   "pos": "D",
+   "shots_pg": 1.0,
+   "team": "TBL",
+   "toi_pg_sec": 955.7272
   },
   "Victor Mancini": {
    "gp": 8,

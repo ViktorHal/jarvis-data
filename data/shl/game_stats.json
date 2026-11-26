@@ -1,0 +1,7266 @@
+{
+ "games": [
+  {
+   "away": "Växjö Lakers HC",
+   "codes": [
+    "FRÖ",
+    "VÄX"
+   ],
+   "date": "2026-09-19",
+   "final": [
+    5,
+    4
+   ],
+   "goalies": [
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     23,
+     27
+    ],
+    [
+     "VÄX",
+     "Åhman, Adam",
+     20,
+     25
+    ]
+   ],
+   "goals": [
+    5,
+    4
+   ],
+   "home": "Frölunda HC",
+   "id": "1109941",
+   "overtime": false,
+   "reg": [
+    5,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    25,
+    27
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Lars",
+     "saves": 23,
+     "shotsAgainst": 27
+    },
+    {
+     "name": "Åhman, Adam",
+     "saves": 20,
+     "shotsAgainst": 25
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "IF Malmö Redhawks",
+   "codes": [
+    "HV71",
+    "MIF"
+   ],
+   "date": "2026-09-19",
+   "final": [
+    4,
+    5
+   ],
+   "goalies": [
+    [
+     "HV71",
+     "Sandström, Felix",
+     31,
+     36
+    ],
+    [
+     "MIF",
+     "Langhamer, Marek",
+     24,
+     28
+    ]
+   ],
+   "goals": [
+    4,
+    5
+   ],
+   "home": "HV 71",
+   "id": "1109942",
+   "overtime": true,
+   "reg": [
+    4,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    28,
+    36
+   ],
+   "starters": [
+    {
+     "name": "Sandström, Felix",
+     "saves": 31,
+     "shotsAgainst": 36
+    },
+    {
+     "name": "Langhamer, Marek",
+     "saves": 24,
+     "shotsAgainst": 28
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Timrå IK",
+   "codes": [
+    "LHC",
+    "TIK"
+   ],
+   "date": "2026-09-19",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "LHC",
+     "Högberg, Marcus",
+     29,
+     31
+    ],
+    [
+     "TIK",
+     "Johansson, Jacob",
+     18,
+     21
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "Linköping HC",
+   "id": "1109943",
+   "overtime": false,
+   "reg": [
+    3,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    21,
+    31
+   ],
+   "starters": [
+    {
+     "name": "Högberg, Marcus",
+     "saves": 29,
+     "shotsAgainst": 31
+    },
+    {
+     "name": "Johansson, Jacob",
+     "saves": 18,
+     "shotsAgainst": 21
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "IF Björklöven",
+   "codes": [
+    "DIF",
+    "IFB"
+   ],
+   "date": "2026-09-19",
+   "final": [
+    0,
+    3
+   ],
+   "goalies": [
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     15,
+     18
+    ],
+    [
+     "IFB",
+     "Lehtinen, Lassi",
+     40,
+     40
+    ]
+   ],
+   "goals": [
+    0,
+    3
+   ],
+   "home": "Djurgårdens IF",
+   "id": "1109944",
+   "overtime": false,
+   "reg": [
+    0,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    40,
+    18
+   ],
+   "starters": [
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 15,
+     "shotsAgainst": 18
+    },
+    {
+     "name": "Lehtinen, Lassi",
+     "saves": 40,
+     "shotsAgainst": 40
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Örebro HK",
+   "codes": [
+    "FBK",
+    "ÖHK"
+   ],
+   "date": "2026-09-19",
+   "final": [
+    7,
+    0
+   ],
+   "goalies": [
+    [
+     "FBK",
+     "Larmi, Emil",
+     26,
+     26
+    ],
+    [
+     "ÖHK",
+     "Arntzen, Jonas",
+     19,
+     21
+    ],
+    [
+     "ÖHK",
+     "Larsson, Filip",
+     12,
+     17
+    ]
+   ],
+   "goals": [
+    7,
+    0
+   ],
+   "home": "Färjestad BK",
+   "id": "1109945",
+   "overtime": false,
+   "reg": [
+    7,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    38,
+    26
+   ],
+   "starters": [
+    {
+     "name": "Larmi, Emil",
+     "saves": 26,
+     "shotsAgainst": 26
+    },
+    {
+     "name": "Larsson, Filip",
+     "saves": 12,
+     "shotsAgainst": 17
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Rögle BK",
+   "codes": [
+    "LHF",
+    "RBK"
+   ],
+   "date": "2026-09-19",
+   "final": [
+    4,
+    2
+   ],
+   "goalies": [
+    [
+     "LHF",
+     "Ward, Matteus",
+     17,
+     19
+    ],
+    [
+     "RBK",
+     "Holm, Arvid",
+     25,
+     28
+    ]
+   ],
+   "goals": [
+    4,
+    2
+   ],
+   "home": "Luleå HF",
+   "id": "1109946",
+   "overtime": false,
+   "reg": [
+    4,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    29,
+    19
+   ],
+   "starters": [
+    {
+     "name": "Ward, Matteus",
+     "saves": 17,
+     "shotsAgainst": 19
+    },
+    {
+     "name": "Holm, Arvid",
+     "saves": 25,
+     "shotsAgainst": 29
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Brynäs IF",
+   "codes": [
+    "SKE",
+    "BIF"
+   ],
+   "date": "2026-09-19",
+   "final": [
+    7,
+    2
+   ],
+   "goalies": [
+    [
+     "SKE",
+     "Mann, Strauss",
+     26,
+     28
+    ],
+    [
+     "BIF",
+     "Källgren, Erik",
+     14,
+     20
+    ],
+    [
+     "BIF",
+     "Chrona, Magnus",
+     16,
+     17
+    ]
+   ],
+   "goals": [
+    7,
+    2
+   ],
+   "home": "Skellefteå AIK",
+   "id": "1109947",
+   "overtime": false,
+   "reg": [
+    7,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    37,
+    28
+   ],
+   "starters": [
+    {
+     "name": "Mann, Strauss",
+     "saves": 26,
+     "shotsAgainst": 28
+    },
+    {
+     "name": "Källgren, Erik",
+     "saves": 14,
+     "shotsAgainst": 20
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Färjestad BK",
+   "codes": [
+    "FRÖ",
+    "FBK"
+   ],
+   "date": "2026-09-22",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     31,
+     33
+    ],
+    [
+     "FRÖ",
+     "Normann, Tobias",
+     0,
+     0
+    ],
+    [
+     "FBK",
+     "Larmi, Emil",
+     19,
+     22
+    ]
+   ],
+   "goals": [
+    2,
+    2
+   ],
+   "home": "Frölunda HC",
+   "id": "1109948",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": true,
+   "shots": [
+    21,
+    33
+   ],
+   "starters": [
+    {
+     "name": "Normann, Tobias",
+     "saves": 0,
+     "shotsAgainst": 0
+    },
+    {
+     "name": "Larmi, Emil",
+     "saves": 19,
+     "shotsAgainst": 21
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Brynäs IF",
+   "codes": [
+    "LHC",
+    "BIF"
+   ],
+   "date": "2026-09-22",
+   "final": [
+    2,
+    9
+   ],
+   "goalies": [
+    [
+     "LHC",
+     "Högberg, Marcus",
+     26,
+     35
+    ],
+    [
+     "BIF",
+     "Chrona, Magnus",
+     17,
+     19
+    ]
+   ],
+   "goals": [
+    2,
+    9
+   ],
+   "home": "Linköping HC",
+   "id": "1109949",
+   "overtime": false,
+   "reg": [
+    2,
+    9
+   ],
+   "shootout": false,
+   "shots": [
+    19,
+    35
+   ],
+   "starters": [
+    {
+     "name": "Högberg, Marcus",
+     "saves": 26,
+     "shotsAgainst": 35
+    },
+    {
+     "name": "Chrona, Magnus",
+     "saves": 17,
+     "shotsAgainst": 19
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "codes": [
+    "RBK",
+    "DIF"
+   ],
+   "date": "2026-09-22",
+   "final": [
+    3,
+    1
+   ],
+   "goalies": [
+    [
+     "RBK",
+     "Clang, Calle",
+     15,
+     16
+    ],
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     32,
+     35
+    ]
+   ],
+   "goals": [
+    3,
+    1
+   ],
+   "home": "Rögle BK",
+   "id": "1109950",
+   "overtime": false,
+   "reg": [
+    3,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    35,
+    16
+   ],
+   "starters": [
+    {
+     "name": "Clang, Calle",
+     "saves": 15,
+     "shotsAgainst": 16
+    },
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 32,
+     "shotsAgainst": 35
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Örebro HK",
+   "codes": [
+    "TIK",
+    "ÖHK"
+   ],
+   "date": "2026-09-22",
+   "final": [
+    1,
+    5
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Dichow, Frederik",
+     18,
+     23
+    ],
+    [
+     "ÖHK",
+     "Arntzen, Jonas",
+     39,
+     40
+    ]
+   ],
+   "goals": [
+    1,
+    5
+   ],
+   "home": "Timrå IK",
+   "id": "1109951",
+   "overtime": false,
+   "reg": [
+    1,
+    5
+   ],
+   "shootout": false,
+   "shots": [
+    40,
+    23
+   ],
+   "starters": [
+    {
+     "name": "Dichow, Frederik",
+     "saves": 18,
+     "shotsAgainst": 23
+    },
+    {
+     "name": "Arntzen, Jonas",
+     "saves": 39,
+     "shotsAgainst": 40
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "IF Malmö Redhawks",
+   "codes": [
+    "VÄX",
+    "MIF"
+   ],
+   "date": "2026-09-22",
+   "final": [
+    4,
+    3
+   ],
+   "goalies": [
+    [
+     "VÄX",
+     "Åhman, Adam",
+     28,
+     31
+    ],
+    [
+     "MIF",
+     "Blomgren, Oskar",
+     18,
+     22
+    ]
+   ],
+   "goals": [
+    4,
+    3
+   ],
+   "home": "Växjö Lakers HC",
+   "id": "1109952",
+   "overtime": true,
+   "reg": [
+    3,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    22,
+    31
+   ],
+   "starters": [
+    {
+     "name": "Åhman, Adam",
+     "saves": 28,
+     "shotsAgainst": 31
+    },
+    {
+     "name": "Blomgren, Oskar",
+     "saves": 18,
+     "shotsAgainst": 22
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Växjö Lakers HC",
+   "codes": [
+    "DIF",
+    "VÄX"
+   ],
+   "date": "2026-09-24",
+   "final": [
+    4,
+    3
+   ],
+   "goalies": [
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     23,
+     26
+    ],
+    [
+     "VÄX",
+     "Persson, Ludvig",
+     17,
+     21
+    ]
+   ],
+   "goals": [
+    4,
+    3
+   ],
+   "home": "Djurgårdens IF",
+   "id": "1109955",
+   "overtime": true,
+   "reg": [
+    3,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    21,
+    26
+   ],
+   "starters": [
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 23,
+     "shotsAgainst": 26
+    },
+    {
+     "name": "Persson, Ludvig",
+     "saves": 17,
+     "shotsAgainst": 21
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Rögle BK",
+   "codes": [
+    "FBK",
+    "RBK"
+   ],
+   "date": "2026-09-24",
+   "final": [
+    2,
+    1
+   ],
+   "goalies": [
+    [
+     "FBK",
+     "Thelin, Melker",
+     31,
+     32
+    ],
+    [
+     "RBK",
+     "Holm, Arvid",
+     34,
+     36
+    ]
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "home": "Färjestad BK",
+   "id": "1109956",
+   "overtime": false,
+   "reg": [
+    2,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    36,
+    32
+   ],
+   "starters": [
+    {
+     "name": "Thelin, Melker",
+     "saves": 31,
+     "shotsAgainst": 32
+    },
+    {
+     "name": "Holm, Arvid",
+     "saves": 34,
+     "shotsAgainst": 36
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Skellefteå AIK",
+   "codes": [
+    "HV71",
+    "SKE"
+   ],
+   "date": "2026-09-24",
+   "final": [
+    4,
+    3
+   ],
+   "goalies": [
+    [
+     "HV71",
+     "Liv, Herman",
+     37,
+     40
+    ],
+    [
+     "SKE",
+     "Lampinen, Jani",
+     20,
+     24
+    ]
+   ],
+   "goals": [
+    4,
+    3
+   ],
+   "home": "HV 71",
+   "id": "1109957",
+   "overtime": true,
+   "reg": [
+    3,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    24,
+    40
+   ],
+   "starters": [
+    {
+     "name": "Liv, Herman",
+     "saves": 37,
+     "shotsAgainst": 40
+    },
+    {
+     "name": "Lampinen, Jani",
+     "saves": 20,
+     "shotsAgainst": 24
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Frölunda HC",
+   "codes": [
+    "LHF",
+    "FRÖ"
+   ],
+   "date": "2026-09-24",
+   "final": [
+    3,
+    7
+   ],
+   "goalies": [
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     9,
+     10
+    ],
+    [
+     "LHF",
+     "Ward, Matteus",
+     6,
+     12
+    ],
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     19,
+     22
+    ]
+   ],
+   "goals": [
+    3,
+    7
+   ],
+   "home": "Luleå HF",
+   "id": "1109958",
+   "overtime": false,
+   "reg": [
+    3,
+    7
+   ],
+   "shootout": false,
+   "shots": [
+    22,
+    22
+   ],
+   "starters": [
+    {
+     "name": "Ward, Matteus",
+     "saves": 6,
+     "shotsAgainst": 12
+    },
+    {
+     "name": "Johansson, Lars",
+     "saves": 19,
+     "shotsAgainst": 22
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "IF Björklöven",
+   "codes": [
+    "ÖHK",
+    "IFB"
+   ],
+   "date": "2026-09-24",
+   "final": [
+    3,
+    4
+   ],
+   "goalies": [
+    [
+     "ÖHK",
+     "Arntzen, Jonas",
+     16,
+     20
+    ],
+    [
+     "IFB",
+     "Tuohimaa, Frans",
+     27,
+     30
+    ]
+   ],
+   "goals": [
+    3,
+    4
+   ],
+   "home": "Örebro HK",
+   "id": "1109959",
+   "overtime": true,
+   "reg": [
+    3,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    30,
+    20
+   ],
+   "starters": [
+    {
+     "name": "Arntzen, Jonas",
+     "saves": 16,
+     "shotsAgainst": 20
+    },
+    {
+     "name": "Tuohimaa, Frans",
+     "saves": 27,
+     "shotsAgainst": 30
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Luleå HF",
+   "codes": [
+    "BIF",
+    "LHF"
+   ],
+   "date": "2026-09-26",
+   "final": [
+    4,
+    2
+   ],
+   "goalies": [
+    [
+     "BIF",
+     "Chrona, Magnus",
+     16,
+     18
+    ],
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     30,
+     34
+    ]
+   ],
+   "goals": [
+    4,
+    2
+   ],
+   "home": "Brynäs IF",
+   "id": "1109962",
+   "overtime": false,
+   "reg": [
+    4,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    34,
+    18
+   ],
+   "starters": [
+    {
+     "name": "Chrona, Magnus",
+     "saves": 16,
+     "shotsAgainst": 18
+    },
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 30,
+     "shotsAgainst": 34
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Färjestad BK",
+   "codes": [
+    "IFB",
+    "FBK"
+   ],
+   "date": "2026-09-26",
+   "final": [
+    0,
+    5
+   ],
+   "goalies": [
+    [
+     "IFB",
+     "Tuohimaa, Frans",
+     21,
+     23
+    ],
+    [
+     "IFB",
+     "Lehtinen, Lassi",
+     2,
+     5
+    ],
+    [
+     "FBK",
+     "Thelin, Melker",
+     25,
+     25
+    ]
+   ],
+   "goals": [
+    0,
+    5
+   ],
+   "home": "IF Björklöven",
+   "id": "1109963",
+   "overtime": false,
+   "reg": [
+    0,
+    5
+   ],
+   "shootout": false,
+   "shots": [
+    25,
+    28
+   ],
+   "starters": [
+    {
+     "name": "Lehtinen, Lassi",
+     "saves": 2,
+     "shotsAgainst": 5
+    },
+    {
+     "name": "Thelin, Melker",
+     "saves": 25,
+     "shotsAgainst": 25
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Linköping HC",
+   "codes": [
+    "RBK",
+    "LHC"
+   ],
+   "date": "2026-09-26",
+   "final": [
+    2,
+    1
+   ],
+   "goalies": [
+    [
+     "RBK",
+     "Holm, Arvid",
+     13,
+     14
+    ],
+    [
+     "LHC",
+     "Högberg, Marcus",
+     27,
+     29
+    ]
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "home": "Rögle BK",
+   "id": "1109964",
+   "overtime": true,
+   "reg": [
+    1,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    29,
+    14
+   ],
+   "starters": [
+    {
+     "name": "Holm, Arvid",
+     "saves": 13,
+     "shotsAgainst": 14
+    },
+    {
+     "name": "Högberg, Marcus",
+     "saves": 27,
+     "shotsAgainst": 29
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Frölunda HC",
+   "codes": [
+    "MIF",
+    "FRÖ"
+   ],
+   "date": "2026-09-26",
+   "final": [
+    1,
+    2
+   ],
+   "goalies": [
+    [
+     "MIF",
+     "Langhamer, Marek",
+     17,
+     19
+    ],
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     38,
+     39
+    ]
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "home": "IF Malmö Redhawks",
+   "id": "1109965",
+   "overtime": false,
+   "reg": [
+    1,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    39,
+    19
+   ],
+   "starters": [
+    {
+     "name": "Langhamer, Marek",
+     "saves": 17,
+     "shotsAgainst": 19
+    },
+    {
+     "name": "Johansson, Lars",
+     "saves": 38,
+     "shotsAgainst": 39
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "codes": [
+    "TIK",
+    "DIF"
+   ],
+   "date": "2026-09-26",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Johansson, Jacob",
+     23,
+     25
+    ],
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     1,
+     1
+    ],
+    [
+     "DIF",
+     "Marmenlind, Daniel",
+     30,
+     33
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "Timrå IK",
+   "id": "1109966",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    34,
+    25
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Jacob",
+     "saves": 23,
+     "shotsAgainst": 25
+    },
+    {
+     "name": "Marmenlind, Daniel",
+     "saves": 30,
+     "shotsAgainst": 33
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "HV 71",
+   "codes": [
+    "VÄX",
+    "HV71"
+   ],
+   "date": "2026-09-26",
+   "final": [
+    7,
+    5
+   ],
+   "goalies": [
+    [
+     "VÄX",
+     "Åhman, Adam",
+     20,
+     25
+    ],
+    [
+     "HV71",
+     "Liv, Herman",
+     9,
+     15
+    ]
+   ],
+   "goals": [
+    7,
+    5
+   ],
+   "home": "Växjö Lakers HC",
+   "id": "1109967",
+   "overtime": false,
+   "reg": [
+    7,
+    5
+   ],
+   "shootout": false,
+   "shots": [
+    16,
+    25
+   ],
+   "starters": [
+    {
+     "name": "Åhman, Adam",
+     "saves": 20,
+     "shotsAgainst": 25
+    },
+    {
+     "name": "Liv, Herman",
+     "saves": 9,
+     "shotsAgainst": 16
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Skellefteå AIK",
+   "codes": [
+    "ÖHK",
+    "SKE"
+   ],
+   "date": "2026-09-26",
+   "final": [
+    3,
+    0
+   ],
+   "goalies": [
+    [
+     "ÖHK",
+     "Larsson, Filip",
+     40,
+     40
+    ],
+    [
+     "SKE",
+     "Mann, Strauss",
+     17,
+     19
+    ]
+   ],
+   "goals": [
+    3,
+    0
+   ],
+   "home": "Örebro HK",
+   "id": "1109968",
+   "overtime": false,
+   "reg": [
+    3,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    20,
+    40
+   ],
+   "starters": [
+    {
+     "name": "Larsson, Filip",
+     "saves": 40,
+     "shotsAgainst": 40
+    },
+    {
+     "name": "Mann, Strauss",
+     "saves": 17,
+     "shotsAgainst": 20
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "HV 71",
+   "codes": [
+    "IFB",
+    "HV71"
+   ],
+   "date": "2026-09-29",
+   "final": [
+    4,
+    2
+   ],
+   "goalies": [
+    [
+     "IFB",
+     "Tuohimaa, Frans",
+     27,
+     29
+    ],
+    [
+     "HV71",
+     "Liv, Herman",
+     28,
+     32
+    ]
+   ],
+   "goals": [
+    4,
+    2
+   ],
+   "home": "IF Björklöven",
+   "id": "1109953",
+   "overtime": false,
+   "reg": [
+    4,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    32,
+    29
+   ],
+   "starters": [
+    {
+     "name": "Tuohimaa, Frans",
+     "saves": 27,
+     "shotsAgainst": 29
+    },
+    {
+     "name": "Liv, Herman",
+     "saves": 28,
+     "shotsAgainst": 32
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Luleå HF",
+   "codes": [
+    "SKE",
+    "LHF"
+   ],
+   "date": "2026-09-29",
+   "final": [
+    6,
+    1
+   ],
+   "goalies": [
+    [
+     "SKE",
+     "Mann, Strauss",
+     12,
+     13
+    ],
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     3,
+     3
+    ],
+    [
+     "LHF",
+     "Ward, Matteus",
+     17,
+     23
+    ]
+   ],
+   "goals": [
+    6,
+    1
+   ],
+   "home": "Skellefteå AIK",
+   "id": "1109954",
+   "overtime": false,
+   "reg": [
+    6,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    26,
+    13
+   ],
+   "starters": [
+    {
+     "name": "Mann, Strauss",
+     "saves": 12,
+     "shotsAgainst": 13
+    },
+    {
+     "name": "Ward, Matteus",
+     "saves": 17,
+     "shotsAgainst": 23
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Timrå IK",
+   "codes": [
+    "BIF",
+    "TIK"
+   ],
+   "date": "2026-09-29",
+   "final": [
+    1,
+    0
+   ],
+   "goalies": [
+    [
+     "BIF",
+     "Källgren, Erik",
+     19,
+     19
+    ],
+    [
+     "BIF",
+     "Chrona, Magnus",
+     4,
+     4
+    ],
+    [
+     "TIK",
+     "Johansson, Jacob",
+     15,
+     16
+    ]
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "home": "Brynäs IF",
+   "id": "1109960",
+   "overtime": false,
+   "reg": [
+    1,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    16,
+    23
+   ],
+   "starters": [
+    {
+     "name": "Källgren, Erik",
+     "saves": 19,
+     "shotsAgainst": 19
+    },
+    {
+     "name": "Johansson, Jacob",
+     "saves": 15,
+     "shotsAgainst": 16
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Färjestad BK",
+   "codes": [
+    "DIF",
+    "FBK"
+   ],
+   "date": "2026-10-01",
+   "final": [
+    0,
+    4
+   ],
+   "goalies": [
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     24,
+     27
+    ],
+    [
+     "FBK",
+     "Thelin, Melker",
+     28,
+     28
+    ]
+   ],
+   "goals": [
+    0,
+    4
+   ],
+   "home": "Djurgårdens IF",
+   "id": "1109969",
+   "overtime": false,
+   "reg": [
+    0,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    28,
+    28
+   ],
+   "starters": [
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 24,
+     "shotsAgainst": 28
+    },
+    {
+     "name": "Thelin, Melker",
+     "saves": 28,
+     "shotsAgainst": 28
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Brynäs IF",
+   "codes": [
+    "FRÖ",
+    "BIF"
+   ],
+   "date": "2026-10-01",
+   "final": [
+    2,
+    1
+   ],
+   "goalies": [
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     20,
+     21
+    ],
+    [
+     "BIF",
+     "Chrona, Magnus",
+     22,
+     24
+    ]
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "home": "Frölunda HC",
+   "id": "1109970",
+   "overtime": false,
+   "reg": [
+    2,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    24,
+    21
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Lars",
+     "saves": 20,
+     "shotsAgainst": 21
+    },
+    {
+     "name": "Chrona, Magnus",
+     "saves": 22,
+     "shotsAgainst": 24
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Örebro HK",
+   "codes": [
+    "HV71",
+    "ÖHK"
+   ],
+   "date": "2026-10-01",
+   "final": [
+    2,
+    1
+   ],
+   "goalies": [
+    [
+     "HV71",
+     "Liv, Herman",
+     19,
+     20
+    ],
+    [
+     "ÖHK",
+     "Larsson, Filip",
+     35,
+     36
+    ]
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "home": "HV 71",
+   "id": "1109971",
+   "overtime": true,
+   "reg": [
+    1,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    37,
+    20
+   ],
+   "starters": [
+    {
+     "name": "Liv, Herman",
+     "saves": 19,
+     "shotsAgainst": 20
+    },
+    {
+     "name": "Larsson, Filip",
+     "saves": 35,
+     "shotsAgainst": 37
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Växjö Lakers HC",
+   "codes": [
+    "IFB",
+    "VÄX"
+   ],
+   "date": "2026-10-01",
+   "final": [
+    4,
+    2
+   ],
+   "goalies": [
+    [
+     "IFB",
+     "Lehtinen, Lassi",
+     35,
+     37
+    ],
+    [
+     "VÄX",
+     "Persson, Ludvig",
+     11,
+     11
+    ],
+    [
+     "VÄX",
+     "Åhman, Adam",
+     8,
+     12
+    ]
+   ],
+   "goals": [
+    4,
+    2
+   ],
+   "home": "IF Björklöven",
+   "id": "1109972",
+   "overtime": false,
+   "reg": [
+    4,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    23,
+    37
+   ],
+   "starters": [
+    {
+     "name": "Lehtinen, Lassi",
+     "saves": 35,
+     "shotsAgainst": 37
+    },
+    {
+     "name": "Åhman, Adam",
+     "saves": 8,
+     "shotsAgainst": 12
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Luleå HF",
+   "codes": [
+    "LHC",
+    "LHF"
+   ],
+   "date": "2026-10-01",
+   "final": [
+    0,
+    2
+   ],
+   "goalies": [
+    [
+     "LHC",
+     "Ignatjew, Waltteri",
+     16,
+     17
+    ],
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     31,
+     31
+    ]
+   ],
+   "goals": [
+    0,
+    2
+   ],
+   "home": "Linköping HC",
+   "id": "1109973",
+   "overtime": false,
+   "reg": [
+    0,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    31,
+    18
+   ],
+   "starters": [
+    {
+     "name": "Ignatjew, Waltteri",
+     "saves": 16,
+     "shotsAgainst": 18
+    },
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 31,
+     "shotsAgainst": 31
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Timrå IK",
+   "codes": [
+    "RBK",
+    "TIK"
+   ],
+   "date": "2026-10-01",
+   "final": [
+    4,
+    1
+   ],
+   "goalies": [
+    [
+     "RBK",
+     "Clang, Calle",
+     39,
+     40
+    ],
+    [
+     "TIK",
+     "Johansson, Jacob",
+     33,
+     37
+    ]
+   ],
+   "goals": [
+    4,
+    1
+   ],
+   "home": "Rögle BK",
+   "id": "1109974",
+   "overtime": false,
+   "reg": [
+    4,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    37,
+    40
+   ],
+   "starters": [
+    {
+     "name": "Clang, Calle",
+     "saves": 39,
+     "shotsAgainst": 40
+    },
+    {
+     "name": "Johansson, Jacob",
+     "saves": 33,
+     "shotsAgainst": 37
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "IF Malmö Redhawks",
+   "codes": [
+    "SKE",
+    "MIF"
+   ],
+   "date": "2026-10-01",
+   "final": [
+    4,
+    3
+   ],
+   "goalies": [
+    [
+     "SKE",
+     "Mann, Strauss",
+     22,
+     25
+    ],
+    [
+     "MIF",
+     "Blomgren, Oskar",
+     34,
+     38
+    ]
+   ],
+   "goals": [
+    4,
+    3
+   ],
+   "home": "Skellefteå AIK",
+   "id": "1109975",
+   "overtime": true,
+   "reg": [
+    3,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    38,
+    25
+   ],
+   "starters": [
+    {
+     "name": "Mann, Strauss",
+     "saves": 22,
+     "shotsAgainst": 25
+    },
+    {
+     "name": "Blomgren, Oskar",
+     "saves": 34,
+     "shotsAgainst": 38
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "codes": [
+    "FRÖ",
+    "DIF"
+   ],
+   "date": "2026-10-03",
+   "final": [
+    4,
+    2
+   ],
+   "goalies": [
+    [
+     "FRÖ",
+     "Normann, Tobias",
+     23,
+     25
+    ],
+    [
+     "DIF",
+     "Marmenlind, Daniel",
+     21,
+     24
+    ]
+   ],
+   "goals": [
+    4,
+    2
+   ],
+   "home": "Frölunda HC",
+   "id": "1109976",
+   "overtime": false,
+   "reg": [
+    4,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    25,
+    25
+   ],
+   "starters": [
+    {
+     "name": "Normann, Tobias",
+     "saves": 23,
+     "shotsAgainst": 25
+    },
+    {
+     "name": "Marmenlind, Daniel",
+     "saves": 21,
+     "shotsAgainst": 25
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Brynäs IF",
+   "codes": [
+    "MIF",
+    "BIF"
+   ],
+   "date": "2026-10-03",
+   "final": [
+    1,
+    0
+   ],
+   "goalies": [
+    [
+     "MIF",
+     "Langhamer, Marek",
+     30,
+     30
+    ],
+    [
+     "BIF",
+     "Källgren, Erik",
+     20,
+     21
+    ]
+   ],
+   "goals": [
+    1,
+    0
+   ],
+   "home": "IF Malmö Redhawks",
+   "id": "1109977",
+   "overtime": false,
+   "reg": [
+    1,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    21,
+    30
+   ],
+   "starters": [
+    {
+     "name": "Langhamer, Marek",
+     "saves": 30,
+     "shotsAgainst": 30
+    },
+    {
+     "name": "Källgren, Erik",
+     "saves": 20,
+     "shotsAgainst": 21
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Skellefteå AIK",
+   "codes": [
+    "TIK",
+    "SKE"
+   ],
+   "date": "2026-10-03",
+   "final": [
+    1,
+    4
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Johansson, Jacob",
+     8,
+     11
+    ],
+    [
+     "TIK",
+     "Dichow, Frederik",
+     12,
+     12
+    ],
+    [
+     "SKE",
+     "Mann, Strauss",
+     19,
+     20
+    ]
+   ],
+   "goals": [
+    1,
+    4
+   ],
+   "home": "Timrå IK",
+   "id": "1109978",
+   "overtime": false,
+   "reg": [
+    1,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    20,
+    24
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Jacob",
+     "saves": 8,
+     "shotsAgainst": 11
+    },
+    {
+     "name": "Mann, Strauss",
+     "saves": 19,
+     "shotsAgainst": 20
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Rögle BK",
+   "codes": [
+    "VÄX",
+    "RBK"
+   ],
+   "date": "2026-10-03",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "VÄX",
+     "Persson, Ludvig",
+     23,
+     25
+    ],
+    [
+     "RBK",
+     "Holm, Arvid",
+     15,
+     18
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "Växjö Lakers HC",
+   "id": "1109979",
+   "overtime": false,
+   "reg": [
+    3,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    18,
+    25
+   ],
+   "starters": [
+    {
+     "name": "Persson, Ludvig",
+     "saves": 23,
+     "shotsAgainst": 25
+    },
+    {
+     "name": "Holm, Arvid",
+     "saves": 15,
+     "shotsAgainst": 18
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "HV 71",
+   "codes": [
+    "FBK",
+    "HV71"
+   ],
+   "date": "2026-10-03",
+   "final": [
+    3,
+    1
+   ],
+   "goalies": [
+    [
+     "FBK",
+     "Larmi, Emil",
+     26,
+     27
+    ],
+    [
+     "HV71",
+     "Sandström, Felix",
+     22,
+     25
+    ]
+   ],
+   "goals": [
+    3,
+    1
+   ],
+   "home": "Färjestad BK",
+   "id": "1109980",
+   "overtime": false,
+   "reg": [
+    3,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    25,
+    27
+   ],
+   "starters": [
+    {
+     "name": "Larmi, Emil",
+     "saves": 26,
+     "shotsAgainst": 27
+    },
+    {
+     "name": "Sandström, Felix",
+     "saves": 22,
+     "shotsAgainst": 25
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "IF Björklöven",
+   "codes": [
+    "LHC",
+    "IFB"
+   ],
+   "date": "2026-10-03",
+   "final": [
+    2,
+    3
+   ],
+   "goalies": [
+    [
+     "LHC",
+     "Högberg, Marcus",
+     16,
+     19
+    ],
+    [
+     "IFB",
+     "Tuohimaa, Frans",
+     28,
+     30
+    ]
+   ],
+   "goals": [
+    2,
+    3
+   ],
+   "home": "Linköping HC",
+   "id": "1109981",
+   "overtime": false,
+   "reg": [
+    2,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    30,
+    19
+   ],
+   "starters": [
+    {
+     "name": "Högberg, Marcus",
+     "saves": 16,
+     "shotsAgainst": 19
+    },
+    {
+     "name": "Tuohimaa, Frans",
+     "saves": 28,
+     "shotsAgainst": 30
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Luleå HF",
+   "codes": [
+    "ÖHK",
+    "LHF"
+   ],
+   "date": "2026-10-03",
+   "final": [
+    1,
+    4
+   ],
+   "goalies": [
+    [
+     "ÖHK",
+     "Larsson, Filip",
+     23,
+     26
+    ],
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     22,
+     23
+    ]
+   ],
+   "goals": [
+    1,
+    4
+   ],
+   "home": "Örebro HK",
+   "id": "1109982",
+   "overtime": false,
+   "reg": [
+    1,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    23,
+    27
+   ],
+   "starters": [
+    {
+     "name": "Larsson, Filip",
+     "saves": 23,
+     "shotsAgainst": 27
+    },
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 22,
+     "shotsAgainst": 23
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "IF Björklöven",
+   "codes": [
+    "BIF",
+    "IFB"
+   ],
+   "date": "2026-10-08",
+   "final": [
+    4,
+    1
+   ],
+   "goalies": [
+    [
+     "BIF",
+     "Källgren, Erik",
+     19,
+     20
+    ],
+    [
+     "IFB",
+     "Lehtinen, Lassi",
+     33,
+     36
+    ]
+   ],
+   "goals": [
+    4,
+    1
+   ],
+   "home": "Brynäs IF",
+   "id": "1109983",
+   "overtime": false,
+   "reg": [
+    4,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    37,
+    20
+   ],
+   "starters": [
+    {
+     "name": "Källgren, Erik",
+     "saves": 19,
+     "shotsAgainst": 20
+    },
+    {
+     "name": "Lehtinen, Lassi",
+     "saves": 33,
+     "shotsAgainst": 37
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Örebro HK",
+   "codes": [
+    "DIF",
+    "ÖHK"
+   ],
+   "date": "2026-10-08",
+   "final": [
+    2,
+    1
+   ],
+   "goalies": [
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     25,
+     26
+    ],
+    [
+     "ÖHK",
+     "Arntzen, Jonas",
+     21,
+     23
+    ]
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "home": "Djurgårdens IF",
+   "id": "1109984",
+   "overtime": false,
+   "reg": [
+    2,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    23,
+    26
+   ],
+   "starters": [
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 25,
+     "shotsAgainst": 26
+    },
+    {
+     "name": "Arntzen, Jonas",
+     "saves": 21,
+     "shotsAgainst": 23
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "IF Malmö Redhawks",
+   "codes": [
+    "LHF",
+    "MIF"
+   ],
+   "date": "2026-10-08",
+   "final": [
+    2,
+    3
+   ],
+   "goalies": [
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     20,
+     23
+    ],
+    [
+     "MIF",
+     "Langhamer, Marek",
+     21,
+     23
+    ]
+   ],
+   "goals": [
+    2,
+    3
+   ],
+   "home": "Luleå HF",
+   "id": "1109985",
+   "overtime": false,
+   "reg": [
+    2,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    23,
+    23
+   ],
+   "starters": [
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 20,
+     "shotsAgainst": 23
+    },
+    {
+     "name": "Langhamer, Marek",
+     "saves": 21,
+     "shotsAgainst": 23
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "HV 71",
+   "codes": [
+    "RBK",
+    "HV71"
+   ],
+   "date": "2026-10-08",
+   "final": [
+    4,
+    3
+   ],
+   "goalies": [
+    [
+     "RBK",
+     "Holm, Arvid",
+     19,
+     22
+    ],
+    [
+     "HV71",
+     "Sandström, Felix",
+     24,
+     28
+    ]
+   ],
+   "goals": [
+    4,
+    3
+   ],
+   "home": "Rögle BK",
+   "id": "1109986",
+   "overtime": false,
+   "reg": [
+    4,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    28,
+    22
+   ],
+   "starters": [
+    {
+     "name": "Holm, Arvid",
+     "saves": 19,
+     "shotsAgainst": 22
+    },
+    {
+     "name": "Sandström, Felix",
+     "saves": 24,
+     "shotsAgainst": 28
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Färjestad BK",
+   "codes": [
+    "SKE",
+    "FBK"
+   ],
+   "date": "2026-10-08",
+   "final": [
+    1,
+    5
+   ],
+   "goalies": [
+    [
+     "SKE",
+     "Mann, Strauss",
+     15,
+     20
+    ],
+    [
+     "FBK",
+     "Thelin, Melker",
+     28,
+     29
+    ]
+   ],
+   "goals": [
+    1,
+    5
+   ],
+   "home": "Skellefteå AIK",
+   "id": "1109987",
+   "overtime": false,
+   "reg": [
+    1,
+    5
+   ],
+   "shootout": false,
+   "shots": [
+    29,
+    20
+   ],
+   "starters": [
+    {
+     "name": "Mann, Strauss",
+     "saves": 15,
+     "shotsAgainst": 20
+    },
+    {
+     "name": "Thelin, Melker",
+     "saves": 28,
+     "shotsAgainst": 29
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Frölunda HC",
+   "codes": [
+    "TIK",
+    "FRÖ"
+   ],
+   "date": "2026-10-08",
+   "final": [
+    4,
+    1
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Johansson, Jacob",
+     24,
+     25
+    ],
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     25,
+     28
+    ]
+   ],
+   "goals": [
+    4,
+    1
+   ],
+   "home": "Timrå IK",
+   "id": "1109988",
+   "overtime": false,
+   "reg": [
+    4,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    29,
+    25
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Jacob",
+     "saves": 24,
+     "shotsAgainst": 25
+    },
+    {
+     "name": "Johansson, Lars",
+     "saves": 25,
+     "shotsAgainst": 29
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Linköping HC",
+   "codes": [
+    "VÄX",
+    "LHC"
+   ],
+   "date": "2026-10-08",
+   "final": [
+    0,
+    3
+   ],
+   "goalies": [
+    [
+     "VÄX",
+     "Persson, Ludvig",
+     21,
+     23
+    ],
+    [
+     "LHC",
+     "Högberg, Marcus",
+     25,
+     25
+    ]
+   ],
+   "goals": [
+    0,
+    3
+   ],
+   "home": "Växjö Lakers HC",
+   "id": "1109989",
+   "overtime": false,
+   "reg": [
+    0,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    25,
+    24
+   ],
+   "starters": [
+    {
+     "name": "Persson, Ludvig",
+     "saves": 21,
+     "shotsAgainst": 24
+    },
+    {
+     "name": "Högberg, Marcus",
+     "saves": 25,
+     "shotsAgainst": 25
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "IF Malmö Redhawks",
+   "codes": [
+    "FBK",
+    "MIF"
+   ],
+   "date": "2026-10-10",
+   "final": [
+    6,
+    2
+   ],
+   "goalies": [
+    [
+     "FBK",
+     "Larmi, Emil",
+     24,
+     26
+    ],
+    [
+     "MIF",
+     "Blomgren, Oskar",
+     25,
+     31
+    ]
+   ],
+   "goals": [
+    6,
+    2
+   ],
+   "home": "Färjestad BK",
+   "id": "1109990",
+   "overtime": false,
+   "reg": [
+    6,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    31,
+    26
+   ],
+   "starters": [
+    {
+     "name": "Larmi, Emil",
+     "saves": 24,
+     "shotsAgainst": 26
+    },
+    {
+     "name": "Blomgren, Oskar",
+     "saves": 25,
+     "shotsAgainst": 31
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Brynäs IF",
+   "codes": [
+    "HV71",
+    "BIF"
+   ],
+   "date": "2026-10-10",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "HV71",
+     "Sandström, Felix",
+     27,
+     29
+    ],
+    [
+     "BIF",
+     "Chrona, Magnus",
+     24,
+     27
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "HV 71",
+   "id": "1109991",
+   "overtime": false,
+   "reg": [
+    3,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    27,
+    29
+   ],
+   "starters": [
+    {
+     "name": "Sandström, Felix",
+     "saves": 27,
+     "shotsAgainst": 29
+    },
+    {
+     "name": "Chrona, Magnus",
+     "saves": 24,
+     "shotsAgainst": 27
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Timrå IK",
+   "codes": [
+    "LHF",
+    "TIK"
+   ],
+   "date": "2026-10-10",
+   "final": [
+    2,
+    3
+   ],
+   "goalies": [
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     23,
+     26
+    ],
+    [
+     "TIK",
+     "Johansson, Jacob",
+     21,
+     23
+    ]
+   ],
+   "goals": [
+    2,
+    3
+   ],
+   "home": "Luleå HF",
+   "id": "1109992",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    23,
+    26
+   ],
+   "starters": [
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 23,
+     "shotsAgainst": 26
+    },
+    {
+     "name": "Johansson, Jacob",
+     "saves": 21,
+     "shotsAgainst": 23
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Linköping HC",
+   "codes": [
+    "DIF",
+    "LHC"
+   ],
+   "date": "2026-10-10",
+   "final": [
+    5,
+    1
+   ],
+   "goalies": [
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     33,
+     34
+    ],
+    [
+     "LHC",
+     "Högberg, Marcus",
+     23,
+     28
+    ]
+   ],
+   "goals": [
+    5,
+    1
+   ],
+   "home": "Djurgårdens IF",
+   "id": "1109994",
+   "overtime": false,
+   "reg": [
+    5,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    28,
+    34
+   ],
+   "starters": [
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 33,
+     "shotsAgainst": 34
+    },
+    {
+     "name": "Högberg, Marcus",
+     "saves": 23,
+     "shotsAgainst": 28
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Frölunda HC",
+   "codes": [
+    "IFB",
+    "FRÖ"
+   ],
+   "date": "2026-10-10",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "IFB",
+     "Tuohimaa, Frans",
+     27,
+     29
+    ],
+    [
+     "FRÖ",
+     "Normann, Tobias",
+     9,
+     12
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "IF Björklöven",
+   "id": "1109995",
+   "overtime": false,
+   "reg": [
+    3,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    12,
+    29
+   ],
+   "starters": [
+    {
+     "name": "Tuohimaa, Frans",
+     "saves": 27,
+     "shotsAgainst": 29
+    },
+    {
+     "name": "Normann, Tobias",
+     "saves": 9,
+     "shotsAgainst": 12
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Växjö Lakers HC",
+   "codes": [
+    "ÖHK",
+    "VÄX"
+   ],
+   "date": "2026-10-10",
+   "final": [
+    4,
+    2
+   ],
+   "goalies": [
+    [
+     "ÖHK",
+     "Arntzen, Jonas",
+     15,
+     17
+    ],
+    [
+     "VÄX",
+     "Persson, Ludvig",
+     29,
+     32
+    ]
+   ],
+   "goals": [
+    4,
+    2
+   ],
+   "home": "Örebro HK",
+   "id": "1109996",
+   "overtime": false,
+   "reg": [
+    4,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    33,
+    17
+   ],
+   "starters": [
+    {
+     "name": "Arntzen, Jonas",
+     "saves": 15,
+     "shotsAgainst": 17
+    },
+    {
+     "name": "Persson, Ludvig",
+     "saves": 29,
+     "shotsAgainst": 33
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Rögle BK",
+   "codes": [
+    "SKE",
+    "RBK"
+   ],
+   "date": "2026-10-10",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "SKE",
+     "Mann, Strauss",
+     23,
+     25
+    ],
+    [
+     "RBK",
+     "Holm, Arvid",
+     22,
+     25
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "Skellefteå AIK",
+   "id": "1109993",
+   "overtime": false,
+   "reg": [
+    3,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    25,
+    25
+   ],
+   "starters": [
+    {
+     "name": "Mann, Strauss",
+     "saves": 23,
+     "shotsAgainst": 25
+    },
+    {
+     "name": "Holm, Arvid",
+     "saves": 22,
+     "shotsAgainst": 25
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "codes": [
+    "BIF",
+    "DIF"
+   ],
+   "date": "2026-10-15",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "BIF",
+     "Källgren, Erik",
+     19,
+     21
+    ],
+    [
+     "BIF",
+     "Chrona, Magnus",
+     1,
+     1
+    ],
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     24,
+     27
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "Brynäs IF",
+   "id": "1109997",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    27,
+    22
+   ],
+   "starters": [
+    {
+     "name": "Källgren, Erik",
+     "saves": 19,
+     "shotsAgainst": 21
+    },
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 24,
+     "shotsAgainst": 27
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Luleå HF",
+   "codes": [
+    "FBK",
+    "LHF"
+   ],
+   "date": "2026-10-15",
+   "final": [
+    2,
+    1
+   ],
+   "goalies": [
+    [
+     "FBK",
+     "Thelin, Melker",
+     13,
+     14
+    ],
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     31,
+     33
+    ]
+   ],
+   "goals": [
+    1,
+    1
+   ],
+   "home": "Färjestad BK",
+   "id": "1109998",
+   "overtime": true,
+   "reg": [
+    1,
+    1
+   ],
+   "shootout": true,
+   "shots": [
+    32,
+    14
+   ],
+   "starters": [
+    {
+     "name": "Thelin, Melker",
+     "saves": 13,
+     "shotsAgainst": 14
+    },
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 31,
+     "shotsAgainst": 32
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Rögle BK",
+   "codes": [
+    "IFB",
+    "RBK"
+   ],
+   "date": "2026-10-15",
+   "final": [
+    1,
+    2
+   ],
+   "goalies": [
+    [
+     "IFB",
+     "Tuohimaa, Frans",
+     21,
+     23
+    ],
+    [
+     "RBK",
+     "Holm, Arvid",
+     21,
+     22
+    ]
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "home": "IF Björklöven",
+   "id": "1109999",
+   "overtime": false,
+   "reg": [
+    1,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    22,
+    23
+   ],
+   "starters": [
+    {
+     "name": "Tuohimaa, Frans",
+     "saves": 21,
+     "shotsAgainst": 23
+    },
+    {
+     "name": "Holm, Arvid",
+     "saves": 21,
+     "shotsAgainst": 22
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Frölunda HC",
+   "codes": [
+    "LHC",
+    "FRÖ"
+   ],
+   "date": "2026-10-15",
+   "final": [
+    0,
+    3
+   ],
+   "goalies": [
+    [
+     "LHC",
+     "Ignatjew, Waltteri",
+     22,
+     25
+    ],
+    [
+     "FRÖ",
+     "Normann, Tobias",
+     20,
+     20
+    ]
+   ],
+   "goals": [
+    0,
+    3
+   ],
+   "home": "Linköping HC",
+   "id": "1110000",
+   "overtime": false,
+   "reg": [
+    0,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    20,
+    25
+   ],
+   "starters": [
+    {
+     "name": "Ignatjew, Waltteri",
+     "saves": 22,
+     "shotsAgainst": 25
+    },
+    {
+     "name": "Normann, Tobias",
+     "saves": 20,
+     "shotsAgainst": 20
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Örebro HK",
+   "codes": [
+    "MIF",
+    "ÖHK"
+   ],
+   "date": "2026-10-15",
+   "final": [
+    6,
+    0
+   ],
+   "goalies": [
+    [
+     "MIF",
+     "Langhamer, Marek",
+     14,
+     14
+    ],
+    [
+     "ÖHK",
+     "Larsson, Filip",
+     29,
+     35
+    ]
+   ],
+   "goals": [
+    6,
+    0
+   ],
+   "home": "IF Malmö Redhawks",
+   "id": "1110001",
+   "overtime": false,
+   "reg": [
+    6,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    35,
+    14
+   ],
+   "starters": [
+    {
+     "name": "Langhamer, Marek",
+     "saves": 14,
+     "shotsAgainst": 14
+    },
+    {
+     "name": "Larsson, Filip",
+     "saves": 29,
+     "shotsAgainst": 35
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "HV 71",
+   "codes": [
+    "TIK",
+    "HV71"
+   ],
+   "date": "2026-10-15",
+   "final": [
+    2,
+    1
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Johansson, Jacob",
+     19,
+     20
+    ],
+    [
+     "HV71",
+     "Sandström, Felix",
+     43,
+     45
+    ]
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "home": "Timrå IK",
+   "id": "1110002",
+   "overtime": true,
+   "reg": [
+    1,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    45,
+    20
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Jacob",
+     "saves": 19,
+     "shotsAgainst": 20
+    },
+    {
+     "name": "Sandström, Felix",
+     "saves": 43,
+     "shotsAgainst": 45
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Skellefteå AIK",
+   "codes": [
+    "VÄX",
+    "SKE"
+   ],
+   "date": "2026-10-15",
+   "final": [
+    1,
+    2
+   ],
+   "goalies": [
+    [
+     "VÄX",
+     "Åhman, Adam",
+     29,
+     31
+    ],
+    [
+     "SKE",
+     "Mann, Strauss",
+     21,
+     22
+    ]
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "home": "Växjö Lakers HC",
+   "id": "1110003",
+   "overtime": false,
+   "reg": [
+    1,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    22,
+    31
+   ],
+   "starters": [
+    {
+     "name": "Åhman, Adam",
+     "saves": 29,
+     "shotsAgainst": 31
+    },
+    {
+     "name": "Mann, Strauss",
+     "saves": 21,
+     "shotsAgainst": 22
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "IF Malmö Redhawks",
+   "codes": [
+    "DIF",
+    "MIF"
+   ],
+   "date": "2026-10-17",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     35,
+     37
+    ],
+    [
+     "MIF",
+     "Langhamer, Marek",
+     34,
+     37
+    ]
+   ],
+   "goals": [
+    2,
+    2
+   ],
+   "home": "Djurgårdens IF",
+   "id": "1110004",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": true,
+   "shots": [
+    36,
+    37
+   ],
+   "starters": [
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 35,
+     "shotsAgainst": 37
+    },
+    {
+     "name": "Langhamer, Marek",
+     "saves": 34,
+     "shotsAgainst": 36
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Färjestad BK",
+   "codes": [
+    "LHC",
+    "FBK"
+   ],
+   "date": "2026-10-17",
+   "final": [
+    2,
+    4
+   ],
+   "goalies": [
+    [
+     "LHC",
+     "Högberg, Marcus",
+     26,
+     30
+    ],
+    [
+     "FBK",
+     "Larmi, Emil",
+     19,
+     21
+    ]
+   ],
+   "goals": [
+    2,
+    4
+   ],
+   "home": "Linköping HC",
+   "id": "1110005",
+   "overtime": false,
+   "reg": [
+    2,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    21,
+    30
+   ],
+   "starters": [
+    {
+     "name": "Högberg, Marcus",
+     "saves": 26,
+     "shotsAgainst": 30
+    },
+    {
+     "name": "Larmi, Emil",
+     "saves": 19,
+     "shotsAgainst": 21
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "HV 71",
+   "codes": [
+    "LHF",
+    "HV71"
+   ],
+   "date": "2026-10-17",
+   "final": [
+    5,
+    2
+   ],
+   "goalies": [
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     15,
+     17
+    ],
+    [
+     "HV71",
+     "Sandström, Felix",
+     13,
+     17
+    ]
+   ],
+   "goals": [
+    5,
+    2
+   ],
+   "home": "Luleå HF",
+   "id": "1110006",
+   "overtime": false,
+   "reg": [
+    5,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    18,
+    17
+   ],
+   "starters": [
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 15,
+     "shotsAgainst": 17
+    },
+    {
+     "name": "Sandström, Felix",
+     "saves": 13,
+     "shotsAgainst": 18
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Örebro HK",
+   "codes": [
+    "RBK",
+    "ÖHK"
+   ],
+   "date": "2026-10-17",
+   "final": [
+    1,
+    2
+   ],
+   "goalies": [
+    [
+     "RBK",
+     "Clang, Calle",
+     15,
+     17
+    ],
+    [
+     "ÖHK",
+     "Arntzen, Jonas",
+     32,
+     33
+    ]
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "home": "Rögle BK",
+   "id": "1110007",
+   "overtime": false,
+   "reg": [
+    1,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    33,
+    17
+   ],
+   "starters": [
+    {
+     "name": "Clang, Calle",
+     "saves": 15,
+     "shotsAgainst": 17
+    },
+    {
+     "name": "Arntzen, Jonas",
+     "saves": 32,
+     "shotsAgainst": 33
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Växjö Lakers HC",
+   "codes": [
+    "BIF",
+    "VÄX"
+   ],
+   "date": "2026-10-17",
+   "final": [
+    2,
+    3
+   ],
+   "goalies": [
+    [
+     "BIF",
+     "Chrona, Magnus",
+     21,
+     24
+    ],
+    [
+     "VÄX",
+     "Åhman, Adam",
+     16,
+     18
+    ]
+   ],
+   "goals": [
+    2,
+    3
+   ],
+   "home": "Brynäs IF",
+   "id": "1110008",
+   "overtime": false,
+   "reg": [
+    2,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    18,
+    24
+   ],
+   "starters": [
+    {
+     "name": "Chrona, Magnus",
+     "saves": 21,
+     "shotsAgainst": 24
+    },
+    {
+     "name": "Åhman, Adam",
+     "saves": 16,
+     "shotsAgainst": 18
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "IF Björklöven",
+   "codes": [
+    "TIK",
+    "IFB"
+   ],
+   "date": "2026-10-17",
+   "final": [
+    3,
+    0
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Johansson, Jacob",
+     20,
+     20
+    ],
+    [
+     "IFB",
+     "Lehtinen, Lassi",
+     23,
+     25
+    ]
+   ],
+   "goals": [
+    3,
+    0
+   ],
+   "home": "Timrå IK",
+   "id": "1110010",
+   "overtime": false,
+   "reg": [
+    3,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    26,
+    20
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Jacob",
+     "saves": 20,
+     "shotsAgainst": 20
+    },
+    {
+     "name": "Lehtinen, Lassi",
+     "saves": 23,
+     "shotsAgainst": 26
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Skellefteå AIK",
+   "codes": [
+    "FRÖ",
+    "SKE"
+   ],
+   "date": "2026-10-17",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "FRÖ",
+     "Normann, Tobias",
+     21,
+     23
+    ],
+    [
+     "SKE",
+     "Mann, Strauss",
+     13,
+     16
+    ]
+   ],
+   "goals": [
+    2,
+    2
+   ],
+   "home": "Frölunda HC",
+   "id": "1110009",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": true,
+   "shots": [
+    15,
+    23
+   ],
+   "starters": [
+    {
+     "name": "Normann, Tobias",
+     "saves": 21,
+     "shotsAgainst": 23
+    },
+    {
+     "name": "Mann, Strauss",
+     "saves": 13,
+     "shotsAgainst": 15
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Linköping HC",
+   "codes": [
+    "HV71",
+    "LHC"
+   ],
+   "date": "2026-10-20",
+   "final": [
+    2,
+    3
+   ],
+   "goalies": [
+    [
+     "HV71",
+     "Sandström, Felix",
+     32,
+     35
+    ],
+    [
+     "LHC",
+     "Högberg, Marcus",
+     29,
+     31
+    ]
+   ],
+   "goals": [
+    2,
+    2
+   ],
+   "home": "HV 71",
+   "id": "1110011",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": true,
+   "shots": [
+    31,
+    34
+   ],
+   "starters": [
+    {
+     "name": "Sandström, Felix",
+     "saves": 32,
+     "shotsAgainst": 34
+    },
+    {
+     "name": "Högberg, Marcus",
+     "saves": 29,
+     "shotsAgainst": 31
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "codes": [
+    "FRÖ",
+    "DIF"
+   ],
+   "date": "2026-10-20",
+   "final": [
+    6,
+    2
+   ],
+   "goalies": [
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     12,
+     14
+    ],
+    [
+     "DIF",
+     "Marmenlind, Daniel",
+     39,
+     45
+    ]
+   ],
+   "goals": [
+    6,
+    2
+   ],
+   "home": "Frölunda HC",
+   "id": "1110109",
+   "overtime": false,
+   "reg": [
+    6,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    45,
+    14
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Lars",
+     "saves": 12,
+     "shotsAgainst": 14
+    },
+    {
+     "name": "Marmenlind, Daniel",
+     "saves": 39,
+     "shotsAgainst": 45
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "IF Malmö Redhawks",
+   "codes": [
+    "IFB",
+    "MIF"
+   ],
+   "date": "2026-10-22",
+   "final": [
+    2,
+    4
+   ],
+   "goalies": [
+    [
+     "IFB",
+     "Tuohimaa, Frans",
+     28,
+     31
+    ],
+    [
+     "MIF",
+     "Langhamer, Marek",
+     20,
+     22
+    ]
+   ],
+   "goals": [
+    2,
+    4
+   ],
+   "home": "IF Björklöven",
+   "id": "1110012",
+   "overtime": false,
+   "reg": [
+    2,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    22,
+    32
+   ],
+   "starters": [
+    {
+     "name": "Tuohimaa, Frans",
+     "saves": 28,
+     "shotsAgainst": 32
+    },
+    {
+     "name": "Langhamer, Marek",
+     "saves": 20,
+     "shotsAgainst": 22
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Frölunda HC",
+   "codes": [
+    "RBK",
+    "FRÖ"
+   ],
+   "date": "2026-10-22",
+   "final": [
+    4,
+    1
+   ],
+   "goalies": [
+    [
+     "RBK",
+     "Holm, Arvid",
+     17,
+     18
+    ],
+    [
+     "FRÖ",
+     "Normann, Tobias",
+     25,
+     29
+    ]
+   ],
+   "goals": [
+    4,
+    1
+   ],
+   "home": "Rögle BK",
+   "id": "1110013",
+   "overtime": false,
+   "reg": [
+    4,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    29,
+    18
+   ],
+   "starters": [
+    {
+     "name": "Holm, Arvid",
+     "saves": 17,
+     "shotsAgainst": 18
+    },
+    {
+     "name": "Normann, Tobias",
+     "saves": 25,
+     "shotsAgainst": 29
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "codes": [
+    "SKE",
+    "DIF"
+   ],
+   "date": "2026-10-22",
+   "final": [
+    4,
+    1
+   ],
+   "goalies": [
+    [
+     "SKE",
+     "Mann, Strauss",
+     18,
+     19
+    ],
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     40,
+     44
+    ]
+   ],
+   "goals": [
+    4,
+    1
+   ],
+   "home": "Skellefteå AIK",
+   "id": "1110014",
+   "overtime": false,
+   "reg": [
+    4,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    44,
+    19
+   ],
+   "starters": [
+    {
+     "name": "Mann, Strauss",
+     "saves": 18,
+     "shotsAgainst": 19
+    },
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 40,
+     "shotsAgainst": 44
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Färjestad BK",
+   "codes": [
+    "TIK",
+    "FBK"
+   ],
+   "date": "2026-10-22",
+   "final": [
+    0,
+    4
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Johansson, Jacob",
+     24,
+     27
+    ],
+    [
+     "FBK",
+     "Thelin, Melker",
+     19,
+     19
+    ]
+   ],
+   "goals": [
+    0,
+    4
+   ],
+   "home": "Timrå IK",
+   "id": "1110015",
+   "overtime": false,
+   "reg": [
+    0,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    19,
+    28
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Jacob",
+     "saves": 24,
+     "shotsAgainst": 28
+    },
+    {
+     "name": "Thelin, Melker",
+     "saves": 19,
+     "shotsAgainst": 19
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Luleå HF",
+   "codes": [
+    "VÄX",
+    "LHF"
+   ],
+   "date": "2026-10-22",
+   "final": [
+    2,
+    1
+   ],
+   "goalies": [
+    [
+     "VÄX",
+     "Åhman, Adam",
+     26,
+     27
+    ],
+    [
+     "LHF",
+     "Ward, Matteus",
+     27,
+     29
+    ]
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "home": "Växjö Lakers HC",
+   "id": "1110016",
+   "overtime": false,
+   "reg": [
+    2,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    29,
+    27
+   ],
+   "starters": [
+    {
+     "name": "Åhman, Adam",
+     "saves": 26,
+     "shotsAgainst": 27
+    },
+    {
+     "name": "Ward, Matteus",
+     "saves": 27,
+     "shotsAgainst": 29
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Brynäs IF",
+   "codes": [
+    "ÖHK",
+    "BIF"
+   ],
+   "date": "2026-10-22",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "ÖHK",
+     "Arntzen, Jonas",
+     30,
+     32
+    ],
+    [
+     "BIF",
+     "Chrona, Magnus",
+     20,
+     23
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "Örebro HK",
+   "id": "1110017",
+   "overtime": false,
+   "reg": [
+    3,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    23,
+    32
+   ],
+   "starters": [
+    {
+     "name": "Arntzen, Jonas",
+     "saves": 30,
+     "shotsAgainst": 32
+    },
+    {
+     "name": "Chrona, Magnus",
+     "saves": 20,
+     "shotsAgainst": 23
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Skellefteå AIK",
+   "codes": [
+    "IFB",
+    "SKE"
+   ],
+   "date": "2026-10-24",
+   "final": [
+    1,
+    8
+   ],
+   "goalies": [
+    [
+     "IFB",
+     "Lehtinen, Lassi",
+     31,
+     39
+    ],
+    [
+     "SKE",
+     "Mann, Strauss",
+     15,
+     16
+    ]
+   ],
+   "goals": [
+    1,
+    8
+   ],
+   "home": "IF Björklöven",
+   "id": "1110019",
+   "overtime": false,
+   "reg": [
+    1,
+    8
+   ],
+   "shootout": false,
+   "shots": [
+    16,
+    39
+   ],
+   "starters": [
+    {
+     "name": "Lehtinen, Lassi",
+     "saves": 31,
+     "shotsAgainst": 39
+    },
+    {
+     "name": "Mann, Strauss",
+     "saves": 15,
+     "shotsAgainst": 16
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Timrå IK",
+   "codes": [
+    "MIF",
+    "TIK"
+   ],
+   "date": "2026-10-24",
+   "final": [
+    1,
+    2
+   ],
+   "goalies": [
+    [
+     "MIF",
+     "Langhamer, Marek",
+     22,
+     24
+    ],
+    [
+     "TIK",
+     "Johansson, Jacob",
+     34,
+     35
+    ]
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "home": "IF Malmö Redhawks",
+   "id": "1110020",
+   "overtime": false,
+   "reg": [
+    1,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    35,
+    24
+   ],
+   "starters": [
+    {
+     "name": "Langhamer, Marek",
+     "saves": 22,
+     "shotsAgainst": 24
+    },
+    {
+     "name": "Johansson, Jacob",
+     "saves": 34,
+     "shotsAgainst": 35
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Rögle BK",
+   "codes": [
+    "BIF",
+    "RBK"
+   ],
+   "date": "2026-10-24",
+   "final": [
+    4,
+    5
+   ],
+   "goalies": [
+    [
+     "BIF",
+     "Källgren, Erik",
+     27,
+     32
+    ],
+    [
+     "RBK",
+     "Holm, Arvid",
+     19,
+     23
+    ]
+   ],
+   "goals": [
+    4,
+    5
+   ],
+   "home": "Brynäs IF",
+   "id": "1110021",
+   "overtime": true,
+   "reg": [
+    4,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    23,
+    32
+   ],
+   "starters": [
+    {
+     "name": "Källgren, Erik",
+     "saves": 27,
+     "shotsAgainst": 32
+    },
+    {
+     "name": "Holm, Arvid",
+     "saves": 19,
+     "shotsAgainst": 23
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Frölunda HC",
+   "codes": [
+    "HV71",
+    "FRÖ"
+   ],
+   "date": "2026-10-24",
+   "final": [
+    2,
+    6
+   ],
+   "goalies": [
+    [
+     "HV71",
+     "Liv, Herman",
+     14,
+     19
+    ],
+    [
+     "HV71",
+     "Sandström, Felix",
+     3,
+     4
+    ],
+    [
+     "FRÖ",
+     "Normann, Tobias",
+     19,
+     21
+    ]
+   ],
+   "goals": [
+    2,
+    6
+   ],
+   "home": "HV 71",
+   "id": "1110022",
+   "overtime": false,
+   "reg": [
+    2,
+    6
+   ],
+   "shootout": false,
+   "shots": [
+    21,
+    23
+   ],
+   "starters": [
+    {
+     "name": "Liv, Herman",
+     "saves": 14,
+     "shotsAgainst": 19
+    },
+    {
+     "name": "Normann, Tobias",
+     "saves": 19,
+     "shotsAgainst": 21
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "codes": [
+    "LHF",
+    "DIF"
+   ],
+   "date": "2026-10-24",
+   "final": [
+    2,
+    3
+   ],
+   "goalies": [
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     13,
+     16
+    ],
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     35,
+     37
+    ]
+   ],
+   "goals": [
+    2,
+    3
+   ],
+   "home": "Luleå HF",
+   "id": "1110024",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    37,
+    16
+   ],
+   "starters": [
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 13,
+     "shotsAgainst": 16
+    },
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 35,
+     "shotsAgainst": 37
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Örebro HK",
+   "codes": [
+    "LHC",
+    "ÖHK"
+   ],
+   "date": "2026-10-24",
+   "final": [
+    6,
+    4
+   ],
+   "goalies": [
+    [
+     "LHC",
+     "Högberg, Marcus",
+     26,
+     30
+    ],
+    [
+     "ÖHK",
+     "Arntzen, Jonas",
+     29,
+     34
+    ]
+   ],
+   "goals": [
+    6,
+    4
+   ],
+   "home": "Linköping HC",
+   "id": "1110023",
+   "overtime": false,
+   "reg": [
+    6,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    35,
+    30
+   ],
+   "starters": [
+    {
+     "name": "Högberg, Marcus",
+     "saves": 26,
+     "shotsAgainst": 30
+    },
+    {
+     "name": "Arntzen, Jonas",
+     "saves": 29,
+     "shotsAgainst": 35
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Växjö Lakers HC",
+   "codes": [
+    "FBK",
+    "VÄX"
+   ],
+   "date": "2026-10-24",
+   "final": [
+    4,
+    1
+   ],
+   "goalies": [
+    [
+     "FBK",
+     "Larmi, Emil",
+     18,
+     19
+    ],
+    [
+     "VÄX",
+     "Åhman, Adam",
+     26,
+     30
+    ]
+   ],
+   "goals": [
+    4,
+    1
+   ],
+   "home": "Färjestad BK",
+   "id": "1110018",
+   "overtime": false,
+   "reg": [
+    4,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    30,
+    19
+   ],
+   "starters": [
+    {
+     "name": "Larmi, Emil",
+     "saves": 18,
+     "shotsAgainst": 19
+    },
+    {
+     "name": "Åhman, Adam",
+     "saves": 26,
+     "shotsAgainst": 30
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Linköping HC",
+   "codes": [
+    "MIF",
+    "LHC"
+   ],
+   "date": "2026-10-27",
+   "final": [
+    8,
+    2
+   ],
+   "goalies": [
+    [
+     "MIF",
+     "Langhamer, Marek",
+     34,
+     36
+    ],
+    [
+     "LHC",
+     "Ignatjew, Waltteri",
+     15,
+     18
+    ],
+    [
+     "LHC",
+     "Högberg, Marcus",
+     12,
+     17
+    ]
+   ],
+   "goals": [
+    8,
+    2
+   ],
+   "home": "IF Malmö Redhawks",
+   "id": "1109961",
+   "overtime": false,
+   "reg": [
+    8,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    35,
+    36
+   ],
+   "starters": [
+    {
+     "name": "Langhamer, Marek",
+     "saves": 34,
+     "shotsAgainst": 36
+    },
+    {
+     "name": "Högberg, Marcus",
+     "saves": 12,
+     "shotsAgainst": 17
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Rögle BK",
+   "codes": [
+    "FRÖ",
+    "RBK"
+   ],
+   "date": "2026-10-27",
+   "final": [
+    4,
+    5
+   ],
+   "goalies": [
+    [
+     "FRÖ",
+     "Normann, Tobias",
+     20,
+     25
+    ],
+    [
+     "RBK",
+     "Clang, Calle",
+     19,
+     23
+    ]
+   ],
+   "goals": [
+    4,
+    5
+   ],
+   "home": "Frölunda HC",
+   "id": "1110123",
+   "overtime": false,
+   "reg": [
+    4,
+    5
+   ],
+   "shootout": false,
+   "shots": [
+    23,
+    25
+   ],
+   "starters": [
+    {
+     "name": "Normann, Tobias",
+     "saves": 20,
+     "shotsAgainst": 25
+    },
+    {
+     "name": "Clang, Calle",
+     "saves": 19,
+     "shotsAgainst": 23
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Färjestad BK",
+   "codes": [
+    "BIF",
+    "FBK"
+   ],
+   "date": "2026-10-29",
+   "final": [
+    4,
+    5
+   ],
+   "goalies": [
+    [
+     "BIF",
+     "Chrona, Magnus",
+     19,
+     24
+    ],
+    [
+     "FBK",
+     "Thelin, Melker",
+     22,
+     26
+    ]
+   ],
+   "goals": [
+    4,
+    5
+   ],
+   "home": "Brynäs IF",
+   "id": "1110025",
+   "overtime": false,
+   "reg": [
+    4,
+    5
+   ],
+   "shootout": false,
+   "shots": [
+    26,
+    24
+   ],
+   "starters": [
+    {
+     "name": "Chrona, Magnus",
+     "saves": 19,
+     "shotsAgainst": 24
+    },
+    {
+     "name": "Thelin, Melker",
+     "saves": 22,
+     "shotsAgainst": 26
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "IF Björklöven",
+   "codes": [
+    "LHF",
+    "IFB"
+   ],
+   "date": "2026-10-29",
+   "final": [
+    4,
+    0
+   ],
+   "goalies": [
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     22,
+     22
+    ],
+    [
+     "IFB",
+     "Tuohimaa, Frans",
+     20,
+     23
+    ]
+   ],
+   "goals": [
+    4,
+    0
+   ],
+   "home": "Luleå HF",
+   "id": "1110027",
+   "overtime": false,
+   "reg": [
+    4,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    24,
+    22
+   ],
+   "starters": [
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 22,
+     "shotsAgainst": 22
+    },
+    {
+     "name": "Tuohimaa, Frans",
+     "saves": 20,
+     "shotsAgainst": 24
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "IF Malmö Redhawks",
+   "codes": [
+    "RBK",
+    "MIF"
+   ],
+   "date": "2026-10-29",
+   "final": [
+    0,
+    3
+   ],
+   "goalies": [
+    [
+     "RBK",
+     "Holm, Arvid",
+     34,
+     36
+    ],
+    [
+     "MIF",
+     "Blomgren, Oskar",
+     30,
+     30
+    ]
+   ],
+   "goals": [
+    0,
+    3
+   ],
+   "home": "Rögle BK",
+   "id": "1110028",
+   "overtime": false,
+   "reg": [
+    0,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    30,
+    37
+   ],
+   "starters": [
+    {
+     "name": "Holm, Arvid",
+     "saves": 34,
+     "shotsAgainst": 37
+    },
+    {
+     "name": "Blomgren, Oskar",
+     "saves": 30,
+     "shotsAgainst": 30
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Linköping HC",
+   "codes": [
+    "SKE",
+    "LHC"
+   ],
+   "date": "2026-10-29",
+   "final": [
+    3,
+    1
+   ],
+   "goalies": [
+    [
+     "SKE",
+     "Lampinen, Jani",
+     25,
+     26
+    ],
+    [
+     "LHC",
+     "Ignatjew, Waltteri",
+     28,
+     30
+    ]
+   ],
+   "goals": [
+    3,
+    1
+   ],
+   "home": "Skellefteå AIK",
+   "id": "1110029",
+   "overtime": false,
+   "reg": [
+    3,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    31,
+    26
+   ],
+   "starters": [
+    {
+     "name": "Lampinen, Jani",
+     "saves": 25,
+     "shotsAgainst": 26
+    },
+    {
+     "name": "Ignatjew, Waltteri",
+     "saves": 28,
+     "shotsAgainst": 31
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Växjö Lakers HC",
+   "codes": [
+    "TIK",
+    "VÄX"
+   ],
+   "date": "2026-10-29",
+   "final": [
+    3,
+    0
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Johansson, Jacob",
+     21,
+     21
+    ],
+    [
+     "VÄX",
+     "Åhman, Adam",
+     20,
+     23
+    ]
+   ],
+   "goals": [
+    3,
+    0
+   ],
+   "home": "Timrå IK",
+   "id": "1110030",
+   "overtime": false,
+   "reg": [
+    3,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    23,
+    21
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Jacob",
+     "saves": 21,
+     "shotsAgainst": 21
+    },
+    {
+     "name": "Åhman, Adam",
+     "saves": 20,
+     "shotsAgainst": 23
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Frölunda HC",
+   "codes": [
+    "ÖHK",
+    "FRÖ"
+   ],
+   "date": "2026-10-29",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "ÖHK",
+     "Larsson, Filip",
+     34,
+     36
+    ],
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     18,
+     21
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "Örebro HK",
+   "id": "1110031",
+   "overtime": false,
+   "reg": [
+    3,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    21,
+    36
+   ],
+   "starters": [
+    {
+     "name": "Larsson, Filip",
+     "saves": 34,
+     "shotsAgainst": 36
+    },
+    {
+     "name": "Johansson, Lars",
+     "saves": 18,
+     "shotsAgainst": 21
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "HV 71",
+   "codes": [
+    "DIF",
+    "HV71"
+   ],
+   "date": "2026-10-29",
+   "final": [
+    3,
+    0
+   ],
+   "goalies": [
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     28,
+     28
+    ],
+    [
+     "HV71",
+     "Sandström, Felix",
+     22,
+     25
+    ]
+   ],
+   "goals": [
+    3,
+    0
+   ],
+   "home": "Djurgårdens IF",
+   "id": "1110026",
+   "overtime": false,
+   "reg": [
+    3,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    25,
+    28
+   ],
+   "starters": [
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 28,
+     "shotsAgainst": 28
+    },
+    {
+     "name": "Sandström, Felix",
+     "saves": 22,
+     "shotsAgainst": 25
+    }
+   ],
+   "time": "19:30"
+  },
+  {
+   "away": "Linköping HC",
+   "codes": [
+    "FRÖ",
+    "LHC"
+   ],
+   "date": "2026-10-31",
+   "final": [
+    4,
+    1
+   ],
+   "goalies": [
+    [
+     "FRÖ",
+     "Normann, Tobias",
+     20,
+     21
+    ],
+    [
+     "LHC",
+     "Ignatjew, Waltteri",
+     26,
+     28
+    ]
+   ],
+   "goals": [
+    4,
+    1
+   ],
+   "home": "Frölunda HC",
+   "id": "1110032",
+   "overtime": false,
+   "reg": [
+    4,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    30,
+    21
+   ],
+   "starters": [
+    {
+     "name": "Normann, Tobias",
+     "saves": 20,
+     "shotsAgainst": 21
+    },
+    {
+     "name": "Ignatjew, Waltteri",
+     "saves": 26,
+     "shotsAgainst": 30
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "IF Björklöven",
+   "codes": [
+    "SKE",
+    "IFB"
+   ],
+   "date": "2026-10-31",
+   "final": [
+    5,
+    3
+   ],
+   "goalies": [
+    [
+     "SKE",
+     "Mann, Strauss",
+     19,
+     22
+    ],
+    [
+     "IFB",
+     "Tuohimaa, Frans",
+     31,
+     36
+    ]
+   ],
+   "goals": [
+    5,
+    3
+   ],
+   "home": "Skellefteå AIK",
+   "id": "1110033",
+   "overtime": false,
+   "reg": [
+    5,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    36,
+    22
+   ],
+   "starters": [
+    {
+     "name": "Mann, Strauss",
+     "saves": 19,
+     "shotsAgainst": 22
+    },
+    {
+     "name": "Tuohimaa, Frans",
+     "saves": 31,
+     "shotsAgainst": 36
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Färjestad BK",
+   "codes": [
+    "VÄX",
+    "FBK"
+   ],
+   "date": "2026-10-31",
+   "final": [
+    1,
+    5
+   ],
+   "goalies": [
+    [
+     "VÄX",
+     "Persson, Ludvig",
+     11,
+     13
+    ],
+    [
+     "VÄX",
+     "Åhman, Adam",
+     3,
+     6
+    ],
+    [
+     "FBK",
+     "Larmi, Emil",
+     26,
+     27
+    ]
+   ],
+   "goals": [
+    1,
+    5
+   ],
+   "home": "Växjö Lakers HC",
+   "id": "1110034",
+   "overtime": false,
+   "reg": [
+    1,
+    5
+   ],
+   "shootout": false,
+   "shots": [
+    27,
+    19
+   ],
+   "starters": [
+    {
+     "name": "Åhman, Adam",
+     "saves": 3,
+     "shotsAgainst": 6
+    },
+    {
+     "name": "Larmi, Emil",
+     "saves": 26,
+     "shotsAgainst": 27
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Brynäs IF",
+   "codes": [
+    "DIF",
+    "BIF"
+   ],
+   "date": "2026-10-31",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     34,
+     36
+    ],
+    [
+     "BIF",
+     "Källgren, Erik",
+     16,
+     19
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "Djurgårdens IF",
+   "id": "1110035",
+   "overtime": false,
+   "reg": [
+    3,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    19,
+    36
+   ],
+   "starters": [
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 34,
+     "shotsAgainst": 36
+    },
+    {
+     "name": "Källgren, Erik",
+     "saves": 16,
+     "shotsAgainst": 19
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "HV 71",
+   "codes": [
+    "MIF",
+    "HV71"
+   ],
+   "date": "2026-10-31",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "MIF",
+     "Langhamer, Marek",
+     31,
+     33
+    ],
+    [
+     "HV71",
+     "Sandström, Felix",
+     32,
+     35
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "IF Malmö Redhawks",
+   "id": "1110036",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    35,
+    33
+   ],
+   "starters": [
+    {
+     "name": "Langhamer, Marek",
+     "saves": 31,
+     "shotsAgainst": 33
+    },
+    {
+     "name": "Sandström, Felix",
+     "saves": 32,
+     "shotsAgainst": 35
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Luleå HF",
+   "codes": [
+    "TIK",
+    "LHF"
+   ],
+   "date": "2026-10-31",
+   "final": [
+    2,
+    3
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Johansson, Jacob",
+     11,
+     14
+    ],
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     17,
+     19
+    ]
+   ],
+   "goals": [
+    2,
+    2
+   ],
+   "home": "Timrå IK",
+   "id": "1110037",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": true,
+   "shots": [
+    19,
+    13
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Jacob",
+     "saves": 11,
+     "shotsAgainst": 13
+    },
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 17,
+     "shotsAgainst": 19
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Rögle BK",
+   "codes": [
+    "ÖHK",
+    "RBK"
+   ],
+   "date": "2026-10-31",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "ÖHK",
+     "Arntzen, Jonas",
+     24,
+     26
+    ],
+    [
+     "RBK",
+     "Clang, Calle",
+     21,
+     24
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "Örebro HK",
+   "id": "1110038",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    24,
+    26
+   ],
+   "starters": [
+    {
+     "name": "Arntzen, Jonas",
+     "saves": 24,
+     "shotsAgainst": 26
+    },
+    {
+     "name": "Clang, Calle",
+     "saves": 21,
+     "shotsAgainst": 24
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Skellefteå AIK",
+   "codes": [
+    "BIF",
+    "SKE"
+   ],
+   "date": "2026-11-12",
+   "final": [
+    10,
+    4
+   ],
+   "goalies": [
+    [
+     "BIF",
+     "Källgren, Erik",
+     13,
+     17
+    ],
+    [
+     "SKE",
+     "Lampinen, Jani",
+     3,
+     9
+    ],
+    [
+     "SKE",
+     "Ringquist, Anton",
+     12,
+     16
+    ]
+   ],
+   "goals": [
+    10,
+    4
+   ],
+   "home": "Brynäs IF",
+   "id": "1110039",
+   "overtime": false,
+   "reg": [
+    10,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    25,
+    17
+   ],
+   "starters": [
+    {
+     "name": "Källgren, Erik",
+     "saves": 13,
+     "shotsAgainst": 17
+    },
+    {
+     "name": "Lampinen, Jani",
+     "saves": 3,
+     "shotsAgainst": 9
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "IF Malmö Redhawks",
+   "codes": [
+    "FRÖ",
+    "MIF"
+   ],
+   "date": "2026-11-12",
+   "final": [
+    4,
+    1
+   ],
+   "goalies": [
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     22,
+     23
+    ],
+    [
+     "MIF",
+     "Blomgren, Oskar",
+     16,
+     19
+    ]
+   ],
+   "goals": [
+    4,
+    1
+   ],
+   "home": "Frölunda HC",
+   "id": "1110040",
+   "overtime": false,
+   "reg": [
+    4,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    20,
+    23
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Lars",
+     "saves": 22,
+     "shotsAgainst": 23
+    },
+    {
+     "name": "Blomgren, Oskar",
+     "saves": 16,
+     "shotsAgainst": 20
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "codes": [
+    "FBK",
+    "DIF"
+   ],
+   "date": "2026-11-12",
+   "final": [
+    3,
+    1
+   ],
+   "goalies": [
+    [
+     "FBK",
+     "Larmi, Emil",
+     23,
+     24
+    ],
+    [
+     "DIF",
+     "Marmenlind, Daniel",
+     29,
+     32
+    ]
+   ],
+   "goals": [
+    3,
+    1
+   ],
+   "home": "Färjestad BK",
+   "id": "1110041",
+   "overtime": false,
+   "reg": [
+    3,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    32,
+    24
+   ],
+   "starters": [
+    {
+     "name": "Larmi, Emil",
+     "saves": 23,
+     "shotsAgainst": 24
+    },
+    {
+     "name": "Marmenlind, Daniel",
+     "saves": 29,
+     "shotsAgainst": 32
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Luleå HF",
+   "codes": [
+    "HV71",
+    "LHF"
+   ],
+   "date": "2026-11-12",
+   "final": [
+    2,
+    4
+   ],
+   "goalies": [
+    [
+     "HV71",
+     "Sandström, Felix",
+     18,
+     21
+    ],
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     34,
+     36
+    ]
+   ],
+   "goals": [
+    2,
+    4
+   ],
+   "home": "HV 71",
+   "id": "1110042",
+   "overtime": false,
+   "reg": [
+    2,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    36,
+    22
+   ],
+   "starters": [
+    {
+     "name": "Sandström, Felix",
+     "saves": 18,
+     "shotsAgainst": 22
+    },
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 34,
+     "shotsAgainst": 36
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Örebro HK",
+   "codes": [
+    "IFB",
+    "ÖHK"
+   ],
+   "date": "2026-11-12",
+   "final": [
+    1,
+    3
+   ],
+   "goalies": [
+    [
+     "IFB",
+     "Lehtinen, Lassi",
+     24,
+     26
+    ],
+    [
+     "ÖHK",
+     "Larsson, Filip",
+     22,
+     23
+    ]
+   ],
+   "goals": [
+    1,
+    3
+   ],
+   "home": "IF Björklöven",
+   "id": "1110043",
+   "overtime": false,
+   "reg": [
+    1,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    23,
+    27
+   ],
+   "starters": [
+    {
+     "name": "Lehtinen, Lassi",
+     "saves": 24,
+     "shotsAgainst": 27
+    },
+    {
+     "name": "Larsson, Filip",
+     "saves": 22,
+     "shotsAgainst": 23
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Rögle BK",
+   "codes": [
+    "LHC",
+    "RBK"
+   ],
+   "date": "2026-11-12",
+   "final": [
+    9,
+    4
+   ],
+   "goalies": [
+    [
+     "LHC",
+     "Högberg, Marcus",
+     35,
+     39
+    ],
+    [
+     "RBK",
+     "Holm, Arvid",
+     7,
+     13
+    ],
+    [
+     "RBK",
+     "Clang, Calle",
+     10,
+     13
+    ]
+   ],
+   "goals": [
+    9,
+    4
+   ],
+   "home": "Linköping HC",
+   "id": "1110044",
+   "overtime": false,
+   "reg": [
+    9,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    26,
+    39
+   ],
+   "starters": [
+    {
+     "name": "Högberg, Marcus",
+     "saves": 35,
+     "shotsAgainst": 39
+    },
+    {
+     "name": "Holm, Arvid",
+     "saves": 7,
+     "shotsAgainst": 13
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Timrå IK",
+   "codes": [
+    "VÄX",
+    "TIK"
+   ],
+   "date": "2026-11-12",
+   "final": [
+    5,
+    0
+   ],
+   "goalies": [
+    [
+     "VÄX",
+     "Persson, Ludvig",
+     29,
+     29
+    ],
+    [
+     "TIK",
+     "Johansson, Jacob",
+     9,
+     13
+    ],
+    [
+     "TIK",
+     "Gunnarsson, Jonas",
+     5,
+     6
+    ]
+   ],
+   "goals": [
+    5,
+    0
+   ],
+   "home": "Växjö Lakers HC",
+   "id": "1110045",
+   "overtime": false,
+   "reg": [
+    5,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    19,
+    29
+   ],
+   "starters": [
+    {
+     "name": "Persson, Ludvig",
+     "saves": 29,
+     "shotsAgainst": 29
+    },
+    {
+     "name": "Johansson, Jacob",
+     "saves": 9,
+     "shotsAgainst": 13
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Timrå IK",
+   "codes": [
+    "HV71",
+    "TIK"
+   ],
+   "date": "2026-11-14",
+   "final": [
+    4,
+    3
+   ],
+   "goalies": [
+    [
+     "HV71",
+     "Sandström, Felix",
+     26,
+     29
+    ],
+    [
+     "TIK",
+     "Johansson, Jacob",
+     13,
+     17
+    ]
+   ],
+   "goals": [
+    4,
+    3
+   ],
+   "home": "HV 71",
+   "id": "1110046",
+   "overtime": false,
+   "reg": [
+    4,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    17,
+    29
+   ],
+   "starters": [
+    {
+     "name": "Sandström, Felix",
+     "saves": 26,
+     "shotsAgainst": 29
+    },
+    {
+     "name": "Johansson, Jacob",
+     "saves": 13,
+     "shotsAgainst": 17
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Växjö Lakers HC",
+   "codes": [
+    "MIF",
+    "VÄX"
+   ],
+   "date": "2026-11-14",
+   "final": [
+    1,
+    2
+   ],
+   "goalies": [
+    [
+     "MIF",
+     "Langhamer, Marek",
+     23,
+     25
+    ],
+    [
+     "VÄX",
+     "Persson, Ludvig",
+     20,
+     21
+    ]
+   ],
+   "goals": [
+    1,
+    2
+   ],
+   "home": "IF Malmö Redhawks",
+   "id": "1110047",
+   "overtime": false,
+   "reg": [
+    1,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    21,
+    25
+   ],
+   "starters": [
+    {
+     "name": "Langhamer, Marek",
+     "saves": 23,
+     "shotsAgainst": 25
+    },
+    {
+     "name": "Persson, Ludvig",
+     "saves": 20,
+     "shotsAgainst": 21
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Frölunda HC",
+   "codes": [
+    "RBK",
+    "FRÖ"
+   ],
+   "date": "2026-11-14",
+   "final": [
+    0,
+    4
+   ],
+   "goalies": [
+    [
+     "RBK",
+     "Holm, Arvid",
+     10,
+     14
+    ],
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     37,
+     37
+    ]
+   ],
+   "goals": [
+    0,
+    4
+   ],
+   "home": "Rögle BK",
+   "id": "1110048",
+   "overtime": false,
+   "reg": [
+    0,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    37,
+    14
+   ],
+   "starters": [
+    {
+     "name": "Holm, Arvid",
+     "saves": 10,
+     "shotsAgainst": 14
+    },
+    {
+     "name": "Johansson, Lars",
+     "saves": 37,
+     "shotsAgainst": 37
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Brynäs IF",
+   "codes": [
+    "IFB",
+    "BIF"
+   ],
+   "date": "2026-11-14",
+   "final": [
+    1,
+    4
+   ],
+   "goalies": [
+    [
+     "IFB",
+     "Lehtinen, Lassi",
+     28,
+     32
+    ],
+    [
+     "BIF",
+     "Chrona, Magnus",
+     27,
+     28
+    ]
+   ],
+   "goals": [
+    1,
+    4
+   ],
+   "home": "IF Björklöven",
+   "id": "1110049",
+   "overtime": false,
+   "reg": [
+    1,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    28,
+    32
+   ],
+   "starters": [
+    {
+     "name": "Lehtinen, Lassi",
+     "saves": 28,
+     "shotsAgainst": 32
+    },
+    {
+     "name": "Chrona, Magnus",
+     "saves": 27,
+     "shotsAgainst": 28
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Färjestad BK",
+   "codes": [
+    "LHF",
+    "FBK"
+   ],
+   "date": "2026-11-14",
+   "final": [
+    1,
+    3
+   ],
+   "goalies": [
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     30,
+     32
+    ],
+    [
+     "FBK",
+     "Thelin, Melker",
+     14,
+     15
+    ]
+   ],
+   "goals": [
+    1,
+    3
+   ],
+   "home": "Luleå HF",
+   "id": "1110050",
+   "overtime": false,
+   "reg": [
+    1,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    15,
+    33
+   ],
+   "starters": [
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 30,
+     "shotsAgainst": 33
+    },
+    {
+     "name": "Thelin, Melker",
+     "saves": 14,
+     "shotsAgainst": 15
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Linköping HC",
+   "codes": [
+    "SKE",
+    "LHC"
+   ],
+   "date": "2026-11-14",
+   "final": [
+    5,
+    2
+   ],
+   "goalies": [
+    [
+     "SKE",
+     "Mann, Strauss",
+     19,
+     21
+    ],
+    [
+     "LHC",
+     "Högberg, Marcus",
+     40,
+     45
+    ]
+   ],
+   "goals": [
+    5,
+    2
+   ],
+   "home": "Skellefteå AIK",
+   "id": "1110051",
+   "overtime": false,
+   "reg": [
+    5,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    45,
+    21
+   ],
+   "starters": [
+    {
+     "name": "Mann, Strauss",
+     "saves": 19,
+     "shotsAgainst": 21
+    },
+    {
+     "name": "Högberg, Marcus",
+     "saves": 40,
+     "shotsAgainst": 45
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "codes": [
+    "ÖHK",
+    "DIF"
+   ],
+   "date": "2026-11-14",
+   "final": [
+    4,
+    1
+   ],
+   "goalies": [
+    [
+     "ÖHK",
+     "Larsson, Filip",
+     22,
+     23
+    ],
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     28,
+     32
+    ]
+   ],
+   "goals": [
+    4,
+    1
+   ],
+   "home": "Örebro HK",
+   "id": "1110052",
+   "overtime": false,
+   "reg": [
+    4,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    32,
+    23
+   ],
+   "starters": [
+    {
+     "name": "Larsson, Filip",
+     "saves": 22,
+     "shotsAgainst": 23
+    },
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 28,
+     "shotsAgainst": 32
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Luleå HF",
+   "codes": [
+    "BIF",
+    "LHF"
+   ],
+   "date": "2026-11-19",
+   "final": [
+    4,
+    2
+   ],
+   "goalies": [
+    [
+     "BIF",
+     "Chrona, Magnus",
+     13,
+     15
+    ],
+    [
+     "LHF",
+     "Ward, Matteus",
+     17,
+     20
+    ]
+   ],
+   "goals": [
+    4,
+    2
+   ],
+   "home": "Brynäs IF",
+   "id": "1110053",
+   "overtime": false,
+   "reg": [
+    4,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    21,
+    15
+   ],
+   "starters": [
+    {
+     "name": "Chrona, Magnus",
+     "saves": 13,
+     "shotsAgainst": 15
+    },
+    {
+     "name": "Ward, Matteus",
+     "saves": 17,
+     "shotsAgainst": 21
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Skellefteå AIK",
+   "codes": [
+    "DIF",
+    "SKE"
+   ],
+   "date": "2026-11-19",
+   "final": [
+    1,
+    4
+   ],
+   "goalies": [
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     25,
+     28
+    ],
+    [
+     "SKE",
+     "Mann, Strauss",
+     21,
+     22
+    ]
+   ],
+   "goals": [
+    1,
+    4
+   ],
+   "home": "Djurgårdens IF",
+   "id": "1110054",
+   "overtime": false,
+   "reg": [
+    1,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    22,
+    29
+   ],
+   "starters": [
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 25,
+     "shotsAgainst": 29
+    },
+    {
+     "name": "Mann, Strauss",
+     "saves": 21,
+     "shotsAgainst": 22
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Frölunda HC",
+   "codes": [
+    "FBK",
+    "FRÖ"
+   ],
+   "date": "2026-11-19",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "FBK",
+     "Thelin, Melker",
+     14,
+     16
+    ],
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     33,
+     36
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "Färjestad BK",
+   "id": "1110055",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    36,
+    16
+   ],
+   "starters": [
+    {
+     "name": "Thelin, Melker",
+     "saves": 14,
+     "shotsAgainst": 16
+    },
+    {
+     "name": "Johansson, Lars",
+     "saves": 33,
+     "shotsAgainst": 36
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "HV 71",
+   "codes": [
+    "LHC",
+    "HV71"
+   ],
+   "date": "2026-11-19",
+   "final": [
+    3,
+    1
+   ],
+   "goalies": [
+    [
+     "LHC",
+     "Ignatjew, Waltteri",
+     25,
+     26
+    ],
+    [
+     "HV71",
+     "Sandström, Felix",
+     19,
+     21
+    ]
+   ],
+   "goals": [
+    3,
+    1
+   ],
+   "home": "Linköping HC",
+   "id": "1110056",
+   "overtime": false,
+   "reg": [
+    3,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    22,
+    26
+   ],
+   "starters": [
+    {
+     "name": "Ignatjew, Waltteri",
+     "saves": 25,
+     "shotsAgainst": 26
+    },
+    {
+     "name": "Sandström, Felix",
+     "saves": 19,
+     "shotsAgainst": 22
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Rögle BK",
+   "codes": [
+    "MIF",
+    "RBK"
+   ],
+   "date": "2026-11-19",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "MIF",
+     "Blomgren, Oskar",
+     17,
+     19
+    ],
+    [
+     "RBK",
+     "Clang, Calle",
+     28,
+     31
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "IF Malmö Redhawks",
+   "id": "1110057",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    31,
+    19
+   ],
+   "starters": [
+    {
+     "name": "Blomgren, Oskar",
+     "saves": 17,
+     "shotsAgainst": 19
+    },
+    {
+     "name": "Clang, Calle",
+     "saves": 28,
+     "shotsAgainst": 31
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Örebro HK",
+   "codes": [
+    "TIK",
+    "ÖHK"
+   ],
+   "date": "2026-11-19",
+   "final": [
+    8,
+    2
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Johansson, Jacob",
+     27,
+     29
+    ],
+    [
+     "ÖHK",
+     "Arntzen, Jonas",
+     33,
+     41
+    ]
+   ],
+   "goals": [
+    8,
+    2
+   ],
+   "home": "Timrå IK",
+   "id": "1110058",
+   "overtime": false,
+   "reg": [
+    8,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    41,
+    29
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Jacob",
+     "saves": 27,
+     "shotsAgainst": 29
+    },
+    {
+     "name": "Arntzen, Jonas",
+     "saves": 33,
+     "shotsAgainst": 41
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "IF Björklöven",
+   "codes": [
+    "VÄX",
+    "IFB"
+   ],
+   "date": "2026-11-19",
+   "final": [
+    3,
+    1
+   ],
+   "goalies": [
+    [
+     "VÄX",
+     "Persson, Ludvig",
+     29,
+     30
+    ],
+    [
+     "IFB",
+     "Tuohimaa, Frans",
+     20,
+     23
+    ]
+   ],
+   "goals": [
+    3,
+    1
+   ],
+   "home": "Växjö Lakers HC",
+   "id": "1110059",
+   "overtime": false,
+   "reg": [
+    3,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    23,
+    30
+   ],
+   "starters": [
+    {
+     "name": "Persson, Ludvig",
+     "saves": 29,
+     "shotsAgainst": 30
+    },
+    {
+     "name": "Tuohimaa, Frans",
+     "saves": 20,
+     "shotsAgainst": 23
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Luleå HF",
+   "codes": [
+    "DIF",
+    "LHF"
+   ],
+   "date": "2026-11-21",
+   "final": [
+    1,
+    4
+   ],
+   "goalies": [
+    [
+     "DIF",
+     "Hellberg, Magnus",
+     18,
+     21
+    ],
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     39,
+     40
+    ]
+   ],
+   "goals": [
+    1,
+    4
+   ],
+   "home": "Djurgårdens IF",
+   "id": "1110060",
+   "overtime": false,
+   "reg": [
+    1,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    40,
+    22
+   ],
+   "starters": [
+    {
+     "name": "Hellberg, Magnus",
+     "saves": 18,
+     "shotsAgainst": 22
+    },
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 39,
+     "shotsAgainst": 40
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Brynäs IF",
+   "codes": [
+    "FRÖ",
+    "BIF"
+   ],
+   "date": "2026-11-21",
+   "final": [
+    2,
+    0
+   ],
+   "goalies": [
+    [
+     "FRÖ",
+     "Normann, Tobias",
+     19,
+     19
+    ],
+    [
+     "BIF",
+     "Chrona, Magnus",
+     13,
+     14
+    ]
+   ],
+   "goals": [
+    2,
+    0
+   ],
+   "home": "Frölunda HC",
+   "id": "1110061",
+   "overtime": false,
+   "reg": [
+    2,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    15,
+    19
+   ],
+   "starters": [
+    {
+     "name": "Normann, Tobias",
+     "saves": 19,
+     "shotsAgainst": 19
+    },
+    {
+     "name": "Chrona, Magnus",
+     "saves": 13,
+     "shotsAgainst": 15
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Timrå IK",
+   "codes": [
+    "RBK",
+    "TIK"
+   ],
+   "date": "2026-11-21",
+   "final": [
+    2,
+    3
+   ],
+   "goalies": [
+    [
+     "RBK",
+     "Holm, Arvid",
+     18,
+     21
+    ],
+    [
+     "TIK",
+     "Johansson, Jacob",
+     28,
+     30
+    ]
+   ],
+   "goals": [
+    2,
+    3
+   ],
+   "home": "Rögle BK",
+   "id": "1110062",
+   "overtime": false,
+   "reg": [
+    2,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    30,
+    21
+   ],
+   "starters": [
+    {
+     "name": "Holm, Arvid",
+     "saves": 18,
+     "shotsAgainst": 21
+    },
+    {
+     "name": "Johansson, Jacob",
+     "saves": 28,
+     "shotsAgainst": 30
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "IF Malmö Redhawks",
+   "codes": [
+    "FBK",
+    "MIF"
+   ],
+   "date": "2026-11-21",
+   "final": [
+    0,
+    3
+   ],
+   "goalies": [
+    [
+     "FBK",
+     "Larmi, Emil",
+     26,
+     29
+    ],
+    [
+     "MIF",
+     "Langhamer, Marek",
+     31,
+     31
+    ]
+   ],
+   "goals": [
+    0,
+    3
+   ],
+   "home": "Färjestad BK",
+   "id": "1110063",
+   "overtime": false,
+   "reg": [
+    0,
+    3
+   ],
+   "shootout": false,
+   "shots": [
+    31,
+    29
+   ],
+   "starters": [
+    {
+     "name": "Larmi, Emil",
+     "saves": 26,
+     "shotsAgainst": 29
+    },
+    {
+     "name": "Langhamer, Marek",
+     "saves": 31,
+     "shotsAgainst": 31
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Växjö Lakers HC",
+   "codes": [
+    "HV71",
+    "VÄX"
+   ],
+   "date": "2026-11-21",
+   "final": [
+    3,
+    1
+   ],
+   "goalies": [
+    [
+     "HV71",
+     "Liv, Herman",
+     26,
+     27
+    ],
+    [
+     "VÄX",
+     "Persson, Ludvig",
+     23,
+     26
+    ]
+   ],
+   "goals": [
+    3,
+    1
+   ],
+   "home": "HV 71",
+   "id": "1110064",
+   "overtime": false,
+   "reg": [
+    3,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    26,
+    27
+   ],
+   "starters": [
+    {
+     "name": "Liv, Herman",
+     "saves": 26,
+     "shotsAgainst": 27
+    },
+    {
+     "name": "Persson, Ludvig",
+     "saves": 23,
+     "shotsAgainst": 26
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Linköping HC",
+   "codes": [
+    "IFB",
+    "LHC"
+   ],
+   "date": "2026-11-21",
+   "final": [
+    2,
+    1
+   ],
+   "goalies": [
+    [
+     "IFB",
+     "Lehtinen, Lassi",
+     30,
+     31
+    ],
+    [
+     "LHC",
+     "Ignatjew, Waltteri",
+     30,
+     32
+    ]
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "home": "IF Björklöven",
+   "id": "1110065",
+   "overtime": true,
+   "reg": [
+    1,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    32,
+    31
+   ],
+   "starters": [
+    {
+     "name": "Lehtinen, Lassi",
+     "saves": 30,
+     "shotsAgainst": 31
+    },
+    {
+     "name": "Ignatjew, Waltteri",
+     "saves": 30,
+     "shotsAgainst": 32
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "Skellefteå AIK",
+   "codes": [
+    "ÖHK",
+    "SKE"
+   ],
+   "date": "2026-11-21",
+   "final": [
+    3,
+    2
+   ],
+   "goalies": [
+    [
+     "ÖHK",
+     "Larsson, Filip",
+     26,
+     28
+    ],
+    [
+     "SKE",
+     "Mann, Strauss",
+     23,
+     26
+    ]
+   ],
+   "goals": [
+    3,
+    2
+   ],
+   "home": "Örebro HK",
+   "id": "1110066",
+   "overtime": false,
+   "reg": [
+    3,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    26,
+    28
+   ],
+   "starters": [
+    {
+     "name": "Larsson, Filip",
+     "saves": 26,
+     "shotsAgainst": 28
+    },
+    {
+     "name": "Mann, Strauss",
+     "saves": 23,
+     "shotsAgainst": 26
+    }
+   ],
+   "time": "18:00"
+  },
+  {
+   "away": "IF Malmö Redhawks",
+   "codes": [
+    "LHF",
+    "MIF"
+   ],
+   "date": "2026-11-24",
+   "final": [
+    2,
+    3
+   ],
+   "goalies": [
+    [
+     "LHF",
+     "Lassinantti, Joel",
+     20,
+     23
+    ],
+    [
+     "MIF",
+     "Blomgren, Oskar",
+     16,
+     18
+    ]
+   ],
+   "goals": [
+    2,
+    2
+   ],
+   "home": "Luleå HF",
+   "id": "1110067",
+   "overtime": true,
+   "reg": [
+    2,
+    2
+   ],
+   "shootout": true,
+   "shots": [
+    18,
+    22
+   ],
+   "starters": [
+    {
+     "name": "Lassinantti, Joel",
+     "saves": 20,
+     "shotsAgainst": 22
+    },
+    {
+     "name": "Blomgren, Oskar",
+     "saves": 16,
+     "shotsAgainst": 18
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Frölunda HC",
+   "codes": [
+    "ÖHK",
+    "FRÖ"
+   ],
+   "date": "2026-11-24",
+   "final": [
+    4,
+    1
+   ],
+   "goalies": [
+    [
+     "ÖHK",
+     "Larsson, Filip",
+     30,
+     31
+    ],
+    [
+     "FRÖ",
+     "Normann, Tobias",
+     17,
+     20
+    ]
+   ],
+   "goals": [
+    4,
+    1
+   ],
+   "home": "Örebro HK",
+   "id": "1110116",
+   "overtime": false,
+   "reg": [
+    4,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    21,
+    31
+   ],
+   "starters": [
+    {
+     "name": "Larsson, Filip",
+     "saves": 30,
+     "shotsAgainst": 31
+    },
+    {
+     "name": "Normann, Tobias",
+     "saves": 17,
+     "shotsAgainst": 21
+    }
+   ],
+   "time": "19:00"
+  }
+ ],
+ "meta": {
+  "fetchedAt": "2026-11-26T13:01:49Z",
+  "fetchedThisRun": 130,
+  "games": 130,
+  "note": "shots/goals incl. overtime, excl. shootout; starters = GK In at 00:00",
+  "played": 130,
+  "season": "2026/27",
+  "series": "20961",
+  "source": "https://stats.swehockey.se/Game/Events/<id>"
+ }
+}

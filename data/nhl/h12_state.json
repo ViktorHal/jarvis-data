@@ -792,6 +792,7 @@
   "sh": 0.1011360505737308,
   "sv": 0.9045100663899576
  },
+ "leagueCode": "nhl",
  "leagueTotals": {
   "gf": 62041.0,
   "n": 20360,
@@ -800,8 +801,8 @@
   "sv": 536521.0
  },
  "meta": {
-  "fetchedAt": "2026-11-26T11:19:53Z",
-  "hockey12Sha16": "6cb4402d426a2956",
+  "fetchedAt": "2026-11-26T12:58:27Z",
+  "hockey12Sha16": "4ca7d5432f614dbc",
   "model": "hockey12.py 1.2",
   "season": "20262027",
   "seasonGames": 399,
