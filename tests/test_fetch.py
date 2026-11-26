@@ -5,7 +5,7 @@ import sys
 import tempfile
 import unittest
 import urllib.error
-from datetime import date
+from datetime import date, datetime, timezone
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "fetch"))
 import common  # noqa: E402
@@ -240,3 +240,65 @@ class TestPlayersAndGoalies(Base):
         self.assertEqual(g["Thelin, Melker"]["team"], "FBK")
         self.assertEqual(g["Thelin, Melker"]["sv_pct"], 0.951)
         self.assertEqual(g["Thelin, Melker"]["gpi"], 9.0)
+
+
+class TestPinnacle(Base):
+    SOCCER = {"sport_id": 1, "last": 123, "events": [
+        {"event_id": 1, "league_id": 1980, "league_name": "England - Premier League", "home": "Tottenham Hotspur", "away": "Fulham",
+         "starts": "2026-11-28T20:00:00Z", "periods": {"num_0": {"money_line": {"home": 1.7, "draw": 4.1, "away": 4.9},
+                                                                "totals": {"2.5": {"points": 2.5, "over": 1.85, "under": 2.02}}}}},
+        {"event_id": 2, "league_name": "Brazil - Serie B", "home": "A", "away": "B", "periods": {"num_0": {}}}]}
+    HOCKEY = {"sport_id": 4, "events": [{"event_id": 3, "league_name": "NHL", "home": "Ottawa Senators", "away": "Boston Bruins",
+                                         "periods": {"num_0": {"money_line": {"home": 1.9, "away": 1.95}}}}]}
+
+    def setUp(self):
+        super().setUp()
+        import pinnacle
+        self.p = pinnacle
+        self.calls = []
+
+    def fake(self, url, **kw):
+        self.calls.append((url, kw.get("headers")))
+        return json.dumps(self.SOCCER if "sport_id=1" in url else self.HOCKEY).encode()
+
+    def test_fetch_filters_scope_and_sends_key_in_header(self):
+        common.get = self.fake
+        self.p.get = self.fake
+        log = common.Log()
+        self.p.run(log, key="SECRET123", now=datetime(2026, 11, 26, 10, 0, tzinfo=timezone.utc))
+        odds = self.read("pinnacle/odds.json")
+        self.assertEqual([e["event_id"] for e in odds["events"]], [1, 3])           # Brazil Serie B dropped
+        self.assertEqual(odds["events"][0]["periods"]["num_0"]["money_line"]["draw"], 4.1)
+        self.assertTrue(all(h == {"x-portal-apikey": "SECRET123"} for _, h in self.calls))
+        self.assertTrue(all("SECRET123" not in u for u, _ in self.calls))           # never in the URL
+        self.assertNotIn("SECRET123", json.dumps(odds))
+        self.assertEqual(self.read("pinnacle/usage.json"), {"2026-11-26": 2})
+
+    def test_hard_cap_never_exceeded(self):
+        common.get = self.fake
+        self.p.get = self.fake
+        day = datetime(2026, 11, 26, 10, 0, tzinfo=timezone.utc)
+        for _ in range(60):                       # 60 runs x 2 requests would be 120
+            self.p.run(common.Log(), key="K", now=day)
+        self.assertEqual(len(self.calls), self.p.CAP)
+        self.assertEqual(self.read("pinnacle/usage.json")["2026-11-26"], self.p.CAP)
+        self.p.run(common.Log(), key="K", now=datetime(2026, 11, 27, 1, 0, tzinfo=timezone.utc))
+        self.assertEqual(len(self.calls), self.p.CAP + 2)                          # new UTC day, new budget
+
+    def test_failed_request_still_counts_and_key_is_masked(self):
+        def boom(url, **kw):
+            raise urllib.error.URLError("bad key SECRET123")
+        common.get = boom
+        self.p.get = boom
+        log = common.Log()
+        self.p.run(log, key="SECRET123", now=datetime(2026, 11, 26, 10, 0, tzinfo=timezone.utc))
+        self.assertEqual(self.read("pinnacle/usage.json")["2026-11-26"], 2)
+        self.assertNotIn("SECRET123", json.dumps(log.sources))
+
+    def test_no_key_no_request(self):
+        common.get = self.fake
+        self.p.get = self.fake
+        log = common.Log()
+        self.p.run(log, key="")
+        self.assertEqual(self.calls, [])
+        self.assertEqual(log.sources["pinnacle"]["status"], "failed")

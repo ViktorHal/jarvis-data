@@ -15,12 +15,12 @@ def now_iso():
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def get(url, retries=3, timeout=40, pause=4):
+def get(url, retries=3, timeout=40, pause=4, headers=None):
     """GET with retries. Returns bytes; raises the last error after `retries` attempts."""
     last = None
     for i in range(retries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*", **(headers or {})})
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.read()
         except (urllib.error.URLError, TimeoutError, ConnectionError) as e:

@@ -1,0 +1,90 @@
+"""Pinnacle pre-match odds via pinnapi.com (free trial key, 100 requests/day, no card on file).
+
+HARD DAILY CAP: data/pinnacle/usage.json counts every request per UTC day and the robot never makes request
+number CAP + 1 (CAP = 80, below pinnapi's 100). The count is written BEFORE each request, so a crash
+mid-request still counts it. The key comes from the PINNAPI_KEY secret and is never printed or stored.
+
+One request per sport returns every pre-match fixture of that sport with its markets. We keep only the
+competitions Jarvis covers and store the periods exactly as Pinnacle publishes them:
+  soccer  num_0 = full time (90 min + stoppage), num_1 = first half
+  hockey  num_0 = the whole game INCLUDING overtime and shootout (Pinnacle's hockey convention): its
+          money line is a "Moneyline (incl. OT)" price; its totals/spreads are NOT 60-minute markets.
+Writes data/pinnacle/odds.json and data/pinnacle/usage.json.
+"""
+import json
+import os
+from datetime import datetime, timezone
+
+from common import DATA, Log, get, write_json, now_iso
+import common
+
+CAP = 80
+BASE = "https://pinnapi.com/kit/v1/prematch/fixtures?sport_id={sid}"
+SPORTS = {"soccer": 1, "hockey": 4}
+KEEP = {
+    "soccer": ["England - Premier League", "England - Championship", "Spain - La Liga", "Italy - Serie A",
+               "Germany - Bundesliga", "France - Ligue 1", "Netherlands - Eredivisie", "Portugal - Primeira",
+               "Belgium - ", "Turkey - Super", "Scotland - Premiership", "Sweden - Allsvenskan", "UEFA",
+               "Japan - J1", "Japan - J.League", "Australia - A-League", "Saudi Arabia", "AFC Champions"],
+    "hockey": ["NHL", "Sweden - SHL", "SHL"],
+}
+
+
+def _usage_path():
+    return os.path.join(common.DATA, "pinnacle", "usage.json")
+
+
+def load_usage():
+    try:
+        with open(_usage_path(), encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def take_request(usage, day):
+    """Reserve one request for `day` if under CAP; persist immediately. Returns True if allowed."""
+    n = usage.get(day, 0)
+    if n >= CAP:
+        return False
+    usage[day] = n + 1
+    for d in sorted(usage)[:-14]:          # keep two weeks of history
+        usage.pop(d, None)
+    write_json("pinnacle/usage.json", usage)
+    return True
+
+
+def keep(sport, league):
+    return any(k.lower() in (league or "").lower() for k in KEEP[sport])
+
+
+def run(log: Log, key=None, now=None):
+    key = key if key is not None else os.environ.get("PINNAPI_KEY", "")
+    if not key:
+        log.fail("pinnacle", "pinnapi.com", "no PINNAPI_KEY secret")
+        return
+    day = (now or datetime.now(timezone.utc)).strftime("%Y-%m-%d")
+    usage = load_usage()
+    events, calls = [], []
+    for sport, sid in SPORTS.items():
+        url = BASE.format(sid=sid)
+        if not take_request(usage, day):
+            log.fail(f"pinnacle {sport}", url, f"daily cap {CAP} reached; no request made")
+            continue
+        try:
+            js = json.loads(get(url, retries=1, timeout=60, headers={"x-portal-apikey": key}).decode("utf-8"))
+            evs = js.get("events") or []
+            kept = [{"sport": sport, "event_id": e.get("event_id"), "league": e.get("league_name"), "league_id": e.get("league_id"),
+                     "home": e.get("home"), "away": e.get("away"), "starts": e.get("starts"), "status": e.get("status"),
+                     "periods": e.get("periods")} for e in evs if keep(sport, e.get("league_name")) and e.get("periods")]
+            events += kept
+            calls.append({"sport": sport, "eventsTotal": len(evs), "kept": len(kept), "last": js.get("last")})
+            log.ok(f"pinnacle {sport}", url, len(kept), note=f"{len(evs)} events from Pinnacle, {len(kept)} in scope")
+        except Exception as e:
+            msg = str(e).replace(key, "***")
+            log.fail(f"pinnacle {sport}", url, msg)
+    if events:
+        write_json("pinnacle/odds.json", {"meta": {"fetchedAt": now_iso(), "source": "pinnapi.com (Pinnacle pre-match)",
+                   "requestsToday": usage.get(day), "cap": CAP, "calls": calls,
+                   "note": "decimal prices as published; soccer num_0 = full time, num_1 = first half; hockey num_0 includes OT and shootout"},
+                   "events": events})

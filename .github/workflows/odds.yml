@@ -1,0 +1,42 @@
+name: fetch odds
+
+on:
+  schedule:
+    - cron: "35 6-22 * * *"   # every hour 07:35-23:35 Stockholm (winter); 2 requests per run, ~34 per day
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch
+  cancel-in-progress: false
+
+jobs:
+  odds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: tests
+        run: python -m unittest discover -s tests
+      - name: odds
+        env:
+          PINNAPI_KEY: ${{ secrets.PINNAPI_KEY }}
+        run: python fetch/run_odds.py
+      - name: commit
+        run: |
+          git config user.name "jarvis-data-bot"
+          git config user.email "jarvis-data-bot@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "odds $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase -X theirs origin main || { git rebase --abort; exit 1; }
+            sleep 5
+          done
+          exit 1
