@@ -1,16 +1,16 @@
 {
- "runAt": "2026-11-26T20:30:36Z",
+ "runAt": "2026-11-26T20:47:07Z",
  "sources": {
   "pinnacle hockey": {
-   "at": "2026-11-26T20:30:36Z",
-   "note": "233 events from Pinnacle, 15 in scope",
+   "at": "2026-11-26T20:47:07Z",
+   "note": "232 events from Pinnacle, 15 in scope",
    "rows": 15,
    "status": "ok",
    "url": "https://pinnapi.com/kit/v1/prematch/fixtures?sport_id=4"
   },
   "pinnacle soccer": {
-   "at": "2026-11-26T20:30:36Z",
-   "note": "1864 events from Pinnacle, 318 in scope",
+   "at": "2026-11-26T20:47:07Z",
+   "note": "1870 events from Pinnacle, 318 in scope",
    "rows": 318,
    "status": "ok",
    "url": "https://pinnapi.com/kit/v1/prematch/fixtures?sport_id=1"

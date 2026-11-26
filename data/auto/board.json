@@ -23546,13 +23546,13 @@
  ],
  "meta": {
   "decisionVersion": "3.6",
-  "fetchedAt": "2026-11-26T20:30:37Z",
+  "fetchedAt": "2026-11-26T20:47:08Z",
   "matches": 86,
   "note": "priced by code from repo data and Pinnacle; line-ups, injuries and referees are NOT known to the robot",
-  "oddsFetchedAt": "2026-11-26T20:30:36Z",
+  "oddsFetchedAt": "2026-11-26T20:47:07Z",
   "products": 127,
   "profile": "hitrate",
-  "repoCommit": "1bac67f3db54425780bcf6470fa1f4f92d7b0c47",
+  "repoCommit": "6436a798d0e5a7084865d4e58ec5a4275d29fcee",
   "rules": "v1",
   "skipped": 0
  },
