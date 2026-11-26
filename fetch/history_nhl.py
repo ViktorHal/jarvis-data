@@ -20,7 +20,10 @@ def pages(kind, season):
     exp = quote(f"seasonId={season} and gameTypeId=2")
     rows, start = [], 0
     while True:
-        js = get_json(f"{REST}/{kind}/summary?isAggregate=false&isGame=true&start={start}&limit=100&cayenneExp={exp}")
+        # a stable sort is required: without it the API pages overlap (duplicate rows) and skip others
+        key = "teamId" if kind == "team" else "playerId"
+        sort = quote(json.dumps([{"property": "gameId", "direction": "ASC"}, {"property": key, "direction": "ASC"}]))
+        js = get_json(f"{REST}/{kind}/summary?isAggregate=false&isGame=true&start={start}&limit=100&sort={sort}&cayenneExp={exp}")
         page = js.get("data", [])
         rows += page
         start += len(page)
