@@ -38,7 +38,7 @@ class Replay(unittest.TestCase):
             h12_nhl.build(seed, FIX["team"], FIX["goalie"], "20252026")
 
     def test_real_seed_file_is_loadable(self):
-        seed = json.load(open(h12_nhl.SEED))
+        seed = json.load(open(os.path.join(HERE, "..", "data", "nhl", "h12_seed.json")))
         st = H.State.from_snapshot(seed)
         self.assertEqual(st.games, 9781)
         self.assertEqual(seed["params"], H.PARAMS)
@@ -83,3 +83,24 @@ class Match(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Shl(unittest.TestCase):
+    def test_seed_and_replay(self):
+        import h12_shl
+        import shl_games
+        seed = json.load(open(os.path.join(HERE, "..", "data", "shl", "h12_seed.json"), encoding="utf-8"))
+        self.assertEqual(seed["leagueCode"], "shl")
+        self.assertEqual(seed["params"], H.PARAMS_SHL)
+        games = [shl_games.parse_game(open(os.path.join(HERE, "fixtures", f"shl_game_{i}.html"), encoding="utf-8").read(), i)
+                 for i in ("1109941", "1109942", "1109998")]
+        st = h12_shl.build(seed, games)
+        self.assertEqual(st.games, seed["games"] + 3)
+        self.assertEqual(st.teams["Färjestad BK"].last_date, "2026-10-15")
+        self.assertEqual(st.goalies["Lassinantti, Joel"][1] - seed["goalies"].get("Lassinantti, Joel", [0, 0])[1], 32)
+        snap = json.loads(json.dumps(st.snapshot()))
+        snap["meta"] = {"fetchedAt": "2026-11-26T10:20:00Z"}
+        b = h12_match.block(snap, "FBK", "Luleå HF", "2026-11-27", "Thelin, Melker", "-", league="shl")
+        self.assertEqual((b["leagueCode"], b["home"]["team"], b["goalieAway"]), ("shl", "Färjestad BK", None))
+        with self.assertRaises(ValueError):
+            h12_shl.build(json.loads(json.dumps(st.snapshot())), games)

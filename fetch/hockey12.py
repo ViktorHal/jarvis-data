@@ -27,6 +27,10 @@ VERSION = "1.2"
 # Chosen on NHL 2018/19-2022/23 only and frozen for the test seasons (research/hockey_backtest.json).
 PARAMS = {"half_life": 90.0, "k_sh": 800.0, "k_sv": 800.0, "home_adv": 1.03, "b2b": 0.10, "carry": 2 / 3,
           "draw_inflation": 1.5}
+# SHL: chosen on SHL 2018-19..2022-23 only, tested on 2023-24..2025-26 (research/shl_backtest.json).
+PARAMS_SHL = {"half_life": 25.0, "k_sh": 1600.0, "k_sv": 400.0, "home_adv": 1.06, "b2b": 0.10, "carry": 2 / 3,
+              "draw_inflation": 1.25}
+PARAMS_BY_LEAGUE = {"nhl": PARAMS, "shl": PARAMS_SHL}
 
 
 def _w(age_games, hl):
@@ -92,8 +96,9 @@ class State:
     The backtest, the data robot and production all go through this class, so they compute the same numbers.
     update() order per game: season carry, then both teams, then both starters (as in the backtest)."""
 
-    def __init__(self, P=None):
-        self.P = dict(P or PARAMS)
+    def __init__(self, P=None, league="nhl"):
+        self.league_code = league
+        self.P = dict(P or PARAMS_BY_LEAGUE[league])
         self.teams, self.goalies, self.season, self.abbrev = {}, {}, None, {}
         self.lg = {"sf": 0.0, "gf": 0.0, "sa_sv": 0.0, "sv": 0.0, "n": 0}
         self.games, self.through = 0, None
@@ -128,7 +133,7 @@ class State:
         self.through = max(self.through or date, date)
 
     def snapshot(self):
-        return {"version": VERSION, "params": self.P, "season": self.season, "games": self.games,
+        return {"version": VERSION, "leagueCode": self.league_code, "params": self.P, "season": self.season, "games": self.games,
                 "gamesThrough": self.through, "leagueTotals": dict(self.lg), "league": self.league(),
                 "teams": {k: {"sf": t.sf, "sa": t.sa, "gf": t.gf, "ga": t.ga, "n": t.n, "lastDate": t.last_date,
                               "abbrev": self.abbrev.get(k)} for k, t in sorted(self.teams.items())},
@@ -136,7 +141,7 @@ class State:
 
     @classmethod
     def from_snapshot(cls, s):
-        st = cls(s["params"])
+        st = cls(s["params"], s.get("leagueCode", "nhl"))
         st.season, st.games, st.through, st.lg = s["season"], s["games"], s["gamesThrough"], dict(s["leagueTotals"])
         for k, d in s["teams"].items():
             t = Team()
@@ -159,15 +164,21 @@ def match_block(snap, home, away, goalie_home=None, goalie_away=None, b2b_home=F
             return None
         rec = g.get(name, [0.0, 0.0])
         return {"name": name, "saves": rec[0], "shotsAgainst": rec[1], "inData": name in g}
-    return {"version": snap["version"], "params": snap["params"], "league": snap["league"],
+    return {"version": snap["version"], "leagueCode": snap.get("leagueCode", "nhl"), "params": snap["params"],
+            "league": snap["league"],
             "home": dict(pick(home), team=home), "away": dict(pick(away), team=away),
             "goalieHome": gk(goalie_home), "goalieAway": gk(goalie_away),
             "b2bHome": bool(b2b_home), "b2bAway": bool(b2b_away), "gamesThrough": snap["gamesThrough"]}
 
 
+def params_for(b):
+    """The frozen parameters of the block's league (nhl when not stated)."""
+    return PARAMS_BY_LEAGUE[b.get("leagueCode", "nhl")]
+
+
 def rates_from_block(b):
     """Production: expected goals (home, away) from an "h12" match block; params come from the block."""
-    P = dict(PARAMS, **(b.get("params") or {}))
+    P = dict(params_for(b), **(b.get("params") or {}))
 
     def team(d):
         t = Team()
