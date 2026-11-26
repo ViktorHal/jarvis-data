@@ -24,7 +24,11 @@ def run(log: Log, today=None):
     d = (today or date.today()).isoformat()
     url = f"http://api.clubelo.com/{d}"
     try:
-        text = get_text(url)
+        try:
+            text = get_text(url, timeout=120, retries=2)
+        except Exception:
+            url = f"https://api.clubelo.com/{d}"          # the plain-http host is sometimes slow
+            text = get_text(url, timeout=120, retries=2)
         clubs = parse(text)
         if not clubs:
             raise ValueError("empty snapshot")

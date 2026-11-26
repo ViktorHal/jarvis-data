@@ -96,20 +96,27 @@ def run(log: Log, today=None):
         log.ok("nhl goalies", url, len(g))
     except Exception as e:
         log.fail("nhl goalies", url, e)
-    url = f"{REST}/skater/summary?limit=-1&cayenneExp={EXP}"
+    url = f"{REST}/skater/summary?limit=100&start={{start}}&cayenneExp={EXP}"
     try:
-        s = {}
-        for r in get_json(url).get("data", []):
+        s, rows, start = {}, [], 0
+        while True:                                   # the stats API caps a page at 100 rows
+            js = get_json(url.format(start=start))
+            page = js.get("data", [])
+            rows += page
+            start += len(page)
+            if not page or start >= (js.get("total") or 0) or start > 3000:
+                break
+        for r in rows:
             gp = r.get("gamesPlayed") or 0
             if gp < 5:
                 continue
             s[r["skaterFullName"]] = {"team": r.get("teamAbbrevs"), "pos": r.get("positionCode"), "gp": gp,
                                       "shots_pg": _pg(r.get("shots") or 0, gp), "points_pg": r.get("pointsPerGame"),
                                       "toi_pg_sec": r.get("timeOnIcePerGame")}
-        write_json("nhl/skaters.json", {"meta": {"season": "2026-27", "fetchedAt": now_iso(), "source": url, "minGames": 5}, "skaters": s})
-        log.ok("nhl skaters", url, len(s))
+        write_json("nhl/skaters.json", {"meta": {"season": "2026-27", "fetchedAt": now_iso(), "source": url.format(start=0), "rows": len(rows), "minGames": 5}, "skaters": s})
+        log.ok("nhl skaters", url.format(start=0), len(s), note=f"{len(rows)} rows read, {len(s)} with >= 5 games")
     except Exception as e:
-        log.fail("nhl skaters", url, e)
+        log.fail("nhl skaters", url.format(start=0), e)
     games = []
     for d in (today, today + timedelta(days=1)):
         url = f"{WEB}/score/{d.isoformat()}"

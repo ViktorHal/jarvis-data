@@ -30,7 +30,7 @@ STAND = {"standings": [
 SUMMARY = {"data": [{"teamFullName": "Ottawa Senators", "shotsForPerGame": 31.2, "shotsAgainstPerGame": 27.9, "powerPlayPct": 0.24, "penaltyKillPct": 0.81}]}
 SCORE_Y = {"games": [{"homeTeam": {"abbrev": "FLA"}, "awayTeam": {"abbrev": "OTT"}, "startTimeUTC": "2026-11-26T00:00:00Z", "gameState": "OFF"}]}
 GOALIES = {"data": [{"goalieFullName": "Linus Ullmark", "teamAbbrevs": "OTT", "gamesPlayed": 14, "gamesStarted": 14, "savePct": 0.941, "goalsAgainstAverage": 1.43, "shotsAgainst": 400}]}
-SKATERS = {"data": [{"skaterFullName": "Tim Stützle", "teamAbbrevs": "OTT", "positionCode": "C", "gamesPlayed": 25, "shots": 75, "pointsPerGame": 1.1, "timeOnIcePerGame": 1200},
+SKATERS = {"total": 2, "data": [{"skaterFullName": "Tim Stützle", "teamAbbrevs": "OTT", "positionCode": "C", "gamesPlayed": 25, "shots": 75, "pointsPerGame": 1.1, "timeOnIcePerGame": 1200},
                     {"skaterFullName": "Callup", "teamAbbrevs": "OTT", "positionCode": "D", "gamesPlayed": 2, "shots": 3}]}
 ELO = "Rank,Club,Country,Level,Elo,From,To\n1,Arsenal,ENG,1,2050.3,2026-11-20,2026-11-30\n2,Spurs,ENG,1,1850.7,2026-11-20,2026-11-30\n"
 
@@ -120,6 +120,7 @@ class TestNHL(Base):
         sk = self.read("nhl/skaters.json")["skaters"]
         self.assertEqual(sk["Tim Stützle"]["shots_pg"], 3.0)
         self.assertNotIn("Callup", sk)
+        self.assertTrue(any("start=0" in c for c in common.get.calls if "skater" in c))
         self.assertTrue(all(s["status"] == "ok" for s in log.sources.values()))
 
 
