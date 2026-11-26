@@ -1,0 +1,4530 @@
+{
+ "clubs": {
+  "10000": {
+   "elo": 1452.9,
+   "games": 48,
+   "lastDate": "2026-11-21",
+   "league": "First Division A (40)",
+   "name": "Zulte Waregem"
+  },
+  "10001": {
+   "elo": 1479.6,
+   "games": 131,
+   "lastDate": "2026-11-20",
+   "league": "First Division A (40)",
+   "name": "Westerlo"
+  },
+  "10002": {
+   "elo": 1161.1,
+   "games": 116,
+   "lastDate": "2026-11-23",
+   "league": "Allsvenskan (67)",
+   "name": "Örgryte"
+  },
+  "10003": {
+   "elo": 1472.3,
+   "games": 155,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Swansea City"
+  },
+  "10004": {
+   "elo": 1441.5,
+   "games": 157,
+   "lastDate": "2026-11-25",
+   "league": "Championship (48)",
+   "name": "Millwall"
+  },
+  "10008": {
+   "elo": 1366.9,
+   "games": 109,
+   "lastDate": "2026-11-22",
+   "league": "Bundesliga (38)",
+   "name": "Altach"
+  },
+  "10009": {
+   "elo": 1298.4,
+   "games": 64,
+   "lastDate": "2025-05-23",
+   "league": "Bundesliga (38)",
+   "name": "SK Austria Klagenfurt"
+  },
+  "10011": {
+   "elo": 1418.5,
+   "games": 112,
+   "lastDate": "2026-11-22",
+   "league": "Bundesliga (38)",
+   "name": "Austria Wien"
+  },
+  "10012": {
+   "elo": 1344.9,
+   "games": 77,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (38)",
+   "name": "Grazer AK"
+  },
+  "10013": {
+   "elo": 1563.2,
+   "games": 135,
+   "lastDate": "2026-11-22",
+   "league": "Bundesliga (38)",
+   "name": "Salzburg"
+  },
+  "10014": {
+   "elo": 1521.5,
+   "games": 139,
+   "lastDate": "2026-11-22",
+   "league": "Bundesliga (38)",
+   "name": "Sturm Graz"
+  },
+  "10015": {
+   "elo": 1555.4,
+   "games": 129,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (38)",
+   "name": "Rapid Wien"
+  },
+  "10017": {
+   "elo": 1423.7,
+   "games": 48,
+   "lastDate": "2026-11-22",
+   "league": "Bundesliga (38)",
+   "name": "Ried"
+  },
+  "10039": {
+   "elo": 1418.3,
+   "games": 3,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Egnatia"
+  },
+  "10050": {
+   "elo": 1358.3,
+   "games": 3,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Inter Club d'Escaldes"
+  },
+  "10056": {
+   "elo": 1467.0,
+   "games": 112,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (38)",
+   "name": "Hartberg"
+  },
+  "10058": {
+   "elo": 1375.9,
+   "games": 6,
+   "lastDate": "2024-12-19",
+   "league": null,
+   "name": "Dinamo Minsk"
+  },
+  "10107": {
+   "elo": 1411.9,
+   "games": 14,
+   "lastDate": "2026-02-26",
+   "league": null,
+   "name": "Zrinjski Mostar"
+  },
+  "10116": {
+   "elo": 1405.8,
+   "games": 13,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Borac Banja Luka"
+  },
+  "10144": {
+   "elo": 1418.0,
+   "games": 3,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "CSKA Sofia"
+  },
+  "10154": {
+   "elo": 1594.9,
+   "games": 125,
+   "lastDate": "2026-11-21",
+   "league": "HNL (252)",
+   "name": "Hajduk Split"
+  },
+  "10156": {
+   "elo": 1666.1,
+   "games": 153,
+   "lastDate": "2026-11-22",
+   "league": "HNL (252)",
+   "name": "Dinamo Zagreb"
+  },
+  "10157": {
+   "elo": 1398.3,
+   "games": 122,
+   "lastDate": "2026-11-23",
+   "league": "HNL (252)",
+   "name": "Osijek"
+  },
+  "10162": {
+   "elo": 1523.1,
+   "games": 131,
+   "lastDate": "2026-11-22",
+   "league": "HNL (252)",
+   "name": "Rijeka"
+  },
+  "10163": {
+   "elo": 1224.1,
+   "games": 138,
+   "lastDate": "2026-05-02",
+   "league": "Championship (48)",
+   "name": "Sheffield Wednesday"
+  },
+  "10165": {
+   "elo": 1488.6,
+   "games": 122,
+   "lastDate": "2026-11-21",
+   "league": "HNL (252)",
+   "name": "NK Varaždin"
+  },
+  "10166": {
+   "elo": 1310.0,
+   "games": 36,
+   "lastDate": "2025-05-25",
+   "league": "HNL (252)",
+   "name": "Šibenik"
+  },
+  "10167": {
+   "elo": 1530.8,
+   "games": 126,
+   "lastDate": "2026-11-21",
+   "league": "Serie A (55)",
+   "name": "Parma"
+  },
+  "10168": {
+   "elo": 1420.2,
+   "games": 138,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Catanzaro"
+  },
+  "10170": {
+   "elo": 1366.9,
+   "games": 109,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Derby County"
+  },
+  "10171": {
+   "elo": 1838.1,
+   "games": 131,
+   "lastDate": "2026-11-24",
+   "league": "Serie A (55)",
+   "name": "Como"
+  },
+  "10172": {
+   "elo": 1456.8,
+   "games": 155,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Queens Park Rangers"
+  },
+  "10179": {
+   "elo": 1580.6,
+   "games": 90,
+   "lastDate": "2026-11-21",
+   "league": "Super League (69)",
+   "name": "Sion"
+  },
+  "10180": {
+   "elo": 1492.7,
+   "games": 127,
+   "lastDate": "2026-11-21",
+   "league": "1. Liga (122)",
+   "name": "Mladá Boleslav"
+  },
+  "10181": {
+   "elo": 1549.2,
+   "games": 78,
+   "lastDate": "2026-11-08",
+   "league": "Ligat ha'Al (127)",
+   "name": "Hapoel Tel Aviv"
+  },
+  "10182": {
+   "elo": 1399.0,
+   "games": 108,
+   "lastDate": "2026-05-17",
+   "league": "Süper Lig (71)",
+   "name": "Kayserispor"
+  },
+  "10185": {
+   "elo": 1502.0,
+   "games": 126,
+   "lastDate": "2026-11-07",
+   "league": "Ligat ha'Al (127)",
+   "name": "Maccabi Haifa"
+  },
+  "10187": {
+   "elo": 1430.4,
+   "games": 111,
+   "lastDate": "2026-11-22",
+   "league": "Super League 1 (135)",
+   "name": "Atromitos"
+  },
+  "10188": {
+   "elo": 1653.0,
+   "games": 138,
+   "lastDate": "2026-11-22",
+   "league": "Süper Lig (71)",
+   "name": "Beşiktaş"
+  },
+  "10189": {
+   "elo": 1496.7,
+   "games": 112,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (54)",
+   "name": "Schalke 04"
+  },
+  "10190": {
+   "elo": 1542.9,
+   "games": 134,
+   "lastDate": "2026-11-22",
+   "league": "Super League (69)",
+   "name": "St. Gallen"
+  },
+  "10191": {
+   "elo": 1454.2,
+   "games": 55,
+   "lastDate": "2026-11-21",
+   "league": "Super League (69)",
+   "name": "Thun"
+  },
+  "10192": {
+   "elo": 1572.4,
+   "games": 152,
+   "lastDate": "2026-11-21",
+   "league": "Super League (69)",
+   "name": "Young Boys"
+  },
+  "10194": {
+   "elo": 1452.5,
+   "games": 155,
+   "lastDate": "2026-11-25",
+   "league": "Championship (48)",
+   "name": "Stoke City"
+  },
+  "10199": {
+   "elo": 1460.1,
+   "games": 128,
+   "lastDate": "2026-11-22",
+   "league": "Super League (69)",
+   "name": "Luzern"
+  },
+  "10200": {
+   "elo": 1696.4,
+   "games": 141,
+   "lastDate": "2026-11-22",
+   "league": "Super League 1 (135)",
+   "name": "Panathinaikos"
+  },
+  "10202": {
+   "elo": 1573.1,
+   "games": 120,
+   "lastDate": "2026-11-22",
+   "league": "Superligaen (46)",
+   "name": "Nordsjælland"
+  },
+  "10203": {
+   "elo": 1727.6,
+   "games": 141,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (47)",
+   "name": "Nottingham Forest"
+  },
+  "10204": {
+   "elo": 1804.4,
+   "games": 136,
+   "lastDate": "2026-11-22",
+   "league": "Premier League (47)",
+   "name": "Brighton & Hove Albion"
+  },
+  "10205": {
+   "elo": 1684.8,
+   "games": 148,
+   "lastDate": "2026-11-25",
+   "league": "LaLiga (87)",
+   "name": "Villarreal"
+  },
+  "10212": {
+   "elo": 1430.6,
+   "games": 10,
+   "lastDate": "2026-11-01",
+   "league": "Liga Portugal (61)",
+   "name": "Marítimo"
+  },
+  "10214": {
+   "elo": 1430.3,
+   "games": 79,
+   "lastDate": "2026-11-08",
+   "league": "Liga Portugal (61)",
+   "name": "Nacional"
+  },
+  "10217": {
+   "elo": 1418.0,
+   "games": 13,
+   "lastDate": "2026-11-22",
+   "league": "Eredivisie (57)",
+   "name": "ADO Den Haag"
+  },
+  "10218": {
+   "elo": 1446.1,
+   "games": 81,
+   "lastDate": "2026-11-21",
+   "league": "Eredivisie (57)",
+   "name": "Excelsior"
+  },
+  "10219": {
+   "elo": 1415.8,
+   "games": 68,
+   "lastDate": "2025-05-18",
+   "league": "Eredivisie (57)",
+   "name": "RKC Waalwijk"
+  },
+  "10228": {
+   "elo": 1589.8,
+   "games": 117,
+   "lastDate": "2026-11-21",
+   "league": "Eredivisie (57)",
+   "name": "SC Heerenveen"
+  },
+  "10229": {
+   "elo": 1633.5,
+   "games": 151,
+   "lastDate": "2026-11-22",
+   "league": "Eredivisie (57)",
+   "name": "AZ Alkmaar"
+  },
+  "10233": {
+   "elo": 1593.7,
+   "games": 126,
+   "lastDate": "2026-11-22",
+   "league": "Serie A (55)",
+   "name": "Genoa"
+  },
+  "10235": {
+   "elo": 1628.8,
+   "games": 148,
+   "lastDate": "2026-11-24",
+   "league": "Eredivisie (57)",
+   "name": "Feyenoord"
+  },
+  "10237": {
+   "elo": 1304.6,
+   "games": 132,
+   "lastDate": "2026-11-21",
+   "league": "Allsvenskan (67)",
+   "name": "Malmö FF"
+  },
+  "10240": {
+   "elo": 1324.3,
+   "games": 32,
+   "lastDate": "2024-05-25",
+   "league": "Superligaen (46)",
+   "name": "Hvidovre"
+  },
+  "10242": {
+   "elo": 1492.4,
+   "games": 116,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 1 (53)",
+   "name": "Troyes"
+  },
+  "10243": {
+   "elo": 1414.6,
+   "games": 128,
+   "lastDate": "2026-11-22",
+   "league": "Super League (69)",
+   "name": "FC Zürich"
+  },
+  "10245": {
+   "elo": 1537.1,
+   "games": 113,
+   "lastDate": "2026-11-22",
+   "league": "1. Liga (122)",
+   "name": "Slovan Liberec"
+  },
+  "10247": {
+   "elo": 1570.9,
+   "games": 149,
+   "lastDate": "2026-11-22",
+   "league": "1. Liga (122)",
+   "name": "Sparta Prague"
+  },
+  "10249": {
+   "elo": 1463.2,
+   "games": 115,
+   "lastDate": "2026-11-21",
+   "league": "Ligue 2 (110)",
+   "name": "Montpellier"
+  },
+  "10251": {
+   "elo": 1456.5,
+   "games": 128,
+   "lastDate": "2026-11-24",
+   "league": "Premiership (64)",
+   "name": "Hibernian"
+  },
+  "10252": {
+   "elo": 1843.3,
+   "games": 169,
+   "lastDate": "2026-11-24",
+   "league": "Premier League (47)",
+   "name": "Aston Villa"
+  },
+  "10260": {
+   "elo": 1743.5,
+   "games": 151,
+   "lastDate": "2026-11-25",
+   "league": "Premier League (47)",
+   "name": "Manchester United"
+  },
+  "10261": {
+   "elo": 1734.6,
+   "games": 143,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (47)",
+   "name": "Newcastle United"
+  },
+  "10264": {
+   "elo": 1653.1,
+   "games": 146,
+   "lastDate": "2026-11-08",
+   "league": "Liga Portugal (61)",
+   "name": "Braga"
+  },
+  "10265": {
+   "elo": 1419.4,
+   "games": 15,
+   "lastDate": "2026-11-21",
+   "league": "Ekstraklasa (196)",
+   "name": "Wisła Kraków"
+  },
+  "10267": {
+   "elo": 1606.0,
+   "games": 127,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga (87)",
+   "name": "Valencia"
+  },
+  "10268": {
+   "elo": 1564.4,
+   "games": 135,
+   "lastDate": "2026-11-23",
+   "league": "LaLiga (87)",
+   "name": "Elche"
+  },
+  "10269": {
+   "elo": 1705.8,
+   "games": 137,
+   "lastDate": "2026-11-25",
+   "league": "Bundesliga (54)",
+   "name": "VfB Stuttgart"
+  },
+  "10279": {
+   "elo": 1567.2,
+   "games": 100,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga2 (140)",
+   "name": "Castellón"
+  },
+  "10281": {
+   "elo": 1369.5,
+   "games": 137,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga2 (140)",
+   "name": "Real Valladolid"
+  },
+  "104814": {
+   "elo": 1297.5,
+   "games": 105,
+   "lastDate": "2026-05-21",
+   "league": "Super League 1 (135)",
+   "name": "Panserraikos FC"
+  },
+  "106189": {
+   "elo": 1380.4,
+   "games": 15,
+   "lastDate": "2026-11-21",
+   "league": "1. Liga (122)",
+   "name": "Artis Brno"
+  },
+  "106560": {
+   "elo": 1317.7,
+   "games": 37,
+   "lastDate": "2024-05-26",
+   "league": "Süper Lig (71)",
+   "name": "İstanbulspor"
+  },
+  "1074320": {
+   "elo": 1403.1,
+   "games": 113,
+   "lastDate": "2026-11-08",
+   "league": "Liga Portugal (61)",
+   "name": "Estrela da Amadora"
+  },
+  "1075325": {
+   "elo": 1326.9,
+   "games": 43,
+   "lastDate": "2026-11-23",
+   "league": "1. Division (136)",
+   "name": "Krasava Ypsonas FC"
+  },
+  "1121750": {
+   "elo": 1248.8,
+   "games": 102,
+   "lastDate": "2026-05-18",
+   "league": "Ligat ha'Al (127)",
+   "name": "Maccabi Bnei Raina"
+  },
+  "1175395": {
+   "elo": 1280.2,
+   "games": 103,
+   "lastDate": "2026-11-22",
+   "league": "Premier League (441)",
+   "name": "Veres Rivne"
+  },
+  "1181312": {
+   "elo": 1600.5,
+   "games": 102,
+   "lastDate": "2026-11-23",
+   "league": "Premier League (441)",
+   "name": "Polissya Zhytomyr"
+  },
+  "1218969": {
+   "elo": 1369.7,
+   "games": 48,
+   "lastDate": "2026-11-21",
+   "league": "First Division A (40)",
+   "name": "RAAL La Louvière"
+  },
+  "1282231": {
+   "elo": 1246.8,
+   "games": 43,
+   "lastDate": "2026-11-22",
+   "league": "1. Division (136)",
+   "name": "Omonia 29 Maiou"
+  },
+  "1286895": {
+   "elo": 1327.5,
+   "games": 15,
+   "lastDate": "2026-11-23",
+   "league": "Ekstraklasa (196)",
+   "name": "Wieczysta Kraków"
+  },
+  "1395678": {
+   "elo": 1349.8,
+   "games": 43,
+   "lastDate": "2026-11-23",
+   "league": "Premier League (441)",
+   "name": "Epitsentr Kamianets-Podilskyi"
+  },
+  "1395689": {
+   "elo": 1214.5,
+   "games": 30,
+   "lastDate": "2026-05-23",
+   "league": "Premier League (441)",
+   "name": "SC Poltava"
+  },
+  "143833": {
+   "elo": 1384.2,
+   "games": 101,
+   "lastDate": "2026-05-23",
+   "league": "1. Liga (122)",
+   "name": "Karviná"
+  },
+  "1507991": {
+   "elo": 1305.1,
+   "games": 42,
+   "lastDate": "2026-11-20",
+   "league": "Premier League (441)",
+   "name": "Liviy Bereh"
+  },
+  "154798": {
+   "elo": 1325.7,
+   "games": 76,
+   "lastDate": "2026-11-21",
+   "league": "1. Division (136)",
+   "name": "Omonia Aradippou"
+  },
+  "1567": {
+   "elo": 1552.5,
+   "games": 79,
+   "lastDate": "2026-11-08",
+   "league": "Liga Portugal (61)",
+   "name": "Santa Clara"
+  },
+  "1569": {
+   "elo": 1477.7,
+   "games": 46,
+   "lastDate": "2026-11-21",
+   "league": "Süper Lig (71)",
+   "name": "Kocaelispor"
+  },
+  "158085": {
+   "elo": 1549.4,
+   "games": 113,
+   "lastDate": "2026-11-06",
+   "league": "Liga Portugal (61)",
+   "name": "Arouca"
+  },
+  "1581": {
+   "elo": 1387.3,
+   "games": 122,
+   "lastDate": "2026-11-23",
+   "league": "HNL (252)",
+   "name": "Slaven"
+  },
+  "1583": {
+   "elo": 1352.0,
+   "games": 109,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (38)",
+   "name": "WSG Tirol"
+  },
+  "1585": {
+   "elo": 1407.6,
+   "games": 11,
+   "lastDate": "2026-11-21",
+   "league": "Super League 1 (135)",
+   "name": "Kalamata"
+  },
+  "1601": {
+   "elo": 1380.6,
+   "games": 34,
+   "lastDate": "2024-05-25",
+   "league": "Ekstraklasa (196)",
+   "name": "Ruch Chorzów"
+  },
+  "161743": {
+   "elo": 1339.7,
+   "games": 15,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga2 (140)",
+   "name": "Celta Fortuna"
+  },
+  "161744": {
+   "elo": 1321.1,
+   "games": 57,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga2 (140)",
+   "name": "Real Sociedad B"
+  },
+  "161750": {
+   "elo": 1362.9,
+   "games": 42,
+   "lastDate": "2024-06-02",
+   "league": "LaLiga2 (140)",
+   "name": "Alcorcón"
+  },
+  "161771": {
+   "elo": 1345.1,
+   "games": 42,
+   "lastDate": "2024-06-02",
+   "league": "LaLiga2 (140)",
+   "name": "Villarreal B"
+  },
+  "1620": {
+   "elo": 1331.3,
+   "games": 33,
+   "lastDate": "2024-05-11",
+   "league": "Super League 1 (135)",
+   "name": "PAS Giannina"
+  },
+  "162386": {
+   "elo": 1370.8,
+   "games": 116,
+   "lastDate": "2026-11-22",
+   "league": "Super League 1 (135)",
+   "name": "Panetolikos"
+  },
+  "162389": {
+   "elo": 1240.6,
+   "games": 72,
+   "lastDate": "2025-05-22",
+   "league": "Super League 1 (135)",
+   "name": "Lamia"
+  },
+  "1634": {
+   "elo": 1580.7,
+   "games": 113,
+   "lastDate": "2026-11-06",
+   "league": "Liga Portugal (61)",
+   "name": "Famalicão"
+  },
+  "166865": {
+   "elo": 1380.0,
+   "games": 12,
+   "lastDate": "2024-12-19",
+   "league": null,
+   "name": "FC Astana"
+  },
+  "1670": {
+   "elo": 1434.8,
+   "games": 116,
+   "lastDate": "2026-11-21",
+   "league": "1. Liga (122)",
+   "name": "Bohemians 1905"
+  },
+  "1673": {
+   "elo": 1407.7,
+   "games": 15,
+   "lastDate": "2026-11-22",
+   "league": "1. Liga (122)",
+   "name": "FC Zbrojovka Brno"
+  },
+  "1675": {
+   "elo": 1415.7,
+   "games": 126,
+   "lastDate": "2026-11-22",
+   "league": "Super Liga (182)",
+   "name": "FK Radnički 1923"
+  },
+  "1693": {
+   "elo": 1383.9,
+   "games": 11,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "KuPS"
+  },
+  "1712": {
+   "elo": 1475.4,
+   "games": 119,
+   "lastDate": "2026-11-22",
+   "league": "1. Liga (122)",
+   "name": "Hradec Králové"
+  },
+  "1739": {
+   "elo": 1351.6,
+   "games": 127,
+   "lastDate": "2026-11-21",
+   "league": "Super Liga (182)",
+   "name": "Mladost Lučani"
+  },
+  "1753": {
+   "elo": 1281.7,
+   "games": 42,
+   "lastDate": "2026-05-30",
+   "league": "LaLiga2 (140)",
+   "name": "Cultural Leonesa"
+  },
+  "175388": {
+   "elo": 1356.4,
+   "games": 122,
+   "lastDate": "2026-11-21",
+   "league": "HNL (252)",
+   "name": "NK Lokomotiva"
+  },
+  "1763072": {
+   "elo": 1290.5,
+   "games": 42,
+   "lastDate": "2026-11-07",
+   "league": "Premier League (441)",
+   "name": "Kudrivka"
+  },
+  "176525": {
+   "elo": 1200.1,
+   "games": 111,
+   "lastDate": "2026-05-24",
+   "league": "Super Liga (182)",
+   "name": "FK Spartak Subotica"
+  },
+  "1773": {
+   "elo": 1427.3,
+   "games": 132,
+   "lastDate": "2026-11-22",
+   "league": "First Division A (40)",
+   "name": "OH Leuven"
+  },
+  "177361": {
+   "elo": 1329.4,
+   "games": 34,
+   "lastDate": "2026-05-23",
+   "league": "Ekstraklasa (196)",
+   "name": "Termalica Nieciecza"
+  },
+  "178475": {
+   "elo": 1740.7,
+   "games": 133,
+   "lastDate": "2026-11-24",
+   "league": "Bundesliga (54)",
+   "name": "RB Leipzig"
+  },
+  "1786": {
+   "elo": 1515.2,
+   "games": 11,
+   "lastDate": "2026-11-08",
+   "league": "Liga Portugal (61)",
+   "name": "Académico Viseu"
+  },
+  "1832": {
+   "elo": 1438.2,
+   "games": 111,
+   "lastDate": "2026-11-07",
+   "league": "Ligat ha'Al (127)",
+   "name": "Maccabi Netanya"
+  },
+  "184614": {
+   "elo": 1320.4,
+   "games": 39,
+   "lastDate": "2024-05-12",
+   "league": "1. Division (136)",
+   "name": "Othellos Athienou"
+  },
+  "184615": {
+   "elo": 1322.7,
+   "games": 33,
+   "lastDate": "2026-05-15",
+   "league": "1. Division (136)",
+   "name": "Akritas Chlorakas"
+  },
+  "1860": {
+   "elo": 1279.9,
+   "games": 85,
+   "lastDate": "2026-11-21",
+   "league": "1. Liga (122)",
+   "name": "FC Zlín"
+  },
+  "187854": {
+   "elo": 1435.1,
+   "games": 127,
+   "lastDate": "2026-11-21",
+   "league": "Super Liga (182)",
+   "name": "Novi Pazar"
+  },
+  "187866": {
+   "elo": 1249.9,
+   "games": 50,
+   "lastDate": "2026-11-21",
+   "league": "HNL (252)",
+   "name": "Rudeš"
+  },
+  "188163": {
+   "elo": 1420.9,
+   "games": 34,
+   "lastDate": "2026-05-16",
+   "league": "Liga Portugal (61)",
+   "name": "Tondela"
+  },
+  "1889": {
+   "elo": 1387.1,
+   "games": 68,
+   "lastDate": "2026-05-16",
+   "league": "Liga Portugal (61)",
+   "name": "AVS Futebol SAD"
+  },
+  "189475": {
+   "elo": 1365.1,
+   "games": 129,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Südtirol"
+  },
+  "189481": {
+   "elo": 1336.7,
+   "games": 38,
+   "lastDate": "2024-05-10",
+   "league": "Serie B (86)",
+   "name": "Union Brescia"
+  },
+  "189624": {
+   "elo": 1386.1,
+   "games": 42,
+   "lastDate": "2024-06-02",
+   "league": "LaLiga2 (140)",
+   "name": "SD Amorebieta"
+  },
+  "1925": {
+   "elo": 1555.6,
+   "games": 82,
+   "lastDate": "2026-11-22",
+   "league": "Süper Lig (71)",
+   "name": "Göztepe"
+  },
+  "1926": {
+   "elo": 1272.8,
+   "games": 73,
+   "lastDate": "2025-05-31",
+   "league": "Süper Lig (71)",
+   "name": "Adana Demirspor"
+  },
+  "1931": {
+   "elo": 1389.6,
+   "games": 108,
+   "lastDate": "2026-05-17",
+   "league": "Süper Lig (71)",
+   "name": "Antalyaspor"
+  },
+  "1933": {
+   "elo": 1598.3,
+   "games": 126,
+   "lastDate": "2026-11-23",
+   "league": "Süper Lig (71)",
+   "name": "Başakşehir"
+  },
+  "1954": {
+   "elo": 1343.0,
+   "games": 111,
+   "lastDate": "2026-11-22",
+   "league": "Bundesliga (38)",
+   "name": "Wolfsberger AC"
+  },
+  "1957": {
+   "elo": 1455.7,
+   "games": 140,
+   "lastDate": "2026-11-21",
+   "league": "Ekstraklasa (196)",
+   "name": "Jagiellonia Białystok"
+  },
+  "2021": {
+   "elo": 1343.6,
+   "games": 120,
+   "lastDate": "2026-11-22",
+   "league": "1. Liga (122)",
+   "name": "Slovácko"
+  },
+  "205684": {
+   "elo": 1378.7,
+   "games": 13,
+   "lastDate": "2026-11-22",
+   "league": "Premier League (441)",
+   "name": "Bukovyna Chernivtsi"
+  },
+  "205870": {
+   "elo": 1316.8,
+   "games": 68,
+   "lastDate": "2025-05-24",
+   "league": "Ekstraklasa (196)",
+   "name": "Puszcza Niepołomice"
+  },
+  "206560": {
+   "elo": 1312.6,
+   "games": 122,
+   "lastDate": "2026-11-22",
+   "league": "HNL (252)",
+   "name": "HNK Gorica"
+  },
+  "2088": {
+   "elo": 1414.6,
+   "games": 72,
+   "lastDate": "2026-05-16",
+   "league": "Süper Lig (71)",
+   "name": "Fatih Karagümrük"
+  },
+  "208932": {
+   "elo": 1326.3,
+   "games": 51,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Virtus Entella"
+  },
+  "2095": {
+   "elo": 1325.8,
+   "games": 76,
+   "lastDate": "2026-11-07",
+   "league": "Ligat ha'Al (127)",
+   "name": "Hapoel Ironi Kiryat Shmona"
+  },
+  "210173": {
+   "elo": 1466.8,
+   "games": 26,
+   "lastDate": "2026-02-26",
+   "league": null,
+   "name": "Ludogorets Razgrad"
+  },
+  "212820": {
+   "elo": 1430.8,
+   "games": 4,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Torreense"
+  },
+  "212821": {
+   "elo": 1422.5,
+   "games": 113,
+   "lastDate": "2026-11-07",
+   "league": "Liga Portugal (61)",
+   "name": "Casa Pia AC"
+  },
+  "2134": {
+   "elo": 1439.6,
+   "games": 114,
+   "lastDate": "2026-11-22",
+   "league": "1. Division (136)",
+   "name": "AEL Limassol"
+  },
+  "2136": {
+   "elo": 1530.7,
+   "games": 124,
+   "lastDate": "2026-11-21",
+   "league": "1. Division (136)",
+   "name": "Aris Limassol"
+  },
+  "2137": {
+   "elo": 1569.5,
+   "games": 139,
+   "lastDate": "2026-11-21",
+   "league": "1. Division (136)",
+   "name": "Pafos FC"
+  },
+  "2143": {
+   "elo": 1504.2,
+   "games": 102,
+   "lastDate": "2026-11-23",
+   "league": "Premier League (441)",
+   "name": "LNZ Cherkasy"
+  },
+  "2166": {
+   "elo": 1499.0,
+   "games": 120,
+   "lastDate": "2026-11-21",
+   "league": "Süper Lig (71)",
+   "name": "Rizespor"
+  },
+  "2182": {
+   "elo": 1606.0,
+   "games": 130,
+   "lastDate": "2026-11-22",
+   "league": "Ekstraklasa (196)",
+   "name": "Lech Poznań"
+  },
+  "2186": {
+   "elo": 1383.4,
+   "games": 117,
+   "lastDate": "2026-11-21",
+   "league": "Ekstraklasa (196)",
+   "name": "Cracovia"
+  },
+  "2206": {
+   "elo": 1355.8,
+   "games": 6,
+   "lastDate": "2024-12-19",
+   "league": null,
+   "name": "Larne"
+  },
+  "2234": {
+   "elo": 1394.2,
+   "games": 8,
+   "lastDate": "2026-02-26",
+   "league": null,
+   "name": "KF Shkendija"
+  },
+  "2305": {
+   "elo": 1380.5,
+   "games": 108,
+   "lastDate": "2026-11-22",
+   "league": "Eliteserien (59)",
+   "name": "KFUM"
+  },
+  "2373": {
+   "elo": 1315.3,
+   "games": 60,
+   "lastDate": "2025-05-23",
+   "league": "Premier League (441)",
+   "name": "Vorskla"
+  },
+  "2391": {
+   "elo": 1323.8,
+   "games": 74,
+   "lastDate": "2026-05-24",
+   "league": "Super Liga (182)",
+   "name": "Javor"
+  },
+  "2406": {
+   "elo": 1426.9,
+   "games": 117,
+   "lastDate": "2026-11-22",
+   "league": "1. Liga (122)",
+   "name": "Pardubice"
+  },
+  "2433": {
+   "elo": 1349.0,
+   "games": 96,
+   "lastDate": "2026-05-16",
+   "league": "Bundesliga (38)",
+   "name": "BW Linz"
+  },
+  "248871": {
+   "elo": 1406.8,
+   "games": 8,
+   "lastDate": "2025-01-30",
+   "league": null,
+   "name": "RFS"
+  },
+  "2517": {
+   "elo": 1378.8,
+   "games": 38,
+   "lastDate": "2024-05-17",
+   "league": "Ligue 2 (110)",
+   "name": "Quevilly"
+  },
+  "281467": {
+   "elo": 1417.7,
+   "games": 12,
+   "lastDate": "2026-11-22",
+   "league": "Süper Lig (71)",
+   "name": "Erzurumspor FK"
+  },
+  "289334": {
+   "elo": 1317.4,
+   "games": 38,
+   "lastDate": "2024-05-21",
+   "league": "Super League (69)",
+   "name": "FC Stade Lausanne-Ouchy"
+  },
+  "293352": {
+   "elo": 1413.4,
+   "games": 119,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 2 (110)",
+   "name": "Annecy FC"
+  },
+  "331631": {
+   "elo": 1176.7,
+   "games": 40,
+   "lastDate": "2024-05-12",
+   "league": "1. Division (136)",
+   "name": "AEZ Zakakiou"
+  },
+  "357259": {
+   "elo": 1294.9,
+   "games": 57,
+   "lastDate": "2026-11-23",
+   "league": "LaLiga2 (140)",
+   "name": "AD Ceuta FC"
+  },
+  "357274": {
+   "elo": 1463.7,
+   "games": 12,
+   "lastDate": "2026-11-23",
+   "league": "Süper Lig (71)",
+   "name": "Çorum FK"
+  },
+  "4023": {
+   "elo": 1456.3,
+   "games": 83,
+   "lastDate": "2026-11-22",
+   "league": "Ekstraklasa (196)",
+   "name": "GKS Katowice"
+  },
+  "4024": {
+   "elo": 1475.0,
+   "games": 131,
+   "lastDate": "2026-11-22",
+   "league": "Ekstraklasa (196)",
+   "name": "Raków Częstochowa"
+  },
+  "4032": {
+   "elo": 1362.3,
+   "games": 130,
+   "lastDate": "2026-05-31",
+   "league": "LaLiga2 (140)",
+   "name": "CD Mirandés"
+  },
+  "4033": {
+   "elo": 1371.6,
+   "games": 15,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga2 (140)",
+   "name": "Sabadell"
+  },
+  "4081": {
+   "elo": 1376.2,
+   "games": 120,
+   "lastDate": "2026-11-21",
+   "league": "Süper Lig (71)",
+   "name": "Gaziantep FK"
+  },
+  "4116": {
+   "elo": 1375.4,
+   "games": 68,
+   "lastDate": "2025-05-18",
+   "league": "Eredivisie (57)",
+   "name": "Almere City FC"
+  },
+  "4120": {
+   "elo": 1428.2,
+   "games": 119,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 2 (110)",
+   "name": "Rodez"
+  },
+  "4126": {
+   "elo": 1160.4,
+   "games": 66,
+   "lastDate": "2026-05-17",
+   "league": "1. Division (136)",
+   "name": "Enosis Paralimni"
+  },
+  "4131": {
+   "elo": 1433.8,
+   "games": 14,
+   "lastDate": "2025-12-18",
+   "league": null,
+   "name": "Shamrock Rovers"
+  },
+  "4170": {
+   "elo": 1334.5,
+   "games": 47,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 2 (110)",
+   "name": "Boulogne"
+  },
+  "439132": {
+   "elo": 1377.9,
+   "games": 3,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "FK Kauno Žalgiris"
+  },
+  "4493": {
+   "elo": 1446.7,
+   "games": 79,
+   "lastDate": "2026-11-22",
+   "league": "Super League 1 (135)",
+   "name": "Levadiakos"
+  },
+  "45228": {
+   "elo": 1307.4,
+   "games": 36,
+   "lastDate": "2026-05-22",
+   "league": "HNL (252)",
+   "name": "Vukovar 91"
+  },
+  "4528": {
+   "elo": 1377.3,
+   "games": 6,
+   "lastDate": "2025-12-18",
+   "league": null,
+   "name": "Hamrun Spartans"
+  },
+  "4531": {
+   "elo": 1417.1,
+   "games": 34,
+   "lastDate": "2024-05-18",
+   "league": "Liga Portugal (61)",
+   "name": "Vizela"
+  },
+  "458623": {
+   "elo": 1337.1,
+   "games": 68,
+   "lastDate": "2025-05-24",
+   "league": "Ekstraklasa (196)",
+   "name": "Stal Mielec"
+  },
+  "459591": {
+   "elo": 1339.5,
+   "games": 109,
+   "lastDate": "2026-11-07",
+   "league": "Ligat ha'Al (127)",
+   "name": "Hapoel Jerusalem FC"
+  },
+  "4622": {
+   "elo": 1533.0,
+   "games": 26,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "NK Celje"
+  },
+  "463461": {
+   "elo": 1409.1,
+   "games": 90,
+   "lastDate": "2026-11-21",
+   "league": "Super Liga (182)",
+   "name": "FK Radnik Surdulica"
+  },
+  "4662": {
+   "elo": 1354.4,
+   "games": 6,
+   "lastDate": "2023-12-14",
+   "league": null,
+   "name": "Spartak Trnava"
+  },
+  "4678": {
+   "elo": 1439.1,
+   "games": 120,
+   "lastDate": "2026-11-22",
+   "league": "Süper Lig (71)",
+   "name": "Alanyaspor"
+  },
+  "4681": {
+   "elo": 1343.1,
+   "games": 82,
+   "lastDate": "2026-11-22",
+   "league": "Süper Lig (71)",
+   "name": "Eyüpspor"
+  },
+  "4685": {
+   "elo": 1519.9,
+   "games": 120,
+   "lastDate": "2026-11-22",
+   "league": "Süper Lig (71)",
+   "name": "Kasımpaşa"
+  },
+  "468676": {
+   "elo": 1290.3,
+   "games": 83,
+   "lastDate": "2026-11-22",
+   "league": "1. Division (136)",
+   "name": "Karmiotissa"
+  },
+  "47207": {
+   "elo": 1317.2,
+   "games": 38,
+   "lastDate": "2024-05-17",
+   "league": "Ligue 2 (110)",
+   "name": "Concarneau"
+  },
+  "4721": {
+   "elo": 1466.7,
+   "games": 119,
+   "lastDate": "2026-11-21",
+   "league": "1. Liga (122)",
+   "name": "Teplice"
+  },
+  "47214": {
+   "elo": 1393.7,
+   "games": 119,
+   "lastDate": "2026-11-23",
+   "league": "Ligue 2 (110)",
+   "name": "Dunkerque"
+  },
+  "480286": {
+   "elo": 1472.9,
+   "games": 9,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Universitatea Craiova"
+  },
+  "480291": {
+   "elo": 1392.9,
+   "games": 3,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Iberia 1999"
+  },
+  "488099": {
+   "elo": 1402.1,
+   "games": 79,
+   "lastDate": "2026-11-22",
+   "league": "Super League 1 (135)",
+   "name": "Kifisia FC"
+  },
+  "494050": {
+   "elo": 1359.8,
+   "games": 98,
+   "lastDate": "2026-11-20",
+   "league": "LaLiga2 (140)",
+   "name": "FC Andorra"
+  },
+  "543580": {
+   "elo": 1381.8,
+   "games": 76,
+   "lastDate": "2026-11-07",
+   "league": "Ligat ha'Al (127)",
+   "name": "Ironi Tiberias"
+  },
+  "545012": {
+   "elo": 1389.6,
+   "games": 9,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Lincoln Red Imps FC"
+  },
+  "558259": {
+   "elo": 1396.5,
+   "games": 101,
+   "lastDate": "2026-11-25",
+   "league": "Premier League (441)",
+   "name": "Kryvbas"
+  },
+  "561981": {
+   "elo": 1373.4,
+   "games": 6,
+   "lastDate": "2024-12-19",
+   "league": null,
+   "name": "CS Petrocub"
+  },
+  "563180": {
+   "elo": 1322.1,
+   "games": 16,
+   "lastDate": "2026-11-22",
+   "league": "Super Liga (182)",
+   "name": "Mačva Šabac"
+  },
+  "568569": {
+   "elo": 1443.3,
+   "games": 127,
+   "lastDate": "2026-11-22",
+   "league": "Super Liga (182)",
+   "name": "FK IMT Beograd"
+  },
+  "5751": {
+   "elo": 1378.7,
+   "games": 6,
+   "lastDate": "2025-12-18",
+   "league": null,
+   "name": "Shelbourne"
+  },
+  "5769": {
+   "elo": 1378.7,
+   "games": 117,
+   "lastDate": "2026-11-21",
+   "league": "Ekstraklasa (196)",
+   "name": "Radomiak Radom"
+  },
+  "5771": {
+   "elo": 1376.5,
+   "games": 43,
+   "lastDate": "2026-11-22",
+   "league": "1. Division (136)",
+   "name": "Olympiakos Nicosia"
+  },
+  "583129": {
+   "elo": 1296.7,
+   "games": 101,
+   "lastDate": "2026-11-22",
+   "league": "Premier League (441)",
+   "name": "Obolon Kyiv"
+  },
+  "583877": {
+   "elo": 1374.1,
+   "games": 35,
+   "lastDate": "2025-05-10",
+   "league": "First Division A (40)",
+   "name": "Beerschot"
+  },
+  "583944": {
+   "elo": 1346.0,
+   "games": 51,
+   "lastDate": "2026-11-25",
+   "league": "Serie B (86)",
+   "name": "Padova"
+  },
+  "584022": {
+   "elo": 1391.6,
+   "games": 90,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Cesena"
+  },
+  "585081": {
+   "elo": 1293.1,
+   "games": 37,
+   "lastDate": "2025-05-24",
+   "league": "Super Liga (182)",
+   "name": "Tekstilac Odžaci"
+  },
+  "585084": {
+   "elo": 1267.7,
+   "games": 37,
+   "lastDate": "2025-05-24",
+   "league": "Super Liga (182)",
+   "name": "Jedinstvo Ub"
+  },
+  "599924": {
+   "elo": 1451.0,
+   "games": 101,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (441)",
+   "name": "FC Kolos Kovalivka"
+  },
+  "6004": {
+   "elo": 1425.0,
+   "games": 68,
+   "lastDate": "2025-05-17",
+   "league": "Liga Portugal (61)",
+   "name": "Farense"
+  },
+  "6017": {
+   "elo": 1440.0,
+   "games": 8,
+   "lastDate": "2025-02-20",
+   "league": null,
+   "name": "Víkingur Reykjavík"
+  },
+  "6019": {
+   "elo": 1333.0,
+   "games": 27,
+   "lastDate": "2026-11-24",
+   "league": null,
+   "name": "Slovan Bratislava"
+  },
+  "6033": {
+   "elo": 1580.4,
+   "games": 156,
+   "lastDate": "2026-11-21",
+   "league": "1. Liga (122)",
+   "name": "Viktoria Plzeň"
+  },
+  "6038": {
+   "elo": 1443.3,
+   "games": 122,
+   "lastDate": "2026-11-22",
+   "league": "HNL (252)",
+   "name": "NK Istra 1961"
+  },
+  "6050": {
+   "elo": 1203.9,
+   "games": 111,
+   "lastDate": "2026-05-24",
+   "league": "Super Liga (182)",
+   "name": "Napredak"
+  },
+  "6072": {
+   "elo": 1327.1,
+   "games": 88,
+   "lastDate": "2026-05-23",
+   "league": "Premier League (441)",
+   "name": "FC Oleksandriya"
+  },
+  "6106": {
+   "elo": 1391.7,
+   "games": 95,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Juve Stabia"
+  },
+  "6194": {
+   "elo": 1307.7,
+   "games": 116,
+   "lastDate": "2026-11-21",
+   "league": "Allsvenskan (67)",
+   "name": "Västerås SK"
+  },
+  "6203": {
+   "elo": 1283.6,
+   "games": 99,
+   "lastDate": "2026-05-18",
+   "league": "Ligat ha'Al (127)",
+   "name": "FC Ashdod"
+  },
+  "6231": {
+   "elo": 1272.9,
+   "games": 16,
+   "lastDate": "2026-11-21",
+   "league": "Super Liga (182)",
+   "name": "FK Zemun"
+  },
+  "6243": {
+   "elo": 1404.5,
+   "games": 112,
+   "lastDate": "2026-11-23",
+   "league": "1. Division (136)",
+   "name": "Anorthosis"
+  },
+  "624924": {
+   "elo": 1425.0,
+   "games": 3,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Riga FC"
+  },
+  "6265": {
+   "elo": 1424.4,
+   "games": 74,
+   "lastDate": "2025-05-31",
+   "league": "Süper Lig (71)",
+   "name": "Sivasspor"
+  },
+  "6266": {
+   "elo": 1363.0,
+   "games": 13,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Benevento"
+  },
+  "6351": {
+   "elo": 1342.0,
+   "games": 36,
+   "lastDate": "2024-05-11",
+   "league": "First Division A (40)",
+   "name": "Eupen"
+  },
+  "6355": {
+   "elo": 1359.3,
+   "games": 119,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 2 (110)",
+   "name": "Pau"
+  },
+  "6362": {
+   "elo": 1382.2,
+   "games": 119,
+   "lastDate": "2026-11-21",
+   "league": "1. Liga (122)",
+   "name": "Baník Ostrava"
+  },
+  "6374": {
+   "elo": 1448.1,
+   "games": 133,
+   "lastDate": "2026-11-22",
+   "league": "Super Liga (182)",
+   "name": "Čukarički"
+  },
+  "6379": {
+   "elo": 1654.9,
+   "games": 117,
+   "lastDate": "2026-11-22",
+   "league": "Ligue 1 (53)",
+   "name": "Paris FC"
+  },
+  "6390": {
+   "elo": 1403.2,
+   "games": 80,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 2 (110)",
+   "name": "Red Star"
+  },
+  "6406": {
+   "elo": 1600.9,
+   "games": 127,
+   "lastDate": "2026-11-22",
+   "league": "Super Liga (182)",
+   "name": "Vojvodina"
+  },
+  "6410": {
+   "elo": 1308.8,
+   "games": 127,
+   "lastDate": "2026-11-25",
+   "league": "Super Liga (182)",
+   "name": "Radnički Niš"
+  },
+  "6413": {
+   "elo": 1457.0,
+   "games": 115,
+   "lastDate": "2026-11-21",
+   "league": "Eredivisie (57)",
+   "name": "PEC Zwolle"
+  },
+  "6414": {
+   "elo": 1445.6,
+   "games": 47,
+   "lastDate": "2026-11-21",
+   "league": "Eredivisie (57)",
+   "name": "Telstar"
+  },
+  "6422": {
+   "elo": 1499.5,
+   "games": 115,
+   "lastDate": "2026-11-22",
+   "league": "Eredivisie (57)",
+   "name": "Fortuna Sittard"
+  },
+  "6433": {
+   "elo": 1469.5,
+   "games": 125,
+   "lastDate": "2026-11-22",
+   "league": "Eredivisie (57)",
+   "name": "Go Ahead Eagles"
+  },
+  "6447": {
+   "elo": 1358.4,
+   "games": 76,
+   "lastDate": "2025-05-22",
+   "league": "Super League (69)",
+   "name": "Yverdon"
+  },
+  "6456": {
+   "elo": 1308.0,
+   "games": 76,
+   "lastDate": "2025-05-13",
+   "league": "Serie B (86)",
+   "name": "Cosenza"
+  },
+  "6457": {
+   "elo": 1380.4,
+   "games": 40,
+   "lastDate": "2024-05-23",
+   "league": "Serie B (86)",
+   "name": "Ternana"
+  },
+  "6461": {
+   "elo": 1482.2,
+   "games": 126,
+   "lastDate": "2026-11-21",
+   "league": "1. Liga (122)",
+   "name": "Sigma Olomouc"
+  },
+  "6479": {
+   "elo": 1432.1,
+   "games": 126,
+   "lastDate": "2026-11-25",
+   "league": "Serie B (86)",
+   "name": "Pisa"
+  },
+  "6480": {
+   "elo": 1367.0,
+   "games": 77,
+   "lastDate": "2025-06-15",
+   "league": "Serie B (86)",
+   "name": "Salernitana"
+  },
+  "6482": {
+   "elo": 1314.9,
+   "games": 34,
+   "lastDate": "2025-05-10",
+   "league": "Ligue 2 (110)",
+   "name": "Martigues"
+  },
+  "6485": {
+   "elo": 1320.0,
+   "games": 75,
+   "lastDate": "2025-05-13",
+   "league": "Serie B (86)",
+   "name": "Cittadella"
+  },
+  "6488": {
+   "elo": 1356.7,
+   "games": 89,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Carrarese"
+  },
+  "6500": {
+   "elo": 1306.6,
+   "games": 114,
+   "lastDate": "2026-05-08",
+   "league": "Serie B (86)",
+   "name": "Reggiana"
+  },
+  "6504": {
+   "elo": 1523.8,
+   "games": 130,
+   "lastDate": "2026-11-23",
+   "league": "Serie A (55)",
+   "name": "Monza"
+  },
+  "6512": {
+   "elo": 1261.5,
+   "games": 38,
+   "lastDate": "2024-05-10",
+   "league": "Serie B (86)",
+   "name": "Lecco"
+  },
+  "6544": {
+   "elo": 1048.8,
+   "games": 116,
+   "lastDate": "2026-11-21",
+   "league": "Allsvenskan (67)",
+   "name": "Degerfors"
+  },
+  "658811": {
+   "elo": 1424.2,
+   "games": 36,
+   "lastDate": "2025-06-01",
+   "league": "Süper Lig (71)",
+   "name": "Bodrum FK"
+  },
+  "6601": {
+   "elo": 1377.2,
+   "games": 68,
+   "lastDate": "2026-05-17",
+   "league": "Eredivisie (57)",
+   "name": "FC Volendam"
+  },
+  "6654": {
+   "elo": 1331.4,
+   "games": 37,
+   "lastDate": "2024-05-24",
+   "league": "Super Liga (182)",
+   "name": "Voždovac"
+  },
+  "6694": {
+   "elo": 1338.1,
+   "games": 116,
+   "lastDate": "2026-11-22",
+   "league": "Allsvenskan (67)",
+   "name": "Sirius"
+  },
+  "6702": {
+   "elo": 1481.0,
+   "games": 12,
+   "lastDate": "2026-11-22",
+   "league": "First Division A (40)",
+   "name": "Lommel"
+  },
+  "6722": {
+   "elo": 1414.3,
+   "games": 52,
+   "lastDate": "2026-11-25",
+   "league": "Serie B (86)",
+   "name": "Avellino"
+  },
+  "676140": {
+   "elo": 1384.4,
+   "games": 125,
+   "lastDate": "2026-05-24",
+   "league": "Super Liga (182)",
+   "name": "TSC Bačka Topola"
+  },
+  "676141": {
+   "elo": 1550.5,
+   "games": 127,
+   "lastDate": "2026-11-25",
+   "league": "Super Liga (182)",
+   "name": "Železničar Pančevo"
+  },
+  "678761": {
+   "elo": 1308.0,
+   "games": 30,
+   "lastDate": "2025-05-23",
+   "league": "Premier League (441)",
+   "name": "Inhulets Petrove"
+  },
+  "7730": {
+   "elo": 1324.6,
+   "games": 136,
+   "lastDate": "2026-11-22",
+   "league": "Super League (69)",
+   "name": "Lausanne"
+  },
+  "7732": {
+   "elo": 1565.4,
+   "games": 137,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga2 (140)",
+   "name": "Girona"
+  },
+  "7753": {
+   "elo": 1494.5,
+   "games": 112,
+   "lastDate": "2026-11-22",
+   "league": "Super League 1 (135)",
+   "name": "OFI Crete"
+  },
+  "7758": {
+   "elo": 1474.4,
+   "games": 123,
+   "lastDate": "2026-11-21",
+   "league": "1. Liga (122)",
+   "name": "Jablonec"
+  },
+  "7770": {
+   "elo": 1432.1,
+   "games": 109,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (441)",
+   "name": "Zorya"
+  },
+  "7787": {
+   "elo": 1671.7,
+   "games": 148,
+   "lastDate": "2026-11-25",
+   "league": "1. Liga (122)",
+   "name": "Slavia Prague"
+  },
+  "7788": {
+   "elo": 1479.1,
+   "games": 13,
+   "lastDate": "2026-11-21",
+   "league": "Eredivisie (57)",
+   "name": "Cambuur"
+  },
+  "7789": {
+   "elo": 1285.8,
+   "games": 34,
+   "lastDate": "2025-05-18",
+   "league": "2. Bundesliga (146)",
+   "name": "Jahn Regensburg"
+  },
+  "7794": {
+   "elo": 1347.6,
+   "games": 104,
+   "lastDate": "2026-05-02",
+   "league": "Ligue 2 (110)",
+   "name": "SC Bastia"
+  },
+  "7797": {
+   "elo": 1650.7,
+   "games": 126,
+   "lastDate": "2026-11-22",
+   "league": "1. Division (136)",
+   "name": "AEK Larnaca"
+  },
+  "7800": {
+   "elo": 1432.6,
+   "games": 46,
+   "lastDate": "2026-11-21",
+   "league": "Süper Lig (71)",
+   "name": "Gençlerbirliği"
+  },
+  "7801": {
+   "elo": 1452.5,
+   "games": 135,
+   "lastDate": "2026-11-25",
+   "league": "Serie B (86)",
+   "name": "Cremonese"
+  },
+  "7819": {
+   "elo": 1273.8,
+   "games": 72,
+   "lastDate": "2025-05-10",
+   "league": "Ligue 2 (110)",
+   "name": "Caen"
+  },
+  "7840": {
+   "elo": 1183.4,
+   "games": 70,
+   "lastDate": "2025-05-25",
+   "league": "1. Liga (122)",
+   "name": "SK Dynamo České Budějovice"
+  },
+  "7841": {
+   "elo": 1417.7,
+   "games": 113,
+   "lastDate": "2026-11-08",
+   "league": "Liga Portugal (61)",
+   "name": "Rio Ave"
+  },
+  "7842": {
+   "elo": 1427.7,
+   "games": 112,
+   "lastDate": "2026-10-31",
+   "league": "Liga Portugal (61)",
+   "name": "Estoril"
+  },
+  "7844": {
+   "elo": 1493.7,
+   "games": 121,
+   "lastDate": "2026-11-08",
+   "league": "Liga Portugal (61)",
+   "name": "Vitória de Guimarães"
+  },
+  "784771": {
+   "elo": 1402.8,
+   "games": 8,
+   "lastDate": "2026-02-26",
+   "league": null,
+   "name": "Drita"
+  },
+  "7852": {
+   "elo": 1369.5,
+   "games": 6,
+   "lastDate": "2024-12-19",
+   "league": null,
+   "name": "The New Saints"
+  },
+  "7853": {
+   "elo": 1315.1,
+   "games": 119,
+   "lastDate": "2026-11-21",
+   "league": "Ligue 2 (110)",
+   "name": "Laval"
+  },
+  "7854": {
+   "elo": 1375.5,
+   "games": 137,
+   "lastDate": "2026-11-20",
+   "league": "LaLiga2 (140)",
+   "name": "Leganés"
+  },
+  "7855": {
+   "elo": 1598.3,
+   "games": 140,
+   "lastDate": "2026-11-06",
+   "league": "Ligat ha'Al (127)",
+   "name": "Maccabi Tel Aviv"
+  },
+  "7869": {
+   "elo": 1437.5,
+   "games": 99,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga2 (140)",
+   "name": "Córdoba"
+  },
+  "7872": {
+   "elo": 1419.6,
+   "games": 14,
+   "lastDate": "2025-02-20",
+   "league": null,
+   "name": "Olimpija Ljubljana"
+  },
+  "7876": {
+   "elo": 1493.1,
+   "games": 141,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga2 (140)",
+   "name": "Burgos CF"
+  },
+  "7878": {
+   "elo": 1457.3,
+   "games": 136,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga2 (140)",
+   "name": "Granada"
+  },
+  "7881": {
+   "elo": 1533.7,
+   "games": 130,
+   "lastDate": "2026-11-22",
+   "league": "Serie A (55)",
+   "name": "Venezia"
+  },
+  "7894": {
+   "elo": 1267.8,
+   "games": 114,
+   "lastDate": "2026-05-16",
+   "league": "Super League (69)",
+   "name": "Winterthur"
+  },
+  "7896": {
+   "elo": 1657.9,
+   "games": 145,
+   "lastDate": "2026-11-21",
+   "league": "Super League (69)",
+   "name": "Lugano"
+  },
+  "7929": {
+   "elo": 1331.6,
+   "games": 76,
+   "lastDate": "2026-11-06",
+   "league": "Ligat ha'Al (127)",
+   "name": "Maccabi Petach Tikva"
+  },
+  "7943": {
+   "elo": 1537.8,
+   "games": 126,
+   "lastDate": "2026-11-22",
+   "league": "Serie A (55)",
+   "name": "Sassuolo"
+  },
+  "7947": {
+   "elo": 1352.2,
+   "games": 76,
+   "lastDate": "2026-05-09",
+   "league": "First Division A (40)",
+   "name": "FCV Dender EH"
+  },
+  "7975": {
+   "elo": 1370.5,
+   "games": 36,
+   "lastDate": "2025-05-22",
+   "league": "Super League 1 (135)",
+   "name": "Athens Kallithea FC"
+  },
+  "7978": {
+   "elo": 1812.5,
+   "games": 164,
+   "lastDate": "2026-11-22",
+   "league": "First Division A (40)",
+   "name": "Union St.Gilloise"
+  },
+  "7981": {
+   "elo": 1436.2,
+   "games": 28,
+   "lastDate": "2026-02-24",
+   "league": null,
+   "name": "Qarabağ FK"
+  },
+  "7998": {
+   "elo": 1470.5,
+   "games": 127,
+   "lastDate": "2026-11-22",
+   "league": "Super Liga (182)",
+   "name": "Partizan Beograd"
+  },
+  "8003": {
+   "elo": 1571.9,
+   "games": 121,
+   "lastDate": "2026-11-22",
+   "league": "1. Division (136)",
+   "name": "Apollon Limassol"
+  },
+  "8007": {
+   "elo": 1415.3,
+   "games": 108,
+   "lastDate": "2026-11-21",
+   "league": "Eliteserien (59)",
+   "name": "Vålerenga"
+  },
+  "8014": {
+   "elo": 1346.0,
+   "games": 124,
+   "lastDate": "2026-11-22",
+   "league": "Allsvenskan (67)",
+   "name": "Elfsborg"
+  },
+  "8020": {
+   "elo": 1527.2,
+   "games": 117,
+   "lastDate": "2026-11-21",
+   "league": "Ekstraklasa (196)",
+   "name": "Górnik Zabrze"
+  },
+  "8021": {
+   "elo": 1456.5,
+   "games": 117,
+   "lastDate": "2026-11-21",
+   "league": "Ekstraklasa (196)",
+   "name": "Zagłębie Lubin"
+  },
+  "8023": {
+   "elo": 1456.6,
+   "games": 116,
+   "lastDate": "2026-11-20",
+   "league": "Ekstraklasa (196)",
+   "name": "Pogoń Szczecin"
+  },
+  "8024": {
+   "elo": 1403.8,
+   "games": 117,
+   "lastDate": "2026-11-22",
+   "league": "Ekstraklasa (196)",
+   "name": "Widzew Łódź"
+  },
+  "8025": {
+   "elo": 1368.1,
+   "games": 83,
+   "lastDate": "2026-11-20",
+   "league": "Ekstraklasa (196)",
+   "name": "Śląsk Wrocław"
+  },
+  "8028": {
+   "elo": 1456.6,
+   "games": 117,
+   "lastDate": "2026-11-20",
+   "league": "Ekstraklasa (196)",
+   "name": "Piast Gliwice"
+  },
+  "8030": {
+   "elo": 1380.5,
+   "games": 68,
+   "lastDate": "2026-05-23",
+   "league": "Ekstraklasa (196)",
+   "name": "Lechia Gdańsk"
+  },
+  "8037": {
+   "elo": 1392.6,
+   "games": 11,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Kairat Almaty"
+  },
+  "8044": {
+   "elo": 1672.0,
+   "games": 138,
+   "lastDate": "2026-11-21",
+   "league": "1. Division (136)",
+   "name": "Omonia Nicosia"
+  },
+  "80654": {
+   "elo": 1364.9,
+   "games": 112,
+   "lastDate": "2026-11-23",
+   "league": "Super League 1 (135)",
+   "name": "Asteras Tripolis"
+  },
+  "8071": {
+   "elo": 1545.2,
+   "games": 114,
+   "lastDate": "2026-11-20",
+   "league": "Superligaen (46)",
+   "name": "AGF"
+  },
+  "8106": {
+   "elo": 1387.1,
+   "games": 6,
+   "lastDate": "2023-12-14",
+   "league": null,
+   "name": "Klaksvik"
+  },
+  "8113": {
+   "elo": 1652.8,
+   "games": 134,
+   "lastDate": "2026-11-23",
+   "league": "Superligaen (46)",
+   "name": "FC Midtjylland"
+  },
+  "8119": {
+   "elo": 1296.8,
+   "games": 46,
+   "lastDate": "2024-05-04",
+   "league": "Championship (48)",
+   "name": "Rotherham United"
+  },
+  "8120": {
+   "elo": 1334.1,
+   "games": 36,
+   "lastDate": "2026-05-21",
+   "league": "Super League 1 (135)",
+   "name": "AE Larissa"
+  },
+  "8121": {
+   "elo": 1446.8,
+   "games": 117,
+   "lastDate": "2026-11-22",
+   "league": "Ligue 1 (53)",
+   "name": "Angers"
+  },
+  "8127": {
+   "elo": 1210.6,
+   "games": 119,
+   "lastDate": "2026-11-21",
+   "league": "Allsvenskan (67)",
+   "name": "Mjällby"
+  },
+  "8149": {
+   "elo": 1515.5,
+   "games": 117,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (54)",
+   "name": "Union Berlin"
+  },
+  "8150": {
+   "elo": 1369.7,
+   "games": 114,
+   "lastDate": "2026-11-21",
+   "league": "2. Bundesliga (146)",
+   "name": "Holstein Kiel"
+  },
+  "8152": {
+   "elo": 1438.5,
+   "games": 114,
+   "lastDate": "2026-11-21",
+   "league": "2. Bundesliga (146)",
+   "name": "St. Pauli"
+  },
+  "8165": {
+   "elo": 1481.7,
+   "games": 114,
+   "lastDate": "2026-11-21",
+   "league": "2. Bundesliga (146)",
+   "name": "1. FC Nürnberg"
+  },
+  "8171": {
+   "elo": 1312.0,
+   "games": 68,
+   "lastDate": "2026-05-17",
+   "league": "2. Bundesliga (146)",
+   "name": "Preussen Münster"
+  },
+  "8173": {
+   "elo": 1560.5,
+   "games": 115,
+   "lastDate": "2026-11-07",
+   "league": "Ligat ha'Al (127)",
+   "name": "Beitar Jerusalem"
+  },
+  "8177": {
+   "elo": 1547.5,
+   "games": 114,
+   "lastDate": "2026-11-22",
+   "league": "2. Bundesliga (146)",
+   "name": "Hertha BSC"
+  },
+  "8178": {
+   "elo": 1759.9,
+   "games": 151,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (54)",
+   "name": "Bayer Leverkusen"
+  },
+  "8188": {
+   "elo": 1464.3,
+   "games": 114,
+   "lastDate": "2026-11-20",
+   "league": "2. Bundesliga (146)",
+   "name": "Magdeburg"
+  },
+  "8191": {
+   "elo": 1429.6,
+   "games": 139,
+   "lastDate": "2026-11-25",
+   "league": "Championship (48)",
+   "name": "Burnley"
+  },
+  "8194": {
+   "elo": 1365.4,
+   "games": 102,
+   "lastDate": "2026-05-17",
+   "league": "2. Bundesliga (146)",
+   "name": "Fortuna Düsseldorf"
+  },
+  "8196": {
+   "elo": 1324.8,
+   "games": 34,
+   "lastDate": "2024-05-19",
+   "league": "2. Bundesliga (146)",
+   "name": "Wehen Wiesbaden"
+  },
+  "8197": {
+   "elo": 1386.5,
+   "games": 130,
+   "lastDate": "2026-05-02",
+   "league": "Championship (48)",
+   "name": "Leicester City"
+  },
+  "8201": {
+   "elo": 1337.2,
+   "games": 34,
+   "lastDate": "2025-05-18",
+   "league": "2. Bundesliga (146)",
+   "name": "Ulm"
+  },
+  "8203": {
+   "elo": 1452.1,
+   "games": 132,
+   "lastDate": "2026-11-21",
+   "league": "First Division A (40)",
+   "name": "KV Mechelen"
+  },
+  "8222": {
+   "elo": 1664.4,
+   "games": 34,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Ferencváros"
+  },
+  "8226": {
+   "elo": 1625.0,
+   "games": 124,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (54)",
+   "name": "Hoffenheim"
+  },
+  "8231": {
+   "elo": 1332.9,
+   "games": 96,
+   "lastDate": "2026-05-17",
+   "league": "Superligaen (46)",
+   "name": "Vejle Boldklub"
+  },
+  "8232": {
+   "elo": 1544.7,
+   "games": 112,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (54)",
+   "name": "Elversberg"
+  },
+  "8239": {
+   "elo": 1531.0,
+   "games": 111,
+   "lastDate": "2026-11-23",
+   "league": "Super League 1 (135)",
+   "name": "Aris Thessaloniki"
+  },
+  "8243": {
+   "elo": 1359.7,
+   "games": 48,
+   "lastDate": "2026-11-22",
+   "league": "Ekstraklasa (196)",
+   "name": "Wisła Płock"
+  },
+  "8244": {
+   "elo": 1287.0,
+   "games": 34,
+   "lastDate": "2024-05-25",
+   "league": "Ekstraklasa (196)",
+   "name": "ŁKS Łódź"
+  },
+  "8245": {
+   "elo": 1388.2,
+   "games": 117,
+   "lastDate": "2026-11-20",
+   "league": "Ekstraklasa (196)",
+   "name": "Korona Kielce"
+  },
+  "8248": {
+   "elo": 1563.5,
+   "games": 116,
+   "lastDate": "2026-11-23",
+   "league": "Allsvenskan (67)",
+   "name": "Hammarby"
+  },
+  "8262": {
+   "elo": 1393.0,
+   "games": 114,
+   "lastDate": "2026-11-20",
+   "league": "2. Bundesliga (146)",
+   "name": "Darmstadt"
+  },
+  "8277": {
+   "elo": 1394.0,
+   "games": 34,
+   "lastDate": "2024-05-19",
+   "league": "Eredivisie (57)",
+   "name": "Vitesse"
+  },
+  "8282": {
+   "elo": 1262.4,
+   "games": 76,
+   "lastDate": "2026-05-17",
+   "league": "Premiership (64)",
+   "name": "Livingston"
+  },
+  "8284": {
+   "elo": 1383.0,
+   "games": 128,
+   "lastDate": "2026-11-24",
+   "league": "Premiership (64)",
+   "name": "Dundee FC"
+  },
+  "8288": {
+   "elo": 1352.2,
+   "games": 99,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga2 (140)",
+   "name": "Eldense"
+  },
+  "8294": {
+   "elo": 1299.7,
+   "games": 34,
+   "lastDate": "2024-05-19",
+   "league": "2. Bundesliga (146)",
+   "name": "Hansa Rostock"
+  },
+  "8295": {
+   "elo": 1366.5,
+   "games": 114,
+   "lastDate": "2026-11-22",
+   "league": "2. Bundesliga (146)",
+   "name": "Karlsruher SC"
+  },
+  "8297": {
+   "elo": 1357.7,
+   "games": 116,
+   "lastDate": "2026-11-21",
+   "league": "Allsvenskan (67)",
+   "name": "GAIS"
+  },
+  "8301": {
+   "elo": 1349.2,
+   "games": 115,
+   "lastDate": "2026-11-07",
+   "league": "Ligat ha'Al (127)",
+   "name": "Hapoel Haifa"
+  },
+  "8302": {
+   "elo": 1582.6,
+   "games": 133,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga (87)",
+   "name": "Sevilla"
+  },
+  "8305": {
+   "elo": 1530.9,
+   "games": 130,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga (87)",
+   "name": "Getafe"
+  },
+  "8306": {
+   "elo": 1492.4,
+   "games": 135,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga2 (140)",
+   "name": "Las Palmas"
+  },
+  "8310": {
+   "elo": 1220.6,
+   "games": 116,
+   "lastDate": "2026-11-22",
+   "league": "Allsvenskan (67)",
+   "name": "Halmstads BK"
+  },
+  "8311": {
+   "elo": 1314.6,
+   "games": 115,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 2 (110)",
+   "name": "Clermont Foot"
+  },
+  "8315": {
+   "elo": 1614.8,
+   "games": 148,
+   "lastDate": "2026-11-20",
+   "league": "LaLiga (87)",
+   "name": "Athletic Club"
+  },
+  "8322": {
+   "elo": 1335.1,
+   "games": 34,
+   "lastDate": "2026-05-23",
+   "league": "Ekstraklasa (196)",
+   "name": "Arka Gdynia"
+  },
+  "8332": {
+   "elo": 1345.6,
+   "games": 12,
+   "lastDate": "2025-12-18",
+   "league": null,
+   "name": "Breiðablik"
+  },
+  "8334": {
+   "elo": 1332.1,
+   "games": 106,
+   "lastDate": "2026-05-15",
+   "league": "1. Division (136)",
+   "name": "Ethnikos Achnas"
+  },
+  "8342": {
+   "elo": 1806.3,
+   "games": 171,
+   "lastDate": "2026-11-25",
+   "league": "First Division A (40)",
+   "name": "Club Brugge"
+  },
+  "8344": {
+   "elo": 1351.9,
+   "games": 109,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Cardiff City"
+  },
+  "8346": {
+   "elo": 1414.2,
+   "games": 84,
+   "lastDate": "2025-05-03",
+   "league": "Championship (48)",
+   "name": "Luton Town"
+  },
+  "8348": {
+   "elo": 1500.3,
+   "games": 113,
+   "lastDate": "2026-11-07",
+   "league": "Liga Portugal (61)",
+   "name": "Moreirense"
+  },
+  "8349": {
+   "elo": 1267.7,
+   "games": 116,
+   "lastDate": "2026-11-21",
+   "league": "Allsvenskan (67)",
+   "name": "AIK"
+  },
+  "8350": {
+   "elo": 1454.5,
+   "games": 114,
+   "lastDate": "2026-11-22",
+   "league": "2. Bundesliga (146)",
+   "name": "Kaiserslautern"
+  },
+  "8357": {
+   "elo": 1333.4,
+   "games": 114,
+   "lastDate": "2026-11-21",
+   "league": "2. Bundesliga (146)",
+   "name": "Greuther Fürth"
+  },
+  "8358": {
+   "elo": 1727.3,
+   "games": 140,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (54)",
+   "name": "Freiburg"
+  },
+  "8370": {
+   "elo": 1623.1,
+   "games": 139,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga (87)",
+   "name": "Rayo Vallecano"
+  },
+  "8371": {
+   "elo": 1553.6,
+   "games": 127,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga (87)",
+   "name": "Osasuna"
+  },
+  "8372": {
+   "elo": 1492.4,
+   "games": 142,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga2 (140)",
+   "name": "Eibar"
+  },
+  "8385": {
+   "elo": 1344.6,
+   "games": 137,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga2 (140)",
+   "name": "Cádiz"
+  },
+  "8391": {
+   "elo": 1636.2,
+   "games": 142,
+   "lastDate": "2026-11-22",
+   "league": "Superligaen (46)",
+   "name": "FC København"
+  },
+  "8393": {
+   "elo": 1393.8,
+   "games": 141,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga2 (140)",
+   "name": "Albacete"
+  },
+  "8394": {
+   "elo": 1298.5,
+   "games": 126,
+   "lastDate": "2026-05-31",
+   "league": "LaLiga2 (140)",
+   "name": "Real Zaragoza"
+  },
+  "8398": {
+   "elo": 1349.2,
+   "games": 12,
+   "lastDate": "2026-11-22",
+   "league": "2. Bundesliga (146)",
+   "name": "Energie Cottbus"
+  },
+  "8401": {
+   "elo": 1372.8,
+   "games": 92,
+   "lastDate": "2025-05-03",
+   "league": "Championship (48)",
+   "name": "Plymouth Argyle"
+  },
+  "8402": {
+   "elo": 1801.1,
+   "games": 149,
+   "lastDate": "2026-11-24",
+   "league": "Eliteserien (59)",
+   "name": "Bodø/Glimt"
+  },
+  "8404": {
+   "elo": 1370.1,
+   "games": 108,
+   "lastDate": "2026-11-22",
+   "league": "Eliteserien (59)",
+   "name": "Aalesund"
+  },
+  "8406": {
+   "elo": 1592.4,
+   "games": 112,
+   "lastDate": "2026-11-22",
+   "league": "Bundesliga (54)",
+   "name": "Augsburg"
+  },
+  "8410": {
+   "elo": 1364.3,
+   "games": 113,
+   "lastDate": "2026-11-22",
+   "league": "Superligaen (46)",
+   "name": "Randers FC"
+  },
+  "8411": {
+   "elo": 1347.0,
+   "games": 155,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Preston North End"
+  },
+  "8414": {
+   "elo": 1446.3,
+   "games": 79,
+   "lastDate": "2026-11-22",
+   "league": "Superligaen (46)",
+   "name": "OB"
+  },
+  "8415": {
+   "elo": 1395.5,
+   "games": 112,
+   "lastDate": "2026-11-22",
+   "league": "Superligaen (46)",
+   "name": "Silkeborg"
+  },
+  "8417": {
+   "elo": 1405.3,
+   "games": 108,
+   "lastDate": "2026-11-21",
+   "league": "Eliteserien (59)",
+   "name": "Fredrikstad"
+  },
+  "8422": {
+   "elo": 1716.0,
+   "games": 108,
+   "lastDate": "2026-11-22",
+   "league": "Eliteserien (59)",
+   "name": "Rosenborg"
+  },
+  "8427": {
+   "elo": 1384.2,
+   "games": 157,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Bristol City"
+  },
+  "8428": {
+   "elo": 1409.8,
+   "games": 128,
+   "lastDate": "2026-11-22",
+   "league": "Allsvenskan (67)",
+   "name": "Häcken"
+  },
+  "8430": {
+   "elo": 1334.1,
+   "games": 17,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Lincoln City"
+  },
+  "8448": {
+   "elo": 1406.2,
+   "games": 108,
+   "lastDate": "2026-11-21",
+   "league": "Eliteserien (59)",
+   "name": "Hamarkameratene"
+  },
+  "8451": {
+   "elo": 1354.0,
+   "games": 63,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Charlton Athletic"
+  },
+  "8454": {
+   "elo": 1369.6,
+   "games": 32,
+   "lastDate": "2026-05-17",
+   "league": "Superligaen (46)",
+   "name": "Fredericia"
+  },
+  "8455": {
+   "elo": 1712.8,
+   "games": 148,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (47)",
+   "name": "Chelsea"
+  },
+  "8456": {
+   "elo": 1876.7,
+   "games": 160,
+   "lastDate": "2026-11-24",
+   "league": "Premier League (47)",
+   "name": "Manchester City"
+  },
+  "8460": {
+   "elo": 1521.4,
+   "games": 112,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (54)",
+   "name": "Paderborn"
+  },
+  "8462": {
+   "elo": 1455.2,
+   "games": 109,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Portsmouth"
+  },
+  "8463": {
+   "elo": 1753.7,
+   "games": 144,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (47)",
+   "name": "Leeds United"
+  },
+  "8464": {
+   "elo": 1594.6,
+   "games": 121,
+   "lastDate": "2026-11-21",
+   "league": "Eredivisie (57)",
+   "name": "NEC Nijmegen"
+  },
+  "8466": {
+   "elo": 1582.2,
+   "games": 150,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Southampton"
+  },
+  "8467": {
+   "elo": 1345.6,
+   "games": 90,
+   "lastDate": "2026-11-21",
+   "league": "Premiership (64)",
+   "name": "St. Johnstone"
+  },
+  "8468": {
+   "elo": 1503.2,
+   "games": 121,
+   "lastDate": "2026-11-22",
+   "league": "Eliteserien (59)",
+   "name": "Brann"
+  },
+  "8470": {
+   "elo": 1304.5,
+   "games": 32,
+   "lastDate": "2025-05-24",
+   "league": "Superligaen (46)",
+   "name": "AaB"
+  },
+  "8472": {
+   "elo": 1622.9,
+   "games": 148,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (47)",
+   "name": "Sunderland"
+  },
+  "8474": {
+   "elo": 1261.5,
+   "games": 84,
+   "lastDate": "2025-05-31",
+   "league": "LaLiga2 (140)",
+   "name": "Racing de Ferrol"
+  },
+  "8475": {
+   "elo": 1430.1,
+   "games": 12,
+   "lastDate": "2026-11-22",
+   "league": "First Division A (40)",
+   "name": "SK Beveren"
+  },
+  "8476": {
+   "elo": 1562.4,
+   "games": 112,
+   "lastDate": "2026-11-22",
+   "league": "Eliteserien (59)",
+   "name": "Lillestrøm"
+  },
+  "8478": {
+   "elo": 1671.3,
+   "games": 113,
+   "lastDate": "2026-11-25",
+   "league": "Eliteserien (59)",
+   "name": "Viking"
+  },
+  "8480": {
+   "elo": 1381.3,
+   "games": 46,
+   "lastDate": "2026-11-22",
+   "league": "2. Bundesliga (146)",
+   "name": "Dynamo Dresden"
+  },
+  "8481": {
+   "elo": 1405.1,
+   "games": 47,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 2 (110)",
+   "name": "Nancy"
+  },
+  "8485": {
+   "elo": 1360.5,
+   "games": 140,
+   "lastDate": "2026-11-24",
+   "league": "Premiership (64)",
+   "name": "Aberdeen"
+  },
+  "8487": {
+   "elo": 1390.4,
+   "games": 79,
+   "lastDate": "2026-11-22",
+   "league": "Superligaen (46)",
+   "name": "Sønderjyske"
+  },
+  "8501": {
+   "elo": 1160.3,
+   "games": 116,
+   "lastDate": "2026-11-22",
+   "league": "Allsvenskan (67)",
+   "name": "Brommapojkarna"
+  },
+  "8509": {
+   "elo": 1285.7,
+   "games": 108,
+   "lastDate": "2026-11-22",
+   "league": "Eliteserien (59)",
+   "name": "Sarpsborg 08"
+  },
+  "8521": {
+   "elo": 1603.4,
+   "games": 123,
+   "lastDate": "2026-11-21",
+   "league": "Ligue 1 (53)",
+   "name": "Brest"
+  },
+  "8522": {
+   "elo": 1420.3,
+   "games": 51,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Ascoli"
+  },
+  "8524": {
+   "elo": 1662.9,
+   "games": 164,
+   "lastDate": "2026-11-22",
+   "league": "Serie A (55)",
+   "name": "Atalanta"
+  },
+  "8525": {
+   "elo": 1306.8,
+   "games": 47,
+   "lastDate": "2026-11-22",
+   "league": "Eredivisie (57)",
+   "name": "Willem II"
+  },
+  "8529": {
+   "elo": 1558.9,
+   "games": 126,
+   "lastDate": "2026-11-21",
+   "league": "Serie A (55)",
+   "name": "Cagliari"
+  },
+  "8534": {
+   "elo": 1315.2,
+   "games": 127,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Empoli"
+  },
+  "8535": {
+   "elo": 1597.3,
+   "games": 163,
+   "lastDate": "2026-11-23",
+   "league": "Serie A (55)",
+   "name": "Fiorentina"
+  },
+  "8540": {
+   "elo": 1549.7,
+   "games": 133,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Palermo"
+  },
+  "8543": {
+   "elo": 1766.2,
+   "games": 146,
+   "lastDate": "2026-11-21",
+   "league": "Serie A (55)",
+   "name": "Lazio"
+  },
+  "8548": {
+   "elo": 1646.1,
+   "games": 156,
+   "lastDate": "2026-11-24",
+   "league": "Premiership (64)",
+   "name": "Rangers"
+  },
+  "8549": {
+   "elo": 1549.0,
+   "games": 156,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Middlesbrough"
+  },
+  "8550": {
+   "elo": 1421.3,
+   "games": 115,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 2 (110)",
+   "name": "Metz"
+  },
+  "8554": {
+   "elo": 1236.5,
+   "games": 84,
+   "lastDate": "2025-06-01",
+   "league": "LaLiga2 (140)",
+   "name": "Cartagena"
+  },
+  "8558": {
+   "elo": 1566.8,
+   "games": 135,
+   "lastDate": "2026-11-20",
+   "league": "LaLiga (87)",
+   "name": "Espanyol"
+  },
+  "8559": {
+   "elo": 1357.1,
+   "games": 17,
+   "lastDate": "2026-11-25",
+   "league": "Championship (48)",
+   "name": "Bolton Wanderers"
+  },
+  "8560": {
+   "elo": 1651.6,
+   "games": 151,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga (87)",
+   "name": "Real Sociedad"
+  },
+  "8563": {
+   "elo": 1661.6,
+   "games": 131,
+   "lastDate": "2026-11-24",
+   "league": "Super League 1 (135)",
+   "name": "AEK Athens"
+  },
+  "8564": {
+   "elo": 1727.4,
+   "games": 152,
+   "lastDate": "2026-11-22",
+   "league": "Serie A (55)",
+   "name": "Milan"
+  },
+  "8571": {
+   "elo": 1342.5,
+   "games": 84,
+   "lastDate": "2026-11-22",
+   "league": "First Division A (40)",
+   "name": "Kortrijk"
+  },
+  "857444": {
+   "elo": 1286.5,
+   "games": 66,
+   "lastDate": "2025-05-10",
+   "league": "Ligat ha'Al (127)",
+   "name": "Hapoel Hadera"
+  },
+  "8576": {
+   "elo": 1351.5,
+   "games": 72,
+   "lastDate": "2025-05-10",
+   "league": "Ligue 2 (110)",
+   "name": "AC Ajaccio"
+  },
+  "8581": {
+   "elo": 1573.6,
+   "games": 135,
+   "lastDate": "2026-11-23",
+   "league": "LaLiga (87)",
+   "name": "Levante"
+  },
+  "8583": {
+   "elo": 1534.1,
+   "games": 117,
+   "lastDate": "2026-11-21",
+   "league": "Ligue 1 (53)",
+   "name": "Auxerre"
+  },
+  "8586": {
+   "elo": 1712.7,
+   "games": 150,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (47)",
+   "name": "Tottenham Hotspur"
+  },
+  "8587": {
+   "elo": 1236.2,
+   "games": 106,
+   "lastDate": "2026-05-09",
+   "league": "Ligue 2 (110)",
+   "name": "Amiens"
+  },
+  "8588": {
+   "elo": 1628.0,
+   "games": 126,
+   "lastDate": "2026-11-24",
+   "league": "Ligue 1 (53)",
+   "name": "Lens"
+  },
+  "8590": {
+   "elo": 1293.6,
+   "games": 83,
+   "lastDate": "2026-11-21",
+   "league": "1. Division (136)",
+   "name": "Nea Salamis"
+  },
+  "8592": {
+   "elo": 1643.9,
+   "games": 139,
+   "lastDate": "2026-11-22",
+   "league": "Ligue 1 (53)",
+   "name": "Marseille"
+  },
+  "8593": {
+   "elo": 1718.8,
+   "games": 150,
+   "lastDate": "2026-11-22",
+   "league": "Eredivisie (57)",
+   "name": "Ajax"
+  },
+  "859316": {
+   "elo": 1276.6,
+   "games": 90,
+   "lastDate": "2026-05-24",
+   "league": "Premier League (441)",
+   "name": "Rukh Lviv"
+  },
+  "8595": {
+   "elo": 1499.2,
+   "games": 112,
+   "lastDate": "2026-11-23",
+   "league": "Superligaen (46)",
+   "name": "Brøndby IF"
+  },
+  "8596": {
+   "elo": 1482.5,
+   "games": 52,
+   "lastDate": "2026-11-21",
+   "league": "Premiership (64)",
+   "name": "Falkirk"
+  },
+  "8597": {
+   "elo": 1341.9,
+   "games": 128,
+   "lastDate": "2026-11-21",
+   "league": "Premiership (64)",
+   "name": "Kilmarnock"
+  },
+  "8600": {
+   "elo": 1541.2,
+   "games": 126,
+   "lastDate": "2026-11-22",
+   "league": "Serie A (55)",
+   "name": "Udinese"
+  },
+  "8602": {
+   "elo": 1558.9,
+   "games": 131,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Wolverhampton Wanderers"
+  },
+  "8603": {
+   "elo": 1762.6,
+   "games": 167,
+   "lastDate": "2026-11-24",
+   "league": "LaLiga (87)",
+   "name": "Real Betis"
+  },
+  "8605": {
+   "elo": 1416.6,
+   "games": 108,
+   "lastDate": "2026-11-22",
+   "league": "Eliteserien (59)",
+   "name": "Kristiansund"
+  },
+  "8608": {
+   "elo": 1460.7,
+   "games": 108,
+   "lastDate": "2026-11-21",
+   "league": "Eliteserien (59)",
+   "name": "Tromsø"
+  },
+  "8609": {
+   "elo": 1426.0,
+   "games": 108,
+   "lastDate": "2026-11-22",
+   "league": "Eliteserien (59)",
+   "name": "Sandefjord"
+  },
+  "8611": {
+   "elo": 1699.8,
+   "games": 130,
+   "lastDate": "2026-11-22",
+   "league": "Eredivisie (57)",
+   "name": "FC Twente"
+  },
+  "8613": {
+   "elo": 1360.5,
+   "games": 68,
+   "lastDate": "2025-05-17",
+   "league": "Liga Portugal (61)",
+   "name": "Boavista"
+  },
+  "8614": {
+   "elo": 1432.6,
+   "games": 116,
+   "lastDate": "2026-11-22",
+   "league": "Eredivisie (57)",
+   "name": "Sparta Rotterdam"
+  },
+  "8619": {
+   "elo": 1638.4,
+   "games": 141,
+   "lastDate": "2026-11-22",
+   "league": "Super League 1 (135)",
+   "name": "PAOK Thessaloniki"
+  },
+  "8621": {
+   "elo": 1530.3,
+   "games": 126,
+   "lastDate": "2026-11-21",
+   "league": "1. Division (136)",
+   "name": "APOEL Nicosia"
+  },
+  "8622": {
+   "elo": 1430.8,
+   "games": 120,
+   "lastDate": "2026-11-22",
+   "league": "Süper Lig (71)",
+   "name": "Konyaspor"
+  },
+  "8632": {
+   "elo": 1453.7,
+   "games": 4,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Levski Sofia"
+  },
+  "8633": {
+   "elo": 1964.1,
+   "games": 173,
+   "lastDate": "2026-11-24",
+   "league": "LaLiga (87)",
+   "name": "Real Madrid"
+  },
+  "8634": {
+   "elo": 1984.4,
+   "games": 168,
+   "lastDate": "2026-11-25",
+   "league": "LaLiga (87)",
+   "name": "Barcelona"
+  },
+  "8635": {
+   "elo": 1597.3,
+   "games": 146,
+   "lastDate": "2026-11-22",
+   "league": "First Division A (40)",
+   "name": "Anderlecht"
+  },
+  "8636": {
+   "elo": 1893.8,
+   "games": 164,
+   "lastDate": "2026-11-25",
+   "league": "Serie A (55)",
+   "name": "Inter"
+  },
+  "8637": {
+   "elo": 1788.0,
+   "games": 154,
+   "lastDate": "2026-11-24",
+   "league": "Süper Lig (71)",
+   "name": "Galatasaray"
+  },
+  "8638": {
+   "elo": 1744.1,
+   "games": 149,
+   "lastDate": "2026-11-22",
+   "league": "Super League 1 (135)",
+   "name": "Olympiacos"
+  },
+  "8639": {
+   "elo": 1701.6,
+   "games": 150,
+   "lastDate": "2026-11-25",
+   "league": "Ligue 1 (53)",
+   "name": "Lille"
+  },
+  "8640": {
+   "elo": 1779.1,
+   "games": 148,
+   "lastDate": "2026-11-24",
+   "league": "Eredivisie (57)",
+   "name": "PSV Eindhoven"
+  },
+  "8649": {
+   "elo": 1338.3,
+   "games": 76,
+   "lastDate": "2025-05-18",
+   "league": "Premiership (64)",
+   "name": "Ross County"
+  },
+  "8650": {
+   "elo": 1881.0,
+   "games": 162,
+   "lastDate": "2026-11-25",
+   "league": "Premier League (47)",
+   "name": "Liverpool"
+  },
+  "8653": {
+   "elo": 1371.5,
+   "games": 92,
+   "lastDate": "2026-05-02",
+   "league": "Championship (48)",
+   "name": "Oxford United"
+  },
+  "8654": {
+   "elo": 1583.3,
+   "games": 141,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "West Ham United"
+  },
+  "8655": {
+   "elo": 1434.7,
+   "games": 155,
+   "lastDate": "2026-11-25",
+   "league": "Championship (48)",
+   "name": "Blackburn Rovers"
+  },
+  "8657": {
+   "elo": 1464.2,
+   "games": 150,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Sheffield United"
+  },
+  "8658": {
+   "elo": 1515.7,
+   "games": 109,
+   "lastDate": "2026-11-25",
+   "league": "Championship (48)",
+   "name": "Birmingham City"
+  },
+  "8659": {
+   "elo": 1505.5,
+   "games": 157,
+   "lastDate": "2026-11-25",
+   "league": "Championship (48)",
+   "name": "West Bromwich Albion"
+  },
+  "8661": {
+   "elo": 1565.2,
+   "games": 128,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga2 (140)",
+   "name": "Mallorca"
+  },
+  "866109": {
+   "elo": 1362.8,
+   "games": 4,
+   "lastDate": "2026-11-05",
+   "league": null,
+   "name": "Ararat Armenia"
+  },
+  "866111": {
+   "elo": 1412.7,
+   "games": 14,
+   "lastDate": "2026-02-26",
+   "league": null,
+   "name": "FC Noah"
+  },
+  "8666": {
+   "elo": 1277.1,
+   "games": 72,
+   "lastDate": "2026-11-23",
+   "league": "Premier League (441)",
+   "name": "Chornomorets Odesa"
+  },
+  "8667": {
+   "elo": 1556.2,
+   "games": 152,
+   "lastDate": "2026-11-22",
+   "league": "Premier League (47)",
+   "name": "Hull City"
+  },
+  "8668": {
+   "elo": 1696.4,
+   "games": 125,
+   "lastDate": "2026-11-23",
+   "league": "Premier League (47)",
+   "name": "Everton"
+  },
+  "8669": {
+   "elo": 1606.3,
+   "games": 151,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (47)",
+   "name": "Coventry City"
+  },
+  "8670": {
+   "elo": 1457.9,
+   "games": 145,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga2 (140)",
+   "name": "Real Oviedo"
+  },
+  "8673": {
+   "elo": 1520.9,
+   "games": 141,
+   "lastDate": "2026-11-22",
+   "league": "Ekstraklasa (196)",
+   "name": "Legia Warszawa"
+  },
+  "8674": {
+   "elo": 1503.0,
+   "games": 82,
+   "lastDate": "2026-11-21",
+   "league": "Eredivisie (57)",
+   "name": "FC Groningen"
+  },
+  "8675": {
+   "elo": 1403.9,
+   "games": 11,
+   "lastDate": "2026-11-22",
+   "league": "Super League 1 (135)",
+   "name": "Iraklis"
+  },
+  "8678": {
+   "elo": 1841.9,
+   "games": 129,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (47)",
+   "name": "AFC Bournemouth"
+  },
+  "8682": {
+   "elo": 1478.4,
+   "games": 44,
+   "lastDate": "2026-11-22",
+   "league": "Ligue 1 (53)",
+   "name": "Le Mans"
+  },
+  "8686": {
+   "elo": 1831.1,
+   "games": 167,
+   "lastDate": "2026-11-25",
+   "league": "Serie A (55)",
+   "name": "Roma"
+  },
+  "8687": {
+   "elo": 1734.1,
+   "games": 153,
+   "lastDate": "2026-11-21",
+   "league": "Super Liga (182)",
+   "name": "FK Crvena Zvezda"
+  },
+  "8688": {
+   "elo": 1586.3,
+   "games": 116,
+   "lastDate": "2026-11-22",
+   "league": "Premier League (441)",
+   "name": "Dynamo Kyiv"
+  },
+  "8689": {
+   "elo": 1592.0,
+   "games": 113,
+   "lastDate": "2026-11-22",
+   "league": "Ligue 1 (53)",
+   "name": "Lorient"
+  },
+  "8691": {
+   "elo": 1491.6,
+   "games": 72,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (441)",
+   "name": "Karpaty"
+  },
+  "8692": {
+   "elo": 1358.8,
+   "games": 90,
+   "lastDate": "2026-11-21",
+   "league": "Super Liga (182)",
+   "name": "OFK Beograd"
+  },
+  "8695": {
+   "elo": 1720.6,
+   "games": 157,
+   "lastDate": "2026-11-25",
+   "league": "Süper Lig (71)",
+   "name": "Fenerbahçe"
+  },
+  "8696": {
+   "elo": 1547.1,
+   "games": 141,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga (87)",
+   "name": "Racing Santander"
+  },
+  "8697": {
+   "elo": 1599.2,
+   "games": 112,
+   "lastDate": "2026-11-22",
+   "league": "Bundesliga (54)",
+   "name": "Werder Bremen"
+  },
+  "8718": {
+   "elo": 1317.4,
+   "games": 110,
+   "lastDate": "2026-11-07",
+   "league": "Ligat ha'Al (127)",
+   "name": "Bnei Sakhnin"
+  },
+  "8721": {
+   "elo": 1550.2,
+   "games": 114,
+   "lastDate": "2026-11-21",
+   "league": "2. Bundesliga (146)",
+   "name": "Wolfsburg"
+  },
+  "8722": {
+   "elo": 1510.7,
+   "games": 112,
+   "lastDate": "2026-11-20",
+   "league": "Bundesliga (54)",
+   "name": "1. FC Köln"
+  },
+  "883952": {
+   "elo": 1490.7,
+   "games": 30,
+   "lastDate": "2024-05-25",
+   "league": "Premier League (441)",
+   "name": "SC Dnipro-1"
+  },
+  "885256": {
+   "elo": 1278.3,
+   "games": 111,
+   "lastDate": "2026-11-22",
+   "league": "Super League 1 (135)",
+   "name": "NFC Volos"
+  },
+  "88657": {
+   "elo": 1303.2,
+   "games": 70,
+   "lastDate": "2026-05-23",
+   "league": "1. Liga (122)",
+   "name": "Dukla Praha"
+  },
+  "88811": {
+   "elo": 1301.2,
+   "games": 40,
+   "lastDate": "2024-05-10",
+   "league": "1. Division (136)",
+   "name": "Doxa Katokopia"
+  },
+  "89466": {
+   "elo": 1399.1,
+   "games": 83,
+   "lastDate": "2026-11-23",
+   "league": "Ekstraklasa (196)",
+   "name": "Motor Lublin"
+  },
+  "89467": {
+   "elo": 1368.4,
+   "games": 34,
+   "lastDate": "2024-05-25",
+   "league": "Ekstraklasa (196)",
+   "name": "Warta Poznań"
+  },
+  "89753": {
+   "elo": 1319.8,
+   "games": 10,
+   "lastDate": "2026-11-07",
+   "league": "Ligat ha'Al (127)",
+   "name": "Hapoel Ramat Gan"
+  },
+  "949030": {
+   "elo": 1501.7,
+   "games": 71,
+   "lastDate": "2026-11-25",
+   "league": "Premier League (441)",
+   "name": "FC Kharkiv"
+  },
+  "94937": {
+   "elo": 1443.3,
+   "games": 122,
+   "lastDate": "2026-11-20",
+   "league": "2. Bundesliga (146)",
+   "name": "FC Heidenheim"
+  },
+  "951893": {
+   "elo": 1437.4,
+   "games": 5,
+   "lastDate": "2026-11-25",
+   "league": null,
+   "name": "Sabah FK"
+  },
+  "952668": {
+   "elo": 1389.3,
+   "games": 6,
+   "lastDate": "2023-12-14",
+   "league": null,
+   "name": "Ballkani"
+  },
+  "95745": {
+   "elo": 1408.0,
+   "games": 38,
+   "lastDate": "2024-05-26",
+   "league": "Süper Lig (71)",
+   "name": "Pendikspor"
+  },
+  "95749": {
+   "elo": 1371.8,
+   "games": 74,
+   "lastDate": "2025-05-31",
+   "league": "Süper Lig (71)",
+   "name": "Hatayspor"
+  },
+  "96498": {
+   "elo": 1486.2,
+   "games": 12,
+   "lastDate": "2026-11-21",
+   "league": "Süper Lig (71)",
+   "name": "Amed Sportif"
+  },
+  "965428": {
+   "elo": 1341.2,
+   "games": 30,
+   "lastDate": "2024-05-25",
+   "league": "Premier League (441)",
+   "name": "FC Minaj"
+  },
+  "96925": {
+   "elo": 1321.3,
+   "games": 126,
+   "lastDate": "2026-05-31",
+   "league": "LaLiga2 (140)",
+   "name": "SD Huesca"
+  },
+  "9723": {
+   "elo": 1486.8,
+   "games": 20,
+   "lastDate": "2026-01-29",
+   "league": null,
+   "name": "FCSB"
+  },
+  "9728": {
+   "elo": 1646.4,
+   "games": 135,
+   "lastDate": "2026-11-25",
+   "league": "Premier League (441)",
+   "name": "Shakhtar Donetsk"
+  },
+  "9729": {
+   "elo": 1369.6,
+   "games": 6,
+   "lastDate": "2023-12-14",
+   "league": null,
+   "name": "FC Sheriff"
+  },
+  "9742": {
+   "elo": 1450.6,
+   "games": 38,
+   "lastDate": "2024-05-26",
+   "league": "Süper Lig (71)",
+   "name": "Ankaragücü"
+  },
+  "9746": {
+   "elo": 1442.6,
+   "games": 113,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 1 (53)",
+   "name": "Le Havre"
+  },
+  "9747": {
+   "elo": 1338.9,
+   "games": 119,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 2 (110)",
+   "name": "Guingamp"
+  },
+  "9748": {
+   "elo": 1704.4,
+   "games": 139,
+   "lastDate": "2026-11-21",
+   "league": "Ligue 1 (53)",
+   "name": "Lyon"
+  },
+  "9750": {
+   "elo": 1469.0,
+   "games": 130,
+   "lastDate": "2026-11-21",
+   "league": "Süper Lig (71)",
+   "name": "Samsunspor"
+  },
+  "9752": {
+   "elo": 1685.7,
+   "games": 122,
+   "lastDate": "2026-11-22",
+   "league": "Süper Lig (71)",
+   "name": "Trabzonspor"
+  },
+  "9754": {
+   "elo": 1587.6,
+   "games": 121,
+   "lastDate": "2026-11-08",
+   "league": "Ligat ha'Al (127)",
+   "name": "Hapoel Beer Sheva"
+  },
+  "9755": {
+   "elo": 1325.9,
+   "games": 78,
+   "lastDate": "2026-11-07",
+   "league": "Ligat ha'Al (127)",
+   "name": "Hapoel Petah Tikva"
+  },
+  "9761": {
+   "elo": 1394.3,
+   "games": 68,
+   "lastDate": "2026-05-17",
+   "league": "Eredivisie (57)",
+   "name": "NAC Breda"
+  },
+  "9764": {
+   "elo": 1544.5,
+   "games": 113,
+   "lastDate": "2026-11-08",
+   "league": "Liga Portugal (61)",
+   "name": "Gil Vicente"
+  },
+  "9765": {
+   "elo": 1438.6,
+   "games": 34,
+   "lastDate": "2024-05-18",
+   "league": "Liga Portugal (61)",
+   "name": "Portimonense"
+  },
+  "9768": {
+   "elo": 1834.6,
+   "games": 150,
+   "lastDate": "2026-11-25",
+   "league": "Liga Portugal (61)",
+   "name": "Sporting CP"
+  },
+  "9772": {
+   "elo": 1876.6,
+   "games": 151,
+   "lastDate": "2026-11-08",
+   "league": "Liga Portugal (61)",
+   "name": "Benfica"
+  },
+  "9773": {
+   "elo": 1817.9,
+   "games": 148,
+   "lastDate": "2026-11-24",
+   "league": "Liga Portugal (61)",
+   "name": "FC Porto"
+  },
+  "9774": {
+   "elo": 1391.1,
+   "games": 34,
+   "lastDate": "2024-05-18",
+   "league": "Liga Portugal (61)",
+   "name": "Chaves"
+  },
+  "9775": {
+   "elo": 1314.8,
+   "games": 46,
+   "lastDate": "2026-11-22",
+   "league": "2. Bundesliga (146)",
+   "name": "VfL Osnabrück"
+  },
+  "9776": {
+   "elo": 1347.6,
+   "games": 114,
+   "lastDate": "2026-11-21",
+   "league": "2. Bundesliga (146)",
+   "name": "Eintracht Braunschweig"
+  },
+  "9777": {
+   "elo": 1491.7,
+   "games": 138,
+   "lastDate": "2026-11-21",
+   "league": "Super League (69)",
+   "name": "Servette"
+  },
+  "9780": {
+   "elo": 1493.9,
+   "games": 45,
+   "lastDate": "2026-11-07",
+   "league": "Liga Portugal (61)",
+   "name": "Alverca"
+  },
+  "9783": {
+   "elo": 1525.6,
+   "games": 97,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga (87)",
+   "name": "Deportivo A Coruña"
+  },
+  "9788": {
+   "elo": 1515.2,
+   "games": 112,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (54)",
+   "name": "Borussia Mönchengladbach"
+  },
+  "9789": {
+   "elo": 1846.2,
+   "games": 154,
+   "lastDate": "2026-11-24",
+   "league": "Bundesliga (54)",
+   "name": "Borussia Dortmund"
+  },
+  "9790": {
+   "elo": 1535.8,
+   "games": 112,
+   "lastDate": "2026-11-22",
+   "league": "Bundesliga (54)",
+   "name": "Hamburger SV"
+  },
+  "9791": {
+   "elo": 1317.9,
+   "games": 102,
+   "lastDate": "2026-05-17",
+   "league": "Eredivisie (57)",
+   "name": "Heracles"
+  },
+  "9796": {
+   "elo": 1362.3,
+   "games": 46,
+   "lastDate": "2024-05-04",
+   "league": "Championship (48)",
+   "name": "Huddersfield Town"
+  },
+  "9800": {
+   "elo": 1338.2,
+   "games": 128,
+   "lastDate": "2026-11-21",
+   "league": "Premiership (64)",
+   "name": "St. Mirren"
+  },
+  "9802": {
+   "elo": 1371.8,
+   "games": 128,
+   "lastDate": "2026-11-22",
+   "league": "Allsvenskan (67)",
+   "name": "Djurgården"
+  },
+  "9804": {
+   "elo": 1578.2,
+   "games": 126,
+   "lastDate": "2026-11-21",
+   "league": "Serie A (55)",
+   "name": "Torino"
+  },
+  "9810": {
+   "elo": 1601.2,
+   "games": 140,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (54)",
+   "name": "Eintracht Frankfurt"
+  },
+  "9814": {
+   "elo": 1430.9,
+   "games": 15,
+   "lastDate": "2026-11-22",
+   "league": "Superligaen (46)",
+   "name": "AC Horsens"
+  },
+  "9817": {
+   "elo": 1324.8,
+   "games": 155,
+   "lastDate": "2026-11-25",
+   "league": "Championship (48)",
+   "name": "Watford"
+  },
+  "9823": {
+   "elo": 2000.2,
+   "games": 157,
+   "lastDate": "2026-11-25",
+   "league": "Bundesliga (54)",
+   "name": "Bayern München"
+  },
+  "9824": {
+   "elo": 1367.1,
+   "games": 14,
+   "lastDate": "2026-11-22",
+   "league": "Super League (69)",
+   "name": "FC Vaduz"
+  },
+  "9825": {
+   "elo": 2021.9,
+   "games": 169,
+   "lastDate": "2026-11-24",
+   "league": "Premier League (47)",
+   "name": "Arsenal"
+  },
+  "9826": {
+   "elo": 1647.8,
+   "games": 144,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (47)",
+   "name": "Crystal Palace"
+  },
+  "9827": {
+   "elo": 1393.4,
+   "games": 38,
+   "lastDate": "2024-05-17",
+   "league": "Ligue 2 (110)",
+   "name": "Bordeaux"
+  },
+  "9829": {
+   "elo": 1708.4,
+   "games": 136,
+   "lastDate": "2026-11-21",
+   "league": "Ligue 1 (53)",
+   "name": "Monaco"
+  },
+  "9830": {
+   "elo": 1425.7,
+   "games": 115,
+   "lastDate": "2026-11-23",
+   "league": "Ligue 2 (110)",
+   "name": "Nantes"
+  },
+  "9831": {
+   "elo": 1555.9,
+   "games": 129,
+   "lastDate": "2026-11-21",
+   "league": "Ligue 1 (53)",
+   "name": "Nice"
+  },
+  "9836": {
+   "elo": 1357.6,
+   "games": 13,
+   "lastDate": "2026-11-20",
+   "league": "Ligue 2 (110)",
+   "name": "Dijon"
+  },
+  "9837": {
+   "elo": 1495.2,
+   "games": 115,
+   "lastDate": "2026-11-21",
+   "league": "Ligue 2 (110)",
+   "name": "Reims"
+  },
+  "9841": {
+   "elo": 1469.8,
+   "games": 63,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Wrexham"
+  },
+  "9847": {
+   "elo": 2004.3,
+   "games": 164,
+   "lastDate": "2026-11-25",
+   "league": "Ligue 1 (53)",
+   "name": "Paris Saint-Germain"
+  },
+  "9848": {
+   "elo": 1606.8,
+   "games": 125,
+   "lastDate": "2026-11-21",
+   "league": "Ligue 1 (53)",
+   "name": "Strasbourg"
+  },
+  "9849": {
+   "elo": 1293.3,
+   "games": 13,
+   "lastDate": "2026-11-25",
+   "league": "Serie B (86)",
+   "name": "Arezzo"
+  },
+  "9850": {
+   "elo": 1498.5,
+   "games": 157,
+   "lastDate": "2026-11-24",
+   "league": "Championship (48)",
+   "name": "Norwich City"
+  },
+  "9851": {
+   "elo": 1660.8,
+   "games": 125,
+   "lastDate": "2026-11-22",
+   "league": "Ligue 1 (53)",
+   "name": "Rennes"
+  },
+  "9853": {
+   "elo": 1518.2,
+   "games": 119,
+   "lastDate": "2026-11-21",
+   "league": "Ligue 2 (110)",
+   "name": "Saint-Étienne"
+  },
+  "9855": {
+   "elo": 1323.9,
+   "games": 119,
+   "lastDate": "2026-11-23",
+   "league": "Ligue 2 (110)",
+   "name": "Grenoble"
+  },
+  "9857": {
+   "elo": 1685.6,
+   "games": 148,
+   "lastDate": "2026-11-22",
+   "league": "Serie A (55)",
+   "name": "Bologna"
+  },
+  "9858": {
+   "elo": 1387.9,
+   "games": 77,
+   "lastDate": "2025-05-13",
+   "league": "Serie B (86)",
+   "name": "Brescia"
+  },
+  "9860": {
+   "elo": 1554.5,
+   "games": 136,
+   "lastDate": "2026-11-21",
+   "league": "Premiership (64)",
+   "name": "Heart of Midlothian"
+  },
+  "9861": {
+   "elo": 1350.8,
+   "games": 12,
+   "lastDate": "2024-12-19",
+   "league": null,
+   "name": "HJK"
+  },
+  "9864": {
+   "elo": 1484.3,
+   "games": 101,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga (87)",
+   "name": "Málaga"
+  },
+  "9865": {
+   "elo": 1565.3,
+   "games": 143,
+   "lastDate": "2026-11-23",
+   "league": "LaLiga2 (140)",
+   "name": "Almería"
+  },
+  "9866": {
+   "elo": 1586.8,
+   "games": 127,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga (87)",
+   "name": "Deportivo Alavés"
+  },
+  "9867": {
+   "elo": 1385.7,
+   "games": 98,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga2 (140)",
+   "name": "Tenerife"
+  },
+  "9869": {
+   "elo": 1424.1,
+   "games": 143,
+   "lastDate": "2026-11-22",
+   "league": "LaLiga2 (140)",
+   "name": "Sporting Gijón"
+  },
+  "9873": {
+   "elo": 1283.1,
+   "games": 37,
+   "lastDate": "2024-05-17",
+   "league": "Ligue 2 (110)",
+   "name": "Valenciennes"
+  },
+  "9874": {
+   "elo": 1298.6,
+   "games": 13,
+   "lastDate": "2026-11-23",
+   "league": "Ligue 2 (110)",
+   "name": "Sochaux"
+  },
+  "9875": {
+   "elo": 1720.7,
+   "games": 147,
+   "lastDate": "2026-11-24",
+   "league": "Serie A (55)",
+   "name": "Napoli"
+  },
+  "9876": {
+   "elo": 1406.4,
+   "games": 127,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Hellas Verona"
+  },
+  "9877": {
+   "elo": 1303.6,
+   "games": 13,
+   "lastDate": "2026-11-24",
+   "league": "Serie B (86)",
+   "name": "Vicenza"
+  },
+  "9878": {
+   "elo": 1330.9,
+   "games": 38,
+   "lastDate": "2026-05-08",
+   "league": "Serie B (86)",
+   "name": "Pescara"
+  },
+  "9879": {
+   "elo": 1693.3,
+   "games": 125,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (47)",
+   "name": "Fulham"
+  },
+  "9881": {
+   "elo": 1355.1,
+   "games": 118,
+   "lastDate": "2026-05-08",
+   "league": "Serie B (86)",
+   "name": "Spezia"
+  },
+  "9882": {
+   "elo": 1367.7,
+   "games": 129,
+   "lastDate": "2026-11-25",
+   "league": "Serie B (86)",
+   "name": "Sampdoria"
+  },
+  "9885": {
+   "elo": 1776.1,
+   "games": 150,
+   "lastDate": "2026-11-22",
+   "league": "Serie A (55)",
+   "name": "Juventus"
+  },
+  "9887": {
+   "elo": 1471.2,
+   "games": 128,
+   "lastDate": "2026-11-25",
+   "league": "Serie B (86)",
+   "name": "Modena"
+  },
+  "9888": {
+   "elo": 1511.3,
+   "games": 126,
+   "lastDate": "2026-11-21",
+   "league": "Serie A (55)",
+   "name": "Lecce"
+  },
+  "9889": {
+   "elo": 1409.5,
+   "games": 89,
+   "lastDate": "2026-11-25",
+   "league": "Serie B (86)",
+   "name": "Mantova"
+  },
+  "9891": {
+   "elo": 1626.2,
+   "games": 126,
+   "lastDate": "2026-11-22",
+   "league": "Serie A (55)",
+   "name": "Frosinone"
+  },
+  "9892": {
+   "elo": 1085.1,
+   "games": 116,
+   "lastDate": "2026-11-23",
+   "league": "Allsvenskan (67)",
+   "name": "Kalmar FF"
+  },
+  "9893": {
+   "elo": 1305.6,
+   "games": 116,
+   "lastDate": "2026-11-23",
+   "league": "Allsvenskan (67)",
+   "name": "IFK Göteborg"
+  },
+  "9902": {
+   "elo": 1572.7,
+   "games": 141,
+   "lastDate": "2026-11-21",
+   "league": "Premier League (47)",
+   "name": "Ipswich Town"
+  },
+  "9904": {
+   "elo": 1461.9,
+   "games": 114,
+   "lastDate": "2026-11-21",
+   "league": "2. Bundesliga (146)",
+   "name": "Hannover 96"
+  },
+  "9905": {
+   "elo": 1596.6,
+   "games": 122,
+   "lastDate": "2026-11-22",
+   "league": "Bundesliga (54)",
+   "name": "Mainz 05"
+  },
+  "9906": {
+   "elo": 1824.6,
+   "games": 168,
+   "lastDate": "2026-11-25",
+   "league": "LaLiga (87)",
+   "name": "Atlético Madrid"
+  },
+  "9907": {
+   "elo": 1339.7,
+   "games": 79,
+   "lastDate": "2026-11-20",
+   "league": "Superligaen (46)",
+   "name": "Lyngby"
+  },
+  "9908": {
+   "elo": 1509.6,
+   "games": 127,
+   "lastDate": "2026-11-21",
+   "league": "Eredivisie (57)",
+   "name": "FC Utrecht"
+  },
+  "9910": {
+   "elo": 1611.0,
+   "games": 145,
+   "lastDate": "2026-11-21",
+   "league": "LaLiga (87)",
+   "name": "Celta Vigo"
+  },
+  "9911": {
+   "elo": 1406.7,
+   "games": 113,
+   "lastDate": "2026-11-21",
+   "league": "2. Bundesliga (146)",
+   "name": "Bochum"
+  },
+  "9912": {
+   "elo": 1399.4,
+   "games": 46,
+   "lastDate": "2026-11-20",
+   "league": "2. Bundesliga (146)",
+   "name": "Arminia Bielefeld"
+  },
+  "9917": {
+   "elo": 1508.2,
+   "games": 128,
+   "lastDate": "2026-11-20",
+   "league": "Eliteserien (59)",
+   "name": "Molde"
+  },
+  "9919": {
+   "elo": 1331.5,
+   "games": 108,
+   "lastDate": "2026-11-21",
+   "league": "Eliteserien (59)",
+   "name": "Start"
+  },
+  "9925": {
+   "elo": 1649.3,
+   "games": 158,
+   "lastDate": "2026-11-21",
+   "league": "Premiership (64)",
+   "name": "Celtic"
+  },
+  "9927": {
+   "elo": 1447.9,
+   "games": 128,
+   "lastDate": "2026-11-21",
+   "league": "Premiership (64)",
+   "name": "Motherwell"
+  },
+  "9931": {
+   "elo": 1419.1,
+   "games": 136,
+   "lastDate": "2026-11-22",
+   "league": "Super League (69)",
+   "name": "Basel"
+  },
+  "9937": {
+   "elo": 1756.6,
+   "games": 125,
+   "lastDate": "2026-11-23",
+   "league": "Premier League (47)",
+   "name": "Brentford"
+  },
+  "9938": {
+   "elo": 1458.0,
+   "games": 89,
+   "lastDate": "2026-11-21",
+   "league": "Premiership (64)",
+   "name": "Dundee United"
+  },
+  "9939": {
+   "elo": 1531.9,
+   "games": 111,
+   "lastDate": "2026-11-22",
+   "league": "Superligaen (46)",
+   "name": "Viborg"
+  },
+  "9941": {
+   "elo": 1602.2,
+   "games": 121,
+   "lastDate": "2026-11-21",
+   "league": "Ligue 1 (53)",
+   "name": "Toulouse"
+  },
+  "9956": {
+   "elo": 1326.1,
+   "games": 128,
+   "lastDate": "2026-11-21",
+   "league": "Super League (69)",
+   "name": "Grasshopper"
+  },
+  "9976": {
+   "elo": 1345.0,
+   "games": 118,
+   "lastDate": "2026-05-22",
+   "league": "Serie B (86)",
+   "name": "Bari"
+  },
+  "9977": {
+   "elo": 1600.5,
+   "games": 129,
+   "lastDate": "2026-11-24",
+   "league": "Bundesliga (38)",
+   "name": "LASK"
+  },
+  "9982": {
+   "elo": 1339.0,
+   "games": 45,
+   "lastDate": "2026-11-21",
+   "league": "Bundesliga (38)",
+   "name": "Austria Lustenau"
+  },
+  "9984": {
+   "elo": 1451.8,
+   "games": 132,
+   "lastDate": "2026-11-20",
+   "league": "First Division A (40)",
+   "name": "Cercle Brugge"
+  },
+  "9985": {
+   "elo": 1518.4,
+   "games": 131,
+   "lastDate": "2026-11-22",
+   "league": "First Division A (40)",
+   "name": "Standard Liège"
+  },
+  "9986": {
+   "elo": 1585.9,
+   "games": 129,
+   "lastDate": "2026-11-21",
+   "league": "First Division A (40)",
+   "name": "Sporting Charleroi"
+  },
+  "9987": {
+   "elo": 1599.2,
+   "games": 152,
+   "lastDate": "2026-11-21",
+   "league": "First Division A (40)",
+   "name": "Genk"
+  },
+  "9988": {
+   "elo": 1470.1,
+   "games": 138,
+   "lastDate": "2026-11-21",
+   "league": "First Division A (40)",
+   "name": "Royal Antwerp"
+  },
+  "9991": {
+   "elo": 1561.8,
+   "games": 153,
+   "lastDate": "2026-11-22",
+   "league": "First Division A (40)",
+   "name": "Gent"
+  },
+  "9992": {
+   "elo": 1360.9,
+   "games": 36,
+   "lastDate": "2024-05-11",
+   "league": "First Division A (40)",
+   "name": "RWDM Brussels"
+  },
+  "9997": {
+   "elo": 1556.8,
+   "games": 131,
+   "lastDate": "2026-11-21",
+   "league": "First Division A (40)",
+   "name": "St.Truiden"
+  }
+ },
+ "leagues": {
+  "1. Division (136)": {
+   "clubs": 20,
+   "mean": 1392.1
+  },
+  "1. Liga (122)": {
+   "clubs": 19,
+   "mean": 1435.7
+  },
+  "2. Bundesliga (146)": {
+   "clubs": 24,
+   "mean": 1392.9
+  },
+  "Allsvenskan (67)": {
+   "clubs": 16,
+   "mean": 1278.7
+  },
+  "Bundesliga (38)": {
+   "clubs": 14,
+   "mean": 1424.5
+  },
+  "Bundesliga (54)": {
+   "clubs": 18,
+   "mean": 1635.2
+  },
+  "Championship (48)": {
+   "clubs": 31,
+   "mean": 1423.2
+  },
+  "Ekstraklasa (196)": {
+   "clubs": 26,
+   "mean": 1406.7
+  },
+  "Eliteserien (59)": {
+   "clubs": 16,
+   "mean": 1478.8
+  },
+  "Eredivisie (57)": {
+   "clubs": 24,
+   "mean": 1495.2
+  },
+  "First Division A (40)": {
+   "clubs": 22,
+   "mean": 1492.0
+  },
+  "HNL (252)": {
+   "clubs": 12,
+   "mean": 1419.8
+  },
+  "LaLiga (87)": {
+   "clubs": 20,
+   "mean": 1642.1
+  },
+  "LaLiga2 (140)": {
+   "clubs": 31,
+   "mean": 1396.2
+  },
+  "Liga Portugal (61)": {
+   "clubs": 25,
+   "mean": 1511.4
+  },
+  "Ligat ha'Al (127)": {
+   "clubs": 17,
+   "mean": 1396.8
+  },
+  "Ligue 1 (53)": {
+   "clubs": 18,
+   "mean": 1614.5
+  },
+  "Ligue 2 (110)": {
+   "clubs": 27,
+   "mean": 1366.9
+  },
+  "Premier League (441)": {
+   "clubs": 23,
+   "mean": 1394.0
+  },
+  "Premier League (47)": {
+   "clubs": 20,
+   "mean": 1740.3
+  },
+  "Premiership (64)": {
+   "clubs": 14,
+   "mean": 1433.2
+  },
+  "Serie A (55)": {
+   "clubs": 20,
+   "mean": 1651.7
+  },
+  "Serie B (86)": {
+   "clubs": 31,
+   "mean": 1370.8
+  },
+  "Super League (69)": {
+   "clubs": 15,
+   "mean": 1437.0
+  },
+  "Super League 1 (135)": {
+   "clubs": 19,
+   "mean": 1444.5
+  },
+  "Super Liga (182)": {
+   "clubs": 21,
+   "mean": 1387.0
+  },
+  "Superligaen (46)": {
+   "clubs": 16,
+   "mean": 1446.1
+  },
+  "Süper Lig (71)": {
+   "clubs": 28,
+   "mean": 1472.5
+  }
+ },
+ "meta": {
+  "K": 20.0,
+  "failed": [],
+  "fetchedAt": "2026-11-26T15:55:07Z",
+  "homeAdvantage": 65.0,
+  "matches": 30063,
+  "note": "own Elo scale (not ClubElo); a rating is a pre-match input only for matches after fetchedAt",
+  "source": "FotMob results, Elo computed by jarvis-data"
+ }
+}
