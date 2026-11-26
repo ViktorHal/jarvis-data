@@ -23,6 +23,7 @@ class Game(unittest.TestCase):
         g = S.parse_game(page("1109998"), "1109998")
         self.assertTrue(g["shootout"])
         self.assertEqual(g["goals"], [1, 1])                  # 2-1 after the shootout: 1-1 without it
+        self.assertEqual(g["final"], [2, 1])
         self.assertEqual(g["shots"], [32, 14])                # 33 on the page includes the shootout attempt
         self.assertEqual(g["starters"][1], {"name": "Lassinantti, Joel", "saves": 31, "shotsAgainst": 32})
         self.assertEqual(g["starters"][1]["shotsAgainst"] - g["starters"][1]["saves"], g["goals"][0])

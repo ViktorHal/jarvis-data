@@ -82,6 +82,7 @@ def parse_game(page, gid=None):
     first_in = {c: _clean(n) for c, n in re.findall(r"00:00 GK In (\S+) \d+\. (\S+, \S+)", text)}
     out = {"id": gid, "date": when.group(1) if when else None, "time": when.group(2) if when and when.group(2) else None,
            "home": home, "away": away, "codes": [hcode, acode],
+           "final": [int(score.group(1)), int(score.group(2))],
            "goals": [sum(p[0] for p in per[:keep]), sum(p[1] for p in per[:keep])],
            "reg": [sum(p[0] for p in per[:3]), sum(p[1] for p in per[:3])],
            "shots": [sum(shots[0][:keep]), sum(shots[1][:keep])],
