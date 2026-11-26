@@ -12,6 +12,7 @@ Personal, non-commercial use. No bookmaker websites are accessed; prices come fr
 |---|---|---|
 | [football-data.co.uk](https://www.football-data.co.uk) | 2026/27 results, shots, shots on target, corners, fouls, cards, referees, prices (incl. Pinnacle and closing prices), upcoming fixtures with prices | `data/football/` |
 | NHL.com public JSON (`api-web.nhle.com`, `api.nhle.com/stats/rest`) | standings with last 10, shots, PP/PK, goalies, skaters, schedule, who played yesterday | `data/nhl/` |
+| NHL.com per-game team and goalie summaries (`api.nhle.com/stats/rest`) | hockey model 1.2 state: decay-weighted shots/goals per team, starting-goalie save records, league totals (seed 2018/19–2025/26 in `h12_seed.json` + this season replayed each run). One match's numbers are copied with `python fetch/h12_match.py nhl "<home>" "<away>" <date> [<home goalie>] [<away goalie>]` | `data/nhl/h12_state.json` |
 | [stats.swehockey.se](https://stats.swehockey.se) | SHL 2026/27: every game with period scores (regulation, overtime, shootout), team table with last 10, home/away, back-to-back; goalies (save %, GAA); today's and tomorrow's games | `data/shl/` |
 | [statz.ai](https://statz.ai) | team xG and xGA 2026/27: season, home, away, last 5 (statz.ai's own xG model) | `data/xg/` |
 | [playerstats.football](https://playerstats.football) | football player shots and shots on target 2026/27 (top 50 per league, totals and per 90, minutes) | `data/players/` |
