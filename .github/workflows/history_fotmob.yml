@@ -1,0 +1,40 @@
+name: fetch FotMob history
+
+# Manual only: per-match player minutes, shots and shots on target from FotMob's public JSON (about one request
+# per match, 0.6 s apart) for player-shot calibration. Stored on the "history-fotmob" branch; never touches main.
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "e.g. 2025/2026"
+        required: true
+        default: "2025/2026"
+
+permissions:
+  contents: write
+
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: fetch
+        env:
+          SEASON: ${{ inputs.season }}
+        run: python fetch/fotmob.py history "$SEASON"
+      - name: store on history-fotmob branch
+        if: always()
+        run: |
+          git config user.name "jarvis-data-bot"
+          git config user.email "jarvis-data-bot@users.noreply.github.com"
+          mv history /tmp/history
+          git checkout --orphan history-fotmob
+          git rm -rq --cached . && rm -rf ./* .github
+          mv /tmp/history ./history
+          git add -A
+          git commit -qm "FotMob history $(date -u +%FT%TZ)"
+          git push -f origin history-fotmob
