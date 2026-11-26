@@ -247,7 +247,9 @@ class TestPinnacle(Base):
         {"event_id": 1, "league_id": 1980, "league_name": "England - Premier League", "home": "Tottenham Hotspur", "away": "Fulham",
          "starts": "2026-11-28T20:00:00Z", "periods": {"num_0": {"money_line": {"home": 1.7, "draw": 4.1, "away": 4.9},
                                                                 "totals": {"2.5": {"points": 2.5, "over": 1.85, "under": 2.02}}}}},
-        {"event_id": 2, "league_name": "Brazil - Serie B", "home": "A", "away": "B", "periods": {"num_0": {}}}]}
+        {"event_id": 2, "league_name": "Brazil - Serie B", "home": "A", "away": "B", "periods": {"num_0": {}}},
+        {"event_id": 9, "league_id": 1980, "league_name": "England - Premier League", "home": "Tottenham Hotspur", "away": "Fulham",
+         "periods": {"num_0": {"money_line": {"home": 1.5, "draw": None, "away": 2.6}, "totals": {}}}}]}
     HOCKEY = {"sport_id": 4, "events": [{"event_id": 3, "league_name": "NHL", "home": "Ottawa Senators", "away": "Boston Bruins",
                                          "periods": {"num_0": {"money_line": {"home": 1.9, "away": 1.95}}}}]}
 

@@ -74,11 +74,22 @@ def run(log: Log, key=None, now=None):
         try:
             js = json.loads(get(url, retries=1, timeout=60, headers={"x-portal-apikey": key}).decode("utf-8"))
             evs = js.get("events") or []
+            def main_line(e):
+                """Pinnacle lists each soccer match up to three times (the main matchup plus alternative
+                matchups without a draw price or totals). Keep the main one: 3-way money line or totals."""
+                p0 = (e.get("periods") or {}).get("num_0") or {}
+                if sport != "soccer":
+                    return bool(p0)
+                return (p0.get("money_line") or {}).get("draw") is not None or bool(p0.get("totals"))
+            leagues_seen = {}
+            for e in evs:
+                leagues_seen[e.get("league_name")] = leagues_seen.get(e.get("league_name"), 0) + 1
             kept = [{"sport": sport, "event_id": e.get("event_id"), "league": e.get("league_name"), "league_id": e.get("league_id"),
                      "home": e.get("home"), "away": e.get("away"), "starts": e.get("starts"), "status": e.get("status"),
-                     "periods": e.get("periods")} for e in evs if keep(sport, e.get("league_name")) and e.get("periods")]
+                     "periods": e.get("periods")} for e in evs if keep(sport, e.get("league_name")) and main_line(e)]
             events += kept
-            calls.append({"sport": sport, "eventsTotal": len(evs), "kept": len(kept), "last": js.get("last")})
+            calls.append({"sport": sport, "eventsTotal": len(evs), "kept": len(kept), "last": js.get("last"),
+                          "leagues": dict(sorted(leagues_seen.items(), key=lambda x: -x[1])[:60])})
             log.ok(f"pinnacle {sport}", url, len(kept), note=f"{len(evs)} events from Pinnacle, {len(kept)} in scope")
         except Exception as e:
             msg = str(e).replace(key, "***")
