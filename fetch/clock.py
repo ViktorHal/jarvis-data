@@ -1,5 +1,5 @@
 """Safety net for GitHub's cron: GitHub may delay or skip scheduled runs (it skipped every one on the repo's
-first day). This loop runs inside the "clock" workflow and starts fetch.yml / odds.yml with workflow_dispatch
+first day). This loop runs inside the "clock" workflow and starts fetch.yml / odds.yml / results.yml with workflow_dispatch
 whenever a slot has passed without a run of that workflow (scheduled or not). It never fetches anything itself,
 so it adds no requests to any data source; the odds cap (80/day) is still enforced inside pinnacle.py.
 Before its job time runs out it starts the next clock run, so it keeps going without a schedule.
@@ -15,6 +15,7 @@ TOKEN = os.environ.get("GITHUB_TOKEN", "")
 RUN_FOR = timedelta(hours=5, minutes=40)
 FETCH_SLOTS = ((4, 20), (10, 20), (16, 20))        # UTC, as fetch.yml's cron
 ODDS_HOURS, ODDS_MIN = range(6, 23), 35             # UTC, as odds.yml's cron
+RESULTS_MIN = 5                                     # UTC, every hour, as results.yml's cron
 GRACE = timedelta(minutes=10)                       # give GitHub's own schedule 10 minutes first
 
 
@@ -41,6 +42,10 @@ def due_slots(now):
         out.append(("fetch.yml", max(fs)))
     if now.hour in ODDS_HOURS and now.minute >= ODDS_MIN + GRACE.seconds // 60:
         out.append(("odds.yml", now.replace(minute=ODDS_MIN, second=0, microsecond=0)))
+    rs = now.replace(minute=RESULTS_MIN, second=0, microsecond=0)
+    if rs + GRACE > now:
+        rs -= timedelta(hours=1)
+    out.append(("results.yml", rs))
     return out
 
 

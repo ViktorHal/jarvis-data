@@ -12,8 +12,15 @@ T = lambda s: datetime.fromisoformat(s).replace(tzinfo=timezone.utc)
 class Clock(unittest.TestCase):
     def run_tick(self, now, last):
         sent = []
+        last = dict({"results.yml": T(now)}, **last)      # results ran just now unless a test says otherwise
         clock.tick(T(now), last=lambda wf: last.get(wf), dispatch=sent.append)
         return sent
+
+    def test_missed_results_slot(self):
+        self.assertEqual(self.run_tick("2026-11-26T22:20", {"odds.yml": T("2026-11-26T21:36"), "fetch.yml": T("2026-11-26T16:21"),
+                                                            "results.yml": T("2026-11-26T21:06")}), ["results.yml"])
+        self.assertEqual(self.run_tick("2026-11-26T22:12", {"odds.yml": T("2026-11-26T21:36"), "fetch.yml": T("2026-11-26T16:21"),
+                                                            "results.yml": T("2026-11-26T21:06")}), [])
 
     def test_missed_odds_slot_is_started_once(self):
         self.assertEqual(self.run_tick("2026-11-26T13:46", {"odds.yml": T("2026-11-26T12:36"), "fetch.yml": T("2026-11-26T10:21")}), ["odds.yml"])
