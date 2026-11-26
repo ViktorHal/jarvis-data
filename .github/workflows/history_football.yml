@@ -14,17 +14,28 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
       - name: fetch
         run: |
           mkdir -p /tmp/h
-          for s in 2122 2223 2324 2425 2526; do
-            for c in E0 E1 SP1 I1 D1 F1 N1 B1 P1 T1 G1 SC0 SP2 I2 D2 F2; do
-              curl -sS -f -m 60 -A "jarvis-data/1.0 (personal, non-commercial)" -o /tmp/h/${s}_${c}.csv \
-                "https://www.football-data.co.uk/mmz4281/${s}/${c}.csv" || echo "failed ${s} ${c}"
-              sleep 1
-            done
-          done
-          ls /tmp/h | wc -l
+          python - <<'PY'
+          import sys, time
+          sys.path.insert(0, "fetch")
+          from common import get
+          ok = 0
+          for s in ("2122", "2223", "2324", "2425", "2526"):
+              for c in ("E0", "E1", "SP1", "I1", "D1", "F1", "N1", "B1", "P1", "T1", "G1", "SC0", "SP2", "I2", "D2", "F2"):
+                  try:
+                      b = get(f"https://www.football-data.co.uk/mmz4281/{s}/{c}.csv")
+                      open(f"/tmp/h/{s}_{c}.csv", "wb").write(b)
+                      ok += 1
+                  except Exception as e:
+                      print("failed", s, c, str(e)[:100])
+                  time.sleep(1)
+          print("ok", ok)
+          PY
       - name: store on history-football branch
         run: |
           git config user.name "jarvis-data-bot"
