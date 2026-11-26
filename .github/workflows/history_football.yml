@@ -1,0 +1,37 @@
+name: fetch football history
+
+# Manual only: past football-data.co.uk season files (results, corners, cards, shots, closing prices) for
+# model calibration. Stored on the "history-football" branch; never touches main.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: fetch
+        run: |
+          mkdir -p /tmp/h
+          for s in 2122 2223 2324 2425 2526; do
+            for c in E0 E1 SP1 I1 D1 F1 N1 B1 P1 T1 G1 SC0 SP2 I2 D2 F2; do
+              curl -sS -f -m 60 -A "jarvis-data/1.0 (personal, non-commercial)" -o /tmp/h/${s}_${c}.csv \
+                "https://www.football-data.co.uk/mmz4281/${s}/${c}.csv" || echo "failed ${s} ${c}"
+              sleep 1
+            done
+          done
+          ls /tmp/h | wc -l
+      - name: store on history-football branch
+        run: |
+          git config user.name "jarvis-data-bot"
+          git config user.email "jarvis-data-bot@users.noreply.github.com"
+          git checkout --orphan history-football
+          git rm -rq --cached . && rm -rf ./* .github
+          mkdir -p history/football && cp /tmp/h/*.csv history/football/
+          git add -A
+          git commit -qm "football history $(date -u +%FT%TZ)"
+          git push -f origin history-football
