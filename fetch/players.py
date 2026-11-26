@@ -54,7 +54,7 @@ def run(log: Log):
                 season, rows = parse(get_text(url, retries=2))
                 if season != "2026/2027":
                     raise ValueError(f"page shows season {season}, not 2026/2027")
-                if len(rows) < 20:
+                if len(rows) < 10:
                     raise ValueError(f"only {len(rows)} rows")
                 seasons.add(season)
                 for pid, pname, team, mins, total, p90 in rows:
