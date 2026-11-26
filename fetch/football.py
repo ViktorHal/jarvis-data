@@ -105,6 +105,18 @@ def team_table(matches):
     return out
 
 
+def league_table(matches):
+    """This season's league averages per match (inputs of Jarvis' corners/cards v2 model)."""
+    def mean(f):
+        v = [f(r) for r in matches]
+        v = [x for x in v if x is not None]
+        return (round(sum(v) / len(v), 3), len(v)) if v else (None, 0)
+    hc, n = mean(lambda r: _num(r.get("HC")))
+    ac, _ = mean(lambda r: _num(r.get("AC")))
+    y, ny = mean(lambda r: _num(r.get("HY")) + _num(r.get("AY")) if _num(r.get("HY")) is not None and _num(r.get("AY")) is not None else None)
+    return {"corners_home_pg": hc, "corners_away_pg": ac, "yellow_pg": y, "matches": n, "yellow_matches": ny}
+
+
 def referee_table(matches):
     refs = {}
     for r in matches:
@@ -154,7 +166,7 @@ def run(log: Log):
             meta = {"league": name, "code": code, "season": "2026/27", "source": url, "fetchedAt": now_iso(),
                     "matches": len(matches), "lastMatchDate": matches[-1]["_date"],
                     "note": "per-game averages over matches where the column exists; no xG in this source"}
-            write_json(f"football/teams_{code}.json", {"meta": meta, "teams": team_table(matches)})
+            write_json(f"football/teams_{code}.json", {"meta": meta, "league": league_table(matches), "teams": team_table(matches)})
             write_json(f"football/referees_{code}.json", {"meta": meta, "referees": referee_table(matches)})
             log.ok(f"football-data {code}", url, len(matches))
         except Exception as e:  # one league failing never stops the others

@@ -81,6 +81,10 @@ class TestFootball(Base):
         self.assertEqual(spurs["home"]["games"], 1)
         self.assertEqual(spurs["away"]["shots_for_pg"], 15.0)
         self.assertEqual(spurs["lastMatch"], "2026-08-29")
+        lg = t["league"]                                            # league averages for corners/cards v2
+        self.assertEqual(lg["matches"], 2)                          # corners missing in one match: not counted
+        self.assertEqual(lg["yellow_matches"], 3)
+        self.assertTrue(lg["corners_home_pg"] > 0 and lg["yellow_pg"] > 0)
         r = self.read("football/referees_E0.json")["referees"]
         self.assertEqual(r["M Oliver"], {"games": 2, "yellow_pg": 5.0, "red_rate": 0.5, "fouls_pg": 22.0})
         fx = self.read("football/fixtures.json")["fixtures"]

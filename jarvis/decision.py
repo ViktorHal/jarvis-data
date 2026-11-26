@@ -37,7 +37,7 @@ try:  # hockey model 1.2 (production for hockey from 26 Nov 2026 when its inputs
 except Exception:  # a missing or broken hockey12.py falls back to 1.1, recorded per match
     hockey12 = None
 
-VERSION = "3.3"
+VERSION = "3.4"
 
 DEFAULT_CONFIG = {
     "mode": "shadow",                 # "shadow" | "active"
@@ -538,10 +538,25 @@ def hockey12_status(m, cfg, now):
     return True, None
 
 
+def market_1x2(inp, mo):
+    """De-margined home/away win probabilities from a complete public Match result set, else None."""
+    hn, an = inp["home"].get("name", "Home"), inp["away"].get("name", "Away")
+    ks = [line_key("Match result", hn), line_key("Match result", "Draw"), line_key("Match result", an)]
+    o = [mo.get(k) for k in ks]
+    if not all(isinstance(x, (int, float)) and x > 1 for x in o):
+        return None
+    ph, _, pa = novig(o)
+    return {"ph": round(ph, 4), "pa": round(pa, 4), "source": "marketOdds Match result, de-margined"}
+
+
 def process_match(m, statuses, now, cfg):
     sport = SPORT_KEY.get(str(m.get("sport", "football")).lower(), "football")
     inp = dict(m["inputs"])
     inp["sport"] = sport
+    if sport == "football" and "market" not in inp:
+        mk = market_1x2(inp, m.get("marketOdds") or {})
+        if mk:
+            inp["market"] = mk          # corners/cards v2 use who the market favours (computed here, never typed)
     priced = model.run(inp)
     h12_used, h12_info = False, None
     if sport == "hockey":
@@ -681,14 +696,22 @@ def _tier_for(odds, p, e, cfg):
 
 FAMILY_GROUP = {**{g: "goals" for g in GOAL_FAMILIES_ALL}, "Corners": "corners", "Team corners": "corners",
                 "Cards": "cards", "Red card": "cards", **{g: "hockey" for g in HOCKEY_TEAM}}
-# Corners and cards are not offered without a market price: on 24,000 matches (football-data.co.uk 2021-2026,
-# research/corners_cards_backtest.json) team statistics predicted total corners and total cards no better than
-# the league average, so a "likely" corners or cards line here would be the league average dressed up.
+# Corners and cards are offered without a market price only when model.py priced them with the calibrated v2
+# (research/corners_cards_v2.json; it needs the league block). The old 1.1 averages were no better than the league
+# average on 24,000 matches, so 1.1 corners/cards are never offered unpriced.
 CHECK_FAMILIES = ("Team goals", "Both teams to score", "Total goals",
-                  "Player shots", "Player shots on target", "Player shots on goal", "Player points")
+                  "Player shots", "Player shots on target", "Player shots on goal", "Player points",
+                  "Corners", "Team corners", "Cards")
+SET_PIECE = {"Corners": "setPieceModel", "Team corners": "setPieceModel", "Cards": "cardsModel"}
 PLAYER_FAMILIES = ("Player shots", "Player shots on target", "Player shots on goal")
 COMBO_UNPRICED = ("Team goals", "Both teams to score", "Total goals", "Player shots", "Player shots on target",
-                  "Player shots on goal", "Player points")
+                  "Player shots on goal", "Player points", "Corners", "Team corners", "Cards")
+
+
+def _calibrated(m, r):
+    """Unpriced corners/cards lines only from the calibrated v2 model."""
+    f = SET_PIECE.get(r["group"])
+    return f is None or str((m.get("expected") or {}).get(f, "")).startswith("v2")
 _rank = lambda r: 0 if FAMILY_GROUP.get(r["group"]) in ("goals", "hockey") else 1 if r["group"].startswith("Player") else 2
 GOAL_OVER = re.compile(r"(^Over )|( over )|(^Yes$)")
 
@@ -787,7 +810,7 @@ def extra_products(processed, cfg, rules, room, add, taken):
                     or (m["id"], _gkey(r)) in used_keys:
                 continue
             # unpriced corners/cards are not calibrated yet: they may be single checks, never legs of a combo
-            if not (r[rules]["post"] or (_checkable(r, rules) and r["group"] in COMBO_UNPRICED)):
+            if not (r[rules]["post"] or (_checkable(r, rules) and r["group"] in COMBO_UNPRICED and _calibrated(m, r))):
                 continue
             if best is None or (_rank(r), -r["prob"]) < (_rank(best), -best["prob"]):
                 best = r
@@ -822,6 +845,7 @@ def extra_products(processed, cfg, rules, room, add, taken):
         if not room(m["id"]):
             continue
         lines = [r for r in m["markets"] if r["group"] in CHECK_FAMILIES and _checkable(r, rules) and ok_group(m, r)
+                 and _calibrated(m, r)
                  and r["prob"] / 100 >= ck["minProb"] and ck["minOdds"][0] <= r["minOdds"] <= ck["minOdds"][1]
                  and (m["id"], r["key"]) not in taken]
         seen = {k for mid, k in used_keys if mid == m["id"]}      # not again what a combo/builder/single already holds
