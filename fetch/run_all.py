@@ -11,6 +11,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import elo  # noqa: E402
 import jelo  # noqa: E402
 import football  # noqa: E402
+import fotmob_players  # noqa: E402
 import h12_nhl  # noqa: E402
 import h12_shl  # noqa: E402
 import nhl  # noqa: E402
@@ -23,7 +24,7 @@ from common import Log, now_iso, write_json  # noqa: E402
 
 def main():
     log = Log()
-    for name, mod in (("football", football), ("nhl", nhl), ("nhl h12", h12_nhl), ("shl", shl), ("shl games", shl_games), ("shl h12", h12_shl), ("xg", xg), ("players", players), ("elo", elo), ("jarvis elo", jelo)):
+    for name, mod in (("football", football), ("nhl", nhl), ("nhl h12", h12_nhl), ("shl", shl), ("shl games", shl_games), ("shl h12", h12_shl), ("xg", xg), ("players", players), ("fotmob players", fotmob_players), ("elo", elo), ("jarvis elo", jelo)):
         try:
             mod.run(log)
         except Exception as e:  # a bug in one module must not lose the others' manifest entries
