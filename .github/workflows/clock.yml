@@ -1,0 +1,29 @@
+name: clock
+
+# Safety net for GitHub's cron (see fetch/clock.py): starts fetch/odds when a slot was missed, then restarts itself.
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "50 */6 * * *"   # also restarts the loop if it ever stops
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: clock
+  cancel-in-progress: false
+
+jobs:
+  clock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: clock
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python fetch/clock.py
