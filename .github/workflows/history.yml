@@ -1,0 +1,32 @@
+name: fetch history
+
+# Manual only: downloads NHL game-level history for model development and stores it on the "history"
+# branch. Never touches main.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: fetch
+        run: python fetch/history_nhl.py
+      - name: store on history branch
+        run: |
+          git config user.name "jarvis-data-bot"
+          git config user.email "jarvis-data-bot@users.noreply.github.com"
+          mv history /tmp/history
+          git checkout --orphan history
+          git rm -rq --cached . && rm -rf ./* .github
+          mv /tmp/history ./history
+          git add -A
+          git commit -qm "NHL history $(date -u +%FT%TZ)"
+          git push -f origin history
