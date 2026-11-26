@@ -25,10 +25,10 @@ def run(log: Log, today=None):
     url = f"http://api.clubelo.com/{d}"
     try:
         try:
-            text = get_text(url, timeout=120, retries=2)
-        except Exception:
-            url = f"https://api.clubelo.com/{d}"          # the plain-http host is sometimes slow
-            text = get_text(url, timeout=120, retries=2)
+            text = get_text(url, timeout=25, retries=1)    # clubelo.com does not answer GitHub's servers today;
+        except Exception:                                   # keep the attempt short so it never slows the run
+            url = f"https://api.clubelo.com/{d}"
+            text = get_text(url, timeout=25, retries=1)
         clubs = parse(text)
         if not clubs:
             raise ValueError("empty snapshot")
