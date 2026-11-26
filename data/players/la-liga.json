@@ -1,0 +1,443 @@
+{
+ "meta": {
+  "fetchedAt": "2026-11-26T10:23:18Z",
+  "league": "La Liga",
+  "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
+  "season": "2026/27",
+  "source": "https://playerstats.football/la-liga/stats/<stat>"
+ },
+ "players": {
+  "Adrián Dela": {
+   "id": "4545454",
+   "minutes": 854,
+   "shots": 22.0,
+   "shots_p90": 2.32,
+   "team": "Levante"
+  },
+  "Adrián Niño Heredia": {
+   "id": "37656201",
+   "minutes": 549,
+   "shots": 24.0,
+   "shots_p90": 3.93,
+   "sot": 13.0,
+   "sot_p90": 2.13,
+   "team": "Málaga"
+  },
+  "Alberto Moleiro": {
+   "id": "37380649",
+   "minutes": 799,
+   "shots": 21.0,
+   "shots_p90": 2.37,
+   "sot": 8.0,
+   "sot_p90": 0.9,
+   "team": "Villarreal"
+  },
+  "Anthony Gordon": {
+   "id": "9611543",
+   "minutes": 705,
+   "shots": 25.0,
+   "shots_p90": 3.19,
+   "sot": 14.0,
+   "sot_p90": 1.79,
+   "team": "FC Barcelona"
+  },
+  "Antony": {
+   "id": "12393293",
+   "minutes": 779,
+   "shots": 40.0,
+   "shots_p90": 4.62,
+   "sot": 17.0,
+   "sot_p90": 1.96,
+   "team": "Real Betis"
+  },
+  "Arda Güler": {
+   "id": "37547467",
+   "minutes": 834,
+   "shots": 29.0,
+   "shots_p90": 3.13,
+   "sot": 12.0,
+   "sot_p90": 1.29,
+   "team": "Real Madrid"
+  },
+  "Arnaut Danjuma": {
+   "id": "26491",
+   "minutes": 928,
+   "sot": 7.0,
+   "sot_p90": 0.68,
+   "team": "Valencia"
+  },
+  "Ayoze Pérez": {
+   "id": "1396",
+   "minutes": 663,
+   "shots": 19.0,
+   "shots_p90": 2.58,
+   "sot": 8.0,
+   "sot_p90": 1.09,
+   "team": "Villarreal"
+  },
+  "Bil Nsongo": {
+   "id": "37773259",
+   "minutes": 870,
+   "shots": 30.0,
+   "shots_p90": 3.1,
+   "sot": 8.0,
+   "sot_p90": 0.83,
+   "team": "Deportivo La Coruña"
+  },
+  "Chupe": {
+   "id": "37640769",
+   "minutes": 890,
+   "shots": 25.0,
+   "shots_p90": 2.53,
+   "sot": 8.0,
+   "sot_p90": 0.81,
+   "team": "Málaga"
+  },
+  "Cucho Hernández": {
+   "id": "240195",
+   "minutes": 589,
+   "sot": 7.0,
+   "sot_p90": 1.07,
+   "team": "Real Betis"
+  },
+  "Edu Expósito": {
+   "id": "188057",
+   "minutes": 970,
+   "shots": 20.0,
+   "shots_p90": 1.86,
+   "team": "Espanyol"
+  },
+  "Fer Niño": {
+   "id": "37297042",
+   "minutes": 876,
+   "shots": 22.0,
+   "shots_p90": 2.26,
+   "sot": 10.0,
+   "sot_p90": 1.03,
+   "team": "Elche"
+  },
+  "Fermín López": {
+   "id": "37596363",
+   "minutes": 844,
+   "shots": 26.0,
+   "shots_p90": 2.77,
+   "sot": 15.0,
+   "sot_p90": 1.6,
+   "team": "FC Barcelona"
+  },
+  "Georges Mikautadze": {
+   "id": "13963088",
+   "minutes": 750,
+   "shots": 26.0,
+   "shots_p90": 3.12,
+   "sot": 14.0,
+   "sot_p90": 1.68,
+   "team": "Villarreal"
+  },
+  "Gonçalo Guedes": {
+   "id": "97692",
+   "minutes": 644,
+   "shots": 29.0,
+   "shots_p90": 4.05,
+   "sot": 7.0,
+   "sot_p90": 0.98,
+   "team": "Real Sociedad"
+  },
+  "Isco": {
+   "id": "185972",
+   "minutes": 704,
+   "shots": 22.0,
+   "shots_p90": 2.81,
+   "sot": 12.0,
+   "sot_p90": 1.53,
+   "team": "Real Betis"
+  },
+  "Iván Romero": {
+   "id": "37380652",
+   "minutes": 905,
+   "shots": 24.0,
+   "shots_p90": 2.39,
+   "sot": 12.0,
+   "sot_p90": 1.19,
+   "team": "Levante"
+  },
+  "Iñaki Williams": {
+   "id": "186801",
+   "minutes": 855,
+   "shots": 28.0,
+   "shots_p90": 2.95,
+   "sot": 12.0,
+   "sot_p90": 1.26,
+   "team": "Athletic Club"
+  },
+  "Jonathan David": {
+   "id": "16827175",
+   "minutes": 331,
+   "sot": 9.0,
+   "sot_p90": 2.45,
+   "team": "Atlético de Madrid"
+  },
+  "Jorge de Frutos": {
+   "id": "447094",
+   "minutes": 778,
+   "sot": 8.0,
+   "sot_p90": 0.93,
+   "team": "Rayo Vallecano"
+  },
+  "Julián Alvarez": {
+   "id": "21394947",
+   "minutes": 493,
+   "shots": 22.0,
+   "shots_p90": 4.02,
+   "sot": 10.0,
+   "sot_p90": 1.83,
+   "team": "Atlético de Madrid"
+  },
+  "Kang-in Lee": {
+   "id": "9967153",
+   "minutes": 803,
+   "shots": 30.0,
+   "shots_p90": 3.36,
+   "sot": 8.0,
+   "sot_p90": 0.9,
+   "team": "Atlético de Madrid"
+  },
+  "Karim Adeyemi": {
+   "id": "15040126",
+   "minutes": 498,
+   "shots": 20.0,
+   "shots_p90": 3.61,
+   "sot": 8.0,
+   "sot_p90": 1.45,
+   "team": "FC Barcelona"
+  },
+  "Lucas Boyé": {
+   "id": "129862",
+   "minutes": 977,
+   "shots": 32.0,
+   "shots_p90": 2.95,
+   "sot": 15.0,
+   "sot_p90": 1.38,
+   "team": "Deportivo Alavés"
+  },
+  "Lucas Cepeda": {
+   "id": "37574526",
+   "minutes": 601,
+   "shots": 20.0,
+   "shots_p90": 3.0,
+   "sot": 9.0,
+   "sot_p90": 1.35,
+   "team": "Elche"
+  },
+  "Luka Sucic": {
+   "id": "22528446",
+   "minutes": 958,
+   "shots": 27.0,
+   "shots_p90": 2.54,
+   "sot": 10.0,
+   "sot_p90": 0.94,
+   "team": "Real Sociedad"
+  },
+  "Mariano Díaz": {
+   "id": "186936",
+   "minutes": 489,
+   "sot": 10.0,
+   "sot_p90": 1.84,
+   "team": "Deportivo Alavés"
+  },
+  "Martín Satriano": {
+   "id": "37396571",
+   "minutes": 977,
+   "shots": 24.0,
+   "shots_p90": 2.21,
+   "team": "Getafe"
+  },
+  "Mikel Oyarzabal": {
+   "id": "186932",
+   "minutes": 873,
+   "shots": 28.0,
+   "shots_p90": 2.89,
+   "sot": 12.0,
+   "sot_p90": 1.24,
+   "team": "Real Sociedad"
+  },
+  "Nelson Deossa": {
+   "id": "37555046",
+   "minutes": 469,
+   "shots": 22.0,
+   "shots_p90": 4.22,
+   "team": "Real Betis"
+  },
+  "Nico Williams": {
+   "id": "37297544",
+   "minutes": 706,
+   "shots": 26.0,
+   "shots_p90": 3.31,
+   "team": "Athletic Club"
+  },
+  "Nicolas Pépé": {
+   "id": "96656",
+   "minutes": 523,
+   "sot": 8.0,
+   "sot_p90": 1.38,
+   "team": "Villarreal"
+  },
+  "Orri Óskarsson": {
+   "id": "34573363",
+   "minutes": 673,
+   "shots": 26.0,
+   "shots_p90": 3.48,
+   "sot": 8.0,
+   "sot_p90": 1.07,
+   "team": "Real Sociedad"
+  },
+  "Pablo Durán": {
+   "id": "37585284",
+   "minutes": 586,
+   "sot": 13.0,
+   "sot_p90": 2.0,
+   "team": "Celta de Vigo"
+  },
+  "Pablo Fornals": {
+   "id": "186815",
+   "minutes": 878,
+   "shots": 22.0,
+   "shots_p90": 2.26,
+   "team": "Real Betis"
+  },
+  "Pablo García": {
+   "id": "37722328",
+   "minutes": 417,
+   "shots": 21.0,
+   "shots_p90": 4.53,
+   "sot": 8.0,
+   "sot_p90": 1.73,
+   "team": "Real Betis"
+  },
+  "Pape Gueye": {
+   "id": "433169",
+   "minutes": 899,
+   "shots": 20.0,
+   "shots_p90": 2.0,
+   "sot": 7.0,
+   "sot_p90": 0.7,
+   "team": "Villarreal"
+  },
+  "Pedro Díaz": {
+   "id": "445829",
+   "minutes": 621,
+   "shots": 28.0,
+   "shots_p90": 4.06,
+   "team": "Rayo Vallecano"
+  },
+  "Pierre-Emerick Aubameyang": {
+   "id": "31739",
+   "minutes": 716,
+   "shots": 21.0,
+   "shots_p90": 2.64,
+   "sot": 12.0,
+   "sot_p90": 1.51,
+   "team": "Deportivo La Coruña"
+  },
+  "Ramón Terrats": {
+   "id": "37316612",
+   "minutes": 898,
+   "shots": 24.0,
+   "shots_p90": 2.41,
+   "team": "Getafe"
+  },
+  "Raphinha": {
+   "id": "160258",
+   "minutes": 903,
+   "shots": 39.0,
+   "shots_p90": 3.89,
+   "sot": 19.0,
+   "sot_p90": 1.89,
+   "team": "FC Barcelona"
+  },
+  "Robert Navarro": {
+   "id": "21427714",
+   "minutes": 657,
+   "sot": 8.0,
+   "sot_p90": 1.1,
+   "team": "Athletic Club"
+  },
+  "Sergio Camello": {
+   "id": "7698443",
+   "minutes": 836,
+   "shots": 26.0,
+   "shots_p90": 2.8,
+   "sot": 14.0,
+   "sot_p90": 1.51,
+   "team": "Rayo Vallecano"
+  },
+  "Sergio Canales": {
+   "id": "185400",
+   "minutes": 972,
+   "shots": 30.0,
+   "shots_p90": 2.78,
+   "sot": 10.0,
+   "sot_p90": 0.93,
+   "team": "Racing Santander"
+  },
+  "Tajon Buchanan": {
+   "id": "31238822",
+   "minutes": 711,
+   "shots": 24.0,
+   "shots_p90": 3.04,
+   "sot": 8.0,
+   "sot_p90": 1.01,
+   "team": "Villarreal"
+  },
+  "Toni Martínez": {
+   "id": "10692",
+   "minutes": 694,
+   "shots": 24.0,
+   "shots_p90": 3.11,
+   "team": "Deportivo Alavés"
+  },
+  "Vinicius Junior": {
+   "id": "600687",
+   "minutes": 618,
+   "shots": 24.0,
+   "shots_p90": 3.5,
+   "sot": 7.0,
+   "sot_p90": 1.02,
+   "team": "Real Madrid"
+  },
+  "Yassir Zabiri": {
+   "id": "37739178",
+   "minutes": 889,
+   "shots": 33.0,
+   "shots_p90": 3.34,
+   "sot": 18.0,
+   "sot_p90": 1.82,
+   "team": "Racing Santander"
+  },
+  "Álex Baena": {
+   "id": "7698436",
+   "minutes": 831,
+   "shots": 30.0,
+   "shots_p90": 3.25,
+   "sot": 13.0,
+   "sot_p90": 1.41,
+   "team": "Atlético de Madrid"
+  },
+  "Álex Berenguer": {
+   "id": "187032",
+   "minutes": 820,
+   "shots": 22.0,
+   "shots_p90": 2.41,
+   "sot": 7.0,
+   "sot_p90": 0.77,
+   "team": "Athletic Club"
+  },
+  "Ángel Pérez": {
+   "id": "37587454",
+   "minutes": 845,
+   "sot": 9.0,
+   "sot_p90": 0.96,
+   "team": "Deportivo Alavés"
+  }
+ }
+}

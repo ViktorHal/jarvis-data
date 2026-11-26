@@ -1,0 +1,341 @@
+{
+ "goalies": {
+  "Arntzen, Jonas": {
+   "ga": 29.0,
+   "gaa": 3.03,
+   "gp_team": 19.0,
+   "gpi": 10.0,
+   "shutouts": 0.0,
+   "sog": 287.0,
+   "sv_pct": 0.899,
+   "team": "ÖHK",
+   "toi": "573:48"
+  },
+  "Blomgren, Oskar": {
+   "ga": 21.0,
+   "gaa": 2.98,
+   "gp_team": 19.0,
+   "gpi": 7.0,
+   "shutouts": 1.0,
+   "sog": 177.0,
+   "sv_pct": 0.8814,
+   "team": "MIF",
+   "toi": "423:31"
+  },
+  "Chrona, Magnus": {
+   "ga": 25.0,
+   "gaa": 2.38,
+   "gp_team": 18.0,
+   "gpi": 13.0,
+   "shutouts": 0.0,
+   "sog": 238.0,
+   "sv_pct": 0.895,
+   "team": "BIF",
+   "toi": "630:25"
+  },
+  "Clang, Calle": {
+   "ga": 17.0,
+   "gaa": 2.59,
+   "gp_team": 19.0,
+   "gpi": 7.0,
+   "shutouts": 0.0,
+   "sog": 164.0,
+   "sv_pct": 0.8963,
+   "team": "RBK",
+   "toi": "393:09"
+  },
+  "Dichow, Frederik": {
+   "ga": 5.0,
+   "gaa": 3.03,
+   "gp_team": 6.0,
+   "gpi": 2.0,
+   "shutouts": 0.0,
+   "sog": 35.0,
+   "sv_pct": 0.8571,
+   "team": "TIK",
+   "toi": "99:06"
+  },
+  "Gunnarsson, Jonas": {
+   "ga": 1.0,
+   "gaa": 2.51,
+   "gp_team": 11.0,
+   "gpi": 1.0,
+   "shutouts": 0.0,
+   "sog": 6.0,
+   "sv_pct": 0.8333,
+   "team": "TIK",
+   "toi": "23:56"
+  },
+  "Hellberg, Magnus": {
+   "ga": 37.0,
+   "gaa": 2.45,
+   "gp_team": 18.0,
+   "gpi": 16.0,
+   "shutouts": 1.0,
+   "sog": 457.0,
+   "sv_pct": 0.919,
+   "team": "DIF",
+   "toi": "904:22"
+  },
+  "Holm, Arvid": {
+   "ga": 36.0,
+   "gaa": 2.93,
+   "gp_team": 19.0,
+   "gpi": 13.0,
+   "shutouts": 0.0,
+   "sog": 290.0,
+   "sv_pct": 0.8759,
+   "team": "RBK",
+   "toi": "737:15"
+  },
+  "Högberg, Marcus": {
+   "ga": 45.0,
+   "gaa": 3.92,
+   "gp_team": 18.0,
+   "gpi": 12.0,
+   "shutouts": 1.0,
+   "sog": 359.0,
+   "sv_pct": 0.8747,
+   "team": "LHC",
+   "toi": "689:14"
+  },
+  "Ignatjew, Waltteri": {
+   "ga": 14.0,
+   "gaa": 2.35,
+   "gp_team": 18.0,
+   "gpi": 7.0,
+   "shutouts": 0.0,
+   "sog": 176.0,
+   "sv_pct": 0.9205,
+   "team": "LHC",
+   "toi": "357:23"
+  },
+  "Johansson, Jacob": {
+   "ga": 35.0,
+   "gaa": 2.17,
+   "gp_team": 18.0,
+   "gpi": 17.0,
+   "shutouts": 2.0,
+   "sog": 383.0,
+   "sv_pct": 0.9086,
+   "team": "TIK",
+   "toi": "966:39"
+  },
+  "Johansson, Lars": {
+   "ga": 23.0,
+   "gaa": 2.3,
+   "gp_team": 21.0,
+   "gpi": 11.0,
+   "shutouts": 1.0,
+   "sog": 301.0,
+   "sv_pct": 0.9236,
+   "team": "FRÖ",
+   "toi": "599:12"
+  },
+  "Källgren, Erik": {
+   "ga": 22.0,
+   "gaa": 3.02,
+   "gp_team": 17.0,
+   "gpi": 8.0,
+   "shutouts": 0.0,
+   "sog": 169.0,
+   "sv_pct": 0.8698,
+   "team": "BIF",
+   "toi": "437:26"
+  },
+  "Lampinen, Jani": {
+   "ga": 11.0,
+   "gaa": 4.62,
+   "gp_team": 18.0,
+   "gpi": 3.0,
+   "shutouts": 0.0,
+   "sog": 59.0,
+   "sv_pct": 0.8136,
+   "team": "SKE",
+   "toi": "142:44"
+  },
+  "Langhamer, Marek": {
+   "ga": 20.0,
+   "gaa": 1.65,
+   "gp_team": 19.0,
+   "gpi": 12.0,
+   "shutouts": 3.0,
+   "sog": 321.0,
+   "sv_pct": 0.9377,
+   "team": "MIF",
+   "toi": "726:44"
+  },
+  "Larmi, Emil": {
+   "ga": 13.0,
+   "gaa": 1.44,
+   "gp_team": 18.0,
+   "gpi": 9.0,
+   "shutouts": 1.0,
+   "sog": 220.0,
+   "sv_pct": 0.9409,
+   "team": "FBK",
+   "toi": "543:30"
+  },
+  "Larsson, Filip": {
+   "ga": 22.0,
+   "gaa": 2.32,
+   "gp_team": 17.0,
+   "gpi": 10.0,
+   "shutouts": 1.0,
+   "sog": 295.0,
+   "sv_pct": 0.9254,
+   "team": "ÖHK",
+   "toi": "569:34"
+  },
+  "Lassinantti, Joel": {
+   "ga": 27.0,
+   "gaa": 1.84,
+   "gp_team": 19.0,
+   "gpi": 16.0,
+   "shutouts": 2.0,
+   "sog": 386.0,
+   "sv_pct": 0.9301,
+   "team": "LHF",
+   "toi": "881:35"
+  },
+  "Lehtinen, Lassi": {
+   "ga": 25.0,
+   "gaa": 3.1,
+   "gp_team": 18.0,
+   "gpi": 9.0,
+   "shutouts": 1.0,
+   "sog": 271.0,
+   "sv_pct": 0.9077,
+   "team": "IFB",
+   "toi": "483:20"
+  },
+  "Liv, Herman": {
+   "ga": 20.0,
+   "gaa": 3.79,
+   "gp_team": 18.0,
+   "gpi": 6.0,
+   "shutouts": 0.0,
+   "sog": 153.0,
+   "sv_pct": 0.8693,
+   "team": "HV71",
+   "toi": "316:26"
+  },
+  "Mann, Strauss": {
+   "ga": 30.0,
+   "gaa": 1.99,
+   "gp_team": 17.0,
+   "gpi": 15.0,
+   "shutouts": 0.0,
+   "sog": 313.0,
+   "sv_pct": 0.9042,
+   "team": "SKE",
+   "toi": "903:40"
+  },
+  "Marmenlind, Daniel": {
+   "ga": 15.0,
+   "gaa": 3.69,
+   "gp_team": 19.0,
+   "gpi": 4.0,
+   "shutouts": 0.0,
+   "sog": 134.0,
+   "sv_pct": 0.8881,
+   "team": "DIF",
+   "toi": "243:40"
+  },
+  "Normann, Tobias": {
+   "ga": 22.0,
+   "gaa": 1.98,
+   "gp_team": 18.0,
+   "gpi": 11.0,
+   "shutouts": 2.0,
+   "sog": 215.0,
+   "sv_pct": 0.8977,
+   "team": "FRÖ",
+   "toi": "665:15"
+  },
+  "Persson, Ludvig": {
+   "ga": 18.0,
+   "gaa": 2.14,
+   "gp_team": 18.0,
+   "gpi": 10.0,
+   "shutouts": 1.0,
+   "sog": 231.0,
+   "sv_pct": 0.9221,
+   "team": "VÄX",
+   "toi": "504:00"
+  },
+  "Ringquist, Anton": {
+   "ga": 4.0,
+   "gaa": 6.23,
+   "gp_team": 7.0,
+   "gpi": 1.0,
+   "shutouts": 0.0,
+   "sog": 16.0,
+   "sv_pct": 0.75,
+   "team": "SKE",
+   "toi": "38:32"
+  },
+  "Sandström, Felix": {
+   "ga": 37.0,
+   "gaa": 2.95,
+   "gp_team": 15.0,
+   "gpi": 13.0,
+   "shutouts": 0.0,
+   "sog": 349.0,
+   "sv_pct": 0.894,
+   "team": "HV71",
+   "toi": "753:32"
+  },
+  "Thelin, Melker": {
+   "ga": 10.0,
+   "gaa": 1.1,
+   "gp_team": 18.0,
+   "gpi": 9.0,
+   "shutouts": 3.0,
+   "sog": 204.0,
+   "sv_pct": 0.951,
+   "team": "FBK",
+   "toi": "546:01"
+  },
+  "Tuohimaa, Frans": {
+   "ga": 27.0,
+   "gaa": 2.78,
+   "gp_team": 18.0,
+   "gpi": 10.0,
+   "shutouts": 0.0,
+   "sog": 277.0,
+   "sv_pct": 0.9025,
+   "team": "IFB",
+   "toi": "581:49"
+  },
+  "Ward, Matteus": {
+   "ga": 19.0,
+   "gaa": 4.34,
+   "gp_team": 19.0,
+   "gpi": 5.0,
+   "shutouts": 0.0,
+   "sog": 103.0,
+   "sv_pct": 0.8155,
+   "team": "LHF",
+   "toi": "262:50"
+  },
+  "Åhman, Adam": {
+   "ga": 32.0,
+   "gaa": 3.71,
+   "gp_team": 18.0,
+   "gpi": 10.0,
+   "shutouts": 0.0,
+   "sog": 228.0,
+   "sv_pct": 0.8596,
+   "team": "VÄX",
+   "toi": "518:12"
+  }
+ },
+ "meta": {
+  "fetchedAt": "2026-11-26T10:22:30Z",
+  "lastUpdate": "2026-11-24 21:34",
+  "note": "team = federation code (e.g. FBK Färjestad, RBK Rögle); gp_team = team games, gpi = games this goalie played",
+  "season": "2026/27",
+  "source": "https://stats.swehockey.se/Players/Statistics/LeadingGoaliesSVS/20961"
+ }
+}

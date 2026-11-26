@@ -1,0 +1,511 @@
+{
+ "meta": {
+  "fetchedAt": "2026-11-26T10:23:28Z",
+  "league": "Bundesliga",
+  "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
+  "season": "2026/27",
+  "source": "https://playerstats.football/bundesliga/stats/<stat>"
+ },
+ "players": {
+  "Adam Hlozek": {
+   "id": "8101006",
+   "minutes": 549,
+   "shots": 26.0,
+   "shots_p90": 4.26,
+   "sot": 11.0,
+   "sot_p90": 1.8,
+   "team": "TSG Hoffenheim"
+  },
+  "Adil Aouchiche": {
+   "id": "23269649",
+   "minutes": 768,
+   "shots": 27.0,
+   "shots_p90": 3.16,
+   "sot": 9.0,
+   "sot_p90": 1.05,
+   "team": "Schalke 04"
+  },
+  "Afonso Moreira": {
+   "id": "37597737",
+   "minutes": 756,
+   "shots": 24.0,
+   "shots_p90": 2.86,
+   "sot": 11.0,
+   "sot_p90": 1.31,
+   "team": "Bayer 04 Leverkusen"
+  },
+  "Anton Kade": {
+   "id": "37539420",
+   "minutes": 504,
+   "shots": 25.0,
+   "shots_p90": 4.46,
+   "sot": 11.0,
+   "sot_p90": 1.96,
+   "team": "FC Augsburg"
+  },
+  "Antonio Nusa": {
+   "id": "37570379",
+   "minutes": 743,
+   "shots": 24.0,
+   "shots_p90": 2.91,
+   "sot": 11.0,
+   "sot_p90": 1.33,
+   "team": "RB Leipzig"
+  },
+  "Arijon Ibrahimovic": {
+   "id": "37445066",
+   "minutes": 502,
+   "shots": 22.0,
+   "shots_p90": 3.94,
+   "sot": 10.0,
+   "sot_p90": 1.79,
+   "team": "FC Bayern München"
+  },
+  "Bambasé Conté": {
+   "id": "37538103",
+   "minutes": 465,
+   "shots": 15.0,
+   "shots_p90": 2.9,
+   "team": "TSG Hoffenheim"
+  },
+  "Bilal El Khannouss": {
+   "id": "37559109",
+   "minutes": 497,
+   "sot": 7.0,
+   "sot_p90": 1.27,
+   "team": "VfB Stuttgart"
+  },
+  "Can Uzun": {
+   "id": "37598726",
+   "minutes": 580,
+   "shots": 15.0,
+   "shots_p90": 2.33,
+   "sot": 6.0,
+   "sot_p90": 0.93,
+   "team": "Eintracht Frankfurt"
+  },
+  "Christopher Nkunku": {
+   "id": "96884",
+   "minutes": 478,
+   "shots": 20.0,
+   "shots_p90": 3.77,
+   "sot": 10.0,
+   "sot_p90": 1.88,
+   "team": "RB Leipzig"
+  },
+  "Chuki": {
+   "id": "37589995",
+   "minutes": 726,
+   "shots": 17.0,
+   "shots_p90": 2.11,
+   "sot": 7.0,
+   "sot_p90": 0.87,
+   "team": "Werder Bremen"
+  },
+  "Cole Campbell": {
+   "id": "37586025",
+   "minutes": 400,
+   "sot": 7.0,
+   "sot_p90": 1.58,
+   "team": "Elversberg"
+  },
+  "Dayot Upamecano": {
+   "id": "33685",
+   "minutes": 836,
+   "sot": 7.0,
+   "sot_p90": 0.75,
+   "team": "FC Bayern München"
+  },
+  "Deniz Undav": {
+   "id": "41077",
+   "minutes": 685,
+   "shots": 20.0,
+   "shots_p90": 2.63,
+   "team": "VfB Stuttgart"
+  },
+  "Derry Scherhant": {
+   "id": "37543258",
+   "minutes": 762,
+   "shots": 21.0,
+   "shots_p90": 2.48,
+   "sot": 7.0,
+   "sot_p90": 0.83,
+   "team": "SC Freiburg"
+  },
+  "Dzenan Pejcinovic": {
+   "id": "37590611",
+   "minutes": 390,
+   "shots": 17.0,
+   "shots_p90": 3.92,
+   "team": "VfB Stuttgart"
+  },
+  "Ermedin Demirovic": {
+   "id": "46092",
+   "minutes": 603,
+   "shots": 25.0,
+   "shots_p90": 3.73,
+   "sot": 13.0,
+   "sot_p90": 1.94,
+   "team": "VfB Stuttgart"
+  },
+  "Ezechiel Banzuzi": {
+   "id": "37601782",
+   "minutes": 757,
+   "sot": 7.0,
+   "sot_p90": 0.83,
+   "team": "RB Leipzig"
+  },
+  "Fabian Rieder": {
+   "id": "24817439",
+   "minutes": 893,
+   "shots": 15.0,
+   "shots_p90": 1.51,
+   "sot": 6.0,
+   "sot_p90": 0.6,
+   "team": "FC Augsburg"
+  },
+  "Farès Chaïbi": {
+   "id": "37536482",
+   "minutes": 572,
+   "shots": 21.0,
+   "shots_p90": 3.3,
+   "sot": 10.0,
+   "sot_p90": 1.57,
+   "team": "Eintracht Frankfurt"
+  },
+  "Felix Nmecha": {
+   "id": "6306127",
+   "minutes": 750,
+   "shots": 21.0,
+   "shots_p90": 2.52,
+   "sot": 10.0,
+   "sot_p90": 1.2,
+   "team": "Borussia Dortmund"
+  },
+  "Fisnik Asllani": {
+   "id": "32819099",
+   "minutes": 471,
+   "shots": 26.0,
+   "shots_p90": 4.97,
+   "sot": 7.0,
+   "sot_p90": 1.34,
+   "team": "TSG Hoffenheim"
+  },
+  "Fábio Silva": {
+   "id": "23269679",
+   "minutes": 404,
+   "shots": 17.0,
+   "shots_p90": 3.79,
+   "sot": 6.0,
+   "sot_p90": 1.34,
+   "team": "Borussia Dortmund"
+  },
+  "Fábio Vieira": {
+   "id": "5270497",
+   "minutes": 350,
+   "shots": 16.0,
+   "shots_p90": 4.11,
+   "sot": 7.0,
+   "sot_p90": 1.8,
+   "team": "Hamburger SV"
+  },
+  "Harry Kane": {
+   "id": "997",
+   "minutes": 734,
+   "shots": 43.0,
+   "shots_p90": 5.27,
+   "sot": 11.0,
+   "sot_p90": 1.35,
+   "team": "FC Bayern München"
+  },
+  "Hugo Bolin": {
+   "id": "37592739",
+   "minutes": 562,
+   "shots": 18.0,
+   "shots_p90": 2.88,
+   "sot": 6.0,
+   "sot_p90": 0.96,
+   "team": "Borussia Mönchengladbach"
+  },
+  "Ibrahim Maza": {
+   "id": "37645233",
+   "minutes": 778,
+   "shots": 28.0,
+   "shots_p90": 3.24,
+   "sot": 7.0,
+   "sot_p90": 0.81,
+   "team": "Bayer 04 Leverkusen"
+  },
+  "Igor Matanovic": {
+   "id": "37417027",
+   "minutes": 706,
+   "shots": 34.0,
+   "shots_p90": 4.33,
+   "sot": 16.0,
+   "sot_p90": 2.04,
+   "team": "SC Freiburg"
+  },
+  "Ismael Saibari": {
+   "id": "37317434",
+   "minutes": 362,
+   "shots": 22.0,
+   "shots_p90": 5.47,
+   "sot": 9.0,
+   "sot_p90": 2.24,
+   "team": "FC Bayern München"
+  },
+  "Jonathan Burkardt": {
+   "id": "3862683",
+   "minutes": 758,
+   "shots": 27.0,
+   "shots_p90": 3.21,
+   "sot": 10.0,
+   "sot_p90": 1.19,
+   "team": "Eintracht Frankfurt"
+  },
+  "Junior Adamu": {
+   "id": "5270387",
+   "minutes": 478,
+   "sot": 6.0,
+   "sot_p90": 1.13,
+   "team": "Schalke 04"
+  },
+  "Kenan Karaman": {
+   "id": "32122",
+   "minutes": 622,
+   "shots": 15.0,
+   "shots_p90": 2.17,
+   "team": "Schalke 04"
+  },
+  "Konstantinos Karetsas": {
+   "id": "37679641",
+   "minutes": 353,
+   "sot": 6.0,
+   "sot_p90": 1.53,
+   "team": "Borussia Dortmund"
+  },
+  "Luis Díaz": {
+   "id": "241036",
+   "minutes": 445,
+   "shots": 18.0,
+   "shots_p90": 3.64,
+   "sot": 10.0,
+   "sot_p90": 2.02,
+   "team": "FC Bayern München"
+  },
+  "Lukas Petkov": {
+   "id": "3862554",
+   "minutes": 891,
+   "shots": 19.0,
+   "shots_p90": 1.92,
+   "sot": 9.0,
+   "sot_p90": 0.91,
+   "team": "Elversberg"
+  },
+  "Marco Grüll": {
+   "id": "349061",
+   "minutes": 782,
+   "shots": 20.0,
+   "shots_p90": 2.3,
+   "sot": 6.0,
+   "sot_p90": 0.69,
+   "team": "Werder Bremen"
+  },
+  "Marius Bülter": {
+   "id": "418101",
+   "minutes": 551,
+   "sot": 7.0,
+   "sot_p90": 1.14,
+   "team": "FC Köln"
+  },
+  "Maurice Krattenmacher": {
+   "id": "37600457",
+   "minutes": 478,
+   "sot": 7.0,
+   "sot_p90": 1.32,
+   "team": "Elversberg"
+  },
+  "Maximilian Beier": {
+   "id": "23277923",
+   "minutes": 656,
+   "shots": 23.0,
+   "shots_p90": 3.16,
+   "team": "Borussia Dortmund"
+  },
+  "Maximilian Eggestein": {
+   "id": "32379",
+   "minutes": 900,
+   "shots": 15.0,
+   "shots_p90": 1.5,
+   "team": "SC Freiburg"
+  },
+  "Michael Gregoritsch": {
+   "id": "32361",
+   "minutes": 584,
+   "shots": 25.0,
+   "shots_p90": 3.85,
+   "sot": 17.0,
+   "sot_p90": 2.62,
+   "team": "FC Augsburg"
+  },
+  "Michael Olise": {
+   "id": "24799984",
+   "minutes": 792,
+   "shots": 41.0,
+   "shots_p90": 4.66,
+   "sot": 19.0,
+   "sot_p90": 2.16,
+   "team": "FC Bayern München"
+  },
+  "Mikey Moore": {
+   "id": "37651099",
+   "minutes": 586,
+   "shots": 18.0,
+   "shots_p90": 2.76,
+   "sot": 7.0,
+   "sot_p90": 1.08,
+   "team": "FC Köln"
+  },
+  "Nadiem Amiri": {
+   "id": "32585",
+   "minutes": 864,
+   "shots": 17.0,
+   "shots_p90": 1.77,
+   "team": "FSV Mainz 05"
+  },
+  "Nathaniel Brown": {
+   "id": "37538035",
+   "minutes": 606,
+   "shots": 15.0,
+   "shots_p90": 2.23,
+   "sot": 8.0,
+   "sot_p90": 1.19,
+   "team": "FC Bayern München"
+  },
+  "Niclas Füllkrug": {
+   "id": "31532",
+   "minutes": 836,
+   "shots": 38.0,
+   "shots_p90": 4.09,
+   "sot": 22.0,
+   "sot_p90": 2.37,
+   "team": "Werder Bremen"
+  },
+  "Patrik Schick": {
+   "id": "80675",
+   "minutes": 771,
+   "shots": 39.0,
+   "shots_p90": 4.55,
+   "sot": 17.0,
+   "sot_p90": 1.98,
+   "team": "Bayer 04 Leverkusen"
+  },
+  "Phillip Tietz": {
+   "id": "35218",
+   "minutes": 810,
+   "shots": 33.0,
+   "shots_p90": 3.67,
+   "sot": 14.0,
+   "sot_p90": 1.56,
+   "team": "FSV Mainz 05"
+  },
+  "Rômulo": {
+   "id": "37586403",
+   "minutes": 468,
+   "shots": 16.0,
+   "shots_p90": 3.08,
+   "sot": 11.0,
+   "sot_p90": 2.12,
+   "team": "RB Leipzig"
+  },
+  "Said El Mala": {
+   "id": "37709599",
+   "minutes": 678,
+   "shots": 34.0,
+   "shots_p90": 4.51,
+   "sot": 9.0,
+   "sot_p90": 1.19,
+   "team": "FC Köln"
+  },
+  "Santiago Castañeda": {
+   "id": "37627017",
+   "minutes": 900,
+   "shots": 15.0,
+   "shots_p90": 1.5,
+   "team": "Paderborn"
+  },
+  "Serhou Guirassy": {
+   "id": "32695",
+   "minutes": 701,
+   "shots": 24.0,
+   "shots_p90": 3.08,
+   "sot": 12.0,
+   "sot_p90": 1.54,
+   "team": "Borussia Dortmund"
+  },
+  "Sheraldo Becker": {
+   "id": "25162",
+   "minutes": 750,
+   "shots": 21.0,
+   "shots_p90": 2.52,
+   "sot": 10.0,
+   "sot_p90": 1.2,
+   "team": "FSV Mainz 05"
+  },
+  "Stefano Marino": {
+   "id": "37582282",
+   "minutes": 667,
+   "shots": 15.0,
+   "shots_p90": 2.02,
+   "team": "Paderborn"
+  },
+  "Steffen Tigges": {
+   "id": "38588",
+   "minutes": 331,
+   "shots": 17.0,
+   "shots_p90": 4.62,
+   "team": "Paderborn"
+  },
+  "Tidiam Gomis": {
+   "id": "37651943",
+   "minutes": 510,
+   "shots": 29.0,
+   "shots_p90": 5.12,
+   "sot": 8.0,
+   "sot_p90": 1.41,
+   "team": "RB Leipzig"
+  },
+  "Tim Lemperle": {
+   "id": "27441544",
+   "minutes": 516,
+   "shots": 17.0,
+   "shots_p90": 2.97,
+   "sot": 6.0,
+   "sot_p90": 1.05,
+   "team": "TSG Hoffenheim"
+  },
+  "Tim Skarke": {
+   "id": "35117",
+   "minutes": 431,
+   "sot": 7.0,
+   "sot_p90": 1.46,
+   "team": "FC Union Berlin"
+  },
+  "Younes Ebnoutalib": {
+   "id": "37685381",
+   "minutes": 676,
+   "shots": 27.0,
+   "shots_p90": 3.59,
+   "sot": 12.0,
+   "sot_p90": 1.6,
+   "team": "Eintracht Frankfurt"
+  },
+  "Yuito Suzuki": {
+   "id": "37422928",
+   "minutes": 644,
+   "sot": 7.0,
+   "sot_p90": 0.98,
+   "team": "SC Freiburg"
+  }
+ }
+}

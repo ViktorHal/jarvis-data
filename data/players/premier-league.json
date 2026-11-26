@@ -1,0 +1,526 @@
+{
+ "meta": {
+  "fetchedAt": "2026-11-26T10:23:08Z",
+  "league": "Premier League",
+  "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
+  "season": "2026/27",
+  "source": "https://playerstats.football/premier-league/stats/<stat>"
+ },
+ "players": {
+  "Alexander Isak": {
+   "id": "34053",
+   "minutes": 836,
+   "shots": 31.0,
+   "shots_p90": 3.34,
+   "sot": 14.0,
+   "sot_p90": 1.51,
+   "team": "Liverpool"
+  },
+  "Alexis Mac Allister": {
+   "id": "216612",
+   "minutes": 830,
+   "shots": 19.0,
+   "shots_p90": 2.06,
+   "sot": 6.0,
+   "sot_p90": 0.65,
+   "team": "Liverpool"
+  },
+  "Brandon Thomas-Asante": {
+   "id": "9543",
+   "minutes": 518,
+   "sot": 5.0,
+   "sot_p90": 0.87,
+   "team": "Coventry City"
+  },
+  "Brian Brobbey": {
+   "id": "7330507",
+   "minutes": 623,
+   "shots": 17.0,
+   "shots_p90": 2.46,
+   "sot": 7.0,
+   "sot_p90": 1.01,
+   "team": "Sunderland"
+  },
+  "Bruno Fernandes": {
+   "id": "129602",
+   "minutes": 900,
+   "shots": 35.0,
+   "shots_p90": 3.5,
+   "sot": 10.0,
+   "sot_p90": 1.0,
+   "team": "Manchester United"
+  },
+  "Bryan Mbeumo": {
+   "id": "529689",
+   "minutes": 915,
+   "shots": 30.0,
+   "shots_p90": 2.95,
+   "sot": 13.0,
+   "sot_p90": 1.28,
+   "team": "Manchester United"
+  },
+  "Bukayo Saka": {
+   "id": "16827155",
+   "minutes": 599,
+   "shots": 17.0,
+   "shots_p90": 2.55,
+   "sot": 10.0,
+   "sot_p90": 1.5,
+   "team": "Arsenal"
+  },
+  "Charalampos Kostoulas": {
+   "id": "37664293",
+   "minutes": 754,
+   "shots": 26.0,
+   "shots_p90": 3.1,
+   "sot": 11.0,
+   "sot_p90": 1.31,
+   "team": "Brighton & Hove Albion"
+  },
+  "Cody Gakpo": {
+   "id": "30062",
+   "minutes": 604,
+   "shots": 17.0,
+   "shots_p90": 2.53,
+   "team": "Liverpool"
+  },
+  "Cole Palmer": {
+   "id": "28912747",
+   "minutes": 971,
+   "shots": 31.0,
+   "shots_p90": 2.87,
+   "sot": 10.0,
+   "sot_p90": 0.93,
+   "team": "Chelsea"
+  },
+  "Dan Ndoye": {
+   "id": "19978623",
+   "minutes": 670,
+   "shots": 21.0,
+   "shots_p90": 2.82,
+   "team": "Nottingham Forest"
+  },
+  "Diego Gómez": {
+   "id": "37563876",
+   "minutes": 958,
+   "shots": 30.0,
+   "shots_p90": 2.82,
+   "sot": 11.0,
+   "sot_p90": 1.03,
+   "team": "Brighton & Hove Albion"
+  },
+  "Dominic Calvert-Lewin": {
+   "id": "5141",
+   "minutes": 956,
+   "shots": 25.0,
+   "shots_p90": 2.35,
+   "sot": 13.0,
+   "sot_p90": 1.22,
+   "team": "Leeds United"
+  },
+  "Dominic Solanke": {
+   "id": "4203",
+   "minutes": 554,
+   "shots": 21.0,
+   "shots_p90": 3.41,
+   "sot": 8.0,
+   "sot_p90": 1.3,
+   "team": "Tottenham Hotspur"
+  },
+  "Dominik Szoboszlai": {
+   "id": "785998",
+   "minutes": 664,
+   "shots": 22.0,
+   "shots_p90": 2.98,
+   "sot": 8.0,
+   "sot_p90": 1.08,
+   "team": "Liverpool"
+  },
+  "Emersonn": {
+   "id": "37577447",
+   "minutes": 678,
+   "shots": 18.0,
+   "shots_p90": 2.39,
+   "team": "Ipswich Town"
+  },
+  "Emiliano Buendía": {
+   "id": "186660",
+   "minutes": 648,
+   "shots": 19.0,
+   "shots_p90": 2.64,
+   "team": "Aston Villa"
+  },
+  "Enzo Le Fée": {
+   "id": "7026744",
+   "minutes": 958,
+   "shots": 19.0,
+   "shots_p90": 1.78,
+   "sot": 6.0,
+   "sot_p90": 0.56,
+   "team": "Sunderland"
+  },
+  "Erling Haaland": {
+   "id": "154421",
+   "minutes": 980,
+   "shots": 42.0,
+   "shots_p90": 3.86,
+   "sot": 19.0,
+   "sot_p90": 1.74,
+   "team": "Manchester City"
+  },
+  "Estêvão": {
+   "id": "37701999",
+   "minutes": 242,
+   "sot": 6.0,
+   "sot_p90": 2.23,
+   "team": "Chelsea"
+  },
+  "Evanilson": {
+   "id": "11298616",
+   "minutes": 933,
+   "shots": 31.0,
+   "shots_p90": 2.99,
+   "sot": 9.0,
+   "sot_p90": 0.87,
+   "team": "AFC Bournemouth"
+  },
+  "Florian Wirtz": {
+   "id": "37429246",
+   "minutes": 886,
+   "shots": 25.0,
+   "shots_p90": 2.54,
+   "sot": 6.0,
+   "sot_p90": 0.61,
+   "team": "Liverpool"
+  },
+  "Gonzalo García Torres": {
+   "id": "37593253",
+   "minutes": 838,
+   "shots": 24.0,
+   "shots_p90": 2.58,
+   "team": "Fulham"
+  },
+  "Harvey Barnes": {
+   "id": "10601",
+   "minutes": 977,
+   "shots": 25.0,
+   "shots_p90": 2.3,
+   "sot": 9.0,
+   "sot_p90": 0.83,
+   "team": "Newcastle United"
+  },
+  "Igor Thiago": {
+   "id": "37407204",
+   "minutes": 826,
+   "shots": 21.0,
+   "shots_p90": 2.29,
+   "team": "Brentford"
+  },
+  "Iliman Ndiaye": {
+   "id": "23661272",
+   "minutes": 848,
+   "shots": 17.0,
+   "shots_p90": 1.8,
+   "sot": 6.0,
+   "sot_p90": 0.64,
+   "team": "Manchester City"
+  },
+  "Jack Rudoni": {
+   "id": "32404898",
+   "minutes": 827,
+   "shots": 18.0,
+   "shots_p90": 1.96,
+   "sot": 7.0,
+   "sot_p90": 0.76,
+   "team": "Coventry City"
+  },
+  "James McAtee": {
+   "id": "28575676",
+   "minutes": 911,
+   "shots": 20.0,
+   "shots_p90": 1.98,
+   "team": "Nottingham Forest"
+  },
+  "Joe Willock": {
+   "id": "1494447",
+   "minutes": 655,
+   "shots": 23.0,
+   "shots_p90": 3.16,
+   "team": "Newcastle United"
+  },
+  "Johan Manzambi": {
+   "id": "37681576",
+   "minutes": 527,
+   "shots": 20.0,
+   "shots_p90": 3.42,
+   "sot": 6.0,
+   "sot_p90": 1.02,
+   "team": "Aston Villa"
+  },
+  "Josh King": {
+   "id": "37656924",
+   "minutes": 883,
+   "shots": 23.0,
+   "shots_p90": 2.34,
+   "sot": 11.0,
+   "sot_p90": 1.12,
+   "team": "Fulham"
+  },
+  "João Pedro": {
+   "id": "28931574",
+   "minutes": 522,
+   "sot": 8.0,
+   "sot_p90": 1.38,
+   "team": "Chelsea"
+  },
+  "Julio Enciso": {
+   "id": "29419594",
+   "minutes": 920,
+   "shots": 36.0,
+   "shots_p90": 3.52,
+   "sot": 9.0,
+   "sot_p90": 0.88,
+   "team": "Ipswich Town"
+  },
+  "Justin Kluivert": {
+   "id": "26803",
+   "minutes": 594,
+   "shots": 19.0,
+   "shots_p90": 2.88,
+   "sot": 9.0,
+   "sot_p90": 1.36,
+   "team": "AFC Bournemouth"
+  },
+  "Jørgen Strand Larsen": {
+   "id": "458682",
+   "minutes": 595,
+   "sot": 8.0,
+   "sot_p90": 1.21,
+   "team": "Crystal Palace"
+  },
+  "Kai Havertz": {
+   "id": "32612",
+   "minutes": 826,
+   "sot": 8.0,
+   "sot_p90": 0.87,
+   "team": "Arsenal"
+  },
+  "Keane Lewis-Potter": {
+   "id": "28552845",
+   "minutes": 854,
+   "shots": 21.0,
+   "shots_p90": 2.21,
+   "team": "Brentford"
+  },
+  "Kevin Schade": {
+   "id": "27067062",
+   "minutes": 805,
+   "shots": 21.0,
+   "shots_p90": 2.35,
+   "sot": 7.0,
+   "sot_p90": 0.78,
+   "team": "Brentford"
+  },
+  "Kiernan Dewsbury-Hall": {
+   "id": "540613",
+   "minutes": 965,
+   "shots": 26.0,
+   "shots_p90": 2.42,
+   "sot": 8.0,
+   "sot_p90": 0.75,
+   "team": "Everton"
+  },
+  "Liam Delap": {
+   "id": "28912976",
+   "minutes": 772,
+   "shots": 28.0,
+   "shots_p90": 3.26,
+   "team": "Nottingham Forest"
+  },
+  "Marcus Tavernier": {
+   "id": "537493",
+   "minutes": 935,
+   "shots": 22.0,
+   "shots_p90": 2.12,
+   "sot": 15.0,
+   "sot_p90": 1.44,
+   "team": "AFC Bournemouth"
+  },
+  "Martin Ødegaard": {
+   "id": "26823",
+   "minutes": 920,
+   "sot": 6.0,
+   "sot_p90": 0.59,
+   "team": "Arsenal"
+  },
+  "Matheus Cunha": {
+   "id": "1846739",
+   "minutes": 752,
+   "shots": 21.0,
+   "shots_p90": 2.51,
+   "sot": 8.0,
+   "sot_p90": 0.96,
+   "team": "Manchester United"
+  },
+  "Mohamed Belloumi": {
+   "id": "37555035",
+   "minutes": 780,
+   "shots": 26.0,
+   "shots_p90": 3.0,
+   "sot": 7.0,
+   "sot_p90": 0.81,
+   "team": "Hull City"
+  },
+  "Morgan Gibbs-White": {
+   "id": "7926",
+   "minutes": 900,
+   "shots": 18.0,
+   "shots_p90": 1.8,
+   "team": "Nottingham Forest"
+  },
+  "Morgan Rogers": {
+   "id": "4592198",
+   "minutes": 973,
+   "shots": 28.0,
+   "shots_p90": 2.59,
+   "sot": 9.0,
+   "sot_p90": 0.83,
+   "team": "Chelsea"
+  },
+  "Murillo": {
+   "id": "37627036",
+   "minutes": 990,
+   "shots": 18.0,
+   "shots_p90": 1.64,
+   "team": "Nottingham Forest"
+  },
+  "Nicolas Jackson": {
+   "id": "37540621",
+   "minutes": 801,
+   "shots": 24.0,
+   "shots_p90": 2.7,
+   "sot": 10.0,
+   "sot_p90": 1.12,
+   "team": "Aston Villa"
+  },
+  "Noni Madueke": {
+   "id": "25217662",
+   "minutes": 518,
+   "shots": 19.0,
+   "shots_p90": 3.3,
+   "team": "Arsenal"
+  },
+  "Oli McBurnie": {
+   "id": "4746",
+   "minutes": 978,
+   "sot": 7.0,
+   "sot_p90": 0.64,
+   "team": "Hull City"
+  },
+  "Omar Marmoush": {
+   "id": "294000",
+   "minutes": 685,
+   "shots": 19.0,
+   "shots_p90": 2.5,
+   "sot": 6.0,
+   "sot_p90": 0.79,
+   "team": "Tottenham Hotspur"
+  },
+  "Oscar Bobb": {
+   "id": "37286732",
+   "minutes": 816,
+   "sot": 6.0,
+   "sot_p90": 0.66,
+   "team": "Fulham"
+  },
+  "Pascal Groß": {
+   "id": "31504",
+   "minutes": 971,
+   "sot": 5.0,
+   "sot_p90": 0.46,
+   "team": "Brighton & Hove Albion"
+  },
+  "Pedro Neto": {
+   "id": "496775",
+   "minutes": 772,
+   "shots": 18.0,
+   "shots_p90": 2.1,
+   "sot": 13.0,
+   "sot_p90": 1.52,
+   "team": "Chelsea"
+  },
+  "Rayan": {
+   "id": "37679567",
+   "minutes": 970,
+   "shots": 33.0,
+   "shots_p90": 3.06,
+   "sot": 12.0,
+   "sot_p90": 1.11,
+   "team": "AFC Bournemouth"
+  },
+  "Rayan Cherki": {
+   "id": "21072805",
+   "minutes": 586,
+   "shots": 19.0,
+   "shots_p90": 2.92,
+   "sot": 7.0,
+   "sot_p90": 1.08,
+   "team": "Manchester City"
+  },
+  "Taiwo Awoniyi": {
+   "id": "26506",
+   "minutes": 491,
+   "sot": 5.0,
+   "sot_p90": 0.92,
+   "team": "Coventry City"
+  },
+  "Thierno Barry": {
+   "id": "37590847",
+   "minutes": 924,
+   "shots": 37.0,
+   "shots_p90": 3.6,
+   "sot": 16.0,
+   "sot_p90": 1.56,
+   "team": "Everton"
+  },
+  "Víctor Muñoz": {
+   "id": "37595819",
+   "minutes": 476,
+   "sot": 6.0,
+   "sot_p90": 1.13,
+   "team": "Liverpool"
+  },
+  "Yasin Ayari": {
+   "id": "37526157",
+   "minutes": 813,
+   "shots": 26.0,
+   "shots_p90": 2.88,
+   "sot": 9.0,
+   "sot_p90": 1.0,
+   "team": "Brighton & Hove Albion"
+  },
+  "Yoane Wissa": {
+   "id": "96928",
+   "minutes": 717,
+   "shots": 21.0,
+   "shots_p90": 2.64,
+   "sot": 6.0,
+   "sot_p90": 0.75,
+   "team": "Newcastle United"
+  },
+  "Yéremy Pino": {
+   "id": "24468970",
+   "minutes": 771,
+   "sot": 6.0,
+   "sot_p90": 0.7,
+   "team": "Crystal Palace"
+  },
+  "Zian Flemming": {
+   "id": "537316",
+   "minutes": 244,
+   "sot": 6.0,
+   "sot_p90": 2.21,
+   "team": "Ipswich Town"
+  }
+ }
+}

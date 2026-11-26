@@ -1,0 +1,158 @@
+{
+ "meta": {
+  "fetchedAt": "2026-11-26T10:23:13Z",
+  "league": "Championship",
+  "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
+  "season": "2026/27",
+  "source": "https://playerstats.football/championship/stats/<stat>"
+ },
+ "players": {
+  "Adam Idah": {
+   "id": "3533830",
+   "minutes": 883,
+   "sot": 11.0,
+   "sot_p90": 1.12,
+   "team": "Swansea City"
+  },
+  "Amario Cozier-Duberry": {
+   "id": "37565028",
+   "minutes": 926,
+   "sot": 13.0,
+   "sot_p90": 1.26,
+   "team": "Middlesbrough"
+  },
+  "Anthony Musaba": {
+   "id": "32404512",
+   "minutes": 803,
+   "sot": 12.0,
+   "sot_p90": 1.34,
+   "team": "Norwich City"
+  },
+  "Cian Ashford": {
+   "id": "37550074",
+   "minutes": 897,
+   "sot": 10.0,
+   "sot_p90": 1.0,
+   "team": "Cardiff City"
+  },
+  "Cyle Larin": {
+   "id": "262216",
+   "minutes": 827,
+   "sot": 14.0,
+   "sot_p90": 1.52,
+   "team": "Southampton"
+  },
+  "Dom Ballard": {
+   "id": "37560892",
+   "minutes": 894,
+   "sot": 12.0,
+   "sot_p90": 1.21,
+   "team": "Bristol City"
+  },
+  "Jack McGlynn": {
+   "id": "37448754",
+   "minutes": 978,
+   "sot": 11.0,
+   "sot_p90": 1.01,
+   "team": "Stoke City"
+  },
+  "Joël Piroe": {
+   "id": "29382",
+   "minutes": 848,
+   "sot": 12.0,
+   "sot_p90": 1.27,
+   "team": "West Ham United"
+  },
+  "Kyrell Lisbie": {
+   "id": "37609422",
+   "minutes": 811,
+   "sot": 10.0,
+   "sot_p90": 1.11,
+   "team": "Millwall"
+  },
+  "Liam Millar": {
+   "id": "4545516",
+   "minutes": 938,
+   "sot": 11.0,
+   "sot_p90": 1.06,
+   "team": "Birmingham City"
+  },
+  "Léo Scienza": {
+   "id": "37540851",
+   "minutes": 974,
+   "sot": 15.0,
+   "sot_p90": 1.39,
+   "team": "Southampton"
+  },
+  "Mathias Kvistgaarden": {
+   "id": "37522719",
+   "minutes": 769,
+   "sot": 9.0,
+   "sot_p90": 1.05,
+   "team": "Norwich City"
+  },
+  "Moussa Yeo": {
+   "id": "37652954",
+   "minutes": 880,
+   "sot": 10.0,
+   "sot_p90": 1.02,
+   "team": "Swansea City"
+  },
+  "Paul Smyth": {
+   "id": "149574",
+   "minutes": 938,
+   "sot": 11.0,
+   "sot_p90": 1.06,
+   "team": "Queens Park Rangers"
+  },
+  "Richard Kone": {
+   "id": "37735348",
+   "minutes": 653,
+   "sot": 10.0,
+   "sot_p90": 1.38,
+   "team": "Queens Park Rangers"
+  },
+  "Rúben Rodrigues": {
+   "id": "3219366",
+   "minutes": 700,
+   "sot": 11.0,
+   "sot_p90": 1.41,
+   "team": "Bolton Wanderers"
+  },
+  "Sammie Szmodics": {
+   "id": "8740",
+   "minutes": 988,
+   "sot": 9.0,
+   "sot_p90": 0.82,
+   "team": "Derby County"
+  },
+  "Scott Twine": {
+   "id": "9674",
+   "minutes": 942,
+   "sot": 10.0,
+   "sot_p90": 0.96,
+   "team": "Bristol City"
+  },
+  "Taty Castellanos": {
+   "id": "524055",
+   "minutes": 923,
+   "sot": 13.0,
+   "sot_p90": 1.27,
+   "team": "West Ham United"
+  },
+  "Zan Vipotnik": {
+   "id": "23697933",
+   "minutes": 539,
+   "sot": 9.0,
+   "sot_p90": 1.5,
+   "team": "Swansea City"
+  },
+  "Zeki Amdouni": {
+   "id": "37261110",
+   "minutes": 659,
+   "sot": 9.0,
+   "sot_p90": 1.23,
+   "team": "Burnley"
+  }
+ }
+}

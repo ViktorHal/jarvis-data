@@ -1,0 +1,483 @@
+{
+ "meta": {
+  "fetchedAt": "2026-11-26T10:23:23Z",
+  "league": "Serie A",
+  "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
+  "season": "2026/27",
+  "source": "https://playerstats.football/serie-a/stats/<stat>"
+ },
+ "players": {
+  "Alieu Njie": {
+   "id": "37653223",
+   "minutes": 739,
+   "shots": 21.0,
+   "shots_p90": 2.56,
+   "sot": 9.0,
+   "sot_p90": 1.1,
+   "team": "Torino"
+  },
+  "Alphadjo Cissè": {
+   "id": "37622541",
+   "minutes": 450,
+   "sot": 9.0,
+   "sot_p90": 1.8,
+   "team": "AC Milan"
+  },
+  "Anastasios Douvikas": {
+   "id": "3188026",
+   "minutes": 948,
+   "shots": 30.0,
+   "shots_p90": 2.85,
+   "sot": 15.0,
+   "sot_p90": 1.42,
+   "team": "Como"
+  },
+  "Ange-Yoan Bonny": {
+   "id": "37533560",
+   "minutes": 246,
+   "sot": 7.0,
+   "sot_p90": 2.56,
+   "team": "Inter"
+  },
+  "Antonio Raimondo": {
+   "id": "37570226",
+   "minutes": 762,
+   "shots": 32.0,
+   "shots_p90": 3.78,
+   "sot": 11.0,
+   "sot_p90": 1.3,
+   "team": "Frosinone"
+  },
+  "Armand Laurienté": {
+   "id": "432840",
+   "minutes": 991,
+   "shots": 41.0,
+   "shots_p90": 3.72,
+   "sot": 11.0,
+   "sot_p90": 1.0,
+   "team": "Sassuolo"
+  },
+  "Bryan Cristante": {
+   "id": "129467",
+   "minutes": 874,
+   "shots": 21.0,
+   "shots_p90": 2.16,
+   "team": "Roma"
+  },
+  "Charles De Ketelaere": {
+   "id": "23269660",
+   "minutes": 942,
+   "shots": 21.0,
+   "shots_p90": 2.01,
+   "sot": 9.0,
+   "sot_p90": 0.86,
+   "team": "Atalanta"
+  },
+  "Christian Pulisic": {
+   "id": "32438",
+   "minutes": 630,
+   "sot": 9.0,
+   "sot_p90": 1.29,
+   "team": "AC Milan"
+  },
+  "Dany Mota": {
+   "id": "132079",
+   "minutes": 401,
+   "sot": 7.0,
+   "sot_p90": 1.57,
+   "team": "Monza"
+  },
+  "David Romero": {
+   "id": "37396586",
+   "minutes": 445,
+   "sot": 10.0,
+   "sot_p90": 2.02,
+   "team": "Parma"
+  },
+  "Davide Frattesi": {
+   "id": "134015",
+   "minutes": 939,
+   "shots": 20.0,
+   "shots_p90": 1.92,
+   "sot": 8.0,
+   "sot_p90": 0.77,
+   "team": "Lazio"
+  },
+  "Diego Moreira": {
+   "id": "37592734",
+   "minutes": 575,
+   "sot": 7.0,
+   "sot_p90": 1.1,
+   "team": "AC Milan"
+  },
+  "Domenico Berardi": {
+   "id": "129553",
+   "minutes": 710,
+   "shots": 20.0,
+   "shots_p90": 2.54,
+   "sot": 12.0,
+   "sot_p90": 1.52,
+   "team": "Sassuolo"
+  },
+  "Donyell Malen": {
+   "id": "537758",
+   "minutes": 742,
+   "shots": 46.0,
+   "shots_p90": 5.58,
+   "sot": 22.0,
+   "sot_p90": 2.67,
+   "team": "Roma"
+  },
+  "Douglas Luiz": {
+   "id": "225000",
+   "minutes": 961,
+   "shots": 22.0,
+   "shots_p90": 2.06,
+   "team": "Juventus"
+  },
+  "Edon Zhegrova": {
+   "id": "2158213",
+   "minutes": 337,
+   "shots": 19.0,
+   "shots_p90": 5.07,
+   "sot": 10.0,
+   "sot_p90": 2.67,
+   "team": "Juventus"
+  },
+  "El Bilal Touré": {
+   "id": "30446920",
+   "minutes": 898,
+   "sot": 7.0,
+   "sot_p90": 0.7,
+   "team": "Parma"
+  },
+  "Farès Ghedjemis": {
+   "id": "37591823",
+   "minutes": 776,
+   "shots": 34.0,
+   "shots_p90": 3.94,
+   "sot": 13.0,
+   "sot_p90": 1.51,
+   "team": "Frosinone"
+  },
+  "Federico Bernardeschi": {
+   "id": "129429",
+   "minutes": 862,
+   "shots": 34.0,
+   "shots_p90": 3.55,
+   "sot": 12.0,
+   "sot_p90": 1.25,
+   "team": "Bologna"
+  },
+  "Federico Dimarco": {
+   "id": "129842",
+   "minutes": 721,
+   "shots": 20.0,
+   "shots_p90": 2.5,
+   "team": "Inter"
+  },
+  "Franco Mastantuono": {
+   "id": "37729623",
+   "minutes": 948,
+   "shots": 46.0,
+   "shots_p90": 4.37,
+   "sot": 14.0,
+   "sot_p90": 1.33,
+   "team": "Fiorentina"
+  },
+  "Giorgi Kvernadze": {
+   "id": "37567627",
+   "minutes": 963,
+   "shots": 35.0,
+   "shots_p90": 3.27,
+   "sot": 8.0,
+   "sot_p90": 0.75,
+   "team": "Frosinone"
+  },
+  "Giovanni Simeone": {
+   "id": "130032",
+   "minutes": 904,
+   "shots": 23.0,
+   "shots_p90": 2.29,
+   "team": "Torino"
+  },
+  "Gustav Isaksen": {
+   "id": "23698077",
+   "minutes": 726,
+   "shots": 23.0,
+   "shots_p90": 2.85,
+   "team": "Lazio"
+  },
+  "Gustavo Varela": {
+   "id": "37596971",
+   "minutes": 940,
+   "shots": 32.0,
+   "shots_p90": 3.06,
+   "sot": 16.0,
+   "sot_p90": 1.53,
+   "team": "Monza"
+  },
+  "Hassane Kamara": {
+   "id": "97608",
+   "minutes": 955,
+   "sot": 8.0,
+   "sot_p90": 0.75,
+   "team": "Udinese"
+  },
+  "Jay Robinson": {
+   "id": "37617684",
+   "minutes": 642,
+   "sot": 10.0,
+   "sot_p90": 1.4,
+   "team": "Monza"
+  },
+  "Jens Odgaard": {
+   "id": "84495",
+   "minutes": 638,
+   "shots": 19.0,
+   "shots_p90": 2.68,
+   "team": "Bologna"
+  },
+  "John Yeboah": {
+   "id": "3861724",
+   "minutes": 788,
+   "shots": 32.0,
+   "shots_p90": 3.65,
+   "sot": 9.0,
+   "sot_p90": 1.03,
+   "team": "Venezia"
+  },
+  "Junior Messias": {
+   "id": "2511125",
+   "minutes": 654,
+   "shots": 17.0,
+   "shots_p90": 2.34,
+   "team": "Genoa"
+  },
+  "Keinan Davis": {
+   "id": "4579",
+   "minutes": 688,
+   "shots": 20.0,
+   "shots_p90": 2.62,
+   "team": "Udinese"
+  },
+  "Kerim Alajbegovic": {
+   "id": "37649990",
+   "minutes": 517,
+   "shots": 21.0,
+   "shots_p90": 3.66,
+   "sot": 8.0,
+   "sot_p90": 1.39,
+   "team": "Juventus"
+  },
+  "Konan N’Dri": {
+   "id": "30841465",
+   "minutes": 603,
+   "shots": 20.0,
+   "shots_p90": 2.99,
+   "sot": 8.0,
+   "sot_p90": 1.19,
+   "team": "Lecce"
+  },
+  "Lautaro Martínez": {
+   "id": "333594",
+   "minutes": 366,
+   "shots": 25.0,
+   "shots_p90": 6.15,
+   "team": "Inter"
+  },
+  "Marcus Thuram": {
+   "id": "99000",
+   "minutes": 813,
+   "shots": 40.0,
+   "shots_p90": 4.43,
+   "sot": 15.0,
+   "sot_p90": 1.66,
+   "team": "Inter"
+  },
+  "Martin Baturina": {
+   "id": "37550680",
+   "minutes": 578,
+   "shots": 20.0,
+   "shots_p90": 3.11,
+   "sot": 7.0,
+   "sot_p90": 1.09,
+   "team": "Como"
+  },
+  "Mateo Pellegrino": {
+   "id": "37553010",
+   "minutes": 893,
+   "shots": 19.0,
+   "shots_p90": 1.91,
+   "sot": 8.0,
+   "sot_p90": 0.81,
+   "team": "Fiorentina"
+  },
+  "Matteo Politano": {
+   "id": "129926",
+   "minutes": 662,
+   "sot": 8.0,
+   "sot_p90": 1.09,
+   "team": "Napoli"
+  },
+  "Mattia Zaccagni": {
+   "id": "129677",
+   "minutes": 845,
+   "shots": 27.0,
+   "shots_p90": 2.88,
+   "sot": 12.0,
+   "sot_p90": 1.28,
+   "team": "Lazio"
+  },
+  "Matías Soulé": {
+   "id": "37529822",
+   "minutes": 790,
+   "shots": 30.0,
+   "shots_p90": 3.42,
+   "sot": 14.0,
+   "sot_p90": 1.59,
+   "team": "Roma"
+  },
+  "Milutin Osmajic": {
+   "id": "5283704",
+   "minutes": 908,
+   "shots": 22.0,
+   "shots_p90": 2.18,
+   "sot": 8.0,
+   "sot_p90": 0.79,
+   "team": "Genoa"
+  },
+  "Nico Paz": {
+   "id": "37596384",
+   "minutes": 856,
+   "shots": 48.0,
+   "shots_p90": 5.05,
+   "sot": 12.0,
+   "sot_p90": 1.26,
+   "team": "Como"
+  },
+  "Nicolò Barella": {
+   "id": "130117",
+   "minutes": 905,
+   "shots": 21.0,
+   "shots_p90": 2.09,
+   "sot": 7.0,
+   "sot_p90": 0.7,
+   "team": "Inter"
+  },
+  "Nicolò Zaniolo": {
+   "id": "133127",
+   "minutes": 468,
+   "shots": 17.0,
+   "shots_p90": 3.27,
+   "team": "Udinese"
+  },
+  "Nikola Krstović": {
+   "id": "149150",
+   "minutes": 798,
+   "shots": 36.0,
+   "shots_p90": 4.06,
+   "sot": 17.0,
+   "sot_p90": 1.92,
+   "team": "Atalanta"
+  },
+  "Noa Lang": {
+   "id": "31439",
+   "minutes": 635,
+   "shots": 17.0,
+   "shots_p90": 2.41,
+   "sot": 8.0,
+   "sot_p90": 1.13,
+   "team": "Napoli"
+  },
+  "Paul Mendy": {
+   "id": "37918334",
+   "minutes": 792,
+   "shots": 20.0,
+   "shots_p90": 2.27,
+   "team": "Cagliari"
+  },
+  "Paulo Dybala": {
+   "id": "129261",
+   "minutes": 558,
+   "shots": 23.0,
+   "shots_p90": 3.71,
+   "sot": 7.0,
+   "sot_p90": 1.13,
+   "team": "Roma"
+  },
+  "Pio Esposito": {
+   "id": "37596506",
+   "minutes": 657,
+   "shots": 24.0,
+   "shots_p90": 3.29,
+   "sot": 13.0,
+   "sot_p90": 1.78,
+   "team": "Inter"
+  },
+  "Rasmus Højlund": {
+   "id": "37325012",
+   "minutes": 787,
+   "shots": 25.0,
+   "shots_p90": 2.86,
+   "sot": 11.0,
+   "sot_p90": 1.26,
+   "team": "Napoli"
+  },
+  "Rodrigo Mora": {
+   "id": "37656803",
+   "minutes": 489,
+   "shots": 21.0,
+   "shots_p90": 3.87,
+   "sot": 8.0,
+   "sot_p90": 1.47,
+   "team": "Roma"
+  },
+  "Rolando Mandragora": {
+   "id": "129512",
+   "minutes": 592,
+   "sot": 7.0,
+   "sot_p90": 1.06,
+   "team": "Torino"
+  },
+  "Samuele Birindelli": {
+   "id": "132862",
+   "minutes": 979,
+   "sot": 7.0,
+   "sot_p90": 0.64,
+   "team": "Monza"
+  },
+  "Scott McTominay": {
+   "id": "455376",
+   "minutes": 715,
+   "shots": 27.0,
+   "shots_p90": 3.4,
+   "sot": 11.0,
+   "sot_p90": 1.38,
+   "team": "Napoli"
+  },
+  "Tijjani Noslin": {
+   "id": "37286823",
+   "minutes": 752,
+   "shots": 19.0,
+   "shots_p90": 2.27,
+   "sot": 9.0,
+   "sot_p90": 1.08,
+   "team": "Lazio"
+  },
+  "Tommaso Pobega": {
+   "id": "896234",
+   "minutes": 825,
+   "shots": 17.0,
+   "shots_p90": 1.85,
+   "team": "Bologna"
+  },
+  "Éderson": {
+   "id": "545244",
+   "minutes": 997,
+   "sot": 9.0,
+   "sot_p90": 0.81,
+   "team": "Atalanta"
+  }
+ }
+}
