@@ -1,10 +1,10 @@
 {
  "meta": {
   "code": "SC0",
-  "fetchedAt": "2026-11-26T10:22:23Z",
-  "lastMatchDate": "2026-11-21",
+  "fetchedAt": "2026-11-26T11:19:37Z",
+  "lastMatchDate": "2026-11-24",
   "league": "Scottish Premiership",
-  "matches": 81,
+  "matches": 83,
   "note": "per-game averages over matches where the column exists; no xG in this source",
   "season": "2026/27",
   "source": "https://www.football-data.co.uk/mmz4281/2627/SC0.csv"
@@ -47,10 +47,10 @@
    "yellow_pg": 4.0
   },
   "D Nicolson": {
-   "fouls_pg": 25.56,
-   "games": 9,
+   "fouls_pg": 25.8,
+   "games": 10,
    "red_rate": 0.0,
-   "yellow_pg": 3.667
+   "yellow_pg": 3.7
   },
   "D Robertson": {
    "fouls_pg": 26.86,
@@ -59,10 +59,10 @@
    "yellow_pg": 4.286
   },
   "J Beaton": {
-   "fouls_pg": 25.56,
-   "games": 9,
-   "red_rate": 0.111,
-   "yellow_pg": 4.778
+   "fouls_pg": 25.6,
+   "games": 10,
+   "red_rate": 0.1,
+   "yellow_pg": 4.9
   },
   "K Clancy": {
    "fouls_pg": 24.0,

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-26T10:22:28Z",
+  "fetchedAt": "2026-11-26T11:19:46Z",
   "minGames": 5,
   "rows": 789,
   "season": "2026-27",
@@ -1487,6 +1487,14 @@
    "team": "SJS",
    "toi_pg_sec": 1053.5555
   },
+  "Dominic James": {
+   "gp": 6,
+   "points_pg": 0.33333,
+   "pos": "C",
+   "shots_pg": 1.0,
+   "team": "TBL",
+   "toi_pg_sec": 724.5
+  },
   "Dougie Hamilton": {
    "gp": 25,
    "points_pg": 0.48,
@@ -1599,14 +1607,6 @@
    "team": "TOR",
    "toi_pg_sec": 1006.423
   },
-  "Eeli Tolvanen": {
-   "gp": 24,
-   "points_pg": 0.25,
-   "pos": "R",
-   "shots_pg": 1.083,
-   "team": "NYR",
-   "toi_pg_sec": 733.7916
-  },
   "Eetu Luostarinen": {
    "gp": 25,
    "points_pg": 0.28,
@@ -1694,6 +1694,14 @@
    "shots_pg": 1.273,
    "team": "SJS",
    "toi_pg_sec": 997.7272
+  },
+  "Eric Robinson": {
+   "gp": 24,
+   "points_pg": 0.5,
+   "pos": "L",
+   "shots_pg": 1.375,
+   "team": "CAR",
+   "toi_pg_sec": 719.5
   },
   "Erik Cernak": {
    "gp": 20,
@@ -1862,6 +1870,14 @@
    "shots_pg": 1.958,
    "team": "BOS",
    "toi_pg_sec": 969.1666
+  },
+  "Freddy Gaudreau": {
+   "gp": 22,
+   "points_pg": 0.54545,
+   "pos": "C",
+   "shots_pg": 1.045,
+   "team": "SEA",
+   "toi_pg_sec": 945.0
   },
   "Frederic Brunet": {
    "gp": 14,
@@ -2695,6 +2711,22 @@
    "team": "SEA",
    "toi_pg_sec": 813.4444
   },
+  "Josh Manson": {
+   "gp": 13,
+   "points_pg": 0.30769,
+   "pos": "D",
+   "shots_pg": 0.923,
+   "team": "COL",
+   "toi_pg_sec": 898.5384
+  },
+  "Josh Morrissey": {
+   "gp": 12,
+   "points_pg": 0.75,
+   "pos": "D",
+   "shots_pg": 2.583,
+   "team": "WPG",
+   "toi_pg_sec": 1425.3333
+  },
   "Josh Norris": {
    "gp": 25,
    "points_pg": 0.32,
@@ -2870,14 +2902,6 @@
    "shots_pg": 1.0,
    "team": "CHI",
    "toi_pg_sec": 629.4285
-  },
-  "Kevin Stenlund": {
-   "gp": 26,
-   "points_pg": 0.30769,
-   "pos": "C",
-   "shots_pg": 0.885,
-   "team": "UTA",
-   "toi_pg_sec": 813.8846
   },
   "Kiefer Sherwood": {
    "gp": 23,
@@ -3135,6 +3159,14 @@
    "team": "NJD",
    "toi_pg_sec": 1469.32
   },
+  "Luke Schenn": {
+   "gp": 15,
+   "points_pg": 0.13333,
+   "pos": "D",
+   "shots_pg": 0.6,
+   "team": "VAN",
+   "toi_pg_sec": 721.9333
+  },
   "MacKenzie Weegar": {
    "gp": 26,
    "points_pg": 0.23076,
@@ -3271,6 +3303,14 @@
    "team": "COL",
    "toi_pg_sec": 1178.7916
   },
+  "Martin Pospisil": {
+   "gp": 24,
+   "points_pg": 0.41666,
+   "pos": "C",
+   "shots_pg": 1.5,
+   "team": "CGY",
+   "toi_pg_sec": 790.7916
+  },
   "Mason Appleton": {
    "gp": 6,
    "points_pg": 0.0,
@@ -3383,14 +3423,6 @@
    "team": "WSH",
    "toi_pg_sec": 1279.0
   },
-  "Matthew Kessel": {
-   "gp": 17,
-   "points_pg": 0.29411,
-   "pos": "D",
-   "shots_pg": 0.882,
-   "team": "NYI",
-   "toi_pg_sec": 830.3529
-  },
   "Matthew Knies": {
    "gp": 23,
    "points_pg": 0.60869,
@@ -3406,6 +3438,14 @@
    "shots_pg": 1.278,
    "team": "BOS",
    "toi_pg_sec": 578.9444
+  },
+  "Matthew Robertson": {
+   "gp": 5,
+   "points_pg": 0.0,
+   "pos": "D",
+   "shots_pg": 0.4,
+   "team": "NYR",
+   "toi_pg_sec": 777.0
   },
   "Matthew Schaefer": {
    "gp": 24,
@@ -3487,6 +3527,14 @@
    "team": "TBL",
    "toi_pg_sec": 1030.1538
   },
+  "Max Jones": {
+   "gp": 11,
+   "points_pg": 0.0,
+   "pos": "L",
+   "shots_pg": 0.636,
+   "team": "EDM",
+   "toi_pg_sec": 517.4545
+  },
   "Max Sasson": {
    "gp": 26,
    "points_pg": 0.30769,
@@ -3502,6 +3550,14 @@
    "shots_pg": 1.423,
    "team": "MIN",
    "toi_pg_sec": 898.923
+  },
+  "Michael Amadio": {
+   "gp": 26,
+   "points_pg": 0.57692,
+   "pos": "R",
+   "shots_pg": 1.385,
+   "team": "OTT",
+   "toi_pg_sec": 984.1538
   },
   "Michael Brandsegg-Nygård": {
    "gp": 24,
@@ -3526,6 +3582,14 @@
    "shots_pg": 2.0,
    "team": "UTA",
    "toi_pg_sec": 733.6666
+  },
+  "Michael Kesselring": {
+   "gp": 26,
+   "points_pg": 0.15384,
+   "pos": "D",
+   "shots_pg": 1.346,
+   "team": "SJS",
+   "toi_pg_sec": 1128.7307
   },
   "Michael McCarron": {
    "gp": 26,
@@ -3702,6 +3766,14 @@
    "shots_pg": 3.55,
    "team": "COL",
    "toi_pg_sec": 1212.8
+  },
+  "Nazem Kadri": {
+   "gp": 24,
+   "points_pg": 0.75,
+   "pos": "C",
+   "shots_pg": 2.625,
+   "team": "COL",
+   "toi_pg_sec": 1100.5
   },
   "Neal Pionk": {
    "gp": 26,
@@ -4151,6 +4223,14 @@
    "team": "NYR",
    "toi_pg_sec": 1006.3333
   },
+  "Pavel Mintyukov": {
+   "gp": 22,
+   "points_pg": 0.40909,
+   "pos": "D",
+   "shots_pg": 1.045,
+   "team": "ANA",
+   "toi_pg_sec": 1152.1818
+  },
   "Pavel Zacha": {
    "gp": 23,
    "points_pg": 0.7826,
@@ -4166,14 +4246,6 @@
    "shots_pg": 0.68,
    "team": "BUF",
    "toi_pg_sec": 871.16
-  },
-  "Philip Broberg": {
-   "gp": 25,
-   "points_pg": 0.72,
-   "pos": "D",
-   "shots_pg": 2.12,
-   "team": "STL",
-   "toi_pg_sec": 1496.28
   },
   "Philip Tomasino": {
    "gp": 12,
@@ -4214,6 +4286,14 @@
    "shots_pg": 1.667,
    "team": "TBL",
    "toi_pg_sec": 870.375
+  },
+  "Porter Martone": {
+   "gp": 27,
+   "points_pg": 0.37037,
+   "pos": "R",
+   "shots_pg": 1.37,
+   "team": "PHI",
+   "toi_pg_sec": 853.8888
   },
   "Quinn Hughes": {
    "gp": 24,
@@ -4391,6 +4471,14 @@
    "team": "CHI",
    "toi_pg_sec": 880.68
   },
+  "Ryan Hartman": {
+   "gp": 27,
+   "points_pg": 0.29629,
+   "pos": "R",
+   "shots_pg": 1.222,
+   "team": "MIN",
+   "toi_pg_sec": 781.1481
+  },
   "Ryan Leonard": {
    "gp": 22,
    "points_pg": 0.86363,
@@ -4487,6 +4575,14 @@
    "team": "TOR",
    "toi_pg_sec": 684.2857
   },
+  "Ryan Winterton": {
+   "gp": 22,
+   "points_pg": 0.31818,
+   "pos": "C",
+   "shots_pg": 1.5,
+   "team": "SEA",
+   "toi_pg_sec": 795.6363
+  },
   "Ryker Evans": {
    "gp": 22,
    "points_pg": 0.36363,
@@ -4558,6 +4654,14 @@
    "shots_pg": 3.16,
    "team": "FLA",
    "toi_pg_sec": 1199.64
+  },
+  "Sam Rinzel": {
+   "gp": 24,
+   "points_pg": 0.75,
+   "pos": "D",
+   "shots_pg": 1.625,
+   "team": "CHI",
+   "toi_pg_sec": 1126.625
   },
   "Sam Steel": {
    "gp": 21,
@@ -4678,6 +4782,14 @@
    "shots_pg": 2.64,
    "team": "CAR",
    "toi_pg_sec": 1179.16
+  },
+  "Seth Jarvis": {
+   "gp": 14,
+   "points_pg": 0.78571,
+   "pos": "R",
+   "shots_pg": 2.0,
+   "team": "CAR",
+   "toi_pg_sec": 975.2857
   },
   "Seth Jones": {
    "gp": 25,
@@ -4807,13 +4919,13 @@
    "team": "NSH",
    "toi_pg_sec": 1110.6666
   },
-  "Tage Thompson": {
-   "gp": 25,
-   "points_pg": 1.2,
-   "pos": "C",
-   "shots_pg": 3.88,
-   "team": "BUF",
-   "toi_pg_sec": 1186.16
+  "T.J. Hughes": {
+   "gp": 24,
+   "points_pg": 0.54166,
+   "pos": "R",
+   "shots_pg": 2.292,
+   "team": "COL",
+   "toi_pg_sec": 910.2083
   },
   "Tanner Jeannot": {
    "gp": 24,
@@ -4911,14 +5023,6 @@
    "team": "WSH",
    "toi_pg_sec": 985.5714
   },
-  "Tom Willander": {
-   "gp": 23,
-   "points_pg": 0.17391,
-   "pos": "D",
-   "shots_pg": 0.913,
-   "team": "VAN",
-   "toi_pg_sec": 1215.0434
-  },
   "Tom Wilson": {
    "gp": 22,
    "points_pg": 0.36363,
@@ -4950,6 +5054,14 @@
    "shots_pg": 1.292,
    "team": "NYI",
    "toi_pg_sec": 1085.9166
+  },
+  "Travis Konecny": {
+   "gp": 17,
+   "points_pg": 0.7647,
+   "pos": "R",
+   "shots_pg": 2.059,
+   "team": "PHI",
+   "toi_pg_sec": 1035.5882
   },
   "Travis Mitchell": {
    "gp": 14,
@@ -5230,6 +5342,14 @@
    "shots_pg": 0.333,
    "team": "WSH",
    "toi_pg_sec": 1164.8888
+  },
+  "Vincent Trocheck": {
+   "gp": 26,
+   "points_pg": 0.61538,
+   "pos": "C",
+   "shots_pg": 1.962,
+   "team": "UTA",
+   "toi_pg_sec": 1127.1923
   },
   "Vinni Lettieri": {
    "gp": 9,
