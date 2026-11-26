@@ -1,0 +1,42 @@
+name: probe sources
+
+# Manual only: downloads a list of URLs from GitHub's servers and stores the raw responses on the
+# "probe" branch, so new sources can be inspected before a fetcher is written. Never touches main's data.
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "space-separated URLs"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: fetch
+        env:
+          URLS: ${{ inputs.urls }}
+        run: |
+          mkdir -p /tmp/probe
+          i=0
+          for u in $URLS; do
+            i=$((i+1))
+            code=$(curl -sS -L -m 60 -A "jarvis-data/1.0 (personal, non-commercial)" -o /tmp/probe/$i.body -w "%{http_code}" "$u" || echo "ERR")
+            echo "$i $code $(wc -c < /tmp/probe/$i.body 2>/dev/null || echo 0) $u" >> /tmp/probe/index.txt
+          done
+          cat /tmp/probe/index.txt
+      - name: store on probe branch
+        run: |
+          git config user.name "jarvis-data-bot"
+          git config user.email "jarvis-data-bot@users.noreply.github.com"
+          git checkout --orphan probe
+          git rm -rq --cached . && rm -rf ./* .github
+          cp /tmp/probe/* .
+          git add -A
+          git commit -qm "probe $(date -u +%FT%TZ)"
+          git push -f origin probe
