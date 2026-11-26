@@ -73594,9 +73594,9 @@
      "status": "open",
      "team_total": {
       "away": {
-       "over": 2.34,
+       "over": 2.29,
        "points": 2.5,
-       "under": 1.5435
+       "under": 1.5682
       },
       "home": {
        "over": 1.4854,
@@ -73608,9 +73608,9 @@
       "away": {
        "2.5": {
         "max": 100,
-        "over": 2.34,
+        "over": 2.29,
         "points": 2.5,
-        "under": 1.5435
+        "under": 1.5682
        }
       },
       "home": {
@@ -73627,13 +73627,13 @@
        "max": 150,
        "over": 1.2632,
        "points": 3,
-       "under": 3.57
+       "under": 3.58
       },
       "3.5": {
        "max": 150,
        "over": 1.5076,
        "points": 3.5,
-       "under": 2.51
+       "under": 2.52
       },
       "4": {
        "max": 150,
@@ -73651,7 +73651,7 @@
        "max": 150,
        "over": 2.72,
        "points": 5,
-       "under": 1.4219
+       "under": 1.4237
       }
      }
     }
@@ -87662,7 +87662,7 @@
    {
     "eventsTotal": 1864,
     "kept": 318,
-    "last": 3223087,
+    "last": 3223319,
     "leagues": {
      "Austria - 2. Liga": 18,
      "Austria - Bundesliga": 12,
@@ -87730,7 +87730,7 @@
    {
     "eventsTotal": 233,
     "kept": 15,
-    "last": 3223088,
+    "last": 3223319,
     "leagues": {
      "Austria - EHL": 7,
      "Belarus - Extraleague": 7,
@@ -87773,9 +87773,9 @@
    }
   ],
   "cap": 80,
-  "fetchedAt": "2026-11-26T20:29:48Z",
+  "fetchedAt": "2026-11-26T20:30:36Z",
   "note": "decimal prices as published; soccer num_0 = full time, num_1 = first half; hockey num_0 includes OT and shootout",
-  "requestsToday": 20,
+  "requestsToday": 22,
   "source": "pinnapi.com (Pinnacle pre-match)"
  }
 }

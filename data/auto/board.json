@@ -13986,6 +13986,307 @@
    "start": "2026-11-28T18:00:00Z"
   },
   {
+   "coverage": 66,
+   "event": "Vitoria Guimaraes – Estrela da Amadora",
+   "expected": {
+    "away_goals": 1.15,
+    "home_goals": 1.32
+   },
+   "goalModel": "stats",
+   "id": "2026-11-28-vitoria-guimaraes-estrela-da-amadora",
+   "league": "Portugal - Primeira Liga",
+   "lines": [
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Alioune_Ndoye_1_",
+     "minOdds": 1.13,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 92.2,
+     "selection": "Alioune Ndoye 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Total goals",
+     "key": "Total_goals_Over_0_5",
+     "minOdds": 1.15,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 90.8,
+     "selection": "Over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": 2.6,
+     "gap": 6.7,
+     "group": "Total goals",
+     "key": "Total_goals_Under_4_5",
+     "minOdds": 1.16,
+     "odds": 1.1464,
+     "pMarket": 82.8,
+     "post": false,
+     "prob": 89.5,
+     "selection": "Under 4.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Gustavo_Silva_1_",
+     "minOdds": 1.22,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 85.4,
+     "selection": "Gustavo Silva 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Oumar_Camara_1_",
+     "minOdds": 1.23,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 85.2,
+     "selection": "Oumar Camara 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Leandro_Antonetti_1_",
+     "minOdds": 1.3,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 80.6,
+     "selection": "Leandro Antonetti 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Alioune_Ndoye_2_",
+     "minOdds": 1.33,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 78.7,
+     "selection": "Alioune Ndoye 2+",
+     "status": "trial"
+    },
+    {
+     "ev": 7.0,
+     "gap": 8.7,
+     "group": "Total goals",
+     "key": "Total_goals_Under_3_5",
+     "minOdds": 1.38,
+     "odds": 1.4,
+     "pMarket": 67.7,
+     "post": false,
+     "prob": 76.4,
+     "selection": "Under 3.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team goals",
+     "key": "Team_goals_Vitoria_Guimaraes_over_0_5",
+     "minOdds": 1.44,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 73.4,
+     "selection": "Vitoria Guimaraes over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Ianis_Stoica_1_",
+     "minOdds": 1.46,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 72.3,
+     "selection": "Ianis Stoica 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": -4.5,
+     "group": "Double chance",
+     "key": "Double_chance_Vitoria_Guimaraes_or_Estrela_da_Amadora",
+     "minOdds": 1.48,
+     "odds": null,
+     "pMarket": 75.9,
+     "post": false,
+     "prob": 71.4,
+     "selection": "Vitoria Guimaraes or Estrela da Amadora",
+     "status": "active"
+    },
+    {
+     "ev": -10.9,
+     "gap": -4.6,
+     "group": "Total goals",
+     "key": "Total_goals_Over_1_5",
+     "minOdds": 1.48,
+     "odds": 1.2475,
+     "pMarket": 76.0,
+     "post": false,
+     "prob": 71.4,
+     "selection": "Over 1.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Abraham_Marcus_1_",
+     "minOdds": 1.49,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 70.9,
+     "selection": "Abraham Marcus 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": -11.6,
+     "group": "Double chance",
+     "key": "Double_chance_Vitoria_Guimaraes_or_draw",
+     "minOdds": 1.55,
+     "odds": null,
+     "pMarket": 80.1,
+     "post": false,
+     "prob": 68.5,
+     "selection": "Vitoria Guimaraes or draw",
+     "status": "active"
+    },
+    {
+     "ev": 3.0,
+     "gap": 5.1,
+     "group": "Team goals",
+     "key": "Team_goals_Estrela_da_Amadora_over_0_5",
+     "minOdds": 1.56,
+     "odds": 1.5102,
+     "pMarket": 63.1,
+     "post": false,
+     "prob": 68.2,
+     "selection": "Estrela da Amadora over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Gustavo_Silva_2_",
+     "minOdds": 1.65,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 64.7,
+     "selection": "Gustavo Silva 2+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Oumar_Camara_2_",
+     "minOdds": 1.66,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 64.3,
+     "selection": "Oumar Camara 2+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Alioune_Ndoye_3_",
+     "minOdds": 1.69,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 63.3,
+     "selection": "Alioune Ndoye 3+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": 16.2,
+     "group": "Double chance",
+     "key": "Double_chance_Estrela_da_Amadora_or_draw",
+     "minOdds": 1.78,
+     "odds": null,
+     "pMarket": 43.9,
+     "post": false,
+     "prob": 60.1,
+     "selection": "Estrela da Amadora or draw",
+     "status": "active"
+    },
+    {
+     "ev": 12.3,
+     "gap": 4.8,
+     "group": "Team goals",
+     "key": "Team_goals_Estrela_da_Amadora_over_1_5",
+     "minOdds": 3.66,
+     "odds": 3.53,
+     "pMarket": 27.0,
+     "post": false,
+     "prob": 31.8,
+     "selection": "Estrela da Amadora over 1.5",
+     "status": "active"
+    },
+    {
+     "ev": 13.0,
+     "gap": 4.5,
+     "group": "Match result",
+     "key": "Match_result_Draw",
+     "minOdds": 4.16,
+     "odds": 3.95,
+     "pMarket": 24.1,
+     "post": false,
+     "prob": 28.6,
+     "selection": "Draw",
+     "status": "active"
+    },
+    {
+     "ev": 13.0,
+     "gap": 4.6,
+     "group": "Total goals",
+     "key": "Total_goals_Under_1_5",
+     "minOdds": 4.16,
+     "odds": 3.95,
+     "pMarket": 24.0,
+     "post": false,
+     "prob": 28.6,
+     "selection": "Under 1.5",
+     "status": "active"
+    }
+   ],
+   "sport": "football",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  {
    "coverage": 32,
    "event": "Maritimo – Nacional da Madeira",
    "expected": {
@@ -23245,13 +23546,13 @@
  ],
  "meta": {
   "decisionVersion": "3.6",
-  "fetchedAt": "2026-11-26T20:29:48Z",
-  "matches": 85,
+  "fetchedAt": "2026-11-26T20:30:37Z",
+  "matches": 86,
   "note": "priced by code from repo data and Pinnacle; line-ups, injuries and referees are NOT known to the robot",
-  "oddsFetchedAt": "2026-11-26T20:29:48Z",
-  "products": 125,
+  "oddsFetchedAt": "2026-11-26T20:30:36Z",
+  "products": 127,
   "profile": "hitrate",
-  "repoCommit": "b8b09c4d6a6763626e51e3c2e953d4eeb5d217bb",
+  "repoCommit": "1bac67f3db54425780bcf6470fa1f4f92d7b0c47",
   "rules": "v1",
   "skipped": 0
  },
@@ -23651,7 +23952,7 @@
    "needsSquadCheck": false,
    "rank": 8,
    "sharedWith": [
-    104
+    106
    ],
    "start": "2026-11-28T19:45:00Z",
    "tier": "value"
@@ -23751,7 +24052,7 @@
    "needsSquadCheck": false,
    "rank": 10,
    "sharedWith": [
-    123
+    125
    ],
    "start": "2026-11-28T14:30:00Z",
    "tier": "value"
@@ -23851,7 +24152,7 @@
    "needsSquadCheck": false,
    "rank": 12,
    "sharedWith": [
-    114
+    116
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "value"
@@ -23965,7 +24266,7 @@
    "pick": "Caykur Rizespor over 0.5 (Team goals)",
    "rank": 14,
    "sharedWith": [
-    100
+    102
    ],
    "start": "2026-11-27T17:00:00Z",
    "tier": "safe"
@@ -24129,8 +24430,8 @@
    "pick": "Over 0.5 (Total goals) + Al-Hilal over 0.5 (Team goals) + Under 4.5 (Total goals)",
    "rank": 15,
    "sharedWith": [
-    108,
-    117
+    110,
+    119
    ],
    "start": "2026-11-27T17:00:00Z",
    "tier": "combo"
@@ -24187,7 +24488,7 @@
    "pick": "Lommel over 0.5 (Team goals)",
    "rank": 16,
    "sharedWith": [
-    103
+    105
    ],
    "start": "2026-11-28T19:45:00Z",
    "tier": "safe"
@@ -24358,7 +24659,7 @@
    "pick": "Under 5.5 (Cards)",
    "rank": 19,
    "sharedWith": [
-    93
+    95
    ],
    "start": "2026-11-28T15:30:00Z",
    "tier": "safe"
@@ -24415,7 +24716,7 @@
    "pick": "Under 5.5 (Cards)",
    "rank": 20,
    "sharedWith": [
-    99
+    101
    ],
    "start": "2026-11-27T17:00:00Z",
    "tier": "safe"
@@ -24868,7 +25169,7 @@
    "pick": "Over 2.5 (Cards)",
    "rank": 28,
    "sharedWith": [
-    106
+    108
    ],
    "start": "2026-11-28T12:30:00Z",
    "tier": "safe"
@@ -25086,7 +25387,7 @@
    "pick": "Under 5.5 (Cards)",
    "rank": 30,
    "sharedWith": [
-    98
+    100
    ],
    "start": "2026-11-27T17:30:00Z",
    "tier": "safe"
@@ -25200,7 +25501,7 @@
    "pick": "Under 4.5 (Cards)",
    "rank": 32,
    "sharedWith": [
-    102
+    104
    ],
    "start": "2026-11-28T19:45:00Z",
    "tier": "safe"
@@ -25482,7 +25783,7 @@
    "pick": "Under 12.5 (Corners)",
    "rank": 37,
    "sharedWith": [
-    97
+    99
    ],
    "start": "2026-11-27T17:30:00Z",
    "tier": "value"
@@ -26102,7 +26403,7 @@
    "pick": "Taïryk Arconte 1+ (Player shots)",
    "rank": 46,
    "sharedWith": [
-    112
+    114
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -26957,7 +27258,7 @@
    "pick": "Dominic Calvert-Lewin 1+ (Player shots)",
    "rank": 61,
    "sharedWith": [
-    121
+    123
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -27299,7 +27600,7 @@
    "pick": "Akor Adams 1+ (Player shots)",
    "rank": 67,
    "sharedWith": [
-    119
+    121
    ],
    "start": "2026-11-27T19:45:00Z",
    "tier": "safe"
@@ -27356,7 +27657,7 @@
    "pick": "Andre Brooks 1+ (Player shots)",
    "rank": 68,
    "sharedWith": [
-    107
+    109
    ],
    "start": "2026-11-28T12:30:00Z",
    "tier": "safe"
@@ -27926,7 +28227,7 @@
    "pick": "Lyndon Dykes 1+ (Player shots)",
    "rank": 78,
    "sharedWith": [
-    111
+    113
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -28103,6 +28404,63 @@
    "tier": "safe"
   },
   {
+   "event": "Vitoria Guimaraes – Estrela da Amadora",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.24,
+    "gap": null,
+    "group": "Player shots",
+    "key": "Player_shots_Leandro_Antonetti_1_",
+    "minOdds": 1.3,
+    "minOddsV1": 1.3,
+    "minOddsV2": 1.29,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 77.9,
+    "prob": 80.6,
+    "probHigh": 85.6,
+    "probLow": 75.6,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Leandro Antonetti 1+",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-vitoria-guimaraes-estrela-da-amadora",
+   "needsPrice": true,
+   "needsSquadCheck": true,
+   "pick": "Leandro Antonetti 1+ (Player shots)",
+   "rank": 82,
+   "sharedWith": [
+    94
+   ],
+   "start": "2026-11-28T20:30:00Z",
+   "tier": "safe"
+  },
+  {
    "event": "Arouca – Rio Ave",
    "kind": "check",
    "line": {
@@ -28152,9 +28510,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Barbero 1+ (Player shots)",
-   "rank": 82,
+   "rank": 83,
    "sharedWith": [
-    94
+    96
    ],
    "start": "2026-11-28T15:30:00Z",
    "tier": "safe"
@@ -28209,7 +28567,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Oladapo Afolayan 1+ (Player shots)",
-   "rank": 83,
+   "rank": 84,
    "sharedWith": [
     25
    ],
@@ -28266,7 +28624,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Mikey Moore 1+ (Player shots)",
-   "rank": 84,
+   "rank": 85,
    "sharedWith": [
     27
    ],
@@ -28323,7 +28681,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Phillip Tietz 2+ (Player shots)",
-   "rank": 85,
+   "rank": 86,
    "sharedWith": [
     8
    ],
@@ -28380,7 +28738,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Tiago Ribeiro 1+ (Player shots)",
-   "rank": 86,
+   "rank": 87,
    "sharedWith": [
     12
    ],
@@ -28437,7 +28795,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Irakli Yegoian 1+ (Player shots)",
-   "rank": 87,
+   "rank": 88,
    "sharedWith": [
     81
    ],
@@ -28494,7 +28852,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Rafiki Saïd 2+ (Player shots)",
-   "rank": 88,
+   "rank": 89,
    "sharedWith": [
     41
    ],
@@ -28551,7 +28909,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Achraf Hakimi 1+ (Player shots)",
-   "rank": 89,
+   "rank": 90,
    "sharedWith": [
     51
    ],
@@ -28608,7 +28966,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Mohamed Amoura 1+ (Player shots)",
-   "rank": 90,
+   "rank": 91,
    "sharedWith": [
     2
    ],
@@ -28665,9 +29023,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Rúben Rodrigues 1+ (Player shots)",
-   "rank": 91,
+   "rank": 92,
    "sharedWith": [
-    116
+    118
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -28722,7 +29080,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Chupe 1+ (Player shots)",
-   "rank": 92,
+   "rank": 93,
    "sharedWith": [
     89
    ],
@@ -28779,9 +29137,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Carlos Vicente 1+ (Player shots)",
-   "rank": 93,
+   "rank": 94,
    "sharedWith": [
-    115
+    117
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -28836,7 +29194,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Ruben van Bommel 1+ (Player shots)",
-   "rank": 94,
+   "rank": 95,
    "sharedWith": [
     80
    ],
@@ -28893,11 +29251,68 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Brandon Thomas-Asante 1+ (Player shots)",
-   "rank": 95,
+   "rank": 96,
    "sharedWith": [
-    120
+    122
    ],
    "start": "2026-11-28T15:00:00Z",
+   "tier": "safe"
+  },
+  {
+   "event": "Vitoria Guimaraes – Estrela da Amadora",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.27,
+    "gap": null,
+    "group": "Player shots",
+    "key": "Player_shots_Alioune_Ndoye_2_",
+    "minOdds": 1.33,
+    "minOddsV1": 1.33,
+    "minOddsV2": 1.32,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 75.9,
+    "prob": 78.7,
+    "probHigh": 83.7,
+    "probLow": 73.7,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Alioune Ndoye 2+",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-vitoria-guimaraes-estrela-da-amadora",
+   "needsPrice": true,
+   "needsSquadCheck": true,
+   "pick": "Alioune Ndoye 2+ (Player shots)",
+   "rank": 97,
+   "sharedWith": [
+    93
+   ],
+   "start": "2026-11-28T20:30:00Z",
    "tier": "safe"
   },
   {
@@ -28950,7 +29365,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Finn Azaz 1+ (Player shots)",
-   "rank": 96,
+   "rank": 98,
    "sharedWith": [
     22
    ],
@@ -29007,7 +29422,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Lucas Cepeda 1+ (Player shots)",
-   "rank": 97,
+   "rank": 99,
    "sharedWith": [
     87
    ],
@@ -29064,7 +29479,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Ethan Mbappé 1+ (Player shots)",
-   "rank": 98,
+   "rank": 100,
    "sharedWith": [
     5
    ],
@@ -29121,7 +29536,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Tijjani Noslin 1+ (Player shots)",
-   "rank": 99,
+   "rank": 101,
    "sharedWith": [
     75
    ],
@@ -29178,7 +29593,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Emersonn 1+ (Player shots)",
-   "rank": 100,
+   "rank": 102,
    "sharedWith": [
     43
    ],
@@ -29235,7 +29650,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Ruari Paton 1+ (Player shots)",
-   "rank": 101,
+   "rank": 103,
    "sharedWith": [
     6
    ],
@@ -29292,9 +29707,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Federico Bernardeschi 2+ (Player shots)",
-   "rank": 102,
+   "rank": 104,
    "sharedWith": [
-    118
+    120
    ],
    "start": "2026-11-27T19:45:00Z",
    "tier": "safe"
@@ -29349,7 +29764,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "João Guilherme 1+ (Player shots)",
-   "rank": 103,
+   "rank": 105,
    "sharedWith": [
     20
    ],
@@ -29406,7 +29821,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Djeidi Gassama 2+ (Player shots)",
-   "rank": 104,
+   "rank": 106,
    "sharedWith": [
     69
    ],
@@ -29463,7 +29878,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Nico Williams 2+ (Player shots)",
-   "rank": 105,
+   "rank": 107,
    "sharedWith": [
     88
    ],
@@ -29520,7 +29935,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Reeco Hackett 1+ (Player shots)",
-   "rank": 106,
+   "rank": 108,
    "sharedWith": [
     40
    ],
@@ -29577,7 +29992,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Julián Álvarez 2+ (Player shots)",
-   "rank": 107,
+   "rank": 109,
    "sharedWith": [
     86
    ],
@@ -29634,7 +30049,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Milan Zonneveld 2+ (Player shots)",
-   "rank": 108,
+   "rank": 110,
    "sharedWith": [
     19
    ],
@@ -29738,7 +30153,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Werder Bremen over 0.5 (Team goals) + Robin Hack 1+ (Player shots)",
-   "rank": 109,
+   "rank": 111,
    "sharedWith": [
     73
    ],
@@ -29844,7 +30259,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + Mitchell van Bergen 1+ (Player shots)",
-   "rank": 110,
+   "rank": 112,
    "sharedWith": [
     85
    ],
@@ -29948,9 +30363,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Valentín Castellanos 2+ (Player shots)",
-   "rank": 111,
+   "rank": 113,
    "sharedWith": [
-    113
+    115
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "builder"
@@ -30052,9 +30467,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Levante over 0.5 (Team goals) + Yassir Zabiri 2+ (Player shots)",
-   "rank": 112,
+   "rank": 114,
    "sharedWith": [
-    124
+    126
    ],
    "start": "2026-11-27T20:00:00Z",
    "tier": "builder"
@@ -30156,7 +30571,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Farès Ghedjemis 3+ (Player shots)",
-   "rank": 113,
+   "rank": 115,
    "sharedWith": [
     78
    ],
@@ -30262,7 +30677,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + André Clovis 1+ (Player shots)",
-   "rank": 114,
+   "rank": 116,
    "sharedWith": [
     92
    ],
@@ -30366,9 +30781,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Jordan Ayew 1+ (Player shots)",
-   "rank": 115,
+   "rank": 117,
    "sharedWith": [
-    105
+    107
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "builder"
@@ -30470,7 +30885,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Gonçalo Paciência 1+ (Player shots on target)",
-   "rank": 116,
+   "rank": 118,
    "sharedWith": [
     32
    ],
@@ -30574,7 +30989,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + Jonathan Burkardt 2+ (Player shots)",
-   "rank": 117,
+   "rank": 119,
    "sharedWith": [
     72
    ],
@@ -30679,9 +31094,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + Charlie Kelman 1+ (Player shots)",
-   "rank": 118,
+   "rank": 120,
    "sharedWith": [
-    110
+    112
    ],
    "start": "2026-11-28T12:30:00Z",
    "tier": "builder"
@@ -30785,7 +31200,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Hibernian over 0.5 (Team goals) + Tawanda Maswanhise 1+ (Player shots)",
-   "rank": 119,
+   "rank": 121,
    "sharedWith": [
     71
    ],
@@ -30891,7 +31306,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Brentford over 0.5 (Team goals) + Keane Lewis-Potter 1+ (Player shots)",
-   "rank": 120,
+   "rank": 122,
    "sharedWith": [
     64
    ],
@@ -30995,7 +31410,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Adrián Butzke 1+ (Player shots)",
-   "rank": 121,
+   "rank": 123,
    "start": "2026-11-27T20:15:00Z",
    "tier": "builder"
   },
@@ -31098,7 +31513,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + Ayoub Mouloua 1+ (Player shots)",
-   "rank": 122,
+   "rank": 124,
    "sharedWith": [
     65
    ],
@@ -31204,9 +31619,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + Iker Bravo 1+ (Player shots)",
-   "rank": 123,
+   "rank": 125,
    "sharedWith": [
-    109
+    111
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "builder"
@@ -31308,9 +31723,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "FC Koln over 0.5 (Team goals) + Lukas Petkov 1+ (Player shots)",
-   "rank": 124,
+   "rank": 126,
    "sharedWith": [
-    122
+    124
    ],
    "start": "2026-11-28T14:30:00Z",
    "tier": "builder"
@@ -31412,9 +31827,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Cyle Larin 2+ (Player shots)",
-   "rank": 125,
+   "rank": 127,
    "sharedWith": [
-    101
+    103
    ],
    "start": "2026-11-27T20:00:00Z",
    "tier": "builder"
@@ -31423,11 +31838,11 @@
  "skipped": [],
  "summary": {
   "both": 56,
-  "lines": 5529,
-  "priced": 1093,
+  "lines": 5586,
+  "priced": 1107,
   "v1Only": 0,
   "v1Post": 56,
-  "v2Only": 30,
-  "v2Post": 86
+  "v2Only": 33,
+  "v2Post": 89
  }
 }
