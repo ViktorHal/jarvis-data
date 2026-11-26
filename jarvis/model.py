@@ -127,7 +127,7 @@ def football(m):
     for name, lam in ((hn, lh), (an, la)):
         out += [price("Team goals", f"{name} over 0.5", 1 - math.exp(-lam)),
                 price("Team goals", f"{name} over 1.5", pois_over(1.5, lam))]
-    # half with most goals (45% of goals before half-time)
+    # half with most goals
     L = lh + la
     l1, l2 = P["first_half_share"] * L, (1 - P["first_half_share"]) * L
     p1 = p2 = pt = 0.0
