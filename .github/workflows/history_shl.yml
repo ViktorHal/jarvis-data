@@ -1,0 +1,40 @@
+name: fetch SHL history
+
+# Manual only: SHL per-game statistics (shots, saves, starting goalies) for model development, from
+# stats.swehockey.se game pages, one request per second. Stored on the "history-shl" branch; never touches main.
+on:
+  workflow_dispatch:
+    inputs:
+      seasons:
+        description: "space-separated, e.g. 2023-24 2024-25 (empty = 2018-19 .. 2025-26)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: fetch
+        env:
+          SEASONS: ${{ inputs.seasons }}
+        run: python fetch/shl_games.py history $SEASONS
+      - name: store on history-shl branch
+        if: always()
+        run: |
+          git config user.name "jarvis-data-bot"
+          git config user.email "jarvis-data-bot@users.noreply.github.com"
+          mv history /tmp/history
+          git checkout --orphan history-shl
+          git rm -rq --cached . && rm -rf ./* .github
+          mv /tmp/history ./history
+          git add -A
+          git commit -qm "SHL history $(date -u +%FT%TZ)"
+          git push -f origin history-shl

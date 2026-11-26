@@ -14,13 +14,14 @@ import h12_nhl  # noqa: E402
 import nhl  # noqa: E402
 import players  # noqa: E402
 import shl  # noqa: E402
+import shl_games  # noqa: E402
 import xg  # noqa: E402
 from common import Log, now_iso, write_json  # noqa: E402
 
 
 def main():
     log = Log()
-    for name, mod in (("football", football), ("nhl", nhl), ("nhl h12", h12_nhl), ("shl", shl), ("xg", xg), ("players", players), ("elo", elo)):
+    for name, mod in (("football", football), ("nhl", nhl), ("nhl h12", h12_nhl), ("shl", shl), ("shl games", shl_games), ("xg", xg), ("players", players), ("elo", elo)):
         try:
             mod.run(log)
         except Exception as e:  # a bug in one module must not lose the others' manifest entries
