@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-26T16:32:50Z",
+  "fetchedAt": "2026-11-26T16:45:55Z",
   "minGames": 5,
   "rows": 789,
   "season": "2026-27",
@@ -1999,6 +1999,14 @@
    "team": "OTT",
    "toi_pg_sec": 307.5
   },
+  "Haydn Fleury": {
+   "gp": 14,
+   "points_pg": 0.21428,
+   "pos": "D",
+   "shots_pg": 1.0,
+   "team": "WPG",
+   "toi_pg_sec": 860.1428
+  },
   "Hendrix Lapierre": {
    "gp": 19,
    "points_pg": 0.42105,
@@ -2006,6 +2014,14 @@
    "shots_pg": 1.053,
    "team": "PIT",
    "toi_pg_sec": 745.421
+  },
+  "Henry Thrun": {
+   "gp": 5,
+   "points_pg": 0.0,
+   "pos": "D",
+   "shots_pg": 0.0,
+   "team": "WPG",
+   "toi_pg_sec": 898.0
   },
   "Hunter McDonald": {
    "gp": 5,
@@ -2126,6 +2142,14 @@
    "shots_pg": 2.0,
    "team": "NYR",
    "toi_pg_sec": 1152.3333
+  },
+  "JJ Peterka": {
+   "gp": 24,
+   "points_pg": 0.625,
+   "pos": "R",
+   "shots_pg": 1.958,
+   "team": "BOS",
+   "toi_pg_sec": 1061.6666
   },
   "Jaccob Slavin": {
    "gp": 25,
@@ -2430,6 +2454,14 @@
    "shots_pg": 1.238,
    "team": "NYI",
    "toi_pg_sec": 930.0476
+  },
+  "Jeff Malott": {
+   "gp": 25,
+   "points_pg": 0.32,
+   "pos": "L",
+   "shots_pg": 1.48,
+   "team": "ANA",
+   "toi_pg_sec": 637.48
   },
   "Jeff Viel": {
    "gp": 21,
@@ -2902,6 +2934,14 @@
    "shots_pg": 1.739,
    "team": "SJS",
    "toi_pg_sec": 939.2173
+  },
+  "Kirby Dach": {
+   "gp": 23,
+   "points_pg": 0.34782,
+   "pos": "C",
+   "shots_pg": 0.87,
+   "team": "MTL,DET",
+   "toi_pg_sec": 708.7391
   },
   "Kirill Kaprizov": {
    "gp": 27,
@@ -5382,6 +5422,14 @@
    "shots_pg": 1.962,
    "team": "UTA",
    "toi_pg_sec": 1127.1923
+  },
+  "Vinni Lettieri": {
+   "gp": 9,
+   "points_pg": 0.11111,
+   "pos": "C",
+   "shots_pg": 1.0,
+   "team": "TOR",
+   "toi_pg_sec": 584.2222
   },
   "Vitali Pinchuk": {
    "gp": 12,
