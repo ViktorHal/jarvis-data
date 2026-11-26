@@ -13,7 +13,7 @@ from common import Log, get_text, write_json, now_iso
 
 LEAGUES = {"premier-league": "Premier League", "championship": "Championship", "la-liga": "La Liga",
            "serie-a": "Serie A", "bundesliga": "Bundesliga", "ligue-1": "Ligue 1", "eredivisie": "Eredivisie",
-           "primeira-liga": "Primeira Liga", "allsvenskan": "Allsvenskan", "super-lig": "Super Lig",
+           "liga-portugal": "Primeira Liga", "allsvenskan": "Allsvenskan", "super-lig": "Super Lig",
            "scottish-premiership": "Scottish Premiership", "belgian-pro-league": "Belgian Pro League"}
 URL = "https://statz.ai/competitions/{slug}/xg"
 

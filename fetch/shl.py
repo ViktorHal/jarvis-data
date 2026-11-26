@@ -16,6 +16,7 @@ from common import Log, get_text, write_json, now_iso
 
 SERIES = 20961   # SHL 2026/27 on stats.swehockey.se
 URL = f"https://stats.swehockey.se/ScheduleAndResults/Schedule/{SERIES}"
+GOALIES = f"https://stats.swehockey.se/Players/Statistics/LeadingGoaliesSVS/{SERIES}"
 STO = ZoneInfo("Europe/Stockholm")
 
 
@@ -94,6 +95,30 @@ def _ot(g, side):
     return (h, a) if side == "H" else (a, h)
 
 
+def parse_goalies(page):
+    """-> (last update text, {name: row}) from the federation's goalie table (team = three-letter code)."""
+    upd = re.search(r"Last update:\s*([0-9-]+ [0-9:]+)", _clean(page))
+    out = {}
+    for t in re.findall(r"<table.*?</table>", page, flags=re.S):
+        rows = re.findall(r"<tr.*?</tr>", t, flags=re.S)
+        hdr = None
+        for r in rows:
+            c = [_clean(x) for x in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", r, flags=re.S)]
+            if "SVS%" in c and "Name" in c:
+                hdr = c
+                continue
+            if not hdr or len(c) != len(hdr):
+                continue
+            row = dict(zip(hdr, c))
+            num = lambda k: float(row[k].replace(",", ".")) if row.get(k, "").replace(",", ".").replace(".", "", 1).isdigit() else None
+            out[row["Name"]] = {"team": row.get("Team"), "gp_team": num("GP"), "gpi": num("GPI"), "sog": num("SOG"),
+                                "ga": num("GA"), "gaa": num("GAA"), "sv_pct": round(num("SVS%") / 100, 4) if num("SVS%") is not None else None,
+                                "shutouts": num("SO"), "toi": row.get("MIP")}
+        if out:
+            break
+    return (upd.group(1) if upd else None), out
+
+
 def run(log: Log, today=None):
     today = today or datetime.now(STO).date()
     try:
@@ -111,3 +136,13 @@ def run(log: Log, today=None):
         log.ok("shl schedule", URL, len(games), note=f"{played} played")
     except Exception as e:
         log.fail("shl schedule", URL, e)
+    try:
+        upd, g = parse_goalies(get_text(GOALIES))
+        if len(g) < 10:
+            raise ValueError(f"only {len(g)} goalies on the page")
+        write_json("shl/goalies.json", {"meta": {"season": "2026/27", "source": GOALIES, "fetchedAt": now_iso(), "lastUpdate": upd,
+                   "note": "team = federation code (e.g. FBK Färjestad, RBK Rögle); gp_team = team games, gpi = games this goalie played"},
+                   "goalies": g})
+        log.ok("shl goalies", GOALIES, len(g), note=f"last update {upd}")
+    except Exception as e:
+        log.fail("shl goalies", GOALIES, e)

@@ -12,8 +12,9 @@ Personal, non-commercial use. No bookmaker websites are accessed; prices come fr
 |---|---|---|
 | [football-data.co.uk](https://www.football-data.co.uk) | 2026/27 results, shots, shots on target, corners, fouls, cards, referees, prices (incl. Pinnacle and closing prices), upcoming fixtures with prices | `data/football/` |
 | NHL.com public JSON (`api-web.nhle.com`, `api.nhle.com/stats/rest`) | standings with last 10, shots, PP/PK, goalies, skaters, schedule, who played yesterday | `data/nhl/` |
-| [stats.swehockey.se](https://stats.swehockey.se) | SHL 2026/27: every game with period scores (regulation, overtime, shootout), team table with last 10, home/away, back-to-back; today's and tomorrow's games | `data/shl/` |
+| [stats.swehockey.se](https://stats.swehockey.se) | SHL 2026/27: every game with period scores (regulation, overtime, shootout), team table with last 10, home/away, back-to-back; goalies (save %, GAA); today's and tomorrow's games | `data/shl/` |
 | [statz.ai](https://statz.ai) | team xG and xGA 2026/27: season, home, away, last 5 (statz.ai's own xG model) | `data/xg/` |
+| [playerstats.football](https://playerstats.football) | football player shots and shots on target 2026/27 (top 50 per league, totals and per 90, minutes) | `data/players/` |
 | [ClubElo](http://clubelo.com) | daily Elo snapshot for every club (currently unreachable from GitHub's servers) | `data/elo/` |
 
 `data/manifest.json` records, for every source and run, whether the fetch worked, how many rows it

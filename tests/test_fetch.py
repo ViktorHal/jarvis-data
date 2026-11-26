@@ -204,3 +204,39 @@ class TestXG(Base):
         xg.run(log)
         self.assertTrue(all(s["status"] == "failed" for s in log.sources.values()))
         self.assertIn("not 2026/27", log.sources["xg premier-league"]["error"])
+
+
+class TestPlayersAndGoalies(Base):
+    FIX = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixtures")
+
+    def test_player_rows(self):
+        import players
+        season, rows = players.parse(open(os.path.join(self.FIX, "ps_sot.html"), encoding="utf-8").read())
+        self.assertEqual(season, "2026/2027")
+        self.assertEqual(rows[0], ("154421", "Erling Haaland", "Manchester City", 980, 19.0, 1.74))
+        self.assertTrue(all(r[2] for r in rows))                      # every player has a club
+        self.assertEqual(rows[1][2], "Everton")                       # club without abbreviation
+
+    def test_players_merge_and_season_check(self):
+        import players
+        players.time.sleep = lambda s: None
+        page = open(os.path.join(self.FIX, "ps_sot.html"), encoding="utf-8").read()
+        common.get = Fake({"premier-league/stats/shots-on-target": page})
+        log = common.Log()
+        players.run(log)
+        p = self.read("players/premier-league.json")["players"]["Erling Haaland"]
+        self.assertEqual((p["sot"], p["sot_p90"], p["minutes"]), (19.0, 1.74, 980))
+        self.assertNotIn("shots_p90", p)                              # total-shots page failed: not guessed
+        self.assertEqual(log.sources["players premier-league total-shots"]["status"], "failed")
+        common.get = Fake({"premier-league/stats/shots-on-target": page.replace("2026/2027", "2025/2026")})
+        log = common.Log()
+        players.run(log)
+        self.assertIn("not 2026/2027", log.sources["players premier-league shots-on-target"]["error"])
+
+    def test_shl_goalies(self):
+        import shl
+        upd, g = shl.parse_goalies(open(os.path.join(self.FIX, "shl_goalies.html"), encoding="utf-8").read())
+        self.assertEqual(len(g), 12)
+        self.assertEqual(g["Thelin, Melker"]["team"], "FBK")
+        self.assertEqual(g["Thelin, Melker"]["sv_pct"], 0.951)
+        self.assertEqual(g["Thelin, Melker"]["gpi"], 9.0)
