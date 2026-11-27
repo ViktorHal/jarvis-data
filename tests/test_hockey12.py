@@ -208,11 +208,17 @@ def test_football_untouched_by_hockey_switch():
 
 
 def test_robot_copy_of_hockey12_is_identical():
-    other = os.path.join(ROOT, "..", "jarvis-data", "fetch", "hockey12.py")
-    if not os.path.exists(other):
-        pytest.skip("jarvis-data not checked out next to jarvis")
+    """The scan and the robot must run the same hockey code. Here there is one copy (fetch/hockey12.py); in the
+    workspace there are two (jarvis/hockey12.py and the clone's), and they must not drift apart."""
+    mine = os.path.abspath(H.__file__)
+    cands = [os.path.join(ROOT, "fetch", "hockey12.py"), os.path.join(ROOT, "hockey12.py"),
+             os.path.join(ROOT, "..", "jarvis-data", "fetch", "hockey12.py")]
+    others = [p for p in cands if os.path.exists(p) and os.path.abspath(p) != mine]
+    if not others:
+        pytest.skip("only one copy of hockey12.py here")
     h = lambda p: hashlib.sha256(open(p, encoding="utf-8").read().encode()).hexdigest()
-    assert h(other) == h(os.path.join(ROOT, "hockey12.py"))
+    for p in others:
+        assert h(p) == h(mine), p
 
 
 def shl_block(**kw):

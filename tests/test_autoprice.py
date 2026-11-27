@@ -47,3 +47,43 @@ class AutoPrice(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Drift(unittest.TestCase):
+    """3.9: how Pinnacle's own de-margined price has moved since the first time today it was seen."""
+    PATH = "auto/_test_drift.json"
+
+    def setUp(self):
+        self.full = os.path.join(A.DATA, self.PATH)
+        if os.path.exists(self.full):
+            os.remove(self.full)
+
+    tearDown = setUp
+
+    @staticmethod
+    def match(h, d, a, start="2026-11-27T20:00:00Z"):
+        return [{"id": "m1", "start": start,
+                 "marketOdds": {"Match_result_Home": h, "Match_result_Draw": d, "Match_result_Away": a},
+                 "priceSets": [["Match_result_Home", "Match_result_Draw", "Match_result_Away"]]}]
+
+    def test_first_and_last_are_kept_and_the_move_is_de_margined(self):
+        t0 = A.datetime(2026, 11, 27, 9, 0, tzinfo=A.timezone.utc)
+        first = A.drift_update(self.match(2.00, 3.40, 4.00), t0, self.PATH)
+        self.assertAlmostEqual(first["m1|Match_result_Home"]["first"], 0.4789, places=3)
+        self.assertEqual(first["m1|Match_result_Home"]["n"], 1)
+        # the home price shortens: Pinnacle has moved toward the home side
+        later = A.drift_update(self.match(1.80, 3.50, 4.50), t0 + A.timedelta(hours=2), self.PATH)
+        e = later["m1|Match_result_Home"]
+        self.assertEqual(e["n"], 2)
+        self.assertAlmostEqual(e["first"], 0.4789, places=3)      # never overwritten
+        self.assertGreater(e["last"] - e["first"], 0.02)          # a real move, two points or more
+        self.assertLess(later["m1|Match_result_Away"]["last"] - later["m1|Match_result_Away"]["first"], 0)
+
+    def test_an_incomplete_price_set_is_ignored(self):
+        now = A.datetime(2026, 11, 27, 9, 0, tzinfo=A.timezone.utc)
+        self.assertEqual(A.drift_update(self.match(2.00, None, 4.00), now, self.PATH), {})
+
+    def test_old_matches_drop_out(self):
+        t0 = A.datetime(2026, 11, 27, 9, 0, tzinfo=A.timezone.utc)
+        A.drift_update(self.match(2.00, 3.40, 4.00, start="2026-11-20T20:00:00Z"), t0, self.PATH)
+        self.assertEqual(A.drift_update([], t0 + A.timedelta(hours=1), self.PATH), {})

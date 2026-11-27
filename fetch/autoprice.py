@@ -3,6 +3,8 @@
 The scans used to research each match on the web and only reached ~16 matches a run. This module builds the model
 inputs for every match in the Pinnacle feed from the files already in this repo, runs jarvis/decision.py and writes:
 
+  data/auto/drift.json    how Pinnacle's own no-vig probability has moved for every result line since the
+                          first time it was seen today - the signal the price hunt is built on
   data/auto/board.json    every match priced: expected values, the most interesting lines, the products decision.py
                           chose (max two per match), the strong-favourites list, and every match it could not price
   data/auto/payload.json  the exact decision.py input (inputs, provenance, prices) so a scan can reuse a match,
@@ -61,6 +63,8 @@ BY_ELO = {v[3]: v for v in LEAGUES.values() if v[3]}
 EUROPE = ("UEFA - Champions League", "UEFA - Europa League", "UEFA - Conference League")
 HOCKEY = {"NHL": "nhl", "Sweden - SHL": "shl"}
 HORIZON_H = 48          # matches starting within the next two days
+DRIFT_GROUPS = ("Match result", "Moneyline (incl. OT)", "Total goals")
+DRIFT_KEEP_H = 60       # a drift entry is dropped this long after kick-off
 MIN_START_MIN = 30
 
 STOP = {"fc", "afc", "cf", "sc", "ac", "as", "ssc", "club", "de", "the", "cd", "ud", "rc", "rcd", "sd", "fk", "sk", "bk",
@@ -287,19 +291,23 @@ def novig(prices):
     return [x / s for x in inv]
 
 
-def pinnacle_prices(ev, corners_ev, line_key, hn, an):
-    """Pinnacle num_0 prices -> {line key: price} in Jarvis' market names."""
+def pinnacle_prices(ev, corners_ev, line_key, hn, an, sets=None):
+    """Pinnacle num_0 prices -> {line key: price} in Jarvis' market names. `sets` collects the groups of keys
+    that form one complete market, so they can be de-margined together later."""
     mo = {}
+    sets = [] if sets is None else sets
     p0 = (ev.get("periods") or {}).get("num_0") or {}
     ml = p0.get("money_line") or {}
     if all(isinstance(ml.get(k), (int, float)) for k in ("home", "draw", "away")):
         mo[line_key("Match result", hn)] = ml["home"]
         mo[line_key("Match result", "Draw")] = ml["draw"]
         mo[line_key("Match result", an)] = ml["away"]
+        sets.append([line_key("Match result", x) for x in (hn, "Draw", an)])
     for pts, t in (p0.get("totals") or {}).items():
         if pts in ("0.5", "1.5", "2.5", "3.5", "4.5") and t.get("over") and t.get("under"):
             mo[line_key("Total goals", f"Over {pts}")] = t["over"]
             mo[line_key("Total goals", f"Under {pts}")] = t["under"]
+            sets.append([line_key("Total goals", f"{s_} {pts}") for s_ in ("Over", "Under")])
     for side, name in (("home", hn), ("away", an)):
         for pts, t in ((p0.get("team_totals") or {}).get(side) or {}).items():
             if pts in ("0.5", "1.5") and t.get("over"):
@@ -354,7 +362,8 @@ def football_match(repo, ev, corners_ev, odds_meta, D, model):
     for S in (H, A):
         if "xg" in S and "fd" in S and xg_stale(S["xg"][1], S["fd"][1]):
             S["xgStale"] = True
-    mo = pinnacle_prices(ev, corners_ev, D.line_key, hn, an)
+    sets = []
+    mo = pinnacle_prices(ev, corners_ev, D.line_key, hn, an, sets)
     if len(mo) < 3:
         return None, "no complete Pinnacle 1X2"
     at = odds_meta.get("fetchedAt")
@@ -447,7 +456,8 @@ def football_match(repo, ev, corners_ev, odds_meta, D, model):
          "oddsAt": {k: at for k in mo}, "provenance": prov, "pinnacleEventId": ev.get("event_id"),
          "auto": {"goalModel": model_kind, "names": {"home": {k: H[k][2] for k in ("fd", "xg", "fm") if k in H},
                                                      "away": {k: A[k][2] for k in ("fd", "xg", "fm") if k in A}},
-                  "xgStale": [S["pinnacle"] for S in (H, A) if S.get("xgStale")]}}
+                  "xgStale": [S["pinnacle"] for S in (H, A) if S.get("xgStale")]},
+         "priceSets": sets}
     return m, None
 
 
@@ -482,10 +492,11 @@ def hockey_match(repo, ev, odds_meta, D):
     hn, an = ev["home"], ev["away"]
     inputs = {"home": {"name": hn, "gf": hgf, "ga": hga}, "away": {"name": an, "gf": agf, "ga": aga}}
     ml = ((ev.get("periods") or {}).get("num_0") or {}).get("money_line") or {}
-    mo = {}
+    mo, sets = {}, []
     if ml.get("home") and ml.get("away"):
         mo[D.line_key("Moneyline (incl. OT)", hn)] = ml["home"]
         mo[D.line_key("Moneyline (incl. OT)", an)] = ml["away"]
+        sets = [[D.line_key("Moneyline (incl. OT)", x) for x in (hn, an)]]
     at = odds_meta.get("fetchedAt")
     rel = f"{lg}/h12_state.json"
     prov = {"H1": _prov(f"{lg}/teams.json", teams["meta"], {"home": {"team": kh, **{k: T[kh].get(k) for k in ("gf_pg", "ga_pg", "l10_gf_pg", "l10_ga_pg")}},
@@ -502,7 +513,36 @@ def hockey_match(repo, ev, odds_meta, D):
             "inputs": inputs, "h12": b, "flags": {"defaulted": 0, "stale": 0, "lineup": "unknown", "priceSources": 1, "primarySource": True},
             "marketOdds": mo, "marketSources": {k: "Pinnacle via pinnapi (jarvis-data)" for k in mo},
             "oddsAt": {k: at for k in mo}, "provenance": prov, "pinnacleEventId": ev.get("event_id"),
-            "auto": {"goalModel": "h12", "names": {"home": kh, "away": ka}}}, None
+            "auto": {"goalModel": "h12", "names": {"home": kh, "away": ka}}, "priceSets": sets}, None
+
+
+def drift_update(matches, now, path="auto/drift.json"):
+    """Keep, per match and line, the first and the latest de-margined Pinnacle probability seen. Jarvis bets
+    with the movement, not against it: research/line_drift.json."""
+    prev = load(path) or {}
+    lines = prev.get("lines") or {}
+    cutoff = (now - timedelta(hours=DRIFT_KEEP_H)).strftime("%Y-%m-%dT%H:%M")
+    lines = {k: v for k, v in lines.items() if (v.get("start") or "") >= cutoff}
+    stamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    for m in matches:
+        mo = m.get("marketOdds") or {}
+        for keys in m.get("priceSets") or []:
+            vals = [mo.get(k) for k in keys]
+            if len(keys) < 2 or not all(isinstance(v, (int, float)) and v > 1 for v in vals):
+                continue
+            tot = sum(1 / v for v in vals)
+            for k, v in zip(keys, vals):
+                p = round((1 / v) / tot, 5)
+                e = lines.get(f'{m["id"]}|{k}')
+                if e is None:
+                    lines[f'{m["id"]}|{k}'] = {"start": m.get("start"), "firstAt": stamp, "first": p,
+                                               "lastAt": stamp, "last": p, "n": 1}
+                else:
+                    e.update(lastAt=stamp, last=p, n=e.get("n", 1) + 1)
+    write_json(path, {"meta": {"fetchedAt": now_iso(), "lines": len(lines),
+                               "note": "first and latest de-margined Pinnacle probability per line; "
+                                       "drift = last - first"}, "lines": lines})
+    return lines
 
 
 def load_jarvis():
@@ -552,6 +592,18 @@ def build(now=None):
             matches.append(m)
         else:
             skipped.append({"event": f'{e["home"]} – {e["away"]}', "league": lg, "start": e["starts"], "reason": why})
+    try:
+        drift = drift_update(matches, now)
+        for m in matches:
+            d = {}
+            for k in (m.get("marketOdds") or {}):
+                e = drift.get(f'{m["id"]}|{k}')
+                if e and e.get("n", 1) > 1:
+                    d[k] = {"move": round(e["last"] - e["first"], 5), "first": e["first"], "since": e["firstAt"]}
+            if d:
+                m["drift"] = d
+    except Exception as e:                       # the drift file must never stop a run
+        print(f"drift skipped: {e}", file=sys.stderr)
     payload = {"now": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "markets": settings["markets"], "config": settings["config"],
                "openBets": [], "matches": matches}
     out = D.run(payload)

@@ -24,8 +24,9 @@ returned and when. A failed source never deletes the last good file; every file 
 ## Run
 
 ```
-python -m unittest discover -s tests   # offline tests (no network)
+python -m pytest tests -q              # the whole offline suite, 168 tests, no network
 python fetch/run_all.py                # fetch everything into data/
+python fetch/autoprice.py              # price every upcoming match from the files here + Pinnacle
 ```
 
 Schedule: `.github/workflows/fetch.yml` (05:20, 11:20 and 17:20 Stockholm, plus manual runs).

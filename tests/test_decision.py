@@ -946,3 +946,33 @@ def test_38_market_anchor():
         assert "reference" not in " ".join(r2["v1"]["why"])
     finally:
         D.DEFAULT_CONFIG["marketAnchor"] = False
+
+
+def test_39_the_price_hunt_needs_pinnacle_to_have_moved_toward_the_pick():
+    """research/line_drift.json: beating Pinnacle's fair price pays +1.5% closing-line value on its own, +18.5%
+    where Pinnacle itself has moved >= 2 points toward the pick. So no movement, no hunt."""
+    D.DEFAULT_CONFIG["marketAnchor"] = True
+    try:
+        cfg = D.load_config()
+        ms = [priced_match(i) for i in range(4)]
+        quiet = D.run({"now": NOW, "matches": [dict(m) for m in ms], "markets": STATUSES, "openBets": [],
+                       "config": {"mode": "active"}})
+        assert quiet["hunts"] == [], "nothing has moved, so nothing is hunted"
+        # give one long-odds outcome of each match a drift, two of them big enough
+        picked = []
+        for m, move in zip(ms, (0.035, 0.021, 0.005, -0.040)):
+            key = max((k for k in m["marketOdds"] if k.startswith("Match_result")), key=lambda k: m["marketOdds"][k])
+            m["drift"] = {key: {"move": move, "first": 0.20, "since": "2026-11-25T09:00:00Z"}}
+            picked.append((m["id"], key, move))
+        res = D.run({"now": NOW, "matches": ms, "markets": STATUSES, "openBets": [], "config": {"mode": "active"}})
+        got = {(h["matchId"], h["key"]) for h in res["hunts"]}
+        for mid, key, move in picked:
+            fair_ok = any(r["key"] == key and cfg["hunt"]["fair"][0] <= 100 / r["prob"] <= cfg["hunt"]["fair"][1]
+                          for mm in res["matches"] if mm["id"] == mid for r in mm["markets"])
+            assert ((mid, key) in got) == (move >= cfg["hunt"]["driftMin"] and fair_ok), (mid, move)
+        for h in res["hunts"]:
+            assert h["move"] >= 100 * cfg["hunt"]["driftMin"] and h["fair"] >= cfg["hunt"]["fair"][0]
+            assert h["minOdds"] >= h["fair"]          # the hunt never asks for less than Pinnacle's fair price
+        assert len(res["hunts"]) <= cfg["hunt"]["max"]
+    finally:
+        D.DEFAULT_CONFIG["marketAnchor"] = False

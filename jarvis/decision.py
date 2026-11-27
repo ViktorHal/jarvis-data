@@ -37,7 +37,7 @@ try:  # hockey model 1.2 (production for hockey from 26 Nov 2026 when its inputs
 except Exception:  # a missing or broken hockey12.py falls back to 1.1, recorded per match
     hockey12 = None
 
-VERSION = "3.8"
+VERSION = "3.9"
 
 DEFAULT_CONFIG = {
     "mode": "shadow",                 # "shadow" | "active"
@@ -96,6 +96,13 @@ DEFAULT_CONFIG = {
     # 3.6: strong favourites list (owner): the most likely result/goal line per match, shown with its minimum price.
     # A list, not a recommendation: such lines are usually priced fairly, so they rarely pass the value rules.
     "favourites": {"minProb": 0.60, "maxProb": 0.92, "max": 15, "groups": ["Match result"]},
+    # 3.9 PRICE HUNT (research/line_drift.json, 24,581 matches). Beating Pinnacle's fair price on its own is worth
+    # almost nothing (closing-line value +1.5%); the same bet taken only where Pinnacle's own de-margined price has
+    # moved TOWARD the pick by >= driftMin gave +26.2% return and +18.5% closing-line value, positive in every
+    # complete season. driftMin is in probability, so 0.02 = two points. Longer odds only: 1X2 and moneyline at fair
+    # odds 3-8, where the backtest found soft bookmakers' prices lag Pinnacle's.
+    "hunt": {"fair": [3.0, 8.0], "driftMin": 0.02, "max": 24,
+             "groups": ["Match result", "Moneyline (incl. OT)"]},
 }
 
 SPORT_KEY = {"football": "football", "ice hockey": "hockey", "hockey": "hockey",
@@ -706,6 +713,8 @@ def process_match(m, statuses, now, cfg):
                                                  **({"h12": m["h12"]} if m.get("h12") else {})})}}
     if shadow12 is not None:
         out["model12"] = shadow12
+    if m.get("drift"):
+        out["drift"] = m["drift"]
     if h12_info is not None:
         out["hockeyModel"] = {k: v for k, v in h12_info.items() if k != "prob11"}
     if sport == "football":
@@ -1086,21 +1095,36 @@ def run(payload, cfg=None):
 
 
 def hunts(processed, cfg):
-    """3.8 price hunt: Pinnacle-anchored lines at fair odds 3.0-8.0, where soft bookmakers most often pay more than
-    Pinnacle's fair price (research: +10.9% ROI over 1,012 Bet365 bets 2021-26, mostly odds 3-10, big swings by
-    season). One per match: the outcome with the lowest fair odds in that range. Not a bet until a bookmaker's price
-    meets minOdds (typed by him, or the Svenska Spel feed when it exists)."""
-    # 1X2 / moneyline only: the backtest's edge came from 1X2 (938 of 1,012 bets); over/under showed +3% on 74 bets
-    hc = cfg.get("hunt") or {"fair": [3.0, 8.0], "groups": ["Match result", "Moneyline (incl. OT)"]}
+    """3.9 price hunt. Two findings decided this list (research/line_drift.json, 24,581 matches):
+      * a soft bookmaker simply paying more than Pinnacle's fair price is a weak signal: closing-line value +1.5%
+      * the same bet, but only where Pinnacle's own de-margined price has moved toward the pick by at least 2 points,
+        gave 260 bets, +26.2% return and closing-line value +18.5%, positive in all four complete seasons
+    So Jarvis hunts with the movement, never against it. Caveat kept in mind: the backtest saw the whole
+    opening-to-closing move, while a scan only sees the part of it that has happened so far.
+    These are not bets until one of his bookmakers pays the price - he types the odds himself."""
+    hc = cfg.get("hunt") or {}
+    lo, hi = hc.get("fair", [3.0, 8.0])
+    dmin = hc.get("driftMin", 0.02)
+    groups = hc.get("groups", ["Match result", "Moneyline (incl. OT)"])
     out = []
     for m in processed:
-        rows = [r for r in m["markets"] if r.get("anchored") and r["group"] in hc["groups"] and r.get("odds")
-                and hc["fair"][0] <= 100 / r["prob"] <= hc["fair"][1] and r["status"] in ("active", "trial")
-                and not [w for w in r["v1"]["why"] if w.startswith(("sport", "starts", "data", "market"))]]
-        if rows:
-            r = min(rows, key=lambda r: 100 / r["prob"])
+        drift = m.get("drift") or {}
+        for r in m["markets"]:
+            if not r.get("anchored") or r["group"] not in groups or not r.get("odds") or r["status"] not in ("active", "trial"):
+                continue
+            if not lo <= 100 / r["prob"] <= hi:
+                continue
+            if [w for w in r["v1"]["why"] if w.startswith(("sport", "starts", "data", "market"))]:
+                continue
+            d = drift.get(r["key"])
+            if not d or d["move"] < dmin:
+                continue
             out.append({"matchId": m["id"], "event": m["event"], "start": m["start"], "pick": _pick(r), "key": r["key"],
-                        "prob": r["prob"], "fair": round(100 / r["prob"], 2), "minOdds": r["minOdds"], "pinnacle": r["odds"]})
+                        "prob": r["prob"], "fair": round(100 / r["prob"], 2), "minOdds": r["minOdds"],
+                        "pinnacle": r["odds"], "move": round(d["move"] * 100, 1), "since": d["since"],
+                        "wasProb": round(d["first"] * 100, 1)})
+    out.sort(key=lambda h: -h["move"])
+    out = out[: hc.get("max", 24)]
     out.sort(key=lambda h: h["start"] or "")
     return out
 
