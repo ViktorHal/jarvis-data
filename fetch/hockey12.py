@@ -1,4 +1,5 @@
-"""J.A.R.V.I.S. hockey model 1.2 (stdlib only). Production hockey model from 26 Nov 2026 (owner's decision).
+"""J.A.R.V.I.S. hockey model 1.3 (stdlib only). Production hockey model from 26 Nov 2026 (owner's decision);
+1.3 (27 Nov 2026) adds the sharpening below and changes nothing else.
 
 This module only changes how each team's expected goals are estimated;
 the result prices (Poisson grid, regulation draws, overtime split, puck line, totals) come from the
@@ -22,15 +23,22 @@ Inputs per match: {"home": TeamState, "away": TeamState, "starter_home": GoalieS
 """
 import math
 
-VERSION = "1.2"
+VERSION = "1.3"
 
 # Chosen on NHL 2018/19-2022/23 only and frozen for the test seasons (research/hockey_backtest.json).
+# 1.3: "sharpen" pulls the two goal rates apart (see goal_rates). 1.2's probabilities were under-confident -
+# the calibration slope of its moneyline was 1.41 (NHL) and 1.34 (SHL) where 1.0 is right, and it almost never
+# priced a side above 70%, so every clear favourite looked cheap against the market. Chosen on the fit seasons
+# only and checked on the test seasons: research/hockey13.json.
 PARAMS = {"half_life": 90.0, "k_sh": 800.0, "k_sv": 800.0, "home_adv": 1.03, "b2b": 0.10, "carry": 2 / 3,
-          "draw_inflation": 1.5}
+          "draw_inflation": 1.5, "sharpen": 1.4}
 # SHL: chosen on SHL 2018-19..2022-23 only, tested on 2023-24..2025-26 (research/shl_backtest.json).
 PARAMS_SHL = {"half_life": 25.0, "k_sh": 1600.0, "k_sv": 400.0, "home_adv": 1.06, "b2b": 0.10, "carry": 2 / 3,
-              "draw_inflation": 1.25}
+              "draw_inflation": 1.25, "sharpen": 1.3}
 PARAMS_BY_LEAGUE = {"nhl": PARAMS, "shl": PARAMS_SHL}
+# Only these shape the stored State (the decayed sums); every other parameter is applied when the block is
+# priced, so a state or match block built before a pricing parameter changed is still valid.
+STATE_KEYS = ("half_life", "carry")
 
 
 def _w(age_games, hl):
@@ -88,7 +96,17 @@ def goal_rates(home, away, g_home, g_away, L, P=None, b2b_home=False, b2b_away=F
     q_a = sh_a * (1 - sv_h) / (1 - L["sv"])
     lam_h = vol_h * q_h * P["home_adv"] * ((1 + P["b2b"]) if b2b_away else 1.0)
     lam_a = vol_a * q_a / P["home_adv"] * ((1 + P["b2b"]) if b2b_home else 1.0)
-    return max(lam_h, 0.3), max(lam_a, 0.3)
+    return sharpen(lam_h, lam_a, P.get("sharpen", 1.0))
+
+
+def sharpen(lh, la, g):
+    """1.3: widen the gap between the two rates, keeping their sum. g = 1 is 1.2 exactly."""
+    if g == 1.0:
+        return max(lh, 0.3), max(la, 0.3)
+    m = (lh + la) / 2
+    a, b = m * (lh / m) ** g, m * (la / m) ** g
+    s = (lh + la) / (a + b)
+    return max(a * s, 0.3), max(b * s, 0.3)
 
 
 class State:

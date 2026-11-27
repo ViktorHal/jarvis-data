@@ -537,9 +537,14 @@ def hockey12_status(m, cfg, now):
                 float(b[side][f])
         if b.get("leagueCode", "nhl") not in hockey12.PARAMS_BY_LEAGUE:
             return False, f"h12 league {b.get('leagueCode')} has no 1.2 parameters"
-        if any(abs(float((b.get("params") or {}).get(k, -1)) - float(v)) > 1e-9 for k, v in hockey12.params_for(b).items()):
+        have = b.get("params") or {}
+        want = hockey12.params_for(b)
+        if any(k not in have for k in hockey12.STATE_KEYS) or \
+                any(abs(float(have[k]) - float(v)) > 1e-9 for k, v in want.items() if k in have):
             return False, "h12 params differ from hockey12.py"
-        if b.get("version") != hockey12.VERSION:
+        # a block built before a pricing-only parameter was added is still valid: rates_from_block fills the
+        # missing ones from hockey12.py, and the stored state does not depend on them
+        if b.get("version", "").split(".")[0] != hockey12.VERSION.split(".")[0]:
             return False, "h12 version differs from hockey12.py"
     except Exception:
         return False, "h12 inputs incomplete"

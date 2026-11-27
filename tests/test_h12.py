@@ -41,7 +41,7 @@ class Replay(unittest.TestCase):
         seed = json.load(open(os.path.join(HERE, "..", "data", "nhl", "h12_seed.json")))
         st = H.State.from_snapshot(seed)
         self.assertEqual(st.games, 9781)
-        self.assertEqual(seed["params"], H.PARAMS)
+        self.assertEqual({k: seed["params"][k] for k in H.STATE_KEYS}, {k: H.PARAMS[k] for k in H.STATE_KEYS})
 
 
 class Match(unittest.TestCase):
@@ -91,7 +91,7 @@ class Shl(unittest.TestCase):
         import shl_games
         seed = json.load(open(os.path.join(HERE, "..", "data", "shl", "h12_seed.json"), encoding="utf-8"))
         self.assertEqual(seed["leagueCode"], "shl")
-        self.assertEqual(seed["params"], H.PARAMS_SHL)
+        self.assertEqual({k: seed["params"][k] for k in H.STATE_KEYS}, {k: H.PARAMS_SHL[k] for k in H.STATE_KEYS})
         games = [shl_games.parse_game(open(os.path.join(HERE, "fixtures", f"shl_game_{i}.html"), encoding="utf-8").read(), i)
                  for i in ("1109941", "1109942", "1109998")]
         st = h12_shl.build(seed, games)

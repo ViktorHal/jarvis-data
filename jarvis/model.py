@@ -37,11 +37,19 @@ P = {
     "cc_k": 10,               # games of shrinkage of a team rate toward the league venue mean
     "cc_w": 0.6,              # weight of the (shrunk) team rates vs the market-based estimate
     "cc_b": 1.2,              # market dominance: corners ~ exp(b * (own win prob - opponent's))
-    "cc_team_r": 8,           # NB dispersion for team corners
-    "cc_team_shrink": 0.9,    # team-corner probabilities pulled 10% toward 50% (calibration)
+    "cc_team_r": 20,          # NB dispersion for team corners
+    "cc_team_shrink": 0.95,   # team-corner probabilities pulled 5% toward 50% (calibration)
+    # 27 Nov 2026: fitted on 2021/22-2023/24 and checked on 2024/25-2025/26 over 23,275 matches
+    # (research/cc_fit.json, research/team_corners_fit.json). The old settings predicted 9.95 total corners
+    # where 9.75 happened and assumed a far wider spread than reality (variance 16.5 against 11.3), which made
+    # every probability wrong by up to 4 percentage points - more than the edge Jarvis asks for.
+    "cc_total_mult": 0.98,    # total corners: the model ran 2% high in 15 of 16 leagues
+    "cc_home_mult": 0.92,     # home team's corners: ran 0.5 a game high (the market-dominance term)
+    "cc_away_mult": 1.02,
+    "cards_mult": 0.96,       # cards ran 5% high in all 16 leagues
     "cc_total_league": 0.5,   # total corners: weight of the league average (team stats add little there)
-    "cc_total_r": 15,
-    "cards_k": 10, "cards_wt": 0.5, "cards_wr": 0.5, "cards_d": 0.3, "cards2_r": 20,
+    "cc_total_r": 40,
+    "cards_k": 10, "cards_wt": 0.5, "cards_wr": 0.5, "cards_d": 0.3, "cards2_r": 70,
     # cross-league ties (26 Nov 2026): team xG is measured against each team's own league, so the gap between the
     # two leagues' mean Jarvis Elo moves the goal rates: lam * exp(+-elo_c * (league_home - league_away) / 400).
     # elo_c fitted on 17,106 domestic matches 2024-2026 (Poisson goals on Elo difference) and checked on 1,062
@@ -225,9 +233,9 @@ def corners_v2(m, h, a, hn, an, lg, exp):
     ta = (_shrink(a["corners_for"], a.get("corners_n"), LA, k) + _shrink(h["corners_against"], h.get("corners_n"), LA, k)) / 2
     mk = m.get("market") or {}
     d = (mk["ph"] - mk["pa"]) if mk.get("ph") is not None and mk.get("pa") is not None else 0.0
-    mh = w * th + (1 - w) * LH * math.exp(b * d)
-    ma = w * ta + (1 - w) * LA * math.exp(-b * d)
-    mu = P["cc_total_league"] * (LH + LA) + (1 - P["cc_total_league"]) * (mh + ma)
+    mh = (w * th + (1 - w) * LH * math.exp(b * d)) * P["cc_home_mult"]
+    ma = (w * ta + (1 - w) * LA * math.exp(-b * d)) * P["cc_away_mult"]
+    mu = (P["cc_total_league"] * (LH + LA) + (1 - P["cc_total_league"]) * (mh / P["cc_home_mult"] + ma / P["cc_away_mult"])) * P["cc_total_mult"]
     exp.update({"corners": round(mu, 1), "corners_home": round(mh, 2), "corners_away": round(ma, 2),
                 "setPieceModel": "v2" + ("" if mk.get("ph") is not None else "-nomarket")})
     out = []
@@ -251,7 +259,7 @@ def cards_v2(m, h, a, lg, exp):
     base = P["cards_wt"] * team + P["cards_wr"] * refv + (1 - P["cards_wt"] - P["cards_wr"]) * L
     mk = m.get("market") or {}
     close = 1 - abs(mk["ph"] - mk["pa"]) if mk.get("ph") is not None and mk.get("pa") is not None else 0.7
-    mu = base * math.exp(P["cards_d"] * (close - 0.7)) * m.get("intensity", 1.0)
+    mu = base * math.exp(P["cards_d"] * (close - 0.7)) * m.get("intensity", 1.0) * P["cards_mult"]
     exp["cards"] = round(mu, 2)
     exp["cardsModel"] = "v2"
     out = []
