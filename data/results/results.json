@@ -18233,6 +18233,82 @@
    ]
   },
   {
+   "away": "Senators",
+   "awayAbbrev": "OTT",
+   "ended": "REG",
+   "home": "Lightning",
+   "homeAbbrev": "TBL",
+   "id": "2026020404",
+   "league": "NHL",
+   "reg": [
+    2,
+    6
+   ],
+   "score": [
+    2,
+    6
+   ],
+   "sport": "nhl",
+   "start": "2026-11-27T20:00:00Z"
+  },
+  {
+   "away": "Canucks",
+   "awayAbbrev": "VAN",
+   "ended": "REG",
+   "home": "Flyers",
+   "homeAbbrev": "PHI",
+   "id": "2026020405",
+   "league": "NHL",
+   "reg": [
+    5,
+    2
+   ],
+   "score": [
+    5,
+    2
+   ],
+   "sport": "nhl",
+   "start": "2026-11-27T20:00:00Z"
+  },
+  {
+   "away": "Panthers",
+   "awayAbbrev": "FLA",
+   "ended": "REG",
+   "home": "Capitals",
+   "homeAbbrev": "WSH",
+   "id": "2026020406",
+   "league": "NHL",
+   "reg": [
+    2,
+    3
+   ],
+   "score": [
+    2,
+    3
+   ],
+   "sport": "nhl",
+   "start": "2026-11-27T20:00:00Z"
+  },
+  {
+   "away": "Red Wings",
+   "awayAbbrev": "DET",
+   "ended": "REG",
+   "home": "Blue Jackets",
+   "homeAbbrev": "CBJ",
+   "id": "2026020407",
+   "league": "NHL",
+   "reg": [
+    0,
+    2
+   ],
+   "score": [
+    0,
+    2
+   ],
+   "sport": "nhl",
+   "start": "2026-11-27T20:00:00Z"
+  },
+  {
    "away": "Nacional",
    "corners": [
     9,
@@ -18480,17 +18556,17 @@
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-27T22:16:20Z",
-  "matches": 99,
+  "fetchedAt": "2026-11-27T23:16:46Z",
+  "matches": 103,
   "note": "settle bets with jarvis/settle.py; football cards = yellow + red as FotMob counts them; goals markets settle on the score after 90 minutes (ended AET/Pen -> needs a manual check)",
   "sources": {
    "fotmob": {
-    "new": 9,
+    "new": 0,
     "ok": true,
     "pending": 0
    },
    "nhl": {
-    "new": 1,
+    "new": 4,
     "ok": true
    },
    "shl": {
