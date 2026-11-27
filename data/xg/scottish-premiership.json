@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-27T10:32:50Z",
+  "fetchedAt": "2026-11-27T14:01:32Z",
   "league": "Scottish Premiership",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
@@ -17,8 +17,8 @@
     "played": 14,
     "xg": 18.9,
     "xg_pg": 1.35,
-    "xga": 23.9,
-    "xga_pg": 1.707
+    "xga": 23.8,
+    "xga_pg": 1.7
    },
    "away": {
     "ga": 14.0,
@@ -28,8 +28,8 @@
     "played": 7,
     "xg": 7.9,
     "xg_pg": 1.129,
-    "xga": 13.5,
-    "xga_pg": 1.929
+    "xga": 13.4,
+    "xga_pg": 1.914
    },
    "home": {
     "ga": 9.0,
@@ -50,8 +50,8 @@
     "played": 5,
     "xg": 7.2,
     "xg_pg": 1.44,
-    "xga": 10.2,
-    "xga_pg": 2.04
+    "xga": 10.1,
+    "xga_pg": 2.02
    }
   },
   "Celtic": {
@@ -429,8 +429,8 @@
     "goals": 26.0,
     "goals_pg": 1.857,
     "played": 14,
-    "xg": 35.5,
-    "xg_pg": 2.536,
+    "xg": 35.4,
+    "xg_pg": 2.529,
     "xga": 14.5,
     "xga_pg": 1.036
    },
@@ -451,8 +451,8 @@
     "goals": 13.0,
     "goals_pg": 2.167,
     "played": 6,
-    "xg": 17.5,
-    "xg_pg": 2.917,
+    "xg": 17.4,
+    "xg_pg": 2.9,
     "xga": 6.4,
     "xga_pg": 1.067
    },
@@ -462,8 +462,8 @@
     "goals": 13.0,
     "goals_pg": 2.6,
     "played": 5,
-    "xg": 14.9,
-    "xg_pg": 2.98,
+    "xg": 14.8,
+    "xg_pg": 2.96,
     "xga": 5.2,
     "xga_pg": 1.04
    }
