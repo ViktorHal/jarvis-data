@@ -37,7 +37,7 @@ try:  # hockey model 1.2 (production for hockey from 26 Nov 2026 when its inputs
 except Exception:  # a missing or broken hockey12.py falls back to 1.1, recorded per match
     hockey12 = None
 
-VERSION = "3.7"
+VERSION = "3.8"
 
 DEFAULT_CONFIG = {
     "mode": "shadow",                 # "shadow" | "active"
@@ -46,18 +46,25 @@ DEFAULT_CONFIG = {
     "intervalCalibrated": False,      # set True only after coverage has been checked
     # Effective sample size per data tier. Chosen so the q10-q90 range at p = 0.5 equals the
     # old +-3/5/8 pp bands: n = p(1-p) * (z90 / half-width)^2. Unlike the bands, it scales with p.
-    "nEff": {"A": 456, "B": 164, "C": 64},
+    "nEff": {"A": 456, "B": 164, "C": 64, "M": 20000},   # M (3.8): Pinnacle's no-vig price, anchored rows
     "gapMax": 0.08,                   # max |model - no-vig market| before a line is blocked
     "qualityMin": 55,
     "trial": {"edge": 0.05, "qualityMin": 60},
     "minStartMinutes": 30,
+    # 3.8 MARKET ANCHOR (owner, 27 Nov 2026, after research/value_backtest.py: over 23,335 matches the model's own
+    # value bets lost 6.7-8.8% at Bet365 and Pinnacle's no-vig price beat the model on log-loss in every season, so
+    # the best blend weight for the model was 0). Where a complete Pinnacle set exists, Pinnacle's no-vig probability
+    # IS the probability (the model's is kept as probModel); a line whose only price is Pinnacle's is never a value
+    # single (he cannot bet at Pinnacle): it is worth playing only if one of his bookmakers pays minOdds. Goal markets of
+    # an anchored football match leave the check/combo/builder pools (soft bookmakers price them below fair).
+    "marketAnchor": True,
     "maxPerEvent": 2,                 # 3.6 (owner, 26 Nov 2026 evening): at most two products per match, so the picks spread
                                       # over the whole slate (ten products on NEC - Rennes was too many)
     "maxNewPerRun": None,             # no cap on how many bets a run may post (owner's decision)
     "sports": {"football": "on", "hockey": "on", "basketball": "off"},
     "hockeyModel": "1.2",             # owner, 26 Nov 2026; "1.1" switches hockey back to the old model
     "goalFamilies": ["Match result", "Double chance", "Total goals", "Both teams to score", "Team goals"],
-    "v1": {"band": {"A": 0.03, "B": 0.05, "C": 0.08}, "evLowMin": -0.02, "legEv": 0.02},
+    "v1": {"band": {"A": 0.03, "B": 0.05, "C": 0.08, "M": 0.0}, "evLowMin": -0.02, "legEv": 0.02},
     "acca": {"legOdds": [1.20, 1.60], "total": [15, 30], "legs": [4, 10], "legEv": 0.02},
     "builder": {"odds": [2.5, 8.0], "maxLegs": 3},
     "tiers": {"safe": [1.30, 1.70, 0.70], "value": [1.70, 3.50], "long": [4.0, 10.0, 0.05]},
@@ -259,7 +266,7 @@ def quality_score(ev_at_price, status, tier, price_sources, gap, lineup, dq):
     parts = {
         "ev": 0 if ev_at_price is None else round(max(0.0, min(30.0, ev_at_price / 0.10 * 30)), 1),
         "model": {"active": 20, "trial": 10}.get(status, 0),
-        "evidence": {"A": 15, "B": 9, "C": 3}[tier],
+        "evidence": {"A": 15, "B": 9, "C": 3, "M": 15}[tier],
         "market": (10 if price_sources >= 2 else 5 if price_sources == 1 else 0)
                   + (5 if gap is not None and abs(gap) <= 0.04 else 0),
         "info": {"confirmed": 10, "probable": 6, "n/a": 6}.get(lineup, 2),
@@ -619,9 +626,17 @@ def process_match(m, statuses, now, cfg):
             p_ref, ref_kind = 1 / ref1 / 1.05, "single"
         else:
             p_ref, ref_kind = None, None
+        anchored = bool(cfg.get("marketAnchor")) and ref_kind == "novig"
+        p_model = p
+        row_tier = tier
+        if anchored:
+            p, row_tier = p_ref, "M"           # minimum = 3% over Pinnacle's fair price (research/value_backtest.py)
+            s = prob_summary(p, "M", cfg)
+            lo1, hi1 = v1_band(p, "M", cfg)
+        typed = isinstance(mgm.get(k), (int, float)) and mgm.get(k) > 1
         gap = (p - p_ref) if p_ref is not None else None
         q, qb = quality_score(None if odds is None else ev(p, odds), status, tier, sources, gap, lineup, dq)
-        common = dict(cfg=cfg, status=status, tier=tier, odds=odds, gap=gap, quality=q,
+        common = dict(cfg=cfg, status=status, tier=row_tier, odds=odds, gap=gap, quality=q,
                       minutes_to_start=mins, sport_on=sport_on)
         ok1, why1, mo1 = evaluate_line(p, rules="v1", **common)
         ok2, why2, mo2 = evaluate_line(p, rules="v2", **common)
@@ -629,6 +644,9 @@ def process_match(m, statuses, now, cfg):
                            inp.get("players"), now, h12_used)
         if block:   # a market without its required facts is not posted; other markets are unaffected
             ok1, ok2, why1, why2 = False, False, why1 + [block], why2 + [block]
+        if cfg.get("marketAnchor") and odds is not None and not typed:
+            msg = "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
+            ok1, ok2, why1, why2 = False, False, why1 + [msg], why2 + [msg]
         age = odds_age_minutes(odds_at.get(k), now) if k in odds_at else None
         stale_set = [kk for kk in stale_keys if key_group.get(kk) == x["group"] and kk in pm] if k in pm else []
         if (age is not None and age > stale_min) or stale_set:
@@ -640,7 +658,7 @@ def process_match(m, statuses, now, cfg):
         active = cfg["mode"] == "active"
         rows.append({
             "group": x["group"], "selection": x["selection"], "key": k,
-            "prob": x["prob"], "fair": x["fair"],
+            "prob": round(p * 100, 1) if anchored else x["prob"], "fair": round(1 / p, 2) if anchored else x["fair"],
             "probLow": round((s["pLow"] if active else lo1) * 100, 1),
             "probHigh": round((s["pHigh"] if active else hi1) * 100, 1),
             "pQ": round(s["pQ"] * 100, 1), "nEff": s["nEff"],
@@ -653,6 +671,9 @@ def process_match(m, statuses, now, cfg):
             "oddsAgeMin": age,
             "oddsStale": None if age is None else age > stale_min,
         })
+        if anchored:
+            rows[-1]["probModel"] = x["prob"]
+            rows[-1]["anchored"] = True
         if h12_used:
             rows[-1]["prob11"] = h12_info["prob11"].get(k)
     # Shadow model 1.2: same inputs plus the P2 fields; stored next to 1.1, never used to decide.
@@ -799,6 +820,12 @@ def _pick(r):
     return f'{r["selection"]} ({r["group"]})'
 
 
+def _anchored_goals(m, cfg):
+    """3.8: an anchored football match (Pinnacle's complete 1X2 set present): its goal markets are the market's."""
+    return bool(cfg.get("marketAnchor")) and m.get("sport") == "football" and any(
+        r.get("anchored") and r["group"] == "Match result" for r in m["markets"])
+
+
 def _leg(m, r):
     return {"matchId": m["id"], "event": m["event"], "start": m["start"], "pick": _pick(r), "line": r}
 
@@ -808,7 +835,8 @@ def extra_products(processed, cfg, rules, room, add, taken):
     hr = cfg["hitrate"]
     ck, cb, pb = hr["check"], hr["combo"], hr["playerBuilder"]
     trust = {m["id"]: _distrusted(m, cfg) for m in processed}
-    ok_group = lambda m, r: FAMILY_GROUP.get(r["group"], r["group"]) not in trust[m["id"]]
+    ok_trust = lambda m, r: FAMILY_GROUP.get(r["group"], r["group"]) not in trust[m["id"]]
+    ok_group = lambda m, r: ok_trust(m, r) and not (r["group"] in GOAL_FAMILIES_ALL and _anchored_goals(m, cfg))
     # what the value singles and goal builders already hold (never offered twice)
     used_keys = set()
     for b in add.products:
@@ -820,9 +848,10 @@ def extra_products(processed, cfg, rules, room, add, taken):
         if not room(m["id"]):
             continue
         goal = [r for r in m["markets"] if r["group"] in ("Total goals", "Team goals", "Both teams to score")
-                and GOAL_OVER.search(r["selection"]) and r["prob"] / 100 >= pb["goalMinProb"] and ok_group(m, r)
+                and GOAL_OVER.search(r["selection"]) and r["prob"] / 100 >= pb["goalMinProb"] and ok_trust(m, r)
                 and (r[rules]["post"] or _checkable(r, rules) or (r.get("gap") is not None and abs(r["gap"]) / 100 <= cfg["gapMax"]
-                                                               and not [w for w in r[rules]["why"] if w.startswith(("data", "sport", "market", "starts"))]))]
+                                                               and not [w for w in r[rules]["why"] if w.startswith(("data", "sport", "market", "starts"))]))
+                and _offerable(r)]
         plays = [r for r in m["markets"] if r["group"] in PLAYER_FAMILIES and r["prob"] / 100 >= pb["playerMinProb"]
                  and _checkable(r, rules)]
         goal = [r for r in goal if (m["id"], _gkey(r)) not in used_keys]
@@ -982,7 +1011,7 @@ def build_products(processed, open_bets, cfg, rules):
     for m in processed:
         builder = None
         g = m.get("grid")
-        if not g or not room(m["id"]):
+        if not g or not room(m["id"]) or _anchored_goals(m, cfg):     # 3.8: no model-vs-market goal builders
             continue
         pool = [r for r in m["markets"] if r["group"] in cfg["goalFamilies"] and r["gap"] is not None
                 and r["gap"] > (hr.get("builderLegGap", 0) if hr is not None else 0) and r["status"] in ("active", "trial")
@@ -1047,7 +1076,28 @@ def run(payload, cfg=None):
             "otherProfileProducts": build_products(processed, open_bets,
                                                    dict(cfg, profile="value" if cfg.get("profile") == "hitrate" else "hitrate"), active),
             "favourites": favourites(processed, cfg, active),
+            "hunts": hunts(processed, cfg),
             "summary": summarise(processed), "coverage": run_coverage(processed)}
+
+
+def hunts(processed, cfg):
+    """3.8 price hunt: Pinnacle-anchored lines at fair odds 3.0-8.0, where soft bookmakers most often pay more than
+    Pinnacle's fair price (research: +10.9% ROI over 1,012 Bet365 bets 2021-26, mostly odds 3-10, big swings by
+    season). One per match: the outcome with the lowest fair odds in that range. Not a bet until a bookmaker's price
+    meets minOdds (typed by him, or the Svenska Spel feed when it exists)."""
+    # 1X2 / moneyline only: the backtest's edge came from 1X2 (938 of 1,012 bets); over/under showed +3% on 74 bets
+    hc = cfg.get("hunt") or {"fair": [3.0, 8.0], "groups": ["Match result", "Moneyline (incl. OT)"]}
+    out = []
+    for m in processed:
+        rows = [r for r in m["markets"] if r.get("anchored") and r["group"] in hc["groups"] and r.get("odds")
+                and hc["fair"][0] <= 100 / r["prob"] <= hc["fair"][1] and r["status"] in ("active", "trial")
+                and not [w for w in r["v1"]["why"] if w.startswith(("sport", "starts", "data", "market"))]]
+        if rows:
+            r = min(rows, key=lambda r: 100 / r["prob"])
+            out.append({"matchId": m["id"], "event": m["event"], "start": m["start"], "pick": _pick(r), "key": r["key"],
+                        "prob": r["prob"], "fair": round(100 / r["prob"], 2), "minOdds": r["minOdds"], "pinnacle": r["odds"]})
+    out.sort(key=lambda h: h["start"] or "")
+    return out
 
 
 def favourites(processed, cfg, rules):

@@ -578,7 +578,7 @@ def build(now=None):
             "decisionVersion": out["decisionVersion"], "rules": out["rules"], "profile": out["profile"],
             "matches": len(matches), "skipped": len(skipped), "products": len(out["products"]),
             "note": "priced by code from repo data and Pinnacle; line-ups, injuries and referees are NOT known to the robot"}
-    return {"meta": meta, "products": out["products"], "favourites": out["favourites"], "matches": board,
+    return {"meta": meta, "products": out["products"], "favourites": out["favourites"], "hunts": out.get("hunts", []), "matches": board,
             "skipped": skipped, "summary": out["summary"]}, payload
 
 
