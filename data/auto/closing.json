@@ -16,6 +16,22 @@
    "openAt": "2026-11-27T19:46:25Z",
    "start": "2026-11-27T21:00:00Z"
   },
+  "2026-11-27-chicago-blackhawks-new-york-rangers|Moneyline_incl_OT_Chicago_Blackhawks": {
+   "close": 0.38515,
+   "closeAt": "2026-11-27T21:48:10Z",
+   "n": 19,
+   "open": 0.37756,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-27T22:30:00Z"
+  },
+  "2026-11-27-chicago-blackhawks-new-york-rangers|Moneyline_incl_OT_New_York_Rangers": {
+   "close": 0.61485,
+   "closeAt": "2026-11-27T21:48:10Z",
+   "n": 19,
+   "open": 0.62244,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-27T22:30:00Z"
+  },
   "2026-11-27-minnesota-wild-colorado-avalanche|Moneyline_incl_OT_Colorado_Avalanche": {
    "close": 0.48148,
    "closeAt": "2026-11-27T19:46:25Z",
@@ -74,9 +90,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-27T22:15:15Z",
+  "fetchedAt": "2026-11-27T22:46:28Z",
   "keptDays": 45,
-  "lines": 9,
+  "lines": 11,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
