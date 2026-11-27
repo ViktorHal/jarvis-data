@@ -18556,7 +18556,7 @@
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-27T23:16:46Z",
+  "fetchedAt": "2026-11-27T23:24:10Z",
   "matches": 103,
   "note": "settle bets with jarvis/settle.py; football cards = yellow + red as FotMob counts them; goals markets settle on the score after 90 minutes (ended AET/Pen -> needs a manual check)",
   "sources": {
@@ -18566,7 +18566,7 @@
     "pending": 0
    },
    "nhl": {
-    "new": 4,
+    "new": 0,
     "ok": true
    },
    "shl": {
