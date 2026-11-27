@@ -1,472 +1,472 @@
 {
  "failed": 1,
  "ok": 66,
- "runAt": "2026-11-26T19:50:33Z",
+ "runAt": "2026-11-27T00:46:54Z",
  "sources": {
   "clubelo": {
-   "at": "2026-11-26T19:50:33Z",
+   "at": "2026-11-27T00:46:54Z",
    "error": "<urlopen error timed out>",
    "rows": 0,
    "status": "failed",
-   "url": "https://api.clubelo.com/2026-11-26"
+   "url": "https://api.clubelo.com/2026-11-27"
   },
   "football-data B1": {
-   "at": "2026-11-26T19:42:00Z",
+   "at": "2026-11-27T00:39:50Z",
    "note": null,
    "rows": 108,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/B1.csv"
   },
   "football-data D1": {
-   "at": "2026-11-26T19:41:57Z",
+   "at": "2026-11-27T00:39:47Z",
    "note": null,
    "rows": 90,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv"
   },
   "football-data D2": {
-   "at": "2026-11-26T19:42:06Z",
+   "at": "2026-11-27T00:39:56Z",
    "note": null,
    "rows": 108,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/D2.csv"
   },
   "football-data E0": {
-   "at": "2026-11-26T19:41:53Z",
+   "at": "2026-11-27T00:39:44Z",
    "note": null,
    "rows": 110,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv"
   },
   "football-data E1": {
-   "at": "2026-11-26T19:41:54Z",
+   "at": "2026-11-27T00:39:45Z",
    "note": null,
    "rows": 204,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/E1.csv"
   },
   "football-data F1": {
-   "at": "2026-11-26T19:41:58Z",
+   "at": "2026-11-27T00:39:48Z",
    "note": null,
    "rows": 99,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv"
   },
   "football-data F2": {
-   "at": "2026-11-26T19:42:07Z",
+   "at": "2026-11-27T00:39:57Z",
    "note": null,
    "rows": 117,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/F2.csv"
   },
   "football-data G1": {
-   "at": "2026-11-26T19:42:03Z",
+   "at": "2026-11-27T00:39:53Z",
    "note": null,
    "rows": 76,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/G1.csv"
   },
   "football-data I1": {
-   "at": "2026-11-26T19:41:56Z",
+   "at": "2026-11-27T00:39:47Z",
    "note": null,
    "rows": 120,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/I1.csv"
   },
   "football-data I2": {
-   "at": "2026-11-26T19:42:05Z",
+   "at": "2026-11-27T00:39:55Z",
    "note": null,
    "rows": 130,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/I2.csv"
   },
   "football-data N1": {
-   "at": "2026-11-26T19:41:59Z",
+   "at": "2026-11-27T00:39:49Z",
    "note": null,
    "rows": 117,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/N1.csv"
   },
   "football-data P1": {
-   "at": "2026-11-26T19:42:01Z",
+   "at": "2026-11-27T00:39:51Z",
    "note": null,
    "rows": 98,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/P1.csv"
   },
   "football-data SC0": {
-   "at": "2026-11-26T19:42:03Z",
+   "at": "2026-11-27T00:39:54Z",
    "note": null,
    "rows": 83,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/SC0.csv"
   },
   "football-data SP1": {
-   "at": "2026-11-26T19:41:55Z",
+   "at": "2026-11-27T00:39:46Z",
    "note": null,
    "rows": 129,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv"
   },
   "football-data SP2": {
-   "at": "2026-11-26T19:42:04Z",
+   "at": "2026-11-27T00:39:54Z",
    "note": null,
    "rows": 162,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/SP2.csv"
   },
   "football-data T1": {
-   "at": "2026-11-26T19:42:02Z",
+   "at": "2026-11-27T00:39:52Z",
    "note": null,
    "rows": 108,
    "status": "ok",
    "url": "https://www.football-data.co.uk/mmz4281/2627/T1.csv"
   },
   "football-data fixtures": {
-   "at": "2026-11-26T19:42:08Z",
+   "at": "2026-11-27T00:39:58Z",
    "note": null,
    "rows": 43,
    "status": "ok",
    "url": "https://www.football-data.co.uk/fixtures.csv"
   },
   "fotmob players allsvenskan": {
-   "at": "2026-11-26T19:49:33Z",
-   "note": "150 new matches, catching up",
-   "rows": 150,
+   "at": "2026-11-27T00:42:44Z",
+   "note": "82 new matches",
+   "rows": 232,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=67"
   },
   "fotmob players belgian-pro-league": {
-   "at": "2026-11-26T19:49:34Z",
-   "note": "0 new matches, catching up",
-   "rows": 0,
+   "at": "2026-11-27T00:45:56Z",
+   "note": "108 new matches",
+   "rows": 108,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=40"
   },
   "fotmob players bundesliga": {
-   "at": "2026-11-26T19:43:26Z",
+   "at": "2026-11-27T00:41:28Z",
    "note": "0 new matches",
    "rows": 90,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=54"
   },
   "fotmob players championship": {
-   "at": "2026-11-26T19:43:23Z",
+   "at": "2026-11-27T00:41:26Z",
    "note": "0 new matches",
    "rows": 204,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=48"
   },
   "fotmob players eredivisie": {
-   "at": "2026-11-26T19:44:27Z",
-   "note": "69 new matches",
+   "at": "2026-11-27T00:41:29Z",
+   "note": "0 new matches",
    "rows": 117,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=57"
   },
   "fotmob players la-liga": {
-   "at": "2026-11-26T19:43:24Z",
+   "at": "2026-11-27T00:41:27Z",
    "note": "0 new matches",
    "rows": 129,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=87"
   },
   "fotmob players liga-portugal": {
-   "at": "2026-11-26T19:46:01Z",
-   "note": "98 new matches",
+   "at": "2026-11-27T00:41:30Z",
+   "note": "0 new matches",
    "rows": 98,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=61"
   },
   "fotmob players ligue-1": {
-   "at": "2026-11-26T19:43:26Z",
+   "at": "2026-11-27T00:41:28Z",
    "note": "0 new matches",
    "rows": 99,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=53"
   },
   "fotmob players premier-league": {
-   "at": "2026-11-26T19:43:23Z",
+   "at": "2026-11-27T00:41:25Z",
    "note": "0 new matches",
    "rows": 110,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=47"
   },
   "fotmob players scottish-premiership": {
-   "at": "2026-11-26T19:47:18Z",
-   "note": "83 new matches",
+   "at": "2026-11-27T00:41:30Z",
+   "note": "0 new matches",
    "rows": 83,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=64"
   },
   "fotmob players serie-a": {
-   "at": "2026-11-26T19:43:25Z",
+   "at": "2026-11-27T00:41:27Z",
    "note": "0 new matches",
    "rows": 120,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=55"
   },
   "fotmob players super-lig": {
-   "at": "2026-11-26T19:49:34Z",
-   "note": "0 new matches, catching up",
-   "rows": 0,
+   "at": "2026-11-27T00:44:21Z",
+   "note": "108 new matches",
+   "rows": 108,
    "status": "ok",
    "url": "https://www.fotmob.com/api/data/leagues?id=71"
   },
   "jarvis elo": {
-   "at": "2026-11-26T19:50:33Z",
+   "at": "2026-11-27T00:46:54Z",
    "note": "fresh (refetched once a day)",
    "rows": 629,
    "status": "ok",
    "url": "fotmob.com/api/data/leagues (results)"
   },
   "nhl goalies": {
-   "at": "2026-11-26T19:42:08Z",
+   "at": "2026-11-27T00:39:58Z",
    "note": null,
    "rows": 79,
    "status": "ok",
    "url": "https://api.nhle.com/stats/rest/en/goalie/summary?limit=-1&cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
   },
   "nhl h12 state": {
-   "at": "2026-11-26T19:42:15Z",
+   "at": "2026-11-27T00:40:06Z",
    "note": "34 teams, 196 goalies, through 2026-11-25",
    "rows": 399,
    "status": "ok",
    "url": "https://api.nhle.com/stats/rest/en/{team,goalie}/summary?isGame=true (seasonId=20262027, gameTypeId=2)"
   },
-  "nhl schedule 2026-11-26": {
-   "at": "2026-11-26T19:42:09Z",
-   "note": null,
-   "rows": 0,
-   "status": "ok",
-   "url": "https://api-web.nhle.com/v1/score/2026-11-26"
-  },
   "nhl schedule 2026-11-27": {
-   "at": "2026-11-26T19:42:09Z",
+   "at": "2026-11-27T00:39:59Z",
    "note": null,
    "rows": 15,
    "status": "ok",
    "url": "https://api-web.nhle.com/v1/score/2026-11-27"
   },
+  "nhl schedule 2026-11-28": {
+   "at": "2026-11-27T00:39:59Z",
+   "note": null,
+   "rows": 13,
+   "status": "ok",
+   "url": "https://api-web.nhle.com/v1/score/2026-11-28"
+  },
   "nhl skaters": {
-   "at": "2026-11-26T19:42:09Z",
-   "note": "789 rows read, 693 with >= 5 games",
-   "rows": 693,
+   "at": "2026-11-27T00:39:59Z",
+   "note": "789 rows read, 675 with >= 5 games",
+   "rows": 675,
    "status": "ok",
    "url": "https://api.nhle.com/stats/rest/en/skater/summary?limit=100&start=0&cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
   },
   "nhl standings": {
-   "at": "2026-11-26T19:42:08Z",
+   "at": "2026-11-27T00:39:58Z",
    "note": null,
    "rows": 32,
    "status": "ok",
    "url": "https://api-web.nhle.com/v1/standings/now"
   },
   "nhl team summary": {
-   "at": "2026-11-26T19:42:08Z",
+   "at": "2026-11-27T00:39:58Z",
    "note": null,
    "rows": 32,
    "status": "ok",
    "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
   },
   "nhl yesterday": {
-   "at": "2026-11-26T19:42:08Z",
-   "note": "teams that played on 2026-11-25 (US date)",
-   "rows": 28,
+   "at": "2026-11-27T00:39:58Z",
+   "note": "teams that played on 2026-11-26 (US date)",
+   "rows": 0,
    "status": "ok",
-   "url": "https://api-web.nhle.com/v1/score/2026-11-25"
+   "url": "https://api-web.nhle.com/v1/score/2026-11-26"
   },
   "players bundesliga shots-on-target": {
-   "at": "2026-11-26T19:43:15Z",
+   "at": "2026-11-27T00:41:17Z",
    "note": null,
    "rows": 50,
    "status": "ok",
    "url": "https://playerstats.football/bundesliga/stats/shots-on-target"
   },
   "players bundesliga total-shots": {
-   "at": "2026-11-26T19:43:12Z",
+   "at": "2026-11-27T00:41:14Z",
    "note": null,
    "rows": 50,
    "status": "ok",
    "url": "https://playerstats.football/bundesliga/stats/total-shots"
   },
   "players championship shots-on-target": {
-   "at": "2026-11-26T19:42:59Z",
+   "at": "2026-11-27T00:41:00Z",
    "note": null,
    "rows": 21,
    "status": "ok",
    "url": "https://playerstats.football/championship/stats/shots-on-target"
   },
   "players championship total-shots": {
-   "at": "2026-11-26T19:42:56Z",
+   "at": "2026-11-27T00:40:57Z",
    "note": null,
    "rows": 16,
    "status": "ok",
    "url": "https://playerstats.football/championship/stats/total-shots"
   },
   "players la-liga shots-on-target": {
-   "at": "2026-11-26T19:43:04Z",
+   "at": "2026-11-27T00:41:07Z",
    "note": null,
    "rows": 43,
    "status": "ok",
    "url": "https://playerstats.football/la-liga/stats/shots-on-target"
   },
   "players la-liga total-shots": {
-   "at": "2026-11-26T19:43:02Z",
+   "at": "2026-11-27T00:41:04Z",
    "note": null,
    "rows": 43,
    "status": "ok",
    "url": "https://playerstats.football/la-liga/stats/total-shots"
   },
   "players ligue-1 shots-on-target": {
-   "at": "2026-11-26T19:43:20Z",
+   "at": "2026-11-27T00:41:22Z",
    "note": null,
    "rows": 50,
    "status": "ok",
    "url": "https://playerstats.football/ligue-1/stats/shots-on-target"
   },
   "players ligue-1 total-shots": {
-   "at": "2026-11-26T19:43:18Z",
+   "at": "2026-11-27T00:41:19Z",
    "note": null,
    "rows": 50,
    "status": "ok",
    "url": "https://playerstats.football/ligue-1/stats/total-shots"
   },
   "players premier-league shots-on-target": {
-   "at": "2026-11-26T19:42:53Z",
+   "at": "2026-11-27T00:40:54Z",
    "note": null,
    "rows": 50,
    "status": "ok",
    "url": "https://playerstats.football/premier-league/stats/shots-on-target"
   },
   "players premier-league total-shots": {
-   "at": "2026-11-26T19:42:50Z",
+   "at": "2026-11-27T00:40:52Z",
    "note": null,
    "rows": 50,
    "status": "ok",
    "url": "https://playerstats.football/premier-league/stats/total-shots"
   },
   "players serie-a shots-on-target": {
-   "at": "2026-11-26T19:43:10Z",
+   "at": "2026-11-27T00:41:12Z",
    "note": null,
    "rows": 46,
    "status": "ok",
    "url": "https://playerstats.football/serie-a/stats/shots-on-target"
   },
   "players serie-a total-shots": {
-   "at": "2026-11-26T19:43:07Z",
+   "at": "2026-11-27T00:41:09Z",
    "note": null,
    "rows": 45,
    "status": "ok",
    "url": "https://playerstats.football/serie-a/stats/total-shots"
   },
   "shl game stats": {
-   "at": "2026-11-26T19:42:18Z",
-   "note": "0 new game pages",
-   "rows": 130,
+   "at": "2026-11-27T00:40:17Z",
+   "note": "6 new game pages",
+   "rows": 136,
    "status": "ok",
    "url": "https://stats.swehockey.se/ScheduleAndResults/Schedule/20961"
   },
   "shl goalies": {
-   "at": "2026-11-26T19:42:17Z",
-   "note": "last update 2026-11-24 21:34",
+   "at": "2026-11-27T00:40:08Z",
+   "note": "last update 2026-11-26 21:52",
    "rows": 30,
    "status": "ok",
    "url": "https://stats.swehockey.se/Players/Statistics/LeadingGoaliesSVS/20961"
   },
   "shl h12 state": {
-   "at": "2026-11-26T19:42:18Z",
-   "note": "18 teams, through 2026-11-24",
-   "rows": 130,
+   "at": "2026-11-27T00:40:17Z",
+   "note": "18 teams, through 2026-11-26",
+   "rows": 136,
    "status": "ok",
    "url": "data/shl/game_stats.json"
   },
   "shl schedule": {
-   "at": "2026-11-26T19:42:16Z",
-   "note": "130 played",
+   "at": "2026-11-27T00:40:07Z",
+   "note": "136 played",
    "rows": 364,
    "status": "ok",
    "url": "https://stats.swehockey.se/ScheduleAndResults/Schedule/20961"
   },
   "xg allsvenskan": {
-   "at": "2026-11-26T19:42:40Z",
+   "at": "2026-11-27T00:40:41Z",
    "note": "Updated 23 November 2026, after the last game",
    "rows": 16,
    "status": "ok",
    "url": "https://statz.ai/competitions/allsvenskan/xg"
   },
   "xg belgian-pro-league": {
-   "at": "2026-11-26T19:42:48Z",
+   "at": "2026-11-27T00:40:49Z",
    "note": "Updated 22 November 2026, after the last game",
    "rows": 18,
    "status": "ok",
    "url": "https://statz.ai/competitions/belgian-pro-league/xg"
   },
   "xg bundesliga": {
-   "at": "2026-11-26T19:42:30Z",
+   "at": "2026-11-27T00:40:28Z",
    "note": "Updated 22 November 2026, after the last game",
    "rows": 18,
    "status": "ok",
    "url": "https://statz.ai/competitions/bundesliga/xg"
   },
   "xg championship": {
-   "at": "2026-11-26T19:42:21Z",
+   "at": "2026-11-27T00:40:20Z",
    "note": "Updated 25 November 2026, after the last game",
    "rows": 24,
    "status": "ok",
    "url": "https://statz.ai/competitions/championship/xg"
   },
   "xg eredivisie": {
-   "at": "2026-11-26T19:42:35Z",
+   "at": "2026-11-27T00:40:36Z",
    "note": "Updated 22 November 2026, after the last game",
    "rows": 18,
    "status": "ok",
    "url": "https://statz.ai/competitions/eredivisie/xg"
   },
   "xg la-liga": {
-   "at": "2026-11-26T19:42:24Z",
+   "at": "2026-11-27T00:40:23Z",
    "note": "Updated 23 November 2026, after the last game",
    "rows": 20,
    "status": "ok",
    "url": "https://statz.ai/competitions/la-liga/xg"
   },
   "xg liga-portugal": {
-   "at": "2026-11-26T19:42:37Z",
+   "at": "2026-11-27T00:40:38Z",
    "note": "Updated 8 November 2026, after the last game",
    "rows": 18,
    "status": "ok",
    "url": "https://statz.ai/competitions/liga-portugal/xg"
   },
   "xg ligue-1": {
-   "at": "2026-11-26T19:42:32Z",
+   "at": "2026-11-27T00:40:30Z",
    "note": "Updated 22 November 2026, after the last game",
    "rows": 18,
    "status": "ok",
    "url": "https://statz.ai/competitions/ligue-1/xg"
   },
   "xg premier-league": {
-   "at": "2026-11-26T19:42:19Z",
+   "at": "2026-11-27T00:40:18Z",
    "note": "Updated 23 November 2026, after the last game",
    "rows": 20,
    "status": "ok",
    "url": "https://statz.ai/competitions/premier-league/xg"
   },
   "xg scottish-premiership": {
-   "at": "2026-11-26T19:42:45Z",
+   "at": "2026-11-27T00:40:46Z",
    "note": "Updated 24 November 2026, after the last game",
    "rows": 12,
    "status": "ok",
    "url": "https://statz.ai/competitions/scottish-premiership/xg"
   },
   "xg serie-a": {
-   "at": "2026-11-26T19:42:27Z",
+   "at": "2026-11-27T00:40:25Z",
    "note": "Updated 23 November 2026, after the last game",
    "rows": 20,
    "status": "ok",
    "url": "https://statz.ai/competitions/serie-a/xg"
   },
   "xg super-lig": {
-   "at": "2026-11-26T19:42:42Z",
+   "at": "2026-11-27T00:40:44Z",
    "note": "Updated 23 November 2026, after the last game",
    "rows": 18,
    "status": "ok",

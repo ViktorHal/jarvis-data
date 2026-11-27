@@ -1,184 +1,64 @@
 {
  "games": [
   {
-   "ag": 2,
-   "away": "IF Björklöven",
-   "date": "2026-11-26",
-   "hg": 5,
-   "home": "Frölunda HC",
-   "overtime": false,
-   "periods": [
-    [
-     1,
-     1
-    ],
-    [
-     2,
-     1
-    ],
-    [
-     2,
-     0
-    ]
-   ],
-   "played": true,
-   "reg_ag": 2,
-   "reg_hg": 5,
-   "shootout": false,
-   "startUTC": "2026-11-26T18:00:00Z",
-   "time": "19:00"
+   "away": "Örebro HK",
+   "date": "2026-11-28",
+   "home": "Brynäs IF",
+   "played": false,
+   "startUTC": "2026-11-28T14:15:00Z",
+   "time": "15:15"
   },
   {
-   "ag": 4,
-   "away": "Brynäs IF",
-   "date": "2026-11-26",
-   "hg": 1,
-   "home": "Linköping HC",
-   "overtime": false,
-   "periods": [
-    [
-     1,
-     2
-    ],
-    [
-     0,
-     1
-    ],
-    [
-     0,
-     1
-    ]
-   ],
-   "played": true,
-   "reg_ag": 4,
-   "reg_hg": 1,
-   "shootout": false,
-   "startUTC": "2026-11-26T18:00:00Z",
-   "time": "19:00"
-  },
-  {
-   "ag": 4,
-   "away": "Rögle BK",
-   "date": "2026-11-26",
-   "hg": 1,
-   "home": "Skellefteå AIK",
-   "overtime": false,
-   "periods": [
-    [
-     0,
-     1
-    ],
-    [
-     0,
-     2
-    ],
-    [
-     1,
-     1
-    ]
-   ],
-   "played": true,
-   "reg_ag": 4,
-   "reg_hg": 1,
-   "shootout": false,
-   "startUTC": "2026-11-26T18:00:00Z",
-   "time": "19:00"
-  },
-  {
-   "ag": 5,
-   "away": "Färjestad BK",
-   "date": "2026-11-26",
-   "hg": 4,
-   "home": "Timrå IK",
-   "overtime": true,
-   "periods": [
-    [
-     0,
-     2
-    ],
-    [
-     2,
-     2
-    ],
-    [
-     2,
-     0
-    ],
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     1
-    ]
-   ],
-   "played": true,
-   "reg_ag": 4,
-   "reg_hg": 4,
-   "shootout": true,
-   "startUTC": "2026-11-26T18:00:00Z",
-   "time": "19:00"
-  },
-  {
-   "ag": 1,
    "away": "Djurgårdens IF",
-   "date": "2026-11-26",
-   "hg": 4,
-   "home": "Växjö Lakers HC",
-   "overtime": false,
-   "periods": [
-    [
-     1,
-     1
-    ],
-    [
-     1,
-     0
-    ],
-    [
-     2,
-     0
-    ]
-   ],
-   "played": true,
-   "reg_ag": 1,
-   "reg_hg": 4,
-   "shootout": false,
-   "startUTC": "2026-11-26T18:00:00Z",
-   "time": "19:00"
+   "date": "2026-11-28",
+   "home": "IF Malmö Redhawks",
+   "played": false,
+   "startUTC": "2026-11-28T14:15:00Z",
+   "time": "15:15"
   },
   {
-   "ag": 1,
-   "away": "HV 71",
-   "date": "2026-11-26",
-   "hg": 2,
-   "home": "Örebro HK",
-   "overtime": false,
-   "periods": [
-    [
-     2,
-     0
-    ],
-    [
-     0,
-     0
-    ],
-    [
-     0,
-     1
-    ]
-   ],
-   "played": true,
-   "reg_ag": 1,
-   "reg_hg": 2,
-   "shootout": false,
-   "startUTC": "2026-11-26T18:00:00Z",
-   "time": "19:00"
+   "away": "Färjestad BK",
+   "date": "2026-11-28",
+   "home": "Skellefteå AIK",
+   "played": false,
+   "startUTC": "2026-11-28T14:15:00Z",
+   "time": "15:15"
+  },
+  {
+   "away": "Linköping HC",
+   "date": "2026-11-28",
+   "home": "Timrå IK",
+   "played": false,
+   "startUTC": "2026-11-28T14:15:00Z",
+   "time": "15:15"
+  },
+  {
+   "away": "IF Björklöven",
+   "date": "2026-11-28",
+   "home": "HV 71",
+   "played": false,
+   "startUTC": "2026-11-28T17:00:00Z",
+   "time": "18:00"
+  },
+  {
+   "away": "Rögle BK",
+   "date": "2026-11-28",
+   "home": "Luleå HF",
+   "played": false,
+   "startUTC": "2026-11-28T17:00:00Z",
+   "time": "18:00"
+  },
+  {
+   "away": "Frölunda HC",
+   "date": "2026-11-28",
+   "home": "Växjö Lakers HC",
+   "played": false,
+   "startUTC": "2026-11-28T17:00:00Z",
+   "time": "18:00"
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-26T21:31:34Z",
+  "fetchedAt": "2026-11-27T00:40:07Z",
   "source": "https://stats.swehockey.se/ScheduleAndResults/Schedule/20961"
  }
 }

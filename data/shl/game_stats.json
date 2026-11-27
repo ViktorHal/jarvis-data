@@ -7251,14 +7251,344 @@
     }
    ],
    "time": "19:00"
+  },
+  {
+   "away": "IF Björklöven",
+   "codes": [
+    "FRÖ",
+    "IFB"
+   ],
+   "date": "2026-11-26",
+   "final": [
+    5,
+    2
+   ],
+   "goalies": [
+    [
+     "FRÖ",
+     "Johansson, Lars",
+     13,
+     15
+    ],
+    [
+     "IFB",
+     "Lehtinen, Lassi",
+     27,
+     31
+    ]
+   ],
+   "goals": [
+    5,
+    2
+   ],
+   "home": "Frölunda HC",
+   "id": "1110068",
+   "overtime": false,
+   "reg": [
+    5,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    32,
+    15
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Lars",
+     "saves": 13,
+     "shotsAgainst": 15
+    },
+    {
+     "name": "Lehtinen, Lassi",
+     "saves": 27,
+     "shotsAgainst": 32
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Brynäs IF",
+   "codes": [
+    "LHC",
+    "BIF"
+   ],
+   "date": "2026-11-26",
+   "final": [
+    1,
+    4
+   ],
+   "goalies": [
+    [
+     "LHC",
+     "Ignatjew, Waltteri",
+     23,
+     27
+    ],
+    [
+     "BIF",
+     "Källgren, Erik",
+     18,
+     19
+    ]
+   ],
+   "goals": [
+    1,
+    4
+   ],
+   "home": "Linköping HC",
+   "id": "1110069",
+   "overtime": false,
+   "reg": [
+    1,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    19,
+    27
+   ],
+   "starters": [
+    {
+     "name": "Ignatjew, Waltteri",
+     "saves": 23,
+     "shotsAgainst": 27
+    },
+    {
+     "name": "Källgren, Erik",
+     "saves": 18,
+     "shotsAgainst": 19
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Rögle BK",
+   "codes": [
+    "SKE",
+    "RBK"
+   ],
+   "date": "2026-11-26",
+   "final": [
+    1,
+    4
+   ],
+   "goalies": [
+    [
+     "SKE",
+     "Mann, Strauss",
+     23,
+     26
+    ],
+    [
+     "RBK",
+     "Clang, Calle",
+     32,
+     33
+    ]
+   ],
+   "goals": [
+    1,
+    4
+   ],
+   "home": "Skellefteå AIK",
+   "id": "1110070",
+   "overtime": false,
+   "reg": [
+    1,
+    4
+   ],
+   "shootout": false,
+   "shots": [
+    33,
+    27
+   ],
+   "starters": [
+    {
+     "name": "Mann, Strauss",
+     "saves": 23,
+     "shotsAgainst": 27
+    },
+    {
+     "name": "Clang, Calle",
+     "saves": 32,
+     "shotsAgainst": 33
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Färjestad BK",
+   "codes": [
+    "TIK",
+    "FBK"
+   ],
+   "date": "2026-11-26",
+   "final": [
+    4,
+    5
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Johansson, Jacob",
+     24,
+     29
+    ],
+    [
+     "FBK",
+     "Thelin, Melker",
+     26,
+     30
+    ]
+   ],
+   "goals": [
+    4,
+    4
+   ],
+   "home": "Timrå IK",
+   "id": "1110071",
+   "overtime": true,
+   "reg": [
+    4,
+    4
+   ],
+   "shootout": true,
+   "shots": [
+    30,
+    28
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Jacob",
+     "saves": 24,
+     "shotsAgainst": 28
+    },
+    {
+     "name": "Thelin, Melker",
+     "saves": 26,
+     "shotsAgainst": 30
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "codes": [
+    "VÄX",
+    "DIF"
+   ],
+   "date": "2026-11-26",
+   "final": [
+    4,
+    1
+   ],
+   "goalies": [
+    [
+     "VÄX",
+     "Åhman, Adam",
+     30,
+     31
+    ],
+    [
+     "DIF",
+     "Marmenlind, Daniel",
+     16,
+     19
+    ]
+   ],
+   "goals": [
+    4,
+    1
+   ],
+   "home": "Växjö Lakers HC",
+   "id": "1110072",
+   "overtime": false,
+   "reg": [
+    4,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    20,
+    31
+   ],
+   "starters": [
+    {
+     "name": "Åhman, Adam",
+     "saves": 30,
+     "shotsAgainst": 31
+    },
+    {
+     "name": "Marmenlind, Daniel",
+     "saves": 16,
+     "shotsAgainst": 20
+    }
+   ],
+   "time": "19:00"
+  },
+  {
+   "away": "HV 71",
+   "codes": [
+    "ÖHK",
+    "HV71"
+   ],
+   "date": "2026-11-26",
+   "final": [
+    2,
+    1
+   ],
+   "goalies": [
+    [
+     "ÖHK",
+     "Larsson, Filip",
+     32,
+     33
+    ],
+    [
+     "HV71",
+     "Liv, Herman",
+     24,
+     26
+    ]
+   ],
+   "goals": [
+    2,
+    1
+   ],
+   "home": "Örebro HK",
+   "id": "1110073",
+   "overtime": false,
+   "reg": [
+    2,
+    1
+   ],
+   "shootout": false,
+   "shots": [
+    26,
+    33
+   ],
+   "starters": [
+    {
+     "name": "Larsson, Filip",
+     "saves": 32,
+     "shotsAgainst": 33
+    },
+    {
+     "name": "Liv, Herman",
+     "saves": 24,
+     "shotsAgainst": 26
+    }
+   ],
+   "time": "19:00"
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-26T19:42:18Z",
-  "fetchedThisRun": 0,
-  "games": 130,
+  "fetchedAt": "2026-11-27T00:40:17Z",
+  "fetchedThisRun": 6,
+  "games": 136,
   "note": "shots/goals incl. overtime, excl. shootout; starters = GK In at 00:00",
-  "played": 130,
+  "played": 136,
   "season": "2026/27",
   "series": "20961",
   "source": "https://stats.swehockey.se/Game/Events/<id>"
