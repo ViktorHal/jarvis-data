@@ -332,7 +332,9 @@ def players_for(side, opp, venue_team, league_sot):
     out, vals = [], {}
     for p in pool[:3]:
         out.append({"name": p["name"], "team": venue_team, "shots_p90": p["shots_p90"], "sot_p90": p["sot_p90"],
-                    "exp_minutes": p["avg_start_minutes"], "opp_factor": round(opp_f, 3), "status": "probable"})
+                    "minutes": p.get("minutes"),          # how much he has played: the model regresses rare
+                    "exp_minutes": p["avg_start_minutes"],  # statistics harder for a small sample
+                    "opp_factor": round(opp_f, 3), "status": "probable"})
         vals[p["name"]] = {k: p.get(k) for k in ("team", "minutes", "starts", "avg_start_minutes", "shots_p90", "sot_p90", "lastDate")}
     return out, {"rel": rel, "meta": f["meta"], "values": vals}
 

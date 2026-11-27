@@ -80,7 +80,8 @@ def test_player_shots_match_the_backtested_negative_binomial():
     m = {"sport": "football", "home": {"name": "H", "xgf": 1.5, "xga": 1.2}, "away": {"name": "A", "xgf": 1.2, "xga": 1.5},
          "players": [{"name": "Striker", "team": "home", "shots_p90": 3.4, "sot_p90": 1.3, "exp_minutes": 78}]}
     p = {(r["group"], r["selection"]): r["prob"] for r in model.run(m)["markets"]}
-    x = {"shots_p90": 3.4, "sot_p90": 1.3, "avg_start_min": 78}
+    x = {"shots_p90": model.player_rate({"shots_p90": 3.4}, "shots"), "sot_p90": model.player_rate({"sot_p90": 1.3}, "sot"),
+         "avg_start_min": 78}
     P = {"minutes": "avg", "scale": 1.0, "r": 3}
-    assert p[("Player shots on target", "Striker 1+")] == pytest.approx(round(PB.p_atleast(1, PB.lam_of(x, "sot", P), 3) * 100, 1), abs=0.051)
-    assert p[("Player shots", "Striker 2+")] == pytest.approx(round(PB.p_atleast(2, PB.lam_of(x, "shots", P), 3) * 100, 1), abs=0.051)
+    assert p[("Player shots on target", "Striker 1+")] == pytest.approx(round(PB.p_atleast(1, PB.lam_of(x, "sot", P), model.P["player_r"]) * 100, 1), abs=0.051)
+    assert p[("Player shots", "Striker 2+")] == pytest.approx(round(PB.p_atleast(2, PB.lam_of(x, "shots", P), model.P["player_r"]) * 100, 1), abs=0.051)

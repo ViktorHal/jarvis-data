@@ -58,7 +58,15 @@ P = {
     # player shots (26 Nov 2026, research/player_shots_backtest.json: FotMob 2025/26 top five leagues, 7,510 starts of
     # regular shooters): counts are negative binomial with r 3, not Poisson (Poisson was 10-13 points too
     # confident: "74%" lines landed 61%). exp_minutes should be the player's average minutes per start.
-    "player_r": 3,
+    # 27 Nov 2026 (research/player_fit3.json, FotMob 2025/26 top five leagues, 4,979 test starts): a player's
+    # season-to-date rate is partly luck, so it is regressed toward the population mean before pricing. Without
+    # it "2+ shots on target" was 13.8 points too confident at the top (44% priced, 30% happened) - a losing bet
+    # at any price. Shots on target need heavy regression (8 matches' worth), all shots much less (2).
+    "player_r": 6,
+    "player_k_shots": 2.0, "player_k_sot": 8.0,
+    "player_pop_shots": 2.39, "player_pop_sot": 0.90,   # per 90, among the regular shooters Jarvis picks
+    "player_mult_shots": 0.95, "player_mult_sot": 0.925,
+    "player_minutes_default": 900.0,   # assumed minutes played so far when the input does not say
     "player_scale": 1.0,      # multiplier on player shot rates
     "hockey_home_adv": 1.04,
     "hockey_draw_inflation": 1.08,
@@ -209,14 +217,23 @@ def football(m):
     for pl in m.get("players", []):
         f = pl.get("exp_minutes", 80) / 90 * pl.get("opp_factor", 1.0) * P["player_scale"]
         if "sot_p90" in pl:
-            lam = pl["sot_p90"] * f
+            lam = player_rate(pl, "sot") * f
             out += [price("Player shots on target", f"{pl['name']} 1+", nb_over(0.5, lam, P["player_r"])),
                     price("Player shots on target", f"{pl['name']} 2+", nb_over(1.5, lam, P["player_r"]))]
         if "shots_p90" in pl:
-            lam = pl["shots_p90"] * f
+            lam = player_rate(pl, "shots") * f
             for k in (1, 2, 3):
                 out.append(price("Player shots", f"{pl['name']} {k}+", nb_over(k - 0.5, lam, P["player_r"])))
     return out, exp
+
+
+def player_rate(pl, stat):
+    """The player's per-90 rate, regressed toward the population mean by how little he has played, then scaled.
+    `minutes` = minutes played so far this season; without it a middling season is assumed."""
+    units = (pl.get("minutes") or P["player_minutes_default"]) / 90
+    k, pop = P[f"player_k_{stat}"], P[f"player_pop_{stat}"]
+    rate = (pl[f"{stat}_p90"] * units + k * pop) / (units + k)
+    return rate * P[f"player_mult_{stat}"]
 
 
 def _shrink(v, n, target, k):
