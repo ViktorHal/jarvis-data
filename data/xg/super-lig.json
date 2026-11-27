@@ -1,11 +1,11 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-27T16:31:47Z",
+  "fetchedAt": "2026-11-27T19:33:11Z",
   "league": "Super Lig",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
   "source": "https://statz.ai/competitions/super-lig/xg",
-  "updatedText": "Updated 23 November 2026, after the last game"
+  "updatedText": "Updated 27 November 2026, after the last game"
  },
  "teams": {
   "Alanyaspor": {

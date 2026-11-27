@@ -5,56 +5,56 @@
    "date": "2026-11-27",
    "home": "BOS",
    "start": "2026-11-27T18:00:00Z",
-   "state": "FUT"
+   "state": "LIVE"
   },
   {
    "away": "CGY",
    "date": "2026-11-27",
    "home": "NJD",
    "start": "2026-11-27T18:00:00Z",
-   "state": "FUT"
+   "state": "LIVE"
   },
   {
    "away": "UTA",
    "date": "2026-11-27",
    "home": "NSH",
    "start": "2026-11-27T18:00:00Z",
-   "state": "FUT"
+   "state": "LIVE"
   },
   {
    "away": "DAL",
    "date": "2026-11-27",
    "home": "STL",
    "start": "2026-11-27T19:00:00Z",
-   "state": "FUT"
+   "state": "LIVE"
   },
   {
    "away": "OTT",
    "date": "2026-11-27",
    "home": "TBL",
    "start": "2026-11-27T20:00:00Z",
-   "state": "FUT"
+   "state": "PRE"
   },
   {
    "away": "VAN",
    "date": "2026-11-27",
    "home": "PHI",
    "start": "2026-11-27T20:00:00Z",
-   "state": "FUT"
+   "state": "PRE"
   },
   {
    "away": "FLA",
    "date": "2026-11-27",
    "home": "WSH",
    "start": "2026-11-27T20:00:00Z",
-   "state": "FUT"
+   "state": "PRE"
   },
   {
    "away": "DET",
    "date": "2026-11-27",
    "home": "CBJ",
    "start": "2026-11-27T20:00:00Z",
-   "state": "FUT"
+   "state": "PRE"
   },
   {
    "away": "COL",
@@ -198,6 +198,6 @@
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-27T16:31:15Z"
+  "fetchedAt": "2026-11-27T19:32:37Z"
  }
 }

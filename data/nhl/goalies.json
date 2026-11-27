@@ -634,7 +634,7 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-27T16:31:15Z",
+  "fetchedAt": "2026-11-27T19:32:36Z",
   "season": "2026-27",
   "source": "https://api.nhle.com/stats/rest/en/goalie/summary?limit=-1&cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
  }
