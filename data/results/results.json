@@ -15990,20 +15990,302 @@
     2,
     0
    ]
+  },
+  {
+   "away": "Maple Leafs",
+   "awayAbbrev": "TOR",
+   "ended": "REG",
+   "home": "Bruins",
+   "homeAbbrev": "BOS",
+   "id": "2026020400",
+   "league": "NHL",
+   "reg": [
+    1,
+    3
+   ],
+   "score": [
+    1,
+    3
+   ],
+   "sport": "nhl",
+   "start": "2026-11-27T18:00:00Z"
+  },
+  {
+   "away": "Flames",
+   "awayAbbrev": "CGY",
+   "ended": "REG",
+   "home": "Devils",
+   "homeAbbrev": "NJD",
+   "id": "2026020401",
+   "league": "NHL",
+   "reg": [
+    5,
+    3
+   ],
+   "score": [
+    5,
+    3
+   ],
+   "sport": "nhl",
+   "start": "2026-11-27T18:00:00Z"
+  },
+  {
+   "away": "Mammoth",
+   "awayAbbrev": "UTA",
+   "ended": "SO",
+   "home": "Predators",
+   "homeAbbrev": "NSH",
+   "id": "2026020402",
+   "league": "NHL",
+   "reg": [
+    5,
+    5
+   ],
+   "score": [
+    5,
+    6
+   ],
+   "sport": "nhl",
+   "start": "2026-11-27T18:00:00Z"
+  },
+  {
+   "away": "Willem II",
+   "corners": [
+    6,
+    1
+   ],
+   "ended": "FT",
+   "home": "FC Groningen",
+   "id": "5781815",
+   "league": "Eredivisie",
+   "leagueId": 57,
+   "players": [
+    {
+     "name": "Etienne Vaessen",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Hans Hateboer",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Thijmen Blokzijl",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Márk Csinger",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Wouter Prins",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Tika de Jonge",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Pelle Clement",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Jorg Schreuders",
+     "shots": 5,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Thom van Bergen",
+     "shots": 9,
+     "sot": 5,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "David van der Werff",
+     "shots": 3,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Brynjólfur Willumsson",
+     "shots": 6,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Tygo Land",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Jacob Ondrejka",
+     "shots": 2,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Oskar Zawada",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Maxime Delanghe",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Hidde ter Avest",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Finn Stam",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Maxim Dekker",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Mats Lemmens",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Calvin Twigt",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Kasper Boogaard",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Eser Gürbüz",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Tonny Vilhena",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Vito van Crooij",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Devin Haen",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Per van Loon",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Amine Et-Taïbi",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Jaden Slory",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "playersKnown": true,
+   "red": [
+    0,
+    0
+   ],
+   "score": [
+    1,
+    1
+   ],
+   "sport": "football",
+   "start": "2026-11-27T19:00:00.000Z",
+   "yellow": [
+    0,
+    3
+   ]
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-27T20:16:32Z",
-  "matches": 85,
+  "fetchedAt": "2026-11-27T21:18:02Z",
+  "matches": 89,
   "note": "settle bets with jarvis/settle.py; football cards = yellow + red as FotMob counts them; goals markets settle on the score after 90 minutes (ended AET/Pen -> needs a manual check)",
   "sources": {
    "fotmob": {
-    "new": 3,
+    "new": 1,
     "ok": true,
     "pending": 0
    },
    "nhl": {
-    "new": 0,
+    "new": 3,
     "ok": true
    },
    "shl": {
