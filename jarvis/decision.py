@@ -37,7 +37,7 @@ try:  # hockey model 1.2 (production for hockey from 26 Nov 2026 when its inputs
 except Exception:  # a missing or broken hockey12.py falls back to 1.1, recorded per match
     hockey12 = None
 
-VERSION = "3.6"
+VERSION = "3.7"
 
 DEFAULT_CONFIG = {
     "mode": "shadow",                 # "shadow" | "active"
@@ -761,11 +761,23 @@ def _distrusted(m, cfg):
             if r.get("gap") is not None and abs(r["gap"]) / 100 > cfg["gapMax"]}
 
 
+_ALLSHOTS = re.compile(r"(\d+)\+$")
+
+
+def _offerable(r):
+    """3.7 (owner, 27 Nov 2026): '1+ shots' (all shots, not on target) for a regular shooter is priced 1.02-1.08 at
+    BetMGM, Bet365 and Svenska Spel, never near Jarvis' minimum: all-shots lines are used only from 2+."""
+    if r["group"] == "Player shots":
+        m = _ALLSHOTS.search(r["selection"])
+        return bool(m) and int(m.group(1)) >= 2
+    return True
+
+
 def _checkable(r, rules):
     """An unpriced line that passes everything except the price check (and the quality score, which an unpriced
     line cannot reach because quality rewards a known price): market active/trial, sport on, starts late
     enough, its required data verified."""
-    if r["odds"] is not None or r["status"] not in ("active", "trial"):
+    if r["odds"] is not None or r["status"] not in ("active", "trial") or not _offerable(r):
         return False
     return not [w for w in r[rules]["why"] if not w.startswith("quality")]
 
