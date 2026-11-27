@@ -976,3 +976,25 @@ def test_39_the_price_hunt_needs_pinnacle_to_have_moved_toward_the_pick():
         assert len(res["hunts"]) <= cfg["hunt"]["max"]
     finally:
         D.DEFAULT_CONFIG["marketAnchor"] = False
+
+
+def test_39_only_lines_a_bookmaker_quotes_are_offered():
+    """Pinnacle quoted corner totals of 8.5-11.5 on 117 matches and never 12.5, and the owner found 12.5 corners
+    and 6.5 cards missing at all three of his bookmakers. Such lines are no longer offered, however likely."""
+    cfg = D.load_config()
+    rng = cfg["hitrate"]["offerLines"]
+    m = {"expected": {"corners": 11.0, "cards": 5.2, "corners_home": 5.8, "corners_away": 5.2},
+         "grid": {"home": "Alpha", "away": "Beta"}}
+    inside = [("Corners", "Over 10.5"), ("Cards", "Over 4.5"), ("Team corners", "Alpha over 4.5")]
+    outside = [("Corners", "Over 12.5"), ("Corners", "Under 7.5"), ("Cards", "Over 6.5"),
+               ("Team corners", "Alpha over 6.5")]
+    for group, sel in inside:
+        assert D._near(m, {"group": group, "selection": sel}, cfg), (group, sel)
+    for group, sel in outside:
+        assert not D._near(m, {"group": group, "selection": sel}, cfg), (group, sel)
+    # the window around the expected count still applies inside the quoted range
+    assert not D._near(dict(m, expected=dict(m["expected"], corners=8.6)),
+                       {"group": "Corners", "selection": "Over 11.5"}, cfg)
+    # and a market without a quoted range (goals) is untouched
+    assert D._near(m, {"group": "Total goals", "selection": "Over 2.5"}, cfg)
+    assert all(rng[g][0] <= rng[g][1] for g in rng)

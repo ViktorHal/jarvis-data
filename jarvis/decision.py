@@ -92,7 +92,13 @@ DEFAULT_CONFIG = {
                 # 3.6: lines a bookmaker actually offers. Unpriced corners/cards lines far from the expected count (under
                 # 12.5 corners when 9.6 are expected) are near-certain on paper but rarely on offer: only lines within
                 # this distance of the model's expectation are used
-                "lineWindow": {"Corners": 2.0, "Team corners": 1.5, "Cards": 1.5}},
+                "lineWindow": {"Corners": 2.0, "Team corners": 1.5, "Cards": 1.5},
+                # 3.9: and only lines a bookmaker actually quotes. Pinnacle's own corner markets on 27 Nov 2026
+                # (117 matches) ran 8.5-11.5 with 9.5/10/10.5 most common; 12.5 did not appear once, and the owner
+                # found "over 12.5 corners" and "over 6.5 cards" missing at all three of his bookmakers. The cards
+                # and team-corner ranges are from what he reported seeing, not from a feed; bookfit.py refines
+                # them from his own log as it fills.
+                "offerLines": {"Corners": [8.5, 11.5], "Team corners": [2.5, 5.5], "Cards": [2.5, 5.5]}},
     # 3.6: strong favourites list (owner): the most likely result/goal line per match, shown with its minimum price.
     # A list, not a recommendation: such lines are usually priced fairly, so they rarely pass the value rules.
     "favourites": {"minProb": 0.60, "maxProb": 0.92, "max": 15, "groups": ["Match result"]},
@@ -758,15 +764,22 @@ _LINE = re.compile(r"(over|under) (\d+(?:\.\d+)?)$", re.I)
 
 
 def _near(m, r, cfg):
-    """3.6: an unpriced corners/cards line is used only when it lies within lineWindow of the expected count."""
-    win = ((cfg.get("hitrate") or {}).get("lineWindow") or {}).get(r["group"])
-    if win is None:
+    """3.6: an unpriced corners/cards line is used only when it lies within lineWindow of the expected count.
+    3.9: and only within the range of lines bookmakers actually quote (offerLines)."""
+    hr = cfg.get("hitrate") or {}
+    win = (hr.get("lineWindow") or {}).get(r["group"])
+    rng = (hr.get("offerLines") or {}).get(r["group"])
+    if win is None and rng is None:
         return True
     mt = _LINE.search(r["selection"])
     exp = m.get("expected") or {}
     if not mt:
         return True
     line = float(mt.group(2))
+    if rng and not rng[0] <= line <= rng[1]:
+        return False
+    if win is None:
+        return True
     if r["group"] == "Corners":
         e = exp.get("corners")
     elif r["group"] == "Cards":

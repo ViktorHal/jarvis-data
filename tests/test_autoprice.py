@@ -87,3 +87,39 @@ class Drift(unittest.TestCase):
         t0 = A.datetime(2026, 11, 27, 9, 0, tzinfo=A.timezone.utc)
         A.drift_update(self.match(2.00, 3.40, 4.00, start="2026-11-20T20:00:00Z"), t0, self.PATH)
         self.assertEqual(A.drift_update([], t0 + A.timedelta(hours=1), self.PATH), {})
+
+
+class Closing(unittest.TestCase):
+    """3.9: the last Pinnacle probability before kick-off, kept so realised closing-line value can be measured."""
+    DRIFT, CLOSE = "auto/_test_drift2.json", "auto/_test_close.json"
+
+    def setUp(self):
+        for f in (self.DRIFT, self.CLOSE):
+            p = os.path.join(A.DATA, f)
+            if os.path.exists(p):
+                os.remove(p)
+
+    tearDown = setUp
+
+    def run_at(self, h, d, a, now, start="2026-11-27T20:00:00Z"):
+        ms = [{"id": "m1", "start": start,
+               "marketOdds": {"Match_result_Home": h, "Match_result_Draw": d, "Match_result_Away": a},
+               "priceSets": [["Match_result_Home", "Match_result_Draw", "Match_result_Away"]]}]
+        return A.closing_update(A.drift_update(ms, now, self.DRIFT), now, self.CLOSE)
+
+    def test_nothing_is_recorded_before_kick_off_then_written_once(self):
+        t0 = A.datetime(2026, 11, 27, 18, 0, tzinfo=A.timezone.utc)
+        self.assertEqual(self.run_at(2.00, 3.40, 4.00, t0), {})
+        self.run_at(1.80, 3.50, 4.60, t0 + A.timedelta(hours=1, minutes=50))
+        after = self.run_at(1.80, 3.50, 4.60, t0 + A.timedelta(hours=2, minutes=5))
+        e = after["m1|Match_result_Home"]
+        self.assertAlmostEqual(e["open"], 0.47887, places=4)
+        self.assertAlmostEqual(e["close"], 0.52477, places=4)
+        # a later run must never move a recorded closing price
+        self.assertEqual(self.run_at(1.50, 4.00, 5.50, t0 + A.timedelta(hours=3)), after)
+
+    def test_old_closing_prices_drop_out(self):
+        t0 = A.datetime(2026, 11, 27, 21, 0, tzinfo=A.timezone.utc)
+        self.assertTrue(self.run_at(2.00, 3.40, 4.00, t0))
+        self.assertEqual(A.closing_update({}, t0 + A.timedelta(days=A.CLOSE_KEEP_D + 1), self.CLOSE), {})
+

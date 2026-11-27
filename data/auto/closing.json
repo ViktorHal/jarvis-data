@@ -1,0 +1,82 @@
+{
+ "lines": {
+  "2026-11-27-anaheim-ducks-los-angeles-kings|Moneyline_incl_OT_Anaheim_Ducks": {
+   "close": 0.47598,
+   "closeAt": "2026-11-27T19:46:25Z",
+   "n": 7,
+   "open": 0.47598,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-27T21:00:00Z"
+  },
+  "2026-11-27-anaheim-ducks-los-angeles-kings|Moneyline_incl_OT_Los_Angeles_Kings": {
+   "close": 0.52402,
+   "closeAt": "2026-11-27T19:46:25Z",
+   "n": 7,
+   "open": 0.52402,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-27T21:00:00Z"
+  },
+  "2026-11-27-minnesota-wild-colorado-avalanche|Moneyline_incl_OT_Colorado_Avalanche": {
+   "close": 0.48148,
+   "closeAt": "2026-11-27T19:46:25Z",
+   "n": 7,
+   "open": 0.48148,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-27T21:00:00Z"
+  },
+  "2026-11-27-minnesota-wild-colorado-avalanche|Moneyline_incl_OT_Minnesota_Wild": {
+   "close": 0.51852,
+   "closeAt": "2026-11-27T19:46:25Z",
+   "n": 7,
+   "open": 0.51852,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-27T21:00:00Z"
+  },
+  "2026-11-27-san-jose-sharks-vegas-golden-knights|Moneyline_incl_OT_San_Jose_Sharks": {
+   "close": 0.34421,
+   "closeAt": "2026-11-27T19:46:25Z",
+   "n": 7,
+   "open": 0.34421,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-27T21:00:00Z"
+  },
+  "2026-11-27-san-jose-sharks-vegas-golden-knights|Moneyline_incl_OT_Vegas_Golden_Knights": {
+   "close": 0.65579,
+   "closeAt": "2026-11-27T19:46:25Z",
+   "n": 7,
+   "open": 0.65579,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-27T21:00:00Z"
+  },
+  "m1|Match_result_Away": {
+   "close": 0.16552,
+   "closeAt": "2026-11-27T21:00:00Z",
+   "n": 3,
+   "open": 0.23944,
+   "openAt": "2026-11-27T18:00:00Z",
+   "start": "2026-11-27T20:00:00Z"
+  },
+  "m1|Match_result_Draw": {
+   "close": 0.22759,
+   "closeAt": "2026-11-27T21:00:00Z",
+   "n": 3,
+   "open": 0.28169,
+   "openAt": "2026-11-27T18:00:00Z",
+   "start": "2026-11-27T20:00:00Z"
+  },
+  "m1|Match_result_Home": {
+   "close": 0.6069,
+   "closeAt": "2026-11-27T21:00:00Z",
+   "n": 3,
+   "open": 0.47887,
+   "openAt": "2026-11-27T18:00:00Z",
+   "start": "2026-11-27T20:00:00Z"
+  }
+ },
+ "meta": {
+  "fetchedAt": "2026-11-27T21:06:59Z",
+  "keptDays": 45,
+  "lines": 9,
+  "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
+ }
+}

@@ -63,8 +63,8 @@ BY_ELO = {v[3]: v for v in LEAGUES.values() if v[3]}
 EUROPE = ("UEFA - Champions League", "UEFA - Europa League", "UEFA - Conference League")
 HOCKEY = {"NHL": "nhl", "Sweden - SHL": "shl"}
 HORIZON_H = 48          # matches starting within the next two days
-DRIFT_GROUPS = ("Match result", "Moneyline (incl. OT)", "Total goals")
 DRIFT_KEEP_H = 60       # a drift entry is dropped this long after kick-off
+CLOSE_KEEP_D = 45       # a closing price is kept this long, so the weekly report can measure realised CLV
 MIN_START_MIN = 30
 
 STOP = {"fc", "afc", "cf", "sc", "ac", "as", "ssc", "club", "de", "the", "cd", "ud", "rc", "rcd", "sd", "fk", "sk", "bk",
@@ -318,6 +318,7 @@ def pinnacle_prices(ev, corners_ev, line_key, hn, an, sets=None):
             if pts.endswith(".5") and t.get("over") and t.get("under"):
                 mo[line_key("Corners", f"Over {pts}")] = t["over"]
                 mo[line_key("Corners", f"Under {pts}")] = t["under"]
+                sets.append([line_key("Corners", f"{s_} {pts}") for s_ in ("Over", "Under")])
     return mo
 
 
@@ -542,7 +543,29 @@ def drift_update(matches, now, path="auto/drift.json"):
     write_json(path, {"meta": {"fetchedAt": now_iso(), "lines": len(lines),
                                "note": "first and latest de-margined Pinnacle probability per line; "
                                        "drift = last - first"}, "lines": lines})
+    closing_update(lines, now)
     return lines
+
+
+def closing_update(lines, now, path="auto/closing.json"):
+    """The last de-margined Pinnacle probability seen BEFORE kick-off, kept per line for CLOSE_KEEP_D days.
+    This is what a bet is really measured against: a price better than the market's closing price is the only
+    kind of edge that has ever survived a backtest (research/line_drift.json, research/value_backtest.json).
+    Written once per line and never overwritten, so the weekly report can compute realised closing-line value."""
+    out = load(path) or {}
+    rows = out.get("lines") or {}
+    stamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    keep = (now - timedelta(days=CLOSE_KEEP_D)).strftime("%Y-%m-%dT%H:%M")
+    rows = {k: v for k, v in rows.items() if (v.get("start") or "") >= keep}
+    for k, e in lines.items():
+        if k in rows or not e.get("start") or e["start"] > stamp:
+            continue                       # not started yet, or already recorded
+        rows[k] = {"start": e["start"], "close": e["last"], "closeAt": e["lastAt"],
+                   "open": e["first"], "openAt": e["firstAt"], "n": e.get("n", 1)}
+    write_json(path, {"meta": {"fetchedAt": now_iso(), "lines": len(rows), "keptDays": CLOSE_KEEP_D,
+                               "note": "last de-margined Pinnacle probability before kick-off, per line "
+                                       "(key = matchId|lineKey); for measuring closing-line value"}, "lines": rows})
+    return rows
 
 
 def load_jarvis():
