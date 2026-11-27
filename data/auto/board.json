@@ -28,27 +28,27 @@
   },
   {
    "event": "Roma – Monza",
-   "fair": 1.27,
+   "fair": 1.25,
    "key": "Match_result_Roma",
    "matchId": "2026-11-29-roma-monza",
-   "minOdds": 1.31,
-   "odds": 1.2193,
-   "pMarket": 78.8,
+   "minOdds": 1.3,
+   "odds": 1.2066,
+   "pMarket": 79.7,
    "pick": "Roma (Match result)",
-   "prob": 78.8,
+   "prob": 79.7,
    "start": "2026-11-29T17:00:00Z",
    "value": false
   },
   {
    "event": "PSV – Go Ahead Eagles",
-   "fair": 1.27,
+   "fair": 1.28,
    "key": "Match_result_PSV",
    "matchId": "2026-11-28-psv-go-ahead-eagles",
    "minOdds": 1.32,
-   "odds": 1.2155,
-   "pMarket": 78.6,
+   "odds": 1.2183,
+   "pMarket": 78.4,
    "pick": "PSV (Match result)",
-   "prob": 78.6,
+   "prob": 78.4,
    "start": "2026-11-28T17:45:00Z",
    "value": false
   },
@@ -84,7 +84,7 @@
    "key": "Match_result_Al_Hilal",
    "matchId": "2026-11-28-al-ettifaq-al-hilal",
    "minOdds": 1.34,
-   "odds": 1.2165,
+   "odds": 1.2155,
    "pMarket": 77.2,
    "pick": "Al-Hilal (Match result)",
    "prob": 77.2,
@@ -97,10 +97,10 @@
    "key": "Match_result_Rangers",
    "matchId": "2026-11-28-rangers-falkirk",
    "minOdds": 1.34,
-   "odds": 1.2404,
-   "pMarket": 77.0,
+   "odds": 1.2392,
+   "pMarket": 77.1,
    "pick": "Rangers (Match result)",
-   "prob": 77.0,
+   "prob": 77.1,
    "start": "2026-11-28T15:00:00Z",
    "value": false
   },
@@ -119,14 +119,14 @@
   },
   {
    "event": "Hamburger SV – Bayern Munich",
-   "fair": 1.32,
+   "fair": 1.34,
    "key": "Match_result_Bayern_Munich",
    "matchId": "2026-11-28-hamburger-sv-bayern-munich",
-   "minOdds": 1.37,
-   "odds": 1.2695,
-   "pMarket": 75.7,
+   "minOdds": 1.38,
+   "odds": 1.2833,
+   "pMarket": 74.8,
    "pick": "Bayern Munich (Match result)",
-   "prob": 75.7,
+   "prob": 74.8,
    "start": "2026-11-28T14:30:00Z",
    "value": false
   },
@@ -939,11 +939,11 @@
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
-     "minOdds": 1.3,
-     "odds": 1.1825,
-     "pMarket": 79.7,
+     "minOdds": 1.29,
+     "odds": 1.1764,
+     "pMarket": 80.1,
      "post": false,
-     "prob": 79.7,
+     "prob": 80.1,
      "selection": "Over 1.5",
      "status": "active"
     },
@@ -953,10 +953,10 @@
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.32,
-     "odds": 1.1984,
-     "pMarket": 78.6,
+     "odds": 1.2066,
+     "pMarket": 78.0,
      "post": false,
-     "prob": 78.6,
+     "prob": 78.0,
      "selection": "Under 4.5",
      "status": "active"
     },
@@ -978,12 +978,25 @@
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Elfsborg_or_GAIS",
-     "minOdds": 1.37,
+     "minOdds": 1.36,
      "odds": null,
-     "pMarket": 75.4,
+     "pMarket": 76.0,
      "post": false,
-     "prob": 75.4,
+     "prob": 76.0,
      "selection": "Elfsborg or GAIS",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": 0.0,
+     "group": "Double chance",
+     "key": "Double_chance_Elfsborg_or_draw",
+     "minOdds": 1.38,
+     "odds": null,
+     "pMarket": 74.8,
+     "post": false,
+     "prob": 74.8,
+     "selection": "Elfsborg or draw",
      "status": "active"
     },
     {
@@ -1000,26 +1013,13 @@
      "status": "trial"
     },
     {
-     "ev": null,
-     "gap": 0.0,
-     "group": "Double chance",
-     "key": "Double_chance_Elfsborg_or_draw",
-     "minOdds": 1.41,
-     "odds": null,
-     "pMarket": 73.2,
-     "post": false,
-     "prob": 73.2,
-     "selection": "Elfsborg or draw",
-     "status": "active"
-    },
-    {
-     "ev": -8.5,
-     "gap": -2.9,
+     "ev": -7.5,
+     "gap": -2.1,
      "group": "Team goals",
      "key": "Team_goals_GAIS_over_0_5",
      "minOdds": 1.48,
-     "odds": 1.2793,
-     "pMarket": 74.4,
+     "odds": 1.2933,
+     "pMarket": 73.6,
      "post": false,
      "prob": 71.5,
      "selection": "GAIS over 0.5",
@@ -1043,11 +1043,11 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Elfsborg",
-     "minOdds": 1.6,
+     "minOdds": 1.55,
      "odds": null,
-     "pMarket": 64.4,
+     "pMarket": 66.8,
      "post": false,
-     "prob": 64.4,
+     "prob": 66.8,
      "selection": "Elfsborg",
      "status": "active"
     },
@@ -1065,15 +1065,15 @@
      "status": "trial"
     },
     {
-     "ev": -5.6,
+     "ev": -5.5,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_3_5",
-     "minOdds": 1.66,
-     "odds": 1.5155,
-     "pMarket": 62.3,
+     "minOdds": 1.68,
+     "odds": 1.5348,
+     "pMarket": 61.6,
      "post": false,
-     "prob": 62.3,
+     "prob": 61.6,
      "selection": "Under 3.5",
      "status": "active"
     }
@@ -1089,7 +1089,7 @@
     "cards": 3.54,
     "cardsModel": "v2",
     "corners": 8.9,
-    "corners_away": 4.93,
+    "corners_away": 4.94,
     "corners_home": 3.98,
     "home_goals": 1.72,
     "setPieceModel": "v2"
@@ -1146,7 +1146,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 84.7,
+     "prob": 84.8,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -1177,13 +1177,13 @@
      "status": "trial"
     },
     {
-     "ev": 23.9,
-     "gap": 19.0,
+     "ev": 23.7,
+     "gap": 18.9,
      "group": "Team goals",
      "key": "Team_goals_Le_Mans_over_0_5",
      "minOdds": 1.27,
-     "odds": 1.5076,
-     "pMarket": 63.2,
+     "odds": 1.5051,
+     "pMarket": 63.3,
      "post": false,
      "prob": 82.2,
      "selection": "Le Mans over 0.5",
@@ -1235,9 +1235,9 @@
      "key": "Double_chance_Lille_or_draw",
      "minOdds": 1.38,
      "odds": null,
-     "pMarket": 74.9,
+     "pMarket": 75.0,
      "post": false,
-     "prob": 74.9,
+     "prob": 75.0,
      "selection": "Lille or draw",
      "status": "active"
     },
@@ -1287,9 +1287,9 @@
      "key": "Double_chance_Le_Mans_or_Lille",
      "minOdds": 1.45,
      "odds": null,
-     "pMarket": 71.1,
+     "pMarket": 71.2,
      "post": false,
-     "prob": 71.1,
+     "prob": 71.2,
      "selection": "Le Mans or Lille",
      "status": "active"
     },
@@ -1307,6 +1307,19 @@
      "status": "trial"
     },
     {
+     "ev": -3.9,
+     "gap": 0.0,
+     "group": "Total goals",
+     "key": "Total_goals_Over_1_5",
+     "minOdds": 1.48,
+     "odds": 1.3717,
+     "pMarket": 70.1,
+     "post": false,
+     "prob": 70.1,
+     "selection": "Over 1.5",
+     "status": "active"
+    },
+    {
      "ev": null,
      "gap": null,
      "group": "Corners",
@@ -1315,22 +1328,9 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 70.1,
+     "prob": 70.0,
      "selection": "Under 10.5",
      "status": "trial"
-    },
-    {
-     "ev": -3.9,
-     "gap": 0.0,
-     "group": "Total goals",
-     "key": "Total_goals_Over_1_5",
-     "minOdds": 1.48,
-     "odds": 1.3731,
-     "pMarket": 70.0,
-     "post": false,
-     "prob": 70.0,
-     "selection": "Over 1.5",
-     "status": "active"
     },
     {
      "ev": null,
@@ -1346,13 +1346,13 @@
      "status": "trial"
     },
     {
-     "ev": -13.7,
-     "gap": -7.1,
+     "ev": -13.9,
+     "gap": -7.3,
      "group": "Team goals",
      "key": "Team_goals_Lille_over_0_5",
      "minOdds": 1.53,
-     "odds": 1.2494,
-     "pMarket": 76.2,
+     "odds": 1.2463,
+     "pMarket": 76.4,
      "post": false,
      "prob": 69.1,
      "selection": "Lille over 0.5",
@@ -1380,7 +1380,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 68.0,
+     "prob": 67.9,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -1402,11 +1402,11 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Lille",
-     "minOdds": 1.6,
+     "minOdds": 1.59,
      "odds": null,
-     "pMarket": 64.7,
+     "pMarket": 64.8,
      "post": false,
-     "prob": 64.7,
+     "prob": 64.8,
      "selection": "Lille",
      "status": "active"
     },
@@ -2304,7 +2304,7 @@
     "cards": 3.59,
     "cardsModel": "v2",
     "corners": 10.3,
-    "corners_away": 6.44,
+    "corners_away": 6.45,
     "corners_home": 3.94,
     "home_goals": 1.21,
     "setPieceModel": "v2"
@@ -2348,7 +2348,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 92.2,
+     "prob": 92.3,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -2383,11 +2383,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Wolverhampton_over_2_5",
-     "minOdds": 1.15,
+     "minOdds": 1.14,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 90.9,
+     "prob": 91.0,
      "selection": "Wolverhampton over 2.5",
      "status": "trial"
     },
@@ -2398,9 +2398,9 @@
      "key": "Double_chance_Wolverhampton_or_draw",
      "minOdds": 1.22,
      "odds": null,
-     "pMarket": 84.6,
+     "pMarket": 84.7,
      "post": false,
-     "prob": 84.6,
+     "prob": 84.7,
      "selection": "Wolverhampton or draw",
      "status": "active"
     },
@@ -2422,11 +2422,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_5_5",
-     "minOdds": 1.25,
+     "minOdds": 1.24,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 84.0,
+     "prob": 84.1,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -2439,7 +2439,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 83.0,
+     "prob": 83.1,
      "selection": "Wolverhampton over 3.5",
      "status": "trial"
     },
@@ -2458,6 +2458,19 @@
     },
     {
      "ev": null,
+     "gap": 0.0,
+     "group": "Draw no bet",
+     "key": "Draw_no_bet_Wolverhampton",
+     "minOdds": 1.29,
+     "odds": null,
+     "pMarket": 80.3,
+     "post": false,
+     "prob": 80.3,
+     "selection": "Wolverhampton",
+     "status": "active"
+    },
+    {
+     "ev": null,
      "gap": null,
      "group": "Player shots",
      "key": "Player_shots_Rafiki_Sa_d_2_",
@@ -2472,26 +2485,13 @@
     {
      "ev": null,
      "gap": 0.0,
-     "group": "Draw no bet",
-     "key": "Draw_no_bet_Wolverhampton",
-     "minOdds": 1.29,
-     "odds": null,
-     "pMarket": 80.2,
-     "post": false,
-     "prob": 80.2,
-     "selection": "Wolverhampton",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Lincoln_City_or_Wolverhampton",
      "minOdds": 1.33,
      "odds": null,
-     "pMarket": 77.5,
+     "pMarket": 77.6,
      "post": false,
-     "prob": 77.5,
+     "prob": 77.6,
      "selection": "Lincoln City or Wolverhampton",
      "status": "active"
     },
@@ -2504,7 +2504,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.3,
+     "prob": 77.4,
      "selection": "Over 7.5",
      "status": "trial"
     },
@@ -2540,10 +2540,10 @@
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.38,
-     "odds": 1.2732,
-     "pMarket": 75.1,
+     "odds": 1.2717,
+     "pMarket": 75.2,
      "post": false,
-     "prob": 75.1,
+     "prob": 75.2,
      "selection": "Over 1.5",
      "status": "active"
     },
@@ -2595,7 +2595,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 71.8,
+     "prob": 71.9,
      "selection": "Wolverhampton over 4.5",
      "status": "trial"
     },
@@ -2621,7 +2621,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 71.6,
+     "prob": 71.5,
      "selection": "Lincoln City over 2.5",
      "status": "trial"
     },
@@ -2634,7 +2634,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 70.6,
+     "prob": 70.7,
      "selection": "Under 4.5",
      "status": "trial"
     }
@@ -3311,11 +3311,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Mainz_05_over_3_5",
-     "minOdds": 1.2,
+     "minOdds": 1.21,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 86.7,
+     "prob": 86.6,
      "selection": "Mainz 05 over 3.5",
      "status": "trial"
     },
@@ -3404,9 +3404,9 @@
      "key": "Double_chance_Mainz_05_or_Union_Berlin",
      "minOdds": 1.29,
      "odds": null,
-     "pMarket": 80.1,
+     "pMarket": 80.0,
      "post": false,
-     "prob": 80.1,
+     "prob": 80.0,
      "selection": "Mainz 05 or Union Berlin",
      "status": "active"
     },
@@ -3562,11 +3562,11 @@
    "event": "Toulouse – Rennes",
    "expected": {
     "away_goals": 1.46,
-    "cards": 3.8,
+    "cards": 3.78,
     "cardsModel": "v2",
     "corners": 9.1,
-    "corners_away": 4.37,
-    "corners_home": 4.7,
+    "corners_away": 4.34,
+    "corners_home": 4.74,
     "home_goals": 2.05,
     "setPieceModel": "v2"
    },
@@ -3622,18 +3622,18 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 90.4,
+     "prob": 90.6,
      "selection": "Under 6.5",
      "status": "trial"
     },
     {
-     "ev": 5.9,
-     "gap": 8.7,
+     "ev": 5.4,
+     "gap": 8.4,
      "group": "Team goals",
      "key": "Team_goals_Toulouse_over_0_5",
      "minOdds": 1.2,
-     "odds": 1.2155,
-     "pMarket": 78.4,
+     "odds": 1.2105,
+     "pMarket": 78.7,
      "post": false,
      "prob": 87.1,
      "selection": "Toulouse over 0.5",
@@ -3713,7 +3713,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 81.1,
+     "prob": 81.4,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -3722,11 +3722,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Toulouse_over_2_5",
-     "minOdds": 1.31,
+     "minOdds": 1.3,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 80.2,
+     "prob": 80.5,
      "selection": "Toulouse over 2.5",
      "status": "trial"
     },
@@ -3759,19 +3759,6 @@
     {
      "ev": null,
      "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Rennes_over_2_5",
-     "minOdds": 1.37,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 76.8,
-     "selection": "Rennes over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
      "group": "Player shots",
      "key": "Player_shots_Mousa_Al_Tamari_1_",
      "minOdds": 1.37,
@@ -3783,17 +3770,30 @@
      "status": "trial"
     },
     {
-     "ev": -4.6,
-     "gap": 0.1,
+     "ev": -4.2,
+     "gap": 0.5,
      "group": "Team goals",
      "key": "Team_goals_Rennes_over_0_5",
      "minOdds": 1.37,
-     "odds": 1.2433,
-     "pMarket": 76.6,
+     "odds": 1.2494,
+     "pMarket": 76.2,
      "post": false,
      "prob": 76.7,
      "selection": "Rennes over 0.5",
      "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Rennes_over_2_5",
+     "minOdds": 1.38,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 76.5,
+     "selection": "Rennes over 2.5",
+     "status": "trial"
     },
     {
      "ev": null,
@@ -3826,11 +3826,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Over_2_5",
-     "minOdds": 1.46,
+     "minOdds": 1.47,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 72.3,
+     "prob": 72.0,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -3878,11 +3878,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_4_5",
-     "minOdds": 1.59,
+     "minOdds": 1.58,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 66.7,
+     "prob": 67.1,
      "selection": "Under 4.5",
      "status": "trial"
     },
@@ -5552,13 +5552,13 @@
      "status": "trial"
     },
     {
-     "ev": 24.5,
-     "gap": 17.6,
+     "ev": 22.6,
+     "gap": 16.7,
      "group": "Team goals",
      "key": "Team_goals_Gent_over_0_5",
      "minOdds": 1.41,
-     "odds": 1.6667,
-     "pMarket": 57.1,
+     "odds": 1.641,
+     "pMarket": 58.0,
      "post": false,
      "prob": 74.7,
      "selection": "Gent over 0.5",
@@ -6037,15 +6037,15 @@
      "status": "trial"
     },
     {
-     "ev": -5.9,
+     "ev": -5.8,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.32,
-     "odds": 1.2053,
-     "pMarket": 78.1,
+     "odds": 1.2066,
+     "pMarket": 78.0,
      "post": false,
-     "prob": 78.1,
+     "prob": 78.0,
      "selection": "Under 4.5",
      "status": "active"
     },
@@ -6069,9 +6069,9 @@
      "key": "Double_chance_Kalmar_or_AIK",
      "minOdds": 1.35,
      "odds": null,
-     "pMarket": 76.6,
+     "pMarket": 76.8,
      "post": false,
-     "prob": 76.6,
+     "prob": 76.8,
      "selection": "Kalmar or AIK",
      "status": "active"
     },
@@ -6080,11 +6080,11 @@
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Kalmar_or_draw",
-     "minOdds": 1.38,
+     "minOdds": 1.37,
      "odds": null,
-     "pMarket": 75.0,
+     "pMarket": 75.4,
      "post": false,
-     "prob": 75.0,
+     "prob": 75.4,
      "selection": "Kalmar or draw",
      "status": "active"
     },
@@ -6115,41 +6115,41 @@
      "status": "trial"
     },
     {
-     "ev": -10.5,
-     "gap": -4.3,
+     "ev": null,
+     "gap": 0.0,
+     "group": "Draw no bet",
+     "key": "Draw_no_bet_Kalmar",
+     "minOdds": 1.52,
+     "odds": null,
+     "pMarket": 68.0,
+     "post": false,
+     "prob": 68.0,
+     "selection": "Kalmar",
+     "status": "active"
+    },
+    {
+     "ev": -10.2,
+     "gap": -4.1,
      "group": "Team goals",
      "key": "Team_goals_AIK_over_0_5",
      "minOdds": 1.56,
-     "odds": 1.3165,
-     "pMarket": 72.3,
+     "odds": 1.3205,
+     "pMarket": 72.1,
      "post": false,
      "prob": 68.0,
      "selection": "AIK over 0.5",
      "status": "active"
     },
     {
-     "ev": null,
-     "gap": 0.0,
-     "group": "Draw no bet",
-     "key": "Draw_no_bet_Kalmar",
-     "minOdds": 1.53,
-     "odds": null,
-     "pMarket": 67.4,
-     "post": false,
-     "prob": 67.4,
-     "selection": "Kalmar",
-     "status": "active"
-    },
-    {
-     "ev": -5.5,
+     "ev": -5.6,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_3_5",
      "minOdds": 1.67,
-     "odds": 1.5263,
-     "pMarket": 61.9,
+     "odds": 1.5291,
+     "pMarket": 61.8,
      "post": false,
-     "prob": 61.9,
+     "prob": 61.8,
      "selection": "Under 3.5",
      "status": "active"
     },
@@ -6722,9 +6722,9 @@
      "key": "Double_chance_Everton_or_Liverpool",
      "minOdds": 1.38,
      "odds": null,
-     "pMarket": 75.1,
+     "pMarket": 75.0,
      "post": false,
-     "prob": 75.1,
+     "prob": 75.0,
      "selection": "Everton or Liverpool",
      "status": "active"
     },
@@ -8597,11 +8597,11 @@
    "event": "Gaziantep – Amedspor",
    "expected": {
     "away_goals": 1.66,
-    "cards": 4.18,
+    "cards": 4.19,
     "cardsModel": "v2",
     "corners": 9.1,
-    "corners_away": 4.81,
-    "corners_home": 4.25,
+    "corners_away": 4.79,
+    "corners_home": 4.26,
     "home_goals": 0.7,
     "setPieceModel": "v2"
    },
@@ -8657,7 +8657,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 86.4,
+     "prob": 86.3,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -8696,7 +8696,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 81.2,
+     "prob": 81.0,
      "selection": "Amedspor over 2.5",
      "status": "trial"
     },
@@ -8748,7 +8748,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.9,
+     "prob": 78.0,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -8761,7 +8761,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.1,
+     "prob": 77.2,
      "selection": "Under 11.5",
      "status": "trial"
     },
@@ -8783,11 +8783,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Gaziantep_over_2_5",
-     "minOdds": 1.4,
+     "minOdds": 1.39,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 75.4,
+     "prob": 75.6,
      "selection": "Gaziantep over 2.5",
      "status": "trial"
     },
@@ -8800,7 +8800,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 75.3,
+     "prob": 75.1,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -8811,9 +8811,9 @@
      "key": "Double_chance_Gaziantep_or_Amedspor",
      "minOdds": 1.38,
      "odds": null,
-     "pMarket": 75.1,
+     "pMarket": 75.0,
      "post": false,
-     "prob": 75.1,
+     "prob": 75.0,
      "selection": "Gaziantep or Amedspor",
      "status": "active"
     },
@@ -8837,9 +8837,9 @@
      "key": "Double_chance_Amedspor_or_draw",
      "minOdds": 1.44,
      "odds": null,
-     "pMarket": 71.9,
+     "pMarket": 71.6,
      "post": false,
-     "prob": 71.9,
+     "prob": 71.6,
      "selection": "Amedspor or draw",
      "status": "active"
     },
@@ -8872,19 +8872,6 @@
     {
      "ev": null,
      "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Amedspor_over_3_5",
-     "minOdds": 1.59,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 66.9,
-     "selection": "Amedspor over 3.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
      "group": "Corners",
      "key": "Corners_Over_7_5",
      "minOdds": 1.59,
@@ -8893,6 +8880,19 @@
      "post": false,
      "prob": 66.7,
      "selection": "Over 7.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Amedspor_over_3_5",
+     "minOdds": 1.6,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 66.6,
+     "selection": "Amedspor over 3.5",
      "status": "trial"
     },
     {
@@ -8926,11 +8926,11 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Amedspor",
-     "minOdds": 1.65,
+     "minOdds": 1.66,
      "odds": null,
-     "pMarket": 62.7,
+     "pMarket": 62.2,
      "post": false,
-     "prob": 62.7,
+     "prob": 62.2,
      "selection": "Amedspor",
      "status": "active"
     }
@@ -9551,7 +9551,7 @@
    "event": "Al-Ettifaq – Al-Hilal",
    "expected": {
     "away_goals": 2.8,
-    "home_goals": 0.88
+    "home_goals": 0.87
    },
    "goalModel": "market",
    "id": "2026-11-28-al-ettifaq-al-hilal",
@@ -9590,9 +9590,9 @@
      "key": "Draw_no_bet_Al_Hilal",
      "minOdds": 1.16,
      "odds": null,
-     "pMarket": 89.0,
+     "pMarket": 89.1,
      "post": false,
-     "prob": 89.0,
+     "prob": 89.1,
      "selection": "Al-Hilal",
      "status": "active"
     },
@@ -9628,7 +9628,7 @@
      "group": "Match result",
      "key": "Match_result_Al_Hilal",
      "minOdds": 1.34,
-     "odds": 1.2165,
+     "odds": 1.2155,
      "pMarket": 77.2,
      "post": false,
      "prob": 77.2,
@@ -9636,13 +9636,13 @@
      "status": "active"
     },
     {
-     "ev": -7.4,
-     "gap": -2.2,
+     "ev": -7.2,
+     "gap": -2.0,
      "group": "Team goals",
      "key": "Team_goals_Al_Hilal_over_1_5",
      "minOdds": 1.37,
-     "odds": 1.2053,
-     "pMarket": 79.0,
+     "odds": 1.2083,
+     "pMarket": 78.8,
      "post": false,
      "prob": 76.8,
      "selection": "Al-Hilal over 1.5",
@@ -10033,7 +10033,7 @@
     "cardsModel": "v2",
     "corners": 10.8,
     "corners_away": 3.31,
-    "corners_home": 8.37,
+    "corners_home": 8.36,
     "home_goals": 2.27,
     "setPieceModel": "v2"
    },
@@ -10100,9 +10100,9 @@
      "key": "Draw_no_bet_Real_Madrid",
      "minOdds": 1.09,
      "odds": null,
-     "pMarket": 94.9,
+     "pMarket": 94.8,
      "post": false,
-     "prob": 94.9,
+     "prob": 94.8,
      "selection": "Real Madrid",
      "status": "active"
     },
@@ -10271,7 +10271,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.7,
+     "prob": 77.6,
      "selection": "Real Madrid over 5.5",
      "status": "trial"
     },
@@ -10294,10 +10294,10 @@
      "group": "Total goals",
      "key": "Total_goals_Over_2_5",
      "minOdds": 1.41,
-     "odds": 1.2959,
-     "pMarket": 73.3,
+     "odds": 1.2941,
+     "pMarket": 73.4,
      "post": false,
-     "prob": 73.3,
+     "prob": 73.4,
      "selection": "Over 2.5",
      "status": "active"
     },
@@ -10349,7 +10349,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 69.2,
+     "prob": 69.3,
      "selection": "Under 12.5",
      "status": "trial"
     },
@@ -10721,10 +10721,10 @@
    "event": "Manchester United – Brentford",
    "expected": {
     "away_goals": 1.53,
-    "cards": 4.22,
+    "cards": 4.21,
     "cardsModel": "v2",
     "corners": 9.4,
-    "corners_away": 4.21,
+    "corners_away": 4.2,
     "corners_home": 4.98,
     "home_goals": 1.88,
     "setPieceModel": "v2"
@@ -10859,7 +10859,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 82.6,
+     "prob": 82.7,
      "selection": "Manchester United over 2.5",
      "status": "trial"
     },
@@ -10890,13 +10890,13 @@
      "status": "trial"
     },
     {
-     "ev": -2.8,
-     "gap": 1.6,
+     "ev": -2.6,
+     "gap": 1.8,
      "group": "Team goals",
      "key": "Team_goals_Brentford_over_0_5",
      "minOdds": 1.34,
-     "odds": 1.2404,
-     "pMarket": 76.8,
+     "odds": 1.2427,
+     "pMarket": 76.6,
      "post": false,
      "prob": 78.4,
      "selection": "Brentford over 0.5",
@@ -10961,9 +10961,9 @@
      "key": "Double_chance_Manchester_United_or_Brentford",
      "minOdds": 1.39,
      "odds": null,
-     "pMarket": 74.2,
+     "pMarket": 74.3,
      "post": false,
-     "prob": 74.2,
+     "prob": 74.3,
      "selection": "Manchester United or Brentford",
      "status": "active"
     },
@@ -11011,11 +11011,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Manchester_United_over_3_5",
-     "minOdds": 1.54,
+     "minOdds": 1.53,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 69.0,
+     "prob": 69.1,
      "selection": "Manchester United over 3.5",
      "status": "trial"
     },
@@ -11026,9 +11026,9 @@
      "key": "Double_chance_Manchester_United_or_draw",
      "minOdds": 1.52,
      "odds": null,
-     "pMarket": 68.0,
+     "pMarket": 68.1,
      "post": false,
-     "prob": 68.0,
+     "prob": 68.1,
      "selection": "Manchester United or draw",
      "status": "active"
     },
@@ -12105,11 +12105,11 @@
    "event": "Stuttgart – Eintracht Frankfurt",
    "expected": {
     "away_goals": 1.62,
-    "cards": 3.51,
+    "cards": 3.52,
     "cardsModel": "v2",
     "corners": 10.4,
-    "corners_away": 4.39,
-    "corners_home": 6.0,
+    "corners_away": 4.4,
+    "corners_home": 5.98,
     "home_goals": 2.14,
     "setPieceModel": "v2"
    },
@@ -12204,7 +12204,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 89.1,
+     "prob": 89.0,
      "selection": "Stuttgart over 2.5",
      "status": "trial"
     },
@@ -12243,7 +12243,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 85.1,
+     "prob": 85.0,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -12282,7 +12282,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.7,
+     "prob": 79.5,
      "selection": "Stuttgart over 3.5",
      "status": "trial"
     },
@@ -12291,11 +12291,11 @@
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Stuttgart_or_Eintracht_Frankfurt",
-     "minOdds": 1.31,
+     "minOdds": 1.3,
      "odds": null,
-     "pMarket": 79.2,
+     "pMarket": 79.3,
      "post": false,
-     "prob": 79.2,
+     "prob": 79.3,
      "selection": "Stuttgart or Eintracht Frankfurt",
      "status": "active"
     },
@@ -12384,9 +12384,9 @@
      "key": "Double_chance_Stuttgart_or_draw",
      "minOdds": 1.41,
      "odds": null,
-     "pMarket": 73.5,
+     "pMarket": 73.2,
      "post": false,
-     "prob": 73.5,
+     "prob": 73.2,
      "selection": "Stuttgart or draw",
      "status": "active"
     },
@@ -12425,7 +12425,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 72.1,
+     "prob": 72.0,
      "selection": "Under 4.5",
      "status": "trial"
     },
@@ -12451,11 +12451,11 @@
    "event": "Hamburger SV – Bayern Munich",
    "expected": {
     "away_goals": 2.24,
-    "cards": 2.97,
+    "cards": 2.98,
     "cardsModel": "v2",
     "corners": 10.7,
-    "corners_away": 7.49,
-    "corners_home": 3.78,
+    "corners_away": 7.43,
+    "corners_home": 3.8,
     "home_goals": 1.18,
     "setPieceModel": "v2"
    },
@@ -12479,19 +12479,6 @@
     {
      "ev": null,
      "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_6_5",
-     "minOdds": 1.08,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 96.5,
-     "selection": "Under 6.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
      "group": "Player shots",
      "key": "Player_shots_Michael_Olise_1_",
      "minOdds": 1.08,
@@ -12500,6 +12487,19 @@
      "post": false,
      "prob": 96.5,
      "selection": "Michael Olise 1+",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_6_5",
+     "minOdds": 1.08,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 96.4,
+     "selection": "Under 6.5",
      "status": "trial"
     },
     {
@@ -12524,7 +12524,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 93.9,
+     "prob": 93.8,
      "selection": "Bayern Munich over 2.5",
      "status": "trial"
     },
@@ -12537,22 +12537,9 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 91.5,
+     "prob": 91.3,
      "selection": "Under 5.5",
      "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": 0.0,
-     "group": "Double chance",
-     "key": "Double_chance_Bayern_Munich_or_draw",
-     "minOdds": 1.15,
-     "odds": null,
-     "pMarket": 89.6,
-     "post": false,
-     "prob": 89.6,
-     "selection": "Bayern Munich or draw",
-     "status": "active"
     },
     {
      "ev": null,
@@ -12569,29 +12556,29 @@
     },
     {
      "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Bayern_Munich_over_3_5",
-     "minOdds": 1.17,
+     "gap": 0.0,
+     "group": "Double chance",
+     "key": "Double_chance_Bayern_Munich_or_draw",
+     "minOdds": 1.16,
      "odds": null,
-     "pMarket": null,
+     "pMarket": 89.1,
      "post": false,
-     "prob": 88.8,
-     "selection": "Bayern Munich over 3.5",
-     "status": "trial"
+     "prob": 89.1,
+     "selection": "Bayern Munich or draw",
+     "status": "active"
     },
     {
      "ev": null,
-     "gap": 0.0,
-     "group": "Draw no bet",
-     "key": "Draw_no_bet_Bayern_Munich",
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Bayern_Munich_over_3_5",
      "minOdds": 1.18,
      "odds": null,
-     "pMarket": 87.9,
+     "pMarket": null,
      "post": false,
-     "prob": 87.9,
-     "selection": "Bayern Munich",
-     "status": "active"
+     "prob": 88.5,
+     "selection": "Bayern Munich over 3.5",
+     "status": "trial"
     },
     {
      "ev": null,
@@ -12622,14 +12609,14 @@
     {
      "ev": null,
      "gap": 0.0,
-     "group": "Double chance",
-     "key": "Double_chance_Hamburger_SV_or_Bayern_Munich",
-     "minOdds": 1.2,
+     "group": "Draw no bet",
+     "key": "Draw_no_bet_Bayern_Munich",
+     "minOdds": 1.19,
      "odds": null,
-     "pMarket": 86.1,
+     "pMarket": 87.3,
      "post": false,
-     "prob": 86.1,
-     "selection": "Hamburger SV or Bayern Munich",
+     "prob": 87.3,
+     "selection": "Bayern Munich",
      "status": "active"
     },
     {
@@ -12643,6 +12630,19 @@
      "post": false,
      "prob": 86.1,
      "selection": "Over 1.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": 0.0,
+     "group": "Double chance",
+     "key": "Double_chance_Hamburger_SV_or_Bayern_Munich",
+     "minOdds": 1.21,
+     "odds": null,
+     "pMarket": 85.7,
+     "post": false,
+     "prob": 85.7,
+     "selection": "Hamburger SV or Bayern Munich",
      "status": "active"
     },
     {
@@ -12663,11 +12663,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_4_5",
-     "minOdds": 1.28,
+     "minOdds": 1.29,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 81.6,
+     "prob": 81.4,
      "selection": "Under 4.5",
      "status": "trial"
     },
@@ -12676,11 +12676,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Bayern_Munich_over_4_5",
-     "minOdds": 1.3,
+     "minOdds": 1.31,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 80.8,
+     "prob": 80.3,
      "selection": "Bayern Munich over 4.5",
      "status": "trial"
     },
@@ -12693,7 +12693,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 80.3,
+     "prob": 80.2,
      "selection": "Over 7.5",
      "status": "trial"
     },
@@ -12711,15 +12711,15 @@
      "status": "trial"
     },
     {
-     "ev": -3.9,
+     "ev": -4.0,
      "gap": 0.0,
      "group": "Match result",
      "key": "Match_result_Bayern_Munich",
-     "minOdds": 1.37,
-     "odds": 1.2695,
-     "pMarket": 75.7,
+     "minOdds": 1.38,
+     "odds": 1.2833,
+     "pMarket": 74.8,
      "post": false,
-     "prob": 75.7,
+     "prob": 74.8,
      "selection": "Bayern Munich",
      "status": "active"
     },
@@ -12753,39 +12753,39 @@
      "ev": null,
      "gap": null,
      "group": "Corners",
-     "key": "Corners_Over_8_5",
+     "key": "Corners_Under_12_5",
      "minOdds": 1.49,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 70.9,
-     "selection": "Over 8.5",
+     "prob": 71.0,
+     "selection": "Under 12.5",
      "status": "trial"
+    },
+    {
+     "ev": -5.0,
+     "gap": 0.0,
+     "group": "Total goals",
+     "key": "Total_goals_Over_2_5",
+     "minOdds": 1.46,
+     "odds": 1.3413,
+     "pMarket": 70.8,
+     "post": false,
+     "prob": 70.8,
+     "selection": "Over 2.5",
+     "status": "active"
     },
     {
      "ev": null,
      "gap": null,
      "group": "Corners",
-     "key": "Corners_Under_12_5",
+     "key": "Corners_Over_8_5",
      "minOdds": 1.5,
      "odds": null,
      "pMarket": null,
      "post": false,
      "prob": 70.7,
-     "selection": "Under 12.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Bayern_Munich_over_5_5",
-     "minOdds": 1.51,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 70.3,
-     "selection": "Bayern Munich over 5.5",
+     "selection": "Over 8.5",
      "status": "trial"
     }
    ],
@@ -12797,11 +12797,11 @@
    "event": "Freiburg – RB Leipzig",
    "expected": {
     "away_goals": 1.52,
-    "cards": 3.61,
+    "cards": 3.6,
     "cardsModel": "v2",
     "corners": 10.2,
-    "corners_away": 4.88,
-    "corners_home": 5.14,
+    "corners_away": 4.91,
+    "corners_home": 5.1,
     "home_goals": 1.77,
     "setPieceModel": "v2"
    },
@@ -12844,7 +12844,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 92.1,
+     "prob": 92.2,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -12890,27 +12890,27 @@
     {
      "ev": null,
      "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Freiburg_over_2_5",
-     "minOdds": 1.25,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 83.9,
-     "selection": "Freiburg over 2.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
      "group": "Cards",
      "key": "Cards_Under_5_5",
      "minOdds": 1.25,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 83.7,
+     "prob": 84.0,
      "selection": "Under 5.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Freiburg_over_2_5",
+     "minOdds": 1.25,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 83.6,
+     "selection": "Freiburg over 2.5",
      "status": "trial"
     },
     {
@@ -12961,7 +12961,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 81.8,
+     "prob": 82.1,
      "selection": "RB Leipzig over 2.5",
      "status": "trial"
     },
@@ -13087,11 +13087,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Freiburg_over_3_5",
-     "minOdds": 1.49,
+     "minOdds": 1.5,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 71.0,
+     "prob": 70.6,
      "selection": "Freiburg over 3.5",
      "status": "trial"
     },
@@ -13100,11 +13100,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_4_5",
-     "minOdds": 1.51,
+     "minOdds": 1.5,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 70.2,
+     "prob": 70.5,
      "selection": "Under 4.5",
      "status": "trial"
     },
@@ -13113,11 +13113,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Over_2_5",
-     "minOdds": 1.53,
+     "minOdds": 1.54,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 69.3,
+     "prob": 69.0,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -13126,11 +13126,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_RB_Leipzig_over_3_5",
-     "minOdds": 1.57,
+     "minOdds": 1.56,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 67.7,
+     "prob": 68.2,
      "selection": "RB Leipzig over 3.5",
      "status": "trial"
     }
@@ -14676,9 +14676,9 @@
      "key": "Double_chance_Frosinone_or_draw",
      "minOdds": 1.24,
      "odds": null,
-     "pMarket": 83.3,
+     "pMarket": 83.2,
      "post": false,
-     "prob": 83.3,
+     "prob": 83.2,
      "selection": "Frosinone or draw",
      "status": "active"
     },
@@ -14691,7 +14691,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 83.2,
+     "prob": 83.1,
      "selection": "Frosinone over 3.5",
      "status": "trial"
     },
@@ -14715,9 +14715,9 @@
      "key": "Double_chance_Frosinone_or_Parma",
      "minOdds": 1.27,
      "odds": null,
-     "pMarket": 81.5,
+     "pMarket": 81.4,
      "post": false,
-     "prob": 81.5,
+     "prob": 81.4,
      "selection": "Frosinone or Parma",
      "status": "active"
     },
@@ -14808,7 +14808,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 72.1,
+     "prob": 72.0,
      "selection": "Frosinone over 4.5",
      "status": "trial"
     },
@@ -14821,7 +14821,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 71.4,
+     "prob": 71.5,
      "selection": "Parma over 2.5",
      "status": "trial"
     },
@@ -14831,10 +14831,10 @@
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.45,
-     "odds": 1.3401,
-     "pMarket": 71.2,
+     "odds": 1.339,
+     "pMarket": 71.3,
      "post": false,
-     "prob": 71.2,
+     "prob": 71.3,
      "selection": "Under 4.5",
      "status": "active"
     },
@@ -14877,7 +14877,7 @@
     "cardsModel": "v2",
     "corners": 11.0,
     "corners_away": 3.29,
-    "corners_home": 8.46,
+    "corners_home": 8.44,
     "home_goals": 2.21,
     "setPieceModel": "v2"
    },
@@ -14907,7 +14907,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 95.7,
+     "prob": 95.6,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -14933,7 +14933,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 92.1,
+     "prob": 92.0,
      "selection": "PSV over 3.5",
      "status": "trial"
     },
@@ -14957,9 +14957,9 @@
      "key": "Double_chance_PSV_or_draw",
      "minOdds": 1.14,
      "odds": null,
-     "pMarket": 90.5,
+     "pMarket": 90.4,
      "post": false,
-     "prob": 90.5,
+     "prob": 90.4,
      "selection": "PSV or draw",
      "status": "active"
     },
@@ -14970,9 +14970,9 @@
      "key": "Draw_no_bet_PSV",
      "minOdds": 1.16,
      "odds": null,
-     "pMarket": 89.2,
+     "pMarket": 89.1,
      "post": false,
-     "prob": 89.2,
+     "prob": 89.1,
      "selection": "PSV",
      "status": "active"
     },
@@ -14998,22 +14998,9 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 89.1,
+     "prob": 89.0,
      "selection": "Under 4.5",
      "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": 0.0,
-     "group": "Double chance",
-     "key": "Double_chance_PSV_or_Go_Ahead_Eagles",
-     "minOdds": 1.17,
-     "odds": null,
-     "pMarket": 88.1,
-     "post": false,
-     "prob": 88.1,
-     "selection": "PSV or Go Ahead Eagles",
-     "status": "active"
     },
     {
      "ev": null,
@@ -15043,6 +15030,19 @@
     },
     {
      "ev": null,
+     "gap": 0.0,
+     "group": "Double chance",
+     "key": "Double_chance_PSV_or_Go_Ahead_Eagles",
+     "minOdds": 1.17,
+     "odds": null,
+     "pMarket": 88.0,
+     "post": false,
+     "prob": 88.0,
+     "selection": "PSV or Go Ahead Eagles",
+     "status": "active"
+    },
+    {
+     "ev": null,
      "gap": null,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
@@ -15063,7 +15063,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 86.4,
+     "prob": 86.3,
      "selection": "PSV over 4.5",
      "status": "trial"
     },
@@ -15094,6 +15094,19 @@
      "status": "trial"
     },
     {
+     "ev": -4.9,
+     "gap": 0.0,
+     "group": "Total goals",
+     "key": "Total_goals_Over_2_5",
+     "minOdds": 1.28,
+     "odds": 1.1786,
+     "pMarket": 80.7,
+     "post": false,
+     "prob": 80.7,
+     "selection": "Over 2.5",
+     "status": "active"
+    },
+    {
      "ev": null,
      "gap": null,
      "group": "Player shots",
@@ -15107,28 +15120,15 @@
      "status": "trial"
     },
     {
-     "ev": -5.0,
-     "gap": 0.0,
-     "group": "Total goals",
-     "key": "Total_goals_Over_2_5",
-     "minOdds": 1.28,
-     "odds": 1.1786,
-     "pMarket": 80.6,
-     "post": false,
-     "prob": 80.6,
-     "selection": "Over 2.5",
-     "status": "active"
-    },
-    {
-     "ev": -4.4,
+     "ev": -4.5,
      "gap": 0.0,
      "group": "Match result",
      "key": "Match_result_PSV",
      "minOdds": 1.32,
-     "odds": 1.2155,
-     "pMarket": 78.6,
+     "odds": 1.2183,
+     "pMarket": 78.4,
      "post": false,
-     "prob": 78.6,
+     "prob": 78.4,
      "selection": "PSV",
      "status": "active"
     },
@@ -15141,7 +15141,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 78.3,
+     "prob": 78.2,
      "selection": "PSV over 5.5",
      "status": "trial"
     },
@@ -15167,7 +15167,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 74.0,
+     "prob": 73.9,
      "selection": "Over 8.5",
      "status": "trial"
     },
@@ -16603,11 +16603,11 @@
    "event": "Elche – Atletico Madrid",
    "expected": {
     "away_goals": 1.54,
-    "cards": 4.15,
+    "cards": 4.13,
     "cardsModel": "v2",
     "corners": 9.8,
-    "corners_away": 6.14,
-    "corners_home": 3.89,
+    "corners_away": 6.2,
+    "corners_home": 3.87,
     "home_goals": 1.26,
     "setPieceModel": "v2"
    },
@@ -16650,7 +16650,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 89.7,
+     "prob": 90.0,
      "selection": "Atletico Madrid over 2.5",
      "status": "trial"
     },
@@ -16676,9 +16676,22 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 86.7,
+     "prob": 86.9,
      "selection": "Under 6.5",
      "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": 0.0,
+     "group": "Double chance",
+     "key": "Double_chance_Atletico_Madrid_or_draw",
+     "minOdds": 1.21,
+     "odds": null,
+     "pMarket": 85.6,
+     "post": false,
+     "prob": 85.6,
+     "selection": "Atletico Madrid or draw",
+     "status": "active"
     },
     {
      "ev": null,
@@ -16692,19 +16705,6 @@
      "prob": 85.5,
      "selection": "Kang-In Lee 1+",
      "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": 0.0,
-     "group": "Double chance",
-     "key": "Double_chance_Atletico_Madrid_or_draw",
-     "minOdds": 1.22,
-     "odds": null,
-     "pMarket": 85.0,
-     "post": false,
-     "prob": 85.0,
-     "selection": "Atletico Madrid or draw",
-     "status": "active"
     },
     {
      "ev": null,
@@ -16724,11 +16724,11 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Atletico_Madrid",
-     "minOdds": 1.27,
+     "minOdds": 1.26,
      "odds": null,
-     "pMarket": 81.2,
+     "pMarket": 82.1,
      "post": false,
-     "prob": 81.2,
+     "prob": 82.1,
      "selection": "Atletico Madrid",
      "status": "active"
     },
@@ -16737,11 +16737,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Atletico_Madrid_over_3_5",
-     "minOdds": 1.3,
+     "minOdds": 1.29,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 80.8,
+     "prob": 81.3,
      "selection": "Atletico Madrid over 3.5",
      "status": "trial"
     },
@@ -16750,11 +16750,11 @@
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Elche_or_Atletico_Madrid",
-     "minOdds": 1.3,
+     "minOdds": 1.29,
      "odds": null,
-     "pMarket": 79.6,
+     "pMarket": 80.0,
      "post": false,
-     "prob": 79.6,
+     "prob": 80.0,
      "selection": "Elche or Atletico Madrid",
      "status": "active"
     },
@@ -16780,7 +16780,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 78.8,
+     "prob": 78.7,
      "selection": "Under 12.5",
      "status": "trial"
     },
@@ -16819,7 +16819,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.5,
+     "prob": 77.2,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -16832,7 +16832,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 75.7,
+     "prob": 76.0,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -16845,7 +16845,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 73.3,
+     "prob": 73.5,
      "selection": "Over 7.5",
      "status": "trial"
     },
@@ -16876,13 +16876,13 @@
      "status": "trial"
     },
     {
-     "ev": 14.7,
-     "gap": 12.2,
+     "ev": 16.1,
+     "gap": 12.9,
      "group": "Team goals",
      "key": "Team_goals_Elche_over_0_5",
      "minOdds": 1.48,
-     "odds": 1.6024,
-     "pMarket": 59.4,
+     "odds": 1.6211,
+     "pMarket": 58.7,
      "post": false,
      "prob": 71.6,
      "selection": "Elche over 0.5",
@@ -16893,11 +16893,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Elche_over_2_5",
-     "minOdds": 1.49,
+     "minOdds": 1.5,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 70.8,
+     "prob": 70.5,
      "selection": "Elche over 2.5",
      "status": "trial"
     },
@@ -16906,11 +16906,11 @@
      "gap": null,
      "group": "Corners",
      "key": "Corners_Under_11_5",
-     "minOdds": 1.5,
+     "minOdds": 1.51,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 70.5,
+     "prob": 70.3,
      "selection": "Under 11.5",
      "status": "trial"
     },
@@ -16919,11 +16919,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Atletico_Madrid_over_4_5",
-     "minOdds": 1.54,
+     "minOdds": 1.53,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 68.7,
+     "prob": 69.4,
      "selection": "Atletico Madrid over 4.5",
      "status": "trial"
     },
@@ -16932,11 +16932,11 @@
      "gap": 0.0,
      "group": "Match result",
      "key": "Match_result_Atletico_Madrid",
-     "minOdds": 1.6,
-     "odds": 1.495,
-     "pMarket": 64.6,
+     "minOdds": 1.57,
+     "odds": 1.4717,
+     "pMarket": 65.6,
      "post": false,
-     "prob": 64.6,
+     "prob": 65.6,
      "selection": "Atletico Madrid",
      "status": "active"
     }
@@ -17299,7 +17299,7 @@
     "cardsModel": "v2",
     "corners": 10.1,
     "corners_away": 3.91,
-    "corners_home": 6.4,
+    "corners_home": 6.39,
     "home_goals": 1.68,
     "setPieceModel": "v2"
    },
@@ -17394,7 +17394,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 87.8,
+     "prob": 87.7,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -17470,9 +17470,9 @@
      "key": "Double_chance_Real_Betis_or_draw",
      "minOdds": 1.27,
      "odds": null,
-     "pMarket": 81.5,
+     "pMarket": 81.4,
      "post": false,
-     "prob": 81.5,
+     "prob": 81.4,
      "selection": "Real Betis or draw",
      "status": "active"
     },
@@ -17556,19 +17556,6 @@
     },
     {
      "ev": null,
-     "gap": 0.0,
-     "group": "Draw no bet",
-     "key": "Draw_no_bet_Real_Betis",
-     "minOdds": 1.36,
-     "odds": null,
-     "pMarket": 76.2,
-     "post": false,
-     "prob": 76.2,
-     "selection": "Real Betis",
-     "status": "active"
-    },
-    {
-     "ev": null,
      "gap": null,
      "group": "Cards",
      "key": "Cards_Over_2_5",
@@ -17579,6 +17566,19 @@
      "prob": 76.2,
      "selection": "Over 2.5",
      "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": 0.0,
+     "group": "Draw no bet",
+     "key": "Draw_no_bet_Real_Betis",
+     "minOdds": 1.36,
+     "odds": null,
+     "pMarket": 76.1,
+     "post": false,
+     "prob": 76.1,
+     "selection": "Real Betis",
+     "status": "active"
     },
     {
      "ev": null,
@@ -17594,13 +17594,13 @@
      "status": "trial"
     },
     {
-     "ev": 8.5,
-     "gap": 9.2,
+     "ev": 8.3,
+     "gap": 9.1,
      "group": "Team goals",
      "key": "Team_goals_Rayo_Vallecano_over_0_5",
      "minOdds": 1.4,
-     "odds": 1.4405,
-     "pMarket": 66.1,
+     "odds": 1.4386,
+     "pMarket": 66.2,
      "post": false,
      "prob": 75.3,
      "selection": "Rayo Vallecano over 0.5",
@@ -19025,11 +19025,11 @@
    "event": "Valencia – Osasuna",
    "expected": {
     "away_goals": 1.41,
-    "cards": 4.7,
+    "cards": 4.68,
     "cardsModel": "v2",
     "corners": 9.6,
-    "corners_away": 3.92,
-    "corners_home": 5.42,
+    "corners_away": 3.9,
+    "corners_home": 5.45,
     "home_goals": 1.29,
     "setPieceModel": "v2"
    },
@@ -19094,11 +19094,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Valencia_over_2_5",
-     "minOdds": 1.22,
+     "minOdds": 1.21,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 85.9,
+     "prob": 86.1,
      "selection": "Valencia over 2.5",
      "status": "trial"
     },
@@ -19111,7 +19111,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 83.8,
+     "prob": 83.7,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -19120,11 +19120,11 @@
      "gap": null,
      "group": "Corners",
      "key": "Corners_Under_12_5",
-     "minOdds": 1.29,
+     "minOdds": 1.3,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 81.0,
+     "prob": 80.9,
      "selection": "Under 12.5",
      "status": "trial"
     },
@@ -19137,7 +19137,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.9,
+     "prob": 80.2,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -19155,16 +19155,29 @@
      "status": "trial"
     },
     {
-     "ev": 15.1,
-     "gap": 13.1,
+     "ev": 15.8,
+     "gap": 13.4,
      "group": "Team goals",
      "key": "Team_goals_Osasuna_over_0_5",
      "minOdds": 1.39,
-     "odds": 1.5208,
-     "pMarket": 62.6,
+     "odds": 1.5291,
+     "pMarket": 62.3,
      "post": false,
      "prob": 75.7,
      "selection": "Osasuna over 0.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": 0.0,
+     "group": "Double chance",
+     "key": "Double_chance_Valencia_or_draw",
+     "minOdds": 1.39,
+     "odds": null,
+     "pMarket": 74.5,
+     "post": false,
+     "prob": 74.5,
+     "selection": "Valencia or draw",
      "status": "active"
     },
     {
@@ -19176,22 +19189,9 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 74.1,
+     "prob": 74.5,
      "selection": "Valencia over 3.5",
      "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": 0.0,
-     "group": "Double chance",
-     "key": "Double_chance_Valencia_or_draw",
-     "minOdds": 1.4,
-     "odds": null,
-     "pMarket": 73.9,
-     "post": false,
-     "prob": 73.9,
-     "selection": "Valencia or draw",
-     "status": "active"
     },
     {
      "ev": null,
@@ -19202,18 +19202,18 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 73.0,
+     "prob": 72.9,
      "selection": "Under 11.5",
      "status": "trial"
     },
     {
-     "ev": -6.8,
-     "gap": -1.6,
+     "ev": -7.4,
+     "gap": -2.0,
      "group": "Team goals",
      "key": "Team_goals_Valencia_over_0_5",
      "minOdds": 1.46,
-     "odds": 1.2849,
-     "pMarket": 74.1,
+     "odds": 1.2778,
+     "pMarket": 74.5,
      "post": false,
      "prob": 72.5,
      "selection": "Valencia over 0.5",
@@ -19235,14 +19235,14 @@
     {
      "ev": null,
      "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Osasuna_over_2_5",
+     "group": "Corners",
+     "key": "Corners_Over_7_5",
      "minOdds": 1.49,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 71.2,
-     "selection": "Osasuna over 2.5",
+     "prob": 71.1,
+     "selection": "Over 7.5",
      "status": "trial"
     },
     {
@@ -19261,14 +19261,14 @@
     {
      "ev": null,
      "gap": null,
-     "group": "Corners",
-     "key": "Corners_Over_7_5",
+     "group": "Team corners",
+     "key": "Team_corners_Osasuna_over_2_5",
      "minOdds": 1.49,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 71.0,
-     "selection": "Over 7.5",
+     "prob": 70.9,
+     "selection": "Osasuna over 2.5",
      "status": "trial"
     },
     {
@@ -19300,19 +19300,6 @@
     {
      "ev": null,
      "gap": null,
-     "group": "Cards",
-     "key": "Cards_Over_3_5",
-     "minOdds": 1.56,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 68.1,
-     "selection": "Over 3.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
      "group": "Player shots",
      "key": "Player_shots_Javier_Guerra_1_",
      "minOdds": 1.56,
@@ -19324,15 +19311,28 @@
      "status": "trial"
     },
     {
+     "ev": null,
+     "gap": null,
+     "group": "Cards",
+     "key": "Cards_Over_3_5",
+     "minOdds": 1.56,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 67.9,
+     "selection": "Over 3.5",
+     "status": "trial"
+    },
+    {
      "ev": -3.9,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.53,
-     "odds": 1.4219,
-     "pMarket": 67.6,
+     "odds": 1.4202,
+     "pMarket": 67.7,
      "post": false,
-     "prob": 67.6,
+     "prob": 67.7,
      "selection": "Over 1.5",
      "status": "active"
     },
@@ -19345,7 +19345,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 66.7,
+     "prob": 67.0,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -19430,15 +19430,15 @@
      "status": "trial"
     },
     {
-     "ev": -4.6,
+     "ev": -4.2,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
-     "minOdds": 1.25,
-     "odds": 1.1486,
-     "pMarket": 83.0,
+     "minOdds": 1.24,
+     "odds": 1.1515,
+     "pMarket": 83.2,
      "post": false,
-     "prob": 83.0,
+     "prob": 83.2,
      "selection": "Under 4.5",
      "status": "active"
     },
@@ -19462,9 +19462,9 @@
      "key": "Double_chance_Vitoria_Guimaraes_or_draw",
      "minOdds": 1.29,
      "odds": null,
-     "pMarket": 80.3,
+     "pMarket": 80.4,
      "post": false,
-     "prob": 80.3,
+     "prob": 80.4,
      "selection": "Vitoria Guimaraes or draw",
      "status": "active"
     },
@@ -19482,15 +19482,15 @@
      "status": "trial"
     },
     {
-     "ev": -4.8,
+     "ev": -4.3,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.36,
-     "odds": 1.2513,
-     "pMarket": 76.1,
+     "odds": 1.2558,
+     "pMarket": 76.2,
      "post": false,
-     "prob": 76.1,
+     "prob": 76.2,
      "selection": "Over 1.5",
      "status": "active"
     },
@@ -19501,9 +19501,9 @@
      "key": "Double_chance_Vitoria_Guimaraes_or_Estrela_da_Amadora",
      "minOdds": 1.37,
      "odds": null,
-     "pMarket": 75.5,
+     "pMarket": 75.6,
      "post": false,
-     "prob": 75.5,
+     "prob": 75.6,
      "selection": "Vitoria Guimaraes or Estrela da Amadora",
      "status": "active"
     },
@@ -19514,9 +19514,9 @@
      "key": "Draw_no_bet_Vitoria_Guimaraes",
      "minOdds": 1.4,
      "odds": null,
-     "pMarket": 73.9,
+     "pMarket": 74.0,
      "post": false,
-     "prob": 73.9,
+     "prob": 74.0,
      "selection": "Vitoria Guimaraes",
      "status": "active"
     },
@@ -19573,15 +19573,15 @@
      "status": "active"
     },
     {
-     "ev": -4.8,
+     "ev": -4.4,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_3_5",
      "minOdds": 1.52,
-     "odds": 1.4032,
-     "pMarket": 67.8,
+     "odds": 1.4082,
+     "pMarket": 67.9,
      "post": false,
-     "prob": 67.8,
+     "prob": 67.9,
      "selection": "Under 3.5",
      "status": "active"
     },
@@ -19620,11 +19620,11 @@
    "event": "Porto – Sporting CP",
    "expected": {
     "away_goals": 1.22,
-    "cards": 3.99,
+    "cards": 4.0,
     "cardsModel": "v2",
     "corners": 8.9,
-    "corners_away": 3.2,
-    "corners_home": 5.71,
+    "corners_away": 3.21,
+    "corners_home": 5.69,
     "home_goals": 1.62,
     "setPieceModel": "v2"
    },
@@ -19667,7 +19667,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 87.6,
+     "prob": 87.5,
      "selection": "Porto over 2.5",
      "status": "trial"
     },
@@ -19698,15 +19698,15 @@
      "status": "trial"
     },
     {
-     "ev": -5.0,
+     "ev": -4.9,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
-     "minOdds": 1.24,
-     "odds": 1.1346,
-     "pMarket": 83.7,
+     "minOdds": 1.23,
+     "odds": 1.1316,
+     "pMarket": 84.0,
      "post": false,
-     "prob": 83.7,
+     "prob": 84.0,
      "selection": "Under 4.5",
      "status": "active"
     },
@@ -19732,22 +19732,9 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.0,
+     "prob": 79.1,
      "selection": "Under 11.5",
      "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": 0.0,
-     "group": "Double chance",
-     "key": "Double_chance_Porto_or_draw",
-     "minOdds": 1.31,
-     "odds": null,
-     "pMarket": 78.9,
-     "post": false,
-     "prob": 78.9,
-     "selection": "Porto or draw",
-     "status": "active"
     },
     {
      "ev": null,
@@ -19764,14 +19751,27 @@
     },
     {
      "ev": null,
+     "gap": 0.0,
+     "group": "Double chance",
+     "key": "Double_chance_Porto_or_draw",
+     "minOdds": 1.31,
+     "odds": null,
+     "pMarket": 78.7,
+     "post": false,
+     "prob": 78.7,
+     "selection": "Porto or draw",
+     "status": "active"
+    },
+    {
+     "ev": null,
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_5_5",
-     "minOdds": 1.34,
+     "minOdds": 1.35,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 78.2,
+     "prob": 78.1,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -19793,26 +19793,13 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Porto_over_3_5",
-     "minOdds": 1.36,
+     "minOdds": 1.37,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.1,
+     "prob": 76.9,
      "selection": "Porto over 3.5",
      "status": "trial"
-    },
-    {
-     "ev": -5.2,
-     "gap": 0.0,
-     "group": "Total goals",
-     "key": "Total_goals_Over_1_5",
-     "minOdds": 1.37,
-     "odds": 1.2538,
-     "pMarket": 75.6,
-     "post": false,
-     "prob": 75.6,
-     "selection": "Over 1.5",
-     "status": "active"
     },
     {
      "ev": null,
@@ -19823,9 +19810,22 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 75.3,
+     "prob": 75.4,
      "selection": "Over 2.5",
      "status": "trial"
+    },
+    {
+     "ev": -5.2,
+     "gap": 0.0,
+     "group": "Total goals",
+     "key": "Total_goals_Over_1_5",
+     "minOdds": 1.38,
+     "odds": 1.2618,
+     "pMarket": 75.1,
+     "post": false,
+     "prob": 75.1,
+     "selection": "Over 1.5",
+     "status": "active"
     },
     {
      "ev": null,
@@ -19845,38 +19845,25 @@
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Porto_or_Sporting_CP",
-     "minOdds": 1.45,
+     "minOdds": 1.46,
      "odds": null,
-     "pMarket": 71.3,
+     "pMarket": 71.0,
      "post": false,
-     "prob": 71.3,
+     "prob": 71.0,
      "selection": "Porto or Sporting CP",
      "status": "active"
     },
     {
-     "ev": 1.2,
-     "gap": 4.1,
+     "ev": 1.6,
+     "gap": 4.4,
      "group": "Team goals",
      "key": "Team_goals_Sporting_CP_over_0_5",
      "minOdds": 1.5,
-     "odds": 1.4348,
-     "pMarket": 66.4,
+     "odds": 1.4405,
+     "pMarket": 66.1,
      "post": false,
      "prob": 70.5,
      "selection": "Sporting CP over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": 0.0,
-     "group": "Draw no bet",
-     "key": "Draw_no_bet_Porto",
-     "minOdds": 1.47,
-     "odds": null,
-     "pMarket": 70.3,
-     "post": false,
-     "prob": 70.3,
-     "selection": "Porto",
      "status": "active"
     },
     {
@@ -19888,20 +19875,33 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 70.2,
+     "prob": 70.3,
      "selection": "Under 10.5",
      "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": 0.0,
+     "group": "Draw no bet",
+     "key": "Draw_no_bet_Porto",
+     "minOdds": 1.48,
+     "odds": null,
+     "pMarket": 70.0,
+     "post": false,
+     "prob": 70.0,
+     "selection": "Porto",
+     "status": "active"
     },
     {
      "ev": -5.2,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_3_5",
-     "minOdds": 1.5,
-     "odds": 1.3788,
-     "pMarket": 68.7,
+     "minOdds": 1.49,
+     "odds": 1.3676,
+     "pMarket": 69.3,
      "post": false,
-     "prob": 68.7,
+     "prob": 69.3,
      "selection": "Under 3.5",
      "status": "active"
     },
@@ -19940,7 +19940,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 64.6,
+     "prob": 64.5,
      "selection": "Over 7.5",
      "status": "trial"
     },
@@ -20449,13 +20449,13 @@
      "status": "active"
     },
     {
-     "ev": -2.5,
-     "gap": 1.4,
+     "ev": -2.2,
+     "gap": 1.7,
      "group": "Team goals",
      "key": "Team_goals_Al_Taawoun_over_0_5",
      "minOdds": 1.7,
-     "odds": 1.5495,
-     "pMarket": 61.5,
+     "odds": 1.5556,
+     "pMarket": 61.2,
      "post": false,
      "prob": 62.9,
      "selection": "Al-Taawoun over 0.5",
@@ -22086,11 +22086,11 @@
    "event": "Wrexham – Portsmouth",
    "expected": {
     "away_goals": 0.93,
-    "cards": 3.56,
+    "cards": 3.55,
     "cardsModel": "v2",
     "corners": 10.0,
-    "corners_away": 4.28,
-    "corners_home": 5.42,
+    "corners_away": 4.27,
+    "corners_home": 5.44,
     "home_goals": 1.36,
     "setPieceModel": "v2"
    },
@@ -22107,7 +22107,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 92.5,
+     "prob": 92.6,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -22142,11 +22142,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Wrexham_over_2_5",
-     "minOdds": 1.22,
+     "minOdds": 1.21,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 85.9,
+     "prob": 86.0,
      "selection": "Wrexham over 2.5",
      "status": "trial"
     },
@@ -22159,7 +22159,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 84.5,
+     "prob": 84.6,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -22237,7 +22237,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 75.8,
+     "prob": 75.6,
      "selection": "Portsmouth over 2.5",
      "status": "trial"
     },
@@ -22255,19 +22255,6 @@
      "status": "trial"
     },
     {
-     "ev": -3.0,
-     "gap": 1.4,
-     "group": "Team goals",
-     "key": "Team_goals_Wrexham_over_0_5",
-     "minOdds": 1.42,
-     "odds": 1.3058,
-     "pMarket": 72.9,
-     "post": false,
-     "prob": 74.3,
-     "selection": "Wrexham over 0.5",
-     "status": "active"
-    },
-    {
      "ev": null,
      "gap": null,
      "group": "Team corners",
@@ -22276,20 +22263,33 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 74.2,
+     "prob": 74.4,
      "selection": "Wrexham over 3.5",
      "status": "trial"
+    },
+    {
+     "ev": -3.3,
+     "gap": 1.1,
+     "group": "Team goals",
+     "key": "Team_goals_Wrexham_over_0_5",
+     "minOdds": 1.42,
+     "odds": 1.3012,
+     "pMarket": 73.2,
+     "post": false,
+     "prob": 74.3,
+     "selection": "Wrexham over 0.5",
+     "status": "active"
     },
     {
      "ev": null,
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Wrexham_or_draw",
-     "minOdds": 1.43,
+     "minOdds": 1.42,
      "odds": null,
-     "pMarket": 72.3,
+     "pMarket": 72.6,
      "post": false,
-     "prob": 72.3,
+     "prob": 72.6,
      "selection": "Wrexham or draw",
      "status": "active"
     },
@@ -22298,11 +22298,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_4_5",
-     "minOdds": 1.49,
+     "minOdds": 1.48,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 71.2,
+     "prob": 71.3,
      "selection": "Under 4.5",
      "status": "trial"
     },
@@ -22313,9 +22313,9 @@
      "key": "Double_chance_Wrexham_or_Portsmouth",
      "minOdds": 1.47,
      "odds": null,
-     "pMarket": 70.4,
+     "pMarket": 70.5,
      "post": false,
-     "prob": 70.4,
+     "prob": 70.5,
      "selection": "Wrexham or Portsmouth",
      "status": "active"
     },
@@ -22324,11 +22324,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Over_2_5",
-     "minOdds": 1.55,
+     "minOdds": 1.56,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 68.3,
+     "prob": 68.2,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -22341,7 +22341,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 68.1,
+     "prob": 68.0,
      "selection": "Under 11.5",
      "status": "trial"
     },
@@ -22415,11 +22415,11 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Wrexham",
-     "minOdds": 1.7,
+     "minOdds": 1.69,
      "odds": null,
-     "pMarket": 60.7,
+     "pMarket": 61.2,
      "post": false,
-     "prob": 60.7,
+     "prob": 61.2,
      "selection": "Wrexham",
      "status": "active"
     }
@@ -22432,11 +22432,11 @@
    "event": "Blackburn Rovers – Charlton Athletic",
    "expected": {
     "away_goals": 1.25,
-    "cards": 3.99,
+    "cards": 4.0,
     "cardsModel": "v2",
     "corners": 10.4,
-    "corners_away": 4.36,
-    "corners_home": 6.03,
+    "corners_away": 4.38,
+    "corners_home": 6.01,
     "home_goals": 1.69,
     "setPieceModel": "v2"
    },
@@ -22466,7 +22466,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 89.2,
+     "prob": 89.1,
      "selection": "Blackburn Rovers over 2.5",
      "status": "trial"
     },
@@ -22479,7 +22479,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 88.5,
+     "prob": 88.4,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -22566,11 +22566,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Blackburn_Rovers_over_3_5",
-     "minOdds": 1.31,
+     "minOdds": 1.32,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.9,
+     "prob": 79.7,
      "selection": "Blackburn Rovers over 3.5",
      "status": "trial"
     },
@@ -22590,19 +22590,6 @@
     {
      "ev": null,
      "gap": null,
-     "group": "Cards",
-     "key": "Cards_Under_5_5",
-     "minOdds": 1.34,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 78.3,
-     "selection": "Under 5.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
      "group": "Corners",
      "key": "Corners_Over_7_5",
      "minOdds": 1.34,
@@ -22616,13 +22603,26 @@
     {
      "ev": null,
      "gap": null,
+     "group": "Cards",
+     "key": "Cards_Under_5_5",
+     "minOdds": 1.35,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 78.1,
+     "selection": "Under 5.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Charlton_Athletic_over_2_5",
      "minOdds": 1.37,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 76.7,
+     "prob": 76.9,
      "selection": "Charlton Athletic over 2.5",
      "status": "trial"
     },
@@ -22635,7 +22635,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 75.2,
+     "prob": 75.3,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -22646,9 +22646,9 @@
      "key": "Double_chance_Blackburn_Rovers_or_draw",
      "minOdds": 1.39,
      "odds": null,
-     "pMarket": 74.4,
+     "pMarket": 74.2,
      "post": false,
-     "prob": 74.4,
+     "prob": 74.2,
      "selection": "Blackburn Rovers or draw",
      "status": "active"
     },
@@ -22657,11 +22657,11 @@
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Blackburn_Rovers_or_Charlton_Athletic",
-     "minOdds": 1.4,
+     "minOdds": 1.41,
      "odds": null,
-     "pMarket": 73.7,
+     "pMarket": 73.6,
      "post": false,
-     "prob": 73.7,
+     "prob": 73.6,
      "selection": "Blackburn Rovers or Charlton Athletic",
      "status": "active"
     },
@@ -22674,7 +22674,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 73.4,
+     "prob": 73.5,
      "selection": "Under 12.5",
      "status": "trial"
     },
@@ -22705,13 +22705,13 @@
      "status": "active"
     },
     {
-     "ev": 4.5,
-     "gap": 6.3,
+     "ev": 4.6,
+     "gap": 6.4,
      "group": "Team goals",
      "key": "Team_goals_Charlton_Athletic_over_0_5",
      "minOdds": 1.49,
-     "odds": 1.4673,
-     "pMarket": 64.9,
+     "odds": 1.4695,
+     "pMarket": 64.8,
      "post": false,
      "prob": 71.2,
      "selection": "Charlton Athletic over 0.5",
@@ -22722,11 +22722,11 @@
      "gap": null,
      "group": "Corners",
      "key": "Corners_Over_8_5",
-     "minOdds": 1.55,
+     "minOdds": 1.56,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 68.3,
+     "prob": 68.2,
      "selection": "Over 8.5",
      "status": "trial"
     },
@@ -22739,7 +22739,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 67.4,
+     "prob": 67.2,
      "selection": "Blackburn Rovers over 4.5",
      "status": "trial"
     },
@@ -22761,11 +22761,11 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Blackburn_Rovers",
-     "minOdds": 1.58,
+     "minOdds": 1.59,
      "odds": null,
-     "pMarket": 65.3,
+     "pMarket": 64.9,
      "post": false,
-     "prob": 65.3,
+     "prob": 64.9,
      "selection": "Blackburn Rovers",
      "status": "active"
     }
@@ -23820,7 +23820,7 @@
     "cardsModel": "v2",
     "corners": 9.8,
     "corners_away": 3.86,
-    "corners_home": 6.12,
+    "corners_home": 6.13,
     "home_goals": 2.0,
     "setPieceModel": "v2"
    },
@@ -23902,7 +23902,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 86.7,
+     "prob": 86.8,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -23939,9 +23939,9 @@
      "key": "Double_chance_Brighton_or_draw",
      "minOdds": 1.26,
      "odds": null,
-     "pMarket": 82.2,
+     "pMarket": 82.3,
      "post": false,
-     "prob": 82.2,
+     "prob": 82.3,
      "selection": "Brighton or draw",
      "status": "active"
     },
@@ -23954,7 +23954,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 80.6,
+     "prob": 80.7,
      "selection": "Brighton over 3.5",
      "status": "trial"
     },
@@ -24041,11 +24041,11 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Brighton",
-     "minOdds": 1.34,
+     "minOdds": 1.33,
      "odds": null,
-     "pMarket": 77.4,
+     "pMarket": 77.6,
      "post": false,
-     "prob": 77.4,
+     "prob": 77.6,
      "selection": "Brighton",
      "status": "active"
     },
@@ -24084,7 +24084,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 73.3,
+     "prob": 73.4,
      "selection": "Over 7.5",
      "status": "trial"
     },
@@ -24123,7 +24123,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 70.5,
+     "prob": 70.4,
      "selection": "Newcastle United over 2.5",
      "status": "trial"
     },
@@ -24162,7 +24162,7 @@
    "event": "Crystal Palace – Hull City",
    "expected": {
     "away_goals": 1.38,
-    "cards": 4.01,
+    "cards": 4.02,
     "cardsModel": "v2",
     "corners": 9.6,
     "corners_away": 4.14,
@@ -24326,7 +24326,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.9,
+     "prob": 77.8,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -24383,29 +24383,16 @@
      "status": "active"
     },
     {
-     "ev": 5.1,
-     "gap": 7.0,
+     "ev": 4.9,
+     "gap": 6.9,
      "group": "Team goals",
      "key": "Team_goals_Hull_City_over_0_5",
      "minOdds": 1.41,
-     "odds": 1.4065,
-     "pMarket": 67.7,
+     "odds": 1.4049,
+     "pMarket": 67.8,
      "post": false,
      "prob": 74.7,
      "selection": "Hull City over 0.5",
-     "status": "active"
-    },
-    {
-     "ev": null,
-     "gap": 0.0,
-     "group": "Double chance",
-     "key": "Double_chance_Crystal_Palace_or_Hull_City",
-     "minOdds": 1.39,
-     "odds": null,
-     "pMarket": 74.6,
-     "post": false,
-     "prob": 74.6,
-     "selection": "Crystal Palace or Hull City",
      "status": "active"
     },
     {
@@ -24420,6 +24407,19 @@
      "prob": 74.5,
      "selection": "Mohamed Belloumi 2+",
      "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": 0.0,
+     "group": "Double chance",
+     "key": "Double_chance_Crystal_Palace_or_Hull_City",
+     "minOdds": 1.39,
+     "odds": null,
+     "pMarket": 74.3,
+     "post": false,
+     "prob": 74.3,
+     "selection": "Crystal Palace or Hull City",
+     "status": "active"
     },
     {
      "ev": null,
@@ -24491,11 +24491,11 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Crystal_Palace",
-     "minOdds": 1.55,
+     "minOdds": 1.56,
      "odds": null,
-     "pMarket": 66.5,
+     "pMarket": 66.4,
      "post": false,
-     "prob": 66.5,
+     "prob": 66.4,
      "selection": "Crystal Palace",
      "status": "active"
     }
@@ -25550,7 +25550,7 @@
     "cardsModel": "v2",
     "corners": 9.8,
     "corners_away": 4.69,
-    "corners_home": 5.24,
+    "corners_home": 5.25,
     "home_goals": 1.52,
     "setPieceModel": "v2"
    },
@@ -25760,9 +25760,9 @@
      "key": "Double_chance_Como_or_draw",
      "minOdds": 1.38,
      "odds": null,
-     "pMarket": 75.0,
+     "pMarket": 75.1,
      "post": false,
-     "prob": 75.0,
+     "prob": 75.1,
      "selection": "Como or draw",
      "status": "active"
     },
@@ -25797,11 +25797,11 @@
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Como_or_Juventus",
-     "minOdds": 1.42,
+     "minOdds": 1.43,
      "odds": null,
-     "pMarket": 72.6,
+     "pMarket": 72.5,
      "post": false,
-     "prob": 72.6,
+     "prob": 72.5,
      "selection": "Como or Juventus",
      "status": "active"
     },
@@ -25814,7 +25814,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 72.2,
+     "prob": 72.3,
      "selection": "Como over 3.5",
      "status": "trial"
     },
@@ -25877,9 +25877,9 @@
      "key": "Draw_no_bet_Como",
      "minOdds": 1.58,
      "odds": null,
-     "pMarket": 65.5,
+     "pMarket": 65.6,
      "post": false,
-     "prob": 65.5,
+     "prob": 65.6,
      "selection": "Como",
      "status": "active"
     }
@@ -25892,11 +25892,11 @@
    "event": "Roma – Monza",
    "expected": {
     "away_goals": 1.33,
-    "cards": 2.79,
+    "cards": 2.78,
     "cardsModel": "v2",
-    "corners": 10.3,
-    "corners_away": 3.45,
-    "corners_home": 7.3,
+    "corners": 10.4,
+    "corners_away": 3.43,
+    "corners_home": 7.37,
     "home_goals": 2.12,
     "setPieceModel": "v2"
    },
@@ -25939,7 +25939,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 93.5,
+     "prob": 93.6,
      "selection": "Roma over 2.5",
      "status": "trial"
     },
@@ -25948,11 +25948,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_5_5",
-     "minOdds": 1.12,
+     "minOdds": 1.11,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 93.2,
+     "prob": 93.3,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -25974,11 +25974,11 @@
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Roma_or_draw",
-     "minOdds": 1.13,
+     "minOdds": 1.12,
      "odds": null,
-     "pMarket": 91.7,
+     "pMarket": 92.2,
      "post": false,
-     "prob": 91.7,
+     "prob": 92.2,
      "selection": "Roma or draw",
      "status": "active"
     },
@@ -25989,9 +25989,9 @@
      "key": "Draw_no_bet_Roma",
      "minOdds": 1.14,
      "odds": null,
-     "pMarket": 90.5,
+     "pMarket": 91.1,
      "post": false,
-     "prob": 90.5,
+     "prob": 91.1,
      "selection": "Roma",
      "status": "active"
     },
@@ -26011,6 +26011,19 @@
     {
      "ev": null,
      "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Roma_over_3_5",
+     "minOdds": 1.18,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 88.2,
+     "selection": "Roma over 3.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
      "group": "Team goals",
      "key": "Team_goals_Roma_over_0_5",
      "minOdds": 1.19,
@@ -26023,27 +26036,14 @@
     },
     {
      "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Roma_over_3_5",
-     "minOdds": 1.19,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 87.9,
-     "selection": "Roma over 3.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Roma_or_Monza",
-     "minOdds": 1.19,
+     "minOdds": 1.18,
      "odds": null,
-     "pMarket": 87.1,
+     "pMarket": 87.5,
      "post": false,
-     "prob": 87.1,
+     "prob": 87.5,
      "selection": "Roma or Monza",
      "status": "active"
     },
@@ -26091,11 +26091,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_4_5",
-     "minOdds": 1.24,
+     "minOdds": 1.23,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 84.6,
+     "prob": 84.8,
      "selection": "Under 4.5",
      "status": "trial"
     },
@@ -26104,24 +26104,24 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Roma_over_4_5",
-     "minOdds": 1.32,
+     "minOdds": 1.31,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.4,
+     "prob": 79.9,
      "selection": "Roma over 4.5",
      "status": "trial"
     },
     {
-     "ev": -3.9,
+     "ev": -3.8,
      "gap": 0.0,
      "group": "Match result",
      "key": "Match_result_Roma",
-     "minOdds": 1.31,
-     "odds": 1.2193,
-     "pMarket": 78.8,
+     "minOdds": 1.3,
+     "odds": 1.2066,
+     "pMarket": 79.7,
      "post": false,
-     "prob": 78.8,
+     "prob": 79.7,
      "selection": "Roma",
      "status": "active"
     },
@@ -26147,7 +26147,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.7,
+     "prob": 77.9,
      "selection": "Over 7.5",
      "status": "trial"
     },
@@ -26182,22 +26182,22 @@
      "gap": null,
      "group": "Corners",
      "key": "Corners_Under_12_5",
-     "minOdds": 1.42,
+     "minOdds": 1.43,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 74.1,
+     "prob": 73.8,
      "selection": "Under 12.5",
      "status": "trial"
     },
     {
-     "ev": 27.7,
-     "gap": 18.7,
+     "ev": 29.4,
+     "gap": 19.4,
      "group": "Team goals",
      "key": "Team_goals_Monza_over_0_5",
      "minOdds": 1.43,
-     "odds": 1.7353,
-     "pMarket": 54.9,
+     "odds": 1.7576,
+     "pMarket": 54.2,
      "post": false,
      "prob": 73.6,
      "selection": "Monza over 0.5",
@@ -26221,11 +26221,11 @@
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_2_5",
-     "minOdds": 1.44,
-     "odds": 1.3257,
-     "pMarket": 71.6,
+     "minOdds": 1.43,
+     "odds": 1.3155,
+     "pMarket": 72.2,
      "post": false,
-     "prob": 71.6,
+     "prob": 72.2,
      "selection": "Over 2.5",
      "status": "active"
     }
@@ -26238,11 +26238,11 @@
    "event": "Cercle Brugge – Mechelen",
    "expected": {
     "away_goals": 1.26,
-    "cards": 3.42,
+    "cards": 3.43,
     "cardsModel": "v2",
     "corners": 10.1,
-    "corners_away": 4.36,
-    "corners_home": 5.59,
+    "corners_away": 4.38,
+    "corners_home": 5.56,
     "home_goals": 1.64,
     "setPieceModel": "v2"
    },
@@ -26272,7 +26272,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 93.6,
+     "prob": 93.5,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -26298,7 +26298,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 86.9,
+     "prob": 86.7,
      "selection": "Cercle Brugge over 2.5",
      "status": "trial"
     },
@@ -26311,7 +26311,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 86.3,
+     "prob": 86.1,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -26347,7 +26347,7 @@
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.27,
-     "odds": 1.1764,
+     "odds": 1.1754,
      "pMarket": 81.4,
      "post": false,
      "prob": 81.4,
@@ -26373,7 +26373,7 @@
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.33,
-     "odds": 1.2262,
+     "odds": 1.2273,
      "pMarket": 78.0,
      "post": false,
      "prob": 78.0,
@@ -26402,7 +26402,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 76.7,
+     "prob": 76.9,
      "selection": "Mechelen over 2.5",
      "status": "trial"
     },
@@ -26441,21 +26441,8 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 76.2,
+     "prob": 76.3,
      "selection": "Under 12.5",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Cercle_Brugge_over_3_5",
-     "minOdds": 1.39,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 75.9,
-     "selection": "Cercle Brugge over 3.5",
      "status": "trial"
     },
     {
@@ -26473,14 +26460,27 @@
     },
     {
      "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Cercle_Brugge_over_3_5",
+     "minOdds": 1.39,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 75.6,
+     "selection": "Cercle Brugge over 3.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Cercle_Brugge_or_draw",
-     "minOdds": 1.37,
+     "minOdds": 1.38,
      "odds": null,
-     "pMarket": 75.4,
+     "pMarket": 74.9,
      "post": false,
-     "prob": 75.4,
+     "prob": 74.9,
      "selection": "Cercle Brugge or draw",
      "status": "active"
     },
@@ -26489,11 +26489,11 @@
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Cercle_Brugge_or_Mechelen",
-     "minOdds": 1.39,
+     "minOdds": 1.4,
      "odds": null,
-     "pMarket": 74.2,
+     "pMarket": 74.0,
      "post": false,
-     "prob": 74.2,
+     "prob": 74.0,
      "selection": "Cercle Brugge or Mechelen",
      "status": "active"
     },
@@ -26502,22 +26502,22 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_4_5",
-     "minOdds": 1.43,
+     "minOdds": 1.44,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 73.7,
+     "prob": 73.5,
      "selection": "Under 4.5",
      "status": "trial"
     },
     {
-     "ev": -1.6,
-     "gap": 2.3,
+     "ev": -1.9,
+     "gap": 2.1,
      "group": "Team goals",
      "key": "Team_goals_Mechelen_over_0_5",
      "minOdds": 1.47,
-     "odds": 1.3717,
-     "pMarket": 69.4,
+     "odds": 1.3676,
+     "pMarket": 69.6,
      "post": false,
      "prob": 71.7,
      "selection": "Mechelen over 0.5",
@@ -26541,11 +26541,11 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Cercle_Brugge",
-     "minOdds": 1.55,
+     "minOdds": 1.56,
      "odds": null,
-     "pMarket": 66.8,
+     "pMarket": 66.1,
      "post": false,
-     "prob": 66.8,
+     "prob": 66.1,
      "selection": "Cercle Brugge",
      "status": "active"
     },
@@ -26554,21 +26554,21 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Over_2_5",
-     "minOdds": 1.62,
+     "minOdds": 1.61,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 65.8,
+     "prob": 66.0,
      "selection": "Over 2.5",
      "status": "trial"
     },
     {
-     "ev": -4.3,
+     "ev": -4.4,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_3_5",
      "minOdds": 1.57,
-     "odds": 1.4566,
+     "odds": 1.4545,
      "pMarket": 65.7,
      "post": false,
      "prob": 65.7,
@@ -26644,7 +26644,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 86.2,
+     "prob": 86.3,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -26688,15 +26688,15 @@
      "status": "trial"
     },
     {
-     "ev": -4.7,
+     "ev": -4.2,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
-     "minOdds": 1.27,
-     "odds": 1.1664,
-     "pMarket": 81.7,
+     "minOdds": 1.26,
+     "odds": 1.1704,
+     "pMarket": 81.8,
      "post": false,
-     "prob": 81.7,
+     "prob": 81.8,
      "selection": "Over 1.5",
      "status": "active"
     },
@@ -26709,7 +26709,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 80.7,
+     "prob": 80.6,
      "selection": "Lommel over 2.5",
      "status": "trial"
     },
@@ -26740,28 +26740,28 @@
      "status": "trial"
     },
     {
-     "ev": -5.9,
-     "gap": -0.9,
+     "ev": -5.7,
+     "gap": -0.8,
      "group": "Team goals",
      "key": "Team_goals_Lommel_over_0_5",
      "minOdds": 1.35,
-     "odds": 1.2096,
-     "pMarket": 78.7,
+     "odds": 1.2123,
+     "pMarket": 78.6,
      "post": false,
      "prob": 77.8,
      "selection": "Lommel over 0.5",
      "status": "active"
     },
     {
-     "ev": -4.8,
+     "ev": -4.3,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.34,
-     "odds": 1.2387,
-     "pMarket": 76.9,
+     "odds": 1.2427,
+     "pMarket": 77.0,
      "post": false,
-     "prob": 76.9,
+     "prob": 77.0,
      "selection": "Under 4.5",
      "status": "active"
     },
@@ -26811,9 +26811,9 @@
      "key": "Double_chance_Lommel_or_Zulte_Waregem",
      "minOdds": 1.39,
      "odds": null,
-     "pMarket": 74.3,
+     "pMarket": 74.4,
      "post": false,
-     "prob": 74.3,
+     "prob": 74.4,
      "selection": "Lommel or Zulte Waregem",
      "status": "active"
     },
@@ -26846,6 +26846,19 @@
     {
      "ev": null,
      "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Zulte_Waregem_over_3_5",
+     "minOdds": 1.48,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 71.5,
+     "selection": "Zulte Waregem over 3.5",
+     "status": "trial"
+    },
+    {
+     "ev": null,
+     "gap": null,
      "group": "Player shots",
      "key": "Player_shots_Don_Angelo_Konadu_2_",
      "minOdds": 1.48,
@@ -26854,19 +26867,6 @@
      "post": false,
      "prob": 71.5,
      "selection": "Don-Angelo Konadu 2+",
-     "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Zulte_Waregem_over_3_5",
-     "minOdds": 1.48,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 71.4,
-     "selection": "Zulte Waregem over 3.5",
      "status": "trial"
     },
     {
@@ -26902,9 +26902,9 @@
      "key": "Double_chance_Zulte_Waregem_or_draw",
      "minOdds": 1.59,
      "odds": null,
-     "pMarket": 65.1,
+     "pMarket": 65.2,
      "post": false,
-     "prob": 65.1,
+     "prob": 65.2,
      "selection": "Zulte Waregem or draw",
      "status": "active"
     },
@@ -26933,8 +26933,8 @@
     "cards": 3.4,
     "cardsModel": "v2",
     "corners": 10.2,
-    "corners_away": 4.12,
-    "corners_home": 5.98,
+    "corners_away": 4.11,
+    "corners_home": 5.99,
     "home_goals": 2.42,
     "setPieceModel": "v2"
    },
@@ -27003,7 +27003,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 89.0,
+     "prob": 89.1,
      "selection": "Charleroi over 2.5",
      "status": "trial"
     },
@@ -27053,19 +27053,19 @@
      "key": "Double_chance_Charleroi_or_draw",
      "minOdds": 1.24,
      "odds": null,
-     "pMarket": 83.1,
+     "pMarket": 83.2,
      "post": false,
-     "prob": 83.1,
+     "prob": 83.2,
      "selection": "Charleroi or draw",
      "status": "active"
     },
     {
-     "ev": -4.7,
+     "ev": -4.3,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.29,
-     "odds": 1.1916,
+     "odds": 1.1965,
      "pMarket": 79.9,
      "post": false,
      "prob": 79.9,
@@ -27081,9 +27081,22 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.5,
+     "prob": 79.6,
      "selection": "Charleroi over 3.5",
      "status": "trial"
+    },
+    {
+     "ev": -4.3,
+     "gap": 0.0,
+     "group": "Total goals",
+     "key": "Total_goals_Over_1_5",
+     "minOdds": 1.3,
+     "odds": 1.2075,
+     "pMarket": 79.2,
+     "post": false,
+     "prob": 79.2,
+     "selection": "Over 1.5",
+     "status": "active"
     },
     {
      "ev": null,
@@ -27099,28 +27112,15 @@
      "status": "trial"
     },
     {
-     "ev": -4.8,
-     "gap": 0.0,
-     "group": "Total goals",
-     "key": "Total_goals_Over_1_5",
-     "minOdds": 1.31,
-     "odds": 1.2053,
-     "pMarket": 79.0,
-     "post": false,
-     "prob": 79.0,
-     "selection": "Over 1.5",
-     "status": "active"
-    },
-    {
      "ev": null,
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Charleroi",
      "minOdds": 1.32,
      "odds": null,
-     "pMarket": 78.3,
+     "pMarket": 78.5,
      "post": false,
-     "prob": 78.3,
+     "prob": 78.5,
      "selection": "Charleroi",
      "status": "active"
     },
@@ -27172,7 +27172,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 75.4,
+     "prob": 75.3,
      "selection": "Under 12.5",
      "status": "trial"
     },
@@ -27229,13 +27229,13 @@
      "status": "trial"
     },
     {
-     "ev": 9.0,
-     "gap": 8.8,
+     "ev": 9.2,
+     "gap": 8.9,
      "group": "Team goals",
      "key": "Team_goals_Charleroi_over_1_5",
      "minOdds": 1.52,
-     "odds": 1.5682,
-     "pMarket": 60.7,
+     "odds": 1.5714,
+     "pMarket": 60.6,
      "post": false,
      "prob": 69.5,
      "selection": "Charleroi over 1.5",
@@ -27263,7 +27263,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 66.9,
+     "prob": 67.0,
      "selection": "Charleroi over 4.5",
      "status": "trial"
     }
@@ -27622,11 +27622,11 @@
    "event": "Derby County – Watford",
    "expected": {
     "away_goals": 1.35,
-    "cards": 4.27,
+    "cards": 4.28,
     "cardsModel": "v2",
     "corners": 10.2,
     "corners_away": 4.31,
-    "corners_home": 5.79,
+    "corners_home": 5.78,
     "home_goals": 1.56,
     "setPieceModel": "v2"
    },
@@ -27695,7 +27695,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 85.3,
+     "prob": 85.2,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -27765,13 +27765,13 @@
      "status": "trial"
     },
     {
-     "ev": -1.9,
-     "gap": 2.3,
+     "ev": -1.8,
+     "gap": 2.4,
      "group": "Team goals",
      "key": "Team_goals_Derby_County_over_0_5",
      "minOdds": 1.33,
-     "odds": 1.2415,
-     "pMarket": 76.7,
+     "odds": 1.2427,
+     "pMarket": 76.6,
      "post": false,
      "prob": 79.0,
      "selection": "Derby County over 0.5",
@@ -27786,7 +27786,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.8,
+     "prob": 77.7,
      "selection": "Derby County over 3.5",
      "status": "trial"
     },
@@ -27812,7 +27812,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 76.1,
+     "prob": 76.2,
      "selection": "Watford over 2.5",
      "status": "trial"
     },
@@ -27843,13 +27843,13 @@
      "status": "trial"
     },
     {
-     "ev": 1.3,
-     "gap": 4.4,
+     "ev": 1.1,
+     "gap": 4.3,
      "group": "Team goals",
      "key": "Team_goals_Watford_over_0_5",
      "minOdds": 1.43,
-     "odds": 1.369,
-     "pMarket": 69.6,
+     "odds": 1.3663,
+     "pMarket": 69.7,
      "post": false,
      "prob": 74.0,
      "selection": "Watford over 0.5",
@@ -27912,11 +27912,11 @@
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Derby_County_or_draw",
-     "minOdds": 1.46,
+     "minOdds": 1.47,
      "odds": null,
-     "pMarket": 70.7,
+     "pMarket": 70.5,
      "post": false,
-     "prob": 70.7,
+     "prob": 70.5,
      "selection": "Derby County or draw",
      "status": "active"
     },
@@ -27942,7 +27942,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 65.9,
+     "prob": 66.0,
      "selection": "Under 11.5",
      "status": "trial"
     },
@@ -27955,7 +27955,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 64.5,
+     "prob": 64.4,
      "selection": "Derby County over 4.5",
      "status": "trial"
     }
@@ -27968,11 +27968,11 @@
    "event": "Queens Park Rangers – Sheffield United",
    "expected": {
     "away_goals": 1.08,
-    "cards": 3.9,
+    "cards": 3.91,
     "cardsModel": "v2",
     "corners": 10.3,
     "corners_away": 3.96,
-    "corners_home": 6.17,
+    "corners_home": 6.16,
     "home_goals": 1.55,
     "setPieceModel": "v2"
    },
@@ -28002,7 +28002,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 89.9,
+     "prob": 89.8,
      "selection": "Queens Park Rangers over 2.5",
      "status": "trial"
     },
@@ -28015,7 +28015,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 89.4,
+     "prob": 89.3,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -28080,7 +28080,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.6,
+     "prob": 79.5,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -28137,12 +28137,12 @@
      "status": "trial"
     },
     {
-     "ev": -4.3,
+     "ev": -4.4,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.37,
-     "odds": 1.2653,
+     "odds": 1.2646,
      "pMarket": 75.6,
      "post": false,
      "prob": 75.6,
@@ -28169,9 +28169,9 @@
      "key": "Double_chance_Queens_Park_Rangers_or_draw",
      "minOdds": 1.38,
      "odds": null,
-     "pMarket": 74.8,
+     "pMarket": 74.7,
      "post": false,
-     "prob": 74.8,
+     "prob": 74.7,
      "selection": "Queens Park Rangers or draw",
      "status": "active"
     },
@@ -28195,9 +28195,9 @@
      "key": "Double_chance_Queens_Park_Rangers_or_Sheffield_United",
      "minOdds": 1.4,
      "odds": null,
-     "pMarket": 74.1,
+     "pMarket": 74.0,
      "post": false,
-     "prob": 74.1,
+     "prob": 74.0,
      "selection": "Queens Park Rangers or Sheffield United",
      "status": "active"
     },
@@ -28210,7 +28210,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 73.9,
+     "prob": 74.0,
      "selection": "Over 2.5",
      "status": "trial"
     },
@@ -28236,7 +28236,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 71.7,
+     "prob": 71.8,
      "selection": "Sheffield United over 2.5",
      "status": "trial"
     },
@@ -28262,7 +28262,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 69.0,
+     "prob": 68.9,
      "selection": "Queens Park Rangers over 4.5",
      "status": "trial"
     },
@@ -28280,29 +28280,29 @@
      "status": "trial"
     },
     {
+     "ev": -7.0,
+     "gap": -1.6,
+     "group": "Team goals",
+     "key": "Team_goals_Sheffield_United_over_0_5",
+     "minOdds": 1.61,
+     "odds": 1.4098,
+     "pMarket": 67.6,
+     "post": false,
+     "prob": 66.0,
+     "selection": "Sheffield United over 0.5",
+     "status": "active"
+    },
+    {
      "ev": null,
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Queens_Park_Rangers",
      "minOdds": 1.57,
      "odds": null,
-     "pMarket": 66.0,
+     "pMarket": 65.8,
      "post": false,
-     "prob": 66.0,
+     "prob": 65.8,
      "selection": "Queens Park Rangers",
-     "status": "active"
-    },
-    {
-     "ev": -6.8,
-     "gap": -1.5,
-     "group": "Team goals",
-     "key": "Team_goals_Sheffield_United_over_0_5",
-     "minOdds": 1.61,
-     "odds": 1.4115,
-     "pMarket": 67.5,
-     "post": false,
-     "prob": 66.0,
-     "selection": "Sheffield United over 0.5",
      "status": "active"
     }
    ],
@@ -28374,7 +28374,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 91.5,
+     "prob": 91.4,
      "selection": "Under 6.5",
      "status": "trial"
     },
@@ -28444,15 +28444,15 @@
      "status": "trial"
     },
     {
-     "ev": -4.3,
+     "ev": -4.2,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.26,
-     "odds": 1.1634,
-     "pMarket": 82.3,
+     "odds": 1.1626,
+     "pMarket": 82.4,
      "post": false,
-     "prob": 82.3,
+     "prob": 82.4,
      "selection": "Under 4.5",
      "status": "active"
     },
@@ -28502,9 +28502,9 @@
      "key": "Double_chance_West_Ham_United_or_Stoke_City",
      "minOdds": 1.31,
      "odds": null,
-     "pMarket": 78.8,
+     "pMarket": 78.7,
      "post": false,
-     "prob": 78.8,
+     "prob": 78.7,
      "selection": "West Ham United or Stoke City",
      "status": "active"
     },
@@ -28513,11 +28513,11 @@
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
-     "minOdds": 1.34,
-     "odds": 1.2433,
-     "pMarket": 76.9,
+     "minOdds": 1.35,
+     "odds": 1.2445,
+     "pMarket": 76.8,
      "post": false,
-     "prob": 76.9,
+     "prob": 76.8,
      "selection": "Over 1.5",
      "status": "active"
     },
@@ -28664,7 +28664,7 @@
     "cardsModel": "v2",
     "corners": 10.5,
     "corners_away": 3.69,
-    "corners_home": 6.89,
+    "corners_home": 6.91,
     "home_goals": 2.01,
     "setPieceModel": "v2"
    },
@@ -28703,11 +28703,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Birmingham_City_over_2_5",
-     "minOdds": 1.13,
+     "minOdds": 1.12,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 92.4,
+     "prob": 92.5,
      "selection": "Birmingham City over 2.5",
      "status": "trial"
     },
@@ -28759,7 +28759,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 86.2,
+     "prob": 86.3,
      "selection": "Under 5.5",
      "status": "trial"
     },
@@ -28772,7 +28772,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 85.8,
+     "prob": 85.9,
      "selection": "Birmingham City over 3.5",
      "status": "trial"
     },
@@ -28783,9 +28783,9 @@
      "key": "Double_chance_Birmingham_City_or_draw",
      "minOdds": 1.22,
      "odds": null,
-     "pMarket": 84.6,
+     "pMarket": 84.7,
      "post": false,
-     "prob": 84.6,
+     "prob": 84.7,
      "selection": "Birmingham City or draw",
      "status": "active"
     },
@@ -28808,11 +28808,24 @@
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.27,
-     "odds": 1.1786,
-     "pMarket": 81.2,
+     "odds": 1.1776,
+     "pMarket": 81.3,
      "post": false,
-     "prob": 81.2,
+     "prob": 81.3,
      "selection": "Over 1.5",
+     "status": "active"
+    },
+    {
+     "ev": null,
+     "gap": 0.0,
+     "group": "Draw no bet",
+     "key": "Draw_no_bet_Birmingham_City",
+     "minOdds": 1.28,
+     "odds": null,
+     "pMarket": 81.0,
+     "post": false,
+     "prob": 81.0,
+     "selection": "Birmingham City",
      "status": "active"
     },
     {
@@ -28827,19 +28840,6 @@
      "prob": 80.9,
      "selection": "Rúben Rodrigues 1+",
      "status": "trial"
-    },
-    {
-     "ev": null,
-     "gap": 0.0,
-     "group": "Draw no bet",
-     "key": "Draw_no_bet_Birmingham_City",
-     "minOdds": 1.28,
-     "odds": null,
-     "pMarket": 80.8,
-     "post": false,
-     "prob": 80.8,
-     "selection": "Birmingham City",
-     "status": "active"
     },
     {
      "ev": null,
@@ -28868,15 +28868,15 @@
      "status": "trial"
     },
     {
-     "ev": -4.3,
+     "ev": -4.4,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.33,
-     "odds": 1.2273,
-     "pMarket": 78.0,
+     "odds": 1.2283,
+     "pMarket": 77.9,
      "post": false,
-     "prob": 78.0,
+     "prob": 77.9,
      "selection": "Under 4.5",
      "status": "active"
     },
@@ -28889,7 +28889,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 76.1,
+     "prob": 76.3,
      "selection": "Birmingham City over 4.5",
      "status": "trial"
     },
@@ -28920,13 +28920,13 @@
      "status": "trial"
     },
     {
-     "ev": 12.8,
-     "gap": 11.5,
+     "ev": 13.2,
+     "gap": 11.7,
      "group": "Team goals",
      "key": "Team_goals_Bolton_Wanderers_over_0_5",
      "minOdds": 1.43,
-     "odds": 1.5263,
-     "pMarket": 62.4,
+     "odds": 1.5319,
+     "pMarket": 62.2,
      "post": false,
      "prob": 73.9,
      "selection": "Bolton Wanderers over 0.5",
@@ -28941,7 +28941,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 73.6,
+     "prob": 73.7,
      "selection": "Under 4.5",
      "status": "trial"
     },
@@ -28993,7 +28993,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 69.5,
+     "prob": 69.6,
      "selection": "Over 8.5",
      "status": "trial"
     }
@@ -30038,15 +30038,15 @@
      "status": "trial"
     },
     {
-     "ev": -4.5,
+     "ev": -4.1,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.21,
-     "odds": 1.1215,
-     "pMarket": 85.2,
+     "odds": 1.1235,
+     "pMarket": 85.3,
      "post": false,
-     "prob": 85.2,
+     "prob": 85.3,
      "selection": "Over 1.5",
      "status": "active"
     },
@@ -30096,9 +30096,9 @@
      "key": "Double_chance_Cambuur_Leeuwaarden_or_Sparta_Rotterdam",
      "minOdds": 1.36,
      "odds": null,
-     "pMarket": 75.9,
+     "pMarket": 76.0,
      "post": false,
-     "prob": 75.9,
+     "prob": 76.0,
      "selection": "Cambuur Leeuwaarden or Sparta Rotterdam",
      "status": "active"
     },
@@ -30129,12 +30129,12 @@
      "status": "trial"
     },
     {
-     "ev": -4.8,
+     "ev": -4.4,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.46,
-     "odds": 1.3436,
+     "odds": 1.3472,
      "pMarket": 70.9,
      "post": false,
      "prob": 70.9,
@@ -30168,15 +30168,15 @@
      "status": "active"
     },
     {
-     "ev": -4.8,
+     "ev": -4.3,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_2_5",
-     "minOdds": 1.54,
-     "odds": 1.4149,
-     "pMarket": 67.3,
+     "minOdds": 1.53,
+     "odds": 1.4202,
+     "pMarket": 67.4,
      "post": false,
-     "prob": 67.3,
+     "prob": 67.4,
      "selection": "Over 2.5",
      "status": "active"
     }
@@ -30684,7 +30684,7 @@
     "cardsModel": "v2",
     "corners": 11.9,
     "corners_away": 3.76,
-    "corners_home": 8.55,
+    "corners_home": 8.56,
     "home_goals": 2.51,
     "setPieceModel": "v2"
    },
@@ -30803,9 +30803,9 @@
      "key": "Draw_no_bet_Rangers",
      "minOdds": 1.15,
      "odds": null,
-     "pMarket": 89.8,
+     "pMarket": 89.9,
      "post": false,
-     "prob": 89.8,
+     "prob": 89.9,
      "selection": "Rangers",
      "status": "active"
     },
@@ -30940,6 +30940,19 @@
      "status": "trial"
     },
     {
+     "ev": -4.5,
+     "gap": 0.0,
+     "group": "Match result",
+     "key": "Match_result_Rangers",
+     "minOdds": 1.34,
+     "odds": 1.2392,
+     "pMarket": 77.1,
+     "post": false,
+     "prob": 77.1,
+     "selection": "Rangers",
+     "status": "active"
+    },
+    {
      "ev": null,
      "gap": null,
      "group": "Cards",
@@ -30951,19 +30964,6 @@
      "prob": 77.1,
      "selection": "Under 4.5",
      "status": "trial"
-    },
-    {
-     "ev": -4.5,
-     "gap": 0.0,
-     "group": "Match result",
-     "key": "Match_result_Rangers",
-     "minOdds": 1.34,
-     "odds": 1.2404,
-     "pMarket": 77.0,
-     "post": false,
-     "prob": 77.0,
-     "selection": "Rangers",
-     "status": "active"
     },
     {
      "ev": null,
@@ -31000,7 +31000,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 71.5,
+     "prob": 71.6,
      "selection": "Over 9.5",
      "status": "trial"
     },
@@ -33408,11 +33408,11 @@
      "gap": 0.0,
      "group": "Moneyline (incl. OT)",
      "key": "Moneyline_incl_OT_New_York_Rangers",
-     "minOdds": 1.66,
-     "odds": 1.565,
-     "pMarket": 62.2,
+     "minOdds": 1.68,
+     "odds": 1.5848,
+     "pMarket": 61.5,
      "post": false,
-     "prob": 62.2,
+     "prob": 61.5,
      "selection": "New York Rangers",
      "status": "active"
     },
@@ -33431,7 +33431,7 @@
     }
    ],
    "sport": "hockey",
-   "start": "2026-11-27T22:30:00Z"
+   "start": "2026-11-27T22:37:00Z"
   },
   {
    "coverage": 56,
@@ -33485,7 +33485,7 @@
     }
    ],
    "sport": "hockey",
-   "start": "2026-11-28T00:30:00Z"
+   "start": "2026-11-28T00:37:00Z"
   },
   {
    "coverage": 56,
@@ -33539,7 +33539,7 @@
     }
    ],
    "sport": "hockey",
-   "start": "2026-11-28T01:00:00Z"
+   "start": "2026-11-28T01:07:00Z"
   },
   {
    "coverage": 56,
@@ -33584,16 +33584,16 @@
      "group": "Moneyline (incl. OT)",
      "key": "Moneyline_incl_OT_Edmonton_Oilers",
      "minOdds": 1.59,
-     "odds": 1.5,
-     "pMarket": 65.0,
+     "odds": 1.4975,
+     "pMarket": 65.1,
      "post": false,
-     "prob": 65.0,
+     "prob": 65.1,
      "selection": "Edmonton Oilers",
      "status": "active"
     }
    ],
    "sport": "hockey",
-   "start": "2026-11-28T01:00:00Z"
+   "start": "2026-11-28T01:07:00Z"
   },
   {
    "coverage": 56,
@@ -33935,13 +33935,13 @@
  ],
  "meta": {
   "decisionVersion": "3.9",
-  "fetchedAt": "2026-11-27T21:06:59Z",
+  "fetchedAt": "2026-11-27T21:48:11Z",
   "matches": 112,
   "note": "priced by code from repo data and Pinnacle; line-ups, injuries and referees are NOT known to the robot",
-  "oddsFetchedAt": "2026-11-27T19:46:25Z",
+  "oddsFetchedAt": "2026-11-27T21:48:10Z",
   "products": 177,
   "profile": "hitrate",
-  "repoCommit": "45dbd563fcf89132a291b44185f29e1c4cbe731d",
+  "repoCommit": "e8f967e59bfe2fc36a3cb3739bf8d867332cb828",
   "rules": "v1",
   "skipped": 1
  },
@@ -34175,6 +34175,120 @@
    "tier": "safe"
   },
   {
+   "event": "Porto – Sporting CP",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.28,
+    "gap": null,
+    "group": "Cards",
+    "key": "Cards_Under_5_5",
+    "minOdds": 1.35,
+    "minOddsV1": 1.35,
+    "minOddsV2": 1.33,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 75.3,
+    "prob": 78.1,
+    "probHigh": 83.1,
+    "probLow": 73.1,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 5.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-29-porto-sporting-cp",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 5.5 (Cards)",
+   "rank": 5,
+   "sharedWith": [
+    117
+   ],
+   "start": "2026-11-29T20:30:00Z",
+   "tier": "safe"
+  },
+  {
+   "event": "Blackburn Rovers – Charlton Athletic",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.28,
+    "gap": null,
+    "group": "Cards",
+    "key": "Cards_Under_5_5",
+    "minOdds": 1.35,
+    "minOddsV1": 1.35,
+    "minOddsV2": 1.33,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 75.3,
+    "prob": 78.1,
+    "probHigh": 83.1,
+    "probLow": 73.1,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 5.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-blackburn-rovers-charlton-athletic",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 5.5 (Cards)",
+   "rank": 6,
+   "sharedWith": [
+    131
+   ],
+   "start": "2026-11-28T12:30:00Z",
+   "tier": "safe"
+  },
+  {
    "event": "Crystal Palace – Hull City",
    "kind": "check",
    "line": {
@@ -34192,10 +34306,10 @@
     "oddsStale": null,
     "pMarket": null,
     "pMarketKind": null,
-    "pQ": 75.1,
-    "prob": 77.9,
-    "probHigh": 82.9,
-    "probLow": 72.9,
+    "pQ": 74.9,
+    "prob": 77.8,
+    "probHigh": 82.8,
+    "probLow": 72.8,
     "qualityBreakdown": {
      "data": 7,
      "ev": 0,
@@ -34224,7 +34338,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 5,
+   "rank": 7,
    "sharedWith": [
     20
    ],
@@ -34281,7 +34395,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 6,
+   "rank": 8,
    "sharedWith": [
     123
    ],
@@ -34338,7 +34452,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 7,
+   "rank": 9,
    "sharedWith": [
     163
    ],
@@ -34395,7 +34509,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 8,
+   "rank": 10,
    "sharedWith": [
     15
    ],
@@ -34452,7 +34566,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 9,
+   "rank": 11,
    "sharedWith": [
     55
    ],
@@ -34509,7 +34623,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 10,
+   "rank": 12,
    "sharedWith": [
     174
    ],
@@ -34566,7 +34680,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 11,
+   "rank": 13,
    "sharedWith": [
     119
    ],
@@ -34623,7 +34737,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 12,
+   "rank": 14,
    "sharedWith": [
     107
    ],
@@ -34680,7 +34794,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 13,
+   "rank": 15,
    "sharedWith": [
     63
    ],
@@ -34737,11 +34851,68 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 3.5 (Cards)",
-   "rank": 14,
+   "rank": 16,
    "sharedWith": [
     11
    ],
    "start": "2026-11-28T17:45:00Z",
+   "tier": "safe"
+  },
+  {
+   "event": "Elche – Atletico Madrid",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.32,
+    "gap": null,
+    "group": "Cards",
+    "key": "Cards_Under_5_5",
+    "minOdds": 1.39,
+    "minOddsV1": 1.39,
+    "minOddsV2": 1.37,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 73.1,
+    "prob": 76.0,
+    "probHigh": 81.0,
+    "probLow": 71.0,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 5.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-elche-atletico-madrid",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 5.5 (Cards)",
+   "rank": 17,
+   "sharedWith": [
+    105
+   ],
+   "start": "2026-11-28T17:30:00Z",
    "tier": "safe"
   },
   {
@@ -34794,239 +34965,11 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 15,
+   "rank": 18,
    "sharedWith": [
     19
    ],
    "start": "2026-11-29T14:05:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "Elche – Atletico Madrid",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.32,
-    "gap": null,
-    "group": "Cards",
-    "key": "Cards_Under_5_5",
-    "minOdds": 1.39,
-    "minOddsV1": 1.39,
-    "minOddsV2": 1.38,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 72.8,
-    "prob": 75.7,
-    "probHigh": 80.7,
-    "probLow": 70.7,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Under 5.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-elche-atletico-madrid",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Under 5.5 (Cards)",
-   "rank": 16,
-   "sharedWith": [
-    105
-   ],
-   "start": "2026-11-28T17:30:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "Gaziantep – Amedspor",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.33,
-    "gap": null,
-    "group": "Cards",
-    "key": "Cards_Under_5_5",
-    "minOdds": 1.4,
-    "minOddsV1": 1.4,
-    "minOddsV2": 1.39,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 72.4,
-    "prob": 75.3,
-    "probHigh": 80.3,
-    "probLow": 70.3,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Under 5.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-gaziantep-amedspor",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Under 5.5 (Cards)",
-   "rank": 17,
-   "sharedWith": [
-    76
-   ],
-   "start": "2026-11-28T16:00:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "Porto – Sporting CP",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.33,
-    "gap": null,
-    "group": "Cards",
-    "key": "Cards_Over_2_5",
-    "minOdds": 1.4,
-    "minOddsV1": 1.4,
-    "minOddsV2": 1.39,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 72.4,
-    "prob": 75.3,
-    "probHigh": 80.3,
-    "probLow": 70.3,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Over 2.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-29-porto-sporting-cp",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Over 2.5 (Cards)",
-   "rank": 18,
-   "sharedWith": [
-    117
-   ],
-   "start": "2026-11-29T20:30:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "Blackburn Rovers – Charlton Athletic",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.33,
-    "gap": null,
-    "group": "Cards",
-    "key": "Cards_Over_2_5",
-    "minOdds": 1.4,
-    "minOddsV1": 1.4,
-    "minOddsV2": 1.39,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 72.3,
-    "prob": 75.2,
-    "probHigh": 80.2,
-    "probLow": 70.2,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Over 2.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-blackburn-rovers-charlton-athletic",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Over 2.5 (Cards)",
-   "rank": 19,
-   "sharedWith": [
-    131
-   ],
-   "start": "2026-11-28T12:30:00Z",
    "tier": "safe"
   },
   {
@@ -35079,11 +35022,68 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 20,
+   "rank": 19,
    "sharedWith": [
     47
    ],
    "start": "2026-11-28T19:30:00Z",
+   "tier": "safe"
+  },
+  {
+   "event": "Gaziantep – Amedspor",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.33,
+    "gap": null,
+    "group": "Cards",
+    "key": "Cards_Under_5_5",
+    "minOdds": 1.4,
+    "minOddsV1": 1.4,
+    "minOddsV2": 1.39,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 72.2,
+    "prob": 75.1,
+    "probHigh": 80.1,
+    "probLow": 70.1,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 5.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-gaziantep-amedspor",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 5.5 (Cards)",
+   "rank": 20,
+   "sharedWith": [
+    76
+   ],
+   "start": "2026-11-28T16:00:00Z",
    "tier": "safe"
   },
   {
@@ -35718,17 +35718,17 @@
     "key": "Cards_Over_2_5",
     "minOdds": 1.43,
     "minOddsV1": 1.43,
-    "minOddsV2": 1.42,
+    "minOddsV2": 1.41,
     "nEff": 164,
     "odds": null,
     "oddsAgeMin": null,
     "oddsStale": null,
     "pMarket": null,
     "pMarketKind": null,
-    "pQ": 70.9,
-    "prob": 73.9,
-    "probHigh": 78.9,
-    "probLow": 68.9,
+    "pQ": 71.0,
+    "prob": 74.0,
+    "probHigh": 79.0,
+    "probLow": 69.0,
     "qualityBreakdown": {
      "data": 7,
      "ev": 0,
@@ -35879,63 +35879,6 @@
    "tier": "safe"
   },
   {
-   "event": "Cercle Brugge – Mechelen",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.36,
-    "gap": null,
-    "group": "Cards",
-    "key": "Cards_Under_4_5",
-    "minOdds": 1.43,
-    "minOddsV1": 1.43,
-    "minOddsV2": 1.42,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 70.7,
-    "prob": 73.7,
-    "probHigh": 78.7,
-    "probLow": 68.7,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Under 4.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-cercle-brugge-mechelen",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Under 4.5 (Cards)",
-   "rank": 35,
-   "sharedWith": [
-    24
-   ],
-   "start": "2026-11-28T17:15:00Z",
-   "tier": "safe"
-  },
-  {
    "event": "Lommel – Zulte Waregem",
    "kind": "check",
    "line": {
@@ -35985,7 +35928,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 36,
+   "rank": 35,
    "sharedWith": [
     25
    ],
@@ -36042,7 +35985,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 37,
+   "rank": 36,
    "sharedWith": [
     151
    ],
@@ -36067,10 +36010,10 @@
     "oddsStale": null,
     "pMarket": null,
     "pMarketKind": null,
-    "pQ": 70.6,
-    "prob": 73.6,
-    "probHigh": 78.6,
-    "probLow": 68.6,
+    "pQ": 70.7,
+    "prob": 73.7,
+    "probHigh": 78.7,
+    "probLow": 68.7,
     "qualityBreakdown": {
      "data": 7,
      "ev": 0,
@@ -36099,11 +36042,68 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 38,
+   "rank": 37,
    "sharedWith": [
     155
    ],
    "start": "2026-11-28T15:00:00Z",
+   "tier": "safe"
+  },
+  {
+   "event": "Cercle Brugge – Mechelen",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.36,
+    "gap": null,
+    "group": "Cards",
+    "key": "Cards_Under_4_5",
+    "minOdds": 1.44,
+    "minOddsV1": 1.44,
+    "minOddsV2": 1.42,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 70.5,
+    "prob": 73.5,
+    "probHigh": 78.5,
+    "probLow": 68.5,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 4.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-cercle-brugge-mechelen",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 4.5 (Cards)",
+   "rank": 38,
+   "sharedWith": [
+    24
+   ],
+   "start": "2026-11-28T17:15:00Z",
    "tier": "safe"
   },
   {
@@ -36332,63 +36332,6 @@
    "tier": "safe"
   },
   {
-   "event": "Valencia – Osasuna",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.37,
-    "gap": null,
-    "group": "Corners",
-    "key": "Corners_Under_11_5",
-    "minOdds": 1.45,
-    "minOddsV1": 1.45,
-    "minOddsV2": 1.43,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 70.0,
-    "prob": 73.0,
-    "probHigh": 78.0,
-    "probLow": 68.0,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Under 11.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-29-valencia-osasuna",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Under 11.5 (Corners)",
-   "rank": 43,
-   "sharedWith": [
-    113
-   ],
-   "start": "2026-11-29T13:00:00Z",
-   "tier": "safe"
-  },
-  {
    "event": "Celta Vigo – Villarreal",
    "kind": "check",
    "line": {
@@ -36438,11 +36381,68 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 44,
+   "rank": 43,
    "sharedWith": [
     17
    ],
    "start": "2026-11-29T17:30:00Z",
+   "tier": "safe"
+  },
+  {
+   "event": "Valencia – Osasuna",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.37,
+    "gap": null,
+    "group": "Corners",
+    "key": "Corners_Under_11_5",
+    "minOdds": 1.45,
+    "minOddsV1": 1.45,
+    "minOddsV2": 1.44,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 69.9,
+    "prob": 72.9,
+    "probHigh": 77.9,
+    "probLow": 67.9,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 11.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-29-valencia-osasuna",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 11.5 (Corners)",
+   "rank": 44,
+   "sharedWith": [
+    113
+   ],
+   "start": "2026-11-29T13:00:00Z",
    "tier": "safe"
   },
   {
@@ -37187,6 +37187,63 @@
    "tier": "safe"
   },
   {
+   "event": "Queens Park Rangers – Sheffield United",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.39,
+    "gap": null,
+    "group": "Team corners",
+    "key": "Team_corners_Sheffield_United_over_2_5",
+    "minOdds": 1.47,
+    "minOddsV1": 1.47,
+    "minOddsV2": 1.46,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 68.8,
+    "prob": 71.8,
+    "probHigh": 76.8,
+    "probLow": 66.8,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Sheffield United over 2.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-queens-park-rangers-sheffield-united",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Sheffield United over 2.5 (Team corners)",
+   "rank": 58,
+   "sharedWith": [
+    152
+   ],
+   "start": "2026-11-28T15:00:00Z",
+   "tier": "safe"
+  },
+  {
    "event": "Dundee United – St Johnstone",
    "kind": "check",
    "line": {
@@ -37236,7 +37293,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 58,
+   "rank": 59,
    "sharedWith": [
     162
    ],
@@ -37293,66 +37350,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 59,
-   "sharedWith": [
-    132
-   ],
-   "start": "2026-11-28T15:00:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "Queens Park Rangers – Sheffield United",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.39,
-    "gap": null,
-    "group": "Team corners",
-    "key": "Team_corners_Sheffield_United_over_2_5",
-    "minOdds": 1.47,
-    "minOddsV1": 1.47,
-    "minOddsV2": 1.46,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 68.6,
-    "prob": 71.7,
-    "probHigh": 76.7,
-    "probLow": 66.7,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Sheffield United over 2.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-queens-park-rangers-sheffield-united",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Sheffield United over 2.5 (Team corners)",
    "rank": 60,
    "sharedWith": [
-    152
+    132
    ],
    "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
@@ -37583,6 +37583,63 @@
    "tier": "safe"
   },
   {
+   "event": "Wrexham – Portsmouth",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.4,
+    "gap": null,
+    "group": "Cards",
+    "key": "Cards_Under_4_5",
+    "minOdds": 1.48,
+    "minOddsV1": 1.48,
+    "minOddsV2": 1.47,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 68.2,
+    "prob": 71.3,
+    "probHigh": 76.3,
+    "probLow": 66.3,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 4.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-wrexham-portsmouth",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 4.5 (Cards)",
+   "rank": 65,
+   "sharedWith": [
+    129
+   ],
+   "start": "2026-11-28T15:00:00Z",
+   "tier": "safe"
+  },
+  {
    "event": "Paris Saint-Germain – Lorient",
    "kind": "check",
    "line": {
@@ -37632,68 +37689,11 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 3.5 (Cards)",
-   "rank": 65,
+   "rank": 66,
    "sharedWith": [
     67
    ],
    "start": "2026-11-28T19:45:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "Wrexham – Portsmouth",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.4,
-    "gap": null,
-    "group": "Cards",
-    "key": "Cards_Under_4_5",
-    "minOdds": 1.49,
-    "minOddsV1": 1.49,
-    "minOddsV2": 1.47,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 68.1,
-    "prob": 71.2,
-    "probHigh": 76.2,
-    "probLow": 66.2,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Under 4.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-wrexham-portsmouth",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Under 4.5 (Cards)",
-   "rank": 66,
-   "sharedWith": [
-    129
-   ],
-   "start": "2026-11-28T15:00:00Z",
    "tier": "safe"
   },
   {
@@ -38277,17 +38277,17 @@
     "key": "Corners_Under_10_5",
     "minOdds": 1.51,
     "minOddsV1": 1.51,
-    "minOddsV2": 1.5,
+    "minOddsV2": 1.49,
     "nEff": 164,
     "odds": null,
     "oddsAgeMin": null,
     "oddsStale": null,
     "pMarket": null,
     "pMarketKind": null,
-    "pQ": 67.1,
-    "prob": 70.2,
-    "probHigh": 75.2,
-    "probLow": 65.2,
+    "pQ": 67.2,
+    "prob": 70.3,
+    "probHigh": 75.3,
+    "probLow": 65.3,
     "qualityBreakdown": {
      "data": 7,
      "ev": 0,
@@ -38674,8 +38674,8 @@
     "gap": null,
     "group": "Corners",
     "key": "Corners_Over_8_5",
-    "minOdds": 1.55,
-    "minOddsV1": 1.55,
+    "minOdds": 1.56,
+    "minOddsV1": 1.56,
     "minOddsV2": 1.54,
     "nEff": 164,
     "odds": null,
@@ -38683,10 +38683,10 @@
     "oddsStale": null,
     "pMarket": null,
     "pMarketKind": null,
-    "pQ": 65.2,
-    "prob": 68.3,
-    "probHigh": 73.3,
-    "probLow": 63.3,
+    "pQ": 65.1,
+    "prob": 68.2,
+    "probHigh": 73.2,
+    "probLow": 63.2,
     "qualityBreakdown": {
      "data": 7,
      "ev": 0,
@@ -38720,63 +38720,6 @@
     130
    ],
    "start": "2026-11-28T12:30:00Z",
-   "tier": "value"
-  },
-  {
-   "event": "Wrexham – Portsmouth",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.47,
-    "gap": null,
-    "group": "Corners",
-    "key": "Corners_Under_11_5",
-    "minOdds": 1.56,
-    "minOddsV1": 1.56,
-    "minOddsV2": 1.54,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 65.0,
-    "prob": 68.1,
-    "probHigh": 73.1,
-    "probLow": 63.1,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Under 11.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-wrexham-portsmouth",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Under 11.5 (Corners)",
-   "rank": 85,
-   "sharedWith": [
-    128
-   ],
-   "start": "2026-11-28T15:00:00Z",
    "tier": "value"
   },
   {
@@ -38829,11 +38772,68 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 3.5 (Cards)",
-   "rank": 86,
+   "rank": 85,
    "sharedWith": [
     100
    ],
    "start": "2026-11-28T15:30:00Z",
+   "tier": "value"
+  },
+  {
+   "event": "Wrexham – Portsmouth",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.47,
+    "gap": null,
+    "group": "Corners",
+    "key": "Corners_Under_11_5",
+    "minOdds": 1.56,
+    "minOddsV1": 1.56,
+    "minOddsV2": 1.55,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 64.9,
+    "prob": 68.0,
+    "probHigh": 73.0,
+    "probLow": 63.0,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 11.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-wrexham-portsmouth",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 11.5 (Corners)",
+   "rank": 86,
+   "sharedWith": [
+    128
+   ],
+   "start": "2026-11-28T15:00:00Z",
    "tier": "value"
   },
   {
@@ -43223,6 +43223,113 @@
    "tier": "builder"
   },
   {
+   "confidence": 63.1,
+   "event": "Cambuur Leeuwaarden – Sparta Rotterdam",
+   "kind": "playerBuilder",
+   "legs": [
+    {
+     "anchored": true,
+     "ev": -4.1,
+     "fair": 1.17,
+     "gap": 0.0,
+     "group": "Total goals",
+     "key": "Total_goals_Over_1_5",
+     "minOdds": 1.21,
+     "minOddsV1": 1.21,
+     "minOddsV2": 1.21,
+     "nEff": 20000,
+     "odds": 1.1235,
+     "oddsAgeMin": 0,
+     "oddsStale": false,
+     "pMarket": 85.3,
+     "pMarketKind": "novig",
+     "pQ": 85.1,
+     "prob": 85.3,
+     "probHigh": 85.3,
+     "probLow": 85.3,
+     "probModel": 86.6,
+     "qualityBreakdown": {
+      "data": 6,
+      "ev": 0.0,
+      "evidence": 9,
+      "info": 2,
+      "market": 10,
+      "model": 20
+     },
+     "qualityScore": 47,
+     "selection": "Over 1.5",
+     "status": "active",
+     "v1": {
+      "post": false,
+      "why": [
+       "price 1.12 below min 1.21 (edge)",
+       "quality 47 < 55",
+       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
+      ]
+     },
+     "v2": {
+      "post": false,
+      "why": [
+       "price 1.12 below min 1.21",
+       "quality 47 < 55",
+       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
+      ]
+     }
+    },
+    {
+     "ev": null,
+     "fair": 1.35,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Milan_Zonneveld_2_",
+     "minOdds": 1.43,
+     "minOddsV1": 1.43,
+     "minOddsV2": 1.41,
+     "nEff": 164,
+     "odds": null,
+     "oddsAgeMin": null,
+     "oddsStale": null,
+     "pMarket": null,
+     "pMarketKind": null,
+     "pQ": 71.0,
+     "prob": 74.0,
+     "probHigh": 79.0,
+     "probLow": 69.0,
+     "qualityBreakdown": {
+      "data": 6,
+      "ev": 0,
+      "evidence": 9,
+      "info": 2,
+      "market": 5,
+      "model": 10
+     },
+     "qualityScore": 32,
+     "selection": "Milan Zonneveld 2+",
+     "status": "trial",
+     "v1": {
+      "post": false,
+      "why": [
+       "quality 32 < 60"
+      ]
+     },
+     "v2": {
+      "post": false,
+      "why": [
+       "quality 32 < 60"
+      ]
+     }
+    }
+   ],
+   "matchId": "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam",
+   "minOdds": 1.64,
+   "needsPrice": true,
+   "needsSquadCheck": true,
+   "pick": "Over 1.5 (Total goals) + Milan Zonneveld 2+ (Player shots)",
+   "rank": 154,
+   "start": "2026-11-28T20:00:00Z",
+   "tier": "builder"
+  },
+  {
    "confidence": 63.0,
    "event": "Sint Truidense – Genk",
    "kind": "playerBuilder",
@@ -43319,118 +43426,11 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Sint Truidense over 0.5 (Team goals) + Daan Heymans 2+ (Player shots)",
-   "rank": 154,
+   "rank": 155,
    "sharedWith": [
     149
    ],
    "start": "2026-11-29T12:30:00Z",
-   "tier": "builder"
-  },
-  {
-   "confidence": 63.0,
-   "event": "Cambuur Leeuwaarden – Sparta Rotterdam",
-   "kind": "playerBuilder",
-   "legs": [
-    {
-     "anchored": true,
-     "ev": -4.5,
-     "fair": 1.17,
-     "gap": 0.0,
-     "group": "Total goals",
-     "key": "Total_goals_Over_1_5",
-     "minOdds": 1.21,
-     "minOddsV1": 1.21,
-     "minOddsV2": 1.21,
-     "nEff": 20000,
-     "odds": 1.1215,
-     "oddsAgeMin": 81,
-     "oddsStale": false,
-     "pMarket": 85.2,
-     "pMarketKind": "novig",
-     "pQ": 85.0,
-     "prob": 85.2,
-     "probHigh": 85.2,
-     "probLow": 85.2,
-     "probModel": 86.6,
-     "qualityBreakdown": {
-      "data": 6,
-      "ev": 0.0,
-      "evidence": 9,
-      "info": 2,
-      "market": 10,
-      "model": 20
-     },
-     "qualityScore": 47,
-     "selection": "Over 1.5",
-     "status": "active",
-     "v1": {
-      "post": false,
-      "why": [
-       "price 1.12 below min 1.21 (edge)",
-       "quality 47 < 55",
-       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
-      ]
-     },
-     "v2": {
-      "post": false,
-      "why": [
-       "price 1.12 below min 1.21",
-       "quality 47 < 55",
-       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
-      ]
-     }
-    },
-    {
-     "ev": null,
-     "fair": 1.35,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Milan_Zonneveld_2_",
-     "minOdds": 1.43,
-     "minOddsV1": 1.43,
-     "minOddsV2": 1.41,
-     "nEff": 164,
-     "odds": null,
-     "oddsAgeMin": null,
-     "oddsStale": null,
-     "pMarket": null,
-     "pMarketKind": null,
-     "pQ": 71.0,
-     "prob": 74.0,
-     "probHigh": 79.0,
-     "probLow": 69.0,
-     "qualityBreakdown": {
-      "data": 6,
-      "ev": 0,
-      "evidence": 9,
-      "info": 2,
-      "market": 5,
-      "model": 10
-     },
-     "qualityScore": 32,
-     "selection": "Milan Zonneveld 2+",
-     "status": "trial",
-     "v1": {
-      "post": false,
-      "why": [
-       "quality 32 < 60"
-      ]
-     },
-     "v2": {
-      "post": false,
-      "why": [
-       "quality 32 < 60"
-      ]
-     }
-    }
-   ],
-   "matchId": "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam",
-   "minOdds": 1.64,
-   "needsPrice": true,
-   "needsSquadCheck": true,
-   "pick": "Over 1.5 (Total goals) + Milan Zonneveld 2+ (Player shots)",
-   "rank": 155,
-   "start": "2026-11-28T20:00:00Z",
    "tier": "builder"
   },
   {
@@ -45362,6 +45362,116 @@
    "tier": "builder"
   },
   {
+   "confidence": 58.5,
+   "event": "Lommel – Zulte Waregem",
+   "kind": "playerBuilder",
+   "legs": [
+    {
+     "anchored": true,
+     "ev": -4.2,
+     "fair": 1.22,
+     "gap": 0.0,
+     "group": "Total goals",
+     "key": "Total_goals_Over_1_5",
+     "minOdds": 1.26,
+     "minOddsV1": 1.26,
+     "minOddsV2": 1.26,
+     "nEff": 20000,
+     "odds": 1.1704,
+     "oddsAgeMin": 0,
+     "oddsStale": false,
+     "pMarket": 81.8,
+     "pMarketKind": "novig",
+     "pQ": 81.6,
+     "prob": 81.8,
+     "probHigh": 81.8,
+     "probLow": 81.8,
+     "probModel": 80.2,
+     "qualityBreakdown": {
+      "data": 7,
+      "ev": 0.0,
+      "evidence": 9,
+      "info": 2,
+      "market": 10,
+      "model": 20
+     },
+     "qualityScore": 48,
+     "selection": "Over 1.5",
+     "status": "active",
+     "v1": {
+      "post": false,
+      "why": [
+       "price 1.17 below min 1.26 (edge)",
+       "quality 48 < 55",
+       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
+      ]
+     },
+     "v2": {
+      "post": false,
+      "why": [
+       "price 1.17 below min 1.26",
+       "quality 48 < 55",
+       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
+      ]
+     }
+    },
+    {
+     "ev": null,
+     "fair": 1.4,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Don_Angelo_Konadu_2_",
+     "minOdds": 1.48,
+     "minOddsV1": 1.48,
+     "minOddsV2": 1.47,
+     "nEff": 164,
+     "odds": null,
+     "oddsAgeMin": null,
+     "oddsStale": null,
+     "pMarket": null,
+     "pMarketKind": null,
+     "pQ": 68.4,
+     "prob": 71.5,
+     "probHigh": 76.5,
+     "probLow": 66.5,
+     "qualityBreakdown": {
+      "data": 7,
+      "ev": 0,
+      "evidence": 9,
+      "info": 2,
+      "market": 5,
+      "model": 10
+     },
+     "qualityScore": 33,
+     "selection": "Don-Angelo Konadu 2+",
+     "status": "trial",
+     "v1": {
+      "post": false,
+      "why": [
+       "quality 33 < 60"
+      ]
+     },
+     "v2": {
+      "post": false,
+      "why": [
+       "quality 33 < 60"
+      ]
+     }
+    }
+   ],
+   "matchId": "2026-11-28-lommel-zulte-waregem",
+   "minOdds": 1.77,
+   "needsPrice": true,
+   "needsSquadCheck": true,
+   "pick": "Over 1.5 (Total goals) + Don-Angelo Konadu 2+ (Player shots)",
+   "rank": 174,
+   "sharedWith": [
+    146
+   ],
+   "start": "2026-11-28T19:45:00Z",
+   "tier": "builder"
+  },
+  {
    "confidence": 58.4,
    "event": "Feyenoord – Ajax",
    "kind": "playerBuilder",
@@ -45378,7 +45488,7 @@
      "minOddsV2": 1.2,
      "nEff": 20000,
      "odds": 1.1085,
-     "oddsAgeMin": 81,
+     "oddsAgeMin": 0,
      "oddsStale": false,
      "pMarket": 85.8,
      "pMarketKind": "novig",
@@ -45464,121 +45574,11 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + Tolu Arokodare 2+ (Player shots)",
-   "rank": 174,
+   "rank": 175,
    "sharedWith": [
     99
    ],
    "start": "2026-11-29T13:30:00Z",
-   "tier": "builder"
-  },
-  {
-   "confidence": 58.4,
-   "event": "Lommel – Zulte Waregem",
-   "kind": "playerBuilder",
-   "legs": [
-    {
-     "anchored": true,
-     "ev": -4.7,
-     "fair": 1.22,
-     "gap": 0.0,
-     "group": "Total goals",
-     "key": "Total_goals_Over_1_5",
-     "minOdds": 1.27,
-     "minOddsV1": 1.27,
-     "minOddsV2": 1.27,
-     "nEff": 20000,
-     "odds": 1.1664,
-     "oddsAgeMin": 81,
-     "oddsStale": false,
-     "pMarket": 81.7,
-     "pMarketKind": "novig",
-     "pQ": 81.4,
-     "prob": 81.7,
-     "probHigh": 81.7,
-     "probLow": 81.7,
-     "probModel": 80.2,
-     "qualityBreakdown": {
-      "data": 7,
-      "ev": 0.0,
-      "evidence": 9,
-      "info": 2,
-      "market": 10,
-      "model": 20
-     },
-     "qualityScore": 48,
-     "selection": "Over 1.5",
-     "status": "active",
-     "v1": {
-      "post": false,
-      "why": [
-       "price 1.17 below min 1.27 (edge)",
-       "quality 48 < 55",
-       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
-      ]
-     },
-     "v2": {
-      "post": false,
-      "why": [
-       "price 1.17 below min 1.27",
-       "quality 48 < 55",
-       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
-      ]
-     }
-    },
-    {
-     "ev": null,
-     "fair": 1.4,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Don_Angelo_Konadu_2_",
-     "minOdds": 1.48,
-     "minOddsV1": 1.48,
-     "minOddsV2": 1.47,
-     "nEff": 164,
-     "odds": null,
-     "oddsAgeMin": null,
-     "oddsStale": null,
-     "pMarket": null,
-     "pMarketKind": null,
-     "pQ": 68.4,
-     "prob": 71.5,
-     "probHigh": 76.5,
-     "probLow": 66.5,
-     "qualityBreakdown": {
-      "data": 7,
-      "ev": 0,
-      "evidence": 9,
-      "info": 2,
-      "market": 5,
-      "model": 10
-     },
-     "qualityScore": 33,
-     "selection": "Don-Angelo Konadu 2+",
-     "status": "trial",
-     "v1": {
-      "post": false,
-      "why": [
-       "quality 33 < 60"
-      ]
-     },
-     "v2": {
-      "post": false,
-      "why": [
-       "quality 33 < 60"
-      ]
-     }
-    }
-   ],
-   "matchId": "2026-11-28-lommel-zulte-waregem",
-   "minOdds": 1.77,
-   "needsPrice": true,
-   "needsSquadCheck": true,
-   "pick": "Over 1.5 (Total goals) + Don-Angelo Konadu 2+ (Player shots)",
-   "rank": 175,
-   "sharedWith": [
-    146
-   ],
-   "start": "2026-11-28T19:45:00Z",
    "tier": "builder"
   },
   {
@@ -45763,7 +45763,7 @@
      "minOddsV2": 1.29,
      "nEff": 164,
      "odds": 1.2123,
-     "oddsAgeMin": 81,
+     "oddsAgeMin": 0,
      "oddsStale": false,
      "pMarket": 78.6,
      "pMarketKind": "single",
@@ -45867,7 +45867,7 @@
  "summary": {
   "both": 0,
   "lines": 8409,
-  "priced": 1742,
+  "priced": 1745,
   "v1Only": 0,
   "v1Post": 0,
   "v2Only": 0,
