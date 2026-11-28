@@ -3864,6 +3864,142 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T00:30:00Z"
   },
+  "2026-11-28-osnabruck-hannover-96|Corners_Over_10_5": {
+   "close": 0.48601,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.46568,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Corners_Over_11_5": {
+   "close": 0.38907,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 31,
+   "open": 0.37572,
+   "openAt": "2026-11-28T09:47:15Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Corners_Over_9_5": {
+   "close": 0.59668,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.58065,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Corners_Under_10_5": {
+   "close": 0.51399,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.53432,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Corners_Under_11_5": {
+   "close": 0.61093,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 31,
+   "open": 0.62428,
+   "openAt": "2026-11-28T09:47:15Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Corners_Under_9_5": {
+   "close": 0.40332,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.41935,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Match_result_Draw": {
+   "close": 0.27245,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.26605,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Match_result_Hannover_96": {
+   "close": 0.42727,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.41096,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Match_result_Osnabruck": {
+   "close": 0.30028,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.32299,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Total_goals_Over_1_5": {
+   "close": 0.77723,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.79309,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Total_goals_Over_2_5": {
+   "close": 0.5451,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.57002,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Total_goals_Over_3_5": {
+   "close": 0.33449,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.35933,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Total_goals_Over_4_5": {
+   "close": 0.17991,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.19846,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Total_goals_Under_1_5": {
+   "close": 0.22277,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.20691,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Total_goals_Under_2_5": {
+   "close": 0.4549,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.42998,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Total_goals_Under_3_5": {
+   "close": 0.66551,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.64067,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
+  "2026-11-28-osnabruck-hannover-96|Total_goals_Under_4_5": {
+   "close": 0.82009,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.80154,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:30:00Z"
+  },
   "2026-11-28-paderborn-schalke-04|Corners_Over_10_5": {
    "close": 0.39041,
    "closeAt": "2026-11-28T13:46:56Z",
@@ -5546,9 +5682,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T19:16:00Z",
+  "fetchedAt": "2026-11-28T19:39:24Z",
   "keptDays": 45,
-  "lines": 693,
+  "lines": 710,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
