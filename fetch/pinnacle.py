@@ -22,8 +22,16 @@ CAP = 80
 BASE = "https://pinnapi.com/kit/v1/prematch/fixtures?sport_id={sid}"
 SPORTS = {"soccer": 1, "hockey": 4}
 KEEP = {
-    "soccer": ["England - Premier League", "England - Championship", "Spain - La Liga", "Italy - Serie A",
-               "Germany - Bundesliga", "France - Ligue 1", "Netherlands - Eredivisie", "Portugal - Primeira",
+    # 28 Nov 2026: the second divisions are kept too. research/where_is_the_edge.json, 125,000 lines with
+    # Pinnacle's closing price as the sharp reference and Bet365's as the soft one: where a soft bookmaker pays
+    # at least 3% over the sharp fair price, flat stakes returned +9.3% in the second and lower divisions and
+    # +7.8% in the smaller leagues, against +1.8% in the big five. The bookmakers are not more generous down
+    # there - their margin is in fact wider - but when they are wrong they are wrong by more. Jarvis needs
+    # Pinnacle's price in those leagues to see it at all, and the goal rates come from Pinnacle's own prices
+    # where there is no xG, so no extra data is needed.
+    "soccer": ["England - Premier League", "England - Championship", "Spain - La Liga", "Spain - Segunda",
+               "Italy - Serie A", "Italy - Serie B", "Germany - Bundesliga", "France - Ligue 1",
+               "France - Ligue 2", "Netherlands - Eredivisie", "Portugal - Primeira", "Greece - Super",
                "Belgium - ", "Turkey - Super", "Scotland - Premiership", "Sweden - Allsvenskan", "UEFA",
                "Japan - J1", "Japan - J.League", "Australia - A-League", "Saudi Arabia", "AFC Champions"],
     "hockey": ["NHL", "Sweden - SHL", "SHL"],

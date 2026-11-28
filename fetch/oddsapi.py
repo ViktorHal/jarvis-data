@@ -47,6 +47,8 @@ LEAGUE_HINT = {
     "France - Ligue 1": "ligue 1", "Netherlands - Eredivisie": "eredivisie",
     "Portugal - Primeira Liga": "primeira", "Belgium - Pro League": "belgium",
     "Turkey - Super League": "turkey", "Scotland - Premiership": "scotland",
+    "Spain - Segunda Division": "la liga 2", "Italy - Serie B": "serie b", "France - Ligue 2": "ligue 2",
+    "Germany - Bundesliga 2": "bundesliga 2", "Greece - Super League": "greece",
     "Sweden - Allsvenskan": "allsvenskan", "UEFA - Champions League": "champions league",
     "UEFA - Europa League": "europa league", "UEFA - Europa Conference League": "conference league",
     "NHL": "nhl", "Sweden - SHL": "sweden hockey", "Saudi Arabia - Pro League": "saudi",

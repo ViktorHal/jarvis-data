@@ -1,0 +1,262 @@
+{
+ "edgeRequired": 0.03,
+ "note": "Pinnacle closing as the sharp price, Bet365 closing as the soft one",
+ "byDivision": {
+  "Germany Bundesliga | over/under 2.5": {
+   "lines": 2654,
+   "generosity": 0.9554,
+   "playableShare": 0.1115,
+   "playableLines": 296,
+   "roi": 7.1,
+   "clv": 7.5
+  },
+  "France Ligue 1 | over/under 2.5": {
+   "lines": 3038,
+   "generosity": 0.9543,
+   "playableShare": 0.1017,
+   "playableLines": 309,
+   "roi": 11.9,
+   "clv": 6.8
+  },
+  "England Premier League | over/under 2.5": {
+   "lines": 3436,
+   "generosity": 0.9535,
+   "playableShare": 0.0795,
+   "playableLines": 273,
+   "roi": -0.1,
+   "clv": 6.3
+  },
+  "Italy Serie A | over/under 2.5": {
+   "lines": 3434,
+   "generosity": 0.9533,
+   "playableShare": 0.1013,
+   "playableLines": 348,
+   "roi": 4.2,
+   "clv": 6.0
+  },
+  "England Championship | over/under 2.5": {
+   "lines": 4958,
+   "generosity": 0.9504,
+   "playableShare": 0.0579,
+   "playableLines": 287,
+   "roi": 14.5,
+   "clv": 5.8
+  },
+  "Spain La Liga | over/under 2.5": {
+   "lines": 3412,
+   "generosity": 0.9502,
+   "playableShare": 0.095,
+   "playableLines": 324,
+   "roi": 0.4,
+   "clv": 6.2
+  },
+  "Scotland Premiership | over/under 2.5": {
+   "lines": 1934,
+   "generosity": 0.9481,
+   "playableShare": 0.0781,
+   "playableLines": 151,
+   "roi": -3.2,
+   "clv": 6.0
+  },
+  "Turkey Super Lig | over/under 2.5": {
+   "lines": 3088,
+   "generosity": 0.9465,
+   "playableShare": 0.0933,
+   "playableLines": 288,
+   "roi": 15.9,
+   "clv": 6.7
+  },
+  "Italy Serie A | 1X2": {
+   "lines": 5151,
+   "generosity": 0.9455,
+   "playableShare": 0.1052,
+   "playableLines": 542,
+   "roi": 4.2,
+   "clv": 8.1
+  },
+  "England Premier League | 1X2": {
+   "lines": 5190,
+   "generosity": 0.9455,
+   "playableShare": 0.1066,
+   "playableLines": 553,
+   "roi": -5.1,
+   "clv": 8.3
+  },
+  "Greece Super League | 1X2": {
+   "lines": 3018,
+   "generosity": 0.9453,
+   "playableShare": 0.1856,
+   "playableLines": 560,
+   "roi": 8.7,
+   "clv": 12.1
+  },
+  "Germany Bundesliga | 1X2": {
+   "lines": 4119,
+   "generosity": 0.9451,
+   "playableShare": 0.1143,
+   "playableLines": 471,
+   "roi": 14.9,
+   "clv": 7.9
+  },
+  "France Ligue 1 | 1X2": {
+   "lines": 4575,
+   "generosity": 0.9451,
+   "playableShare": 0.1154,
+   "playableLines": 528,
+   "roi": 1.1,
+   "clv": 8.4
+  },
+  "Belgium Pro League | over/under 2.5": {
+   "lines": 2658,
+   "generosity": 0.9443,
+   "playableShare": 0.0903,
+   "playableLines": 240,
+   "roi": 4.6,
+   "clv": 6.4
+  },
+  "Germany 2. Bundesliga | 1X2": {
+   "lines": 3942,
+   "generosity": 0.9442,
+   "playableShare": 0.1002,
+   "playableLines": 395,
+   "roi": -1.0,
+   "clv": 7.9
+  },
+  "Italy Serie B | over/under 2.5": {
+   "lines": 3214,
+   "generosity": 0.9439,
+   "playableShare": 0.0585,
+   "playableLines": 188,
+   "roi": 0.2,
+   "clv": 6.3
+  },
+  "Spain Segunda | 1X2": {
+   "lines": 6120,
+   "generosity": 0.9434,
+   "playableShare": 0.141,
+   "playableLines": 863,
+   "roi": 9.0,
+   "clv": 8.7
+  },
+  "Netherlands Eredivisie | over/under 2.5": {
+   "lines": 2732,
+   "generosity": 0.9433,
+   "playableShare": 0.0765,
+   "playableLines": 209,
+   "roi": 11.3,
+   "clv": 6.5
+  },
+  "England Championship | 1X2": {
+   "lines": 7437,
+   "generosity": 0.9432,
+   "playableShare": 0.0832,
+   "playableLines": 619,
+   "roi": 11.5,
+   "clv": 7.7
+  },
+  "France Ligue 2 | over/under 2.5": {
+   "lines": 3070,
+   "generosity": 0.9431,
+   "playableShare": 0.0642,
+   "playableLines": 197,
+   "roi": 13.9,
+   "clv": 6.5
+  },
+  "Greece Super League | over/under 2.5": {
+   "lines": 2010,
+   "generosity": 0.9427,
+   "playableShare": 0.0915,
+   "playableLines": 184,
+   "roi": 14.1,
+   "clv": 7.4
+  },
+  "Portugal Primeira | over/under 2.5": {
+   "lines": 2752,
+   "generosity": 0.9426,
+   "playableShare": 0.0618,
+   "playableLines": 170,
+   "roi": 8.7,
+   "clv": 6.2
+  },
+  "Spain La Liga | 1X2": {
+   "lines": 5124,
+   "generosity": 0.9424,
+   "playableShare": 0.1038,
+   "playableLines": 532,
+   "roi": -12.8,
+   "clv": 7.6
+  },
+  "Germany 2. Bundesliga | over/under 2.5": {
+   "lines": 2628,
+   "generosity": 0.9423,
+   "playableShare": 0.0582,
+   "playableLines": 153,
+   "roi": 8.1,
+   "clv": 6.1
+  },
+  "Spain Segunda | over/under 2.5": {
+   "lines": 4080,
+   "generosity": 0.9402,
+   "playableShare": 0.0564,
+   "playableLines": 230,
+   "roi": 1.5,
+   "clv": 6.7
+  },
+  "Netherlands Eredivisie | 1X2": {
+   "lines": 4098,
+   "generosity": 0.938,
+   "playableShare": 0.1291,
+   "playableLines": 529,
+   "roi": 19.3,
+   "clv": 9.6
+  },
+  "Italy Serie B | 1X2": {
+   "lines": 4821,
+   "generosity": 0.9367,
+   "playableShare": 0.1259,
+   "playableLines": 607,
+   "roi": 12.2,
+   "clv": 7.6
+  },
+  "Scotland Premiership | 1X2": {
+   "lines": 2901,
+   "generosity": 0.9317,
+   "playableShare": 0.1189,
+   "playableLines": 345,
+   "roi": -3.7,
+   "clv": 9.1
+  },
+  "Belgium Pro League | 1X2": {
+   "lines": 3987,
+   "generosity": 0.9278,
+   "playableShare": 0.1043,
+   "playableLines": 416,
+   "roi": 3.6,
+   "clv": 9.6
+  },
+  "Turkey Super Lig | 1X2": {
+   "lines": 4632,
+   "generosity": 0.926,
+   "playableShare": 0.1118,
+   "playableLines": 518,
+   "roi": 4.0,
+   "clv": 9.6
+  },
+  "France Ligue 2 | 1X2": {
+   "lines": 4611,
+   "generosity": 0.9246,
+   "playableShare": 0.0928,
+   "playableLines": 428,
+   "roi": 15.3,
+   "clv": 7.9
+  },
+  "Portugal Primeira | 1X2": {
+   "lines": 4125,
+   "generosity": 0.9234,
+   "playableShare": 0.0994,
+   "playableLines": 410,
+   "roi": 5.3,
+   "clv": 9.5
+  }
+ }
+}
