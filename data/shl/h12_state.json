@@ -481,9 +481,9 @@
   "sv": 142806.0
  },
  "meta": {
-  "builtAt": "2026-11-27T19:32:46Z",
-  "fetchedAt": "2026-11-27T19:32:46Z",
-  "model": "hockey12.py 1.2",
+  "builtAt": "2026-11-28T00:07:48Z",
+  "fetchedAt": "2026-11-28T00:07:48Z",
+  "model": "hockey12.py 1.3",
   "season": "2026-27",
   "seasonGames": 136,
   "source": "stats.swehockey.se game pages via data/shl/game_stats.json"
@@ -662,5 +662,5 @@
    "sf": 575.7494078518736
   }
  },
- "version": "1.2"
+ "version": "1.3"
 }

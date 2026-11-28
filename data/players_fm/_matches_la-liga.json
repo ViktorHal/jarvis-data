@@ -37787,6 +37787,293 @@
     }
    ],
    "utc": "2026-11-23T20:00:00Z"
+  },
+  {
+   "away": "Racing Santander",
+   "home": "Levante",
+   "id": "5868146",
+   "players": [
+    {
+     "id": 185644,
+     "minutes": 90,
+     "name": "Mathew Ryan",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1800611,
+     "minutes": 90,
+     "name": "Nacho Pérez",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 952528,
+     "minutes": 90,
+     "name": "Adrián De La Fuente",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 210683,
+     "minutes": 90,
+     "name": "Aïssa Mandi",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 2141146,
+     "minutes": 90,
+     "name": "Marc Santos",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1131957,
+     "minutes": 90,
+     "name": "Jon Olasagasti",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 914401,
+     "minutes": 50,
+     "name": "Oriol Rey",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1481503,
+     "minutes": 88,
+     "name": "Dani Requena",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 977618,
+     "minutes": 75,
+     "name": "Víctor García",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1209441,
+     "minutes": 75,
+     "name": "Iván Romero",
+     "shots": 4,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1460063,
+     "minutes": 90,
+     "name": "Thiago Fernández",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1332540,
+     "minutes": 40,
+     "name": "Enzo Bardeli",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1392779,
+     "minutes": 15,
+     "name": "Etta Eyong",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1286471,
+     "minutes": 15,
+     "name": "Roger Brugué",
+     "shots": 3,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1836083,
+     "minutes": 2,
+     "name": "Yanis Musuayi",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1280020,
+     "minutes": 90,
+     "name": "Julen Agirrezabala",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 982734,
+     "minutes": 90,
+     "name": "Pablo Ramón",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1644302,
+     "minutes": 61,
+     "name": "Pedro Felipe",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1329406,
+     "minutes": 90,
+     "name": "Jeanuël Belocian",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1670161,
+     "minutes": 90,
+     "name": "Jorge Salinas",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 967871,
+     "minutes": 90,
+     "name": "Iván Martín",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1396089,
+     "minutes": 61,
+     "name": "Matteo Prati",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1586390,
+     "minutes": 79,
+     "name": "Iker Luque",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 150649,
+     "minutes": 61,
+     "name": "Sergio Canales",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 889229,
+     "minutes": 90,
+     "name": "Iñigo Vicente",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1640985,
+     "minutes": 89,
+     "name": "Yassir Zabiri",
+     "shots": 6,
+     "sot": 3,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 777028,
+     "minutes": 29,
+     "name": "André Almeida",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 2156233,
+     "minutes": 29,
+     "name": "Hugo Pérez",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1662379,
+     "minutes": 29,
+     "name": "Pablo García",
+     "shots": 2,
+     "sot": 2,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 670031,
+     "minutes": 11,
+     "name": "Asier Villalibre",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1938902,
+     "minutes": 1,
+     "name": "Andrés Vallecillo",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-27T20:00:00Z"
   }
  ]
 }

@@ -31022,6 +31022,266 @@
     }
    ],
    "utc": "2026-11-22T18:15:00Z"
+  },
+  {
+   "away": "Kortrijk",
+   "home": "OH Leuven",
+   "id": "5811821",
+   "players": [
+    {
+     "id": 1192954,
+     "minutes": 90,
+     "name": "Dani van den Heuvel",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1189794,
+     "minutes": 81,
+     "name": "Jamie Lawrence",
+     "shots": 3,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 965823,
+     "minutes": 90,
+     "name": "Ewoud Pletinckx",
+     "shots": 4,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1270037,
+     "minutes": 90,
+     "name": "Roggerio Nyakossi",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1083082,
+     "minutes": 90,
+     "name": "Óscar Gil",
+     "shots": 4,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1188386,
+     "minutes": 73,
+     "name": "Wouter George",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 354494,
+     "minutes": 90,
+     "name": "Siebe Schrijvers",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1644338,
+     "minutes": 89,
+     "name": "Davis Opoku",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1453194,
+     "minutes": 73,
+     "name": "Emmanuel Addai",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1560046,
+     "minutes": 90,
+     "name": "Robin Mirisola",
+     "shots": 5,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 951973,
+     "minutes": 90,
+     "name": "William Balikwisha",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 294252,
+     "minutes": 17,
+     "name": "Birger Verstraete",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1054789,
+     "minutes": 17,
+     "name": "Shin Yamada",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1110376,
+     "minutes": 9,
+     "name": "Kyan Vaesen",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 922834,
+     "minutes": 1,
+     "name": "Takuya Ogiwara",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1605725,
+     "minutes": 90,
+     "name": "Tristen Alliet",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1559204,
+     "minutes": 90,
+     "name": "Axel Drouhin",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1359953,
+     "minutes": 90,
+     "name": "Harrison Murray-Campbell",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1417570,
+     "minutes": 90,
+     "name": "James Ndjeungoue",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1735836,
+     "minutes": 90,
+     "name": "Mohamed Fofana",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 208929,
+     "minutes": 90,
+     "name": "Brecht Dejaeghere",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1129082,
+     "minutes": 90,
+     "name": "Jamie Roche",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1536055,
+     "minutes": 90,
+     "name": "Matthew Anderson",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1423125,
+     "minutes": 82,
+     "name": "Ken Masui",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 864154,
+     "minutes": 90,
+     "name": "Goduine Koyalipou",
+     "shots": 4,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 607120,
+     "minutes": 45,
+     "name": "Thierry Ambrose",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1599319,
+     "minutes": 45,
+     "name": "Shandre Campbell",
+     "shots": 2,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 764813,
+     "minutes": 8,
+     "name": "Jellert van Landschoot",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-27T19:45:00Z"
   }
  ]
 }

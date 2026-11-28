@@ -35249,6 +35249,302 @@
     }
    ],
    "utc": "2026-11-23T19:45:00Z"
+  },
+  {
+   "away": "Bologna",
+   "home": "Venezia",
+   "id": "5749769",
+   "players": [
+    {
+     "id": 1130600,
+     "minutes": 90,
+     "name": "Filip Stanković",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1298186,
+     "minutes": 90,
+     "name": "Redouane Halhal",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1605748,
+     "minutes": 76,
+     "name": "Matías Moreno",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 197352,
+     "minutes": 90,
+     "name": "Juan Jesus",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1290968,
+     "minutes": 90,
+     "name": "Antoine Hainaut",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 888167,
+     "minutes": 76,
+     "name": "Kike Pérez",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 975242,
+     "minutes": 90,
+     "name": "Simon Sohm",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 924431,
+     "minutes": 58,
+     "name": "Gianluca Busio",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 414232,
+     "minutes": 90,
+     "name": "Ridgeciano Haps",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 845368,
+     "minutes": 70,
+     "name": "John Yeboah",
+     "shots": 3,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 958640,
+     "minutes": 70,
+     "name": "Akor Adams",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 939593,
+     "minutes": 32,
+     "name": "Thórir Helgason",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1379468,
+     "minutes": 20,
+     "name": "Albion Rrahmani",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 866165,
+     "minutes": 20,
+     "name": "Lion Lauberbach",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 951765,
+     "minutes": 14,
+     "name": "Armel Bella-Kotchap",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1592168,
+     "minutes": 14,
+     "name": "Matteo Dagasso",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 178732,
+     "minutes": 90,
+     "name": "Łukasz Skorupski",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1198712,
+     "minutes": 45,
+     "name": "Martin Vitík",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 814398,
+     "minutes": 90,
+     "name": "Nicolò Casale",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1173250,
+     "minutes": 90,
+     "name": "Arthur Theate",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1080669,
+     "minutes": 90,
+     "name": "Nadir Zortea",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 888921,
+     "minutes": 90,
+     "name": "Lewis Ferguson",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 790732,
+     "minutes": 88,
+     "name": "Tommaso Pobega",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1333066,
+     "minutes": 90,
+     "name": "Rahim Alhassane",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 414245,
+     "minutes": 56,
+     "name": "Federico Bernardeschi",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 689680,
+     "minutes": 66,
+     "name": "Jens Odgaard",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1402900,
+     "minutes": 56,
+     "name": "Samuel Mbangula",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 46820,
+     "minutes": 45,
+     "name": "Matteo Darmian",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1044029,
+     "minutes": 34,
+     "name": "Nicolò Cambiaghi",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 661761,
+     "minutes": 34,
+     "name": "Riccardo Orsolini",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1017401,
+     "minutes": 24,
+     "name": "Roberto Piccoli",
+     "shots": 2,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 2008804,
+     "minutes": 2,
+     "name": "Marco Libra",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-27T19:45:00Z"
   }
  ]
 }

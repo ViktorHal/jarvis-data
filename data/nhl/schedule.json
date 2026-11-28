@@ -1,111 +1,6 @@
 {
  "games": [
   {
-   "away": "TOR",
-   "date": "2026-11-27",
-   "home": "BOS",
-   "start": "2026-11-27T18:00:00Z",
-   "state": "LIVE"
-  },
-  {
-   "away": "CGY",
-   "date": "2026-11-27",
-   "home": "NJD",
-   "start": "2026-11-27T18:00:00Z",
-   "state": "LIVE"
-  },
-  {
-   "away": "UTA",
-   "date": "2026-11-27",
-   "home": "NSH",
-   "start": "2026-11-27T18:00:00Z",
-   "state": "LIVE"
-  },
-  {
-   "away": "DAL",
-   "date": "2026-11-27",
-   "home": "STL",
-   "start": "2026-11-27T19:00:00Z",
-   "state": "LIVE"
-  },
-  {
-   "away": "OTT",
-   "date": "2026-11-27",
-   "home": "TBL",
-   "start": "2026-11-27T20:00:00Z",
-   "state": "PRE"
-  },
-  {
-   "away": "VAN",
-   "date": "2026-11-27",
-   "home": "PHI",
-   "start": "2026-11-27T20:00:00Z",
-   "state": "PRE"
-  },
-  {
-   "away": "FLA",
-   "date": "2026-11-27",
-   "home": "WSH",
-   "start": "2026-11-27T20:00:00Z",
-   "state": "PRE"
-  },
-  {
-   "away": "DET",
-   "date": "2026-11-27",
-   "home": "CBJ",
-   "start": "2026-11-27T20:00:00Z",
-   "state": "PRE"
-  },
-  {
-   "away": "COL",
-   "date": "2026-11-27",
-   "home": "MIN",
-   "start": "2026-11-27T21:00:00Z",
-   "state": "FUT"
-  },
-  {
-   "away": "LAK",
-   "date": "2026-11-27",
-   "home": "ANA",
-   "start": "2026-11-27T21:00:00Z",
-   "state": "FUT"
-  },
-  {
-   "away": "VGK",
-   "date": "2026-11-27",
-   "home": "SJS",
-   "start": "2026-11-27T21:00:00Z",
-   "state": "FUT"
-  },
-  {
-   "away": "NYR",
-   "date": "2026-11-27",
-   "home": "CHI",
-   "start": "2026-11-27T22:30:00Z",
-   "state": "FUT"
-  },
-  {
-   "away": "WPG",
-   "date": "2026-11-27",
-   "home": "NYI",
-   "start": "2026-11-28T00:30:00Z",
-   "state": "FUT"
-  },
-  {
-   "away": "PIT",
-   "date": "2026-11-27",
-   "home": "BUF",
-   "start": "2026-11-28T01:00:00Z",
-   "state": "FUT"
-  },
-  {
-   "away": "SEA",
-   "date": "2026-11-27",
-   "home": "EDM",
-   "start": "2026-11-28T01:00:00Z",
-   "state": "FUT"
-  },
-  {
    "away": "MTL",
    "date": "2026-11-28",
    "home": "VGK",
@@ -195,9 +90,23 @@
    "home": "SEA",
    "start": "2026-11-29T03:00:00Z",
    "state": "FUT"
+  },
+  {
+   "away": "MIN",
+   "date": "2026-11-29",
+   "home": "CHI",
+   "start": "2026-11-29T19:00:00Z",
+   "state": "FUT"
+  },
+  {
+   "away": "VAN",
+   "date": "2026-11-29",
+   "home": "BOS",
+   "start": "2026-11-29T22:00:00Z",
+   "state": "FUT"
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-27T19:32:37Z"
+  "fetchedAt": "2026-11-28T00:07:37Z"
  }
 }

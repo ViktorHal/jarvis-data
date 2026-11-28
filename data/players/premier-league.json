@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-27T19:33:25Z",
+  "fetchedAt": "2026-11-28T00:08:25Z",
   "league": "Premier League",
   "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
   "season": "2026/27",
@@ -24,13 +24,6 @@
    "sot": 6.0,
    "sot_p90": 0.65,
    "team": "Liverpool"
-  },
-  "Brandon Thomas-Asante": {
-   "id": "9543",
-   "minutes": 518,
-   "sot": 5.0,
-   "sot_p90": 0.87,
-   "team": "Coventry City"
   },
   "Brian Brobbey": {
    "id": "7330507",
@@ -84,20 +77,11 @@
    "shots_p90": 2.53,
    "team": "Liverpool"
   },
-  "Cole Palmer": {
-   "id": "28912747",
-   "minutes": 971,
-   "shots": 31.0,
-   "shots_p90": 2.87,
-   "sot": 10.0,
-   "sot_p90": 0.93,
-   "team": "Chelsea"
-  },
   "Dan Ndoye": {
    "id": "19978623",
-   "minutes": 670,
+   "minutes": 688,
    "shots": 21.0,
-   "shots_p90": 2.82,
+   "shots_p90": 2.75,
    "team": "Nottingham Forest"
   },
   "Diego Gómez": {
@@ -168,13 +152,6 @@
    "sot_p90": 1.74,
    "team": "Manchester City"
   },
-  "Estêvão": {
-   "id": "37701999",
-   "minutes": 242,
-   "sot": 6.0,
-   "sot_p90": 2.23,
-   "team": "Chelsea"
-  },
   "Evanilson": {
    "id": "11298616",
    "minutes": 933,
@@ -209,6 +186,13 @@
    "sot_p90": 0.83,
    "team": "Newcastle United"
   },
+  "Igor Jesus": {
+   "id": "29328429",
+   "minutes": 377,
+   "sot": 6.0,
+   "sot_p90": 1.43,
+   "team": "Nottingham Forest"
+  },
   "Igor Thiago": {
    "id": "37407204",
    "minutes": 826,
@@ -234,13 +218,6 @@
    "sot_p90": 0.76,
    "team": "Coventry City"
   },
-  "James McAtee": {
-   "id": "28575676",
-   "minutes": 911,
-   "shots": 20.0,
-   "shots_p90": 1.98,
-   "team": "Nottingham Forest"
-  },
   "Joe Willock": {
    "id": "1494447",
    "minutes": 655,
@@ -253,8 +230,6 @@
    "minutes": 527,
    "shots": 20.0,
    "shots_p90": 3.42,
-   "sot": 6.0,
-   "sot_p90": 1.02,
    "team": "Aston Villa"
   },
   "Josh King": {
@@ -332,9 +307,11 @@
   },
   "Liam Delap": {
    "id": "28912976",
-   "minutes": 772,
-   "shots": 28.0,
-   "shots_p90": 3.26,
+   "minutes": 856,
+   "shots": 29.0,
+   "shots_p90": 3.05,
+   "sot": 6.0,
+   "sot_p90": 0.63,
    "team": "Nottingham Forest"
   },
   "Marcus Tavernier": {
@@ -373,25 +350,11 @@
   },
   "Morgan Gibbs-White": {
    "id": "7926",
-   "minutes": 900,
-   "shots": 18.0,
-   "shots_p90": 1.8,
-   "team": "Nottingham Forest"
-  },
-  "Morgan Rogers": {
-   "id": "4592198",
-   "minutes": 973,
-   "shots": 28.0,
-   "shots_p90": 2.59,
-   "sot": 9.0,
-   "sot_p90": 0.83,
-   "team": "Chelsea"
-  },
-  "Murillo": {
-   "id": "37627036",
    "minutes": 990,
-   "shots": 18.0,
-   "shots_p90": 1.64,
+   "shots": 23.0,
+   "shots_p90": 2.09,
+   "sot": 6.0,
+   "sot_p90": 0.55,
    "team": "Nottingham Forest"
   },
   "Nicolas Jackson": {
@@ -433,20 +396,13 @@
    "sot_p90": 0.66,
    "team": "Fulham"
   },
-  "Pascal Groß": {
-   "id": "31504",
-   "minutes": 971,
-   "sot": 5.0,
-   "sot_p90": 0.46,
-   "team": "Brighton & Hove Albion"
-  },
   "Pedro Neto": {
    "id": "496775",
-   "minutes": 772,
-   "shots": 18.0,
-   "shots_p90": 2.1,
+   "minutes": 862,
+   "shots": 19.0,
+   "shots_p90": 1.98,
    "sot": 13.0,
-   "sot_p90": 1.52,
+   "sot_p90": 1.36,
    "team": "Chelsea"
   },
   "Rayan": {
@@ -466,13 +422,6 @@
    "sot": 7.0,
    "sot_p90": 1.08,
    "team": "Manchester City"
-  },
-  "Taiwo Awoniyi": {
-   "id": "26506",
-   "minutes": 491,
-   "sot": 5.0,
-   "sot_p90": 0.92,
-   "team": "Coventry City"
   },
   "Thierno Barry": {
    "id": "37590847",

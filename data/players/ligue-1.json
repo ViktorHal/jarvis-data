@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-27T19:33:56Z",
+  "fetchedAt": "2026-11-28T00:08:52Z",
   "league": "Ligue 1",
   "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
   "season": "2026/27",
@@ -225,11 +225,11 @@
   },
   "Ilan Kebbal": {
    "id": "529896",
-   "minutes": 837,
-   "shots": 23.0,
-   "shots_p90": 2.47,
+   "minutes": 882,
+   "shots": 25.0,
+   "shots_p90": 2.55,
    "sot": 7.0,
-   "sot_p90": 0.75,
+   "sot_p90": 0.71,
    "team": "Paris"
   },
   "Jacen Russell-Rowe": {
@@ -284,11 +284,11 @@
   },
   "Kamory Doumbia": {
    "id": "37580230",
-   "minutes": 797,
-   "shots": 18.0,
-   "shots_p90": 2.03,
+   "minutes": 870,
+   "shots": 20.0,
+   "shots_p90": 2.07,
    "sot": 7.0,
-   "sot_p90": 0.79,
+   "sot_p90": 0.72,
    "team": "Brest"
   },
   "Khvicha Kvaratskhelia": {
@@ -300,11 +300,11 @@
   },
   "Lassine Sinayoko": {
    "id": "7691269",
-   "minutes": 871,
-   "shots": 31.0,
-   "shots_p90": 3.2,
-   "sot": 16.0,
-   "sot_p90": 1.65,
+   "minutes": 961,
+   "shots": 34.0,
+   "shots_p90": 3.18,
+   "sot": 19.0,
+   "sot_p90": 1.78,
    "team": "Paris"
   },
   "Louis Mafouta": {
@@ -327,21 +327,12 @@
   },
   "Luca Koleosho": {
    "id": "37622998",
-   "minutes": 627,
-   "shots": 20.0,
-   "shots_p90": 2.87,
-   "sot": 7.0,
-   "sot_p90": 1.0,
+   "minutes": 707,
+   "shots": 23.0,
+   "shots_p90": 2.93,
+   "sot": 9.0,
+   "sot_p90": 1.15,
    "team": "Paris"
-  },
-  "Ludovic Ajorque": {
-   "id": "98457",
-   "minutes": 982,
-   "shots": 31.0,
-   "shots_p90": 2.84,
-   "sot": 12.0,
-   "sot_p90": 1.1,
-   "team": "Brest"
   },
   "Ludovic Blas": {
    "id": "96610",
@@ -407,9 +398,9 @@
   },
   "Noah Edjouma": {
    "id": "37709432",
-   "minutes": 207,
+   "minutes": 270,
    "sot": 6.0,
-   "sot_p90": 2.61,
+   "sot_p90": 2.0,
    "team": "LOSC Lille"
   },
   "Ousmane Dembélé": {
@@ -421,11 +412,11 @@
   },
   "Pablo Pagis": {
    "id": "37536423",
-   "minutes": 847,
-   "shots": 23.0,
-   "shots_p90": 2.44,
-   "sot": 7.0,
-   "sot_p90": 0.74,
+   "minutes": 937,
+   "shots": 25.0,
+   "shots_p90": 2.4,
+   "sot": 8.0,
+   "sot_p90": 0.77,
    "team": "Paris"
   },
   "Paris Brunner": {
@@ -439,19 +430,12 @@
   },
   "Pathé Mboup": {
    "id": "37644042",
-   "minutes": 807,
-   "shots": 30.0,
-   "shots_p90": 3.35,
-   "sot": 12.0,
-   "sot_p90": 1.34,
+   "minutes": 880,
+   "shots": 33.0,
+   "shots_p90": 3.38,
+   "sot": 13.0,
+   "sot_p90": 1.33,
    "team": "Brest"
-  },
-  "Pierre-Emile Højbjerg": {
-   "id": "1744",
-   "minutes": 714,
-   "shots": 14.0,
-   "shots_p90": 1.76,
-   "team": "Olympique Marseille"
   },
   "Rayan Fofana": {
    "id": "37719366",

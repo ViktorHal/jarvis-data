@@ -58754,6 +58754,284 @@
     }
    ],
    "utc": "2026-11-25T20:00:00Z"
+  },
+  {
+   "away": "Middlesbrough",
+   "home": "Southampton",
+   "id": "5836965",
+   "players": [
+    {
+     "id": 949321,
+     "minutes": 90,
+     "name": "Daniel Peretz",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 539939,
+     "minutes": 90,
+     "name": "James Bree",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 215387,
+     "minutes": 90,
+     "name": "Jack Stephens",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 900523,
+     "minutes": 90,
+     "name": "Keven Schlotterbeck",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 435513,
+     "minutes": 90,
+     "name": "Ryan Manning",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 844943,
+     "minutes": 90,
+     "name": "Flynn Downes",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 279490,
+     "minutes": 90,
+     "name": "James Ward-Prowse",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1098752,
+     "minutes": 82,
+     "name": "Lewis Dobbin",
+     "shots": 5,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 883079,
+     "minutes": 90,
+     "name": "Finn Azaz",
+     "shots": 3,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1336906,
+     "minutes": 89,
+     "name": "Kuryu Matsuki",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 544312,
+     "minutes": 76,
+     "name": "Cyle Larin",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1130774,
+     "minutes": 14,
+     "name": "Samuel Edozie",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1328857,
+     "minutes": 8,
+     "name": "Caspar Jander",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1118192,
+     "minutes": 1,
+     "name": "Welington",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1360352,
+     "minutes": 90,
+     "name": "Radek Vítek",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 190666,
+     "minutes": 69,
+     "name": "Luke Ayling",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1290962,
+     "minutes": 90,
+     "name": "Ashley Phillips",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1218243,
+     "minutes": 90,
+     "name": "Adilson Malanda",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 716852,
+     "minutes": 90,
+     "name": "Callum Brittain",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1136097,
+     "minutes": 90,
+     "name": "Aidan Morris",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1136096,
+     "minutes": 69,
+     "name": "Sebastian Berhalter",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 917628,
+     "minutes": 86,
+     "name": "Neto Borges",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1254170,
+     "minutes": 69,
+     "name": "Amario Cozier-Duberry",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1127480,
+     "minutes": 76,
+     "name": "Tommy Conway",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1417094,
+     "minutes": 90,
+     "name": "Will Lankshear",
+     "shots": 5,
+     "sot": 4,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1113813,
+     "minutes": 21,
+     "name": "Myles Peart-Harris",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 733486,
+     "minutes": 21,
+     "name": "Riley McGree",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 940594,
+     "minutes": 21,
+     "name": "David Strelec",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1184465,
+     "minutes": 14,
+     "name": "Kyle Joseph",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1348329,
+     "minutes": 4,
+     "name": "Max Arfsten",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-27T20:00:00Z"
   }
  ]
 }

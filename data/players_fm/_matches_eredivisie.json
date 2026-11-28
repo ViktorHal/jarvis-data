@@ -33857,6 +33857,266 @@
     }
    ],
    "utc": "2026-11-22T15:45:00Z"
+  },
+  {
+   "away": "Willem II",
+   "home": "FC Groningen",
+   "id": "5781815",
+   "players": [
+    {
+     "id": 665170,
+     "minutes": 90,
+     "name": "Etienne Vaessen",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 485047,
+     "minutes": 90,
+     "name": "Hans Hateboer",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1256173,
+     "minutes": 90,
+     "name": "Thijmen Blokzijl",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1436365,
+     "minutes": 80,
+     "name": "Márk Csinger",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1552425,
+     "minutes": 66,
+     "name": "Wouter Prins",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1256176,
+     "minutes": 90,
+     "name": "Tika de Jonge",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 637741,
+     "minutes": 90,
+     "name": "Pelle Clement",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1419385,
+     "minutes": 90,
+     "name": "Jorg Schreuders",
+     "shots": 5,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1412105,
+     "minutes": 90,
+     "name": "Thom van Bergen",
+     "shots": 9,
+     "sot": 5,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1695991,
+     "minutes": 66,
+     "name": "David van der Werff",
+     "shots": 3,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 937032,
+     "minutes": 90,
+     "name": "Brynjólfur Willumsson",
+     "shots": 6,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1426704,
+     "minutes": 24,
+     "name": "Tygo Land",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1109476,
+     "minutes": 24,
+     "name": "Jacob Ondrejka",
+     "shots": 2,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 560109,
+     "minutes": 10,
+     "name": "Oskar Zawada",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1034810,
+     "minutes": 90,
+     "name": "Maxime Delanghe",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 574234,
+     "minutes": 90,
+     "name": "Hidde ter Avest",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1282595,
+     "minutes": 51,
+     "name": "Finn Stam",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1286065,
+     "minutes": 90,
+     "name": "Maxim Dekker",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1381282,
+     "minutes": 90,
+     "name": "Mats Lemmens",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1196739,
+     "minutes": 90,
+     "name": "Calvin Twigt",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1609512,
+     "minutes": 90,
+     "name": "Kasper Boogaard",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1708116,
+     "minutes": 71,
+     "name": "Eser Gürbüz",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 304000,
+     "minutes": 90,
+     "name": "Tonny Vilhena",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 521471,
+     "minutes": 71,
+     "name": "Vito van Crooij",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1236033,
+     "minutes": 90,
+     "name": "Devin Haen",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1667951,
+     "minutes": 39,
+     "name": "Per van Loon",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1460076,
+     "minutes": 19,
+     "name": "Amine Et-Taïbi",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1370583,
+     "minutes": 19,
+     "name": "Jaden Slory",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-27T19:00:00Z"
   }
  ]
 }

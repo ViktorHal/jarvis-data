@@ -31452,6 +31452,284 @@
     }
    ],
    "utc": "2026-11-23T20:00:00Z"
+  },
+  {
+   "away": "Chelsea",
+   "home": "Nottingham Forest",
+   "id": "5795533",
+   "players": [
+    {
+     "id": 181069,
+     "minutes": 90,
+     "name": "Matz Sels",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1391209,
+     "minutes": 90,
+     "name": "Jair Cunha",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 766611,
+     "minutes": 90,
+     "name": "Nikola Milenković",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1458711,
+     "minutes": 90,
+     "name": "Murillo",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 859282,
+     "minutes": 90,
+     "name": "Daniel Muñoz",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1107648,
+     "minutes": 89,
+     "name": "James McAtee",
+     "shots": 2,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 620027,
+     "minutes": 84,
+     "name": "Xaver Schlager",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1078788,
+     "minutes": 90,
+     "name": "Neco Williams",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1082102,
+     "minutes": 72,
+     "name": "Igor Jesus",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 789502,
+     "minutes": 90,
+     "name": "Morgan Gibbs-White",
+     "shots": 5,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1113903,
+     "minutes": 84,
+     "name": "Liam Delap",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1022649,
+     "minutes": 18,
+     "name": "Dan Ndoye",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 795371,
+     "minutes": 6,
+     "name": "Ibrahim Sangaré",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 169719,
+     "minutes": 6,
+     "name": "Chris Wood",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 775614,
+     "minutes": 1,
+     "name": "Ryan Yates",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 268375,
+     "minutes": 90,
+     "name": "Emiliano Martínez",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1400216,
+     "minutes": 85,
+     "name": "Josh Acheampong",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 917802,
+     "minutes": 56,
+     "name": "Wesley Fofana",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1137668,
+     "minutes": 90,
+     "name": "Moisés Caicedo",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 988805,
+     "minutes": 90,
+     "name": "Pep Chavarría",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1190867,
+     "minutes": 90,
+     "name": "Roméo Lavia",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 156008,
+     "minutes": 85,
+     "name": "Jordan Henderson",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 843040,
+     "minutes": 90,
+     "name": "Pedro Neto",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1096353,
+     "minutes": 90,
+     "name": "Cole Palmer",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 883080,
+     "minutes": 90,
+     "name": "Morgan Rogers",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 113836,
+     "minutes": 45,
+     "name": "Danny Welbeck",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1183148,
+     "minutes": 45,
+     "name": "Emanuel Emegha",
+     "shots": 2,
+     "sot": 2,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1096400,
+     "minutes": 34,
+     "name": "Levi Colwill",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1473806,
+     "minutes": 5,
+     "name": "Marco Palestra",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1530314,
+     "minutes": 5,
+     "name": "Geovany Quenda",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-27T20:00:00Z"
   }
  ]
 }

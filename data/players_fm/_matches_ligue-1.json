@@ -28637,6 +28637,284 @@
     }
    ],
    "utc": "2026-11-22T19:45:00Z"
+  },
+  {
+   "away": "Paris FC",
+   "home": "Brest",
+   "id": "5803002",
+   "players": [
+    {
+     "id": 631757,
+     "minutes": 90,
+     "name": "Egil Selvik",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1592417,
+     "minutes": 90,
+     "name": "Luck Zogbé",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 612277,
+     "minutes": 90,
+     "name": "Lucas Tousart",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 420731,
+     "minutes": 90,
+     "name": "Gautier Lloris",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1285784,
+     "minutes": 90,
+     "name": "Bradley Locko",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1079548,
+     "minutes": 90,
+     "name": "Joris Chotard",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 812415,
+     "minutes": 90,
+     "name": "Hugo Magnetti",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1603990,
+     "minutes": 63,
+     "name": "Noah Edjouma",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1310270,
+     "minutes": 73,
+     "name": "Kamory Doumbia",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1514456,
+     "minutes": 73,
+     "name": "Pathé Mboup",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 471153,
+     "minutes": 90,
+     "name": "Ludovic Ajorque",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1441955,
+     "minutes": 27,
+     "name": "Giovani Versini",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1231909,
+     "minutes": 17,
+     "name": "Mamady Diambou",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 541933,
+     "minutes": 17,
+     "name": "Mama Baldé",
+     "shots": 2,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 145550,
+     "minutes": 90,
+     "name": "Kevin Trapp",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1513317,
+     "minutes": 45,
+     "name": "Adama Camara",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1039219,
+     "minutes": 90,
+     "name": "Samir Chergui",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1321562,
+     "minutes": 90,
+     "name": "Diego Coppola",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 426892,
+     "minutes": 80,
+     "name": "Hamari Traoré",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 614207,
+     "minutes": 90,
+     "name": "Maxime Lopez",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 660462,
+     "minutes": 73,
+     "name": "Pierre Lees-Melou",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1368318,
+     "minutes": 80,
+     "name": "Luca Koleosho",
+     "shots": 3,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1331097,
+     "minutes": 90,
+     "name": "Pablo Pagis",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 467486,
+     "minutes": 45,
+     "name": "Moses Simon",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 923196,
+     "minutes": 90,
+     "name": "Lassine Sinayoko",
+     "shots": 3,
+     "sot": 3,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1738340,
+     "minutes": 45,
+     "name": "Rudy Matondo",
+     "shots": 2,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 999690,
+     "minutes": 45,
+     "name": "Ilan Kebbal",
+     "shots": 2,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1709839,
+     "minutes": 17,
+     "name": "Patrick Zabi",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1190113,
+     "minutes": 10,
+     "name": "Otávio",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 637745,
+     "minutes": 10,
+     "name": "Jonathan Ikoné",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-27T19:45:00Z"
   }
  ]
 }

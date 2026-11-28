@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-27T19:33:49Z",
+  "fetchedAt": "2026-11-28T00:08:47Z",
   "league": "Bundesliga",
   "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
   "season": "2026/27",
@@ -61,28 +61,12 @@
    "sot_p90": 1.79,
    "team": "FC Bayern München"
   },
-  "Bambasé Conté": {
-   "id": "37538103",
-   "minutes": 465,
-   "shots": 15.0,
-   "shots_p90": 2.9,
-   "team": "TSG Hoffenheim"
-  },
   "Bilal El Khannouss": {
    "id": "37559109",
    "minutes": 497,
    "sot": 7.0,
    "sot_p90": 1.27,
    "team": "VfB Stuttgart"
-  },
-  "Can Uzun": {
-   "id": "37598726",
-   "minutes": 580,
-   "shots": 15.0,
-   "shots_p90": 2.33,
-   "sot": 6.0,
-   "sot_p90": 0.93,
-   "team": "Eintracht Frankfurt"
   },
   "Christopher Nkunku": {
    "id": "96884",
@@ -95,11 +79,11 @@
   },
   "Chuki": {
    "id": "37589995",
-   "minutes": 726,
-   "shots": 17.0,
-   "shots_p90": 2.11,
-   "sot": 7.0,
-   "sot_p90": 0.87,
+   "minutes": 805,
+   "shots": 18.0,
+   "shots_p90": 2.01,
+   "sot": 8.0,
+   "sot_p90": 0.89,
    "team": "Werder Bremen"
   },
   "Cole Campbell": {
@@ -138,6 +122,15 @@
    "shots": 17.0,
    "shots_p90": 3.92,
    "team": "VfB Stuttgart"
+  },
+  "Eren Dinkçi": {
+   "id": "37266184",
+   "minutes": 713,
+   "shots": 18.0,
+   "shots_p90": 2.27,
+   "sot": 6.0,
+   "sot_p90": 0.76,
+   "team": "Werder Bremen"
   },
   "Ermedin Demirovic": {
    "id": "46092",
@@ -254,6 +247,13 @@
    "sot_p90": 2.24,
    "team": "FC Bayern München"
   },
+  "Joe Scally": {
+   "id": "17158438",
+   "minutes": 862,
+   "shots": 15.0,
+   "shots_p90": 1.57,
+   "team": "Borussia Mönchengladbach"
+  },
   "Jonathan Burkardt": {
    "id": "3862683",
    "minutes": 758,
@@ -277,12 +277,14 @@
    "shots_p90": 2.17,
    "team": "Schalke 04"
   },
-  "Konstantinos Karetsas": {
-   "id": "37679641",
-   "minutes": 353,
+  "Ludovit Reis": {
+   "id": "2846904",
+   "minutes": 939,
+   "shots": 16.0,
+   "shots_p90": 1.53,
    "sot": 6.0,
-   "sot_p90": 1.53,
-   "team": "Borussia Dortmund"
+   "sot_p90": 0.58,
+   "team": "Werder Bremen"
   },
   "Luis Díaz": {
    "id": "241036",
@@ -384,11 +386,11 @@
   },
   "Niclas Füllkrug": {
    "id": "31532",
-   "minutes": 836,
-   "shots": 38.0,
-   "shots_p90": 4.09,
-   "sot": 22.0,
-   "sot_p90": 2.37,
+   "minutes": 926,
+   "shots": 43.0,
+   "shots_p90": 4.18,
+   "sot": 23.0,
+   "sot_p90": 2.24,
    "team": "Werder Bremen"
   },
   "Patrik Schick": {
@@ -427,13 +429,6 @@
    "sot_p90": 1.19,
    "team": "FC Köln"
   },
-  "Santiago Castañeda": {
-   "id": "37627017",
-   "minutes": 900,
-   "shots": 15.0,
-   "shots_p90": 1.5,
-   "team": "Paderborn"
-  },
   "Serhou Guirassy": {
    "id": "32695",
    "minutes": 701,
@@ -451,13 +446,6 @@
    "sot": 10.0,
    "sot_p90": 1.2,
    "team": "FSV Mainz 05"
-  },
-  "Stefano Marino": {
-   "id": "37582282",
-   "minutes": 667,
-   "shots": 15.0,
-   "shots_p90": 2.02,
-   "team": "Paderborn"
   },
   "Steffen Tigges": {
    "id": "38588",
@@ -490,6 +478,13 @@
    "sot": 7.0,
    "sot_p90": 1.46,
    "team": "FC Union Berlin"
+  },
+  "Wael Mohya": {
+   "id": "37711376",
+   "minutes": 715,
+   "shots": 18.0,
+   "shots_p90": 2.27,
+   "team": "Borussia Mönchengladbach"
   },
   "Younes Ebnoutalib": {
    "id": "37685381",

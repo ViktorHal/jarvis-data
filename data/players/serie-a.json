@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-27T19:33:42Z",
+  "fetchedAt": "2026-11-28T00:08:41Z",
   "league": "Serie A",
   "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
   "season": "2026/27",
@@ -103,13 +103,6 @@
    "sot_p90": 0.77,
    "team": "Lazio"
   },
-  "Diego Moreira": {
-   "id": "37592734",
-   "minutes": 575,
-   "sot": 7.0,
-   "sot_p90": 1.1,
-   "team": "AC Milan"
-  },
   "Domenico Berardi": {
    "id": "129553",
    "minutes": 710,
@@ -162,11 +155,11 @@
   },
   "Federico Bernardeschi": {
    "id": "129429",
-   "minutes": 862,
-   "shots": 34.0,
-   "shots_p90": 3.55,
+   "minutes": 918,
+   "shots": 35.0,
+   "shots_p90": 3.43,
    "sot": 12.0,
-   "sot_p90": 1.25,
+   "sot_p90": 1.18,
    "team": "Bologna"
   },
   "Federico Dimarco": {
@@ -233,18 +226,20 @@
   },
   "Jens Odgaard": {
    "id": "84495",
-   "minutes": 638,
-   "shots": 19.0,
+   "minutes": 704,
+   "shots": 21.0,
    "shots_p90": 2.68,
+   "sot": 7.0,
+   "sot_p90": 0.89,
    "team": "Bologna"
   },
   "John Yeboah": {
    "id": "3861724",
-   "minutes": 788,
-   "shots": 32.0,
-   "shots_p90": 3.65,
-   "sot": 9.0,
-   "sot_p90": 1.03,
+   "minutes": 858,
+   "shots": 35.0,
+   "shots_p90": 3.67,
+   "sot": 11.0,
+   "sot_p90": 1.15,
    "team": "Venezia"
   },
   "Junior Messias": {
@@ -467,9 +462,9 @@
   },
   "Tommaso Pobega": {
    "id": "896234",
-   "minutes": 825,
-   "shots": 17.0,
-   "shots_p90": 1.85,
+   "minutes": 913,
+   "shots": 18.0,
+   "shots_p90": 1.77,
    "team": "Bologna"
   },
   "Éderson": {

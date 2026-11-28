@@ -26117,6 +26117,293 @@
     }
    ],
    "utc": "2026-11-22T16:30:00Z"
+  },
+  {
+   "away": "Borussia Mönchengladbach",
+   "home": "Werder Bremen",
+   "id": "5881241",
+   "players": [
+    {
+     "id": 982692,
+     "minutes": 90,
+     "name": "Karl Hein",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1353457,
+     "minutes": 90,
+     "name": "Arthur",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 765998,
+     "minutes": 90,
+     "name": "Amos Pieper",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 767789,
+     "minutes": 90,
+     "name": "Marco Friedl",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 969856,
+     "minutes": 72,
+     "name": "Olivier Deman",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 869326,
+     "minutes": 90,
+     "name": "Ludovit Reis",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1111980,
+     "minutes": 86,
+     "name": "Youri Regeer",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1146376,
+     "minutes": 90,
+     "name": "Eren Dinkçi",
+     "shots": 4,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1315344,
+     "minutes": 79,
+     "name": "Chuki",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1810868,
+     "minutes": 45,
+     "name": "Paul Erevbenagie",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 276791,
+     "minutes": 90,
+     "name": "Niclas Füllkrug",
+     "shots": 5,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1714103,
+     "minutes": 45,
+     "name": "Mick Schmetgens",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 298823,
+     "minutes": 18,
+     "name": "Mitchell Weiser",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 726956,
+     "minutes": 11,
+     "name": "Cedric Itten",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 919742,
+     "minutes": 4,
+     "name": "Senne Lynen",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 212873,
+     "minutes": 90,
+     "name": "Daniel Batz",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 566158,
+     "minutes": 90,
+     "name": "Kevin Diks",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 951918,
+     "minutes": 90,
+     "name": "Philipp Sander",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1276331,
+     "minutes": 90,
+     "name": "Fabio Chiarodia",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 959696,
+     "minutes": 90,
+     "name": "Joseph Scally",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1337143,
+     "minutes": 84,
+     "name": "Zento Uno",
+     "shots": 2,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 764507,
+     "minutes": 75,
+     "name": "Florian Neuhaus",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1185902,
+     "minutes": 75,
+     "name": "Jens Castrop",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 501543,
+     "minutes": 84,
+     "name": "Franck Honorat",
+     "shots": 5,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1793874,
+     "minutes": 90,
+     "name": "Wael Mohya",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 915111,
+     "minutes": 89,
+     "name": "Shuto Machino",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1356589,
+     "minutes": 15,
+     "name": "David Herold",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1975572,
+     "minutes": 15,
+     "name": "Mathieu Nguefack",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 620917,
+     "minutes": 6,
+     "name": "Ko Itakura",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1838513,
+     "minutes": 6,
+     "name": "Fritz Fleck",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 442728,
+     "minutes": 1,
+     "name": "Tim Kleindienst",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-27T19:30:00Z"
   }
  ]
 }

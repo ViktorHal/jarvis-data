@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-27T19:33:36Z",
+  "fetchedAt": "2026-11-28T00:08:36Z",
   "league": "La Liga",
   "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
   "season": "2026/27",
@@ -9,9 +9,9 @@
  "players": {
   "Adrián Dela": {
    "id": "4545454",
-   "minutes": 854,
-   "shots": 22.0,
-   "shots_p90": 2.32,
+   "minutes": 944,
+   "shots": 25.0,
+   "shots_p90": 2.38,
    "team": "Levante"
   },
   "Adrián Niño Heredia": {
@@ -154,10 +154,10 @@
   },
   "Iván Romero": {
    "id": "37380652",
-   "minutes": 905,
-   "shots": 24.0,
-   "shots_p90": 2.39,
-   "sot": 12.0,
+   "minutes": 980,
+   "shots": 28.0,
+   "shots_p90": 2.57,
+   "sot": 13.0,
    "sot_p90": 1.19,
    "team": "Levante"
   },
@@ -307,11 +307,11 @@
   },
   "Pablo García": {
    "id": "37722328",
-   "minutes": 417,
-   "shots": 21.0,
-   "shots_p90": 4.53,
-   "sot": 8.0,
-   "sot_p90": 1.73,
+   "minutes": 446,
+   "shots": 23.0,
+   "shots_p90": 4.64,
+   "sot": 10.0,
+   "sot_p90": 2.02,
    "team": "Real Betis"
   },
   "Pape Gueye": {
@@ -371,15 +371,6 @@
    "sot_p90": 1.51,
    "team": "Rayo Vallecano"
   },
-  "Sergio Canales": {
-   "id": "185400",
-   "minutes": 972,
-   "shots": 30.0,
-   "shots_p90": 2.78,
-   "sot": 10.0,
-   "sot_p90": 0.93,
-   "team": "Racing Santander"
-  },
   "Tajon Buchanan": {
    "id": "31238822",
    "minutes": 711,
@@ -407,11 +398,11 @@
   },
   "Yassir Zabiri": {
    "id": "37739178",
-   "minutes": 889,
-   "shots": 33.0,
-   "shots_p90": 3.34,
-   "sot": 18.0,
-   "sot_p90": 1.82,
+   "minutes": 979,
+   "shots": 39.0,
+   "shots_p90": 3.59,
+   "sot": 21.0,
+   "sot_p90": 1.93,
    "team": "Racing Santander"
   },
   "Álex Baena": {

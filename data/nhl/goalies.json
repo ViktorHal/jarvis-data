@@ -41,11 +41,11 @@
    "team": "TBL"
   },
   "Anthony Stolarz": {
-   "gaa": 2.76471,
-   "gp": 12,
-   "gs": 12,
-   "shots_against": 338,
-   "sv_pct": 0.90236,
+   "gaa": 2.6283,
+   "gp": 13,
+   "gs": 13,
+   "shots_against": 367,
+   "sv_pct": 0.90735,
    "team": "TOR"
   },
   "Anton Forsberg": {
@@ -113,11 +113,11 @@
    "team": "VGK"
   },
   "Casey DeSmith": {
-   "gaa": 2.36363,
-   "gp": 6,
-   "gs": 5,
-   "shots_against": 139,
-   "sv_pct": 0.90647,
+   "gaa": 2.62886,
+   "gp": 7,
+   "gs": 6,
+   "shots_against": 158,
+   "sv_pct": 0.8924,
    "team": "DAL"
   },
   "Charlie Lindgren": {
@@ -161,11 +161,11 @@
    "team": "FLA"
   },
   "Dan Vladar": {
-   "gaa": 3.28788,
-   "gp": 13,
-   "gs": 13,
-   "shots_against": 340,
-   "sv_pct": 0.87647,
+   "gaa": 3.19652,
+   "gp": 14,
+   "gs": 14,
+   "shots_against": 360,
+   "sv_pct": 0.87777,
    "team": "PHI"
   },
   "Daniil Tarasov": {
@@ -185,19 +185,19 @@
    "team": "LAK"
   },
   "Dennis Hildeby": {
-   "gaa": 2.97206,
-   "gp": 6,
-   "gs": 6,
-   "shots_against": 156,
-   "sv_pct": 0.88461,
+   "gaa": 3.40117,
+   "gp": 7,
+   "gs": 7,
+   "shots_against": 177,
+   "sv_pct": 0.8644,
    "team": "TBL"
   },
   "Devin Cooley": {
-   "gaa": 2.81492,
-   "gp": 11,
-   "gs": 11,
-   "shots_against": 319,
-   "sv_pct": 0.90909,
+   "gaa": 2.92509,
+   "gp": 12,
+   "gs": 12,
+   "shots_against": 352,
+   "sv_pct": 0.90625,
    "team": "CGY"
   },
   "Devon Levi": {
@@ -265,19 +265,19 @@
    "team": "MTL"
   },
   "Jacob Markstrom": {
-   "gaa": 2.62565,
-   "gp": 14,
-   "gs": 14,
-   "shots_against": 330,
-   "sv_pct": 0.89393,
+   "gaa": 2.58199,
+   "gp": 15,
+   "gs": 15,
+   "shots_against": 356,
+   "sv_pct": 0.89606,
    "team": "FLA"
   },
   "Jake Allen": {
-   "gaa": 3.31178,
-   "gp": 11,
-   "gs": 10,
-   "shots_against": 284,
-   "sv_pct": 0.87323,
+   "gaa": 3.28551,
+   "gp": 12,
+   "gs": 11,
+   "shots_against": 313,
+   "sv_pct": 0.87539,
    "team": "NJD"
   },
   "Jake Oettinger": {
@@ -305,11 +305,11 @@
    "team": "NYR"
   },
   "Jeremy Swayman": {
-   "gaa": 2.67357,
-   "gp": 18,
-   "gs": 18,
-   "shots_against": 478,
-   "sv_pct": 0.90167,
+   "gaa": 2.69978,
+   "gp": 19,
+   "gs": 19,
+   "shots_against": 496,
+   "sv_pct": 0.89919,
    "team": "BOS"
   },
   "Jesper Wallstedt": {
@@ -321,19 +321,19 @@
    "team": "MIN"
   },
   "Jet Greaves": {
-   "gaa": 3.42027,
-   "gp": 11,
-   "gs": 10,
-   "shots_against": 265,
-   "sv_pct": 0.87547,
+   "gaa": 3.30223,
+   "gp": 12,
+   "gs": 11,
+   "shots_against": 286,
+   "sv_pct": 0.87762,
    "team": "CBJ"
   },
   "Joel Hofer": {
-   "gaa": 2.31987,
-   "gp": 18,
-   "gs": 18,
-   "shots_against": 525,
-   "sv_pct": 0.92,
+   "gaa": 2.35547,
+   "gp": 19,
+   "gs": 19,
+   "shots_against": 553,
+   "sv_pct": 0.91862,
    "team": "STL"
   },
   "Joey Daccord": {
@@ -345,11 +345,11 @@
    "team": "SEA"
   },
   "John Gibson": {
-   "gaa": 3.54219,
-   "gp": 14,
-   "gs": 14,
-   "shots_against": 319,
-   "sv_pct": 0.86206,
+   "gaa": 3.27828,
+   "gp": 15,
+   "gs": 15,
+   "shots_against": 337,
+   "sv_pct": 0.86943,
    "team": "DET"
   },
   "Jonas Johansson": {
@@ -393,19 +393,19 @@
    "team": "NSH"
   },
   "Juuse Saros": {
-   "gaa": 2.41245,
-   "gp": 18,
-   "gs": 17,
-   "shots_against": 523,
-   "sv_pct": 0.91778,
+   "gaa": 2.53867,
+   "gp": 19,
+   "gs": 18,
+   "shots_against": 558,
+   "sv_pct": 0.91397,
    "team": "NSH"
   },
   "Karel Vejmelka": {
-   "gaa": 3.13706,
-   "gp": 17,
-   "gs": 16,
-   "shots_against": 393,
-   "sv_pct": 0.87277,
+   "gaa": 3.22942,
+   "gp": 18,
+   "gs": 17,
+   "shots_against": 414,
+   "sv_pct": 0.86714,
    "team": "UTA"
   },
   "Kevin Lankinen": {
@@ -425,27 +425,27 @@
    "team": "ANA"
   },
   "Leevi Merilainen": {
-   "gaa": 3.57052,
-   "gp": 19,
-   "gs": 17,
-   "shots_against": 547,
-   "sv_pct": 0.88482,
+   "gaa": 3.5979,
+   "gp": 20,
+   "gs": 18,
+   "shots_against": 575,
+   "sv_pct": 0.88347,
    "team": "VAN"
   },
   "Linus Ullmark": {
-   "gaa": 1.63214,
-   "gp": 14,
-   "gs": 14,
-   "shots_against": 336,
-   "sv_pct": 0.93452,
+   "gaa": 1.65755,
+   "gp": 15,
+   "gs": 15,
+   "shots_against": 356,
+   "sv_pct": 0.93258,
    "team": "OTT"
   },
   "Logan Thompson": {
-   "gaa": 3.39152,
-   "gp": 16,
-   "gs": 16,
-   "shots_against": 399,
-   "sv_pct": 0.87719,
+   "gaa": 3.36733,
+   "gp": 17,
+   "gs": 17,
+   "shots_against": 430,
+   "sv_pct": 0.87906,
    "team": "WSH"
   },
   "Lukas Dostal": {
@@ -634,7 +634,7 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-27T19:32:36Z",
+  "fetchedAt": "2026-11-28T00:07:37Z",
   "season": "2026-27",
   "source": "https://api.nhle.com/stats/rest/en/goalie/summary?limit=-1&cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
  }

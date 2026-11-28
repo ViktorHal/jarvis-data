@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-27T19:33:31Z",
+  "fetchedAt": "2026-11-28T00:08:30Z",
   "league": "Championship",
   "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
   "season": "2026/27",
@@ -18,11 +18,11 @@
   },
   "Amario Cozier-Duberry": {
    "id": "37565028",
-   "minutes": 926,
-   "shots": 41.0,
-   "shots_p90": 3.98,
+   "minutes": 995,
+   "shots": 43.0,
+   "shots_p90": 3.89,
    "sot": 13.0,
-   "sot_p90": 1.26,
+   "sot_p90": 1.18,
    "team": "Middlesbrough"
   },
   "Anthony Musaba": {
@@ -43,11 +43,11 @@
   },
   "Cyle Larin": {
    "id": "262216",
-   "minutes": 827,
-   "shots": 41.0,
-   "shots_p90": 4.46,
-   "sot": 14.0,
-   "sot_p90": 1.52,
+   "minutes": 903,
+   "shots": 43.0,
+   "shots_p90": 4.29,
+   "sot": 15.0,
+   "sot_p90": 1.5,
    "team": "Southampton"
   },
   "Dom Ballard": {
