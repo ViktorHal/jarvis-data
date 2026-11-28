@@ -661,6 +661,23 @@ def load_jarvis():
     return D, model
 
 
+def board_lines(markets, cap=30):
+    """The lines the board keeps for one match.
+
+    Probability alone is the wrong window now that his own bookmakers price the board: a 1X2 line or an
+    Over 2.5 sits at 20-50 %, so the old "top 25 by probability" threw away every line he could actually bet
+    - the Porto-Sporting draw at Svenska Spel 3.55 against a fair 3.44 never reached the board at all.
+    Lines are chosen by what they are worth (posted, then priced by his books, then priced by Pinnacle, then
+    the strong ones) and shown by probability, as before.
+    """
+    def worth(x):
+        return (0 if x["v1"]["post"] or x["v2"]["post"] else 1 if x.get("bookPrice") else
+                2 if x.get("odds") else 3, -x["prob"])
+    keep = [x for x in markets if x["v1"]["post"] or x["v2"]["post"] or x.get("bookPrice")
+            or (97 > x["prob"] >= 60)]
+    return sorted(sorted(keep, key=worth)[:cap], key=lambda x: -x["prob"])
+
+
 def build(now=None):
     now = now or datetime.now(timezone.utc)
     if isinstance(now, str):
@@ -738,13 +755,12 @@ def build(now=None):
     board = []
     pm = {m["id"]: m for m in matches}
     for r in out["matches"]:
-        rows = sorted(r["markets"], key=lambda x: -x["prob"])
-        keep = [x for x in rows if x["v1"]["post"] or x["v2"]["post"] or (x["prob"] >= 60 and x["prob"] < 97)]
+        keep = board_lines(r["markets"])
         board.append({"id": r["id"], "event": r["event"], "sport": r["sport"], "league": pm[r["id"]]["league"], "start": r["start"],
                       "expected": r["expected"], "goalModel": pm[r["id"]]["auto"]["goalModel"],
                       "coverage": (r.get("coverage") or {}).get("pct"),
                       "lines": [{k: x.get(k) for k in ("group", "selection", "key", "prob", "minOdds", "odds", "pMarket", "gap", "ev", "status", "anchored", "probModel", "drift", "book", "bookPrice")}
-                                | {"post": x[out["rules"]]["post"]} for x in keep[:25]]})
+                                | {"post": x[out["rules"]]["post"]} for x in keep]})
     meta = {"fetchedAt": now_iso(), "oddsFetchedAt": odds["meta"].get("fetchedAt"), "repoCommit": repo.commit,
             "decisionVersion": out["decisionVersion"], "rules": out["rules"], "profile": out["profile"],
             "matches": len(matches), "skipped": len(skipped), "products": len(out["products"]),

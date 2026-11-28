@@ -1,5 +1,6 @@
 """The odds feed that ends the price checking: budget first, then the parsing (28 Nov 2026)."""
 import json
+import inspect
 import os
 import sys
 import unittest
@@ -218,3 +219,35 @@ class Attaching(unittest.TestCase):
         self.feed("2026-11-28T15:30:00Z", home="Real Madrid", away="Barcelona")
         ms = [self.match()]
         self.assertEqual(self.A.attach_book_odds(ms, self.A.Repo(), self.now(), self.D), 0)
+
+
+class BoardWindow(unittest.TestCase):
+    """The board must keep the lines his own bookmakers priced, whatever their probability."""
+
+    def setUp(self):
+        import importlib
+        self.A = importlib.import_module("autoprice")
+
+    @staticmethod
+    def line(prob, post=False, odds=None, bookPrice=None, sel="x"):
+        return {"prob": prob, "selection": sel, "odds": odds, "bookPrice": bookPrice,
+                "v1": {"post": post}, "v2": {"post": False}}
+
+    def test_a_book_priced_line_survives_the_board_slice(self):
+        # 30 strong lines nobody can bet, plus the one his own bookmaker priced at 29 %: the old slice kept
+        # the 25 strongest and dropped the only bettable line on the match.
+        noise = [self.line(96 - i * 0.1, sel=f"n{i}") for i in range(30)]
+        book = self.line(29.1, bookPrice=3.55, odds=3.55, sel="Draw")
+        keep = self.A.board_lines(noise + [book])
+        self.assertIn(book, keep)
+        self.assertEqual(len(keep), 30)
+        self.assertEqual([x["prob"] for x in keep], sorted((x["prob"] for x in keep), reverse=True))
+
+    def test_what_the_slice_keeps_when_it_has_to_choose(self):
+        posted = self.line(12.0, post=True, bookPrice=9.0, sel="post")
+        book = self.line(29.1, bookPrice=3.55, odds=3.55, sel="book")
+        strong = self.line(88.0, sel="strong")
+        weak = self.line(11.0, odds=2.0, sel="weak")      # a Pinnacle price he cannot bet, and a long shot
+        keep = self.A.board_lines([strong, weak, book, posted], cap=2)
+        self.assertEqual([x["selection"] for x in keep], ["book", "post"])   # by worth, then by probability
+        self.assertNotIn("weak", [x["selection"] for x in self.A.board_lines([strong, weak, book, posted])])
