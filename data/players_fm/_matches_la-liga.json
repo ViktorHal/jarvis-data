@@ -38361,6 +38361,302 @@
     }
    ],
    "utc": "2026-11-28T13:00:00.000Z"
+  },
+  {
+   "away": "Athletic Club",
+   "home": "Málaga",
+   "id": "5868147",
+   "players": [
+    {
+     "id": 616538,
+     "minutes": 90,
+     "name": "Alfonso Herrero",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1668274,
+     "minutes": 90,
+     "name": "Carlos Puga",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1408529,
+     "minutes": 90,
+     "name": "Diego Murillo",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1260010,
+     "minutes": 90,
+     "name": "Ángel Recio",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1187478,
+     "minutes": 45,
+     "name": "José Salinas",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1108863,
+     "minutes": 90,
+     "name": "David Larrubia",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1669619,
+     "minutes": 66,
+     "name": "Izan Merino",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1317624,
+     "minutes": 45,
+     "name": "Dani Lorenzo",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 951739,
+     "minutes": 76,
+     "name": "Joaquín Muñoz",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 801120,
+     "minutes": 72,
+     "name": "Jens-Lys Cajuste",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1403695,
+     "minutes": 90,
+     "name": "Adrián Niño",
+     "shots": 3,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 923298,
+     "minutes": 45,
+     "name": "Pablo Martínez",
+     "shots": 4,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1669622,
+     "minutes": 45,
+     "name": "Chupe",
+     "shots": 2,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1082957,
+     "minutes": 24,
+     "name": "Ramón Enríquez",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1434474,
+     "minutes": 18,
+     "name": "Rafa Rodríguez",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 940608,
+     "minutes": 14,
+     "name": "Juan Cruz",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 660625,
+     "minutes": 90,
+     "name": "Unai Simón",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1427819,
+     "minutes": 90,
+     "name": "Hugo Rincón",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1191407,
+     "minutes": 90,
+     "name": "Aitor Paredes",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 411617,
+     "minutes": 90,
+     "name": "Aymeric Laporte",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 80295,
+     "minutes": 87,
+     "name": "Yuri Berchiche",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 282462,
+     "minutes": 45,
+     "name": "Iñigo Ruiz de Galarreta",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1425173,
+     "minutes": 72,
+     "name": "Beñat Gerenabarrena",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 574629,
+     "minutes": 72,
+     "name": "Alex Berenguer",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 950545,
+     "minutes": 62,
+     "name": "Oihan Sancet",
+     "shots": 4,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1202110,
+     "minutes": 90,
+     "name": "Nico Williams",
+     "shots": 2,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 604105,
+     "minutes": 90,
+     "name": "Iñaki Williams",
+     "shots": 4,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1585726,
+     "minutes": 45,
+     "name": "Peio Canales",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1011117,
+     "minutes": 28,
+     "name": "Robert Navarro",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1425769,
+     "minutes": 18,
+     "name": "Alejandro Rego",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1229176,
+     "minutes": 18,
+     "name": "Beñat Prados",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1327006,
+     "minutes": 3,
+     "name": "Johaneko Louis-Jean",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-28T15:15:00.000Z"
   }
  ]
 }

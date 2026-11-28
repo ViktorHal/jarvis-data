@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T16:33:29Z",
+  "fetchedAt": "2026-11-28T18:19:35Z",
   "league": "Premier League",
   "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
   "season": "2026/27",
@@ -25,6 +25,13 @@
    "sot_p90": 0.65,
    "team": "Liverpool"
   },
+  "Brandon Thomas-Asante": {
+   "id": "9543",
+   "minutes": 544,
+   "sot": 6.0,
+   "sot_p90": 0.99,
+   "team": "Coventry City"
+  },
   "Brian Brobbey": {
    "id": "7330507",
    "minutes": 623,
@@ -36,27 +43,25 @@
   },
   "Bruno Fernandes": {
    "id": "129602",
-   "minutes": 900,
-   "shots": 35.0,
-   "shots_p90": 3.5,
+   "minutes": 990,
+   "shots": 40.0,
+   "shots_p90": 3.64,
    "sot": 10.0,
-   "sot_p90": 1.0,
+   "sot_p90": 0.91,
    "team": "Manchester United"
   },
   "Bryan Mbeumo": {
    "id": "529689",
-   "minutes": 915,
-   "shots": 30.0,
-   "shots_p90": 2.95,
+   "minutes": 960,
+   "shots": 32.0,
+   "shots_p90": 3.0,
    "sot": 13.0,
-   "sot_p90": 1.28,
+   "sot_p90": 1.22,
    "team": "Manchester United"
   },
   "Bukayo Saka": {
    "id": "16827155",
    "minutes": 599,
-   "shots": 17.0,
-   "shots_p90": 2.55,
    "sot": 10.0,
    "sot_p90": 1.5,
    "team": "Arsenal"
@@ -92,15 +97,6 @@
    "sot": 11.0,
    "sot_p90": 1.03,
    "team": "Brighton & Hove Albion"
-  },
-  "Dominic Calvert-Lewin": {
-   "id": "5141",
-   "minutes": 956,
-   "shots": 25.0,
-   "shots_p90": 2.35,
-   "sot": 13.0,
-   "sot_p90": 1.22,
-   "team": "Leeds United"
   },
   "Dominic Solanke": {
    "id": "4203",
@@ -166,8 +162,6 @@
    "minutes": 886,
    "shots": 25.0,
    "shots_p90": 2.54,
-   "sot": 6.0,
-   "sot_p90": 0.61,
    "team": "Liverpool"
   },
   "Gonzalo García Torres": {
@@ -203,20 +197,27 @@
   "Iliman Ndiaye": {
    "id": "23661272",
    "minutes": 848,
-   "shots": 17.0,
-   "shots_p90": 1.8,
    "sot": 6.0,
    "sot_p90": 0.64,
    "team": "Manchester City"
   },
   "Jack Rudoni": {
    "id": "32404898",
-   "minutes": 827,
+   "minutes": 890,
    "shots": 18.0,
-   "shots_p90": 1.96,
+   "shots_p90": 1.82,
    "sot": 7.0,
-   "sot_p90": 0.76,
+   "sot_p90": 0.71,
    "team": "Coventry City"
+  },
+  "Jayden Bogle": {
+   "id": "581158",
+   "minutes": 991,
+   "shots": 18.0,
+   "shots_p90": 1.63,
+   "sot": 6.0,
+   "sot_p90": 0.54,
+   "team": "Leeds United"
   },
   "Joe Willock": {
    "id": "1494447",
@@ -282,18 +283,18 @@
   },
   "Keane Lewis-Potter": {
    "id": "28552845",
-   "minutes": 854,
-   "shots": 21.0,
-   "shots_p90": 2.21,
+   "minutes": 944,
+   "shots": 23.0,
+   "shots_p90": 2.19,
    "team": "Brentford"
   },
   "Kevin Schade": {
    "id": "27067062",
-   "minutes": 805,
-   "shots": 21.0,
-   "shots_p90": 2.35,
-   "sot": 7.0,
-   "sot_p90": 0.78,
+   "minutes": 842,
+   "shots": 23.0,
+   "shots_p90": 2.46,
+   "sot": 8.0,
+   "sot_p90": 0.86,
    "team": "Brentford"
   },
   "Kiernan Dewsbury-Hall": {
@@ -332,11 +333,11 @@
   },
   "Matheus Cunha": {
    "id": "1846739",
-   "minutes": 752,
-   "shots": 21.0,
-   "shots_p90": 2.51,
-   "sot": 8.0,
-   "sot_p90": 0.96,
+   "minutes": 779,
+   "shots": 23.0,
+   "shots_p90": 2.66,
+   "sot": 9.0,
+   "sot_p90": 1.04,
    "team": "Manchester United"
   },
   "Mohamed Belloumi": {
@@ -365,6 +366,13 @@
    "sot": 10.0,
    "sot_p90": 1.12,
    "team": "Aston Villa"
+  },
+  "Noah Okafor": {
+   "id": "4536529",
+   "minutes": 629,
+   "shots": 17.0,
+   "shots_p90": 2.43,
+   "team": "Leeds United"
   },
   "Noni Madueke": {
    "id": "25217662",
@@ -423,6 +431,13 @@
    "sot_p90": 1.08,
    "team": "Manchester City"
   },
+  "Sean Longstaff": {
+   "id": "173737",
+   "minutes": 295,
+   "sot": 6.0,
+   "sot_p90": 1.83,
+   "team": "Leeds United"
+  },
   "Thierno Barry": {
    "id": "37590847",
    "minutes": 924,
@@ -431,13 +446,6 @@
    "sot": 16.0,
    "sot_p90": 1.56,
    "team": "Everton"
-  },
-  "Víctor Muñoz": {
-   "id": "37595819",
-   "minutes": 476,
-   "sot": 6.0,
-   "sot_p90": 1.13,
-   "team": "Liverpool"
   },
   "Yasin Ayari": {
    "id": "37526157",

@@ -1,11 +1,11 @@
 {
  "meta": {
   "complete": true,
-  "fetchedAt": "2026-11-28T16:34:15Z",
-  "finished": 109,
+  "fetchedAt": "2026-11-28T18:20:30Z",
+  "finished": 110,
   "fotmobLeagueId": 40,
   "league": "belgian-pro-league",
-  "matches": 109,
+  "matches": 110,
   "note": "shots from the shot map (own goals excluded); on target = on target and not blocked; use only when complete is true (every finished match counted)",
   "source": "FotMob match data"
  },
@@ -239,15 +239,15 @@
    "team": "Anderlecht"
   },
   "Amando Lapage": {
-   "avg_start_minutes": 87.8,
-   "games": 11,
-   "lastDate": "2026-11-20",
-   "minutes": 883,
-   "shots": 10,
-   "shots_p90": 1.019,
+   "avg_start_minutes": 88.0,
+   "games": 12,
+   "lastDate": "2026-11-28",
+   "minutes": 973,
+   "shots": 12,
+   "shots_p90": 1.11,
    "sot": 5,
-   "sot_p90": 0.51,
-   "starts": 10,
+   "sot_p90": 0.462,
+   "starts": 11,
    "team": "Westerlo"
   },
   "Amine Boukamir": {
@@ -288,14 +288,14 @@
   },
   "Andreas Jungdal": {
    "avg_start_minutes": 90.0,
-   "games": 12,
-   "lastDate": "2026-11-20",
-   "minutes": 1080,
+   "games": 13,
+   "lastDate": "2026-11-28",
+   "minutes": 1170,
    "shots": 0,
    "shots_p90": 0.0,
    "sot": 0,
    "sot_p90": 0.0,
-   "starts": 12,
+   "starts": 13,
    "team": "Westerlo"
   },
   "Andrej Vasović": {
@@ -767,15 +767,15 @@
    "team": "OH Leuven"
   },
   "Cameron Congreve": {
-   "avg_start_minutes": 77.9,
-   "games": 9,
-   "lastDate": "2026-11-20",
-   "minutes": 701,
-   "shots": 16,
-   "shots_p90": 2.054,
-   "sot": 6,
-   "sot_p90": 0.77,
-   "starts": 9,
+   "avg_start_minutes": 75.8,
+   "games": 10,
+   "lastDate": "2026-11-28",
+   "minutes": 758,
+   "shots": 18,
+   "shots_p90": 2.137,
+   "sot": 7,
+   "sot_p90": 0.831,
+   "starts": 10,
    "team": "Westerlo"
   },
   "Carlos Forbs": {
@@ -983,15 +983,15 @@
    "team": "OH Leuven"
   },
   "Cisse Sandra": {
-   "avg_start_minutes": 89.9,
-   "games": 12,
-   "lastDate": "2026-11-20",
-   "minutes": 1079,
+   "avg_start_minutes": 89.0,
+   "games": 13,
+   "lastDate": "2026-11-28",
+   "minutes": 1157,
    "shots": 17,
-   "shots_p90": 1.418,
+   "shots_p90": 1.322,
    "sot": 6,
-   "sot_p90": 0.5,
-   "starts": 12,
+   "sot_p90": 0.467,
+   "starts": 13,
    "team": "Westerlo"
   },
   "Colin Coosemans": {
@@ -1211,15 +1211,15 @@
    "team": "Standard Liège"
   },
   "Djibril Lamego": {
-   "avg_start_minutes": 85.6,
-   "games": 9,
-   "lastDate": "2026-11-21",
-   "minutes": 634,
+   "avg_start_minutes": 86.1,
+   "games": 10,
+   "lastDate": "2026-11-28",
+   "minutes": 724,
    "shots": 1,
-   "shots_p90": 0.142,
+   "shots_p90": 0.124,
    "sot": 0,
    "sot_p90": 0.0,
-   "starts": 7,
+   "starts": 8,
    "team": "RAAL La Louvière"
   },
   "Djordje Gordić": {
@@ -1259,15 +1259,15 @@
    "team": "Lommel"
   },
   "Doğucan Haspolat": {
-   "avg_start_minutes": 82.0,
-   "games": 1,
-   "lastDate": "2026-11-20",
-   "minutes": 82,
-   "shots": 1,
-   "shots_p90": 1.098,
+   "avg_start_minutes": 86.0,
+   "games": 2,
+   "lastDate": "2026-11-28",
+   "minutes": 172,
+   "shots": 3,
+   "shots_p90": 1.57,
    "sot": 0,
    "sot_p90": 0.0,
-   "starts": 1,
+   "starts": 2,
    "team": "Westerlo"
   },
   "Dries Wouters": {
@@ -1320,13 +1320,13 @@
   },
   "Elias Filet": {
    "avg_start_minutes": 67.6,
-   "games": 12,
-   "lastDate": "2026-11-21",
-   "minutes": 562,
+   "games": 13,
+   "lastDate": "2026-11-28",
+   "minutes": 587,
    "shots": 14,
-   "shots_p90": 2.242,
+   "shots_p90": 2.147,
    "sot": 7,
-   "sot_p90": 1.121,
+   "sot_p90": 1.073,
    "starts": 7,
    "team": "RAAL La Louvière"
   },
@@ -1428,11 +1428,11 @@
   },
   "Fabio Ferraro": {
    "avg_start_minutes": 63.3,
-   "games": 4,
-   "lastDate": "2026-11-20",
-   "minutes": 219,
+   "games": 5,
+   "lastDate": "2026-11-28",
+   "minutes": 231,
    "shots": 1,
-   "shots_p90": 0.411,
+   "shots_p90": 0.39,
    "sot": 0,
    "sot_p90": 0.0,
    "starts": 3,
@@ -1464,13 +1464,13 @@
   },
   "Felix Emmanuel Tsimba": {
    "avg_start_minutes": null,
-   "games": 6,
-   "lastDate": "2026-11-20",
-   "minutes": 151,
+   "games": 7,
+   "lastDate": "2026-11-28",
+   "minutes": 163,
    "shots": 5,
-   "shots_p90": 2.98,
+   "shots_p90": 2.761,
    "sot": 3,
-   "sot_p90": 1.788,
+   "sot_p90": 1.656,
    "starts": 0,
    "team": "Westerlo"
   },
@@ -2039,15 +2039,15 @@
    "team": "SK Beveren"
   },
   "Isa Sakamoto": {
-   "avg_start_minutes": 76.6,
-   "games": 12,
-   "lastDate": "2026-11-20",
-   "minutes": 860,
+   "avg_start_minutes": 76.8,
+   "games": 13,
+   "lastDate": "2026-11-28",
+   "minutes": 938,
    "shots": 19,
-   "shots_p90": 1.988,
+   "shots_p90": 1.823,
    "sot": 5,
-   "sot_p90": 0.523,
-   "starts": 11,
+   "sot_p90": 0.48,
+   "starts": 12,
    "team": "Westerlo"
   },
   "Isaac Cissé": {
@@ -2075,15 +2075,15 @@
    "team": "Lommel"
   },
   "Ismaila Coulibaly": {
-   "avg_start_minutes": 86.7,
-   "games": 11,
-   "lastDate": "2026-11-21",
-   "minutes": 894,
-   "shots": 12,
-   "shots_p90": 1.208,
+   "avg_start_minutes": 87.0,
+   "games": 12,
+   "lastDate": "2026-11-28",
+   "minutes": 984,
+   "shots": 14,
+   "shots_p90": 1.28,
    "sot": 2,
-   "sot_p90": 0.201,
-   "starts": 10,
+   "sot_p90": 0.183,
+   "starts": 11,
    "team": "RAAL La Louvière"
   },
   "István Átrok": {
@@ -2759,15 +2759,15 @@
    "team": "Lommel"
   },
   "Lasse Flø": {
-   "avg_start_minutes": 90.0,
-   "games": 12,
-   "lastDate": "2026-11-20",
-   "minutes": 887,
+   "avg_start_minutes": 88.8,
+   "games": 13,
+   "lastDate": "2026-11-28",
+   "minutes": 965,
    "shots": 1,
-   "shots_p90": 0.101,
+   "shots_p90": 0.093,
    "sot": 1,
-   "sot_p90": 0.101,
-   "starts": 9,
+   "sot_p90": 0.093,
+   "starts": 10,
    "team": "Westerlo"
   },
   "Laurent Jans": {
@@ -2963,15 +2963,15 @@
    "team": "Royal Antwerp"
   },
   "Lucas Mbamba": {
-   "avg_start_minutes": 68.7,
-   "games": 7,
-   "lastDate": "2026-11-07",
-   "minutes": 281,
+   "avg_start_minutes": 74.0,
+   "games": 8,
+   "lastDate": "2026-11-28",
+   "minutes": 371,
    "shots": 4,
-   "shots_p90": 1.281,
+   "shots_p90": 0.97,
    "sot": 0,
    "sot_p90": 0.0,
-   "starts": 3,
+   "starts": 4,
    "team": "Westerlo"
   },
   "Lucas Michal": {
@@ -3119,15 +3119,15 @@
    "team": "Gent"
   },
   "Léandro Rousseau": {
-   "avg_start_minutes": 90.0,
-   "games": 9,
-   "lastDate": "2026-11-21",
-   "minutes": 232,
+   "avg_start_minutes": 77.5,
+   "games": 10,
+   "lastDate": "2026-11-28",
+   "minutes": 297,
    "shots": 8,
-   "shots_p90": 3.103,
+   "shots_p90": 2.424,
    "sot": 4,
-   "sot_p90": 1.552,
-   "starts": 1,
+   "sot_p90": 1.212,
+   "starts": 2,
    "team": "RAAL La Louvière"
   },
   "Léo Pétrot": {
@@ -3204,13 +3204,13 @@
   },
   "Mame Wade": {
    "avg_start_minutes": 79.6,
-   "games": 11,
-   "lastDate": "2026-11-21",
-   "minutes": 677,
+   "games": 12,
+   "lastDate": "2026-11-28",
+   "minutes": 689,
    "shots": 6,
-   "shots_p90": 0.798,
+   "shots_p90": 0.784,
    "sot": 1,
-   "sot_p90": 0.133,
+   "sot_p90": 0.131,
    "starts": 8,
    "team": "RAAL La Louvière"
   },
@@ -3251,15 +3251,15 @@
    "team": "Anderlecht"
   },
   "Marcos Peano": {
-   "avg_start_minutes": 89.3,
-   "games": 12,
-   "lastDate": "2026-11-21",
-   "minutes": 1072,
+   "avg_start_minutes": 89.4,
+   "games": 13,
+   "lastDate": "2026-11-28",
+   "minutes": 1162,
    "shots": 0,
    "shots_p90": 0.0,
    "sot": 0,
    "sot_p90": 0.0,
-   "starts": 12,
+   "starts": 13,
    "team": "RAAL La Louvière"
   },
   "Mardochée Nzita": {
@@ -3287,15 +3287,15 @@
    "team": "Anderlecht"
   },
   "Marius Courcoul": {
-   "avg_start_minutes": 70.6,
-   "games": 10,
-   "lastDate": "2026-11-21",
-   "minutes": 640,
-   "shots": 4,
-   "shots_p90": 0.562,
+   "avg_start_minutes": 72.5,
+   "games": 11,
+   "lastDate": "2026-11-28",
+   "minutes": 730,
+   "shots": 5,
+   "shots_p90": 0.616,
    "sot": 1,
-   "sot_p90": 0.141,
-   "starts": 9,
+   "sot_p90": 0.123,
+   "starts": 10,
    "team": "RAAL La Louvière"
   },
   "Marko Ilic": {
@@ -3552,14 +3552,14 @@
   },
   "Mehdi Boukamir": {
    "avg_start_minutes": 90.0,
-   "games": 3,
-   "lastDate": "2026-11-01",
-   "minutes": 122,
+   "games": 4,
+   "lastDate": "2026-11-28",
+   "minutes": 212,
    "shots": 4,
-   "shots_p90": 2.951,
+   "shots_p90": 1.698,
    "sot": 1,
-   "sot_p90": 0.738,
-   "starts": 1,
+   "sot_p90": 0.425,
+   "starts": 2,
    "team": "RAAL La Louvière"
   },
   "Michael Frey": {
@@ -3791,15 +3791,15 @@
    "team": "Anderlecht"
   },
   "Mustapha Isah": {
-   "avg_start_minutes": 81.8,
-   "games": 12,
-   "lastDate": "2026-11-21",
-   "minutes": 982,
-   "shots": 30,
-   "shots_p90": 2.749,
-   "sot": 13,
-   "sot_p90": 1.191,
-   "starts": 12,
+   "avg_start_minutes": 82.4,
+   "games": 13,
+   "lastDate": "2026-11-28",
+   "minutes": 1071,
+   "shots": 34,
+   "shots_p90": 2.857,
+   "sot": 15,
+   "sot_p90": 1.261,
+   "starts": 13,
    "team": "RAAL La Louvière"
   },
   "Myron van Brederode": {
@@ -3840,13 +3840,13 @@
   },
   "Naoufal Bohamdi-Kamoni": {
    "avg_start_minutes": 83.0,
-   "games": 5,
-   "lastDate": "2026-11-20",
-   "minutes": 137,
+   "games": 6,
+   "lastDate": "2026-11-28",
+   "minutes": 138,
    "shots": 3,
-   "shots_p90": 1.971,
+   "shots_p90": 1.957,
    "sot": 1,
-   "sot_p90": 0.657,
+   "sot_p90": 0.652,
    "starts": 1,
    "team": "Westerlo"
   },
@@ -3972,13 +3972,13 @@
   },
   "Nikola Storm": {
    "avg_start_minutes": null,
-   "games": 5,
-   "lastDate": "2026-11-07",
-   "minutes": 94,
-   "shots": 4,
-   "shots_p90": 3.83,
-   "sot": 2,
-   "sot_p90": 1.915,
+   "games": 6,
+   "lastDate": "2026-11-28",
+   "minutes": 127,
+   "shots": 5,
+   "shots_p90": 3.543,
+   "sot": 3,
+   "sot_p90": 2.126,
    "starts": 0,
    "team": "Westerlo"
   },
@@ -4055,27 +4055,27 @@
    "team": "Union St.Gilloise"
   },
   "Nolan Gillot": {
-   "avg_start_minutes": 83.0,
-   "games": 8,
-   "lastDate": "2026-11-21",
-   "minutes": 483,
-   "shots": 9,
-   "shots_p90": 1.677,
+   "avg_start_minutes": 84.2,
+   "games": 9,
+   "lastDate": "2026-11-28",
+   "minutes": 573,
+   "shots": 12,
+   "shots_p90": 1.885,
    "sot": 4,
-   "sot_p90": 0.745,
-   "starts": 5,
+   "sot_p90": 0.628,
+   "starts": 6,
    "team": "RAAL La Louvière"
   },
   "Norman Bassette": {
-   "avg_start_minutes": 74.2,
-   "games": 12,
-   "lastDate": "2026-11-20",
-   "minutes": 890,
-   "shots": 29,
-   "shots_p90": 2.933,
+   "avg_start_minutes": 75.4,
+   "games": 13,
+   "lastDate": "2026-11-28",
+   "minutes": 980,
+   "shots": 31,
+   "shots_p90": 2.847,
    "sot": 17,
-   "sot_p90": 1.719,
-   "starts": 12,
+   "sot_p90": 1.561,
+   "starts": 13,
    "team": "Westerlo"
   },
   "Noë Dussenne": {
@@ -4257,6 +4257,18 @@
    "sot_p90": 1.5,
    "starts": 1,
    "team": "Union St.Gilloise"
+  },
+  "Quentin Benaets": {
+   "avg_start_minutes": null,
+   "games": 1,
+   "lastDate": "2026-11-28",
+   "minutes": 1,
+   "shots": 0,
+   "shots_p90": 0.0,
+   "sot": 0,
+   "sot_p90": 0.0,
+   "starts": 0,
+   "team": "RAAL La Louvière"
   },
   "Rafiu Durosinmi": {
    "avg_start_minutes": 78.6,
@@ -4583,15 +4595,15 @@
    "team": "RAAL La Louvière"
   },
   "Seiji Kimura": {
-   "avg_start_minutes": 89.4,
-   "games": 12,
-   "lastDate": "2026-11-20",
-   "minutes": 1073,
+   "avg_start_minutes": 89.5,
+   "games": 13,
+   "lastDate": "2026-11-28",
+   "minutes": 1163,
    "shots": 4,
-   "shots_p90": 0.336,
+   "shots_p90": 0.31,
    "sot": 0,
    "sot_p90": 0.0,
-   "starts": 12,
+   "starts": 13,
    "team": "Westerlo"
   },
   "Sekou Keita": {
@@ -4643,15 +4655,15 @@
    "team": "Kortrijk"
   },
   "Shaquil Delos": {
-   "avg_start_minutes": 88.2,
-   "games": 10,
-   "lastDate": "2026-11-21",
-   "minutes": 839,
-   "shots": 8,
-   "shots_p90": 0.858,
+   "avg_start_minutes": 88.4,
+   "games": 11,
+   "lastDate": "2026-11-28",
+   "minutes": 929,
+   "shots": 9,
+   "shots_p90": 0.872,
    "sot": 2,
-   "sot_p90": 0.215,
-   "starts": 9,
+   "sot_p90": 0.194,
+   "starts": 10,
    "team": "RAAL La Louvière"
   },
   "Shawn Adewoye": {
@@ -4703,15 +4715,15 @@
    "team": "St.Truiden"
   },
   "Shunsuke Saito": {
-   "avg_start_minutes": 75.7,
-   "games": 12,
-   "lastDate": "2026-11-20",
-   "minutes": 859,
-   "shots": 18,
-   "shots_p90": 1.886,
-   "sot": 7,
-   "sot_p90": 0.733,
-   "starts": 11,
+   "avg_start_minutes": 76.8,
+   "games": 13,
+   "lastDate": "2026-11-28",
+   "minutes": 948,
+   "shots": 20,
+   "shots_p90": 1.899,
+   "sot": 8,
+   "sot_p90": 0.759,
+   "starts": 12,
    "team": "Westerlo"
   },
   "Siad Gourville": {
@@ -4992,13 +5004,13 @@
   },
   "Thomas Van den Keybus": {
    "avg_start_minutes": 45.0,
-   "games": 5,
-   "lastDate": "2026-11-20",
-   "minutes": 66,
+   "games": 6,
+   "lastDate": "2026-11-28",
+   "minutes": 78,
    "shots": 2,
-   "shots_p90": 2.727,
+   "shots_p90": 2.308,
    "sot": 1,
-   "sot_p90": 1.364,
+   "sot_p90": 1.154,
    "starts": 1,
    "team": "Westerlo"
   },
@@ -5387,15 +5399,15 @@
    "team": "Sporting Charleroi"
   },
   "Yllan Okou": {
-   "avg_start_minutes": 87.8,
-   "games": 8,
-   "lastDate": "2026-11-21",
-   "minutes": 702,
+   "avg_start_minutes": 88.0,
+   "games": 9,
+   "lastDate": "2026-11-28",
+   "minutes": 792,
    "shots": 2,
-   "shots_p90": 0.256,
+   "shots_p90": 0.227,
    "sot": 0,
    "sot_p90": 0.0,
-   "starts": 8,
+   "starts": 9,
    "team": "RAAL La Louvière"
   },
   "Yoni Gomis": {
@@ -5471,15 +5483,15 @@
    "team": "Lommel"
   },
   "Zsombor Gruber": {
-   "avg_start_minutes": 75.0,
-   "games": 11,
-   "lastDate": "2026-11-21",
-   "minutes": 591,
-   "shots": 17,
-   "shots_p90": 2.589,
-   "sot": 2,
-   "sot_p90": 0.305,
-   "starts": 5,
+   "avg_start_minutes": 75.5,
+   "games": 12,
+   "lastDate": "2026-11-28",
+   "minutes": 669,
+   "shots": 20,
+   "shots_p90": 2.691,
+   "sot": 4,
+   "sot_p90": 0.538,
+   "starts": 6,
    "team": "RAAL La Louvière"
   },
   "Álvaro Cortés": {

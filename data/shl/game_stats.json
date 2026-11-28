@@ -7649,14 +7649,124 @@
     null
    ],
    "time": "15:15"
+  },
+  {
+   "away": "Färjestad BK",
+   "codes": [
+    "SKE",
+    "FBK"
+   ],
+   "date": "2026-11-28",
+   "final": [
+    3,
+    6
+   ],
+   "goalies": [
+    [
+     "SKE",
+     "Mann, Strauss",
+     18,
+     23
+    ],
+    [
+     "FBK",
+     "Larmi, Emil",
+     30,
+     33
+    ]
+   ],
+   "goals": [
+    3,
+    6
+   ],
+   "home": "Skellefteå AIK",
+   "id": "1110076",
+   "overtime": false,
+   "reg": [
+    3,
+    6
+   ],
+   "shootout": false,
+   "shots": [
+    33,
+    24
+   ],
+   "starters": [
+    {
+     "name": "Mann, Strauss",
+     "saves": 18,
+     "shotsAgainst": 24
+    },
+    {
+     "name": "Larmi, Emil",
+     "saves": 30,
+     "shotsAgainst": 33
+    }
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Linköping HC",
+   "codes": [
+    "TIK",
+    "LHC"
+   ],
+   "date": "2026-11-28",
+   "final": [
+    6,
+    0
+   ],
+   "goalies": [
+    [
+     "TIK",
+     "Johansson, Jacob",
+     20,
+     20
+    ],
+    [
+     "LHC",
+     "Högberg, Marcus",
+     34,
+     40
+    ]
+   ],
+   "goals": [
+    6,
+    0
+   ],
+   "home": "Timrå IK",
+   "id": "1110077",
+   "overtime": false,
+   "reg": [
+    6,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    40,
+    20
+   ],
+   "starters": [
+    {
+     "name": "Johansson, Jacob",
+     "saves": 20,
+     "shotsAgainst": 20
+    },
+    {
+     "name": "Högberg, Marcus",
+     "saves": 34,
+     "shotsAgainst": 40
+    }
+   ],
+   "time": "15:15"
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T16:32:49Z",
+  "fetchedAt": "2026-11-28T18:18:57Z",
   "fetchedThisRun": 2,
-  "games": 138,
+  "games": 140,
   "note": "shots/goals incl. overtime, excl. shootout; starters = GK In at 00:00",
-  "played": 138,
+  "played": 140,
   "season": "2026/27",
   "series": "20961",
   "source": "https://stats.swehockey.se/Game/Events/<id>"

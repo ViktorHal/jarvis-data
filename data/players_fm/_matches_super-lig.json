@@ -32261,6 +32261,293 @@
     }
    ],
    "utc": "2026-11-28T13:00:00.000Z"
+  },
+  {
+   "away": "Amed Sportif",
+   "home": "Gaziantep FK",
+   "id": "5904812",
+   "players": [
+    {
+     "id": 1194358,
+     "minutes": 90,
+     "name": "Kacper Tobiasz",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 783806,
+     "minutes": 90,
+     "name": "Deian Sorescu",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1079065,
+     "minutes": 90,
+     "name": "Arda Kızıldağ",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 523380,
+     "minutes": 90,
+     "name": "Myenty Abena",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1344543,
+     "minutes": 82,
+     "name": "Efe Sarıkaya",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1051411,
+     "minutes": 63,
+     "name": "Kacper Kozłowski",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1289513,
+     "minutes": 57,
+     "name": "Ogün Özçiçek",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 951084,
+     "minutes": 90,
+     "name": "Ulrich Meleke",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 967759,
+     "minutes": 82,
+     "name": "Drissa Camara",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1637892,
+     "minutes": 63,
+     "name": "Victor Gidado",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 938521,
+     "minutes": 90,
+     "name": "Halil Dervişoğlu",
+     "shots": 5,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 317267,
+     "minutes": 33,
+     "name": "Serdar Dursun",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 766957,
+     "minutes": 27,
+     "name": "Luis Pérez",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 298923,
+     "minutes": 27,
+     "name": "Alexandru Maxim",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1211252,
+     "minutes": 8,
+     "name": "Kerim Çalhanoğlu",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1050160,
+     "minutes": 8,
+     "name": "Sontje Hansen",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 698273,
+     "minutes": 90,
+     "name": "Alban Lafont",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1697247,
+     "minutes": 90,
+     "name": "Amadou Cissé",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 751842,
+     "minutes": 85,
+     "name": "Mehmet Yeşil",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 470399,
+     "minutes": 90,
+     "name": "David Bates",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 707668,
+     "minutes": 90,
+     "name": "Umut Meraş",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 591529,
+     "minutes": 90,
+     "name": "Rayan Raveloson",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 390642,
+     "minutes": 89,
+     "name": "Furkan Soyalp",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1514624,
+     "minutes": 82,
+     "name": "Rayan Lutin",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 289473,
+     "minutes": 90,
+     "name": "Dia Saba",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1054011,
+     "minutes": 82,
+     "name": "Collins Sor",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1368557,
+     "minutes": 90,
+     "name": "Gift Orban",
+     "shots": 3,
+     "sot": 3,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1385176,
+     "minutes": 8,
+     "name": "Cem Üstündağ",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1697928,
+     "minutes": 8,
+     "name": "Mohamed Khalil",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1117176,
+     "minutes": 5,
+     "name": "Miraç Acer",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 642495,
+     "minutes": 1,
+     "name": "Gökhan Gül",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-28T16:00:00.000Z"
   }
  ]
 }

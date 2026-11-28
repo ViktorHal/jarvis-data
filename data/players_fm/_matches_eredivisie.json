@@ -34117,6 +34117,275 @@
     }
    ],
    "utc": "2026-11-27T19:00:00Z"
+  },
+  {
+   "away": "Telstar",
+   "home": "Excelsior",
+   "id": "5781816",
+   "players": [
+    {
+     "id": 510425,
+     "minutes": 90,
+     "name": "Stijn van Gassel",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1217654,
+     "minutes": 29,
+     "name": "Rick Meissen",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1159831,
+     "minutes": 90,
+     "name": "Casper Widell",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1553374,
+     "minutes": 90,
+     "name": "Jan Plug",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1613323,
+     "minutes": 90,
+     "name": "Kasey Bos",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1276314,
+     "minutes": 90,
+     "name": "Noah Naujoks",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1276311,
+     "minutes": 90,
+     "name": "Lennard Hartjes",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1434603,
+     "minutes": 90,
+     "name": "Irakli Yegoian",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1553362,
+     "minutes": 90,
+     "name": "Aymen Sliti",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1358338,
+     "minutes": 61,
+     "name": "Mario Domínguez",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1284359,
+     "minutes": 80,
+     "name": "Ágúst Thorsteinsson",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1487909,
+     "minutes": 61,
+     "name": "Eric da Silva Moreira",
+     "shots": 2,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1553368,
+     "minutes": 29,
+     "name": "Nesto Groen",
+     "shots": 2,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 466890,
+     "minutes": 10,
+     "name": "Alireza Jahanbakhsh",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 369295,
+     "minutes": 90,
+     "name": "Ronald Koeman",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1531392,
+     "minutes": 83,
+     "name": "Gerald Alders",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1257074,
+     "minutes": 90,
+     "name": "Sem Valk",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1792483,
+     "minutes": 90,
+     "name": "Abdelnor Soualhia",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 180784,
+     "minutes": 90,
+     "name": "Marvin Peersman",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1825940,
+     "minutes": 83,
+     "name": "Noach Shenkman",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1329268,
+     "minutes": 90,
+     "name": "Nils Rossen",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1180735,
+     "minutes": 90,
+     "name": "Arjany Martha",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1294800,
+     "minutes": 90,
+     "name": "Patrick Brouwer",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1579433,
+     "minutes": 89,
+     "name": "Emirhan Demircan",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1044472,
+     "minutes": 69,
+     "name": "Nökkvi Thorisson",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 953929,
+     "minutes": 21,
+     "name": "Rui Mendes",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1126874,
+     "minutes": 7,
+     "name": "Gabi Caschili",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1662353,
+     "minutes": 7,
+     "name": "Harrie Kuster",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 521195,
+     "minutes": 1,
+     "name": "Jeff Hardeveld",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-28T15:30:00.000Z"
   }
  ]
 }

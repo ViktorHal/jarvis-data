@@ -31282,6 +31282,284 @@
     }
    ],
    "utc": "2026-11-27T19:45:00Z"
+  },
+  {
+   "away": "RAAL La Louvière",
+   "home": "Westerlo",
+   "id": "5811826",
+   "players": [
+    {
+     "id": 1183740,
+     "minutes": 90,
+     "name": "Andreas Jungdal",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1485380,
+     "minutes": 78,
+     "name": "Lasse Flø",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1122594,
+     "minutes": 90,
+     "name": "Seiji Kimura",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1415484,
+     "minutes": 90,
+     "name": "Amando Lapage",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1791395,
+     "minutes": 90,
+     "name": "Lucas Mbamba",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 776258,
+     "minutes": 90,
+     "name": "Doğucan Haspolat",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1178444,
+     "minutes": 78,
+     "name": "Cisse Sandra",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1113700,
+     "minutes": 57,
+     "name": "Cameron Congreve",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1308624,
+     "minutes": 78,
+     "name": "Isa Sakamoto",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1611437,
+     "minutes": 89,
+     "name": "Shunsuke Saito",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1292100,
+     "minutes": 90,
+     "name": "Norman Bassette",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 465726,
+     "minutes": 33,
+     "name": "Nikola Storm",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1307394,
+     "minutes": 12,
+     "name": "Fabio Ferraro",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1680585,
+     "minutes": 12,
+     "name": "Felix Emmanuel Tsimba",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1126079,
+     "minutes": 12,
+     "name": "Thomas Van den Keybus",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1839169,
+     "minutes": 1,
+     "name": "Naoufal Bohamdi-Kamoni",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 787458,
+     "minutes": 90,
+     "name": "Marcos Peano",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1325098,
+     "minutes": 90,
+     "name": "Mehdi Boukamir",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1320866,
+     "minutes": 90,
+     "name": "Yllan Okou",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1785914,
+     "minutes": 90,
+     "name": "Djibril Lamego",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1072860,
+     "minutes": 90,
+     "name": "Shaquil Delos",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1697455,
+     "minutes": 90,
+     "name": "Nolan Gillot",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1514645,
+     "minutes": 90,
+     "name": "Marius Courcoul",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1797624,
+     "minutes": 65,
+     "name": "Léandro Rousseau",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1035202,
+     "minutes": 90,
+     "name": "Ismaila Coulibaly",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1251656,
+     "minutes": 78,
+     "name": "Zsombor Gruber",
+     "shots": 3,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1411367,
+     "minutes": 89,
+     "name": "Mustapha Isah",
+     "shots": 4,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1352730,
+     "minutes": 25,
+     "name": "Elias Filet",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1508335,
+     "minutes": 12,
+     "name": "Mame Wade",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1689046,
+     "minutes": 1,
+     "name": "Quentin Benaets",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-28T15:00:00.000Z"
   }
  ]
 }

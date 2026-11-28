@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T16:32:53Z",
+  "fetchedAt": "2026-11-28T18:19:01Z",
   "league": "Championship",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
@@ -10,15 +10,15 @@
  "teams": {
   "Birmingham City": {
    "all": {
-    "ga": 15.0,
-    "ga_pg": 0.882,
-    "goals": 30.0,
-    "goals_pg": 1.765,
-    "played": 17,
-    "xg": 32.4,
-    "xg_pg": 1.906,
-    "xga": 22.4,
-    "xga_pg": 1.318
+    "ga": 19.0,
+    "ga_pg": 1.056,
+    "goals": 32.0,
+    "goals_pg": 1.778,
+    "played": 18,
+    "xg": 33.6,
+    "xg_pg": 1.867,
+    "xga": 25.4,
+    "xga_pg": 1.411
    },
    "away": {
     "ga": 7.0,
@@ -32,39 +32,39 @@
     "xga_pg": 1.256
    },
    "home": {
-    "ga": 8.0,
-    "ga_pg": 1.0,
-    "goals": 19.0,
-    "goals_pg": 2.375,
-    "played": 8,
-    "xg": 15.5,
-    "xg_pg": 1.938,
-    "xga": 11.1,
-    "xga_pg": 1.387
+    "ga": 12.0,
+    "ga_pg": 1.333,
+    "goals": 21.0,
+    "goals_pg": 2.333,
+    "played": 9,
+    "xg": 16.7,
+    "xg_pg": 1.856,
+    "xga": 14.1,
+    "xga_pg": 1.567
    },
    "last5": {
-    "ga": 3.0,
-    "ga_pg": 0.6,
-    "goals": 10.0,
-    "goals_pg": 2.0,
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 9.0,
+    "goals_pg": 1.8,
     "played": 5,
-    "xg": 11.7,
-    "xg_pg": 2.34,
-    "xga": 6.1,
-    "xga_pg": 1.22
+    "xg": 10.6,
+    "xg_pg": 2.12,
+    "xga": 7.8,
+    "xga_pg": 1.56
    }
   },
   "Blackburn Rovers": {
    "all": {
     "ga": 25.0,
-    "ga_pg": 1.471,
-    "goals": 25.0,
-    "goals_pg": 1.471,
-    "played": 17,
-    "xg": 20.0,
-    "xg_pg": 1.176,
-    "xga": 29.7,
-    "xga_pg": 1.747
+    "ga_pg": 1.389,
+    "goals": 26.0,
+    "goals_pg": 1.444,
+    "played": 18,
+    "xg": 21.6,
+    "xg_pg": 1.2,
+    "xga": 30.4,
+    "xga_pg": 1.689
    },
    "away": {
     "ga": 15.0,
@@ -79,49 +79,49 @@
    },
    "home": {
     "ga": 10.0,
-    "ga_pg": 1.25,
-    "goals": 14.0,
-    "goals_pg": 1.75,
-    "played": 8,
-    "xg": 11.1,
-    "xg_pg": 1.387,
-    "xga": 11.7,
-    "xga_pg": 1.462
+    "ga_pg": 1.111,
+    "goals": 15.0,
+    "goals_pg": 1.667,
+    "played": 9,
+    "xg": 12.7,
+    "xg_pg": 1.411,
+    "xga": 12.5,
+    "xga_pg": 1.389
    },
    "last5": {
-    "ga": 9.0,
-    "ga_pg": 1.8,
-    "goals": 6.0,
-    "goals_pg": 1.2,
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 7.0,
+    "goals_pg": 1.4,
     "played": 5,
-    "xg": 7.5,
-    "xg_pg": 1.5,
-    "xga": 8.2,
-    "xga_pg": 1.64
+    "xg": 8.5,
+    "xg_pg": 1.7,
+    "xga": 6.1,
+    "xga_pg": 1.22
    }
   },
   "Bolton Wanderers": {
    "all": {
-    "ga": 33.0,
-    "ga_pg": 1.941,
-    "goals": 22.0,
-    "goals_pg": 1.294,
-    "played": 17,
-    "xg": 25.1,
-    "xg_pg": 1.476,
-    "xga": 32.0,
-    "xga_pg": 1.882
+    "ga": 35.0,
+    "ga_pg": 1.944,
+    "goals": 26.0,
+    "goals_pg": 1.444,
+    "played": 18,
+    "xg": 28.1,
+    "xg_pg": 1.561,
+    "xga": 33.2,
+    "xga_pg": 1.844
    },
    "away": {
-    "ga": 14.0,
-    "ga_pg": 1.75,
-    "goals": 11.0,
-    "goals_pg": 1.375,
-    "played": 8,
-    "xg": 10.8,
-    "xg_pg": 1.35,
-    "xga": 14.8,
-    "xga_pg": 1.85
+    "ga": 16.0,
+    "ga_pg": 1.778,
+    "goals": 15.0,
+    "goals_pg": 1.667,
+    "played": 9,
+    "xg": 13.8,
+    "xg_pg": 1.533,
+    "xga": 16.1,
+    "xga_pg": 1.789
    },
    "home": {
     "ga": 19.0,
@@ -135,39 +135,39 @@
     "xga_pg": 1.9
    },
    "last5": {
-    "ga": 10.0,
-    "ga_pg": 2.0,
-    "goals": 6.0,
-    "goals_pg": 1.2,
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 8.0,
+    "goals_pg": 1.6,
     "played": 5,
-    "xg": 8.7,
-    "xg_pg": 1.74,
-    "xga": 8.0,
-    "xga_pg": 1.6
+    "xg": 9.8,
+    "xg_pg": 1.96,
+    "xga": 6.2,
+    "xga_pg": 1.24
    }
   },
   "Bristol City": {
    "all": {
-    "ga": 27.0,
-    "ga_pg": 1.588,
+    "ga": 28.0,
+    "ga_pg": 1.556,
     "goals": 17.0,
-    "goals_pg": 1.0,
-    "played": 17,
-    "xg": 22.1,
-    "xg_pg": 1.3,
-    "xga": 25.7,
-    "xga_pg": 1.512
+    "goals_pg": 0.944,
+    "played": 18,
+    "xg": 22.5,
+    "xg_pg": 1.25,
+    "xga": 28.1,
+    "xga_pg": 1.561
    },
    "away": {
-    "ga": 13.0,
-    "ga_pg": 1.625,
+    "ga": 14.0,
+    "ga_pg": 1.556,
     "goals": 12.0,
-    "goals_pg": 1.5,
-    "played": 8,
-    "xg": 12.2,
-    "xg_pg": 1.525,
-    "xga": 12.1,
-    "xga_pg": 1.512
+    "goals_pg": 1.333,
+    "played": 9,
+    "xg": 12.5,
+    "xg_pg": 1.389,
+    "xga": 14.6,
+    "xga_pg": 1.622
    },
    "home": {
     "ga": 14.0,
@@ -181,39 +181,39 @@
     "xga_pg": 1.511
    },
    "last5": {
-    "ga": 12.0,
-    "ga_pg": 2.4,
-    "goals": 5.0,
-    "goals_pg": 1.0,
+    "ga": 11.0,
+    "ga_pg": 2.2,
+    "goals": 2.0,
+    "goals_pg": 0.4,
     "played": 5,
-    "xg": 6.8,
-    "xg_pg": 1.36,
-    "xga": 8.9,
-    "xga_pg": 1.78
+    "xg": 4.2,
+    "xg_pg": 0.84,
+    "xga": 9.4,
+    "xga_pg": 1.88
    }
   },
   "Burnley": {
    "all": {
     "ga": 35.0,
-    "ga_pg": 2.059,
-    "goals": 24.0,
-    "goals_pg": 1.412,
-    "played": 17,
-    "xg": 23.0,
-    "xg_pg": 1.353,
-    "xga": 31.7,
-    "xga_pg": 1.865
+    "ga_pg": 1.944,
+    "goals": 25.0,
+    "goals_pg": 1.389,
+    "played": 18,
+    "xg": 24.1,
+    "xg_pg": 1.339,
+    "xga": 33.3,
+    "xga_pg": 1.85
    },
    "away": {
     "ga": 21.0,
-    "ga_pg": 2.625,
-    "goals": 14.0,
-    "goals_pg": 1.75,
-    "played": 8,
-    "xg": 11.7,
-    "xg_pg": 1.462,
-    "xga": 17.2,
-    "xga_pg": 2.15
+    "ga_pg": 2.333,
+    "goals": 15.0,
+    "goals_pg": 1.667,
+    "played": 9,
+    "xg": 12.8,
+    "xg_pg": 1.422,
+    "xga": 18.8,
+    "xga_pg": 2.089
    },
    "home": {
     "ga": 14.0,
@@ -229,13 +229,13 @@
    "last5": {
     "ga": 10.0,
     "ga_pg": 2.0,
-    "goals": 7.0,
-    "goals_pg": 1.4,
+    "goals": 8.0,
+    "goals_pg": 1.6,
     "played": 5,
-    "xg": 6.5,
-    "xg_pg": 1.3,
-    "xga": 11.4,
-    "xga_pg": 2.28
+    "xg": 5.4,
+    "xg_pg": 1.08,
+    "xga": 12.7,
+    "xga_pg": 2.54
    }
   },
   "Cardiff City": {
@@ -286,26 +286,26 @@
   },
   "Charlton Athletic": {
    "all": {
-    "ga": 25.0,
-    "ga_pg": 1.471,
+    "ga": 26.0,
+    "ga_pg": 1.444,
     "goals": 18.0,
-    "goals_pg": 1.059,
-    "played": 17,
-    "xg": 20.4,
-    "xg_pg": 1.2,
-    "xga": 26.6,
-    "xga_pg": 1.565
+    "goals_pg": 1.0,
+    "played": 18,
+    "xg": 21.2,
+    "xg_pg": 1.178,
+    "xga": 28.2,
+    "xga_pg": 1.567
    },
    "away": {
-    "ga": 18.0,
-    "ga_pg": 2.25,
+    "ga": 19.0,
+    "ga_pg": 2.111,
     "goals": 7.0,
-    "goals_pg": 0.875,
-    "played": 8,
-    "xg": 7.3,
-    "xg_pg": 0.912,
-    "xga": 16.7,
-    "xga_pg": 2.087
+    "goals_pg": 0.778,
+    "played": 9,
+    "xg": 8.0,
+    "xg_pg": 0.889,
+    "xga": 18.3,
+    "xga_pg": 2.033
    },
    "home": {
     "ga": 7.0,
@@ -319,28 +319,28 @@
     "xga_pg": 1.1
    },
    "last5": {
-    "ga": 7.0,
-    "ga_pg": 1.4,
+    "ga": 5.0,
+    "ga_pg": 1.0,
     "goals": 7.0,
     "goals_pg": 1.4,
     "played": 5,
-    "xg": 7.1,
-    "xg_pg": 1.42,
-    "xga": 7.0,
-    "xga_pg": 1.4
+    "xg": 7.2,
+    "xg_pg": 1.44,
+    "xga": 7.1,
+    "xga_pg": 1.42
    }
   },
   "Derby County": {
    "all": {
     "ga": 35.0,
-    "ga_pg": 2.059,
+    "ga_pg": 1.944,
     "goals": 14.0,
-    "goals_pg": 0.824,
-    "played": 17,
-    "xg": 18.0,
-    "xg_pg": 1.059,
-    "xga": 38.6,
-    "xga_pg": 2.271
+    "goals_pg": 0.778,
+    "played": 18,
+    "xg": 19.5,
+    "xg_pg": 1.083,
+    "xga": 39.8,
+    "xga_pg": 2.211
    },
    "away": {
     "ga": 20.0,
@@ -355,38 +355,38 @@
    },
    "home": {
     "ga": 15.0,
-    "ga_pg": 1.875,
+    "ga_pg": 1.667,
     "goals": 7.0,
-    "goals_pg": 0.875,
-    "played": 8,
-    "xg": 9.7,
-    "xg_pg": 1.212,
-    "xga": 15.8,
-    "xga_pg": 1.975
+    "goals_pg": 0.778,
+    "played": 9,
+    "xg": 11.2,
+    "xg_pg": 1.244,
+    "xga": 17.0,
+    "xga_pg": 1.889
    },
    "last5": {
-    "ga": 14.0,
-    "ga_pg": 2.8,
-    "goals": 4.0,
-    "goals_pg": 0.8,
+    "ga": 10.0,
+    "ga_pg": 2.0,
+    "goals": 3.0,
+    "goals_pg": 0.6,
     "played": 5,
-    "xg": 4.7,
-    "xg_pg": 0.94,
-    "xga": 15.0,
-    "xga_pg": 3.0
+    "xg": 5.0,
+    "xg_pg": 1.0,
+    "xga": 12.8,
+    "xga_pg": 2.56
    }
   },
   "Lincoln City": {
    "all": {
     "ga": 31.0,
-    "ga_pg": 1.824,
+    "ga_pg": 1.722,
     "goals": 15.0,
-    "goals_pg": 0.882,
-    "played": 17,
-    "xg": 22.6,
-    "xg_pg": 1.329,
-    "xga": 29.3,
-    "xga_pg": 1.724
+    "goals_pg": 0.833,
+    "played": 18,
+    "xg": 23.4,
+    "xg_pg": 1.3,
+    "xga": 30.1,
+    "xga_pg": 1.672
    },
    "away": {
     "ga": 14.0,
@@ -401,25 +401,25 @@
    },
    "home": {
     "ga": 17.0,
-    "ga_pg": 2.125,
+    "ga_pg": 1.889,
     "goals": 8.0,
-    "goals_pg": 1.0,
-    "played": 8,
-    "xg": 14.0,
-    "xg_pg": 1.75,
-    "xga": 12.5,
-    "xga_pg": 1.562
+    "goals_pg": 0.889,
+    "played": 9,
+    "xg": 14.8,
+    "xg_pg": 1.644,
+    "xga": 13.4,
+    "xga_pg": 1.489
    },
    "last5": {
-    "ga": 11.0,
-    "ga_pg": 2.2,
-    "goals": 2.0,
-    "goals_pg": 0.4,
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 1.0,
+    "goals_pg": 0.2,
     "played": 5,
-    "xg": 4.9,
-    "xg_pg": 0.98,
-    "xga": 10.0,
-    "xga_pg": 2.0
+    "xg": 4.5,
+    "xg_pg": 0.9,
+    "xga": 8.6,
+    "xga_pg": 1.72
    }
   },
   "Middlesbrough": {
@@ -470,15 +470,15 @@
   },
   "Millwall": {
    "all": {
-    "ga": 30.0,
-    "ga_pg": 1.765,
+    "ga": 31.0,
+    "ga_pg": 1.722,
     "goals": 24.0,
-    "goals_pg": 1.412,
-    "played": 17,
-    "xg": 29.3,
-    "xg_pg": 1.724,
-    "xga": 26.1,
-    "xga_pg": 1.535
+    "goals_pg": 1.333,
+    "played": 18,
+    "xg": 30.9,
+    "xg_pg": 1.717,
+    "xga": 27.1,
+    "xga_pg": 1.506
    },
    "away": {
     "ga": 20.0,
@@ -492,50 +492,50 @@
     "xga_pg": 1.689
    },
    "home": {
-    "ga": 10.0,
-    "ga_pg": 1.25,
+    "ga": 11.0,
+    "ga_pg": 1.222,
     "goals": 15.0,
-    "goals_pg": 1.875,
-    "played": 8,
-    "xg": 15.4,
-    "xg_pg": 1.925,
-    "xga": 10.8,
-    "xga_pg": 1.35
+    "goals_pg": 1.667,
+    "played": 9,
+    "xg": 17.0,
+    "xg_pg": 1.889,
+    "xga": 11.9,
+    "xga_pg": 1.322
    },
    "last5": {
     "ga": 10.0,
     "ga_pg": 2.0,
-    "goals": 5.0,
-    "goals_pg": 1.0,
+    "goals": 1.0,
+    "goals_pg": 0.2,
     "played": 5,
-    "xg": 7.0,
-    "xg_pg": 1.4,
-    "xga": 9.8,
-    "xga_pg": 1.96
+    "xg": 5.3,
+    "xg_pg": 1.06,
+    "xga": 9.7,
+    "xga_pg": 1.94
    }
   },
   "Norwich City": {
    "all": {
-    "ga": 26.0,
-    "ga_pg": 1.529,
-    "goals": 35.0,
-    "goals_pg": 2.059,
-    "played": 17,
-    "xg": 27.2,
-    "xg_pg": 1.6,
-    "xga": 25.2,
-    "xga_pg": 1.482
+    "ga": 27.0,
+    "ga_pg": 1.5,
+    "goals": 36.0,
+    "goals_pg": 2.0,
+    "played": 18,
+    "xg": 29.3,
+    "xg_pg": 1.628,
+    "xga": 27.1,
+    "xga_pg": 1.506
    },
    "away": {
-    "ga": 12.0,
-    "ga_pg": 1.5,
-    "goals": 19.0,
-    "goals_pg": 2.375,
-    "played": 8,
-    "xg": 13.3,
-    "xg_pg": 1.663,
-    "xga": 11.9,
-    "xga_pg": 1.488
+    "ga": 13.0,
+    "ga_pg": 1.444,
+    "goals": 20.0,
+    "goals_pg": 2.222,
+    "played": 9,
+    "xg": 15.3,
+    "xg_pg": 1.7,
+    "xga": 13.8,
+    "xga_pg": 1.533
    },
    "home": {
     "ga": 14.0,
@@ -549,39 +549,39 @@
     "xga_pg": 1.478
    },
    "last5": {
-    "ga": 4.0,
-    "ga_pg": 0.8,
-    "goals": 15.0,
-    "goals_pg": 3.0,
+    "ga": 3.0,
+    "ga_pg": 0.6,
+    "goals": 13.0,
+    "goals_pg": 2.6,
     "played": 5,
-    "xg": 10.1,
-    "xg_pg": 2.02,
-    "xga": 5.5,
-    "xga_pg": 1.1
+    "xg": 10.6,
+    "xg_pg": 2.12,
+    "xga": 6.3,
+    "xga_pg": 1.26
    }
   },
   "Portsmouth": {
    "all": {
-    "ga": 19.0,
-    "ga_pg": 1.118,
+    "ga": 20.0,
+    "ga_pg": 1.111,
     "goals": 22.0,
-    "goals_pg": 1.294,
-    "played": 17,
-    "xg": 19.8,
-    "xg_pg": 1.165,
-    "xga": 23.2,
-    "xga_pg": 1.365
+    "goals_pg": 1.222,
+    "played": 18,
+    "xg": 21.2,
+    "xg_pg": 1.178,
+    "xga": 23.6,
+    "xga_pg": 1.311
    },
    "away": {
-    "ga": 6.0,
-    "ga_pg": 0.75,
+    "ga": 7.0,
+    "ga_pg": 0.778,
     "goals": 7.0,
-    "goals_pg": 0.875,
-    "played": 8,
-    "xg": 7.1,
-    "xg_pg": 0.887,
-    "xga": 10.6,
-    "xga_pg": 1.325
+    "goals_pg": 0.778,
+    "played": 9,
+    "xg": 8.5,
+    "xg_pg": 0.944,
+    "xga": 11.0,
+    "xga_pg": 1.222
    },
    "home": {
     "ga": 13.0,
@@ -595,28 +595,28 @@
     "xga_pg": 1.4
    },
    "last5": {
-    "ga": 4.0,
-    "ga_pg": 0.8,
+    "ga": 5.0,
+    "ga_pg": 1.0,
     "goals": 6.0,
     "goals_pg": 1.2,
     "played": 5,
-    "xg": 3.0,
-    "xg_pg": 0.6,
-    "xga": 8.8,
-    "xga_pg": 1.76
+    "xg": 4.1,
+    "xg_pg": 0.82,
+    "xga": 7.1,
+    "xga_pg": 1.42
    }
   },
   "Preston North End": {
    "all": {
-    "ga": 31.0,
-    "ga_pg": 1.824,
-    "goals": 18.0,
-    "goals_pg": 1.059,
-    "played": 17,
-    "xg": 20.6,
-    "xg_pg": 1.212,
-    "xga": 30.6,
-    "xga_pg": 1.8
+    "ga": 32.0,
+    "ga_pg": 1.778,
+    "goals": 19.0,
+    "goals_pg": 1.056,
+    "played": 18,
+    "xg": 22.6,
+    "xg_pg": 1.256,
+    "xga": 32.6,
+    "xga_pg": 1.811
    },
    "away": {
     "ga": 18.0,
@@ -630,39 +630,39 @@
     "xga_pg": 2.044
    },
    "home": {
-    "ga": 13.0,
-    "ga_pg": 1.625,
-    "goals": 8.0,
+    "ga": 14.0,
+    "ga_pg": 1.556,
+    "goals": 9.0,
     "goals_pg": 1.0,
-    "played": 8,
-    "xg": 9.6,
-    "xg_pg": 1.2,
-    "xga": 12.3,
-    "xga_pg": 1.538
+    "played": 9,
+    "xg": 11.6,
+    "xg_pg": 1.289,
+    "xga": 14.3,
+    "xga_pg": 1.589
    },
    "last5": {
-    "ga": 6.0,
-    "ga_pg": 1.2,
-    "goals": 8.0,
-    "goals_pg": 1.6,
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 9.0,
+    "goals_pg": 1.8,
     "played": 5,
-    "xg": 5.5,
-    "xg_pg": 1.1,
-    "xga": 11.0,
-    "xga_pg": 2.2
+    "xg": 7.4,
+    "xg_pg": 1.48,
+    "xga": 10.9,
+    "xga_pg": 2.18
    }
   },
   "Queens Park Rangers": {
    "all": {
-    "ga": 19.0,
-    "ga_pg": 1.118,
-    "goals": 26.0,
-    "goals_pg": 1.529,
-    "played": 17,
-    "xg": 30.4,
-    "xg_pg": 1.788,
-    "xga": 19.2,
-    "xga_pg": 1.129
+    "ga": 20.0,
+    "ga_pg": 1.111,
+    "goals": 27.0,
+    "goals_pg": 1.5,
+    "played": 18,
+    "xg": 31.6,
+    "xg_pg": 1.756,
+    "xga": 19.9,
+    "xga_pg": 1.106
    },
    "away": {
     "ga": 12.0,
@@ -676,50 +676,50 @@
     "xga_pg": 1.311
    },
    "home": {
-    "ga": 7.0,
-    "ga_pg": 0.875,
-    "goals": 16.0,
-    "goals_pg": 2.0,
-    "played": 8,
-    "xg": 18.8,
-    "xg_pg": 2.35,
-    "xga": 7.4,
-    "xga_pg": 0.925
+    "ga": 8.0,
+    "ga_pg": 0.889,
+    "goals": 17.0,
+    "goals_pg": 1.889,
+    "played": 9,
+    "xg": 20.1,
+    "xg_pg": 2.233,
+    "xga": 8.2,
+    "xga_pg": 0.911
    },
    "last5": {
-    "ga": 7.0,
-    "ga_pg": 1.4,
+    "ga": 4.0,
+    "ga_pg": 0.8,
     "goals": 6.0,
     "goals_pg": 1.2,
     "played": 5,
-    "xg": 8.2,
-    "xg_pg": 1.64,
-    "xga": 4.4,
-    "xga_pg": 0.88
+    "xg": 8.4,
+    "xg_pg": 1.68,
+    "xga": 3.6,
+    "xga_pg": 0.72
    }
   },
   "Sheffield United": {
    "all": {
-    "ga": 20.0,
-    "ga_pg": 1.176,
-    "goals": 26.0,
-    "goals_pg": 1.529,
-    "played": 17,
-    "xg": 24.1,
-    "xg_pg": 1.418,
-    "xga": 22.4,
-    "xga_pg": 1.318
+    "ga": 21.0,
+    "ga_pg": 1.167,
+    "goals": 27.0,
+    "goals_pg": 1.5,
+    "played": 18,
+    "xg": 24.9,
+    "xg_pg": 1.383,
+    "xga": 23.6,
+    "xga_pg": 1.311
    },
    "away": {
-    "ga": 12.0,
-    "ga_pg": 1.5,
-    "goals": 12.0,
-    "goals_pg": 1.5,
-    "played": 8,
-    "xg": 10.0,
-    "xg_pg": 1.25,
-    "xga": 10.1,
-    "xga_pg": 1.262
+    "ga": 13.0,
+    "ga_pg": 1.444,
+    "goals": 13.0,
+    "goals_pg": 1.444,
+    "played": 9,
+    "xg": 10.8,
+    "xg_pg": 1.2,
+    "xga": 11.4,
+    "xga_pg": 1.267
    },
    "home": {
     "ga": 8.0,
@@ -733,15 +733,15 @@
     "xga_pg": 1.367
    },
    "last5": {
-    "ga": 5.0,
-    "ga_pg": 1.0,
+    "ga": 6.0,
+    "ga_pg": 1.2,
     "goals": 10.0,
     "goals_pg": 2.0,
     "played": 5,
-    "xg": 8.3,
-    "xg_pg": 1.66,
-    "xga": 3.7,
-    "xga_pg": 0.74
+    "xg": 7.7,
+    "xg_pg": 1.54,
+    "xga": 4.2,
+    "xga_pg": 0.84
    }
   },
   "Southampton": {
@@ -792,26 +792,26 @@
   },
   "Stoke City": {
    "all": {
-    "ga": 19.0,
-    "ga_pg": 1.118,
+    "ga": 20.0,
+    "ga_pg": 1.111,
     "goals": 27.0,
-    "goals_pg": 1.588,
-    "played": 17,
-    "xg": 18.4,
-    "xg_pg": 1.082,
-    "xga": 23.5,
-    "xga_pg": 1.382
+    "goals_pg": 1.5,
+    "played": 18,
+    "xg": 19.0,
+    "xg_pg": 1.056,
+    "xga": 24.7,
+    "xga_pg": 1.372
    },
    "away": {
-    "ga": 12.0,
-    "ga_pg": 1.5,
+    "ga": 13.0,
+    "ga_pg": 1.444,
     "goals": 12.0,
-    "goals_pg": 1.5,
-    "played": 8,
-    "xg": 7.8,
-    "xg_pg": 0.975,
-    "xga": 14.8,
-    "xga_pg": 1.85
+    "goals_pg": 1.333,
+    "played": 9,
+    "xg": 8.4,
+    "xg_pg": 0.933,
+    "xga": 16.0,
+    "xga_pg": 1.778
    },
    "home": {
     "ga": 7.0,
@@ -825,15 +825,15 @@
     "xga_pg": 0.967
    },
    "last5": {
-    "ga": 3.0,
-    "ga_pg": 0.6,
-    "goals": 9.0,
-    "goals_pg": 1.8,
+    "ga": 4.0,
+    "ga_pg": 0.8,
+    "goals": 7.0,
+    "goals_pg": 1.4,
     "played": 5,
-    "xg": 6.5,
-    "xg_pg": 1.3,
-    "xga": 4.7,
-    "xga_pg": 0.94
+    "xg": 5.0,
+    "xg_pg": 1.0,
+    "xga": 5.7,
+    "xga_pg": 1.14
    }
   },
   "Swansea City": {
@@ -885,25 +885,25 @@
   "Watford": {
    "all": {
     "ga": 28.0,
-    "ga_pg": 1.647,
+    "ga_pg": 1.556,
     "goals": 13.0,
-    "goals_pg": 0.765,
-    "played": 17,
-    "xg": 17.2,
-    "xg_pg": 1.012,
-    "xga": 31.7,
-    "xga_pg": 1.865
+    "goals_pg": 0.722,
+    "played": 18,
+    "xg": 18.4,
+    "xg_pg": 1.022,
+    "xga": 33.2,
+    "xga_pg": 1.844
    },
    "away": {
     "ga": 18.0,
-    "ga_pg": 2.25,
+    "ga_pg": 2.0,
     "goals": 4.0,
-    "goals_pg": 0.5,
-    "played": 8,
-    "xg": 6.9,
-    "xg_pg": 0.863,
-    "xga": 17.1,
-    "xga_pg": 2.138
+    "goals_pg": 0.444,
+    "played": 9,
+    "xg": 8.1,
+    "xg_pg": 0.9,
+    "xga": 18.6,
+    "xga_pg": 2.067
    },
    "home": {
     "ga": 10.0,
@@ -917,13 +917,13 @@
     "xga_pg": 1.622
    },
    "last5": {
-    "ga": 8.0,
-    "ga_pg": 1.6,
-    "goals": 3.0,
-    "goals_pg": 0.6,
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 1.0,
+    "goals_pg": 0.2,
     "played": 5,
-    "xg": 4.0,
-    "xg_pg": 0.8,
+    "xg": 3.9,
+    "xg_pg": 0.78,
     "xga": 9.0,
     "xga_pg": 1.8
    }
@@ -931,14 +931,14 @@
   "West Bromwich Albion": {
    "all": {
     "ga": 18.0,
-    "ga_pg": 1.059,
-    "goals": 28.0,
-    "goals_pg": 1.647,
-    "played": 17,
-    "xg": 32.5,
-    "xg_pg": 1.912,
-    "xga": 23.4,
-    "xga_pg": 1.376
+    "ga_pg": 1.0,
+    "goals": 29.0,
+    "goals_pg": 1.611,
+    "played": 18,
+    "xg": 35.0,
+    "xg_pg": 1.944,
+    "xga": 23.7,
+    "xga_pg": 1.317
    },
    "away": {
     "ga": 11.0,
@@ -953,38 +953,38 @@
    },
    "home": {
     "ga": 7.0,
-    "ga_pg": 0.875,
-    "goals": 13.0,
-    "goals_pg": 1.625,
-    "played": 8,
-    "xg": 16.3,
-    "xg_pg": 2.038,
-    "xga": 8.8,
-    "xga_pg": 1.1
+    "ga_pg": 0.778,
+    "goals": 14.0,
+    "goals_pg": 1.556,
+    "played": 9,
+    "xg": 18.7,
+    "xg_pg": 2.078,
+    "xga": 9.1,
+    "xga_pg": 1.011
    },
    "last5": {
-    "ga": 5.0,
-    "ga_pg": 1.0,
-    "goals": 12.0,
-    "goals_pg": 2.4,
+    "ga": 4.0,
+    "ga_pg": 0.8,
+    "goals": 10.0,
+    "goals_pg": 2.0,
     "played": 5,
-    "xg": 13.9,
-    "xg_pg": 2.78,
-    "xga": 5.9,
-    "xga_pg": 1.18
+    "xg": 14.2,
+    "xg_pg": 2.84,
+    "xga": 4.8,
+    "xga_pg": 0.96
    }
   },
   "West Ham United": {
    "all": {
     "ga": 25.0,
-    "ga_pg": 1.471,
-    "goals": 38.0,
-    "goals_pg": 2.235,
-    "played": 17,
-    "xg": 38.8,
-    "xg_pg": 2.282,
-    "xga": 21.9,
-    "xga_pg": 1.288
+    "ga_pg": 1.389,
+    "goals": 39.0,
+    "goals_pg": 2.167,
+    "played": 18,
+    "xg": 40.0,
+    "xg_pg": 2.222,
+    "xga": 22.5,
+    "xga_pg": 1.25
    },
    "away": {
     "ga": 13.0,
@@ -999,49 +999,49 @@
    },
    "home": {
     "ga": 12.0,
-    "ga_pg": 1.5,
-    "goals": 19.0,
-    "goals_pg": 2.375,
-    "played": 8,
-    "xg": 20.4,
-    "xg_pg": 2.55,
-    "xga": 8.7,
-    "xga_pg": 1.087
+    "ga_pg": 1.333,
+    "goals": 20.0,
+    "goals_pg": 2.222,
+    "played": 9,
+    "xg": 21.7,
+    "xg_pg": 2.411,
+    "xga": 9.3,
+    "xga_pg": 1.033
    },
    "last5": {
-    "ga": 10.0,
-    "ga_pg": 2.0,
+    "ga": 7.0,
+    "ga_pg": 1.4,
     "goals": 6.0,
     "goals_pg": 1.2,
     "played": 5,
-    "xg": 11.4,
-    "xg_pg": 2.28,
-    "xga": 6.4,
-    "xga_pg": 1.28
+    "xg": 11.2,
+    "xg_pg": 2.24,
+    "xga": 4.9,
+    "xga_pg": 0.98
    }
   },
   "Wolverhampton Wanderers": {
    "all": {
     "ga": 19.0,
-    "ga_pg": 1.118,
+    "ga_pg": 1.056,
     "goals": 31.0,
-    "goals_pg": 1.824,
-    "played": 17,
-    "xg": 32.6,
-    "xg_pg": 1.918,
-    "xga": 14.7,
-    "xga_pg": 0.865
+    "goals_pg": 1.722,
+    "played": 18,
+    "xg": 33.4,
+    "xg_pg": 1.856,
+    "xga": 15.6,
+    "xga_pg": 0.867
    },
    "away": {
     "ga": 11.0,
-    "ga_pg": 1.375,
+    "ga_pg": 1.222,
     "goals": 13.0,
-    "goals_pg": 1.625,
-    "played": 8,
-    "xg": 12.8,
-    "xg_pg": 1.6,
-    "xga": 8.5,
-    "xga_pg": 1.062
+    "goals_pg": 1.444,
+    "played": 9,
+    "xg": 13.7,
+    "xg_pg": 1.522,
+    "xga": 9.3,
+    "xga_pg": 1.033
    },
    "home": {
     "ga": 8.0,
@@ -1057,26 +1057,26 @@
    "last5": {
     "ga": 3.0,
     "ga_pg": 0.6,
-    "goals": 11.0,
-    "goals_pg": 2.2,
+    "goals": 8.0,
+    "goals_pg": 1.6,
     "played": 5,
-    "xg": 11.9,
-    "xg_pg": 2.38,
-    "xga": 3.5,
-    "xga_pg": 0.7
+    "xg": 11.6,
+    "xg_pg": 2.32,
+    "xga": 3.0,
+    "xga_pg": 0.6
    }
   },
   "Wrexham": {
    "all": {
     "ga": 21.0,
-    "ga_pg": 1.235,
-    "goals": 20.0,
-    "goals_pg": 1.176,
-    "played": 17,
-    "xg": 20.3,
-    "xg_pg": 1.194,
-    "xga": 20.8,
-    "xga_pg": 1.224
+    "ga_pg": 1.167,
+    "goals": 21.0,
+    "goals_pg": 1.167,
+    "played": 18,
+    "xg": 20.7,
+    "xg_pg": 1.15,
+    "xga": 22.1,
+    "xga_pg": 1.228
    },
    "away": {
     "ga": 12.0,
@@ -1091,23 +1091,23 @@
    },
    "home": {
     "ga": 9.0,
-    "ga_pg": 1.125,
-    "goals": 13.0,
-    "goals_pg": 1.625,
-    "played": 8,
-    "xg": 10.2,
-    "xg_pg": 1.275,
-    "xga": 10.1,
-    "xga_pg": 1.262
+    "ga_pg": 1.0,
+    "goals": 14.0,
+    "goals_pg": 1.556,
+    "played": 9,
+    "xg": 10.7,
+    "xg_pg": 1.189,
+    "xga": 11.4,
+    "xga_pg": 1.267
    },
    "last5": {
-    "ga": 3.0,
-    "ga_pg": 0.6,
-    "goals": 5.0,
-    "goals_pg": 1.0,
+    "ga": 2.0,
+    "ga_pg": 0.4,
+    "goals": 6.0,
+    "goals_pg": 1.2,
     "played": 5,
-    "xg": 4.4,
-    "xg_pg": 0.88,
+    "xg": 4.1,
+    "xg_pg": 0.82,
     "xga": 6.0,
     "xga_pg": 1.2
    }

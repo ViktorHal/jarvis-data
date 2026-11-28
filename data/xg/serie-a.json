@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T16:32:58Z",
+  "fetchedAt": "2026-11-28T18:19:06Z",
   "league": "Serie A",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
@@ -287,14 +287,14 @@
   "Frosinone": {
    "all": {
     "ga": 20.0,
-    "ga_pg": 1.667,
-    "goals": 25.0,
-    "goals_pg": 2.083,
-    "played": 12,
-    "xg": 22.2,
-    "xg_pg": 1.85,
-    "xga": 25.1,
-    "xga_pg": 2.092
+    "ga_pg": 1.538,
+    "goals": 28.0,
+    "goals_pg": 2.154,
+    "played": 13,
+    "xg": 24.4,
+    "xg_pg": 1.877,
+    "xga": 25.8,
+    "xga_pg": 1.985
    },
    "away": {
     "ga": 14.0,
@@ -309,25 +309,25 @@
    },
    "home": {
     "ga": 6.0,
-    "ga_pg": 1.0,
-    "goals": 16.0,
-    "goals_pg": 2.667,
-    "played": 6,
-    "xg": 12.4,
-    "xg_pg": 2.067,
-    "xga": 10.0,
-    "xga_pg": 1.667
+    "ga_pg": 0.857,
+    "goals": 19.0,
+    "goals_pg": 2.714,
+    "played": 7,
+    "xg": 14.6,
+    "xg_pg": 2.086,
+    "xga": 10.7,
+    "xga_pg": 1.529
    },
    "last5": {
-    "ga": 11.0,
-    "ga_pg": 2.2,
-    "goals": 12.0,
-    "goals_pg": 2.4,
+    "ga": 7.0,
+    "ga_pg": 1.4,
+    "goals": 11.0,
+    "goals_pg": 2.2,
     "played": 5,
-    "xg": 11.1,
-    "xg_pg": 2.22,
-    "xga": 10.1,
-    "xga_pg": 2.02
+    "xg": 11.7,
+    "xg_pg": 2.34,
+    "xga": 6.4,
+    "xga_pg": 1.28
    }
   },
   "Genoa": {
@@ -654,26 +654,26 @@
   },
   "Parma": {
    "all": {
-    "ga": 22.0,
-    "ga_pg": 1.833,
+    "ga": 25.0,
+    "ga_pg": 1.923,
     "goals": 10.0,
-    "goals_pg": 0.833,
-    "played": 12,
-    "xg": 12.1,
-    "xg_pg": 1.008,
-    "xga": 23.7,
-    "xga_pg": 1.975
+    "goals_pg": 0.769,
+    "played": 13,
+    "xg": 12.8,
+    "xg_pg": 0.985,
+    "xga": 25.9,
+    "xga_pg": 1.992
    },
    "away": {
-    "ga": 9.0,
-    "ga_pg": 1.8,
+    "ga": 12.0,
+    "ga_pg": 2.0,
     "goals": 5.0,
-    "goals_pg": 1.0,
-    "played": 5,
-    "xg": 3.4,
-    "xg_pg": 0.68,
-    "xga": 11.8,
-    "xga_pg": 2.36
+    "goals_pg": 0.833,
+    "played": 6,
+    "xg": 4.1,
+    "xg_pg": 0.683,
+    "xga": 14.0,
+    "xga_pg": 2.333
    },
    "home": {
     "ga": 13.0,
@@ -687,15 +687,15 @@
     "xga_pg": 1.7
    },
    "last5": {
-    "ga": 9.0,
-    "ga_pg": 1.8,
-    "goals": 6.0,
-    "goals_pg": 1.2,
+    "ga": 10.0,
+    "ga_pg": 2.0,
+    "goals": 5.0,
+    "goals_pg": 1.0,
     "played": 5,
-    "xg": 5.7,
-    "xg_pg": 1.14,
-    "xga": 12.2,
-    "xga_pg": 2.44
+    "xg": 5.6,
+    "xg_pg": 1.12,
+    "xga": 12.6,
+    "xga_pg": 2.52
    }
   },
   "Roma": {

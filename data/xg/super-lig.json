@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T16:33:16Z",
+  "fetchedAt": "2026-11-28T18:19:21Z",
   "league": "Super Lig",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
@@ -378,26 +378,26 @@
   },
   "Gençlerbirliği": {
    "all": {
-    "ga": 21.0,
-    "ga_pg": 1.75,
-    "goals": 13.0,
-    "goals_pg": 1.083,
-    "played": 12,
-    "xg": 12.6,
-    "xg_pg": 1.05,
-    "xga": 23.0,
-    "xga_pg": 1.917
+    "ga": 24.0,
+    "ga_pg": 1.846,
+    "goals": 14.0,
+    "goals_pg": 1.077,
+    "played": 13,
+    "xg": 13.9,
+    "xg_pg": 1.069,
+    "xga": 24.3,
+    "xga_pg": 1.869
    },
    "away": {
-    "ga": 14.0,
-    "ga_pg": 2.8,
-    "goals": 1.0,
-    "goals_pg": 0.2,
-    "played": 5,
-    "xg": 4.8,
-    "xg_pg": 0.96,
-    "xga": 12.8,
-    "xga_pg": 2.56
+    "ga": 17.0,
+    "ga_pg": 2.833,
+    "goals": 2.0,
+    "goals_pg": 0.333,
+    "played": 6,
+    "xg": 6.1,
+    "xg_pg": 1.017,
+    "xga": 14.1,
+    "xga_pg": 2.35
    },
    "home": {
     "ga": 7.0,
@@ -411,15 +411,15 @@
     "xga_pg": 1.457
    },
    "last5": {
-    "ga": 6.0,
-    "ga_pg": 1.2,
-    "goals": 6.0,
-    "goals_pg": 1.2,
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 7.0,
+    "goals_pg": 1.4,
     "played": 5,
-    "xg": 5.5,
-    "xg_pg": 1.1,
-    "xga": 7.8,
-    "xga_pg": 1.56
+    "xg": 5.1,
+    "xg_pg": 1.02,
+    "xga": 7.5,
+    "xga_pg": 1.5
    }
   },
   "Göztepe": {
@@ -654,15 +654,15 @@
   },
   "Samsunspor": {
    "all": {
-    "ga": 28.0,
-    "ga_pg": 2.333,
-    "goals": 12.0,
-    "goals_pg": 1.0,
-    "played": 12,
-    "xg": 13.7,
-    "xg_pg": 1.142,
-    "xga": 18.8,
-    "xga_pg": 1.567
+    "ga": 29.0,
+    "ga_pg": 2.231,
+    "goals": 15.0,
+    "goals_pg": 1.154,
+    "played": 13,
+    "xg": 15.0,
+    "xg_pg": 1.154,
+    "xga": 20.0,
+    "xga_pg": 1.538
    },
    "away": {
     "ga": 13.0,
@@ -676,26 +676,26 @@
     "xga_pg": 1.767
    },
    "home": {
-    "ga": 15.0,
-    "ga_pg": 2.5,
-    "goals": 6.0,
-    "goals_pg": 1.0,
-    "played": 6,
-    "xg": 7.5,
-    "xg_pg": 1.25,
-    "xga": 8.2,
-    "xga_pg": 1.367
+    "ga": 16.0,
+    "ga_pg": 2.286,
+    "goals": 9.0,
+    "goals_pg": 1.286,
+    "played": 7,
+    "xg": 8.8,
+    "xg_pg": 1.257,
+    "xga": 9.4,
+    "xga_pg": 1.343
    },
    "last5": {
-    "ga": 13.0,
-    "ga_pg": 2.6,
-    "goals": 6.0,
-    "goals_pg": 1.2,
+    "ga": 10.0,
+    "ga_pg": 2.0,
+    "goals": 8.0,
+    "goals_pg": 1.6,
     "played": 5,
-    "xg": 4.5,
-    "xg_pg": 0.9,
-    "xga": 10.0,
-    "xga_pg": 2.0
+    "xg": 4.2,
+    "xg_pg": 0.84,
+    "xga": 9.2,
+    "xga_pg": 1.84
    }
   },
   "Trabzonspor": {

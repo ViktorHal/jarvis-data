@@ -29033,6 +29033,589 @@
     }
    ],
    "utc": "2026-11-27T20:15:00Z"
+  },
+  {
+   "away": "Rio Ave",
+   "home": "Arouca",
+   "id": "5887682",
+   "players": [
+    {
+     "id": 630168,
+     "minutes": 90,
+     "name": "Ignacio de Arruabarrena",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 816222,
+     "minutes": 90,
+     "name": "Tiago Esgaio",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 683761,
+     "minutes": 90,
+     "name": "Javi Sánchez",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1160390,
+     "minutes": 90,
+     "name": "José Fontán",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 864304,
+     "minutes": 90,
+     "name": "Orest Lebedenko",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1269404,
+     "minutes": 90,
+     "name": "Taichi Fukui",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1526602,
+     "minutes": 90,
+     "name": "Espen van Ee",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1118703,
+     "minutes": 64,
+     "name": "Pablo Gozálbez",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1139353,
+     "minutes": 85,
+     "name": "Alfonso Trezza",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1027396,
+     "minutes": 65,
+     "name": "Barbero",
+     "shots": 4,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 770328,
+     "minutes": 85,
+     "name": "Naïs Djouahra",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1328820,
+     "minutes": 26,
+     "name": "Hyun-Ju Lee",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1350681,
+     "minutes": 25,
+     "name": "Dylan Nandín",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1353472,
+     "minutes": 5,
+     "name": "Brian Mansilla",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1386766,
+     "minutes": 5,
+     "name": "Gabriel Rukavina",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1110725,
+     "minutes": 90,
+     "name": "Ennio van der Gouw",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1452500,
+     "minutes": 63,
+     "name": "Julien Lomboto",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1435030,
+     "minutes": 86,
+     "name": "Francisco Petrasso",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1403350,
+     "minutes": 90,
+     "name": "Andreas-Richardos Ntoi",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1118906,
+     "minutes": 63,
+     "name": "Nelson Abbey",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1254743,
+     "minutes": 90,
+     "name": "Ryan Guilherme",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 958222,
+     "minutes": 90,
+     "name": "Giorgos Liavas",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1693611,
+     "minutes": 75,
+     "name": "Diogo Bezerra",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1210508,
+     "minutes": 90,
+     "name": "Diogo Nascimento",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 972080,
+     "minutes": 90,
+     "name": "Roland Galcík",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1195295,
+     "minutes": 75,
+     "name": "Tamble Monteiro",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1736561,
+     "minutes": 27,
+     "name": "Gustavo Mancha",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 776584,
+     "minutes": 27,
+     "name": "Pedro Amaral",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1067806,
+     "minutes": 15,
+     "name": "Dario Špikić",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1611573,
+     "minutes": 15,
+     "name": "Jalen Blesa",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1374504,
+     "minutes": 4,
+     "name": "João Tomé",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-28T15:30:00.000Z"
+  },
+  {
+   "away": "Santa Clara",
+   "home": "Moreirense",
+   "id": "5887686",
+   "players": [
+    {
+     "id": 540415,
+     "minutes": 90,
+     "name": "André Ferreira",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1325525,
+     "minutes": 90,
+     "name": "Dinis Pinto",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1413843,
+     "minutes": 90,
+     "name": "Gilberto Batista",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1807642,
+     "minutes": 90,
+     "name": "Kevyn Monteiro",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1791693,
+     "minutes": 90,
+     "name": "Álvaro Martínez",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1127306,
+     "minutes": 79,
+     "name": "Nile John",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1668273,
+     "minutes": 90,
+     "name": "Guilherme Liberato",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1797925,
+     "minutes": 78,
+     "name": "Landerson",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1525414,
+     "minutes": 78,
+     "name": "Manuel Mendonça",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1418639,
+     "minutes": 70,
+     "name": "Tiago Andrade",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1313374,
+     "minutes": 70,
+     "name": "Leonardo Vonić",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1283074,
+     "minutes": 20,
+     "name": "Alexandre Duville-Parsemain",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1613999,
+     "minutes": 20,
+     "name": "Maranhão",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1395975,
+     "minutes": 12,
+     "name": "Rodri",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1842911,
+     "minutes": 11,
+     "name": "Afonso Vieira",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1558824,
+     "minutes": 12,
+     "name": "Songa Chipyoka",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 750049,
+     "minutes": 90,
+     "name": "Lucas França",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1077665,
+     "minutes": 90,
+     "name": "Lucas Soares",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1759734,
+     "minutes": 90,
+     "name": "Henrique Silva",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1513360,
+     "minutes": 90,
+     "name": "Ythallo",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 917209,
+     "minutes": 83,
+     "name": "Guilherme Romão",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1759728,
+     "minutes": 90,
+     "name": "Djé Tavares",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1615930,
+     "minutes": 90,
+     "name": "Daniel Borges",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1507906,
+     "minutes": 62,
+     "name": "Vasconcelos",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1525452,
+     "minutes": 83,
+     "name": "Brenner",
+     "shots": 3,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1570655,
+     "minutes": 72,
+     "name": "Luis Fernando",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1044194,
+     "minutes": 62,
+     "name": "Vinícius",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 824642,
+     "minutes": 28,
+     "name": "Pedro Ferreira",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1927888,
+     "minutes": 28,
+     "name": "Sorriso",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 388514,
+     "minutes": 18,
+     "name": "Gonçalo Paciência",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1560815,
+     "minutes": 7,
+     "name": "Kamika",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1072255,
+     "minutes": 7,
+     "name": "Welinton",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-28T15:30:00.000Z"
   }
  ]
 }

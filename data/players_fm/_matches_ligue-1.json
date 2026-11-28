@@ -28915,6 +28915,302 @@
     }
    ],
    "utc": "2026-11-27T19:45:00Z"
+  },
+  {
+   "away": "Lens",
+   "home": "Angers",
+   "id": "5803000",
+   "players": [
+    {
+     "id": 167035,
+     "minutes": 90,
+     "name": "Anthony Lopes",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1428420,
+     "minutes": 73,
+     "name": "Emmanuel Biumla",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1178325,
+     "minutes": 90,
+     "name": "Ousmane Camara",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 492116,
+     "minutes": 90,
+     "name": "Jordan Lefort",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1431818,
+     "minutes": 90,
+     "name": "Lilian Rao-Lisoa",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1610106,
+     "minutes": 83,
+     "name": "Joseph Kalulu",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 505059,
+     "minutes": 82,
+     "name": "Branco van den Boomen",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 561869,
+     "minutes": 90,
+     "name": "Haris Belkebla",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1347791,
+     "minutes": 90,
+     "name": "Yassin Belkhdim",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1123505,
+     "minutes": 82,
+     "name": "Amine El Ouazzani",
+     "shots": 3,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1748405,
+     "minutes": 89,
+     "name": "Prosper Peter",
+     "shots": 4,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1242587,
+     "minutes": 17,
+     "name": "Amine Sbaï",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1329255,
+     "minutes": 8,
+     "name": "Louis Mouton",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1832893,
+     "minutes": 8,
+     "name": "Harouna Djibirin",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 634110,
+     "minutes": 7,
+     "name": "Carlens Arcus",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1011026,
+     "minutes": 1,
+     "name": "Jim Allevinah",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1390336,
+     "minutes": 90,
+     "name": "Robin Risser",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 955214,
+     "minutes": 74,
+     "name": "Jean-Clair Todibo",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1276626,
+     "minutes": 90,
+     "name": "Samson Baidoo",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1191194,
+     "minutes": 90,
+     "name": "Jhoanner Chávez",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1002617,
+     "minutes": 90,
+     "name": "Saud Abdulhamid",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 861445,
+     "minutes": 62,
+     "name": "Michaël Cuisance",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 688830,
+     "minutes": 84,
+     "name": "Amadou Haidara",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 660326,
+     "minutes": 90,
+     "name": "Matthieu Udol",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 254308,
+     "minutes": 90,
+     "name": "Florian Thauvin",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1980586,
+     "minutes": 62,
+     "name": "Mezian Mesloub",
+     "shots": 6,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1189856,
+     "minutes": 84,
+     "name": "Abdallah Sima",
+     "shots": 8,
+     "sot": 5,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1288907,
+     "minutes": 28,
+     "name": "Yacine Titraoui",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 612699,
+     "minutes": 28,
+     "name": "Florian Sotoca",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1406645,
+     "minutes": 16,
+     "name": "Ismaëlo Ganiou",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1634789,
+     "minutes": 6,
+     "name": "Andrija Bulatović",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1406419,
+     "minutes": 6,
+     "name": "Franjo Ivanović",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-28T16:15:00.000Z"
   }
  ]
 }

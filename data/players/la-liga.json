@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T16:33:40Z",
+  "fetchedAt": "2026-11-28T18:19:46Z",
   "league": "La Liga",
   "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
   "season": "2026/27",
@@ -9,9 +9,9 @@
  "players": {
   "Abde Ezzalzouli": {
    "id": "37297124",
-   "minutes": 844,
+   "minutes": 843,
    "shots": 20.0,
-   "shots_p90": 2.13,
+   "shots_p90": 2.14,
    "team": "Real Betis"
   },
   "Adrián Dela": {
@@ -23,11 +23,11 @@
   },
   "Adrián Niño Heredia": {
    "id": "37656201",
-   "minutes": 549,
-   "shots": 24.0,
-   "shots_p90": 3.93,
-   "sot": 13.0,
-   "sot_p90": 2.13,
+   "minutes": 639,
+   "shots": 27.0,
+   "shots_p90": 3.8,
+   "sot": 15.0,
+   "sot_p90": 2.11,
    "team": "Málaga"
   },
   "Alberto Moleiro": {
@@ -91,11 +91,11 @@
   },
   "Chupe": {
    "id": "37640769",
-   "minutes": 890,
-   "shots": 25.0,
-   "shots_p90": 2.53,
+   "minutes": 935,
+   "shots": 27.0,
+   "shots_p90": 2.6,
    "sot": 8.0,
-   "sot_p90": 0.81,
+   "sot_p90": 0.77,
    "team": "Málaga"
   },
   "Cucho Hernández": {
@@ -150,9 +150,9 @@
   },
   "Isco": {
    "id": "185972",
-   "minutes": 795,
+   "minutes": 794,
    "shots": 26.0,
-   "shots_p90": 2.94,
+   "shots_p90": 2.95,
    "sot": 15.0,
    "sot_p90": 1.7,
    "team": "Real Betis"
@@ -168,11 +168,11 @@
   },
   "Iñaki Williams": {
    "id": "186801",
-   "minutes": 855,
-   "shots": 28.0,
-   "shots_p90": 2.95,
-   "sot": 12.0,
-   "sot_p90": 1.26,
+   "minutes": 945,
+   "shots": 32.0,
+   "shots_p90": 3.05,
+   "sot": 13.0,
+   "sot_p90": 1.24,
    "team": "Athletic Club"
   },
   "Jonathan David": {
@@ -184,7 +184,7 @@
   },
   "Jorge de Frutos": {
    "id": "447094",
-   "minutes": 869,
+   "minutes": 868,
    "sot": 9.0,
    "sot_p90": 0.93,
    "team": "Rayo Vallecano"
@@ -228,8 +228,6 @@
   "Lucas Cepeda": {
    "id": "37574526",
    "minutes": 601,
-   "shots": 20.0,
-   "shots_p90": 3.0,
    "sot": 9.0,
    "sot_p90": 1.35,
    "team": "Elche"
@@ -268,16 +266,16 @@
   },
   "Nelson Deossa": {
    "id": "37555046",
-   "minutes": 481,
+   "minutes": 480,
    "shots": 22.0,
-   "shots_p90": 4.12,
+   "shots_p90": 4.13,
    "team": "Real Betis"
   },
   "Nico Williams": {
    "id": "37297544",
-   "minutes": 706,
-   "shots": 26.0,
-   "shots_p90": 3.31,
+   "minutes": 796,
+   "shots": 28.0,
+   "shots_p90": 3.17,
    "team": "Athletic Club"
   },
   "Nicolas Pépé": {
@@ -286,6 +284,15 @@
    "sot": 8.0,
    "sot_p90": 1.38,
    "team": "Villarreal"
+  },
+  "Oihan Sancet": {
+   "id": "22158925",
+   "minutes": 688,
+   "shots": 23.0,
+   "shots_p90": 3.01,
+   "sot": 8.0,
+   "sot_p90": 1.05,
+   "team": "Athletic Club"
   },
   "Orri Óskarsson": {
    "id": "34573363",
@@ -330,9 +337,9 @@
   },
   "Pedro Díaz": {
    "id": "445829",
-   "minutes": 639,
+   "minutes": 638,
    "shots": 29.0,
-   "shots_p90": 4.08,
+   "shots_p90": 4.09,
    "team": "Rayo Vallecano"
   },
   "Pierre-Emerick Aubameyang": {
@@ -362,9 +369,9 @@
   },
   "Robert Navarro": {
    "id": "21427714",
-   "minutes": 657,
+   "minutes": 685,
    "sot": 8.0,
-   "sot_p90": 1.1,
+   "sot_p90": 1.05,
    "team": "Athletic Club"
   },
   "Sergio Camello": {
@@ -397,8 +404,6 @@
    "minutes": 618,
    "shots": 24.0,
    "shots_p90": 3.5,
-   "sot": 7.0,
-   "sot_p90": 1.02,
    "team": "Real Madrid"
   },
   "Yassir Zabiri": {
@@ -421,11 +426,11 @@
   },
   "Álex Berenguer": {
    "id": "187032",
-   "minutes": 820,
-   "shots": 22.0,
-   "shots_p90": 2.41,
-   "sot": 7.0,
-   "sot_p90": 0.77,
+   "minutes": 892,
+   "shots": 24.0,
+   "shots_p90": 2.42,
+   "sot": 8.0,
+   "sot_p90": 0.81,
    "team": "Athletic Club"
   },
   "Ángel Pérez": {

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T16:33:21Z",
+  "fetchedAt": "2026-11-28T18:19:27Z",
   "league": "Belgian Pro League",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
@@ -333,25 +333,25 @@
   "La Louvière": {
    "all": {
     "ga": 27.0,
-    "ga_pg": 2.25,
-    "goals": 13.0,
-    "goals_pg": 1.083,
-    "played": 12,
-    "xg": 16.5,
-    "xg_pg": 1.375,
-    "xga": 26.0,
-    "xga_pg": 2.167
+    "ga_pg": 2.077,
+    "goals": 15.0,
+    "goals_pg": 1.154,
+    "played": 13,
+    "xg": 18.0,
+    "xg_pg": 1.385,
+    "xga": 26.6,
+    "xga_pg": 2.046
    },
    "away": {
     "ga": 18.0,
-    "ga_pg": 3.0,
-    "goals": 3.0,
-    "goals_pg": 0.5,
-    "played": 6,
-    "xg": 4.9,
-    "xg_pg": 0.817,
-    "xga": 13.6,
-    "xga_pg": 2.267
+    "ga_pg": 2.571,
+    "goals": 5.0,
+    "goals_pg": 0.714,
+    "played": 7,
+    "xg": 6.3,
+    "xg_pg": 0.9,
+    "xga": 14.2,
+    "xga_pg": 2.029
    },
    "home": {
     "ga": 9.0,
@@ -365,15 +365,15 @@
     "xga_pg": 2.067
    },
    "last5": {
-    "ga": 13.0,
-    "ga_pg": 2.6,
-    "goals": 6.0,
-    "goals_pg": 1.2,
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 7.0,
+    "goals_pg": 1.4,
     "played": 5,
-    "xg": 7.6,
-    "xg_pg": 1.52,
-    "xga": 12.0,
-    "xga_pg": 2.4
+    "xg": 7.8,
+    "xg_pg": 1.56,
+    "xga": 8.5,
+    "xga_pg": 1.7
    }
   },
   "Lommel SK": {
@@ -746,15 +746,15 @@
   },
   "Westerlo": {
    "all": {
-    "ga": 31.0,
-    "ga_pg": 2.583,
+    "ga": 33.0,
+    "ga_pg": 2.538,
     "goals": 26.0,
-    "goals_pg": 2.167,
-    "played": 12,
-    "xg": 19.2,
-    "xg_pg": 1.6,
-    "xga": 24.9,
-    "xga_pg": 2.075
+    "goals_pg": 2.0,
+    "played": 13,
+    "xg": 19.9,
+    "xg_pg": 1.531,
+    "xga": 26.4,
+    "xga_pg": 2.031
    },
    "away": {
     "ga": 12.0,
@@ -768,26 +768,26 @@
     "xga_pg": 2.25
    },
    "home": {
-    "ga": 19.0,
-    "ga_pg": 3.167,
+    "ga": 21.0,
+    "ga_pg": 3.0,
     "goals": 17.0,
-    "goals_pg": 2.833,
-    "played": 6,
-    "xg": 10.5,
-    "xg_pg": 1.75,
-    "xga": 11.4,
-    "xga_pg": 1.9
+    "goals_pg": 2.429,
+    "played": 7,
+    "xg": 11.2,
+    "xg_pg": 1.6,
+    "xga": 12.9,
+    "xga_pg": 1.843
    },
    "last5": {
-    "ga": 15.0,
-    "ga_pg": 3.0,
-    "goals": 11.0,
-    "goals_pg": 2.2,
+    "ga": 16.0,
+    "ga_pg": 3.2,
+    "goals": 6.0,
+    "goals_pg": 1.2,
     "played": 5,
-    "xg": 8.5,
-    "xg_pg": 1.7,
-    "xga": 12.1,
-    "xga_pg": 2.42
+    "xg": 6.6,
+    "xg_pg": 1.32,
+    "xga": 12.5,
+    "xga_pg": 2.5
    }
   },
   "Zulte-Waregem": {
