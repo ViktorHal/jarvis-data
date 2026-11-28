@@ -32385,15 +32385,268 @@
     2,
     3
    ]
+  },
+  {
+   "away": "Benevento",
+   "corners": [
+    6,
+    5
+   ],
+   "ended": "FT",
+   "home": "Palermo",
+   "id": "5967176",
+   "league": "Serie B",
+   "leagueId": 86,
+   "players": [
+    {
+     "name": "Mattia Perin",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Tommaso Cassandro",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Giangiacomo Magnani",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Patryk Peda",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Tommaso Augello",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Jacopo Segre",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Filippo Ranocchia",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Dominic Vavassori",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Claudio Gomes",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Dennis Tørset Johnsen",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Joel Pohjanpalo",
+     "shots": 3,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Pietro Ceccaroni",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Alessandro Gabrielloni",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Emmanuel Quartsin Gyasi",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Hernani",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Pietro Bertolino",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Gianmarco Vannucchi",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Raffaele Romano",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Stefano Scognamillo",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Christian Dalle Mura",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Leonardo Sernicola",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Antonio Prisco",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Luigi Cherubini",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Antonis Siatounis",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Mattia Maita",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "David Okereke",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Marco Tumminello",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Pietro Saio",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Pietro Beruatto",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Christian Kouan",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Francesco Paolo Salvemini",
+     "shots": 2,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Simone Verdi",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "playersKnown": true,
+   "red": [
+    0,
+    0
+   ],
+   "score": [
+    3,
+    0
+   ],
+   "sport": "football",
+   "start": "2026-11-28T18:30:00.000Z",
+   "yellow": [
+    0,
+    1
+   ]
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T20:17:24Z",
-  "matches": 170,
+  "fetchedAt": "2026-11-28T21:17:35Z",
+  "matches": 171,
   "note": "settle bets with jarvis/settle.py; football cards = yellow + red as FotMob counts them; goals markets settle on the score after 90 minutes (ended AET/Pen -> needs a manual check)",
   "sources": {
    "fotmob": {
-    "new": 9,
+    "new": 1,
     "ok": true,
     "pending": 0
    },
