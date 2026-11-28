@@ -4,15 +4,10 @@
    "away": "Alverca",
    "books": {
     "atg_se": {
-     "h2h": {
-      "away": 1.01,
-      "draw": 20.0,
-      "home": 141.0
-     },
      "totals": {
       "2.5": {
-       "over": 2.4,
-       "under": 1.48
+       "over": 3.3,
+       "under": 1.27
       }
      }
     },
@@ -27,12 +22,12 @@
      "h2h": {
       "away": 1.0,
       "draw": 17.0,
-      "home": 51.0
+      "home": 56.0
      },
      "totals": {
       "2.5": {
-       "over": 2.35,
-       "under": 1.47
+       "over": 2.92,
+       "under": 1.31
       }
      }
     },
@@ -46,61 +41,51 @@
     "leovegas_se": {
      "totals": {
       "2.5": {
-       "over": 2.35,
-       "under": 1.42
+       "over": 3.3,
+       "under": 1.21
       }
      }
     },
     "mrgreen_se": {
      "h2h": {
-      "away": 1.01,
-      "draw": 23.0,
-      "home": 101.0
+      "away": 1.0,
+      "draw": 41.0,
+      "home": 151.0
      }
     },
     "nordicbet": {
      "h2h": {
       "away": 1.0,
-      "draw": 17.0,
+      "draw": 19.0,
       "home": 51.0
      },
      "totals": {
       "2.5": {
-       "over": 2.35,
-       "under": 1.47
+       "over": 3.1,
+       "under": 1.28
       }
      }
     },
     "sport888_se": {
      "h2h": {
-      "away": 1.01,
-      "draw": 23.0,
-      "home": 101.0
+      "away": 1.0,
+      "draw": 41.0,
+      "home": 151.0
      }
     },
     "svenskaspel_se": {
-     "h2h": {
-      "away": 1.01,
-      "draw": 20.0,
-      "home": 141.0
-     },
      "totals": {
       "2.5": {
-       "over": 2.4,
-       "under": 1.48
+       "over": 3.3,
+       "under": 1.27
       }
      }
     },
     "unibet_se": {
-     "h2h": {
-      "away": 1.01,
-      "draw": 21.0,
-      "home": 131.0
-     },
      "totals": {
       "2.5": {
-       "over": 2.38,
-       "under": 1.49
+       "over": 3.4,
+       "under": 1.25
       }
      }
     }
@@ -144,13 +129,13 @@
     "betsson": {
      "h2h": {
       "away": 3.7,
-      "draw": 3.45,
+      "draw": 3.4,
       "home": 1.92
      },
      "totals": {
       "2.5": {
-       "over": 1.72,
-       "under": 2.02
+       "over": 1.78,
+       "under": 1.98
       }
      }
     },
@@ -170,9 +155,9 @@
     },
     "hajper_se": {
      "h2h": {
-      "away": 3.9,
-      "draw": 3.7,
-      "home": 1.84
+      "away": 3.8,
+      "draw": 3.65,
+      "home": 1.89
      }
     },
     "leovegas_se": {
@@ -198,13 +183,13 @@
     "nordicbet": {
      "h2h": {
       "away": 3.7,
-      "draw": 3.45,
+      "draw": 3.4,
       "home": 1.92
      },
      "totals": {
       "2.5": {
-       "over": 1.72,
-       "under": 2.02
+       "over": 1.78,
+       "under": 1.98
       }
      }
     },
@@ -1078,7 +1063,7 @@
   ],
   "calls": [
    {
-    "at": "2026-11-28T19:47:02Z",
+    "at": "2026-11-28T19:51:36Z",
     "credits": 2,
     "events": 9,
     "key": "soccer_portugal_primeira_liga",
@@ -1086,9 +1071,9 @@
    }
   ],
   "cap": 450,
-  "creditsThisMonth": 6,
+  "creditsThisMonth": 8,
   "events": 9,
-  "fetchedAt": "2026-11-28T19:47:02Z",
+  "fetchedAt": "2026-11-28T19:51:36Z",
   "hisBooks": [
    "betmgm_se",
    "svenskaspel_se"
