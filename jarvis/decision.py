@@ -102,12 +102,20 @@ DEFAULT_CONFIG = {
     # 3.6: strong favourites list (owner): the most likely result/goal line per match, shown with its minimum price.
     # A list, not a recommendation: such lines are usually priced fairly, so they rarely pass the value rules.
     "favourites": {"minProb": 0.60, "maxProb": 0.92, "max": 15, "groups": ["Match result"]},
-    # 3.9 PRICE HUNT (research/line_drift.json, 24,581 matches). Beating Pinnacle's fair price on its own is worth
-    # almost nothing (closing-line value +1.5%); the same bet taken only where Pinnacle's own de-margined price has
-    # moved TOWARD the pick by >= driftMin gave +26.2% return and +18.5% closing-line value, positive in every
-    # complete season. driftMin is in probability, so 0.02 = two points. Longer odds only: 1X2 and moneyline at fair
-    # odds 3-8, where the backtest found soft bookmakers' prices lag Pinnacle's.
-    "hunt": {"fair": [3.0, 8.0], "driftMin": 0.02, "max": 24,
+    # 3.9 PRICE HUNT (research/line_drift.json, 24,581 matches, 1X2 at fair odds 3-8 with the soft price at or
+    # above Pinnacle's fair price). Beating that fair price on its own is worth almost nothing - 2,832 bets,
+    # closing-line value +0.3%. Requiring that Pinnacle's own de-margined price has moved TOWARD the pick turns it
+    # into the only edge measured here, and the more it has moved the better:
+    #     move >= 0      1,183 bets  +16.5% ROI  CLV  +8.1%
+    #     move >= 0.01     537 bets  +22.8% ROI  CLV +13.3%   <- driftMin
+    #     move >= 0.02     260 bets  +26.2% ROI  CLV +18.5%
+    #     move >= 0.03     124 bets  +52.1% ROI  CLV +24.3%
+    # driftMin is 0.01 (one point) rather than 0.02 because the backtest saw the whole opening-to-closing move
+    # while a scan sees only the part that has happened since the robot first priced the match; the ladder above
+    # is monotone, so a smaller threshold costs edge but loses no evidence. Biggest mover first, so the strongest
+    # signals are at the top of the list. Four of five seasons positive at every level; the part-season 2025/26
+    # was negative on money while its closing-line value stayed positive.
+    "hunt": {"fair": [3.0, 8.0], "driftMin": 0.01, "max": 24,
              "groups": ["Match result", "Moneyline (incl. OT)"]},
     # 3.10 GRID ANCHOR (research/market_grid.json). Pinnacle quotes 1X2 and the totals around 2.5-3.5, so after
     # 3.8 the model still priced over 1.5, both teams to score, team goals and every builder leg in the very same

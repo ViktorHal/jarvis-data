@@ -64,6 +64,38 @@
    "openAt": "2026-11-27T19:46:25Z",
    "start": "2026-11-27T21:00:00Z"
   },
+  "2026-11-28-buffalo-sabres-pittsburgh-penguins|Moneyline_incl_OT_Buffalo_Sabres": {
+   "close": 0.54605,
+   "closeAt": "2026-11-27T22:46:28Z",
+   "n": 25,
+   "open": 0.54605,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T01:00:00Z"
+  },
+  "2026-11-28-buffalo-sabres-pittsburgh-penguins|Moneyline_incl_OT_Pittsburgh_Penguins": {
+   "close": 0.45395,
+   "closeAt": "2026-11-27T22:46:28Z",
+   "n": 25,
+   "open": 0.45395,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T01:00:00Z"
+  },
+  "2026-11-28-edmonton-oilers-seattle-kraken|Moneyline_incl_OT_Edmonton_Oilers": {
+   "close": 0.65694,
+   "closeAt": "2026-11-27T22:46:28Z",
+   "n": 25,
+   "open": 0.64953,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T01:00:00Z"
+  },
+  "2026-11-28-edmonton-oilers-seattle-kraken|Moneyline_incl_OT_Seattle_Kraken": {
+   "close": 0.34306,
+   "closeAt": "2026-11-27T22:46:28Z",
+   "n": 25,
+   "open": 0.35047,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T01:00:00Z"
+  },
   "2026-11-28-new-york-islanders-winnipeg-jets|Moneyline_incl_OT_New_York_Islanders": {
    "close": 0.51955,
    "closeAt": "2026-11-27T22:46:28Z",
@@ -106,9 +138,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T00:42:06Z",
+  "fetchedAt": "2026-11-28T01:00:56Z",
   "keptDays": 45,
-  "lines": 13,
+  "lines": 17,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
