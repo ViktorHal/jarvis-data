@@ -20,14 +20,29 @@ class BookFit(unittest.TestCase):
 
     def test_stats_and_verdict(self):
         bets = [pick("Cards", "Under 5.5", 1.45, mgmOdds=1.30) for _ in range(9)] + [pick("Cards", "Under 5.5", 1.45, b365Odds=1.50)]
-        bets += [pick("Corners", "Over 8.5", 1.40, notOffered=["BetMGM"]) for _ in range(3)]
         st = B.stats(bets)
         self.assertEqual(st["Cards Under"]["n"], 10)
         self.assertEqual(st["Cards Under"]["playable"], 1)
         self.assertEqual(B.verdict("Cards Under", st), "lower")      # 10% playable: not below 10%
-        self.assertEqual(B.verdict("Corners Over", st), "show")       # too few observations
         bets += [pick("Cards", "Under 5.5", 1.45, svsOdds=1.2) for _ in range(5)]
         self.assertEqual(B.verdict("Cards Under", B.stats(bets)), "hide")
+
+    def test_four_unplayable_observations_are_enough(self):
+        """28 Nov 2026: on 27 Nov all ten observations were unplayable at 84-91% of the minimum, and eight-per-kind
+        meant the same picks filled the board again the next day."""
+        shots = [pick("Player shots", "Hall 2+", 1.28, mgmOdds=1.10 + i / 100) for i in range(4)]
+        self.assertEqual(B.verdict("Player shots 2+", B.stats(shots)), "hide")
+        self.assertEqual(B.verdict("Player shots 2+", B.stats(shots[:3])), "show")   # three is not yet evidence
+        # a kind that merely keeps just missing is lowered, not hidden
+        near = [pick("Corners", "Under 10.5", 1.40, mgmOdds=1.38) for _ in range(6)]
+        self.assertEqual(B.verdict("Corners Under", B.stats(near)), "lower")
+        # and a line his bookmakers do not carry at all goes at once
+        gone = [pick("Corners", "Over 8.5", 1.40, notOffered=["BetMGM", "Bet365"]) for _ in range(2)]
+        self.assertEqual(B.verdict("Corners Over", B.stats(gone)), "hide")
+        self.assertEqual(B.verdict("Corners Over", B.stats(gone[:1])), "show")
+        # a kind the bookmakers do pay is untouched
+        good = [pick("Total goals", "Over 1.5", 1.25, mgmOdds=1.28) for _ in range(5)]
+        self.assertEqual(B.verdict("Total goals Over", B.stats(good)), "show")
 
     def test_filter_board(self):
         bets = [pick("Cards", "Under 5.5", 1.45, mgmOdds=1.30) for _ in range(12)]

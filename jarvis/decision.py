@@ -37,7 +37,7 @@ try:  # hockey model 1.2 (production for hockey from 26 Nov 2026 when its inputs
 except Exception:  # a missing or broken hockey12.py falls back to 1.1, recorded per match
     hockey12 = None
 
-VERSION = "3.10"
+VERSION = "3.11"
 
 DEFAULT_CONFIG = {
     "mode": "shadow",                 # "shadow" | "active"
@@ -125,6 +125,21 @@ DEFAULT_CONFIG = {
     # where the model was 4.0-5.6 points out. cv is the extra spread the market's own distribution has over
     # independent Poisson (0.25 fitted on those lines; 0 is the plain grid).
     "marketGrid": {"cv": 0.25, "maxResidual": 0.02},
+    # 3.11 THE MOVEMENT EXCEPTION (owner, 28 Nov 2026: "choose for yourself about the margin; think that he should
+    # make money"). Jarvis' standing rule is a 3% cushion over fair - a price that is positive expected value by
+    # the market's own reckoning. On lines the market is MOVING toward, that cushion costs more than it earns:
+    # insisting on it leaves almost nothing to bet, because a soft bookmaker rarely beats Pinnacle's fair price on
+    # a line the sharp money has already taken. Three independent samples, all with the movement filter and a
+    # price down to 2% BELOW fair (research/line_drift.json, research/line_drift_totals.json):
+    #     1X2, fair 3-8      622 bets  +16.4% ROI  CLV +14.7%
+    #     1X2, fair 1.3-3    202 bets   +9.3% ROI  CLV  +9.0%
+    #     over/under 2.5     470 bets   +5.8% ROI  CLV  +6.9%
+    # Without the movement filter the same relaxation is clearly negative (2,243 bets, -5.7% ROI, CLV -1.4%), so
+    # the exception hangs on the movement and on nothing else. It applies only where the probability comes from the
+    # market (anchored, directly or through the fitted grid) and the market has moved at least `min` toward the
+    # pick; everywhere else the 3% cushion stands untouched. Those rows carry driftEdged: true, so the weekly
+    # report can judge exactly these bets and the owner can see why the minimum is lower than usual.
+    "driftEdge": {"min": 0.02, "edge": -0.02},
 }
 
 SPORT_KEY = {"football": "football", "ice hockey": "hockey", "hockey": "hockey",
@@ -305,9 +320,11 @@ def quality_score(ev_at_price, status, tier, price_sources, gap, lineup, dq):
 
 
 # ---------------------------------------------------------------- gates
-def evaluate_line(p, *, rules, cfg, status, tier, odds, gap, quality, minutes_to_start, sport_on):
+def evaluate_line(p, *, rules, cfg, status, tier, odds, gap, quality, minutes_to_start, sport_on, edge=None):
     """Returns (postable, reasons, min_odds). odds = best known price (BetMGM if entered, else
-    the public reference); None means the price must be checked at BetMGM."""
+    the public reference); None means the price must be checked at BetMGM. `edge` overrides the required cushion
+    for this line only (3.11: lower on a line the market is moving toward)."""
+    cfg = cfg if edge is None else dict(cfg, edge=edge)
     reasons = []
     if not sport_on:
         reasons.append("sport off")
@@ -782,8 +799,12 @@ def process_match(m, statuses, now, cfg):
         typed = isinstance(mgm.get(k), (int, float)) and mgm.get(k) > 1
         gap = (p - p_ref) if p_ref is not None else None
         q, qb = quality_score(None if odds is None else ev(p, odds), status, tier, sources, gap, lineup, dq)
+        # 3.11: on a market-priced line the market is moving toward, the required cushion drops (see driftEdge)
+        de = cfg.get("driftEdge") or {}
+        edged = bool(anchored) and moved is not None and de.get("edge") is not None \
+            and moved["move"] >= 100 * de.get("min", 0.02)
         common = dict(cfg=cfg, status=status, tier=row_tier, odds=odds, gap=gap, quality=q,
-                      minutes_to_start=mins, sport_on=sport_on)
+                      minutes_to_start=mins, sport_on=sport_on, edge=de["edge"] if edged else None)
         ok1, why1, mo1 = evaluate_line(p, rules="v1", **common)
         ok2, why2, mo2 = evaluate_line(p, rules="v2", **common)
         block = data_check(x["group"], x["selection"], prov, sets_by_group.get(x["group"], False),
@@ -822,6 +843,8 @@ def process_match(m, statuses, now, cfg):
             rows[-1]["anchored"] = anchored
         if moved is not None and abs(moved["move"]) >= 0.5:
             rows[-1]["drift"] = moved
+        if edged:
+            rows[-1]["driftEdged"] = True
         if h12_used:
             rows[-1]["prob11"] = h12_info["prob11"].get(k)
     # Shadow model 1.2: same inputs plus the P2 fields; stored next to 1.1, never used to decide.
@@ -1283,7 +1306,10 @@ def hunts(processed, cfg):
             if not d or d["move"] < dmin:
                 continue
             out.append({"matchId": m["id"], "event": m["event"], "start": m["start"], "pick": _pick(r), "key": r["key"],
-                        "prob": r["prob"], "fair": round(100 / r["prob"], 2), "minOdds": r["minOdds"],
+                        "prob": r["prob"], "fair": round(100 / r["prob"], 2),
+                        # the hunt keeps asking for fair or better: the relaxed minimum of 3.11 is for a price he
+                        # has already found, not for a target to aim at (537 bets at fair-or-better: CLV +13.3%)
+                        "minOdds": ceil2((1 + cfg["edge"]) * 100 / r["prob"]),
                         "pinnacle": r["odds"], "move": round(d["move"] * 100, 1), "since": d["since"],
                         "wasProb": round(d["first"] * 100, 1)})
     out.sort(key=lambda h: -h["move"])

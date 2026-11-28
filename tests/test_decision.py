@@ -1096,3 +1096,47 @@ def test_310_the_market_move_reaches_the_lines_pinnacle_does_not_quote():
         assert not [r for r in plain["matches"][0]["markets"] if r.get("drift")]
     finally:
         D.DEFAULT_CONFIG["marketAnchor"] = False
+
+
+def test_311_the_cushion_drops_only_where_the_market_is_moving():
+    """research/line_drift_totals.json: a price 2% below fair is a loser without the movement filter (2,243 bets,
+    -5.7%) and a winner with it (470 bets, +5.8%, closing-line value +6.9%). So the exception hangs on the
+    movement: same line, same probability, two different minimum prices."""
+    D.DEFAULT_CONFIG["marketAnchor"] = True
+    try:
+        cfg = D.load_config()
+        base = priced_match(0)
+        novig = D.market_probs([{"group": r["group"], "selection": r["selection"]}
+                                for r in model.run({"sport": "football", **base["inputs"]})["markets"]],
+                               base["marketOdds"])
+        big = cfg["driftEdge"]["min"] + 0.005                     # just over the threshold, in probability
+        # the market moved toward the overs, so the unders moved the other way: the sign is per line
+        sign = lambda k: 1 if "_Over_" in k or k.endswith("_Home0") else -1
+        moving = dict(base, drift={k: {"move": round(sign(k) * big, 5), "first": round(p - sign(k) * big, 5),
+                                       "since": "2026-11-27T09:00Z"}
+                                   for k, p in novig.items()
+                                   if k.startswith(("Match_result", "Total_goals"))})
+        still = dict(base, drift={k: {"move": 0.0, "first": round(p, 5), "since": "2026-11-27T09:00Z"}
+                                  for k, p in novig.items() if k.startswith(("Match_result", "Total_goals"))})
+        out = {}
+        for tag, m in (("moving", moving), ("still", still)):
+            res = D.run({"now": NOW, "matches": [m], "markets": STATUSES, "openBets": [], "config": {"mode": "active"}})
+            out[tag] = {(r["group"], r["selection"]): r for r in res["matches"][0]["markets"]}
+        key = ("Total goals", "Over 2.5")
+        a, b = out["moving"][key], out["still"][key]
+        assert a["prob"] == pytest.approx(b["prob"], abs=0.2) and a["anchored"] and b["anchored"]
+        assert a.get("driftEdged") and not b.get("driftEdged")
+        fair = 100 / a["prob"]
+        assert a["minOddsV1"] == pytest.approx(fair * (1 + cfg["driftEdge"]["edge"]), abs=0.02)
+        assert b["minOddsV1"] == pytest.approx(fair * (1 + cfg["edge"]), abs=0.02)
+        assert a["minOddsV1"] < fair < b["minOddsV1"]           # below fair only with the movement
+        # a line the market moved AWAY from gets no relaxation
+        away = out["moving"].get(("Total goals", "Under 2.5"))
+        assert away is not None and not away.get("driftEdged") and away["minOddsV1"] > 100 / away["prob"]
+        # and the hunt list still asks for the full cushion, never the relaxed price
+        hunted = D.run({"now": NOW, "matches": [moving], "markets": STATUSES, "openBets": [],
+                        "config": {"mode": "active"}})["hunts"]
+        for h in hunted:
+            assert h["minOdds"] >= h["fair"]
+    finally:
+        D.DEFAULT_CONFIG["marketAnchor"] = False

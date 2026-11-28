@@ -18,9 +18,17 @@ import sys
 from statistics import median
 
 BOOK_FIELDS = ("mgmOdds", "b365Odds", "svsOdds")
-MIN_N = 8            # observations of a kind before it can be lowered or hidden
+# 28 Nov 2026: four observations, not eight. On 27 Nov every single one of ten observations was unplayable and the
+# best price was 84-91% of Jarvis' minimum (two card lines were not offered at all), yet eight-per-kind meant
+# nothing could be acted on and the same picks filled the board again. Showing an unplayable pick costs him a slot
+# a playable one could have had; hiding a kind costs almost nothing, because it comes straight back as soon as his
+# own log shows a bookmaker paying. Hiding also needs the prices to be clearly off (median under 95% of the
+# minimum) or the line to have been missing twice, so a kind that merely keeps just missing is only lowered.
+MIN_N = 4            # observations of a kind before it can be lowered or hidden
 HIDE_SHARE = 0.10    # playable in under 10% of the observations -> hidden
+HIDE_RATIO = 0.95    # ... and the best price typically under 95% of the minimum
 LOWER_SHARE = 0.25   # under 25% -> shown after everything else
+MISSING_N = 2        # a line not offered at all this many times -> hidden whatever the prices did
 
 
 def kind_of(group, selection):
@@ -80,16 +88,23 @@ def stats(bets):
     for k, rs in obs.items():
         pl = sum(1 for r in rs if r >= 1.0)
         out[k] = {"n": len(rs), "playable": pl, "share": round(pl / len(rs), 3),
-                  "medianRatio": round(median(rs), 3)}
+                  "medianRatio": round(median(rs), 3), "missing": sum(1 for r in rs if r == 0.0),
+                  "bestRatio": round(max(rs), 3)}
     return out
 
 
 def verdict(kind, st):
     s = st.get(kind)
-    if not s or s["n"] < MIN_N:
+    if not s:
         return "show"
-    if s["share"] < HIDE_SHARE:
+    if s.get("missing", 0) >= MISSING_N and s["playable"] == 0:
+        return "hide"                      # the line itself is not on offer at his bookmakers
+    if s["n"] < MIN_N:
+        return "show"
+    if s["share"] < HIDE_SHARE and s["medianRatio"] < HIDE_RATIO:
         return "hide"
+    if s["share"] < HIDE_SHARE:
+        return "lower"                     # it keeps just missing: worth showing last, not dropping
     if s["share"] < LOWER_SHARE:
         return "lower"
     return "show"
