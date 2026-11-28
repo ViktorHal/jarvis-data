@@ -1344,6 +1344,126 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T17:15:00Z"
   },
+  "2026-11-28-charleroi-beveren|Corners_Over_10_5": {
+   "close": 0.45639,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.45602,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Corners_Over_9_5": {
+   "close": 0.5672,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.56559,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Corners_Under_10_5": {
+   "close": 0.54361,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.54398,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Corners_Under_9_5": {
+   "close": 0.4328,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.43441,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Match_result_Beveren": {
+   "close": 0.20288,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.16931,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Match_result_Charleroi": {
+   "close": 0.5645,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.61182,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Match_result_Draw": {
+   "close": 0.23263,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.21886,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Total_goals_Over_1_5": {
+   "close": 0.77507,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.79021,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Total_goals_Over_2_5": {
+   "close": 0.55409,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.57899,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Total_goals_Over_3_5": {
+   "close": 0.33479,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.36369,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Total_goals_Over_4_5": {
+   "close": 0.17643,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.20055,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Total_goals_Under_1_5": {
+   "close": 0.22493,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.20979,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Total_goals_Under_2_5": {
+   "close": 0.44591,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.42101,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Total_goals_Under_3_5": {
+   "close": 0.66521,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.63631,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-charleroi-beveren|Total_goals_Under_4_5": {
+   "close": 0.82357,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.79945,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
   "2026-11-28-derby-county-watford|Corners_Over_10_5": {
    "close": 0.45245,
    "closeAt": "2026-11-28T13:46:56Z",
@@ -2680,6 +2800,110 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T17:00:00Z"
   },
+  "2026-11-28-internazionale-genoa|Corners_Over_10_5": {
+   "close": 0.41118,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.40072,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Corners_Over_8_5": {
+   "close": 0.63838,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.62857,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Corners_Over_9_5": {
+   "close": 0.52299,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.50982,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Corners_Under_10_5": {
+   "close": 0.58882,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.59928,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Corners_Under_8_5": {
+   "close": 0.36162,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.37143,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Corners_Under_9_5": {
+   "close": 0.47701,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.49018,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Match_result_Draw": {
+   "close": 0.15616,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.15942,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Match_result_Genoa": {
+   "close": 0.09201,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.09709,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Match_result_Internazionale": {
+   "close": 0.75183,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.74349,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Total_goals_Over_2_5": {
+   "close": 0.65164,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.62433,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Total_goals_Over_3_5": {
+   "close": 0.43463,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.40258,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Total_goals_Under_2_5": {
+   "close": 0.34836,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.37567,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-internazionale-genoa|Total_goals_Under_3_5": {
+   "close": 0.56537,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.59742,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
   "2026-11-28-ipswich-town-aston-villa|Corners_Over_10_5": {
    "close": 0.3856,
    "closeAt": "2026-11-28T16:48:17Z",
@@ -2920,6 +3144,198 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T15:00:00Z"
   },
+  "2026-11-28-le-havre-strasbourg|Corners_Over_8_5": {
+   "close": 0.55926,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.5532,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-havre-strasbourg|Corners_Over_9_5": {
+   "close": 0.4471,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.44121,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-havre-strasbourg|Corners_Under_8_5": {
+   "close": 0.44074,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.4468,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-havre-strasbourg|Corners_Under_9_5": {
+   "close": 0.5529,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.55879,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-havre-strasbourg|Match_result_Draw": {
+   "close": 0.27453,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.27417,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-havre-strasbourg|Match_result_Le_Havre": {
+   "close": 0.28248,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.29059,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-havre-strasbourg|Match_result_Strasbourg": {
+   "close": 0.44299,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.43524,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-havre-strasbourg|Total_goals_Over_2_5": {
+   "close": 0.54373,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.54627,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-havre-strasbourg|Total_goals_Over_3_5": {
+   "close": 0.33278,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.33729,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-havre-strasbourg|Total_goals_Under_2_5": {
+   "close": 0.45627,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.45373,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-havre-strasbourg|Total_goals_Under_3_5": {
+   "close": 0.66722,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.66271,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Corners_Over_8_5": {
+   "close": 0.53555,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.54201,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Corners_Over_9_5": {
+   "close": 0.42392,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.43086,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Corners_Under_8_5": {
+   "close": 0.46445,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.45799,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Corners_Under_9_5": {
+   "close": 0.57608,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.56914,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Match_result_Draw": {
+   "close": 0.2754,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.28896,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Match_result_Le_Mans": {
+   "close": 0.24434,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.25088,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Match_result_Lille": {
+   "close": 0.48026,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.46015,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Total_goals_Over_1_5": {
+   "close": 0.73415,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.69974,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Total_goals_Over_2_5": {
+   "close": 0.485,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.44208,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Total_goals_Over_3_5": {
+   "close": 0.27569,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 24,
+   "open": 0.2813,
+   "openAt": "2026-11-28T11:48:29Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Total_goals_Under_1_5": {
+   "close": 0.26585,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.30026,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Total_goals_Under_2_5": {
+   "close": 0.515,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.55792,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-le-mans-lille|Total_goals_Under_3_5": {
+   "close": 0.72431,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 24,
+   "open": 0.7187,
+   "openAt": "2026-11-28T11:48:29Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
   "2026-11-28-leeds-united-coventry-city|Corners_Over_10_5": {
    "close": 0.38889,
    "closeAt": "2026-11-28T12:46:36Z",
@@ -3143,6 +3559,142 @@
    "open": 0.84339,
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Corners_Over_10_5": {
+   "close": 0.48601,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.4862,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Corners_Over_11_5": {
+   "close": 0.3842,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.38385,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Corners_Over_9_5": {
+   "close": 0.59256,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.59258,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Corners_Under_10_5": {
+   "close": 0.51399,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.5138,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Corners_Under_11_5": {
+   "close": 0.6158,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.61615,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Corners_Under_9_5": {
+   "close": 0.40744,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.40742,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Match_result_Draw": {
+   "close": 0.27078,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.25675,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Match_result_Lommel": {
+   "close": 0.29645,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.34858,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Match_result_Zulte_Waregem": {
+   "close": 0.43277,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.39467,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Total_goals_Over_1_5": {
+   "close": 0.768,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.81679,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Total_goals_Over_2_5": {
+   "close": 0.54139,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.60777,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Total_goals_Over_3_5": {
+   "close": 0.33158,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.39723,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Total_goals_Over_4_5": {
+   "close": 0.1814,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.23116,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Total_goals_Under_1_5": {
+   "close": 0.232,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.18321,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Total_goals_Under_2_5": {
+   "close": 0.45861,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.39223,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Total_goals_Under_3_5": {
+   "close": 0.66842,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.60277,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-lommel-zulte-waregem|Total_goals_Under_4_5": {
+   "close": 0.8186,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.76884,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
   },
   "2026-11-28-lulea-rogle-bk|Moneyline_incl_OT_Lulea": {
    "close": 0.50432,
@@ -3864,6 +4416,126 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T00:30:00Z"
   },
+  "2026-11-28-nice-troyes|Corners_Over_10_5": {
+   "close": 0.36847,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 65,
+   "open": 0.3692,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Corners_Over_8_5": {
+   "close": 0.58114,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.58889,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Corners_Over_9_5": {
+   "close": 0.4653,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.47548,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Corners_Under_10_5": {
+   "close": 0.63153,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 65,
+   "open": 0.6308,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Corners_Under_8_5": {
+   "close": 0.41886,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.41111,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Corners_Under_9_5": {
+   "close": 0.5347,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.52452,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Match_result_Draw": {
+   "close": 0.24077,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.24452,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Match_result_Nice": {
+   "close": 0.55916,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.56819,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Match_result_Troyes": {
+   "close": 0.20006,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.18729,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Total_goals_Over_1_5": {
+   "close": 0.77554,
+   "closeAt": "2026-11-28T09:47:15Z",
+   "n": 13,
+   "open": 0.7397,
+   "openAt": "2026-11-28T07:48:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Total_goals_Over_2_5": {
+   "close": 0.55715,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.55101,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Total_goals_Over_3_5": {
+   "close": 0.33855,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.33838,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Total_goals_Under_1_5": {
+   "close": 0.22446,
+   "closeAt": "2026-11-28T09:47:15Z",
+   "n": 13,
+   "open": 0.2603,
+   "openAt": "2026-11-28T07:48:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Total_goals_Under_2_5": {
+   "close": 0.44285,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.44899,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-nice-troyes|Total_goals_Under_3_5": {
+   "close": 0.66145,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.66162,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
   "2026-11-28-osnabruck-hannover-96|Corners_Over_10_5": {
    "close": 0.48601,
    "closeAt": "2026-11-28T18:46:57Z",
@@ -4103,6 +4775,110 @@
    "open": 0.67551,
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Corners_Over_10_5": {
+   "close": 0.37753,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.37555,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Corners_Over_8_5": {
+   "close": 0.60325,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.60319,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Corners_Over_9_5": {
+   "close": 0.48264,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.48191,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Corners_Under_10_5": {
+   "close": 0.62247,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.62445,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Corners_Under_8_5": {
+   "close": 0.39675,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.39681,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Corners_Under_9_5": {
+   "close": 0.51736,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.51809,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Match_result_Draw": {
+   "close": 0.12348,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.11937,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Match_result_Lorient": {
+   "close": 0.06617,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.07446,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Match_result_Paris_Saint_Germain": {
+   "close": 0.81036,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.80617,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Total_goals_Over_2_5": {
+   "close": 0.6413,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.67105,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Total_goals_Over_3_5": {
+   "close": 0.42295,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.45247,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Total_goals_Under_2_5": {
+   "close": 0.3587,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.32895,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
+  },
+  "2026-11-28-paris-saint-germain-lorient|Total_goals_Under_3_5": {
+   "close": 0.57705,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.54753,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z"
   },
   "2026-11-28-preston-north-end-norwich-city|Corners_Over_10_5": {
    "close": 0.47515,
@@ -5682,9 +6458,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T19:39:24Z",
+  "fetchedAt": "2026-11-28T19:47:02Z",
   "keptDays": 45,
-  "lines": 710,
+  "lines": 807,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
