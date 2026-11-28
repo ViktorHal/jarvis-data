@@ -1,9 +1,9 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T19:17:08Z",
+  "fetchedAt": "2026-11-28T20:17:27Z",
   "games": 364,
   "note": "gf/ga exclude the shootout winner's extra goal; reg_* = regulation time (periods 1-3)",
-  "played": 141,
+  "played": 143,
   "season": "2026/27",
   "series": 20961,
   "source": "https://stats.swehockey.se/ScheduleAndResults/Schedule/20961"
@@ -230,29 +230,20 @@
    "reg_gf_pg": 1.762
   },
   "Frölunda HC": {
-   "away_ga_pg": 2.455,
-   "away_gf_pg": 2.818,
-   "away_gp": 11,
-   "ga_pg": 2.227,
-   "gf_pg": 3.227,
-   "gp": 22,
+   "away_ga_pg": 2.333,
+   "away_gf_pg": 2.667,
+   "away_gp": 12,
+   "ga_pg": 2.174,
+   "gf_pg": 3.13,
+   "gp": 23,
    "home_ga_pg": 2.0,
    "home_gf_pg": 3.636,
    "home_gp": 11,
-   "l10_ga_pg": 2.1,
-   "l10_gf_pg": 3.4,
+   "l10_ga_pg": 2.0,
+   "l10_gf_pg": 2.9,
    "l10_gp": 10,
-   "lastGame": "2026-11-26",
+   "lastGame": "2026-11-28",
    "log": [
-    {
-     "date": "2026-10-24",
-     "ga": 2,
-     "gf": 6,
-     "opp": "HV 71",
-     "reg_ga": 2,
-     "reg_gf": 6,
-     "venue": "A"
-    },
     {
      "date": "2026-10-27",
      "ga": 5,
@@ -333,11 +324,20 @@
      "reg_ga": 2,
      "reg_gf": 5,
      "venue": "H"
+    },
+    {
+     "date": "2026-11-28",
+     "ga": 1,
+     "gf": 1,
+     "opp": "Växjö Lakers HC",
+     "reg_ga": 1,
+     "reg_gf": 1,
+     "venue": "A"
     }
    ],
    "played_yesterday": false,
-   "reg_ga_pg": 2.182,
-   "reg_gf_pg": 3.227
+   "reg_ga_pg": 2.13,
+   "reg_gf_pg": 3.13
   },
   "Färjestad BK": {
    "away_ga_pg": 1.636,
@@ -893,26 +893,17 @@
    "away_ga_pg": 2.3,
    "away_gf_pg": 2.3,
    "away_gp": 10,
-   "ga_pg": 2.526,
-   "gf_pg": 2.526,
-   "gp": 19,
-   "home_ga_pg": 2.778,
-   "home_gf_pg": 2.778,
-   "home_gp": 9,
-   "l10_ga_pg": 2.1,
-   "l10_gf_pg": 2.7,
+   "ga_pg": 2.65,
+   "gf_pg": 2.55,
+   "gp": 20,
+   "home_ga_pg": 3.0,
+   "home_gf_pg": 2.8,
+   "home_gp": 10,
+   "l10_ga_pg": 2.4,
+   "l10_gf_pg": 2.5,
    "l10_gp": 10,
-   "lastGame": "2026-11-24",
+   "lastGame": "2026-11-28",
    "log": [
-    {
-     "date": "2026-10-17",
-     "ga": 2,
-     "gf": 5,
-     "opp": "HV 71",
-     "reg_ga": 2,
-     "reg_gf": 5,
-     "venue": "H"
-    },
     {
      "date": "2026-10-22",
      "ga": 2,
@@ -993,36 +984,36 @@
      "reg_ga": 2,
      "reg_gf": 2,
      "venue": "H"
+    },
+    {
+     "date": "2026-11-28",
+     "ga": 5,
+     "gf": 3,
+     "opp": "Rögle BK",
+     "reg_ga": 5,
+     "reg_gf": 3,
+     "venue": "H"
     }
    ],
    "played_yesterday": false,
-   "reg_ga_pg": 2.421,
-   "reg_gf_pg": 2.526
+   "reg_ga_pg": 2.55,
+   "reg_gf_pg": 2.55
   },
   "Rögle BK": {
-   "away_ga_pg": 3.364,
-   "away_gf_pg": 2.818,
-   "away_gp": 11,
-   "ga_pg": 2.8,
-   "gf_pg": 2.55,
-   "gp": 20,
+   "away_ga_pg": 3.333,
+   "away_gf_pg": 3.0,
+   "away_gp": 12,
+   "ga_pg": 2.81,
+   "gf_pg": 2.667,
+   "gp": 21,
    "home_ga_pg": 2.111,
    "home_gf_pg": 2.222,
    "home_gp": 9,
-   "l10_ga_pg": 3.5,
-   "l10_gf_pg": 2.8,
+   "l10_ga_pg": 3.7,
+   "l10_gf_pg": 2.9,
    "l10_gp": 10,
-   "lastGame": "2026-11-26",
+   "lastGame": "2026-11-28",
    "log": [
-    {
-     "date": "2026-10-22",
-     "ga": 1,
-     "gf": 4,
-     "opp": "Frölunda HC",
-     "reg_ga": 1,
-     "reg_gf": 4,
-     "venue": "H"
-    },
     {
      "date": "2026-10-24",
      "ga": 4,
@@ -1103,11 +1094,20 @@
      "reg_ga": 1,
      "reg_gf": 4,
      "venue": "A"
+    },
+    {
+     "date": "2026-11-28",
+     "ga": 3,
+     "gf": 5,
+     "opp": "Luleå HF",
+     "reg_ga": 3,
+     "reg_gf": 5,
+     "venue": "A"
     }
    ],
    "played_yesterday": false,
-   "reg_ga_pg": 2.7,
-   "reg_gf_pg": 2.45
+   "reg_ga_pg": 2.714,
+   "reg_gf_pg": 2.571
   },
   "Skellefteå AIK": {
    "away_ga_pg": 2.889,
@@ -1333,26 +1333,17 @@
    "away_ga_pg": 3.333,
    "away_gf_pg": 2.0,
    "away_gp": 9,
-   "ga_pg": 2.789,
-   "gf_pg": 2.526,
-   "gp": 19,
-   "home_ga_pg": 2.3,
-   "home_gf_pg": 3.0,
-   "home_gp": 10,
-   "l10_ga_pg": 2.1,
-   "l10_gf_pg": 2.2,
+   "ga_pg": 2.7,
+   "gf_pg": 2.45,
+   "gp": 20,
+   "home_ga_pg": 2.182,
+   "home_gf_pg": 2.818,
+   "home_gp": 11,
+   "l10_ga_pg": 2.0,
+   "l10_gf_pg": 2.0,
    "l10_gp": 10,
-   "lastGame": "2026-11-26",
+   "lastGame": "2026-11-28",
    "log": [
-    {
-     "date": "2026-10-17",
-     "ga": 2,
-     "gf": 3,
-     "opp": "Brynäs IF",
-     "reg_ga": 2,
-     "reg_gf": 3,
-     "venue": "A"
-    },
     {
      "date": "2026-10-22",
      "ga": 1,
@@ -1433,11 +1424,20 @@
      "reg_ga": 1,
      "reg_gf": 4,
      "venue": "H"
+    },
+    {
+     "date": "2026-11-28",
+     "ga": 1,
+     "gf": 1,
+     "opp": "Frölunda HC",
+     "reg_ga": 1,
+     "reg_gf": 1,
+     "venue": "H"
     }
    ],
    "played_yesterday": false,
-   "reg_ga_pg": 2.737,
-   "reg_gf_pg": 2.474
+   "reg_ga_pg": 2.65,
+   "reg_gf_pg": 2.4
   },
   "Örebro HK": {
    "away_ga_pg": 3.7,
