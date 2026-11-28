@@ -200,6 +200,126 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T15:00:00Z"
   },
+  "2026-11-28-academico-de-viseu-alverca|Corners_Over_8_5": {
+   "close": 0.55695,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.57165,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Corners_Over_9_5": {
+   "close": 0.44051,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.4592,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Corners_Under_8_5": {
+   "close": 0.44305,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.42835,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Corners_Under_9_5": {
+   "close": 0.55949,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.5408,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Match_result_Academico_de_Viseu": {
+   "close": 0.34701,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.3642,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Match_result_Alverca": {
+   "close": 0.34454,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.3294,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Match_result_Draw": {
+   "close": 0.30845,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.30639,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Total_goals_Over_1_5": {
+   "close": 0.72933,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.72769,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Total_goals_Over_2_5": {
+   "close": 0.47184,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.4721,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Total_goals_Over_3_5": {
+   "close": 0.27209,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.27333,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Total_goals_Over_4_5": {
+   "close": 0.13491,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.1372,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Total_goals_Under_1_5": {
+   "close": 0.27067,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.27231,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Total_goals_Under_2_5": {
+   "close": 0.52816,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.5279,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Total_goals_Under_3_5": {
+   "close": 0.72791,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.72667,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
+  "2026-11-28-academico-de-viseu-alverca|Total_goals_Under_4_5": {
+   "close": 0.86509,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.8628,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T18:00:00Z"
+  },
   "2026-11-28-al-ahli-al-taawoun|Corners_Over_10_5": {
    "close": 0.38385,
    "closeAt": "2026-11-28T00:42:06Z",
@@ -5426,9 +5546,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T18:17:20Z",
+  "fetchedAt": "2026-11-28T18:46:57Z",
   "keptDays": 45,
-  "lines": 678,
+  "lines": 693,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
