@@ -64,6 +64,142 @@
    "openAt": "2026-11-27T19:46:25Z",
    "start": "2026-11-27T21:00:00Z"
   },
+  "2026-11-28-aberdeen-dundee-fc|Corners_Over_10_5": {
+   "close": 0.5,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.5,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Corners_Over_11_5": {
+   "close": 0.39421,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.39379,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Corners_Over_9_5": {
+   "close": 0.6082,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.60815,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Corners_Under_10_5": {
+   "close": 0.5,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.5,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Corners_Under_11_5": {
+   "close": 0.60579,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.60621,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Corners_Under_9_5": {
+   "close": 0.3918,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.39185,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Match_result_Aberdeen": {
+   "close": 0.51613,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.51976,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Match_result_Draw": {
+   "close": 0.24405,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.24221,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Match_result_Dundee_FC": {
+   "close": 0.23982,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.23803,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Total_goals_Over_1_5": {
+   "close": 0.7985,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.79605,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Total_goals_Over_2_5": {
+   "close": 0.58385,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.58237,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Total_goals_Over_3_5": {
+   "close": 0.36681,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.36816,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Total_goals_Over_4_5": {
+   "close": 0.1977,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.2002,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Total_goals_Under_1_5": {
+   "close": 0.2015,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.20395,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Total_goals_Under_2_5": {
+   "close": 0.41615,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.41763,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Total_goals_Under_3_5": {
+   "close": 0.63319,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.63184,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-aberdeen-dundee-fc|Total_goals_Under_4_5": {
+   "close": 0.8023,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.7998,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
   "2026-11-28-al-ettifaq-al-hilal|Corners_Over_10_5": {
    "close": 0.4452,
    "closeAt": "2026-11-28T13:46:56Z",
@@ -304,6 +440,262 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T12:15:00Z"
   },
+  "2026-11-28-arouca-rio-ave|Corners_Over_8_5": {
+   "close": 0.57729,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.57338,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Corners_Over_9_5": {
+   "close": 0.46282,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.44988,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Corners_Under_8_5": {
+   "close": 0.42271,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.42662,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Corners_Under_9_5": {
+   "close": 0.53718,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.55012,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Match_result_Arouca": {
+   "close": 0.5863,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.56884,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Match_result_Draw": {
+   "close": 0.23819,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.24773,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Match_result_Rio_Ave": {
+   "close": 0.17551,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.18343,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Total_goals_Over_1_5": {
+   "close": 0.75436,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.73653,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Total_goals_Over_2_5": {
+   "close": 0.52157,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.49323,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Total_goals_Over_3_5": {
+   "close": 0.3049,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.28538,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Total_goals_Over_4_5": {
+   "close": 0.156,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.14439,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Total_goals_Under_1_5": {
+   "close": 0.24564,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.26347,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Total_goals_Under_2_5": {
+   "close": 0.47843,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.50677,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Total_goals_Under_3_5": {
+   "close": 0.6951,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.71462,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-arouca-rio-ave|Total_goals_Under_4_5": {
+   "close": 0.844,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.85561,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Corners_Over_10_5": {
+   "close": 0.46822,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.47764,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Corners_Over_11_5": {
+   "close": 0.37688,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.37699,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Corners_Over_9_5": {
+   "close": 0.57701,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.58452,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Corners_Under_10_5": {
+   "close": 0.53178,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.52236,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Corners_Under_11_5": {
+   "close": 0.62312,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.62301,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Corners_Under_9_5": {
+   "close": 0.42299,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.41548,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Match_result_Birmingham_City": {
+   "close": 0.6452,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.64763,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Match_result_Bolton_Wanderers": {
+   "close": 0.15559,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.15393,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Match_result_Draw": {
+   "close": 0.19921,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.19845,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Total_goals_Over_1_5": {
+   "close": 0.8089,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.81228,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Total_goals_Over_2_5": {
+   "close": 0.61404,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.62017,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Total_goals_Over_3_5": {
+   "close": 0.38937,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.39828,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Total_goals_Over_4_5": {
+   "close": 0.21296,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.22045,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Total_goals_Under_1_5": {
+   "close": 0.1911,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.18772,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Total_goals_Under_2_5": {
+   "close": 0.38596,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.37983,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Total_goals_Under_3_5": {
+   "close": 0.61063,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.60172,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-birmingham-city-bolton-wanderers|Total_goals_Under_4_5": {
+   "close": 0.78704,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.77955,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
   "2026-11-28-blackburn-rovers-charlton-athletic|Corners_Over_10_5": {
    "close": 0.49351,
    "closeAt": "2026-11-28T11:48:29Z",
@@ -472,6 +864,262 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T01:00:00Z"
   },
+  "2026-11-28-derby-county-watford|Corners_Over_10_5": {
+   "close": 0.45245,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.47157,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Corners_Over_9_5": {
+   "close": 0.55783,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.57717,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Corners_Under_10_5": {
+   "close": 0.54755,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.52843,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Corners_Under_9_5": {
+   "close": 0.44217,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.42283,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Match_result_Derby_County": {
+   "close": 0.41459,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.42204,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Match_result_Draw": {
+   "close": 0.28873,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.28509,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Match_result_Watford": {
+   "close": 0.29668,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.29287,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Total_goals_Over_1_5": {
+   "close": 0.72543,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.73287,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Total_goals_Over_2_5": {
+   "close": 0.46968,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.48315,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Total_goals_Over_3_5": {
+   "close": 0.27138,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.28118,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Total_goals_Over_4_5": {
+   "close": 0.13706,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.14383,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Total_goals_Under_1_5": {
+   "close": 0.27457,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.26713,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Total_goals_Under_2_5": {
+   "close": 0.53032,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.51685,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Total_goals_Under_3_5": {
+   "close": 0.72862,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.71882,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-derby-county-watford|Total_goals_Under_4_5": {
+   "close": 0.86294,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.85617,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Corners_Over_10_5": {
+   "close": 0.54636,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.5138,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Corners_Over_11_5": {
+   "close": 0.44006,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.41492,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Corners_Over_9_5": {
+   "close": 0.62895,
+   "closeAt": "2026-11-28T00:42:06Z",
+   "n": 24,
+   "open": 0.62726,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Corners_Under_10_5": {
+   "close": 0.45364,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.4862,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Corners_Under_11_5": {
+   "close": 0.55994,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.58508,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Corners_Under_9_5": {
+   "close": 0.37105,
+   "closeAt": "2026-11-28T00:42:06Z",
+   "n": 24,
+   "open": 0.37274,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Match_result_Draw": {
+   "close": 0.21643,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.22387,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Match_result_Dundee_United": {
+   "close": 0.59535,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.57132,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Match_result_St_Johnstone": {
+   "close": 0.18822,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.20481,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Total_goals_Over_1_5": {
+   "close": 0.83267,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.82807,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Total_goals_Over_2_5": {
+   "close": 0.6399,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.63346,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Total_goals_Over_3_5": {
+   "close": 0.42255,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.4223,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Total_goals_Over_4_5": {
+   "close": 0.24506,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.24324,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Total_goals_Under_1_5": {
+   "close": 0.16733,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.17193,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Total_goals_Under_2_5": {
+   "close": 0.3601,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.36654,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Total_goals_Under_3_5": {
+   "close": 0.57745,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.5777,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-dundee-united-st-johnstone|Total_goals_Under_4_5": {
+   "close": 0.75494,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.75676,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
   "2026-11-28-dynamo-dresden-st-pauli|Corners_Over_10_5": {
    "close": 0.42331,
    "closeAt": "2026-11-28T10:47:42Z",
@@ -623,6 +1271,142 @@
    "open": 0.35047,
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T01:00:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Corners_Over_10_5": {
+   "close": 0.40332,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.41112,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Corners_Over_8_5": {
+   "close": 0.62747,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.63634,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Corners_Over_9_5": {
+   "close": 0.50537,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.51689,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Corners_Under_10_5": {
+   "close": 0.59668,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.58888,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Corners_Under_8_5": {
+   "close": 0.37253,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.36366,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Corners_Under_9_5": {
+   "close": 0.49463,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.48311,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Match_result_Draw": {
+   "close": 0.26962,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.26415,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Match_result_Excelsior": {
+   "close": 0.44321,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.46803,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Match_result_Telstar": {
+   "close": 0.28717,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.26782,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Total_goals_Over_1_5": {
+   "close": 0.78215,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.7811,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Total_goals_Over_2_5": {
+   "close": 0.55409,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.55566,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Total_goals_Over_3_5": {
+   "close": 0.33587,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.34644,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Total_goals_Over_4_5": {
+   "close": 0.1784,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.18947,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Total_goals_Under_1_5": {
+   "close": 0.21785,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.2189,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Total_goals_Under_2_5": {
+   "close": 0.44591,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.44434,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Total_goals_Under_3_5": {
+   "close": 0.66413,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.65356,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-excelsior-telstar|Total_goals_Under_4_5": {
+   "close": 0.8216,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.81053,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
   },
   "2026-11-28-fc-koln-elversberg|Corners_Over_10_5": {
    "close": 0.45364,
@@ -1176,6 +1960,246 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T12:00:00Z"
   },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Corners_Over_10_5": {
+   "close": 0.38701,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.39675,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Corners_Over_8_5": {
+   "close": 0.60773,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.61657,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Corners_Over_9_5": {
+   "close": 0.49247,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.50426,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Corners_Under_10_5": {
+   "close": 0.61299,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.60325,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Corners_Under_8_5": {
+   "close": 0.39227,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.38343,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Corners_Under_9_5": {
+   "close": 0.50753,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.49574,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Match_result_Draw": {
+   "close": 0.2495,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.2554,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Match_result_KVC_Westerlo": {
+   "close": 0.53198,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.48853,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Match_result_RAAL_La_Louviere": {
+   "close": 0.21852,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.25608,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Total_goals_Over_1_5": {
+   "close": 0.77668,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.78017,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Total_goals_Over_2_5": {
+   "close": 0.54824,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.55642,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Total_goals_Over_3_5": {
+   "close": 0.33948,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.34792,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Total_goals_Over_4_5": {
+   "close": 0.18378,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.18991,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Total_goals_Under_1_5": {
+   "close": 0.22332,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.21983,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Total_goals_Under_2_5": {
+   "close": 0.45176,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.44358,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Total_goals_Under_3_5": {
+   "close": 0.66052,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.65208,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-kvc-westerlo-raal-la-louviere|Total_goals_Under_4_5": {
+   "close": 0.81622,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.81009,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Corners_Over_10_5": {
+   "close": 0.38889,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 50,
+   "open": 0.38711,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Corners_Over_8_5": {
+   "close": 0.58269,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.61005,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Corners_Over_9_5": {
+   "close": 0.46408,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.49781,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Corners_Under_10_5": {
+   "close": 0.61111,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 50,
+   "open": 0.61289,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Corners_Under_8_5": {
+   "close": 0.41731,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.38995,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Corners_Under_9_5": {
+   "close": 0.53592,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.50219,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Match_result_Coventry_City": {
+   "close": 0.13453,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.14886,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Match_result_Draw": {
+   "close": 0.21865,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.20599,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Match_result_Leeds_United": {
+   "close": 0.64682,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.64515,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Total_goals_Over_2_5": {
+   "close": 0.5279,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.5722,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Total_goals_Over_3_5": {
+   "close": 0.31532,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.3493,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Total_goals_Under_2_5": {
+   "close": 0.4721,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.4278,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-leeds-united-coventry-city|Total_goals_Under_3_5": {
+   "close": 0.68468,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.6507,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
   "2026-11-28-lincoln-city-wolverhampton|Corners_Over_10_5": {
    "close": 0.44478,
    "closeAt": "2026-11-28T11:48:29Z",
@@ -1383,6 +2407,486 @@
    "open": 0.59798,
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Corners_Over_10_5": {
+   "close": 0.41279,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.40742,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Corners_Over_8_5": {
+   "close": 0.62661,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.62112,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Corners_Over_9_5": {
+   "close": 0.51439,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.50982,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Corners_Under_10_5": {
+   "close": 0.58721,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.59258,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Corners_Under_8_5": {
+   "close": 0.37339,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.37888,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Corners_Under_9_5": {
+   "close": 0.48561,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.49018,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Match_result_Athletic_Bilbao": {
+   "close": 0.56915,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.55097,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Match_result_Draw": {
+   "close": 0.24432,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.24894,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Match_result_Malaga": {
+   "close": 0.18653,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.20008,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Total_goals_Over_1_5": {
+   "close": 0.75511,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.74926,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Total_goals_Over_2_5": {
+   "close": 0.51955,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.51832,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Total_goals_Over_3_5": {
+   "close": 0.30718,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.30692,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Total_goals_Under_1_5": {
+   "close": 0.24489,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.25074,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Total_goals_Under_2_5": {
+   "close": 0.48045,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.48168,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-malaga-athletic-bilbao|Total_goals_Under_3_5": {
+   "close": 0.69282,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.69308,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:15:00Z"
+  },
+  "2026-11-28-manchester-united-brentford|Corners_Over_10_5": {
+   "close": 0.44858,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.4556,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-manchester-united-brentford|Corners_Over_9_5": {
+   "close": 0.56154,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.57137,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-manchester-united-brentford|Corners_Under_10_5": {
+   "close": 0.55142,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.5444,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-manchester-united-brentford|Corners_Under_9_5": {
+   "close": 0.43846,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.42863,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-manchester-united-brentford|Match_result_Brentford": {
+   "close": 0.32285,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.3204,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-manchester-united-brentford|Match_result_Draw": {
+   "close": 0.25324,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.25751,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-manchester-united-brentford|Match_result_Manchester_United": {
+   "close": 0.42391,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.42209,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-manchester-united-brentford|Total_goals_Over_2_5": {
+   "close": 0.61493,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.60715,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-manchester-united-brentford|Total_goals_Over_3_5": {
+   "close": 0.4043,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.39586,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-manchester-united-brentford|Total_goals_Under_2_5": {
+   "close": 0.38507,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.39285,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-manchester-united-brentford|Total_goals_Under_3_5": {
+   "close": 0.5957,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.60414,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Corners_Over_10_5": {
+   "close": 0.47423,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.47458,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Corners_Over_11_5": {
+   "close": 0.37554,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.37659,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Corners_Over_9_5": {
+   "close": 0.57887,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.57788,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Corners_Under_10_5": {
+   "close": 0.52577,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.52542,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Corners_Under_11_5": {
+   "close": 0.62446,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.62341,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Corners_Under_9_5": {
+   "close": 0.42113,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.42212,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Match_result_Burnley": {
+   "close": 0.29219,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.29326,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Match_result_Draw": {
+   "close": 0.26077,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.26006,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Match_result_Millwall": {
+   "close": 0.44704,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.44668,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Total_goals_Over_1_5": {
+   "close": 0.79297,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.78746,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Total_goals_Over_2_5": {
+   "close": 0.57571,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.56824,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Total_goals_Over_3_5": {
+   "close": 0.35885,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.35299,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Total_goals_Over_4_5": {
+   "close": 0.19385,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.19246,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Total_goals_Under_1_5": {
+   "close": 0.20703,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.21254,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Total_goals_Under_2_5": {
+   "close": 0.42429,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.43176,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Total_goals_Under_3_5": {
+   "close": 0.64115,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.64701,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-millwall-burnley|Total_goals_Under_4_5": {
+   "close": 0.80615,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.80754,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Corners_Over_7_5": {
+   "close": 0.6308,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.63826,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Corners_Over_8_5": {
+   "close": 0.51929,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.52931,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Corners_Over_9_5": {
+   "close": 0.39878,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.4106,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Corners_Under_7_5": {
+   "close": 0.3692,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.36174,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Corners_Under_8_5": {
+   "close": 0.48071,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.47069,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Corners_Under_9_5": {
+   "close": 0.60122,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.5894,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Match_result_Draw": {
+   "close": 0.32135,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.31546,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Match_result_Moreirense": {
+   "close": 0.33814,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.30451,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Match_result_Santa_Clara": {
+   "close": 0.34051,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.38004,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Total_goals_Over_0_5": {
+   "close": 0.87528,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 10,
+   "open": 0.87649,
+   "openAt": "2026-11-28T11:48:29Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Total_goals_Over_1_5": {
+   "close": 0.66765,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.66806,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Total_goals_Over_2_5": {
+   "close": 0.3964,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.39783,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Total_goals_Over_3_5": {
+   "close": 0.2062,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.20803,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Total_goals_Under_0_5": {
+   "close": 0.12472,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 10,
+   "open": 0.12351,
+   "openAt": "2026-11-28T11:48:29Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Total_goals_Under_1_5": {
+   "close": 0.33235,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.33194,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Total_goals_Under_2_5": {
+   "close": 0.6036,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.60217,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
+  },
+  "2026-11-28-moreirense-santa-clara|Total_goals_Under_3_5": {
+   "close": 0.7938,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.79197,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:30:00Z"
   },
   "2026-11-28-new-york-islanders-winnipeg-jets|Moneyline_incl_OT_New_York_Islanders": {
    "close": 0.51955,
@@ -1640,6 +3144,246 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T12:30:00Z"
   },
+  "2026-11-28-queens-park-rangers-sheffield-united|Corners_Over_10_5": {
+   "close": 0.45245,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.4616,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Corners_Over_9_5": {
+   "close": 0.55783,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.5672,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Corners_Under_10_5": {
+   "close": 0.54755,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.5384,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Corners_Under_9_5": {
+   "close": 0.44217,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.4328,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Match_result_Draw": {
+   "close": 0.26101,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.2595,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Match_result_Queens_Park_Rangers": {
+   "close": 0.47938,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.48848,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Match_result_Sheffield_United": {
+   "close": 0.25961,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.25203,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Total_goals_Over_1_5": {
+   "close": 0.75249,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.75598,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Total_goals_Over_2_5": {
+   "close": 0.5148,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.52133,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Total_goals_Over_3_5": {
+   "close": 0.3029,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.30944,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Total_goals_Over_4_5": {
+   "close": 0.1583,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.16399,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Total_goals_Under_1_5": {
+   "close": 0.24751,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.24402,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Total_goals_Under_2_5": {
+   "close": 0.4852,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.47867,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Total_goals_Under_3_5": {
+   "close": 0.6971,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.69056,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-queens-park-rangers-sheffield-united|Total_goals_Under_4_5": {
+   "close": 0.8417,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.83601,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Corners_Over_10_5": {
+   "close": 0.56178,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.56313,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Corners_Over_11_5": {
+   "close": 0.45092,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.45211,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Corners_Under_10_5": {
+   "close": 0.43822,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.43687,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Corners_Under_11_5": {
+   "close": 0.54908,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.54789,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Match_result_Draw": {
+   "close": 0.13998,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.14299,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Match_result_Falkirk": {
+   "close": 0.07981,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.08699,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Match_result_Rangers": {
+   "close": 0.78021,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.77003,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Total_goals_Over_1_5": {
+   "close": 0.86157,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.85869,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Total_goals_Over_2_5": {
+   "close": 0.69818,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.69281,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Total_goals_Over_3_5": {
+   "close": 0.49548,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.48886,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Total_goals_Over_4_5": {
+   "close": 0.30249,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.29761,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Total_goals_Under_1_5": {
+   "close": 0.13843,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.14131,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Total_goals_Under_2_5": {
+   "close": 0.30182,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.30719,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Total_goals_Under_3_5": {
+   "close": 0.50452,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.51114,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-rangers-falkirk|Total_goals_Under_4_5": {
+   "close": 0.69751,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.70239,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
   "2026-11-28-real-betis-rayo-vallecano|Corners_Over_10_5": {
    "close": 0.47701,
    "closeAt": "2026-11-28T11:48:29Z",
@@ -1896,6 +3640,142 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T14:15:00Z"
   },
+  "2026-11-28-st-mirren-kilmarnock|Corners_Over_10_5": {
+   "close": 0.50216,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.51168,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Corners_Over_11_5": {
+   "close": 0.39719,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.40586,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Corners_Over_9_5": {
+   "close": 0.61111,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.61934,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Corners_Under_10_5": {
+   "close": 0.49784,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.48832,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Corners_Under_11_5": {
+   "close": 0.60281,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.59414,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Corners_Under_9_5": {
+   "close": 0.38889,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.38066,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Match_result_Draw": {
+   "close": 0.25962,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.26502,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Match_result_Kilmarnock": {
+   "close": 0.32366,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.30624,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Match_result_St_Mirren": {
+   "close": 0.41673,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.42874,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Total_goals_Over_1_5": {
+   "close": 0.81182,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.79769,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Total_goals_Over_2_5": {
+   "close": 0.60262,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.57941,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Total_goals_Over_3_5": {
+   "close": 0.38122,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.36106,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Total_goals_Over_4_5": {
+   "close": 0.20805,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.19611,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Total_goals_Under_1_5": {
+   "close": 0.18818,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.20231,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Total_goals_Under_2_5": {
+   "close": 0.39738,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.42059,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Total_goals_Under_3_5": {
+   "close": 0.61878,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.63894,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-st-mirren-kilmarnock|Total_goals_Under_4_5": {
+   "close": 0.79195,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.80389,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
   "2026-11-28-timra-ik-linkopings-hc|Moneyline_incl_OT_Linkopings_HC": {
    "close": 0.35091,
    "closeAt": "2026-11-28T12:46:36Z",
@@ -1911,6 +3791,414 @@
    "open": 0.64735,
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T14:15:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Corners_Over_10_5": {
+   "close": 0.473,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.48406,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Corners_Over_11_5": {
+   "close": 0.37287,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.38193,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Corners_Over_9_5": {
+   "close": 0.58114,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.58993,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Corners_Under_10_5": {
+   "close": 0.527,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.51594,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Corners_Under_11_5": {
+   "close": 0.62713,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.61807,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Corners_Under_9_5": {
+   "close": 0.41886,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.41007,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Match_result_Bristol_City": {
+   "close": 0.19311,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.19332,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Match_result_Draw": {
+   "close": 0.24935,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.24956,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Match_result_West_Bromwich_Albion": {
+   "close": 0.55753,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.55712,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Total_goals_Over_1_5": {
+   "close": 0.74318,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.74652,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Total_goals_Over_2_5": {
+   "close": 0.50458,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.51356,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Total_goals_Over_3_5": {
+   "close": 0.29452,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.30073,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Total_goals_Over_4_5": {
+   "close": 0.152,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.15607,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Total_goals_Under_1_5": {
+   "close": 0.25682,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.25348,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Total_goals_Under_2_5": {
+   "close": 0.49542,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.48644,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Total_goals_Under_3_5": {
+   "close": 0.70548,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.69927,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-bromwich-albion-bristol-city|Total_goals_Under_4_5": {
+   "close": 0.848,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.84393,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Corners_Over_10_5": {
+   "close": 0.50432,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.52023,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Corners_Over_11_5": {
+   "close": 0.40587,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.41935,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Corners_Over_9_5": {
+   "close": 0.6135,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.62607,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Corners_Under_10_5": {
+   "close": 0.49568,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.47977,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Corners_Under_11_5": {
+   "close": 0.59413,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.58065,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Corners_Under_9_5": {
+   "close": 0.3865,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.37393,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Match_result_Draw": {
+   "close": 0.22322,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.21222,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Match_result_Stoke_City": {
+   "close": 0.19685,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.20196,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Match_result_West_Ham_United": {
+   "close": 0.57992,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.58582,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Total_goals_Over_1_5": {
+   "close": 0.75494,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.76905,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Total_goals_Over_2_5": {
+   "close": 0.52157,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.54591,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Total_goals_Over_3_5": {
+   "close": 0.30692,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.32776,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Total_goals_Over_4_5": {
+   "close": 0.15987,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.17699,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Total_goals_Under_1_5": {
+   "close": 0.24506,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.23095,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Total_goals_Under_2_5": {
+   "close": 0.47843,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.45409,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Total_goals_Under_3_5": {
+   "close": 0.69308,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.67224,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-west-ham-united-stoke-city|Total_goals_Under_4_5": {
+   "close": 0.84013,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.82301,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Corners_Over_10_5": {
+   "close": 0.40798,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.40586,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Corners_Over_8_5": {
+   "close": 0.62884,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.62607,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Corners_Over_9_5": {
+   "close": 0.51399,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.51283,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Corners_Under_10_5": {
+   "close": 0.59202,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.59414,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Corners_Under_8_5": {
+   "close": 0.37116,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.37393,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Corners_Under_9_5": {
+   "close": 0.48601,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.48717,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Match_result_Draw": {
+   "close": 0.29645,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.29616,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Match_result_Portsmouth": {
+   "close": 0.27462,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.27664,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Match_result_Wrexham": {
+   "close": 0.42893,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.4272,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Total_goals_Over_0_5": {
+   "close": 0.87636,
+   "closeAt": "2026-11-28T08:46:56Z",
+   "n": 10,
+   "open": 0.87622,
+   "openAt": "2026-11-28T06:47:46Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Total_goals_Over_1_5": {
+   "close": 0.66162,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.66455,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Total_goals_Over_2_5": {
+   "close": 0.39947,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.40302,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Total_goals_Over_3_5": {
+   "close": 0.20805,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.21267,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Total_goals_Under_0_5": {
+   "close": 0.12364,
+   "closeAt": "2026-11-28T08:46:56Z",
+   "n": 10,
+   "open": 0.12378,
+   "openAt": "2026-11-28T06:47:46Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Total_goals_Under_1_5": {
+   "close": 0.33838,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.33545,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Total_goals_Under_2_5": {
+   "close": 0.60053,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.59698,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
+  },
+  "2026-11-28-wrexham-portsmouth|Total_goals_Under_3_5": {
+   "close": 0.79195,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.78733,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T15:00:00Z"
   },
   "m1|Match_result_Away": {
    "close": 0.16552,
@@ -1938,9 +4226,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T14:41:26Z",
+  "fetchedAt": "2026-11-28T15:52:00Z",
   "keptDays": 45,
-  "lines": 242,
+  "lines": 528,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
