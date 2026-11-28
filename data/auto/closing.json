@@ -440,6 +440,94 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T12:15:00Z"
   },
+  "2026-11-28-angers-lens|Corners_Over_10_5": {
+   "close": 0.44261,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.44121,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T16:15:00Z"
+  },
+  "2026-11-28-angers-lens|Corners_Over_9_5": {
+   "close": 0.54713,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.54671,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T16:15:00Z"
+  },
+  "2026-11-28-angers-lens|Corners_Under_10_5": {
+   "close": 0.55739,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.55879,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T16:15:00Z"
+  },
+  "2026-11-28-angers-lens|Corners_Under_9_5": {
+   "close": 0.45287,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.45329,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T16:15:00Z"
+  },
+  "2026-11-28-angers-lens|Match_result_Angers": {
+   "close": 0.19669,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.19553,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:15:00Z"
+  },
+  "2026-11-28-angers-lens|Match_result_Draw": {
+   "close": 0.23767,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.23492,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:15:00Z"
+  },
+  "2026-11-28-angers-lens|Match_result_Lens": {
+   "close": 0.56564,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.56956,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:15:00Z"
+  },
+  "2026-11-28-angers-lens|Total_goals_Over_2_5": {
+   "close": 0.55523,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.56131,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:15:00Z"
+  },
+  "2026-11-28-angers-lens|Total_goals_Over_3_5": {
+   "close": 0.34111,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.35083,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:15:00Z"
+  },
+  "2026-11-28-angers-lens|Total_goals_Under_2_5": {
+   "close": 0.44477,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.43869,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:15:00Z"
+  },
+  "2026-11-28-angers-lens|Total_goals_Under_3_5": {
+   "close": 0.65889,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.64917,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:15:00Z"
+  },
   "2026-11-28-arouca-rio-ave|Corners_Over_8_5": {
    "close": 0.57729,
    "closeAt": "2026-11-28T14:41:26Z",
@@ -1615,6 +1703,142 @@
    "open": 0.71181,
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Corners_Over_10_5": {
+   "close": 0.38689,
+   "closeAt": "2026-11-28T00:42:06Z",
+   "n": 24,
+   "open": 0.38689,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Corners_Over_8_5": {
+   "close": 0.57729,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.6021,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Corners_Over_9_5": {
+   "close": 0.46282,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.49258,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Corners_Under_10_5": {
+   "close": 0.61311,
+   "closeAt": "2026-11-28T00:42:06Z",
+   "n": 24,
+   "open": 0.61311,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Corners_Under_8_5": {
+   "close": 0.42271,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.3979,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Corners_Under_9_5": {
+   "close": 0.53718,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 54,
+   "open": 0.50742,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Match_result_Amedspor": {
+   "close": 0.40819,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.47075,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Match_result_Draw": {
+   "close": 0.28241,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.24872,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Match_result_Gaziantep": {
+   "close": 0.30939,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.28053,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Total_goals_Over_1_5": {
+   "close": 0.75933,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.7969,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Total_goals_Over_2_5": {
+   "close": 0.51376,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.58112,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Total_goals_Over_3_5": {
+   "close": 0.30898,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.36654,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Total_goals_Over_4_5": {
+   "close": 0.16306,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.20441,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Total_goals_Under_1_5": {
+   "close": 0.24067,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.2031,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Total_goals_Under_2_5": {
+   "close": 0.48624,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.41888,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Total_goals_Under_3_5": {
+   "close": 0.69102,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.63346,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:00:00Z"
+  },
+  "2026-11-28-gaziantep-amedspor|Total_goals_Under_4_5": {
+   "close": 0.83694,
+   "closeAt": "2026-11-28T14:41:26Z",
+   "n": 66,
+   "open": 0.79559,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T16:00:00Z"
   },
   "2026-11-28-hamburger-sv-bayern-munich|Corners_Over_10_5": {
    "close": 0.4556,
@@ -4226,9 +4450,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T16:31:06Z",
+  "fetchedAt": "2026-11-28T16:48:18Z",
   "keptDays": 45,
-  "lines": 528,
+  "lines": 556,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
