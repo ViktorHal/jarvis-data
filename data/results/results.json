@@ -22174,10 +22174,10 @@
    ]
   },
   {
-   "away": "Linköping HC",
+   "away": "Örebro HK",
    "ended": "REG",
-   "home": "Timrå IK",
-   "id": "2026-11-28-Timrå IK-Linköping HC",
+   "home": "Brynäs IF",
+   "id": "2026-11-28-Brynäs IF-Örebro HK",
    "league": "SHL",
    "reg": [
     3,
@@ -22185,6 +22185,40 @@
    ],
    "score": [
     3,
+    0
+   ],
+   "sport": "shl",
+   "start": "2026-11-28T14:15:00Z"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "ended": "REG",
+   "home": "IF Malmö Redhawks",
+   "id": "2026-11-28-IF Malmö Redhawks-Djurgårdens IF",
+   "league": "SHL",
+   "reg": [
+    1,
+    2
+   ],
+   "score": [
+    1,
+    2
+   ],
+   "sport": "shl",
+   "start": "2026-11-28T14:15:00Z"
+  },
+  {
+   "away": "Linköping HC",
+   "ended": "REG",
+   "home": "Timrå IK",
+   "id": "2026-11-28-Timrå IK-Linköping HC",
+   "league": "SHL",
+   "reg": [
+    6,
+    0
+   ],
+   "score": [
+    6,
     0
    ],
    "sport": "shl",
@@ -22442,15 +22476,1006 @@
     2,
     0
    ]
+  },
+  {
+   "away": "Elversberg",
+   "corners": [
+    5,
+    10
+   ],
+   "ended": "FT",
+   "home": "1. FC Köln",
+   "id": "5881234",
+   "league": "Bundesliga",
+   "leagueId": 54,
+   "players": [
+    {
+     "name": "Marvin Schwäbe",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Joël Schmied",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Jahmai Simpson-Pusey",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Tom Krauß",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Paul Okon-Engstler",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Sebastian Sebulonsen",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Linton Maina",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Mikey Moore",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Borna Sosa",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Marius Bülter",
+     "shots": 3,
+     "sot": 3,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Saïd El Mala",
+     "shots": 7,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Ísak Jóhannesson",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Jan Thielmann",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Ragnar Ache",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Luka Lochoshvili",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Reigan Heskey",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Nicolas Kristof",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Jan Gyamerah",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Lukas Pinckert",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Maximilian Rohr",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Lasse Günther",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Felix Keidel",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Łukasz Poręba",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Lukas Petkov",
+     "shots": 5,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Francis Onyeka",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Maurice Krattenmacher",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "David Mokwa",
+     "shots": 5,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Amara Condé",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Cole Campbell",
+     "shots": 2,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Luca Sirch",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Frederik Schmahl",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Raif Adam",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "playersKnown": true,
+   "red": [
+    0,
+    0
+   ],
+   "score": [
+    5,
+    0
+   ],
+   "sport": "football",
+   "start": "2026-11-28T14:30:00.000Z",
+   "yellow": [
+    1,
+    1
+   ]
+  },
+  {
+   "away": "Bayern München",
+   "corners": [
+    4,
+    4
+   ],
+   "ended": "FT",
+   "home": "Hamburger SV",
+   "id": "5881236",
+   "league": "Bundesliga",
+   "leagueId": 54,
+   "players": [
+    {
+     "name": "Daniel Heuer Fernandes",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Sebastiaan Bornauw",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Mario Vušković",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Warmed Omari",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Zakaria El Ouahdi",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "David Møller Wolfe",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Alexander Røssing",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Martin Adeline",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Louis Lemke",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Patson Daka",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Albert Grønbæk",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Bakery Jatta",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Fábio Vieira",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Otto Stange",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Terem Moffi",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Jonas Urbig",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Sacha Boey",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Kim Min-Jae",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Jonathan Tah",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Josip Stanišić",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Joshua Kimmich",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Aleksandar Pavlović",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Lennart Karl",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Tom Bischof",
+     "shots": 5,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Bara Ndiaye",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Noah Codjo-Evora",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Luis Díaz",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Konrad Laimer",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Nathaniel Brown",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "playersKnown": true,
+   "red": [
+    0,
+    1
+   ],
+   "score": [
+    0,
+    0
+   ],
+   "sport": "football",
+   "start": "2026-11-28T14:30:00.000Z",
+   "yellow": [
+    3,
+    0
+   ]
+  },
+  {
+   "away": "Union Berlin",
+   "corners": [
+    6,
+    4
+   ],
+   "ended": "FT",
+   "home": "Mainz 05",
+   "id": "5881238",
+   "league": "Bundesliga",
+   "leagueId": 54,
+   "players": [
+    {
+     "name": "Robin Zentner",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Stefan Posch",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Fabio Gruber",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Kacper Potulski",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Anthony Caci",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Kaishu Sano",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Eric Martel",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Nadiem Amiri",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Silvan Widmer",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Sheraldo Becker",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Ransford Königsdörffer",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Danny da Costa",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Benedict Hollerbach",
+     "shots": 3,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Phillip Tietz",
+     "shots": 2,
+     "sot": 2,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Lee Jae-Sung",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Paul Nebel",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Frederik Rønnow",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Janik Haberer",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Leopold Querfeld",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Marvin Friedrich",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Derrick Köhn",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Kastriot Imeri",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Michel Aebischer",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "András Schäfer",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Jeong Woo-Yeong",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Oliver Burke",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Andrej Ilić",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Christopher Trimmel",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Aljoscha Kemlein",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Tim Skarke",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Mekhi Gray",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Marin Ljubičić",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "playersKnown": true,
+   "red": [
+    0,
+    0
+   ],
+   "score": [
+    2,
+    1
+   ],
+   "sport": "football",
+   "start": "2026-11-28T14:30:00.000Z",
+   "yellow": [
+    2,
+    1
+   ]
+  },
+  {
+   "away": "Schalke 04",
+   "corners": [
+    2,
+    3
+   ],
+   "ended": "FT",
+   "home": "Paderborn",
+   "id": "5881239",
+   "league": "Bundesliga",
+   "leagueId": 54,
+   "players": [
+    {
+     "name": "Nahuel Noll",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Jano ter Horst",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Tjark Scheller",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Mattes Hansen",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Laurin Curda",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Santiago Castañeda",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Tom Baack",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Raphael Obermair",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Ruben Müller",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Stefano Marino",
+     "shots": 4,
+     "sot": 3,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Steffen Tigges",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Deniz Zeitler",
+     "shots": 4,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Gabriel Vidović",
+     "shots": 3,
+     "sot": 2,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Jonah Sticker",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Felix Götze",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Sven Michel",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Loris Karius",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Junior Dina Ebimbe",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Nikola Katić",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Hasan Kuruçay",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Vitalie Becker",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Soufian El-Faouzi",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Dejan Ljubičić",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Adil Aouchiche",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Chukwubuike Adamu",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Kenan Karaman",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Edin Džeko",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Mertcan Ayhan",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Moussa Sylla",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Hwang Hee-Chan",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Robin Gosens",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Satoshi Tanaka",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "playersKnown": true,
+   "red": [
+    0,
+    0
+   ],
+   "score": [
+    8,
+    1
+   ],
+   "sport": "football",
+   "start": "2026-11-28T14:30:00.000Z",
+   "yellow": [
+    0,
+    2
+   ]
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T16:18:08Z",
-  "matches": 126,
+  "fetchedAt": "2026-11-28T16:49:38Z",
+  "matches": 132,
   "note": "settle bets with jarvis/settle.py; football cards = yellow + red as FotMob counts them; goals markets settle on the score after 90 minutes (ended AET/Pen -> needs a manual check)",
   "sources": {
    "fotmob": {
-    "new": 5,
+    "new": 4,
     "ok": true,
     "pending": 0
    },
@@ -22459,7 +23484,7 @@
     "ok": true
    },
    "shl": {
-    "games": 9,
+    "games": 11,
     "ok": true
    }
   }

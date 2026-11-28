@@ -4013,10 +4013,30 @@
    "time": "15:15"
   },
   {
+   "ag": 0,
    "away": "Linköping HC",
    "date": "2026-11-28",
+   "hg": 6,
    "home": "Timrå IK",
-   "played": false,
+   "overtime": false,
+   "periods": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "played": true,
+   "reg_ag": 0,
+   "reg_hg": 6,
+   "shootout": false,
    "startUTC": "2026-11-28T14:15:00Z",
    "time": "15:15"
   },
@@ -5814,10 +5834,10 @@
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T16:32:44Z",
+  "fetchedAt": "2026-11-28T16:49:41Z",
   "games": 364,
   "note": "gf/ga exclude the shootout winner's extra goal; reg_* = regulation time (periods 1-3)",
-  "played": 138,
+  "played": 139,
   "season": "2026/27",
   "series": 20961,
   "source": "https://stats.swehockey.se/ScheduleAndResults/Schedule/20961"

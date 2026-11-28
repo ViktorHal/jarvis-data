@@ -14,7 +14,7 @@
   "Blomgren, Oskar": {
    "ga": 21.0,
    "gaa": 2.98,
-   "gp_team": 19.0,
+   "gp_team": 20.0,
    "gpi": 7.0,
    "shutouts": 1.0,
    "sog": 177.0,
@@ -58,7 +58,7 @@
   "Gunnarsson, Jonas": {
    "ga": 1.0,
    "gaa": 2.51,
-   "gp_team": 12.0,
+   "gp_team": 13.0,
    "gpi": 1.0,
    "shutouts": 0.0,
    "sog": 6.0,
@@ -67,15 +67,15 @@
    "toi": "23:56"
   },
   "Hellberg, Magnus": {
-   "ga": 37.0,
-   "gaa": 2.45,
-   "gp_team": 19.0,
-   "gpi": 16.0,
+   "ga": 38.0,
+   "gaa": 2.36,
+   "gp_team": 20.0,
+   "gpi": 17.0,
    "shutouts": 1.0,
-   "sog": 457.0,
-   "sv_pct": 0.919,
+   "sog": 482.0,
+   "sv_pct": 0.9212,
    "team": "DIF",
-   "toi": "904:22"
+   "toi": "964:22"
   },
   "Holm, Arvid": {
    "ga": 36.0,
@@ -89,20 +89,20 @@
    "toi": "737:15"
   },
   "Högberg, Marcus": {
-   "ga": 45.0,
-   "gaa": 3.92,
-   "gp_team": 19.0,
-   "gpi": 12.0,
+   "ga": 51.0,
+   "gaa": 4.08,
+   "gp_team": 20.0,
+   "gpi": 13.0,
    "shutouts": 1.0,
-   "sog": 359.0,
-   "sv_pct": 0.8747,
+   "sog": 399.0,
+   "sv_pct": 0.8722,
    "team": "LHC",
-   "toi": "689:14"
+   "toi": "749:14"
   },
   "Ignatjew, Waltteri": {
    "ga": 18.0,
    "gaa": 2.59,
-   "gp_team": 19.0,
+   "gp_team": 20.0,
    "gpi": 8.0,
    "shutouts": 0.0,
    "sog": 203.0,
@@ -112,14 +112,14 @@
   },
   "Johansson, Jacob": {
    "ga": 39.0,
-   "gaa": 2.27,
-   "gp_team": 19.0,
-   "gpi": 18.0,
-   "shutouts": 2.0,
-   "sog": 411.0,
-   "sv_pct": 0.9051,
+   "gaa": 2.14,
+   "gp_team": 20.0,
+   "gpi": 19.0,
+   "shutouts": 3.0,
+   "sog": 431.0,
+   "sv_pct": 0.9095,
    "team": "TIK",
-   "toi": "1031:01"
+   "toi": "1091:01"
   },
   "Johansson, Lars": {
    "ga": 25.0,
@@ -155,15 +155,15 @@
    "toi": "142:44"
   },
   "Langhamer, Marek": {
-   "ga": 20.0,
-   "gaa": 1.65,
-   "gp_team": 19.0,
-   "gpi": 12.0,
+   "ga": 22.0,
+   "gaa": 1.68,
+   "gp_team": 20.0,
+   "gpi": 13.0,
    "shutouts": 3.0,
-   "sog": 321.0,
-   "sv_pct": 0.9377,
+   "sog": 342.0,
+   "sv_pct": 0.9357,
    "team": "MIF",
-   "toi": "726:44"
+   "toi": "784:33"
   },
   "Larmi, Emil": {
    "ga": 13.0,
@@ -234,7 +234,7 @@
   "Marmenlind, Daniel": {
    "ga": 18.0,
    "gaa": 3.56,
-   "gp_team": 20.0,
+   "gp_team": 21.0,
    "gpi": 5.0,
    "shutouts": 0.0,
    "sog": 153.0,
@@ -332,8 +332,8 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T16:32:45Z",
-  "lastUpdate": "2026-11-28 17:32",
+  "fetchedAt": "2026-11-28T16:49:41Z",
+  "lastUpdate": "2026-11-28 17:47",
   "note": "team = federation code (e.g. FBK Färjestad, RBK Rögle); gp_team = team games, gpi = games this goalie played",
   "season": "2026/27",
   "source": "https://stats.swehockey.se/Players/Statistics/LeadingGoaliesSVS/20961"
