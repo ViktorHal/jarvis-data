@@ -17,11 +17,11 @@
    "team": "FLA"
   },
   "Alex Lyon": {
-   "gaa": 3.29949,
-   "gp": 4,
+   "gaa": 3.09963,
+   "gp": 5,
    "gs": 4,
-   "shots_against": 118,
-   "sv_pct": 0.88983,
+   "shots_against": 136,
+   "sv_pct": 0.89705,
    "team": "BUF"
   },
   "Alex Nedeljkovic": {
@@ -105,11 +105,11 @@
    "team": "CBJ"
   },
   "Carter Hart": {
-   "gaa": 2.83397,
-   "gp": 14,
-   "gs": 14,
-   "shots_against": 348,
-   "sv_pct": 0.88505,
+   "gaa": 2.8503,
+   "gp": 15,
+   "gs": 15,
+   "shots_against": 380,
+   "sv_pct": 0.88684,
    "team": "VGK"
   },
   "Casey DeSmith": {
@@ -177,11 +177,11 @@
    "team": "DET"
   },
   "Darcy Kuemper": {
-   "gaa": 3.054,
-   "gp": 14,
-   "gs": 14,
-   "shots_against": 377,
-   "sv_pct": 0.89124,
+   "gaa": 3.05025,
+   "gp": 15,
+   "gs": 15,
+   "shots_against": 405,
+   "sv_pct": 0.89135,
    "team": "LAK"
   },
   "Dennis Hildeby": {
@@ -225,11 +225,11 @@
    "team": "CGY"
   },
   "Dylan Garand": {
-   "gaa": 2.49139,
-   "gp": 16,
-   "gs": 14,
-   "shots_against": 396,
-   "sv_pct": 0.90909,
+   "gaa": 2.46295,
+   "gp": 17,
+   "gs": 15,
+   "shots_against": 406,
+   "sv_pct": 0.9064,
    "team": "NYR"
   },
   "Filip Gustavsson": {
@@ -313,11 +313,11 @@
    "team": "BOS"
   },
   "Jesper Wallstedt": {
-   "gaa": 2.07515,
-   "gp": 23,
-   "gs": 23,
-   "shots_against": 599,
-   "sv_pct": 0.91986,
+   "gaa": 2.1062,
+   "gp": 24,
+   "gs": 24,
+   "shots_against": 630,
+   "sv_pct": 0.91904,
    "team": "MIN"
   },
   "Jet Greaves": {
@@ -337,11 +337,11 @@
    "team": "STL"
   },
   "Joey Daccord": {
-   "gaa": 3.68894,
-   "gp": 12,
+   "gaa": 3.57083,
+   "gp": 13,
    "gs": 11,
-   "shots_against": 294,
-   "sv_pct": 0.87755,
+   "shots_against": 303,
+   "sv_pct": 0.88118,
    "team": "SEA"
   },
   "John Gibson": {
@@ -417,11 +417,11 @@
    "team": "VAN"
   },
   "Laurent Brossoit": {
-   "gaa": 2.84717,
-   "gp": 6,
-   "gs": 6,
-   "shots_against": 151,
-   "sv_pct": 0.88741,
+   "gaa": 3.02642,
+   "gp": 7,
+   "gs": 7,
+   "shots_against": 171,
+   "sv_pct": 0.87719,
    "team": "ANA"
   },
   "Leevi Merilainen": {
@@ -457,11 +457,11 @@
    "team": "ANA"
   },
   "Mackenzie Blackwood": {
-   "gaa": 2.40983,
-   "gp": 18,
-   "gs": 17,
-   "shots_against": 466,
-   "sv_pct": 0.90987,
+   "gaa": 2.43858,
+   "gp": 19,
+   "gs": 18,
+   "shots_against": 488,
+   "sv_pct": 0.90778,
    "team": "COL"
   },
   "Matt Murray": {
@@ -513,11 +513,11 @@
    "team": "VAN"
   },
   "Philipp Grubauer": {
-   "gaa": 3.01657,
-   "gp": 14,
-   "gs": 11,
-   "shots_against": 349,
-   "sv_pct": 0.89398,
+   "gaa": 3.01572,
+   "gp": 15,
+   "gs": 12,
+   "shots_against": 367,
+   "sv_pct": 0.89373,
    "team": "SEA"
   },
   "Pyotr Kochetkov": {
@@ -553,11 +553,11 @@
    "team": "UTA"
   },
   "Semyon Varlamov": {
-   "gaa": 2.79199,
-   "gp": 7,
-   "gs": 7,
-   "shots_against": 180,
-   "sv_pct": 0.88888,
+   "gaa": 2.82728,
+   "gp": 8,
+   "gs": 8,
+   "shots_against": 217,
+   "sv_pct": 0.894,
    "team": "NYI"
   },
   "Sergei Bobrovsky": {
@@ -569,19 +569,19 @@
    "team": "TOR"
   },
   "Sergei Murashov": {
-   "gaa": 3.34738,
-   "gp": 9,
-   "gs": 9,
-   "shots_against": 274,
-   "sv_pct": 0.89051,
+   "gaa": 3.31251,
+   "gp": 10,
+   "gs": 10,
+   "shots_against": 297,
+   "sv_pct": 0.88888,
    "team": "PIT"
   },
   "Spencer Knight": {
-   "gaa": 3.32291,
-   "gp": 20,
-   "gs": 20,
-   "shots_against": 599,
-   "sv_pct": 0.89148,
+   "gaa": 3.20994,
+   "gp": 21,
+   "gs": 21,
+   "shots_against": 630,
+   "sv_pct": 0.89523,
    "team": "CHI"
   },
   "Spencer Martin": {
@@ -593,27 +593,27 @@
    "team": "NYR"
   },
   "Stuart Skinner": {
-   "gaa": 3.24194,
-   "gp": 18,
-   "gs": 18,
-   "shots_against": 479,
-   "sv_pct": 0.88726,
+   "gaa": 3.11497,
+   "gp": 19,
+   "gs": 19,
+   "shots_against": 506,
+   "sv_pct": 0.8913,
    "team": "WPG"
   },
   "Tristan Jarry": {
-   "gaa": 2.57383,
-   "gp": 11,
-   "gs": 11,
-   "shots_against": 301,
-   "sv_pct": 0.90697,
+   "gaa": 2.61675,
+   "gp": 12,
+   "gs": 12,
+   "shots_against": 332,
+   "sv_pct": 0.90662,
    "team": "EDM"
   },
   "Ukko-Pekka Luukkonen": {
-   "gaa": 3.19666,
-   "gp": 15,
-   "gs": 14,
-   "shots_against": 399,
-   "sv_pct": 0.88471,
+   "gaa": 3.38352,
+   "gp": 16,
+   "gs": 15,
+   "shots_against": 409,
+   "sv_pct": 0.87775,
    "team": "BUF"
   },
   "Ville Husso": {
@@ -625,16 +625,16 @@
    "team": "ANA"
   },
   "Yaroslav Askarov": {
-   "gaa": 3.27124,
-   "gp": 17,
-   "gs": 17,
-   "shots_against": 504,
-   "sv_pct": 0.88888,
+   "gaa": 3.14588,
+   "gp": 18,
+   "gs": 18,
+   "shots_against": 532,
+   "sv_pct": 0.89285,
    "team": "SJS"
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T00:07:37Z",
+  "fetchedAt": "2026-11-28T04:32:57Z",
   "season": "2026-27",
   "source": "https://api.nhle.com/stats/rest/en/goalie/summary?limit=-1&cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
  }
