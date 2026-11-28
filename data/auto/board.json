@@ -32828,17 +32828,17 @@
     },
     {
      "anchored": true,
-     "book": "betmgm_se",
-     "bookPrice": 1.64,
+     "book": null,
+     "bookPrice": null,
      "drift": null,
-     "ev": 14.6,
+     "ev": -2.6,
      "gap": 0.0,
      "group": "Moneyline (incl. OT)",
      "key": "Moneyline_incl_OT_Carolina_Hurricanes",
      "minOdds": 1.48,
-     "odds": 1.64,
+     "odds": 1.3937,
      "pMarket": 69.9,
-     "post": true,
+     "post": false,
      "prob": 69.9,
      "probModel": 72.2,
      "selection": "Carolina Hurricanes",
@@ -32864,15 +32864,15 @@
     },
     {
      "anchored": null,
-     "book": null,
-     "bookPrice": null,
+     "book": "betmgm_se",
+     "bookPrice": 1.64,
      "drift": null,
-     "ev": null,
+     "ev": 3.0,
      "gap": null,
      "group": "60-minute result",
      "key": "60_minute_result_Carolina_Hurricanes",
      "minOdds": 1.7,
-     "odds": null,
+     "odds": 1.64,
      "pMarket": null,
      "post": false,
      "prob": 62.8,
@@ -32881,21 +32881,39 @@
      "status": "active"
     },
     {
-     "anchored": true,
+     "anchored": null,
      "book": "betmgm_se",
      "bookPrice": 4.3,
      "drift": null,
-     "ev": 29.6,
-     "gap": 0.0,
-     "group": "Moneyline (incl. OT)",
-     "key": "Moneyline_incl_OT_Ottawa_Senators",
-     "minOdds": 3.42,
+     "ev": -17.9,
+     "gap": null,
+     "group": "60-minute result",
+     "key": "60_minute_result_Ottawa_Senators",
+     "minOdds": 6.96,
      "odds": 4.3,
-     "pMarket": 30.1,
-     "post": true,
-     "prob": 30.1,
-     "probModel": 27.8,
+     "pMarket": null,
+     "post": false,
+     "prob": 19.1,
+     "probModel": null,
      "selection": "Ottawa Senators",
+     "status": "active"
+    },
+    {
+     "anchored": null,
+     "book": "betmgm_se",
+     "bookPrice": 5.4,
+     "drift": null,
+     "ev": -2.3,
+     "gap": null,
+     "group": "60-minute result",
+     "key": "60_minute_result_Draw",
+     "minOdds": 7.49,
+     "odds": 5.4,
+     "pMarket": null,
+     "post": false,
+     "prob": 18.1,
+     "probModel": null,
+     "selection": "Draw",
      "status": "active"
     }
    ],
@@ -32968,47 +32986,57 @@
      "status": "trial"
     },
     {
-     "anchored": true,
+     "anchored": null,
      "book": "betmgm_se",
      "bookPrice": 2.02,
-     "drift": {
-      "kind": "price",
-      "move": 0.9,
-      "since": "2026-11-28T06:47:46Z"
-     },
-     "ev": 17.4,
-     "gap": 0.0,
-     "group": "Moneyline (incl. OT)",
-     "key": "Moneyline_incl_OT_Dallas_Stars",
-     "minOdds": 1.78,
+     "drift": null,
+     "ev": -5.1,
+     "gap": null,
+     "group": "60-minute result",
+     "key": "60_minute_result_Dallas_Stars",
+     "minOdds": 2.34,
      "odds": 2.02,
-     "pMarket": 58.1,
-     "post": true,
-     "prob": 58.1,
-     "probModel": 57.9,
+     "pMarket": null,
+     "post": false,
+     "prob": 47.0,
+     "probModel": null,
      "selection": "Dallas Stars",
      "status": "active"
     },
     {
-     "anchored": true,
+     "anchored": null,
      "book": "betmgm_se",
      "bookPrice": 3.15,
-     "drift": {
-      "kind": "price",
-      "move": -0.9,
-      "since": "2026-11-28T06:47:46Z"
-     },
-     "ev": 32.0,
-     "gap": 0.0,
-     "group": "Moneyline (incl. OT)",
-     "key": "Moneyline_incl_OT_Utah_Mammoth",
-     "minOdds": 2.46,
+     "drift": null,
+     "ev": 0.5,
+     "gap": null,
+     "group": "60-minute result",
+     "key": "60_minute_result_Utah_Mammoth",
+     "minOdds": 3.65,
      "odds": 3.15,
-     "pMarket": 41.9,
-     "post": true,
-     "prob": 41.9,
-     "probModel": 42.1,
+     "pMarket": null,
+     "post": false,
+     "prob": 31.9,
+     "probModel": null,
      "selection": "Utah Mammoth",
+     "status": "active"
+    },
+    {
+     "anchored": null,
+     "book": "betmgm_se",
+     "bookPrice": 4.5,
+     "drift": null,
+     "ev": -5.0,
+     "gap": null,
+     "group": "60-minute result",
+     "key": "60_minute_result_Draw",
+     "minOdds": 6.09,
+     "odds": 4.5,
+     "pMarket": null,
+     "post": false,
+     "prob": 21.1,
+     "probModel": null,
+     "selection": "Draw",
      "status": "active"
     }
    ],
@@ -33365,46 +33393,78 @@
     },
     {
      "anchored": true,
-     "book": "betmgm_se",
-     "bookPrice": 1.94,
+     "book": null,
+     "bookPrice": null,
      "drift": {
       "kind": "price",
       "move": -0.7,
       "since": "2026-11-28T06:47:46Z"
      },
-     "ev": 17.6,
+     "ev": -2.4,
      "gap": 0.0,
      "group": "Moneyline (incl. OT)",
      "key": "Moneyline_incl_OT_Edmonton_Oilers",
      "minOdds": 1.7,
-     "odds": 1.94,
+     "odds": 1.6098,
      "pMarket": 60.6,
-     "post": true,
+     "post": false,
      "prob": 60.6,
      "probModel": 56.7,
      "selection": "Edmonton Oilers",
      "status": "active"
     },
     {
-     "anchored": true,
+     "anchored": null,
+     "book": "betmgm_se",
+     "bookPrice": 1.94,
+     "drift": null,
+     "ev": -9.0,
+     "gap": null,
+     "group": "60-minute result",
+     "key": "60_minute_result_Edmonton_Oilers",
+     "minOdds": 2.34,
+     "odds": 1.94,
+     "pMarket": null,
+     "post": false,
+     "prob": 46.9,
+     "probModel": null,
+     "selection": "Edmonton Oilers",
+     "status": "active"
+    },
+    {
+     "anchored": null,
      "book": "betmgm_se",
      "bookPrice": 3.4,
-     "drift": {
-      "kind": "price",
-      "move": 0.7,
-      "since": "2026-11-28T06:47:46Z"
-     },
-     "ev": 33.8,
-     "gap": 0.0,
-     "group": "Moneyline (incl. OT)",
-     "key": "Moneyline_incl_OT_Seattle_Kraken",
-     "minOdds": 2.62,
+     "drift": null,
+     "ev": 11.2,
+     "gap": null,
+     "group": "60-minute result",
+     "key": "60_minute_result_Seattle_Kraken",
+     "minOdds": 3.54,
      "odds": 3.4,
-     "pMarket": 39.4,
-     "post": true,
-     "prob": 39.4,
-     "probModel": 43.3,
+     "pMarket": null,
+     "post": false,
+     "prob": 32.7,
+     "probModel": null,
      "selection": "Seattle Kraken",
+     "status": "active"
+    },
+    {
+     "anchored": null,
+     "book": "betmgm_se",
+     "bookPrice": 4.5,
+     "drift": null,
+     "ev": -8.6,
+     "gap": null,
+     "group": "60-minute result",
+     "key": "60_minute_result_Draw",
+     "minOdds": 6.41,
+     "odds": 4.5,
+     "pMarket": null,
+     "post": false,
+     "prob": 20.3,
+     "probModel": null,
+     "selection": "Draw",
      "status": "active"
     }
    ],
@@ -33720,47 +33780,57 @@
      "status": "active"
     },
     {
-     "anchored": true,
+     "anchored": null,
      "book": "betmgm_se",
      "bookPrice": 2.33,
-     "drift": {
-      "kind": "price",
-      "move": 3.1,
-      "since": "2026-11-28T06:47:46Z"
-     },
-     "ev": 25.3,
-     "gap": 0.0,
-     "group": "Moneyline (incl. OT)",
-     "key": "Moneyline_incl_OT_Pittsburgh_Penguins",
-     "minOdds": 1.83,
+     "drift": null,
+     "ev": 1.4,
+     "gap": null,
+     "group": "60-minute result",
+     "key": "60_minute_result_Pittsburgh_Penguins",
+     "minOdds": 2.55,
      "odds": 2.33,
-     "pMarket": 53.8,
-     "post": true,
-     "prob": 53.8,
-     "probModel": 54.2,
+     "pMarket": null,
+     "post": false,
+     "prob": 43.5,
+     "probModel": null,
      "selection": "Pittsburgh Penguins",
      "status": "active"
     },
     {
-     "anchored": true,
+     "anchored": null,
      "book": "betmgm_se",
      "bookPrice": 2.75,
-     "drift": {
-      "kind": "price",
-      "move": -3.1,
-      "since": "2026-11-28T06:47:46Z"
-     },
-     "ev": 27.1,
-     "gap": 0.0,
-     "group": "Moneyline (incl. OT)",
-     "key": "Moneyline_incl_OT_Toronto_Maple_Leafs",
-     "minOdds": 2.23,
+     "drift": null,
+     "ev": -1.0,
+     "gap": null,
+     "group": "60-minute result",
+     "key": "60_minute_result_Toronto_Maple_Leafs",
+     "minOdds": 3.17,
      "odds": 2.75,
-     "pMarket": 46.2,
-     "post": true,
-     "prob": 46.2,
-     "probModel": 45.8,
+     "pMarket": null,
+     "post": false,
+     "prob": 36.0,
+     "probModel": null,
      "selection": "Toronto Maple Leafs",
+     "status": "active"
+    },
+    {
+     "anchored": null,
+     "book": "betmgm_se",
+     "bookPrice": 4.2,
+     "drift": null,
+     "ev": -13.9,
+     "gap": null,
+     "group": "60-minute result",
+     "key": "60_minute_result_Draw",
+     "minOdds": 6.33,
+     "odds": 4.2,
+     "pMarket": null,
+     "post": false,
+     "prob": 20.5,
+     "probModel": null,
+     "selection": "Draw",
      "status": "active"
     }
    ],
@@ -33949,134 +34019,17 @@
  "meta": {
   "bookPriced": 4,
   "decisionVersion": "3.13",
-  "fetchedAt": "2026-11-28T20:35:55Z",
+  "fetchedAt": "2026-11-28T20:41:59Z",
   "matches": 80,
   "note": "priced by code from repo data and Pinnacle; line-ups, injuries and referees are NOT known to the robot",
-  "oddsFetchedAt": "2026-11-28T20:35:50Z",
-  "products": 120,
+  "oddsFetchedAt": "2026-11-28T20:41:55Z",
+  "products": 118,
   "profile": "hitrate",
-  "repoCommit": "9381427b259ce806473d06b0f480e6b91cad38d4",
+  "repoCommit": "165b92cac27a5fe3acfbbdb433e2d048480ad083",
   "rules": "v1",
-  "skipped": 1
+  "skipped": 0
  },
  "products": [
-  {
-   "event": "Carolina Hurricanes – Ottawa Senators",
-   "line": {
-    "anchored": true,
-    "book": "betmgm_se",
-    "bookOdds": {
-     "betmgm_se": 1.64,
-     "svenskaspel_se": 1.64
-    },
-    "bookPrice": 1.64,
-    "ev": 14.6,
-    "fair": 1.43,
-    "gap": 0.0,
-    "group": "Moneyline (incl. OT)",
-    "key": "Moneyline_incl_OT_Carolina_Hurricanes",
-    "minOdds": 1.48,
-    "minOddsV1": 1.48,
-    "minOddsV2": 1.48,
-    "nEff": 20000,
-    "odds": 1.64,
-    "oddsAgeMin": 0,
-    "oddsStale": false,
-    "pMarket": 69.9,
-    "pMarketKind": "novig",
-    "pQ": 69.6,
-    "prob": 69.9,
-    "prob11": 65.6,
-    "probHigh": 69.9,
-    "probLow": 69.9,
-    "probModel": 72.2,
-    "qualityBreakdown": {
-     "data": 8,
-     "ev": 30.0,
-     "evidence": 9,
-     "info": 2,
-     "market": 10,
-     "model": 20
-    },
-    "qualityScore": 79,
-    "selection": "Carolina Hurricanes",
-    "status": "active",
-    "v1": {
-     "post": true,
-     "why": []
-    },
-    "v2": {
-     "post": true,
-     "why": []
-    }
-   },
-   "matchId": "2026-11-29-carolina-hurricanes-ottawa-senators",
-   "needsSquadCheck": false,
-   "rank": 1,
-   "start": "2026-11-29T00:07:00Z",
-   "tier": "value"
-  },
-  {
-   "event": "Seattle Kraken – Edmonton Oilers",
-   "line": {
-    "anchored": true,
-    "book": "betmgm_se",
-    "bookOdds": {
-     "betmgm_se": 1.94,
-     "svenskaspel_se": 1.94
-    },
-    "bookPrice": 1.94,
-    "drift": {
-     "kind": "price",
-     "move": -0.7,
-     "since": "2026-11-28T06:47:46Z"
-    },
-    "ev": 17.6,
-    "fair": 1.65,
-    "gap": 0.0,
-    "group": "Moneyline (incl. OT)",
-    "key": "Moneyline_incl_OT_Edmonton_Oilers",
-    "minOdds": 1.7,
-    "minOddsV1": 1.7,
-    "minOddsV2": 1.7,
-    "nEff": 20000,
-    "odds": 1.94,
-    "oddsAgeMin": 0,
-    "oddsStale": false,
-    "pMarket": 60.6,
-    "pMarketKind": "novig",
-    "pQ": 60.3,
-    "prob": 60.6,
-    "prob11": 51.8,
-    "probHigh": 60.6,
-    "probLow": 60.6,
-    "probModel": 56.7,
-    "qualityBreakdown": {
-     "data": 8,
-     "ev": 30.0,
-     "evidence": 9,
-     "info": 2,
-     "market": 10,
-     "model": 20
-    },
-    "qualityScore": 79,
-    "selection": "Edmonton Oilers",
-    "status": "active",
-    "v1": {
-     "post": true,
-     "why": []
-    },
-    "v2": {
-     "post": true,
-     "why": []
-    }
-   },
-   "matchId": "2026-11-29-seattle-kraken-edmonton-oilers",
-   "needsSquadCheck": false,
-   "rank": 2,
-   "start": "2026-11-29T03:07:00Z",
-   "tier": "value"
-  },
   {
    "event": "Arsenal – Manchester City",
    "kind": "check",
@@ -34134,9 +34087,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Arsenal over 0.5 (Team goals)",
-   "rank": 3,
+   "rank": 1,
    "sharedWith": [
-    104
+    102
    ],
    "start": "2026-11-29T16:30:00Z",
    "tier": "safe"
@@ -34193,9 +34146,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Djurgardens over 0.5 (Team goals)",
-   "rank": 4,
+   "rank": 2,
    "sharedWith": [
-    69
+    67
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -34252,9 +34205,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Besiktas over 0.5 (Team goals)",
-   "rank": 5,
+   "rank": 3,
    "sharedWith": [
-    63
+    61
    ],
    "start": "2026-11-30T18:00:00Z",
    "tier": "safe"
@@ -34311,9 +34264,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 1.5 (Total goals)",
-   "rank": 6,
+   "rank": 4,
    "sharedWith": [
-    106
+    104
    ],
    "start": "2026-11-29T14:05:00Z",
    "tier": "safe"
@@ -34375,9 +34328,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Degerfors over 0.5 (Team goals)",
-   "rank": 7,
+   "rank": 5,
    "sharedWith": [
-    62
+    60
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -34434,9 +34387,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Total goals)",
-   "rank": 8,
+   "rank": 6,
    "sharedWith": [
-    91
+    89
    ],
    "start": "2026-11-29T17:30:00Z",
    "tier": "safe"
@@ -34493,9 +34446,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Cordoba over 0.5 (Team goals)",
-   "rank": 9,
+   "rank": 7,
    "sharedWith": [
-    75
+    73
    ],
    "start": "2026-11-29T17:30:00Z",
    "tier": "safe"
@@ -34552,9 +34505,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "AC Milan over 0.5 (Team goals)",
-   "rank": 10,
+   "rank": 8,
    "sharedWith": [
-    85
+    83
    ],
    "start": "2026-11-30T19:45:00Z",
    "tier": "safe"
@@ -34611,9 +34564,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Anderlecht over 0.5 (Team goals)",
-   "rank": 11,
+   "rank": 9,
    "sharedWith": [
-    79
+    77
    ],
    "start": "2026-11-29T15:00:00Z",
    "tier": "safe"
@@ -34670,9 +34623,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "RB Leipzig over 0.5 (Team goals)",
-   "rank": 12,
+   "rank": 10,
    "sharedWith": [
-    82
+    80
    ],
    "start": "2026-11-29T14:30:00Z",
    "tier": "safe"
@@ -34729,9 +34682,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Marseille over 0.5 (Team goals)",
-   "rank": 13,
+   "rank": 11,
    "sharedWith": [
-    73
+    71
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -34788,9 +34741,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Trabzonspor over 0.5 (Team goals)",
-   "rank": 14,
+   "rank": 12,
    "sharedWith": [
-    77
+    75
    ],
    "start": "2026-11-30T16:00:00Z",
    "tier": "safe"
@@ -34847,9 +34800,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Total goals)",
-   "rank": 15,
+   "rank": 13,
    "sharedWith": [
-    83
+    81
    ],
    "start": "2026-11-29T11:30:00Z",
    "tier": "safe"
@@ -34906,9 +34859,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 1.5 (Total goals)",
-   "rank": 16,
+   "rank": 14,
    "sharedWith": [
-    84
+    82
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -34965,9 +34918,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 1.5 (Total goals)",
-   "rank": 17,
+   "rank": 15,
    "sharedWith": [
-    57
+    55
    ],
    "start": "2026-11-30T17:30:00Z",
    "tier": "safe"
@@ -35029,9 +34982,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Ajax over 0.5 (Team goals)",
-   "rank": 18,
+   "rank": 16,
    "sharedWith": [
-    86
+    84
    ],
    "start": "2026-11-29T13:30:00Z",
    "tier": "safe"
@@ -35088,9 +35041,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Crystal Palace over 0.5 (Team goals)",
-   "rank": 19,
+   "rank": 17,
    "sharedWith": [
-    107
+    105
    ],
    "start": "2026-11-29T14:05:00Z",
    "tier": "safe"
@@ -35147,9 +35100,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 3.5 (Total goals)",
-   "rank": 20,
+   "rank": 18,
    "sharedWith": [
-    89
+    87
    ],
    "start": "2026-11-30T20:00:00Z",
    "tier": "safe"
@@ -35206,9 +35159,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Sint Truidense over 0.5 (Team goals)",
-   "rank": 21,
+   "rank": 19,
    "sharedWith": [
-    111
+    109
    ],
    "start": "2026-11-29T12:30:00Z",
    "tier": "safe"
@@ -35265,9 +35218,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Gil Vicente over 0.5 (Team goals)",
-   "rank": 22,
+   "rank": 20,
    "sharedWith": [
-    90
+    88
    ],
    "start": "2026-11-29T18:00:00Z",
    "tier": "safe"
@@ -35329,9 +35282,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Barcelona over 1.5 (Team goals)",
-   "rank": 23,
+   "rank": 21,
    "sharedWith": [
-    92
+    90
    ],
    "start": "2026-11-29T15:15:00Z",
    "tier": "safe"
@@ -35393,9 +35346,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Porto over 0.5 (Team goals)",
-   "rank": 24,
+   "rank": 22,
    "sharedWith": [
-    94
+    92
    ],
    "start": "2026-11-29T20:30:00Z",
    "tier": "safe"
@@ -35452,9 +35405,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Total goals)",
-   "rank": 25,
+   "rank": 23,
    "sharedWith": [
-    64
+    62
    ],
    "start": "2026-11-29T16:15:00Z",
    "tier": "safe"
@@ -35511,9 +35464,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Como over 0.5 (Team goals)",
-   "rank": 26,
+   "rank": 24,
    "sharedWith": [
-    109
+    107
    ],
    "start": "2026-11-29T19:45:00Z",
    "tier": "safe"
@@ -35575,9 +35528,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "FC Utrecht over 0.5 (Team goals)",
-   "rank": 27,
+   "rank": 25,
    "sharedWith": [
-    116
+    114
    ],
    "start": "2026-11-29T11:15:00Z",
    "tier": "safe"
@@ -35634,9 +35587,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Pisa over 0.5 (Team goals)",
-   "rank": 28,
+   "rank": 26,
    "sharedWith": [
-    103
+    101
    ],
    "start": "2026-11-29T18:30:00Z",
    "tier": "safe"
@@ -35698,9 +35651,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Tottenham Hotspur over 0.5 (Team goals)",
-   "rank": 29,
+   "rank": 27,
    "sharedWith": [
-    105
+    103
    ],
    "start": "2026-11-29T14:05:00Z",
    "tier": "safe"
@@ -35868,11 +35821,11 @@
    "needsSquadCheck": false,
    "odds": null,
    "pick": "Over 0.5 (Total goals) + Over 0.5 (Total goals) + Over 0.5 (Total goals)",
-   "rank": 30,
+   "rank": 28,
    "sharedWith": [
-    80,
-    100,
-    115
+    78,
+    98,
+    113
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "combo"
@@ -35929,9 +35882,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 3.5 (Total goals)",
-   "rank": 31,
+   "rank": 29,
    "sharedWith": [
-    93
+    91
    ],
    "start": "2026-11-29T13:00:00Z",
    "tier": "safe"
@@ -35988,7 +35941,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Olympiakos over 0.5 (Team goals)",
-   "rank": 32,
+   "rank": 30,
    "start": "2026-11-29T17:00:00Z",
    "tier": "safe"
   },
@@ -36049,9 +36002,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Roma over 1.5 (Team goals)",
-   "rank": 33,
+   "rank": 31,
    "sharedWith": [
-    110
+    108
    ],
    "start": "2026-11-29T17:00:00Z",
    "tier": "safe"
@@ -36113,9 +36066,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Total goals)",
-   "rank": 34,
+   "rank": 32,
    "sharedWith": [
-    71
+    69
    ],
    "start": "2026-11-29T12:00:00Z",
    "tier": "safe"
@@ -36283,10 +36236,10 @@
    "needsSquadCheck": false,
    "odds": null,
    "pick": "Over 0.5 (Total goals) + Over 0.5 (Total goals) + Over 0.5 (Total goals)",
-   "rank": 35,
+   "rank": 33,
    "sharedWith": [
-    65,
-    98
+    63,
+    96
    ],
    "start": "2026-11-29T10:30:00Z",
    "tier": "combo"
@@ -36343,9 +36296,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 1.5 (Total goals)",
-   "rank": 36,
+   "rank": 34,
    "sharedWith": [
-    81
+    79
    ],
    "start": "2026-11-29T14:05:00Z",
    "tier": "safe"
@@ -36402,9 +36355,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Total goals)",
-   "rank": 37,
+   "rank": 35,
    "sharedWith": [
-    108
+    106
    ],
    "start": "2026-11-29T18:30:00Z",
    "tier": "safe"
@@ -36572,9 +36525,9 @@
    "needsSquadCheck": false,
    "odds": null,
    "pick": "Over 0.5 (Total goals) + Over 0.5 (Total goals) + FC Magdeburg over 0.5 (Team goals)",
-   "rank": 38,
+   "rank": 36,
    "sharedWith": [
-    99
+    97
    ],
    "start": "2026-11-29T12:30:00Z",
    "tier": "combo"
@@ -36631,9 +36584,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 2.5 (Total goals)",
-   "rank": 39,
+   "rank": 37,
    "sharedWith": [
-    72
+    70
    ],
    "start": "2026-11-29T16:30:00Z",
    "tier": "safe"
@@ -36690,9 +36643,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Yes (Both teams to score)",
-   "rank": 40,
+   "rank": 38,
    "sharedWith": [
-    88
+    86
    ],
    "start": "2026-11-29T19:00:00Z",
    "tier": "value"
@@ -36749,9 +36702,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Yes (Both teams to score)",
-   "rank": 41,
+   "rank": 39,
    "sharedWith": [
-    95
+    93
    ],
    "start": "2026-11-29T12:30:00Z",
    "tier": "value"
@@ -36806,9 +36759,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 42,
+   "rank": 40,
    "sharedWith": [
-    17
+    15
    ],
    "start": "2026-11-30T19:45:00Z",
    "tier": "safe"
@@ -36863,9 +36816,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 43,
+   "rank": 41,
    "sharedWith": [
-    48
+    46
    ],
    "start": "2026-11-29T17:30:00Z",
    "tier": "safe"
@@ -36920,9 +36873,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 44,
+   "rank": 42,
    "sharedWith": [
-    18
+    16
    ],
    "start": "2026-11-29T13:30:00Z",
    "tier": "safe"
@@ -36977,9 +36930,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 45,
+   "rank": 43,
    "sharedWith": [
-    40
+    38
    ],
    "start": "2026-11-29T18:15:00Z",
    "tier": "safe"
@@ -37034,9 +36987,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 46,
+   "rank": 44,
    "sharedWith": [
-    26
+    24
    ],
    "start": "2026-11-29T20:30:00Z",
    "tier": "safe"
@@ -37091,9 +37044,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 47,
+   "rank": 45,
    "sharedWith": [
-    32
+    30
    ],
    "start": "2026-11-29T14:05:00Z",
    "tier": "safe"
@@ -37148,9 +37101,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 48,
+   "rank": 46,
    "sharedWith": [
-    27
+    25
    ],
    "start": "2026-11-29T12:30:00Z",
    "tier": "safe"
@@ -37205,9 +37158,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 49,
+   "rank": 47,
    "sharedWith": [
-    56
+    54
    ],
    "start": "2026-11-29T16:15:00Z",
    "tier": "safe"
@@ -37262,9 +37215,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 50,
+   "rank": 48,
    "sharedWith": [
-    21
+    19
    ],
    "start": "2026-11-29T18:00:00Z",
    "tier": "safe"
@@ -37319,9 +37272,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 51,
+   "rank": 49,
    "sharedWith": [
-    54
+    52
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -37376,9 +37329,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 52,
+   "rank": 50,
    "sharedWith": [
-    42
+    40
    ],
    "start": "2026-11-29T16:00:00Z",
    "tier": "safe"
@@ -37433,9 +37386,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 53,
+   "rank": 51,
    "sharedWith": [
-    31
+    29
    ],
    "start": "2026-11-29T14:05:00Z",
    "tier": "safe"
@@ -37490,9 +37443,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 54,
+   "rank": 52,
    "sharedWith": [
-    54
+    52
    ],
    "start": "2026-11-30T19:30:00Z",
    "tier": "safe"
@@ -37547,9 +37500,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 55,
+   "rank": 53,
    "sharedWith": [
-    37
+    35
    ],
    "start": "2026-11-29T11:15:00Z",
    "tier": "safe"
@@ -37604,9 +37557,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 2.5 (Cards)",
-   "rank": 56,
+   "rank": 54,
    "sharedWith": [
-    11
+    9
    ],
    "start": "2026-11-30T16:00:00Z",
    "tier": "safe"
@@ -37661,9 +37614,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 2.5 (Cards)",
-   "rank": 57,
+   "rank": 55,
    "sharedWith": [
-    4
+    2
    ],
    "start": "2026-11-30T18:00:00Z",
    "tier": "safe"
@@ -37718,9 +37671,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 58,
+   "rank": 56,
    "sharedWith": [
-    9
+    7
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -37775,9 +37728,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 59,
+   "rank": 57,
    "sharedWith": [
-    15
+    13
    ],
    "start": "2026-11-29T11:30:00Z",
    "tier": "safe"
@@ -37832,9 +37785,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 2.5 (Cards)",
-   "rank": 60,
+   "rank": 58,
    "sharedWith": [
-    7
+    5
    ],
    "start": "2026-11-29T12:00:00Z",
    "tier": "safe"
@@ -37889,9 +37842,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 2.5 (Cards)",
-   "rank": 61,
+   "rank": 59,
    "sharedWith": [
-    30
+    28
    ],
    "start": "2026-11-29T14:05:00Z",
    "tier": "safe"
@@ -37946,9 +37899,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 2.5 (Cards)",
-   "rank": 62,
+   "rank": 60,
    "sharedWith": [
-    43
+    41
    ],
    "start": "2026-11-30T20:15:00Z",
    "tier": "safe"
@@ -38003,9 +37956,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 2.5 (Cards)",
-   "rank": 63,
+   "rank": 61,
    "sharedWith": [
-    12
+    10
    ],
    "start": "2026-11-29T15:00:00Z",
    "tier": "safe"
@@ -38060,9 +38013,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 64,
+   "rank": 62,
    "sharedWith": [
-    55
+    53
    ],
    "start": "2026-11-29T19:45:00Z",
    "tier": "safe"
@@ -38117,9 +38070,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 2.5 (Cards)",
-   "rank": 65,
+   "rank": 63,
    "sharedWith": [
-    114
+    112
    ],
    "start": "2026-11-29T12:30:00Z",
    "tier": "safe"
@@ -38174,9 +38127,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 66,
+   "rank": 64,
    "sharedWith": [
-    20
+    18
    ],
    "start": "2026-11-30T20:00:00Z",
    "tier": "safe"
@@ -38231,9 +38184,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 67,
+   "rank": 65,
    "sharedWith": [
-    29
+    27
    ],
    "start": "2026-11-29T16:30:00Z",
    "tier": "safe"
@@ -38288,9 +38241,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 68,
+   "rank": 66,
    "sharedWith": [
-    22
+    20
    ],
    "start": "2026-11-29T17:30:00Z",
    "tier": "safe"
@@ -38345,9 +38298,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 69,
+   "rank": 67,
    "sharedWith": [
-    28
+    26
    ],
    "start": "2026-11-29T18:30:00Z",
    "tier": "safe"
@@ -38402,9 +38355,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 70,
+   "rank": 68,
    "sharedWith": [
-    45
+    43
    ],
    "start": "2026-11-29T20:00:00Z",
    "tier": "safe"
@@ -38459,9 +38412,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 71,
+   "rank": 69,
    "sharedWith": [
-    102
+    100
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -38516,9 +38469,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 72,
+   "rank": 70,
    "sharedWith": [
-    13
+    11
    ],
    "start": "2026-11-29T14:05:00Z",
    "tier": "safe"
@@ -38573,9 +38526,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 2.5 (Cards)",
-   "rank": 73,
+   "rank": 71,
    "sharedWith": [
-    33
+    31
    ],
    "start": "2026-11-29T18:30:00Z",
    "tier": "safe"
@@ -38630,9 +38583,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 3.5 (Cards)",
-   "rank": 74,
+   "rank": 72,
    "sharedWith": [
-    61
+    59
    ],
    "start": "2026-11-29T13:00:00Z",
    "tier": "safe"
@@ -38687,7 +38640,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 75,
+   "rank": 73,
    "start": "2026-11-29T20:00:00Z",
    "tier": "safe"
   },
@@ -38741,9 +38694,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 76,
+   "rank": 74,
    "sharedWith": [
-    54
+    52
    ],
    "start": "2026-11-29T15:00:00Z",
    "tier": "safe"
@@ -38798,9 +38751,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 77,
+   "rank": 75,
    "sharedWith": [
-    60
+    58
    ],
    "start": "2026-11-29T13:00:00Z",
    "tier": "safe"
@@ -38855,9 +38808,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 3.5 (Cards)",
-   "rank": 78,
+   "rank": 76,
    "sharedWith": [
-    53
+    51
    ],
    "start": "2026-11-29T15:45:00Z",
    "tier": "safe"
@@ -38912,9 +38865,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 79,
+   "rank": 77,
    "sharedWith": [
-    50
+    48
    ],
    "start": "2026-11-29T15:00:00Z",
    "tier": "safe"
@@ -38969,9 +38922,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
-   "rank": 80,
+   "rank": 78,
    "sharedWith": [
-    67
+    65
    ],
    "start": "2026-11-30T20:15:00Z",
    "tier": "safe"
@@ -39026,9 +38979,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 81,
+   "rank": 79,
    "sharedWith": [
-    101
+    99
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "value"
@@ -39083,9 +39036,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Over 4.5 (Cards)",
-   "rank": 82,
+   "rank": 80,
    "sharedWith": [
-    10
+    8
    ],
    "start": "2026-11-29T17:30:00Z",
    "tier": "value"
@@ -39140,9 +39093,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 83,
+   "rank": 81,
    "sharedWith": [
-    19
+    17
    ],
    "start": "2026-11-29T19:00:00Z",
    "tier": "value"
@@ -39197,9 +39150,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 84,
+   "rank": 82,
    "sharedWith": [
-    66
+    64
    ],
    "start": "2026-11-30T20:15:00Z",
    "tier": "value"
@@ -39254,9 +39207,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Greuther Furth over 3.5 (Team corners)",
-   "rank": 85,
+   "rank": 83,
    "sharedWith": [
-    113
+    111
    ],
    "start": "2026-11-29T12:30:00Z",
    "tier": "value"
@@ -39311,9 +39264,9 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Mallorca over 3.5 (Team corners)",
-   "rank": 86,
+   "rank": 84,
    "sharedWith": [
-    55
+    53
    ],
    "start": "2026-11-29T15:15:00Z",
    "tier": "value"
@@ -39368,9 +39321,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Igor Matanović 2+ (Player shots)",
-   "rank": 87,
+   "rank": 85,
    "sharedWith": [
-    14
+    12
    ],
    "start": "2026-11-29T14:30:00Z",
    "tier": "safe"
@@ -39425,9 +39378,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Fisnik Asllani 2+ (Player shots)",
-   "rank": 88,
+   "rank": 86,
    "sharedWith": [
-    8
+    6
    ],
    "start": "2026-11-29T16:30:00Z",
    "tier": "safe"
@@ -39482,9 +39435,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Nikola Krstović 2+ (Player shots)",
-   "rank": 89,
+   "rank": 87,
    "sharedWith": [
-    2
+    0
    ],
    "start": "2026-11-30T17:30:00Z",
    "tier": "safe"
@@ -39539,9 +39492,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Casper Tengstedt 2+ (Player shots)",
-   "rank": 90,
+   "rank": 88,
    "sharedWith": [
-    5
+    3
    ],
    "start": "2026-11-29T16:15:00Z",
    "tier": "safe"
@@ -39596,9 +39549,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Scott McTominay 2+ (Player shots)",
-   "rank": 91,
+   "rank": 89,
    "sharedWith": [
-    16
+    14
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -39653,9 +39606,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Montader Madjed 2+ (Player shots)",
-   "rank": 92,
+   "rank": 90,
    "sharedWith": [
-    52
+    50
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -39710,9 +39663,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Paulo Dybala 2+ (Player shots)",
-   "rank": 93,
+   "rank": 91,
    "sharedWith": [
-    35
+    33
    ],
    "start": "2026-11-29T17:00:00Z",
    "tier": "safe"
@@ -39767,9 +39720,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Maxence Rivera 2+ (Player shots)",
-   "rank": 94,
+   "rank": 92,
    "sharedWith": [
-    46
+    44
    ],
    "start": "2026-11-29T13:30:00Z",
    "tier": "safe"
@@ -39824,9 +39777,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Ante Budimir 2+ (Player shots)",
-   "rank": 95,
+   "rank": 93,
    "sharedWith": [
-    24
+    22
    ],
    "start": "2026-11-29T13:00:00Z",
    "tier": "safe"
@@ -39881,9 +39834,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Nico Paz 2+ (Player shots)",
-   "rank": 96,
+   "rank": 94,
    "sharedWith": [
-    34
+    32
    ],
    "start": "2026-11-29T19:45:00Z",
    "tier": "safe"
@@ -39938,9 +39891,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Lamine Yamal 3+ (Player shots)",
-   "rank": 97,
+   "rank": 95,
    "sharedWith": [
-    23
+    21
    ],
    "start": "2026-11-29T15:15:00Z",
    "tier": "safe"
@@ -39995,9 +39948,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Daan Heymans 2+ (Player shots)",
-   "rank": 98,
+   "rank": 96,
    "sharedWith": [
-    36
+    34
    ],
    "start": "2026-11-29T12:30:00Z",
    "tier": "safe"
@@ -40052,9 +40005,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Nikola Vasić 2+ (Player shots)",
-   "rank": 99,
+   "rank": 97,
    "sharedWith": [
-    39
+    37
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -40109,9 +40062,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Jack Moylan 2+ (Player shots)",
-   "rank": 100,
+   "rank": 98,
    "sharedWith": [
-    49
+    47
    ],
    "start": "2026-11-29T12:00:00Z",
    "tier": "safe"
@@ -40166,9 +40119,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Eldor Shomurodov 2+ (Player shots)",
-   "rank": 101,
+   "rank": 99,
    "sharedWith": [
-    47
+    45
    ],
    "start": "2026-11-29T13:00:00Z",
    "tier": "safe"
@@ -40223,9 +40176,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Julius Lindberg 2+ (Player shots)",
-   "rank": 102,
+   "rank": 100,
    "sharedWith": [
-    6
+    4
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -40280,9 +40233,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Ali Youssef 2+ (Player shots)",
-   "rank": 103,
+   "rank": 101,
    "sharedWith": [
-    38
+    36
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "safe"
@@ -40337,9 +40290,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Dijan Vukojević 2+ (Player shots)",
-   "rank": 104,
+   "rank": 102,
    "sharedWith": [
-    3
+    1
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "value"
@@ -40443,9 +40396,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Orri Óskarsson 2+ (Player shots)",
-   "rank": 105,
+   "rank": 103,
    "sharedWith": [
-    78
+    76
    ],
    "start": "2026-11-29T20:00:00Z",
    "tier": "builder"
@@ -40553,9 +40506,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + Ivan Brnić 2+ (Player shots)",
-   "rank": 106,
+   "rank": 104,
    "sharedWith": [
-    96
+    94
    ],
    "start": "2026-11-29T13:00:00Z",
    "tier": "builder"
@@ -40659,9 +40612,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Žan Vipotnik 2+ (Player shots)",
-   "rank": 107,
+   "rank": 105,
    "sharedWith": [
-    112
+    110
    ],
    "start": "2026-11-29T12:00:00Z",
    "tier": "builder"
@@ -40765,9 +40718,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Nahir Besara 1+ (Player shots on target)",
-   "rank": 108,
+   "rank": 106,
    "sharedWith": [
-    118
+    116
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "builder"
@@ -40871,9 +40824,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Dylan Vente 2+ (Player shots)",
-   "rank": 109,
+   "rank": 107,
    "sharedWith": [
-    87
+    85
    ],
    "start": "2026-11-29T13:30:00Z",
    "tier": "builder"
@@ -40982,7 +40935,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Sirius over 0.5 (Team goals) + Isak Bjerkebo 2+ (Player shots)",
-   "rank": 110,
+   "rank": 108,
    "start": "2026-11-29T14:00:00Z",
    "tier": "builder"
   },
@@ -41089,9 +41042,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + Mexx Meerdink 2+ (Player shots)",
-   "rank": 111,
+   "rank": 109,
    "sharedWith": [
-    119
+    117
    ],
    "start": "2026-11-29T15:45:00Z",
    "tier": "builder"
@@ -41200,9 +41153,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Momoh Kamara 2+ (Player shots)",
-   "rank": 112,
+   "rank": 110,
    "sharedWith": [
-    59
+    57
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "builder"
@@ -41306,7 +41259,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Sead Hakšabanović 2+ (Player shots)",
-   "rank": 113,
+   "rank": 111,
    "start": "2026-11-29T14:00:00Z",
    "tier": "builder"
   },
@@ -41413,9 +41366,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + Nicolò Tresoldi 2+ (Player shots)",
-   "rank": 114,
+   "rank": 112,
    "sharedWith": [
-    97
+    95
    ],
    "start": "2026-11-29T17:30:00Z",
    "tier": "builder"
@@ -41524,9 +41477,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Halmstads over 0.5 (Team goals) + Hussein Carneil 2+ (Player shots)",
-   "rank": 115,
+   "rank": 113,
    "sharedWith": [
-    58
+    56
    ],
    "start": "2026-11-29T14:00:00Z",
    "tier": "builder"
@@ -41630,9 +41583,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Raul Florucz 2+ (Player shots)",
-   "rank": 116,
+   "rank": 114,
    "sharedWith": [
-    68
+    66
    ],
    "start": "2026-11-29T18:15:00Z",
    "tier": "builder"
@@ -41736,9 +41689,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Celtic over 0.5 (Team goals) + Cláudio Braga 2+ (Player shots)",
-   "rank": 117,
+   "rank": 115,
    "sharedWith": [
-    117
+    115
    ],
    "start": "2026-11-29T15:00:00Z",
    "tier": "builder"
@@ -41842,9 +41795,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Ricardo Horta 2+ (Player shots)",
-   "rank": 118,
+   "rank": 116,
    "sharedWith": [
-    74
+    72
    ],
    "start": "2026-11-30T20:15:00Z",
    "tier": "builder"
@@ -41957,9 +41910,9 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + Mason Greenwood 2+ (Player shots)",
-   "rank": 119,
+   "rank": 117,
    "sharedWith": [
-    70
+    68
    ],
    "start": "2026-11-29T16:00:00Z",
    "tier": "builder"
@@ -42063,26 +42016,19 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Kalmar over 0.5 (Team goals) + Linus Carlstrand 2+ (Player shots)",
-   "rank": 120,
+   "rank": 118,
    "start": "2026-11-29T14:00:00Z",
    "tier": "builder"
   }
  ],
- "skipped": [
-  {
-   "event": "Home Goals (13 Games) – Away Goals (13 Games)",
-   "league": "NHL",
-   "reason": "team not found: Home Goals (13 Games)",
-   "start": "2026-11-28T21:06:00Z"
-  }
- ],
+ "skipped": [],
  "summary": {
-  "both": 8,
+  "both": 0,
   "lines": 5246,
-  "priced": 1165,
+  "priced": 1177,
   "v1Only": 0,
-  "v1Post": 8,
-  "v2Only": 0,
-  "v2Post": 8
+  "v1Post": 0,
+  "v2Only": 1,
+  "v2Post": 1
  }
 }

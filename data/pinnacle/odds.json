@@ -29771,164 +29771,164 @@
       "number": 0
      },
      "money_line": {
-      "away": 1.6993,
-      "draw": 4.12,
-      "home": 4.55
+      "away": 1.6803,
+      "draw": 4.15,
+      "home": 4.65
      },
      "number": 0,
      "spreads": {
       "-0.25": {
-       "away": 1.2513,
+       "away": 1.2427,
        "hdp": -0.25,
-       "home": 4.01,
+       "home": 4.1,
        "max": 500
       },
       "0": {
-       "away": 1.3067,
+       "away": 1.2959,
        "hdp": 0,
-       "home": 3.52,
+       "home": 3.6,
        "max": 500
       },
       "0.25": {
-       "away": 1.5,
+       "away": 1.4854,
        "hdp": 0.25,
-       "home": 2.64,
+       "home": 2.69,
        "max": 500
       },
       "0.5": {
-       "away": 1.6944,
+       "away": 1.6757,
        "hdp": 0.5,
-       "home": 2.21,
+       "home": 2.24,
        "max": 500
       },
       "0.75": {
-       "away": 1.885,
+       "away": 1.8621,
        "hdp": 0.75,
-       "home": 1.9615,
+       "home": 1.9901,
        "max": 500
       },
       "1": {
-       "away": 2.19,
+       "away": 2.16,
        "hdp": 1,
-       "home": 1.6993,
+       "home": 1.7246,
        "max": 500
       },
       "1.25": {
-       "away": 2.51,
+       "away": 2.47,
        "hdp": 1.25,
-       "home": 1.5435,
+       "home": 1.5587,
        "max": 500
       },
       "1.5": {
-       "away": 2.82,
+       "away": 2.78,
        "hdp": 1.5,
-       "home": 1.4386,
+       "home": 1.4505,
        "max": 500
       },
       "1.75": {
-       "away": 3.44,
+       "away": 3.38,
        "hdp": 1.75,
-       "home": 1.3175,
+       "home": 1.3268,
        "max": 500
       }
      },
      "status": "open",
      "team_total": {
       "away": {
-       "over": 2.93,
+       "over": 2.9,
        "points": 2.5,
-       "under": 1.3802
+       "under": 1.3876
       },
       "home": {
-       "over": 3.09,
+       "over": 3.12,
        "points": 1.5,
-       "under": 1.3484
+       "under": 1.3425
       }
      },
      "team_totals": {
       "away": {
        "1.5": {
         "max": 100,
-        "over": 1.6098,
+        "over": 1.5988,
         "points": 1.5,
-        "under": 2.29
+        "under": 2.32
        },
        "2.5": {
         "max": 100,
-        "over": 2.93,
+        "over": 2.9,
         "points": 2.5,
-        "under": 1.3802
+        "under": 1.3876
        }
       },
       "home": {
        "0.5": {
         "max": 100,
-        "over": 1.4219,
+        "over": 1.4292,
         "points": 0.5,
-        "under": 2.83
+        "under": 2.8
        },
        "1.5": {
         "max": 100,
-        "over": 3.09,
+        "over": 3.12,
         "points": 1.5,
-        "under": 1.3484
+        "under": 1.3425
        }
       }
      },
      "totals": {
       "2": {
        "max": 500,
-       "over": 1.2597,
+       "over": 1.2577,
        "points": 2,
-       "under": 3.83
+       "under": 3.85
       },
       "2.25": {
        "max": 500,
-       "over": 1.4292,
+       "over": 1.4274,
        "points": 2.25,
-       "under": 2.82
+       "under": 2.83
       },
       "2.5": {
        "max": 500,
-       "over": 1.6024,
+       "over": 1.5988,
        "points": 2.5,
        "under": 2.35
       },
       "2.75": {
        "max": 500,
-       "over": 1.7463,
+       "over": 1.7407,
        "points": 2.75,
-       "under": 2.1
+       "under": 2.11
       },
       "3": {
        "max": 500,
-       "over": 1.9804,
+       "over": 1.9709,
        "points": 3,
-       "under": 1.8621
+       "under": 1.8696
       },
       "3.25": {
        "max": 500,
-       "over": 2.24,
+       "over": 2.23,
        "points": 3.25,
-       "under": 1.6667
+       "under": 1.6711
       },
       "3.5": {
        "max": 500,
-       "over": 2.49,
+       "over": 2.48,
        "points": 3.5,
-       "under": 1.5435
+       "under": 1.5464
       },
       "3.75": {
        "max": 500,
-       "over": 2.91,
+       "over": 2.9,
        "points": 3.75,
-       "under": 1.4065
+       "under": 1.4098
       },
       "4": {
        "max": 500,
-       "over": 3.68,
+       "over": 3.66,
        "points": 4,
-       "under": 1.2762
+       "under": 1.2786
       }
      }
     },
@@ -29944,86 +29944,86 @@
       "number": 1
      },
      "money_line": {
-      "away": 2.19,
-      "draw": 2.53,
-      "home": 4.85
+      "away": 2.17,
+      "draw": 2.54,
+      "home": 4.92
      },
      "number": 1,
      "spreads": {
       "-0.25": {
-       "away": 1.2488,
+       "away": 1.2427,
        "hdp": -0.25,
-       "home": 3.96,
+       "home": 4.02,
        "max": 100
       },
       "0": {
-       "away": 1.3704,
+       "away": 1.3597,
        "hdp": 0,
-       "home": 3.1,
+       "home": 3.16,
        "max": 100
       },
       "0.25": {
-       "away": 1.7813,
+       "away": 1.7634,
        "hdp": 0.25,
-       "home": 2.06,
+       "home": 2.08,
        "max": 100
       },
       "0.5": {
-       "away": 2.18,
+       "away": 2.16,
        "hdp": 0.5,
-       "home": 1.6849,
+       "home": 1.6944,
        "max": 100
       },
       "0.75": {
-       "away": 2.74,
+       "away": 2.71,
        "hdp": 0.75,
-       "home": 1.4484,
+       "home": 1.4587,
        "max": 100
       }
      },
      "status": "open",
      "team_total": {
       "away": {
-       "over": 1.5917,
+       "over": 1.5848,
        "points": 0.5,
-       "under": 2.28
+       "under": 2.3
       },
       "home": {
-       "over": 2.44,
+       "over": 2.46,
        "points": 0.5,
-       "under": 1.5236
+       "under": 1.5155
       }
      },
      "team_totals": {
       "away": {
        "0.5": {
         "max": 100,
-        "over": 1.5917,
+        "over": 1.5848,
         "points": 0.5,
-        "under": 2.28
+        "under": 2.3
        }
       },
       "home": {
        "0.5": {
         "max": 100,
-        "over": 2.44,
+        "over": 2.46,
         "points": 0.5,
-        "under": 1.5236
+        "under": 1.5155
        }
       }
      },
      "totals": {
       "0.75": {
        "max": 100,
-       "over": 1.3636,
+       "over": 1.3623,
        "points": 0.75,
-       "under": 3.03
+       "under": 3.04
       },
       "1": {
        "max": 100,
-       "over": 1.5464,
+       "over": 1.5435,
        "points": 1,
-       "under": 2.41
+       "under": 2.42
       },
       "1.25": {
        "max": 100,
@@ -30033,15 +30033,15 @@
       },
       "1.5": {
        "max": 100,
-       "over": 2.37,
+       "over": 2.36,
        "points": 1.5,
-       "under": 1.565
+       "under": 1.5682
       },
       "1.75": {
        "max": 100,
-       "over": 2.95,
+       "over": 2.94,
        "points": 1.75,
-       "under": 1.3802
+       "under": 1.3817
       }
      }
     }
@@ -89635,119 +89635,119 @@
       "number": 0
      },
      "money_line": {
-      "away": 2.26,
+      "away": 2.24,
       "draw": 3.71,
-      "home": 2.89
+      "home": 2.93
      },
      "number": 0,
      "spreads": {
       "-0.25": {
-       "away": 1.5263,
+       "away": 1.5155,
        "hdp": -0.25,
-       "home": 2.53,
+       "home": 2.56,
        "max": 150
       },
       "-0.5": {
-       "away": 1.4149,
+       "away": 1.4082,
        "hdp": -0.5,
-       "home": 2.87,
+       "home": 2.9,
        "max": 150
       },
       "-0.75": {
-       "away": 1.3012,
+       "away": 1.2941,
        "hdp": -0.75,
-       "home": 3.51,
+       "home": 3.56,
        "max": 150
       },
       "0": {
-       "away": 1.6944,
+       "away": 1.6803,
        "hdp": 0,
-       "home": 2.17,
+       "home": 2.19,
        "max": 150
       },
       "0.25": {
-       "away": 1.9804,
+       "away": 1.9615,
        "hdp": 0.25,
-       "home": 1.8403,
+       "home": 1.8547,
        "max": 150
       },
       "0.5": {
-       "away": 2.26,
+       "away": 2.24,
        "hdp": 0.5,
-       "home": 1.6452,
+       "home": 1.6536,
        "max": 150
       },
       "0.75": {
-       "away": 2.65,
+       "away": 2.62,
        "hdp": 0.75,
-       "home": 1.4878,
+       "home": 1.495,
        "max": 150
       },
       "1": {
-       "away": 3.33,
+       "away": 3.29,
        "hdp": 1,
-       "home": 1.3279,
+       "home": 1.3344,
        "max": 150
       },
       "1.25": {
-       "away": 3.71,
+       "away": 3.67,
        "hdp": 1.25,
-       "home": 1.2762,
+       "home": 1.2801,
        "max": 150
       }
      },
      "status": "open",
      "team_total": {
       "away": {
-       "over": 3.51,
+       "over": 3.48,
        "points": 2.5,
-       "under": 1.2899
+       "under": 1.2933
       },
       "home": {
-       "over": 4.31,
+       "over": 4.35,
        "points": 2.5,
-       "under": 1.2096
+       "under": 1.2053
       }
      },
      "team_totals": {
       "away": {
        "0.5": {
         "max": 100,
-        "over": 1.1616,
+        "over": 1.1595,
         "points": 0.5,
-        "under": 5.09
+        "under": 5.13
        },
        "1.5": {
         "max": 100,
-        "over": 1.8264,
+        "over": 1.8197,
         "points": 1.5,
-        "under": 1.9524
+        "under": 1.9615
        },
        "2.5": {
         "max": 100,
-        "over": 3.51,
+        "over": 3.48,
         "points": 2.5,
-        "under": 1.2899
+        "under": 1.2933
        }
       },
       "home": {
        "0.5": {
         "max": 100,
-        "over": 1.2004,
+        "over": 1.2024,
         "points": 0.5,
-        "under": 4.42
+        "under": 4.38
        },
        "1.5": {
         "max": 100,
-        "over": 2.04,
+        "over": 2.05,
         "points": 1.5,
-        "under": 1.7576
+        "under": 1.7463
        },
        "2.5": {
         "max": 100,
-        "over": 4.31,
+        "over": 4.35,
         "points": 2.5,
-        "under": 1.2096
+        "under": 1.2053
        }
       }
      },
@@ -89790,9 +89790,9 @@
       },
       "3.75": {
        "max": 100,
-       "over": 2.45,
+       "over": 2.44,
        "points": 3.75,
-       "under": 1.5464
+       "under": 1.5495
       },
       "4.5": {
        "max": 100,
@@ -89802,9 +89802,9 @@
       },
       "5.5": {
        "max": 100,
-       "over": 6.35,
+       "over": 6.34,
        "points": 5.5,
-       "under": 1.1145
+       "under": 1.1155
       }
      }
     },
@@ -89820,71 +89820,71 @@
       "number": 1
      },
      "money_line": {
-      "away": 2.71,
+      "away": 2.69,
       "draw": 2.56,
-      "home": 3.3
+      "home": 3.33
      },
      "number": 1,
      "spreads": {
       "-0.25": {
-       "away": 1.4525,
+       "away": 1.4484,
        "hdp": -0.25,
-       "home": 2.69,
+       "home": 2.73,
        "max": 100
       },
       "-0.5": {
-       "away": 1.3289,
+       "away": 1.3247,
        "hdp": -0.5,
-       "home": 3.28,
+       "home": 3.3,
        "max": 100
       },
       "0": {
-       "away": 1.7194,
+       "away": 1.7092,
        "hdp": 0,
-       "home": 2.1,
+       "home": 2.12,
        "max": 100
       },
       "0.25": {
-       "away": 2.21,
+       "away": 2.2,
        "hdp": 0.25,
-       "home": 1.6452,
+       "home": 1.6536,
        "max": 100
       },
       "0.5": {
-       "away": 2.7,
+       "away": 2.68,
        "hdp": 0.5,
-       "home": 1.4525,
+       "home": 1.4587,
        "max": 100
       }
      },
      "status": "open",
      "team_total": {
       "away": {
-       "over": 1.7194,
+       "over": 1.7143,
        "points": 0.5,
-       "under": 2.11
+       "under": 2.12
       },
       "home": {
-       "over": 1.885,
+       "over": 1.8929,
        "points": 0.5,
-       "under": 1.9009
+       "under": 1.8929
       }
      },
      "team_totals": {
       "away": {
        "0.5": {
         "max": 100,
-        "over": 1.7194,
+        "over": 1.7143,
         "points": 0.5,
-        "under": 2.11
+        "under": 2.12
        }
       },
       "home": {
        "0.5": {
         "max": 100,
-        "over": 1.885,
+        "over": 1.8929,
         "points": 0.5,
-        "under": 1.9009
+        "under": 1.8929
        }
       }
      },
@@ -90762,6 +90762,286 @@
    },
    "sport": "soccer",
    "starts": "2026-12-05T13:00:00Z",
+   "status": null
+  },
+  {
+   "away": "Eldense",
+   "event_id": 1641374523,
+   "home": "Tenerife",
+   "league": "Spain - Segunda Division",
+   "league_id": 2432,
+   "periods": {
+    "num_0": {
+     "description": "Game",
+     "meta": {
+      "away_score": null,
+      "home_score": null,
+      "max_money_line": 250,
+      "max_spread": 250,
+      "max_team_total": 100,
+      "max_total": 250,
+      "number": 0
+     },
+     "money_line": {
+      "away": 4.09,
+      "draw": 3.2,
+      "home": 1.9901
+     },
+     "number": 0,
+     "spreads": {
+      "-0.25": {
+       "away": 2.16,
+       "hdp": -0.25,
+       "home": 1.6944,
+       "max": 250
+      },
+      "-0.5": {
+       "away": 1.8333,
+       "hdp": -0.5,
+       "home": 1.9901,
+       "max": 250
+      },
+      "-0.75": {
+       "away": 1.6024,
+       "hdp": -0.75,
+       "home": 2.33,
+       "max": 250
+      },
+      "-1": {
+       "away": 1.3831,
+       "hdp": -1,
+       "home": 3.01,
+       "max": 250
+      },
+      "-1.25": {
+       "away": 1.3012,
+       "hdp": -1.25,
+       "home": 3.45,
+       "max": 250
+      },
+      "-1.5": {
+       "away": 1.2488,
+       "hdp": -1.5,
+       "home": 3.89,
+       "max": 250
+      },
+      "0": {
+       "away": 2.92,
+       "hdp": 0,
+       "home": 1.4032,
+       "max": 250
+      },
+      "0.25": {
+       "away": 3.48,
+       "hdp": 0.25,
+       "home": 1.2976,
+       "max": 250
+      },
+      "0.5": {
+       "away": 4.03,
+       "hdp": 0.5,
+       "home": 1.2353,
+       "max": 250
+      }
+     },
+     "status": "open",
+     "team_total": {
+      "away": {
+       "over": 3.94,
+       "points": 1.5,
+       "under": 1.2227
+      },
+      "home": {
+       "over": 1.2375,
+       "points": 0.5,
+       "under": 3.78
+      }
+     },
+     "team_totals": {
+      "away": {
+       "0.5": {
+        "max": 100,
+        "over": 1.5682,
+        "points": 0.5,
+        "under": 2.36
+       },
+       "1.5": {
+        "max": 100,
+        "over": 3.94,
+        "points": 1.5,
+        "under": 1.2227
+       }
+      },
+      "home": {
+       "0.5": {
+        "max": 100,
+        "over": 1.2375,
+        "points": 0.5,
+        "under": 3.78
+       },
+       "1.5": {
+        "max": 100,
+        "over": 2.28,
+        "points": 1.5,
+        "under": 1.6061
+       }
+      }
+     },
+     "totals": {
+      "1.5": {
+       "max": 250,
+       "over": 1.4,
+       "points": 1.5,
+       "under": 2.86
+      },
+      "1.75": {
+       "max": 250,
+       "over": 1.5128,
+       "points": 1.75,
+       "under": 2.51
+      },
+      "2": {
+       "max": 250,
+       "over": 1.6944,
+       "points": 2,
+       "under": 2.15
+      },
+      "2.25": {
+       "max": 250,
+       "over": 2,
+       "points": 2.25,
+       "under": 1.8065
+      },
+      "2.5": {
+       "max": 250,
+       "over": 2.29,
+       "points": 2.5,
+       "under": 1.6135
+      },
+      "2.75": {
+       "max": 250,
+       "over": 2.69,
+       "points": 2.75,
+       "under": 1.4566
+      },
+      "3.5": {
+       "max": 250,
+       "over": 4.14,
+       "points": 3.5,
+       "under": 1.2155
+      }
+     }
+    },
+    "num_1": {
+     "description": "Half 1",
+     "meta": {
+      "away_score": null,
+      "home_score": null,
+      "max_money_line": 100,
+      "max_spread": 100,
+      "max_team_total": 100,
+      "max_total": 100,
+      "number": 1
+     },
+     "money_line": {
+      "away": 4.75,
+      "draw": 2.09,
+      "home": 2.63
+     },
+     "number": 1,
+     "spreads": {
+      "-0.25": {
+       "away": 1.7576,
+       "hdp": -0.25,
+       "home": 2.05,
+       "max": 100
+      },
+      "-0.5": {
+       "away": 1.4717,
+       "hdp": -0.5,
+       "home": 2.62,
+       "max": 100
+      },
+      "-0.75": {
+       "away": 1.2849,
+       "hdp": -0.75,
+       "home": 3.52,
+       "max": 100
+      },
+      "0": {
+       "away": 2.69,
+       "hdp": 0,
+       "home": 1.4484,
+       "max": 100
+      },
+      "0.25": {
+       "away": 3.72,
+       "hdp": 0.25,
+       "home": 1.2604,
+       "max": 100
+      }
+     },
+     "status": "open",
+     "team_total": {
+      "away": {
+       "over": 2.86,
+       "points": 0.5,
+       "under": 1.3891
+      },
+      "home": {
+       "over": 1.9709,
+       "points": 0.5,
+       "under": 1.7813
+      }
+     },
+     "team_totals": {
+      "away": {
+       "0.5": {
+        "max": 100,
+        "over": 2.86,
+        "points": 0.5,
+        "under": 1.3891
+       }
+      },
+      "home": {
+       "0.5": {
+        "max": 100,
+        "over": 1.9709,
+        "points": 0.5,
+        "under": 1.7813
+       }
+      }
+     },
+     "totals": {
+      "0.5": {
+       "max": 100,
+       "over": 1.4545,
+       "points": 0.5,
+       "under": 2.61
+      },
+      "0.75": {
+       "max": 100,
+       "over": 1.6667,
+       "points": 0.75,
+       "under": 2.15
+      },
+      "1": {
+       "max": 100,
+       "over": 2.15,
+       "points": 1,
+       "under": 1.6536
+      },
+      "1.25": {
+       "max": 100,
+       "over": 2.75,
+       "points": 1.25,
+       "under": 1.4115
+      }
+     }
+    }
+   },
+   "sport": "soccer",
+   "starts": "2026-12-05T20:00:00Z",
    "status": null
   },
   {
@@ -97078,14 +97358,525 @@
    "sport": "hockey",
    "starts": "2026-11-28T21:06:00Z",
    "status": null
+  },
+  {
+   "away": "Montreal Canadiens",
+   "event_id": 1640923474,
+   "home": "Vegas Golden Knights",
+   "league": "NHL",
+   "league_id": 1456,
+   "periods": {
+    "num_0": {
+     "description": "Game",
+     "meta": {
+      "away_score": null,
+      "home_score": null,
+      "max_money_line": 10000,
+      "max_spread": 7500,
+      "max_team_total": 1000,
+      "max_total": 7500,
+      "number": 0
+     },
+     "money_line": {
+      "away": 1.9615,
+      "draw": null,
+      "home": 1.9434
+     },
+     "number": 0,
+     "spreads": {
+      "-1.5": {
+       "away": 1.3876,
+       "hdp": -1.5,
+       "home": 3.21,
+       "max": 7500
+      },
+      "-2.5": {
+       "away": 1.2123,
+       "hdp": -2.5,
+       "home": 4.53,
+       "max": 7500
+      },
+      "1.5": {
+       "away": 3.28,
+       "hdp": 1.5,
+       "home": 1.3534,
+       "max": 7500
+      },
+      "2.5": {
+       "away": 4.85,
+       "hdp": 2.5,
+       "home": 1.1916,
+       "max": 7500
+      }
+     },
+     "status": "open",
+     "team_total": {
+      "away": {
+       "over": 3.56,
+       "points": 4.5,
+       "under": 1.2959
+      },
+      "home": {
+       "over": 3.8,
+       "points": 4.5,
+       "under": 1.2667
+      }
+     },
+     "team_totals": {
+      "away": {
+       "2.5": {
+        "max": 1000,
+        "over": 1.4785,
+        "points": 2.5,
+        "under": 2.66
+       },
+       "3.5": {
+        "max": 1000,
+        "over": 2.17,
+        "points": 3.5,
+        "under": 1.7143
+       },
+       "4.5": {
+        "max": 1000,
+        "over": 3.56,
+        "points": 4.5,
+        "under": 1.2959
+       }
+      },
+      "home": {
+       "2.5": {
+        "max": 1000,
+        "over": 1.5236,
+        "points": 2.5,
+        "under": 2.53
+       },
+       "3.5": {
+        "max": 1000,
+        "over": 2.26,
+        "points": 3.5,
+        "under": 1.6667
+       },
+       "4.5": {
+        "max": 1000,
+        "over": 3.8,
+        "points": 4.5,
+        "under": 1.2667
+       }
+      }
+     },
+     "totals": {
+      "5.5": {
+       "max": 7500,
+       "over": 1.6024,
+       "points": 5.5,
+       "under": 2.42
+      },
+      "6": {
+       "max": 7500,
+       "over": 1.7353,
+       "points": 6,
+       "under": 2.16
+      },
+      "6.5": {
+       "max": 7500,
+       "over": 1.9615,
+       "points": 6.5,
+       "under": 1.9259
+      },
+      "7": {
+       "max": 7500,
+       "over": 2.63,
+       "points": 7,
+       "under": 1.5181
+      },
+      "7.5": {
+       "max": 7500,
+       "over": 3.28,
+       "points": 7.5,
+       "under": 1.3623
+      }
+     }
+    },
+    "num_1": {
+     "description": "Half 1",
+     "meta": {
+      "away_score": null,
+      "home_score": null,
+      "max_money_line": 2000,
+      "max_spread": 2000,
+      "max_team_total": 1000,
+      "max_total": 1000,
+      "number": 1
+     },
+     "money_line": {
+      "away": 1.9709,
+      "draw": null,
+      "home": 1.885
+     },
+     "number": 1,
+     "spreads": {
+      "-0.5": {
+       "away": 1.4902,
+       "hdp": -0.5,
+       "home": 2.72,
+       "max": 2000
+      },
+      "0.5": {
+       "away": 2.8,
+       "hdp": 0.5,
+       "home": 1.4484,
+       "max": 2000
+      }
+     },
+     "status": "open",
+     "team_total": {
+      "away": {
+       "over": 1.578,
+       "points": 0.5,
+       "under": 2.42
+      },
+      "home": {
+       "over": 1.5525,
+       "points": 0.5,
+       "under": 2.48
+      }
+     },
+     "team_totals": {
+      "away": {
+       "0.5": {
+        "max": 1000,
+        "over": 1.578,
+        "points": 0.5,
+        "under": 2.42
+       }
+      },
+      "home": {
+       "0.5": {
+        "max": 1000,
+        "over": 1.5525,
+        "points": 0.5,
+        "under": 2.48
+       }
+      }
+     },
+     "totals": {
+      "1": {
+       "max": 1000,
+       "over": 1.2237,
+       "points": 1,
+       "under": 4.33
+      },
+      "1.5": {
+       "max": 1000,
+       "over": 1.6993,
+       "points": 1.5,
+       "under": 2.22
+      },
+      "2": {
+       "max": 1000,
+       "over": 2.36,
+       "points": 2,
+       "under": 1.6024
+      },
+      "2.5": {
+       "max": 1000,
+       "over": 3.21,
+       "points": 2.5,
+       "under": 1.3571
+      }
+     }
+    },
+    "num_2": {
+     "description": "Half 2",
+     "meta": {
+      "away_score": null,
+      "home_score": null,
+      "max_money_line": 2000,
+      "max_spread": 2000,
+      "max_team_total": 1000,
+      "max_total": 1000,
+      "number": 2
+     },
+     "money_line": {
+      "away": 1.9709,
+      "draw": null,
+      "home": 1.885
+     },
+     "number": 2,
+     "spreads": {
+      "-0.5": {
+       "away": 1.5076,
+       "hdp": -0.5,
+       "home": 2.67,
+       "max": 2000
+      },
+      "-1": {
+       "away": 1.1795,
+       "hdp": -1,
+       "home": 5.02,
+       "max": 2000
+      },
+      "0.5": {
+       "away": 2.74,
+       "hdp": 0.5,
+       "home": 1.4651,
+       "max": 2000
+      }
+     },
+     "status": "open",
+     "team_total": {
+      "away": {
+       "over": 1.5,
+       "points": 0.5,
+       "under": 2.63
+      },
+      "home": {
+       "over": 1.4762,
+       "points": 0.5,
+       "under": 2.7
+      }
+     },
+     "team_totals": {
+      "away": {
+       "0.5": {
+        "max": 1000,
+        "over": 1.5,
+        "points": 0.5,
+        "under": 2.63
+       }
+      },
+      "home": {
+       "0.5": {
+        "max": 1000,
+        "over": 1.4762,
+        "points": 0.5,
+        "under": 2.7
+       }
+      }
+     },
+     "totals": {
+      "1.5": {
+       "max": 1000,
+       "over": 1.5618,
+       "points": 1.5,
+       "under": 2.45
+      },
+      "2": {
+       "max": 1000,
+       "over": 2.05,
+       "points": 2,
+       "under": 1.813
+      },
+      "2.5": {
+       "max": 1000,
+       "over": 2.77,
+       "points": 2.5,
+       "under": 1.4566
+      }
+     }
+    },
+    "num_3": {
+     "description": "Half 3",
+     "meta": {
+      "away_score": null,
+      "home_score": null,
+      "max_money_line": 2000,
+      "max_spread": 2000,
+      "max_team_total": 1000,
+      "max_total": 1000,
+      "number": 3
+     },
+     "money_line": {
+      "away": 1.9804,
+      "draw": null,
+      "home": 1.8772
+     },
+     "number": 3,
+     "spreads": {
+      "-0.5": {
+       "away": 1.5747,
+       "hdp": -0.5,
+       "home": 2.48,
+       "max": 2000
+      },
+      "-1": {
+       "away": 1.2475,
+       "hdp": -1,
+       "home": 4.06,
+       "max": 2000
+      },
+      "0.5": {
+       "away": 2.59,
+       "hdp": 0.5,
+       "home": 1.5128,
+       "max": 2000
+      }
+     },
+     "status": "open",
+     "team_total": {
+      "away": {
+       "over": 1.4464,
+       "points": 0.5,
+       "under": 2.8
+      },
+      "home": {
+       "over": 2.83,
+       "points": 1.5,
+       "under": 1.4405
+      }
+     },
+     "team_totals": {
+      "away": {
+       "0.5": {
+        "max": 1000,
+        "over": 1.4464,
+        "points": 0.5,
+        "under": 2.8
+       }
+      },
+      "home": {
+       "1.5": {
+        "max": 1000,
+        "over": 2.83,
+        "points": 1.5,
+        "under": 1.4405
+       }
+      }
+     },
+     "totals": {
+      "1.5": {
+       "max": 1000,
+       "over": 1.4219,
+       "points": 1.5,
+       "under": 2.91
+      },
+      "2": {
+       "max": 1000,
+       "over": 1.7299,
+       "points": 2,
+       "under": 2.18
+      },
+      "2.5": {
+       "max": 1000,
+       "over": 2.32,
+       "points": 2.5,
+       "under": 1.6211
+      }
+     }
+    },
+    "num_6": {
+     "description": "Half 6",
+     "meta": {
+      "away_score": null,
+      "home_score": null,
+      "max_money_line": 5000,
+      "max_spread": 5000,
+      "max_team_total": 1000,
+      "max_total": 5000,
+      "number": 6
+     },
+     "money_line": {
+      "away": 2.46,
+      "draw": 4.29,
+      "home": 2.44
+     },
+     "number": 6,
+     "spreads": {
+      "-0.5": {
+       "away": 1.5814,
+       "hdp": -0.5,
+       "home": 2.43,
+       "max": 5000
+      },
+      "-1": {
+       "away": 1.4329,
+       "hdp": -1,
+       "home": 2.87,
+       "max": 5000
+      },
+      "0": {
+       "away": 1.9434,
+       "hdp": 0,
+       "home": 1.9259,
+       "max": 5000
+      },
+      "0.5": {
+       "away": 2.45,
+       "hdp": 0.5,
+       "home": 1.5714,
+       "max": 5000
+      },
+      "1": {
+       "away": 2.95,
+       "hdp": 1,
+       "home": 1.4115,
+       "max": 5000
+      }
+     },
+     "status": "open",
+     "team_total": {
+      "away": {
+       "over": 2.47,
+       "points": 3.5,
+       "under": 1.5348
+      },
+      "home": {
+       "over": 2.42,
+       "points": 3.5,
+       "under": 1.5556
+      }
+     },
+     "team_totals": {
+      "away": {
+       "2.5": {
+        "max": 1000,
+        "over": 1.6289,
+        "points": 2.5,
+        "under": 2.31
+       },
+       "3.5": {
+        "max": 1000,
+        "over": 2.47,
+        "points": 3.5,
+        "under": 1.5348
+       }
+      },
+      "home": {
+       "2.5": {
+        "max": 1000,
+        "over": 1.6061,
+        "points": 2.5,
+        "under": 2.35
+       },
+       "3.5": {
+        "max": 1000,
+        "over": 2.42,
+        "points": 3.5,
+        "under": 1.5556
+       }
+      }
+     },
+     "totals": {
+      "6": {
+       "max": 5000,
+       "over": 1.8696,
+       "points": 6,
+       "under": 2.01
+      }
+     }
+    }
+   },
+   "sport": "hockey",
+   "starts": "2026-11-28T21:07:00Z",
+   "status": null
   }
  ],
  "meta": {
   "calls": [
    {
-    "eventsTotal": 1795,
-    "kept": 357,
-    "last": 4657011,
+    "eventsTotal": 1803,
+    "kept": 358,
+    "last": 4659643,
     "leagues": {
      "Argentina - Liga Pro": 12,
      "Austria - Bundesliga": 9,
@@ -97096,7 +97887,7 @@
      "Chile - Primera Division": 18,
      "Costa Rica - Primera Division": 12,
      "Czech Republic - First Liga": 13,
-     "Denmark - Superliga": 13,
+     "Denmark - Superliga": 15,
      "England - Championship": 13,
      "England - FA Cup": 20,
      "England - League 1": 19,
@@ -97107,7 +97898,7 @@
      "Germany - Bundesliga": 26,
      "Germany - Bundesliga 2": 13,
      "Germany - Cup": 16,
-     "Germany - Regionalliga North": 16,
+     "Germany - Regionalliga North": 18,
      "Greece - Super League": 13,
      "Guatemala - Liga Nacional": 18,
      "Indonesia - Super League": 11,
@@ -97116,7 +97907,7 @@
      "Italy - Serie B": 15,
      "Italy - Serie C Group A": 15,
      "Italy - Serie C Group B": 15,
-     "Italy - Serie C Group C": 13,
+     "Italy - Serie C Group C": 15,
      "Japan - J League": 16,
      "Japan - J2 League": 27,
      "Japan - J3 League": 27,
@@ -97136,7 +97927,7 @@
      "Russia - Premier League": 16,
      "Spain - La Liga": 39,
      "Spain - Primera Federacion": 15,
-     "Spain - Segunda Division": 17,
+     "Spain - Segunda Division": 18,
      "Spain - Segunda Federacion": 23,
      "Spain - Tercera Division": 54,
      "Sweden - Allsvenskan": 24,
@@ -97151,9 +97942,9 @@
     "sport": "soccer"
    },
    {
-    "eventsTotal": 169,
-    "kept": 13,
-    "last": 4657013,
+    "eventsTotal": 170,
+    "kept": 14,
+    "last": 4659643,
     "leagues": {
      "Austria - EHL": 7,
      "Belarus - Extraleague": 3,
@@ -97172,7 +97963,7 @@
      "Germany - DEL 2": 7,
      "Hungary - Erste Liga": 3,
      "Latvia - Latvian Hockey League": 1,
-     "NHL": 13,
+     "NHL": 14,
      "Poland - Polska Hokey Liga": 3,
      "Russia - Junior Hockey League (MHL)": 8,
      "Russia - Kontinental Hockey League": 8,
@@ -97191,9 +97982,9 @@
    }
   ],
   "cap": 80,
-  "fetchedAt": "2026-11-28T20:35:50Z",
+  "fetchedAt": "2026-11-28T20:41:55Z",
   "note": "decimal prices as published; soccer num_0 = full time, num_1 = first half; hockey num_0 includes OT and shootout",
-  "requestsToday": 40,
+  "requestsToday": 42,
   "source": "pinnapi.com (Pinnacle pre-match)"
  }
 }
