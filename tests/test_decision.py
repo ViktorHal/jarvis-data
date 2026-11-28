@@ -7,6 +7,7 @@ import decision as D  # noqa: E402
 
 D.DEFAULT_CONFIG["marketAnchor"] = False   # the legacy tests below describe 3.7 and earlier; 3.8's anchor: test_38_*
 import model  # noqa: E402
+from datetime import datetime, timedelta
 
 CFG = D.load_config()
 NOW = "2026-11-25T12:00:00Z"
@@ -1138,5 +1139,38 @@ def test_311_the_cushion_drops_only_where_the_market_is_moving():
                         "config": {"mode": "active"}})["hunts"]
         for h in hunted:
             assert h["minOdds"] >= h["fair"]
+    finally:
+        D.DEFAULT_CONFIG["marketAnchor"] = False
+
+
+def test_312_a_grid_priced_line_is_as_stale_as_the_prices_it_was_fitted_to():
+    """28 Nov 2026, the morning scan: Pinnacle's feed was seven hours old and the twenty picks it posted were all
+    goal lines Pinnacle does not quote, priced by the fitted grid. Those lines had no price of their own, so the
+    staleness rule never looked at them. Now they inherit the age of the prices the grid was fitted to."""
+    D.DEFAULT_CONFIG["marketAnchor"] = True
+    try:
+        cfg = D.load_config()
+        stale_min = cfg.get("staleOddsMin", 180)
+        m = priced_match(0)
+        old = (datetime.fromisoformat(NOW.replace("Z", "+00:00")) - timedelta(minutes=stale_min + 120)).isoformat()
+        m["oddsAt"] = {k: old.replace("+00:00", "Z") for k in m["marketOdds"]}
+        res = D.run({"now": NOW, "matches": [m], "markets": STATUSES, "openBets": [], "config": {"mode": "active"}})
+        rows = res["matches"][0]["markets"]
+        grid = [r for r in rows if r.get("anchored") == "grid"]
+        assert grid, "the grid still prices them"
+        for r in grid:
+            assert r["oddsAgeMin"] == stale_min + 120 and r["oddsStale"] is True
+            assert not r["v1"]["post"] and not r["v2"]["post"]
+        # the stored row drops the reasons for an unpriced line, so read them from the pipeline itself
+        raw = D.process_match(m, STATUSES, NOW, cfg)
+        for r in [r for r in raw["markets"] if r.get("anchored") == "grid"]:
+            assert [w for w in r["v1"]["why"] if w.startswith("data: reference price")], r["selection"]
+        # and nothing may be offered off those prices
+        assert not [b for b in res["products"] if any(r.get("anchored") == "grid" for _, r in D._rows_of(b))]
+        # fresh prices: the same lines are posted again
+        m["oddsAt"] = {k: NOW for k in m["marketOdds"]}
+        fresh = D.run({"now": NOW, "matches": [m], "markets": STATUSES, "openBets": [],
+                       "config": {"mode": "active", "profile": "hitrate"}})
+        assert [b for b in fresh["products"] if any(r.get("anchored") == "grid" for _, r in D._rows_of(b))]
     finally:
         D.DEFAULT_CONFIG["marketAnchor"] = False

@@ -2,7 +2,10 @@ name: fetch odds
 
 on:
   schedule:
-    - cron: "35 6-22 * * *"   # every hour 07:35-23:35 Stockholm (winter); 2 requests per run, ~34 per day
+    - cron: "15 6-22 * * *"   # every hour 07:15-23:15 Stockholm (winter); 2 requests per run, ~34 per day.
+    # :15 and not :35 because GitHub runs cron 10-15 minutes late and the scans start at 07:44, 11:44, 13:44,
+    # 17:44 and 20:10 Stockholm: on 28 Nov the 07:35 fetch landed at 07:47, three minutes after the scan had
+    # already cloned the repo, so the whole morning was priced on the previous evening's odds.
   workflow_dispatch: {}
 
 permissions:

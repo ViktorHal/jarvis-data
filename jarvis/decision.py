@@ -37,7 +37,7 @@ try:  # hockey model 1.2 (production for hockey from 26 Nov 2026 when its inputs
 except Exception:  # a missing or broken hockey12.py falls back to 1.1, recorded per match
     hockey12 = None
 
-VERSION = "3.11"
+VERSION = "3.12"
 
 DEFAULT_CONFIG = {
     "mode": "shadow",                 # "shadow" | "active"
@@ -729,7 +729,7 @@ def process_match(m, statuses, now, cfg):
     stale_min = cfg.get("staleOddsMin", 180)
     stale_keys = [kk for kk, t in odds_at.items() if (odds_age_minutes(t, now) or 0) > stale_min]
     # 3.10 grid anchor: fit the goal rates to Pinnacle's own 1X2 and totals, for the goal lines it does not quote
-    mg, mgrid, mnames = cfg.get("marketGrid") or {}, None, None
+    mg, mgrid, mnames, grid_age = cfg.get("marketGrid") or {}, None, None, None
     if sport == "football" and cfg.get("marketAnchor") and mg.get("cv") is not None:
         hn0, an0 = inp["home"].get("name", "Home"), inp["away"].get("name", "Away")
         tri = [pm.get(line_key("Match result", x)) for x in (hn0, "Draw", an0)]
@@ -744,6 +744,16 @@ def process_match(m, statuses, now, cfg):
             if fitted and fitted[2] <= mg.get("maxResidual", 0.02):
                 mgrid = fitted
                 mnames = (hn0, an0)
+                # 3.12: the age of the oldest price the grid was fitted to. Every line the grid prices is exactly
+                # as old as those prices, so it must face the same staleness rule; without this a goal line
+                # Pinnacle does not quote had no age at all and was posted on prices hours out of date (28 Nov
+                # 2026, the morning scan: 20 picks on seven-hour-old Pinnacle numbers).
+                ages = [odds_age_minutes(odds_at.get(kk), now)
+                        for kk in [line_key("Match result", x) for x in (hn0, "Draw", an0)]
+                        + [line_key("Total goals", f"Over {L:g}") for L in tot]
+                        + [line_key("Total goals", f"Under {L:g}") for L in tot] if kk in odds_at]
+                ages = [a for a in ages if a is not None]
+                grid_age = max(ages) if ages else None
     grid_cache = {} if mgrid is None else {"g": mixed_grid(mgrid[0], mgrid[1], mg["cv"], model.P["dc_rho"])}
     # 3.10: the same grid fitted to the FIRST prices seen today, so a goal line Pinnacle does not quote still
     # knows which way the market has moved (research/line_drift_totals.json: on the over/under market the
@@ -815,6 +825,8 @@ def process_match(m, statuses, now, cfg):
             msg = "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
             ok1, ok2, why1, why2 = False, False, why1 + [msg], why2 + [msg]
         age = odds_age_minutes(odds_at.get(k), now) if k in odds_at else None
+        if age is None and anchored == "grid":
+            age = grid_age                 # 3.12: as old as the prices the grid was fitted to
         stale_set = [kk for kk in stale_keys if key_group.get(kk) == x["group"] and kk in pm] if k in pm else []
         if (age is not None and age > stale_min) or stale_set:
             # a reference price older than staleOddsMin (own price or one in the set it is de-margined with)
