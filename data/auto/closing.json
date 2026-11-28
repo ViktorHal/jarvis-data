@@ -64,6 +64,262 @@
    "openAt": "2026-11-27T19:46:25Z",
    "start": "2026-11-27T21:00:00Z"
   },
+  "2026-11-28-al-hazem-al-nassr|Corners_Over_10_5": {
+   "close": 0.47855,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.45799,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Corners_Over_11_5": {
+   "close": 0.37741,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 20,
+   "open": 0.37753,
+   "openAt": "2026-11-28T06:47:46Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Corners_Over_9_5": {
+   "close": 0.58114,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.55949,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Corners_Under_10_5": {
+   "close": 0.52145,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.54201,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Corners_Under_11_5": {
+   "close": 0.62259,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 20,
+   "open": 0.62247,
+   "openAt": "2026-11-28T06:47:46Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Corners_Under_9_5": {
+   "close": 0.41886,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.44051,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Match_result_Al_Hazem": {
+   "close": 0.09242,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.09891,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Match_result_Al_Nassr": {
+   "close": 0.7782,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.76642,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Match_result_Draw": {
+   "close": 0.12938,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.13467,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Total_goals_Over_2_5": {
+   "close": 0.72569,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.72027,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Total_goals_Over_3_5": {
+   "close": 0.5288,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.52023,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Total_goals_Over_4_5": {
+   "close": 0.336,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.32992,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Total_goals_Under_2_5": {
+   "close": 0.27431,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.27973,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Total_goals_Under_3_5": {
+   "close": 0.4712,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.47977,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-al-hazem-al-nassr|Total_goals_Under_4_5": {
+   "close": 0.664,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.67008,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:15:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Corners_Over_10_5": {
+   "close": 0.49351,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.50213,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Corners_Over_11_5": {
+   "close": 0.3947,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.40123,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Corners_Over_9_5": {
+   "close": 0.59877,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.60574,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Corners_Under_10_5": {
+   "close": 0.50649,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.49787,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Corners_Under_11_5": {
+   "close": 0.6053,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.59877,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Corners_Under_9_5": {
+   "close": 0.40123,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.39426,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Match_result_Blackburn_Rovers": {
+   "close": 0.47768,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.48182,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Match_result_Charlton_Athletic": {
+   "close": 0.25518,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.25561,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Match_result_Draw": {
+   "close": 0.26713,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.26257,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Total_goals_Over_1_5": {
+   "close": 0.74049,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.7245,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Total_goals_Over_2_5": {
+   "close": 0.50458,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.48315,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Total_goals_Over_3_5": {
+   "close": 0.2894,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.27638,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Total_goals_Over_4_5": {
+   "close": 0.14541,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.13941,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Total_goals_Under_1_5": {
+   "close": 0.25951,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.2755,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Total_goals_Under_2_5": {
+   "close": 0.49542,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.51685,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Total_goals_Under_3_5": {
+   "close": 0.7106,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.72362,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-blackburn-rovers-charlton-athletic|Total_goals_Under_4_5": {
+   "close": 0.85459,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.86059,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
   "2026-11-28-buffalo-sabres-pittsburgh-penguins|Moneyline_incl_OT_Buffalo_Sabres": {
    "close": 0.54605,
    "closeAt": "2026-11-27T22:46:28Z",
@@ -79,6 +335,142 @@
    "open": 0.45395,
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T01:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Corners_Over_10_5": {
+   "close": 0.42331,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.4198,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Corners_Over_8_5": {
+   "close": 0.64069,
+   "closeAt": "2026-11-28T00:42:06Z",
+   "n": 24,
+   "open": 0.64069,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Corners_Over_9_5": {
+   "close": 0.53016,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.52719,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Corners_Under_10_5": {
+   "close": 0.57669,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.5802,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Corners_Under_8_5": {
+   "close": 0.35931,
+   "closeAt": "2026-11-28T00:42:06Z",
+   "n": 24,
+   "open": 0.35931,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Corners_Under_9_5": {
+   "close": 0.46984,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.47281,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Match_result_Draw": {
+   "close": 0.26366,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.26256,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Match_result_Dynamo_Dresden": {
+   "close": 0.30511,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.33317,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Match_result_St_Pauli": {
+   "close": 0.43123,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.40427,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Total_goals_Over_1_5": {
+   "close": 0.79123,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.79178,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Total_goals_Over_2_5": {
+   "close": 0.56461,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.56824,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Total_goals_Over_3_5": {
+   "close": 0.35321,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.35527,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Total_goals_Over_4_5": {
+   "close": 0.19642,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.19756,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Total_goals_Under_1_5": {
+   "close": 0.20877,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.20822,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Total_goals_Under_2_5": {
+   "close": 0.43539,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.43176,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Total_goals_Under_3_5": {
+   "close": 0.64679,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.64473,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-dynamo-dresden-st-pauli|Total_goals_Under_4_5": {
+   "close": 0.80358,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.80244,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
   },
   "2026-11-28-edmonton-oilers-seattle-kraken|Moneyline_incl_OT_Edmonton_Oilers": {
    "close": 0.65694,
@@ -96,6 +488,366 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T01:00:00Z"
   },
+  "2026-11-28-hertha-bsc-karlsruher|Corners_Over_10_5": {
+   "close": 0.46568,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.45645,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Corners_Over_9_5": {
+   "close": 0.58502,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.57449,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Corners_Under_10_5": {
+   "close": 0.53432,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.54355,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Corners_Under_9_5": {
+   "close": 0.41498,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.42551,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Match_result_Draw": {
+   "close": 0.18197,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.17959,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Match_result_Hertha_BSC": {
+   "close": 0.68668,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.67947,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Match_result_Karlsruher": {
+   "close": 0.13135,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.14094,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Total_goals_Over_1_5": {
+   "close": 0.84003,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.86685,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Total_goals_Over_2_5": {
+   "close": 0.65568,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.70081,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Total_goals_Over_3_5": {
+   "close": 0.44168,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.49774,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Total_goals_Over_4_5": {
+   "close": 0.26456,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.30944,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Total_goals_Under_1_5": {
+   "close": 0.15997,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.13315,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Total_goals_Under_2_5": {
+   "close": 0.34432,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.29919,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Total_goals_Under_3_5": {
+   "close": 0.55832,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.50226,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-hertha-bsc-karlsruher|Total_goals_Under_4_5": {
+   "close": 0.73544,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.69056,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Corners_Over_10_5": {
+   "close": 0.43086,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.46282,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Corners_Over_9_5": {
+   "close": 0.53636,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.56152,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Corners_Under_10_5": {
+   "close": 0.56914,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.53718,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Corners_Under_9_5": {
+   "close": 0.46364,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 44,
+   "open": 0.43848,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Match_result_Draw": {
+   "close": 0.27051,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.27486,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Match_result_Holstein_Kiel": {
+   "close": 0.39207,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.40031,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Match_result_Kaiserslautern": {
+   "close": 0.33743,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.32483,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Total_goals_Over_1_5": {
+   "close": 0.77723,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.77466,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Total_goals_Over_2_5": {
+   "close": 0.54708,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.54106,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Total_goals_Over_3_5": {
+   "close": 0.33807,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.33449,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Total_goals_Over_4_5": {
+   "close": 0.18236,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.1803,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Total_goals_Under_1_5": {
+   "close": 0.22277,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.22534,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Total_goals_Under_2_5": {
+   "close": 0.45292,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.45894,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Total_goals_Under_3_5": {
+   "close": 0.66193,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.66551,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-holstein-kiel-kaiserslautern|Total_goals_Under_4_5": {
+   "close": 0.81764,
+   "closeAt": "2026-11-28T10:47:42Z",
+   "n": 56,
+   "open": 0.8197,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:00:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Corners_Over_10_5": {
+   "close": 0.44478,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.45092,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Corners_Over_9_5": {
+   "close": 0.55711,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.56178,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Corners_Under_10_5": {
+   "close": 0.55522,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.54908,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Corners_Under_9_5": {
+   "close": 0.44289,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.43822,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Match_result_Draw": {
+   "close": 0.22173,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.225,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Match_result_Lincoln_City": {
+   "close": 0.14603,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.15372,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Match_result_Wolverhampton": {
+   "close": 0.63223,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.62128,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Total_goals_Over_1_5": {
+   "close": 0.75249,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.751,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Total_goals_Over_2_5": {
+   "close": 0.50917,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.50904,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Total_goals_Over_3_5": {
+   "close": 0.29642,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.29987,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Total_goals_Over_4_5": {
+   "close": 0.15302,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.15661,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Total_goals_Under_1_5": {
+   "close": 0.24751,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.249,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Total_goals_Under_2_5": {
+   "close": 0.49083,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.49096,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Total_goals_Under_3_5": {
+   "close": 0.70358,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.70013,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-lincoln-city-wolverhampton|Total_goals_Under_4_5": {
+   "close": 0.84698,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.84339,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
   "2026-11-28-new-york-islanders-winnipeg-jets|Moneyline_incl_OT_New_York_Islanders": {
    "close": 0.51955,
    "closeAt": "2026-11-27T22:46:28Z",
@@ -111,6 +863,142 @@
    "open": 0.4716,
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T00:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Corners_Over_10_5": {
+   "close": 0.47515,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.47334,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Corners_Over_11_5": {
+   "close": 0.38184,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.38151,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Corners_Over_9_5": {
+   "close": 0.57887,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.57729,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Corners_Under_10_5": {
+   "close": 0.52485,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.52666,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Corners_Under_11_5": {
+   "close": 0.61816,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.61849,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Corners_Under_9_5": {
+   "close": 0.42113,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.42271,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Match_result_Draw": {
+   "close": 0.23745,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.23196,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Match_result_Norwich_City": {
+   "close": 0.54386,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.55647,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Match_result_Preston_North_End": {
+   "close": 0.21869,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.21157,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Total_goals_Over_1_5": {
+   "close": 0.80186,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.80229,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Total_goals_Over_2_5": {
+   "close": 0.59105,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.5928,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Total_goals_Over_3_5": {
+   "close": 0.37386,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.37935,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Total_goals_Over_4_5": {
+   "close": 0.20805,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.21267,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Total_goals_Under_1_5": {
+   "close": 0.19814,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.19771,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Total_goals_Under_2_5": {
+   "close": 0.40895,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.4072,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Total_goals_Under_3_5": {
+   "close": 0.62614,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.62065,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-preston-north-end-norwich-city|Total_goals_Under_4_5": {
+   "close": 0.79195,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.78733,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T12:30:00Z"
   },
   "m1|Match_result_Away": {
    "close": 0.16552,
@@ -138,9 +1026,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T12:15:21Z",
+  "fetchedAt": "2026-11-28T12:46:36Z",
   "keptDays": 45,
-  "lines": 17,
+  "lines": 128,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
