@@ -269,6 +269,30 @@ class Attaching(unittest.TestCase):
         self.assertNotIn("betsson", ms[0]["bookOdds"][k])
         self.assertEqual(ms[0]["otherBooks"][k], ("betsson", 2.10))
 
+    def test_a_three_way_hockey_price_is_regulation_time_not_the_moneyline(self):
+        # The fault of 28 Nov 2026: BetMGM quotes the NHL three-way (regulation time), Betsson two-way
+        # (including overtime). Filing the three-way home price under Moneyline (incl. OT) made both sides
+        # of every NHL game look like value.
+        import common as C
+        C.write_json(self.PATH, {"meta": {"fetchedAt": "2026-11-28T15:30:00Z"}, "events": [
+            {"home": "Carolina Hurricanes", "away": "Ottawa Senators", "start": "2026-11-28T20:00:00Z",
+             "league": "NHL",
+             "books": {"betmgm_se": {"h2h": {"home": 1.64, "draw": 5.40, "away": 4.30}},
+                       "svenskaspel_se": {"h2h": {"home": 1.37, "away": 3.10}}}}]})
+        m = {"id": "h1", "sport": "Ice hockey", "start": "2026-11-28T20:00:00Z", "h12": {},
+             "inputs": {"home": {"name": "Carolina Hurricanes"}, "away": {"name": "Ottawa Senators"}},
+             "auto": {"names": {"home": "Carolina Hurricanes", "away": "Ottawa Senators"}}}
+        ms = [m]
+        self.assertEqual(self.A.attach_book_odds(ms, self.A.Repo(), self.now(), self.D), 1)
+        bo = ms[0]["bookOdds"]
+        reg_h = self.D.line_key("60-minute result", "Carolina Hurricanes")
+        ml_h = self.D.line_key("Moneyline (incl. OT)", "Carolina Hurricanes")
+        self.assertEqual(bo[reg_h], {"betmgm_se": 1.64})
+        self.assertEqual(bo[self.D.line_key("60-minute result", "Draw")], {"betmgm_se": 5.40})
+        self.assertEqual(bo[ml_h], {"svenskaspel_se": 1.37})          # two-way: the moneyline, correctly
+        self.assertNotIn("betmgm_se", bo[ml_h], "a three-way price must never reach the moneyline")
+        self.assertNotIn("svenskaspel_se", bo[reg_h])
+
     def test_a_stale_feed_is_ignored(self):
         self.feed("2026-11-28T06:00:00Z")           # ten hours old
         ms = [self.match()]
@@ -280,8 +304,10 @@ class Attaching(unittest.TestCase):
         ms = [self.match(hockey=True)]
         self.A.attach_book_odds(ms, self.A.Repo(), self.now(), self.D)
         bo = ms[0]["bookOdds"]
-        self.assertIn(self.D.line_key("Moneyline (incl. OT)", "Leeds"), bo)
-        self.assertFalse([k for k in bo if k.startswith("Total_goals")])
+        # The fixture's price carries a draw, so it is a regulation-time market, not the moneyline.
+        self.assertIn(self.D.line_key("60-minute result", "Leeds"), bo)
+        self.assertFalse([k for k in bo if k.startswith("Total_goals")],
+                         "a bookmaker's hockey total includes overtime and is never a 60-minute line")
 
     def test_an_unknown_fixture_is_left_alone(self):
         self.feed("2026-11-28T15:30:00Z", home="Real Madrid", away="Barcelona")

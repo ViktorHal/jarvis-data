@@ -571,13 +571,25 @@ def attach_book_odds(matches, repo, now, D):
             dest = out if mine else other
             h2h = mk.get("h2h") or {}
             if h2h.get("home") and h2h.get("away"):
-                if hockey:
+                # WHICH MARKET a hockey h2h price belongs to is decided by whether it has a draw, and
+                # getting it wrong is expensive. BetMGM and Svenska Spel quote the NHL as a THREE-WAY
+                # regulation-time market (28 Nov 2026, Carolina - Ottawa: 1.64 / 5.40 / 4.30, sum 1.028),
+                # while Betsson quotes two-way including overtime (1.37 / 3.10). A three-way home price is
+                # far longer than the moneyline, so filing it under Moneyline (incl. OT) made both sides of
+                # every NHL game look like value and the board posted eight such lines at prices that do not
+                # exist for that market. A draw means regulation time: 60-minute result, never the moneyline.
+                if hockey and h2h.get("draw"):
+                    dest.setdefault(D.line_key("60-minute result", jh), {})[bk] = h2h["home"]
+                    dest.setdefault(D.line_key("60-minute result", "Draw"), {})[bk] = h2h["draw"]
+                    dest.setdefault(D.line_key("60-minute result", ja), {})[bk] = h2h["away"]
+                elif hockey:
                     dest.setdefault(D.line_key("Moneyline (incl. OT)", jh), {})[bk] = h2h["home"]
                     dest.setdefault(D.line_key("Moneyline (incl. OT)", ja), {})[bk] = h2h["away"]
                 elif h2h.get("draw"):
                     dest.setdefault(D.line_key("Match result", jh), {})[bk] = h2h["home"]
                     dest.setdefault(D.line_key("Match result", "Draw"), {})[bk] = h2h["draw"]
                     dest.setdefault(D.line_key("Match result", ja), {})[bk] = h2h["away"]
+                # A two-way football price is no Jarvis market (draw no bet is priced apart): left out.
             if hockey:
                 continue
             for line, oversunder in (mk.get("totals") or {}).items():
