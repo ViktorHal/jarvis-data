@@ -38,8 +38,13 @@ import common
 CAP = 450                     # credits a month; the free plan gives 500
 BASE = "https://api.the-odds-api.com/v4"
 REGION = "se"                 # the only region with BetMGM and Svenska Spel
-WANT_BOOKS = ("betmgm", "svenskaspel", "betsson", "unibet", "nordicbet", "leovegas", "mrgreen", "888sport_se",
-              "betinia", "campobet", "expekt", "hajper", "atg")
+# The region's exact keys, as the API's own bookmaker list gives them: most Swedish books carry a _se suffix,
+# Betsson and NordicBet do not. Getting these wrong is silent - the book simply never appears - which is what
+# happened on the first live run, when only betsson and nordicbet came through. Everything the region returns is
+# stored; which of them he can actually BET at is a separate question, decided by HIS_BOOKS below.
+WANT_BOOKS = ("betmgm_se", "svenskaspel_se", "betsson", "nordicbet", "unibet_se", "leovegas_se", "mrgreen_se",
+              "sport888_se", "betinia_se", "campobet_se", "expekt_se", "hajper_se", "atg_se")
+HIS_BOOKS = ("betmgm_se", "svenskaspel_se")     # the only two with an account; Bet365 is in no European region
 # Jarvis' league names (as they appear on the board) -> a word to look for in the API's sport titles
 LEAGUE_HINT = {
     "England - Premier League": "epl", "England - Championship": "championship",
@@ -188,7 +193,7 @@ def run(log: Log, now=None, markets="totals", hours=10, max_keys=3, all_leagues=
                                          "events": []})
         return
     per = len(markets.split(","))
-    events, calls, remaining = [], [], None
+    events, calls, remaining, seen = [], [], None, set()
     for lg, k in keys:
         if not take_credits(usage, month, per):
             log.fail("oddsapi", f"{BASE}/sports/{k}/odds", f"monthly cap {CAP} reached; no request made")
@@ -205,6 +210,10 @@ def run(log: Log, now=None, markets="totals", hours=10, max_keys=3, all_leagues=
             log.fail(f"oddsapi {k}", url, e)
             calls.append({"key": k, "league": lg, "error": str(e)[:120], "at": now_iso()})
             continue
+        for e in js:                      # every key the region returned, kept or not: a wrong filter in
+            for b in (e.get("bookmakers") or []):   # WANT_BOOKS silently drops a book, so it must be visible
+                if b.get("key"):
+                    seen.add(b["key"])
         got = [p for p in (parse_event(e) for e in js) if p]
         for g in got:
             g["league"] = lg
@@ -214,7 +223,9 @@ def run(log: Log, now=None, markets="totals", hours=10, max_keys=3, all_leagues=
     write_json("oddsapi/odds.json", {
         "meta": {"fetchedAt": now_iso(), "events": len(events), "region": REGION, "markets": markets,
                  "keys": [k for _, k in keys], "calls": calls, "creditsThisMonth": usage.get(month, 0),
-                 "cap": CAP, "books": list(WANT_BOOKS),
+                 "cap": CAP, "books": list(WANT_BOOKS), "booksSeen": sorted(seen),
+                 "booksDropped": sorted(b for b in seen if b not in WANT_BOOKS),
+                 "hisBooks": [b for b in HIS_BOOKS if b in seen],
                  "note": "prices exactly as the-odds-api.com returned them, in its own team names"},
         "events": events})
     log.ok("oddsapi", BASE, len(events), f"{usage.get(month, 0)}/{CAP} credits used this month")

@@ -6,7 +6,12 @@ on:
     # :15 and not :35 because GitHub runs cron 10-15 minutes late and the scans start at 07:44, 11:44, 13:44,
     # 17:44 and 20:10 Stockholm: on 28 Nov the 07:35 fetch landed at 07:47, three minutes after the scan had
     # already cloned the repo, so the whole morning was priced on the previous evening's odds.
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      books:
+        description: "fetch bookmaker prices even outside the three scheduled hours (costs 4 credits)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -43,8 +48,9 @@ jobs:
           ODDSAPI_KEY: ${{ secrets.ODDSAPI_KEY }}
         run: |
           H=$(date -u +%H)
+          if [ "${{ inputs.books }}" = "true" ]; then H=force; fi
           case "$H" in
-            10|16|19) python fetch/oddsapi.py --max-keys=2 --markets=h2h,totals --hours=10 ;;
+            10|16|19|force) python fetch/oddsapi.py --max-keys=2 --markets=h2h,totals --hours=10 ;;
             *) echo "not a bookmaker-price hour ($H UTC)" ;;
           esac
       - name: price every match (data/auto)

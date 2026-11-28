@@ -36,6 +36,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from common import DATA, ROOT, now_iso, write_json  # noqa: E402
 
+try:                                        # the bookmaker-key lists live in one place, next to the fetcher
+    import oddsapi as OA                    # noqa: E402
+except Exception:                           # pragma: no cover - a missing fetcher must not stop the board
+    class OA:                               # noqa: N801
+        HIS_BOOKS = ("betmgm_se", "svenskaspel_se")
+
 JARVIS = os.path.join(ROOT, "jarvis")
 
 # Pinnacle league -> (football-data code, statz.ai xG slug, FotMob players slug, Jarvis Elo league label)
@@ -557,17 +563,21 @@ def attach_book_odds(matches, repo, now, D):
         if ev is None:
             continue
         hockey = str(m.get("sport", "")).lower().startswith("ice") or m.get("h12") is not None
-        out = {}
+        out, other = {}, {}
         for bk, mk in (ev.get("books") or {}).items():
+            # Only a bookmaker he has an account at can decide a bet. The other eleven Swedish books are stored
+            # beside it, so the weekly report can say whether he would be better off opening another account.
+            mine = bk in OA.HIS_BOOKS
+            dest = out if mine else other
             h2h = mk.get("h2h") or {}
             if h2h.get("home") and h2h.get("away"):
                 if hockey:
-                    out.setdefault(D.line_key("Moneyline (incl. OT)", jh), {})[bk] = h2h["home"]
-                    out.setdefault(D.line_key("Moneyline (incl. OT)", ja), {})[bk] = h2h["away"]
+                    dest.setdefault(D.line_key("Moneyline (incl. OT)", jh), {})[bk] = h2h["home"]
+                    dest.setdefault(D.line_key("Moneyline (incl. OT)", ja), {})[bk] = h2h["away"]
                 elif h2h.get("draw"):
-                    out.setdefault(D.line_key("Match result", jh), {})[bk] = h2h["home"]
-                    out.setdefault(D.line_key("Match result", "Draw"), {})[bk] = h2h["draw"]
-                    out.setdefault(D.line_key("Match result", ja), {})[bk] = h2h["away"]
+                    dest.setdefault(D.line_key("Match result", jh), {})[bk] = h2h["home"]
+                    dest.setdefault(D.line_key("Match result", "Draw"), {})[bk] = h2h["draw"]
+                    dest.setdefault(D.line_key("Match result", ja), {})[bk] = h2h["away"]
             if hockey:
                 continue
             for line, oversunder in (mk.get("totals") or {}).items():
@@ -577,11 +587,13 @@ def attach_book_odds(matches, repo, now, D):
                     continue
                 for side, sel in (("over", f"Over {L:g}"), ("under", f"Under {L:g}")):
                     if oversunder.get(side):
-                        out.setdefault(D.line_key("Total goals", sel), {})[bk] = oversunder[side]
+                        dest.setdefault(D.line_key("Total goals", sel), {})[bk] = oversunder[side]
         if out:
             m["bookOdds"] = out
             m["bookOddsAt"] = at
             hit += 1
+        if other:
+            m["otherBooks"] = {k: max(v.items(), key=lambda x: x[1]) for k, v in other.items()}
     print(f"bookOdds: {hit} of {len(matches)} matches priced by his own bookmakers ({at})", file=sys.stderr)
     return hit
 

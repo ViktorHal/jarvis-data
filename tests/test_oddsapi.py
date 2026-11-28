@@ -18,16 +18,19 @@ SPORTS = [{"key": "soccer_epl", "title": "EPL", "active": True},
 EVENT = {"id": "abc", "commence_time": "2026-11-28T20:00:00Z", "home_team": "Leeds United",
          "away_team": "Coventry City",
          "bookmakers": [
-             {"key": "svenskaspel", "markets": [
+             {"key": "svenskaspel_se", "markets": [
                  {"key": "totals", "outcomes": [{"name": "Over", "point": 2.5, "price": 1.85},
                                                 {"name": "Under", "point": 2.5, "price": 1.95},
                                                 {"name": "Over", "point": 1.5, "price": 1.28}]},
                  {"key": "h2h", "outcomes": [{"name": "Leeds United", "price": 1.55},
                                              {"name": "Draw", "price": 4.10},
                                              {"name": "Coventry City", "price": 6.50}]}]},
-             {"key": "betmgm", "markets": [
+             {"key": "betmgm_se", "markets": [
                  {"key": "totals", "outcomes": [{"name": "Over", "point": 2.5, "price": 1.80},
                                                 {"name": "Under", "point": 2.5, "price": 2.00}]}]},
+             {"key": "betsson", "markets": [          # a Swedish book, but not one he has an account at
+                 {"key": "totals", "outcomes": [{"name": "Over", "point": 2.5, "price": 2.10},
+                                                {"name": "Under", "point": 2.5, "price": 1.75}]}]},
              {"key": "sketchy_book", "markets": [
                  {"key": "totals", "outcomes": [{"name": "Over", "point": 2.5, "price": 9.99},
                                                 {"name": "Under", "point": 2.5, "price": 9.99}]}]}]}
@@ -36,13 +39,24 @@ EVENT = {"id": "abc", "commence_time": "2026-11-28T20:00:00Z", "home_team": "Lee
 class Parsing(unittest.TestCase):
     def test_only_the_books_he_can_play_and_only_complete_lines(self):
         p = O.parse_event(EVENT)
-        self.assertEqual(sorted(p["books"]), ["betmgm", "svenskaspel"])          # the unknown book is dropped
-        self.assertEqual(p["books"]["svenskaspel"]["totals"]["2.5"], {"over": 1.85, "under": 1.95})
-        self.assertNotIn("1.5", p["books"]["svenskaspel"]["totals"])              # over without under: dropped
-        self.assertEqual(p["books"]["svenskaspel"]["h2h"],
+        self.assertEqual(sorted(p["books"]), ["betmgm_se", "betsson", "svenskaspel_se"])   # unknown book dropped
+        self.assertEqual(p["books"]["svenskaspel_se"]["totals"]["2.5"], {"over": 1.85, "under": 1.95})
+        self.assertNotIn("1.5", p["books"]["svenskaspel_se"]["totals"])           # over without under: dropped
+        self.assertEqual(p["books"]["svenskaspel_se"]["h2h"],
                          {"home": 1.55, "draw": 4.10, "away": 6.50})
-        self.assertNotIn("h2h", p["books"]["betmgm"])
+        self.assertNotIn("h2h", p["books"]["betmgm_se"])
         self.assertEqual(p["home"], "Leeds United")
+
+    def test_the_two_books_he_plays_at_carry_the_region_suffix(self):
+        # The first live run returned only betsson and nordicbet because the filter asked for "betmgm" and
+        # "svenskaspel". The region names them betmgm_se and svenskaspel_se, and both must be in WANT_BOOKS.
+        for b in ("betmgm_se", "svenskaspel_se"):
+            self.assertIn(b, O.WANT_BOOKS)
+            self.assertIn(b, O.HIS_BOOKS)
+        self.assertNotIn("betmgm", O.WANT_BOOKS)
+        self.assertNotIn("svenskaspel", O.WANT_BOOKS)
+        for b in O.HIS_BOOKS:               # a book he cannot bet at must never decide a price
+            self.assertIn(b, O.WANT_BOOKS)
 
     def test_an_event_no_wanted_book_prices_is_dropped(self):
         ev = dict(EVENT, bookmakers=[{"key": "sketchy_book", "markets": []}])
@@ -149,9 +163,10 @@ class Attaching(unittest.TestCase):
     def feed(self, at, home="Leeds United", away="Coventry City"):
         common.write_json(self.PATH, {"meta": {"fetchedAt": at}, "events": [
             {"home": home, "away": away, "start": "2026-11-28T20:00:00Z", "league": "England - Premier League",
-             "books": {"svenskaspel": {"h2h": {"home": 1.55, "draw": 4.1, "away": 6.5},
-                                       "totals": {"2.5": {"over": 1.85, "under": 1.95}}},
-                       "betmgm": {"totals": {"2.5": {"over": 1.8, "under": 2.0}}}}}]})
+             "books": {"svenskaspel_se": {"h2h": {"home": 1.55, "draw": 4.1, "away": 6.5},
+                                          "totals": {"2.5": {"over": 1.85, "under": 1.95}}},
+                       "betmgm_se": {"totals": {"2.5": {"over": 1.8, "under": 2.0}}},
+                       "betsson": {"totals": {"2.5": {"over": 2.10, "under": 1.75}}}}}]})
 
     def match(self, hockey=False):
         m = {"id": "m1", "sport": "Football", "start": "2026-11-28T20:00:00Z",
@@ -169,10 +184,21 @@ class Attaching(unittest.TestCase):
         ms = [self.match()]
         self.assertEqual(self.A.attach_book_odds(ms, self.A.Repo(), self.now(), self.D), 1)
         bo = ms[0]["bookOdds"]
-        self.assertEqual(bo[self.D.line_key("Match result", "Leeds")], {"svenskaspel": 1.55})
-        self.assertEqual(bo[self.D.line_key("Match result", "Draw")], {"svenskaspel": 4.1})
-        self.assertEqual(bo[self.D.line_key("Total goals", "Over 2.5")], {"svenskaspel": 1.85, "betmgm": 1.8})
+        self.assertEqual(bo[self.D.line_key("Match result", "Leeds")], {"svenskaspel_se": 1.55})
+        self.assertEqual(bo[self.D.line_key("Match result", "Draw")], {"svenskaspel_se": 4.1})
+        self.assertEqual(bo[self.D.line_key("Total goals", "Over 2.5")],
+                         {"svenskaspel_se": 1.85, "betmgm_se": 1.8})
         self.assertEqual(ms[0]["bookOddsAt"], "2026-11-28T15:30:00Z")
+
+    def test_a_book_he_has_no_account_at_is_kept_apart_from_the_price_that_decides(self):
+        # Betsson's 2.10 is the best Over 2.5 price in Sweden, but he cannot bet it. It must not reach
+        # bookOdds (which decides), only otherBooks (which the weekly report reads).
+        self.feed("2026-11-28T15:30:00Z")
+        ms = [self.match()]
+        self.A.attach_book_odds(ms, self.A.Repo(), self.now(), self.D)
+        k = self.D.line_key("Total goals", "Over 2.5")
+        self.assertNotIn("betsson", ms[0]["bookOdds"][k])
+        self.assertEqual(ms[0]["otherBooks"][k], ("betsson", 2.10))
 
     def test_a_stale_feed_is_ignored(self):
         self.feed("2026-11-28T06:00:00Z")           # ten hours old
