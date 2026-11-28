@@ -64,6 +64,22 @@
    "openAt": "2026-11-27T19:46:25Z",
    "start": "2026-11-27T21:00:00Z"
   },
+  "2026-11-28-new-york-islanders-winnipeg-jets|Moneyline_incl_OT_New_York_Islanders": {
+   "close": 0.51955,
+   "closeAt": "2026-11-27T22:46:28Z",
+   "n": 25,
+   "open": 0.5284,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T00:30:00Z"
+  },
+  "2026-11-28-new-york-islanders-winnipeg-jets|Moneyline_incl_OT_Winnipeg_Jets": {
+   "close": 0.48045,
+   "closeAt": "2026-11-27T22:46:28Z",
+   "n": 25,
+   "open": 0.4716,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T00:30:00Z"
+  },
   "m1|Match_result_Away": {
    "close": 0.16552,
    "closeAt": "2026-11-27T21:00:00Z",
@@ -90,9 +106,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T00:16:00Z",
+  "fetchedAt": "2026-11-28T00:42:06Z",
   "keptDays": 45,
-  "lines": 11,
+  "lines": 13,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
