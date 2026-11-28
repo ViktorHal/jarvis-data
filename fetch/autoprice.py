@@ -624,7 +624,7 @@ def drift_update(matches, now, path="auto/drift.json"):
     write_json(path, {"meta": {"fetchedAt": now_iso(), "lines": len(lines),
                                "note": "first and latest de-margined Pinnacle probability per line; "
                                        "drift = last - first"}, "lines": lines})
-    closing_update(lines, now)
+    closing_update(lines, now, path.replace("drift", "closing"))
     return lines
 
 
@@ -678,7 +678,10 @@ def board_lines(markets, cap=30):
     return sorted(sorted(keep, key=worth)[:cap], key=lambda x: -x["prob"])
 
 
-def build(now=None):
+def build(now=None, drift_path="auto/drift.json"):
+    """Price every match in the Pinnacle feed. drift_path (and the closing file beside it) is a parameter so
+    a test can run the whole build against copies: drift.json and closing.json are the stored record, and a
+    test that runs build() on the real paths nudges every live entry's observation counter."""
     now = now or datetime.now(timezone.utc)
     if isinstance(now, str):
         now = datetime.fromisoformat(now.replace("Z", "+00:00"))
@@ -714,7 +717,7 @@ def build(now=None):
         else:
             skipped.append({"event": f'{e["home"]} – {e["away"]}', "league": lg, "start": e["starts"], "reason": why})
     try:
-        drift = drift_update(matches, now)
+        drift = drift_update(matches, now, drift_path)
         for m in matches:
             d = {}
             for k in (m.get("marketOdds") or {}):

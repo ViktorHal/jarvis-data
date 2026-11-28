@@ -34,7 +34,16 @@ class AutoPrice(unittest.TestCase):
         odds = A.load("pinnacle/odds.json")
         if not odds or not odds.get("events"):
             self.skipTest("no odds file")
-        board, payload = A.build(odds["meta"]["fetchedAt"])
+        # Against COPIES of the stored record: build() updates drift.json and closing.json, and running it
+        # here on the real files would add an observation to every live entry on every test run.
+        import shutil
+        copies = "auto/_test_build_drift.json"
+        for src, dst in (("auto/drift.json", copies), ("auto/closing.json", "auto/_test_build_closing.json")):
+            full_src, full_dst = os.path.join(A.DATA, src), os.path.join(A.DATA, dst)
+            if os.path.exists(full_src):
+                shutil.copy2(full_src, full_dst)
+            self.addCleanup(lambda p=full_dst: os.path.exists(p) and os.remove(p))
+        board, payload = A.build(odds["meta"]["fetchedAt"], drift_path=copies)
         self.assertEqual(len(payload["matches"]), board["meta"]["matches"])
         per = {}
         for i, b in enumerate(board["products"]):

@@ -36,6 +36,18 @@ from common import Log, get, now_iso, write_json
 import common
 
 CAP = 450                     # credits a month; the free plan gives 500
+# A request costs [markets] x [regions], whatever the number of events it returns, so one league with one
+# market is one credit and the whole league's card comes back. 1X2 is the market to spend them on:
+# research/where_is_the_edge.json, 125,000 lines over 16 divisions, puts 1X2 at 8.7% closing-line value with
+# 11.5% of lines playable, against 6.5% and 8.0% for over/under 2.5. So the default is h2h alone, and the
+# credits buy LEAGUES instead of a second market - the edge is in the leagues Jarvis cannot see at all.
+#
+# The budget is a day's allowance, not a fixed number of leagues per run: 14 credits a day is 420 a month,
+# inside the cap with room for a run by hand. DAY_BUDGET is cumulative by UTC hour, so what an empty hour
+# does not spend rolls forward to the next one instead of being lost.
+DAY = 14
+DAY_BUDGET = {5: 5, 11: 9, 18: 14}      # by the hour the workflow fetches; see .github/workflows/odds.yml
+MAX_LEAGUES = 10                        # a ceiling per run, so one run can never eat a whole day
 BASE = "https://api.the-odds-api.com/v4"
 REGION = "se"                 # the only region with BetMGM and Svenska Spel
 # The region's exact keys, as the API's own bookmaker list gives them: most Swedish books carry a _se suffix,
@@ -46,6 +58,19 @@ WANT_BOOKS = ("betmgm_se", "svenskaspel_se", "betsson", "nordicbet", "unibet_se"
               "sport888_se", "betinia_se", "campobet_se", "expekt_se", "hajper_se", "atg_se")
 HIS_BOOKS = ("betmgm_se", "svenskaspel_se")     # the only two with an account; Bet365 is in no European region
 # Jarvis' league names (as they appear on the board) -> a word to look for in the API's sport titles
+# Measured closing-line value on 1X2 per division, from research/where_is_the_edge.json (125,000 lines,
+# Pinnacle's closing price as the sharp one, Bet365's as the soft one). It orders the leagues the day's
+# remaining allowance is spent on: Greece and the smaller leagues pay about half again what La Liga does,
+# and that is the whole reason for buying breadth instead of a second market. A league not listed gets 7.0,
+# a shade below the worst measured one. These numbers never touch a probability or a price.
+LEAGUE_CLV = {
+    "Greece - Super League": 12.1, "Netherlands - Eredivisie": 9.6, "Belgium - Pro League": 9.6,
+    "Turkey - Super League": 9.6, "Portugal - Primeira Liga": 9.5, "Scotland - Premiership": 9.1,
+    "Spain - Segunda Division": 8.7, "France - Ligue 1": 8.4, "England - Premier League": 8.3,
+    "Italy - Serie A": 8.1, "Germany - Bundesliga": 7.9, "Germany - Bundesliga 2": 7.9,
+    "France - Ligue 2": 7.9, "England - Championship": 7.7, "Spain - La Liga": 7.6, "Italy - Serie B": 7.6,
+}
+
 LEAGUE_HINT = {
     "England - Premier League": "epl", "England - Championship": "championship",
     "Spain - La Liga": "la liga", "Italy - Serie A": "serie a", "Germany - Bundesliga": "bundesliga",
@@ -77,16 +102,37 @@ def load_usage():
         return {}
 
 
-def take_credits(usage, month, n):
-    """Reserve n credits for `month` if that stays under CAP; persist immediately. True if allowed."""
+def take_credits(usage, month, n, day=None):
+    """Reserve n credits if that stays under CAP; persist immediately. True if allowed.
+
+    Written BEFORE the request, so a crash costs credits rather than hiding them. The day counter is what
+    the allowance below reads; the month counter is the hard cap.
+    """
     used = int(usage.get(month, 0))
     if used + n > CAP:
         return False
     usage[month] = used + n
+    if day:
+        usage[day] = int(usage.get(day, 0)) + n
     for m in sorted(k for k in usage if re.fullmatch(r"\d{4}-\d{2}", k))[:-6]:
         usage.pop(m, None)
+    for d in sorted(k for k in usage if re.fullmatch(r"\d{4}-\d{2}-\d{2}", k))[:-45]:
+        usage.pop(d, None)
     write_json("oddsapi/usage.json", usage)
     return True
+
+
+def allowance(usage, now, hour=None):
+    """How many credits this run may spend: its share of the day plus whatever earlier hours left unused."""
+    hour = now.hour if hour is None else hour
+    cum = DAY
+    for h in sorted(DAY_BUDGET):
+        if hour <= h:
+            cum = DAY_BUDGET[h]
+            break
+    left_today = cum - int(usage.get(now.strftime("%Y-%m-%d"), 0))
+    left_month = CAP - int(usage.get(now.strftime("%Y-%m"), 0))
+    return max(0, min(left_today, left_month))
 
 
 def sport_keys(log):
@@ -114,7 +160,15 @@ def leagues_wanted(board, now, hours, market_only=True):
             s = starts.get(mid) or p.get("start")
             if mid and s and s <= horizon and lg.get(mid) and lg[mid] not in out:
                 out.append(lg[mid])
-    return out
+    # Then every other league with a match in the window, the busiest first, to fill the day's remaining
+    # allowance: a league Jarvis has no price for is a league it cannot find a bet in at all, and the measured
+    # edge is largest exactly in the leagues it would otherwise never ask about (where_is_the_edge.json).
+    rest = {}
+    for m in board.get("matches") or []:
+        s2, l2 = m.get("start"), m.get("league")
+        if l2 and l2 not in out and s2 and s2 <= horizon:
+            rest[l2] = rest.get(l2, 0) + 1
+    return out + [l for l, _ in sorted(rest.items(), key=lambda kv: (-LEAGUE_CLV.get(kv[0], 7.0), -kv[1]))]
 
 
 def match_key(league, sports):
@@ -161,7 +215,7 @@ def parse_event(ev):
     return out if out["books"] else None
 
 
-def run(log: Log, now=None, markets="totals", hours=10, max_keys=3, all_leagues=False):
+def run(log: Log, now=None, markets="h2h", hours=10, max_keys=None, all_leagues=False):
     if not os.environ.get("ODDSAPI_KEY"):
         log.fail("oddsapi", "the-odds-api.com", "no ODDSAPI_KEY secret; set it and this runs by itself")
         return
@@ -173,6 +227,12 @@ def run(log: Log, now=None, markets="totals", hours=10, max_keys=3, all_leagues=
     except (OSError, ValueError) as e:
         log.fail("oddsapi", "data/auto/board.json", f"no board to aim at: {e}")
         return
+    per = len(markets.split(","))
+    budget = allowance(usage, now)
+    room = min(MAX_LEAGUES, budget // per) if max_keys is None else max_keys
+    if room < 1:
+        log.ok("oddsapi", BASE, 0, f"no credits left in today's allowance ({budget} of {DAY}); nothing fetched")
+        return
     sports = sport_keys(log)
     if not sports:
         return
@@ -183,7 +243,7 @@ def run(log: Log, now=None, markets="totals", hours=10, max_keys=3, all_leagues=
         if k and k not in seen:
             seen.add(k)
             keys.append((lg, k))
-        if len(keys) >= max_keys:
+        if len(keys) >= room:
             break
     if not keys:
         log.ok("oddsapi", BASE, 0, f"nothing to price in the next {hours} h")
@@ -192,10 +252,9 @@ def run(log: Log, now=None, markets="totals", hours=10, max_keys=3, all_leagues=
                                                   "note": "no market-priced product inside the window"},
                                          "events": []})
         return
-    per = len(markets.split(","))
     events, calls, remaining, seen = [], [], None, set()
     for lg, k in keys:
-        if not take_credits(usage, month, per):
+        if not take_credits(usage, month, per, now.strftime("%Y-%m-%d")):
             log.fail("oddsapi", f"{BASE}/sports/{k}/odds", f"monthly cap {CAP} reached; no request made")
             break
         url = f"{BASE}/sports/{k}/odds/?regions={REGION}&markets={markets}&oddsFormat=decimal"
@@ -223,6 +282,8 @@ def run(log: Log, now=None, markets="totals", hours=10, max_keys=3, all_leagues=
     write_json("oddsapi/odds.json", {
         "meta": {"fetchedAt": now_iso(), "events": len(events), "region": REGION, "markets": markets,
                  "keys": [k for _, k in keys], "calls": calls, "creditsThisMonth": usage.get(month, 0),
+                 "creditsToday": usage.get(now.strftime("%Y-%m-%d"), 0), "allowanceThisRun": budget,
+                 "leaguesAsked": len(keys), "leaguesWanted": len(want), "day": DAY,
                  "cap": CAP, "books": list(WANT_BOOKS), "booksSeen": sorted(seen),
                  "booksDropped": sorted(b for b in seen if b not in WANT_BOOKS),
                  "hisBooks": [b for b in HIS_BOOKS if b in seen],

@@ -118,11 +118,79 @@ class Aiming(unittest.TestCase):
                              {"matchId": "m2", "line": {"anchored": True}, "start": late},
                              {"matchId": "m3", "line": {"prob": 80}, "start": soon}]}
 
-    def test_only_market_priced_products_inside_the_window(self):
+    def test_market_priced_products_first_then_the_rest_of_the_window(self):
         now = datetime.now(timezone.utc)
         got = O.leagues_wanted(self.board(), now, hours=10)
-        self.assertEqual(got, ["England - Premier League"])          # m2 too late, m3 priced by the model
+        # The Premier League has a market-priced product, so it is asked for first. The Championship match
+        # has only a model-priced product, but a league with no price at all is a league Jarvis cannot find
+        # a bet in, so it fills the day's remaining allowance. Serie A starts outside the window.
+        self.assertEqual(got, ["England - Premier League", "England - Championship"])
         self.assertIn("Italy - Serie A", O.leagues_wanted(self.board(), now, hours=40))
+
+    def test_the_fill_is_ordered_by_measured_edge_not_by_match_count(self):
+        soon = (datetime.now(timezone.utc) + timedelta(hours=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        board = {"products": [], "matches": [
+            {"id": "a", "league": "Spain - La Liga", "start": soon},        # 7.6, three matches
+            {"id": "b", "league": "Spain - La Liga", "start": soon},
+            {"id": "c", "league": "Spain - La Liga", "start": soon},
+            {"id": "d", "league": "Greece - Super League", "start": soon},  # 12.1, one match
+            {"id": "e", "league": "Mars - Division 2", "start": soon}]}     # unmeasured, one match
+        got = O.leagues_wanted(board, datetime.now(timezone.utc), hours=10)
+        self.assertEqual(got[:2], ["Greece - Super League", "Spain - La Liga"])
+        self.assertEqual(got[-1], "Mars - Division 2")      # an unlisted league sits below every measured one
+
+
+class DayAllowance(unittest.TestCase):
+    """A day's allowance, with what an empty hour does not spend rolling forward.
+
+    Not named Budget: a second class of that name would shadow the cap tests above and they would stop
+    running without a word, which is how a cap quietly stops being a cap.
+    """
+
+    def setUp(self):
+        self.path = os.path.join(common.DATA, "oddsapi", "usage.json")
+        self.saved = open(self.path).read() if os.path.exists(self.path) else None
+
+    def tearDown(self):
+        if self.saved is None:
+            if os.path.exists(self.path):
+                os.remove(self.path)
+        else:
+            open(self.path, "w").write(self.saved)
+
+    def test_the_three_hours_share_fourteen_credits_a_day(self):
+        u, spent = {}, 0
+        for h in sorted(O.DAY_BUDGET):
+            n = datetime(2026, 11, 29, h, tzinfo=timezone.utc)
+            a = O.allowance(u, n)
+            self.assertGreater(a, 0)
+            for _ in range(a):
+                self.assertTrue(O.take_credits(u, "2026-11", 1, "2026-11-29"))
+            spent += a
+        self.assertEqual(spent, O.DAY)
+        self.assertEqual(u["2026-11-29"], O.DAY)
+        self.assertLessEqual(O.DAY * 31, O.CAP)             # a full month stays inside the cap
+
+    def test_an_unused_hour_rolls_forward_rather_than_being_lost(self):
+        u = {}
+        first = sorted(O.DAY_BUDGET)[0]
+        self.assertEqual(O.allowance(u, datetime(2026, 11, 29, first, tzinfo=timezone.utc)), O.DAY_BUDGET[first])
+        last = sorted(O.DAY_BUDGET)[-1]                     # nothing spent all day
+        self.assertEqual(O.allowance(u, datetime(2026, 11, 29, last, tzinfo=timezone.utc)), O.DAY)
+
+    def test_the_monthly_cap_still_wins(self):
+        u = {"2026-11": O.CAP - 2}
+        self.assertEqual(O.allowance(u, datetime(2026, 11, 29, 5, tzinfo=timezone.utc)), 2)
+        u = {"2026-11": O.CAP}
+        self.assertEqual(O.allowance(u, datetime(2026, 11, 29, 5, tzinfo=timezone.utc)), 0)
+
+    def test_a_day_counter_is_kept_for_six_weeks_then_dropped(self):
+        u = {f"2026-10-{d:02d}": 1 for d in range(1, 29)} | {f"2026-11-{d:02d}": 1 for d in range(1, 29)}
+        O.take_credits(u, "2026-11", 1, "2026-11-29")
+        days = [k for k in u if len(k) == 10]
+        self.assertEqual(len(days), 45)
+        self.assertIn("2026-11-29", u)
+        self.assertNotIn("2026-10-01", u)
 
     def test_a_run_without_a_key_writes_nothing_and_says_so(self):
         saved = os.environ.pop("ODDSAPI_KEY", None)

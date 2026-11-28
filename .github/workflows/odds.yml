@@ -39,8 +39,13 @@ jobs:
           PINNAPI_KEY: ${{ secrets.PINNAPI_KEY }}
         run: python fetch/run_odds.py
       # His own bookmakers' prices, so he stops checking them by hand (fetch/oddsapi.py). The free plan is 500
-      # credits a MONTH and one request costs markets x regions, so this runs three times a day, two leagues at
-      # a time: 12 credits a day, 360 a month, under the robot's own cap of 450.
+      # credits a MONTH and a request costs markets x regions whatever the number of events it returns, so a
+      # whole league's 1X2 card costs one credit. The credits therefore buy LEAGUES, not markets: 1X2 alone is
+      # worth 8.7% closing-line value against 6.5% for over/under 2.5 (research/where_is_the_edge.json), and a
+      # league Jarvis has no price for is a league it cannot find a bet in at all - which is where the edge was
+      # measured to be largest. fetch/oddsapi.py spends a day's allowance of 14 credits (420 a month, inside
+      # the robot's own cap of 450), split 5/4/5 across the three hours with what an hour does not use rolling
+      # forward, so it asks for about five leagues a run instead of the two it managed before.
       #
       # The five scans run at 07:44, 11:44, 13:44, 17:44 and 20:10 Stockholm = 06:44, 10:44, 12:44, 16:44 and
       # 19:10 UTC, and a book price older than BOOK_MAX_AGE_H (6 h) is ignored. Three fetches cover all five:
@@ -59,7 +64,7 @@ jobs:
           H=$(date -u +%H)
           if [ "${{ inputs.books }}" = "true" ]; then H=force; fi
           case "$H" in
-            05|11|18|force) python fetch/oddsapi.py --max-keys=2 --markets=h2h,totals --hours=10 ;;
+            05|11|18|force) python fetch/oddsapi.py --hours=10 ;;
             *) echo "not a bookmaker-price hour ($H UTC)" ;;
           esac
       - name: price every match (data/auto)
