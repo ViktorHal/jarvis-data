@@ -1000,6 +1000,246 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T12:30:00Z"
   },
+  "2026-11-28-real-betis-rayo-vallecano|Corners_Over_10_5": {
+   "close": 0.47701,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.45168,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Corners_Over_11_5": {
+   "close": 0.36575,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 3,
+   "open": 0.36575,
+   "openAt": "2026-11-28T11:48:29Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Corners_Over_9_5": {
+   "close": 0.58665,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.56178,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Corners_Under_10_5": {
+   "close": 0.52299,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.54832,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Corners_Under_11_5": {
+   "close": 0.63425,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 3,
+   "open": 0.63425,
+   "openAt": "2026-11-28T11:48:29Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Corners_Under_9_5": {
+   "close": 0.41335,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.43822,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Match_result_Draw": {
+   "close": 0.22661,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.22236,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Match_result_Rayo_Vallecano": {
+   "close": 0.17796,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.1853,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Match_result_Real_Betis": {
+   "close": 0.59543,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.59235,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Total_goals_Over_2_5": {
+   "close": 0.59941,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.59876,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Total_goals_Over_3_5": {
+   "close": 0.38601,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.38788,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Total_goals_Under_2_5": {
+   "close": 0.40059,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.40124,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-real-betis-rayo-vallecano|Total_goals_Under_3_5": {
+   "close": 0.61399,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.61212,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Corners_Over_10_5": {
+   "close": 0.41111,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.41112,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Corners_Over_8_5": {
+   "close": 0.63371,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.63384,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Corners_Over_9_5": {
+   "close": 0.52145,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.52114,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Corners_Under_10_5": {
+   "close": 0.58889,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.58888,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Corners_Under_8_5": {
+   "close": 0.36629,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.36616,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Corners_Under_9_5": {
+   "close": 0.47855,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 47,
+   "open": 0.47886,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Match_result_Draw": {
+   "close": 0.26038,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.2603,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Match_result_Genclerbirligi": {
+   "close": 0.23007,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.22877,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Match_result_Samsunspor": {
+   "close": 0.50955,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.51093,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Total_goals_Over_1_5": {
+   "close": 0.76747,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.74958,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Total_goals_Over_2_5": {
+   "close": 0.53519,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.51234,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Total_goals_Over_3_5": {
+   "close": 0.31924,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.30269,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Total_goals_Over_4_5": {
+   "close": 0.16614,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.15704,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Total_goals_Under_1_5": {
+   "close": 0.23253,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.25042,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Total_goals_Under_2_5": {
+   "close": 0.46481,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.48766,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Total_goals_Under_3_5": {
+   "close": 0.68076,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.69731,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
+  "2026-11-28-samsunspor-genclerbirligi|Total_goals_Under_4_5": {
+   "close": 0.83386,
+   "closeAt": "2026-11-28T11:48:29Z",
+   "n": 59,
+   "open": 0.84296,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T13:00:00Z"
+  },
   "m1|Match_result_Away": {
    "close": 0.16552,
    "closeAt": "2026-11-27T21:00:00Z",
@@ -1026,9 +1266,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T13:17:10Z",
+  "fetchedAt": "2026-11-28T13:46:56Z",
   "keptDays": 45,
-  "lines": 128,
+  "lines": 158,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
