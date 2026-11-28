@@ -18610,11 +18610,30 @@
    ],
    "sport": "nhl",
    "start": "2026-11-27T21:00:00Z"
+  },
+  {
+   "away": "Rangers",
+   "awayAbbrev": "NYR",
+   "ended": "REG",
+   "home": "Blackhawks",
+   "homeAbbrev": "CHI",
+   "id": "2026020411",
+   "league": "NHL",
+   "reg": [
+    2,
+    1
+   ],
+   "score": [
+    2,
+    1
+   ],
+   "sport": "nhl",
+   "start": "2026-11-27T22:30:00Z"
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T00:17:05Z",
-  "matches": 106,
+  "fetchedAt": "2026-11-28T01:17:27Z",
+  "matches": 107,
   "note": "settle bets with jarvis/settle.py; football cards = yellow + red as FotMob counts them; goals markets settle on the score after 90 minutes (ended AET/Pen -> needs a manual check)",
   "sources": {
    "fotmob": {
@@ -18623,7 +18642,7 @@
     "pending": 0
    },
    "nhl": {
-    "new": 3,
+    "new": 1,
     "ok": true
    },
    "shl": {
