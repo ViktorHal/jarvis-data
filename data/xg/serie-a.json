@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T10:32:19Z",
+  "fetchedAt": "2026-11-28T13:19:02Z",
   "league": "Serie A",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
@@ -103,25 +103,25 @@
   "Bologna": {
    "all": {
     "ga": 15.0,
-    "ga_pg": 1.25,
+    "ga_pg": 1.154,
     "goals": 17.0,
-    "goals_pg": 1.417,
-    "played": 12,
-    "xg": 20.5,
-    "xg_pg": 1.708,
-    "xga": 14.8,
-    "xga_pg": 1.233
+    "goals_pg": 1.308,
+    "played": 13,
+    "xg": 21.6,
+    "xg_pg": 1.662,
+    "xga": 16.1,
+    "xga_pg": 1.238
    },
    "away": {
     "ga": 6.0,
-    "ga_pg": 1.0,
+    "ga_pg": 0.857,
     "goals": 10.0,
-    "goals_pg": 1.667,
-    "played": 6,
-    "xg": 9.1,
-    "xg_pg": 1.517,
-    "xga": 6.0,
-    "xga_pg": 1.0
+    "goals_pg": 1.429,
+    "played": 7,
+    "xg": 10.1,
+    "xg_pg": 1.443,
+    "xga": 7.3,
+    "xga_pg": 1.043
    },
    "home": {
     "ga": 9.0,
@@ -137,13 +137,13 @@
    "last5": {
     "ga": 5.0,
     "ga_pg": 1.0,
-    "goals": 11.0,
-    "goals_pg": 2.2,
+    "goals": 9.0,
+    "goals_pg": 1.8,
     "played": 5,
-    "xg": 11.0,
-    "xg_pg": 2.2,
-    "xga": 6.4,
-    "xga_pg": 1.28
+    "xg": 10.6,
+    "xg_pg": 2.12,
+    "xga": 7.0,
+    "xga_pg": 1.4
    }
   },
   "Cagliari": {
@@ -885,14 +885,14 @@
   "Venezia": {
    "all": {
     "ga": 25.0,
-    "ga_pg": 2.083,
+    "ga_pg": 1.923,
     "goals": 8.0,
-    "goals_pg": 0.667,
-    "played": 12,
-    "xg": 16.7,
-    "xg_pg": 1.392,
-    "xga": 22.5,
-    "xga_pg": 1.875
+    "goals_pg": 0.615,
+    "played": 13,
+    "xg": 18.0,
+    "xg_pg": 1.385,
+    "xga": 23.6,
+    "xga_pg": 1.815
    },
    "away": {
     "ga": 14.0,
@@ -907,25 +907,25 @@
    },
    "home": {
     "ga": 11.0,
-    "ga_pg": 1.833,
+    "ga_pg": 1.571,
     "goals": 5.0,
-    "goals_pg": 0.833,
-    "played": 6,
-    "xg": 8.4,
-    "xg_pg": 1.4,
-    "xga": 12.5,
-    "xga_pg": 2.083
+    "goals_pg": 0.714,
+    "played": 7,
+    "xg": 9.6,
+    "xg_pg": 1.371,
+    "xga": 13.5,
+    "xga_pg": 1.929
    },
    "last5": {
-    "ga": 9.0,
-    "ga_pg": 1.8,
+    "ga": 8.0,
+    "ga_pg": 1.6,
     "goals": 2.0,
     "goals_pg": 0.4,
     "played": 5,
-    "xg": 5.5,
-    "xg_pg": 1.1,
-    "xga": 7.4,
-    "xga_pg": 1.48
+    "xg": 5.0,
+    "xg_pg": 1.0,
+    "xga": 8.1,
+    "xga_pg": 1.62
    }
   }
  }

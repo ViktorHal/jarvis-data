@@ -1,11 +1,11 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T10:32:14Z",
+  "fetchedAt": "2026-11-28T13:18:56Z",
   "league": "Championship",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
   "source": "https://statz.ai/competitions/championship/xg",
-  "updatedText": "Updated 27 November 2026, after the last game"
+  "updatedText": "Updated 28 November 2026, after the last game"
  },
  "teams": {
   "Birmingham City": {
@@ -424,26 +424,26 @@
   },
   "Middlesbrough": {
    "all": {
-    "ga": 20.0,
-    "ga_pg": 1.176,
+    "ga": 22.0,
+    "ga_pg": 1.222,
     "goals": 34.0,
-    "goals_pg": 2.0,
-    "played": 17,
-    "xg": 33.1,
-    "xg_pg": 1.947,
-    "xga": 16.2,
-    "xga_pg": 0.953
+    "goals_pg": 1.889,
+    "played": 18,
+    "xg": 34.5,
+    "xg_pg": 1.917,
+    "xga": 17.5,
+    "xga_pg": 0.972
    },
    "away": {
-    "ga": 10.0,
-    "ga_pg": 1.25,
+    "ga": 12.0,
+    "ga_pg": 1.333,
     "goals": 13.0,
-    "goals_pg": 1.625,
-    "played": 8,
-    "xg": 15.3,
-    "xg_pg": 1.913,
-    "xga": 7.8,
-    "xga_pg": 0.975
+    "goals_pg": 1.444,
+    "played": 9,
+    "xg": 16.8,
+    "xg_pg": 1.867,
+    "xga": 9.0,
+    "xga_pg": 1.0
    },
    "home": {
     "ga": 10.0,
@@ -457,15 +457,15 @@
     "xga_pg": 0.944
    },
    "last5": {
-    "ga": 3.0,
-    "ga_pg": 0.6,
-    "goals": 7.0,
-    "goals_pg": 1.4,
+    "ga": 5.0,
+    "ga_pg": 1.0,
+    "goals": 4.0,
+    "goals_pg": 0.8,
     "played": 5,
     "xg": 7.9,
     "xg_pg": 1.58,
-    "xga": 3.4,
-    "xga_pg": 0.68
+    "xga": 4.1,
+    "xga_pg": 0.82
    }
   },
   "Millwall": {
@@ -747,14 +747,14 @@
   "Southampton": {
    "all": {
     "ga": 16.0,
-    "ga_pg": 0.941,
-    "goals": 32.0,
-    "goals_pg": 1.882,
-    "played": 17,
-    "xg": 30.1,
-    "xg_pg": 1.771,
-    "xga": 25.4,
-    "xga_pg": 1.494
+    "ga_pg": 0.889,
+    "goals": 34.0,
+    "goals_pg": 1.889,
+    "played": 18,
+    "xg": 31.3,
+    "xg_pg": 1.739,
+    "xga": 26.8,
+    "xga_pg": 1.489
    },
    "away": {
     "ga": 11.0,
@@ -769,25 +769,25 @@
    },
    "home": {
     "ga": 5.0,
-    "ga_pg": 0.625,
-    "goals": 22.0,
-    "goals_pg": 2.75,
-    "played": 8,
-    "xg": 17.0,
-    "xg_pg": 2.125,
-    "xga": 10.5,
-    "xga_pg": 1.312
+    "ga_pg": 0.556,
+    "goals": 24.0,
+    "goals_pg": 2.667,
+    "played": 9,
+    "xg": 18.3,
+    "xg_pg": 2.033,
+    "xga": 12.0,
+    "xga_pg": 1.333
    },
    "last5": {
-    "ga": 4.0,
-    "ga_pg": 0.8,
-    "goals": 8.0,
-    "goals_pg": 1.6,
+    "ga": 3.0,
+    "ga_pg": 0.6,
+    "goals": 6.0,
+    "goals_pg": 1.2,
     "played": 5,
-    "xg": 8.8,
-    "xg_pg": 1.76,
-    "xga": 7.2,
-    "xga_pg": 1.44
+    "xg": 8.5,
+    "xg_pg": 1.7,
+    "xga": 7.5,
+    "xga_pg": 1.5
    }
   },
   "Stoke City": {

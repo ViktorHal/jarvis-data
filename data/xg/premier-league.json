@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T10:32:11Z",
+  "fetchedAt": "2026-11-28T13:18:53Z",
   "league": "Premier League",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
@@ -240,26 +240,26 @@
   },
   "Chelsea": {
    "all": {
-    "ga": 20.0,
-    "ga_pg": 1.818,
-    "goals": 20.0,
-    "goals_pg": 1.818,
-    "played": 11,
-    "xg": 14.6,
-    "xg_pg": 1.327,
-    "xga": 17.2,
-    "xga_pg": 1.564
+    "ga": 23.0,
+    "ga_pg": 1.917,
+    "goals": 22.0,
+    "goals_pg": 1.833,
+    "played": 12,
+    "xg": 15.5,
+    "xg_pg": 1.292,
+    "xga": 18.8,
+    "xga_pg": 1.567
    },
    "away": {
-    "ga": 8.0,
-    "ga_pg": 1.6,
-    "goals": 6.0,
-    "goals_pg": 1.2,
-    "played": 5,
-    "xg": 5.4,
-    "xg_pg": 1.08,
-    "xga": 8.7,
-    "xga_pg": 1.74
+    "ga": 11.0,
+    "ga_pg": 1.833,
+    "goals": 8.0,
+    "goals_pg": 1.333,
+    "played": 6,
+    "xg": 6.3,
+    "xg_pg": 1.05,
+    "xga": 10.3,
+    "xga_pg": 1.717
    },
    "home": {
     "ga": 12.0,
@@ -273,15 +273,15 @@
     "xga_pg": 1.417
    },
    "last5": {
-    "ga": 7.0,
-    "ga_pg": 1.4,
+    "ga": 10.0,
+    "ga_pg": 2.0,
     "goals": 5.0,
     "goals_pg": 1.0,
     "played": 5,
-    "xg": 5.8,
-    "xg_pg": 1.16,
-    "xga": 7.6,
-    "xga_pg": 1.52
+    "xg": 5.3,
+    "xg_pg": 1.06,
+    "xga": 8.7,
+    "xga_pg": 1.74
    }
   },
   "Coventry City": {
@@ -792,15 +792,15 @@
   },
   "Nottingham Forest": {
    "all": {
-    "ga": 15.0,
-    "ga_pg": 1.364,
-    "goals": 9.0,
-    "goals_pg": 0.818,
-    "played": 11,
-    "xg": 17.8,
-    "xg_pg": 1.618,
-    "xga": 14.8,
-    "xga_pg": 1.345
+    "ga": 17.0,
+    "ga_pg": 1.417,
+    "goals": 12.0,
+    "goals_pg": 1.0,
+    "played": 12,
+    "xg": 19.4,
+    "xg_pg": 1.617,
+    "xga": 15.7,
+    "xga_pg": 1.308
    },
    "away": {
     "ga": 11.0,
@@ -814,26 +814,26 @@
     "xga_pg": 1.567
    },
    "home": {
-    "ga": 4.0,
-    "ga_pg": 0.8,
-    "goals": 3.0,
-    "goals_pg": 0.6,
-    "played": 5,
-    "xg": 4.9,
-    "xg_pg": 0.98,
-    "xga": 5.4,
-    "xga_pg": 1.08
+    "ga": 6.0,
+    "ga_pg": 1.0,
+    "goals": 6.0,
+    "goals_pg": 1.0,
+    "played": 6,
+    "xg": 6.5,
+    "xg_pg": 1.083,
+    "xga": 6.3,
+    "xga_pg": 1.05
    },
    "last5": {
-    "ga": 7.0,
-    "ga_pg": 1.4,
-    "goals": 4.0,
-    "goals_pg": 0.8,
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 7.0,
+    "goals_pg": 1.4,
     "played": 5,
-    "xg": 7.7,
-    "xg_pg": 1.54,
-    "xga": 7.1,
-    "xga_pg": 1.42
+    "xg": 8.3,
+    "xg_pg": 1.66,
+    "xga": 6.7,
+    "xga_pg": 1.34
    }
   },
   "Sunderland": {

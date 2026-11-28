@@ -1,11 +1,11 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T10:32:17Z",
+  "fetchedAt": "2026-11-28T13:18:58Z",
   "league": "La Liga",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
   "source": "https://statz.ai/competitions/la-liga/xg",
-  "updatedText": "Updated 27 November 2026, after the last game"
+  "updatedText": "Updated 28 November 2026, after the last game"
  },
  "teams": {
   "Athletic Club": {
@@ -424,15 +424,15 @@
   },
   "Levante": {
    "all": {
-    "ga": 22.0,
-    "ga_pg": 1.692,
-    "goals": 17.0,
-    "goals_pg": 1.308,
-    "played": 13,
-    "xg": 15.7,
-    "xg_pg": 1.208,
-    "xga": 24.0,
-    "xga_pg": 1.846
+    "ga": 25.0,
+    "ga_pg": 1.786,
+    "goals": 18.0,
+    "goals_pg": 1.286,
+    "played": 14,
+    "xg": 17.5,
+    "xg_pg": 1.25,
+    "xga": 25.1,
+    "xga_pg": 1.793
    },
    "away": {
     "ga": 9.0,
@@ -446,26 +446,26 @@
     "xga_pg": 1.929
    },
    "home": {
-    "ga": 13.0,
-    "ga_pg": 2.167,
-    "goals": 14.0,
-    "goals_pg": 2.333,
-    "played": 6,
-    "xg": 11.3,
-    "xg_pg": 1.883,
-    "xga": 10.6,
-    "xga_pg": 1.767
+    "ga": 16.0,
+    "ga_pg": 2.286,
+    "goals": 15.0,
+    "goals_pg": 2.143,
+    "played": 7,
+    "xg": 13.1,
+    "xg_pg": 1.871,
+    "xga": 11.6,
+    "xga_pg": 1.657
    },
    "last5": {
-    "ga": 6.0,
-    "ga_pg": 1.2,
-    "goals": 5.0,
-    "goals_pg": 1.0,
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 3.0,
+    "goals_pg": 0.6,
     "played": 5,
-    "xg": 5.9,
-    "xg_pg": 1.18,
-    "xga": 8.1,
-    "xga_pg": 1.62
+    "xg": 6.0,
+    "xg_pg": 1.2,
+    "xga": 6.7,
+    "xga_pg": 1.34
    }
   },
   "Málaga": {
@@ -562,26 +562,26 @@
   },
   "Racing Santander": {
    "all": {
-    "ga": 32.0,
-    "ga_pg": 2.462,
-    "goals": 20.0,
-    "goals_pg": 1.538,
-    "played": 13,
-    "xg": 18.9,
-    "xg_pg": 1.454,
-    "xga": 29.9,
-    "xga_pg": 2.3
+    "ga": 33.0,
+    "ga_pg": 2.357,
+    "goals": 23.0,
+    "goals_pg": 1.643,
+    "played": 14,
+    "xg": 19.9,
+    "xg_pg": 1.421,
+    "xga": 31.7,
+    "xga_pg": 2.264
    },
    "away": {
-    "ga": 19.0,
-    "ga_pg": 3.167,
-    "goals": 6.0,
-    "goals_pg": 1.0,
-    "played": 6,
-    "xg": 6.2,
-    "xg_pg": 1.033,
-    "xga": 17.1,
-    "xga_pg": 2.85
+    "ga": 20.0,
+    "ga_pg": 2.857,
+    "goals": 9.0,
+    "goals_pg": 1.286,
+    "played": 7,
+    "xg": 7.2,
+    "xg_pg": 1.029,
+    "xga": 18.9,
+    "xga_pg": 2.7
    },
    "home": {
     "ga": 13.0,
@@ -595,15 +595,15 @@
     "xga_pg": 1.829
    },
    "last5": {
-    "ga": 9.0,
-    "ga_pg": 1.8,
-    "goals": 7.0,
-    "goals_pg": 1.4,
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 10.0,
+    "goals_pg": 2.0,
     "played": 5,
-    "xg": 8.3,
-    "xg_pg": 1.66,
-    "xga": 12.9,
-    "xga_pg": 2.58
+    "xg": 9.0,
+    "xg_pg": 1.8,
+    "xga": 10.6,
+    "xga_pg": 2.12
    }
   },
   "Rayo Vallecano": {

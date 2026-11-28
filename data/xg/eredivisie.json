@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T10:32:28Z",
+  "fetchedAt": "2026-11-28T13:19:11Z",
   "league": "Eredivisie",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
@@ -194,15 +194,15 @@
   },
   "FC Groningen": {
    "all": {
-    "ga": 31.0,
-    "ga_pg": 2.385,
-    "goals": 30.0,
-    "goals_pg": 2.308,
-    "played": 13,
-    "xg": 21.5,
-    "xg_pg": 1.654,
-    "xga": 26.0,
-    "xga_pg": 2.0
+    "ga": 32.0,
+    "ga_pg": 2.286,
+    "goals": 31.0,
+    "goals_pg": 2.214,
+    "played": 14,
+    "xg": 24.1,
+    "xg_pg": 1.721,
+    "xga": 26.6,
+    "xga_pg": 1.9
    },
    "away": {
     "ga": 14.0,
@@ -216,26 +216,26 @@
     "xga_pg": 2.533
    },
    "home": {
-    "ga": 17.0,
-    "ga_pg": 2.429,
-    "goals": 14.0,
-    "goals_pg": 2.0,
-    "played": 7,
-    "xg": 13.0,
-    "xg_pg": 1.857,
-    "xga": 10.8,
-    "xga_pg": 1.543
+    "ga": 18.0,
+    "ga_pg": 2.25,
+    "goals": 15.0,
+    "goals_pg": 1.875,
+    "played": 8,
+    "xg": 15.5,
+    "xg_pg": 1.938,
+    "xga": 11.5,
+    "xga_pg": 1.438
    },
    "last5": {
-    "ga": 17.0,
-    "ga_pg": 3.4,
-    "goals": 10.0,
-    "goals_pg": 2.0,
+    "ga": 13.0,
+    "ga_pg": 2.6,
+    "goals": 9.0,
+    "goals_pg": 1.8,
     "played": 5,
-    "xg": 8.5,
-    "xg_pg": 1.7,
-    "xga": 11.0,
-    "xga_pg": 2.2
+    "xg": 8.9,
+    "xg_pg": 1.78,
+    "xga": 8.4,
+    "xga_pg": 1.68
    }
   },
   "FC Twente": {
@@ -792,26 +792,26 @@
   },
   "Willem II": {
    "all": {
-    "ga": 42.0,
-    "ga_pg": 3.231,
-    "goals": 12.0,
-    "goals_pg": 0.923,
-    "played": 13,
-    "xg": 15.6,
-    "xg_pg": 1.2,
-    "xga": 28.1,
-    "xga_pg": 2.162
+    "ga": 43.0,
+    "ga_pg": 3.071,
+    "goals": 13.0,
+    "goals_pg": 0.929,
+    "played": 14,
+    "xg": 16.2,
+    "xg_pg": 1.157,
+    "xga": 30.7,
+    "xga_pg": 2.193
    },
    "away": {
-    "ga": 25.0,
-    "ga_pg": 3.571,
-    "goals": 7.0,
+    "ga": 26.0,
+    "ga_pg": 3.25,
+    "goals": 8.0,
     "goals_pg": 1.0,
-    "played": 7,
-    "xg": 7.4,
-    "xg_pg": 1.057,
-    "xga": 18.0,
-    "xga_pg": 2.571
+    "played": 8,
+    "xg": 8.1,
+    "xg_pg": 1.012,
+    "xga": 20.6,
+    "xga_pg": 2.575
    },
    "home": {
     "ga": 17.0,
@@ -825,15 +825,15 @@
     "xga_pg": 1.683
    },
    "last5": {
-    "ga": 19.0,
-    "ga_pg": 3.8,
-    "goals": 5.0,
-    "goals_pg": 1.0,
+    "ga": 17.0,
+    "ga_pg": 3.4,
+    "goals": 4.0,
+    "goals_pg": 0.8,
     "played": 5,
-    "xg": 5.2,
-    "xg_pg": 1.04,
-    "xga": 10.9,
-    "xga_pg": 2.18
+    "xg": 4.1,
+    "xg_pg": 0.82,
+    "xga": 10.3,
+    "xga_pg": 2.06
    }
   }
  }

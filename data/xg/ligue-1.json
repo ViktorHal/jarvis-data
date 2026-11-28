@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T10:32:25Z",
+  "fetchedAt": "2026-11-28T13:19:08Z",
   "league": "Ligue 1",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
@@ -103,14 +103,14 @@
   "Brest": {
    "all": {
     "ga": 12.0,
-    "ga_pg": 1.091,
-    "goals": 19.0,
-    "goals_pg": 1.727,
-    "played": 11,
-    "xg": 19.7,
-    "xg_pg": 1.791,
-    "xga": 14.6,
-    "xga_pg": 1.327
+    "ga_pg": 1.0,
+    "goals": 20.0,
+    "goals_pg": 1.667,
+    "played": 12,
+    "xg": 21.3,
+    "xg_pg": 1.775,
+    "xga": 16.4,
+    "xga_pg": 1.367
    },
    "away": {
     "ga": 6.0,
@@ -125,25 +125,25 @@
    },
    "home": {
     "ga": 6.0,
-    "ga_pg": 1.2,
-    "goals": 10.0,
-    "goals_pg": 2.0,
-    "played": 5,
-    "xg": 10.6,
-    "xg_pg": 2.12,
-    "xga": 4.6,
-    "xga_pg": 0.92
+    "ga_pg": 1.0,
+    "goals": 11.0,
+    "goals_pg": 1.833,
+    "played": 6,
+    "xg": 12.1,
+    "xg_pg": 2.017,
+    "xga": 6.4,
+    "xga_pg": 1.067
    },
    "last5": {
-    "ga": 3.0,
-    "ga_pg": 0.6,
+    "ga": 2.0,
+    "ga_pg": 0.4,
     "goals": 7.0,
     "goals_pg": 1.4,
     "played": 5,
-    "xg": 6.5,
-    "xg_pg": 1.3,
-    "xga": 7.6,
-    "xga_pg": 1.52
+    "xg": 7.5,
+    "xg_pg": 1.5,
+    "xga": 7.3,
+    "xga_pg": 1.46
    }
   },
   "LOSC Lille": {
@@ -562,26 +562,26 @@
   },
   "Paris": {
    "all": {
-    "ga": 10.0,
-    "ga_pg": 0.909,
+    "ga": 11.0,
+    "ga_pg": 0.917,
     "goals": 21.0,
-    "goals_pg": 1.909,
-    "played": 11,
-    "xg": 19.1,
-    "xg_pg": 1.736,
-    "xga": 11.2,
-    "xga_pg": 1.018
+    "goals_pg": 1.75,
+    "played": 12,
+    "xg": 20.9,
+    "xg_pg": 1.742,
+    "xga": 12.7,
+    "xga_pg": 1.058
    },
    "away": {
-    "ga": 5.0,
+    "ga": 6.0,
     "ga_pg": 1.0,
     "goals": 5.0,
-    "goals_pg": 1.0,
-    "played": 5,
-    "xg": 6.3,
-    "xg_pg": 1.26,
-    "xga": 4.4,
-    "xga_pg": 0.88
+    "goals_pg": 0.833,
+    "played": 6,
+    "xg": 8.1,
+    "xg_pg": 1.35,
+    "xga": 5.9,
+    "xga_pg": 0.983
    },
    "home": {
     "ga": 5.0,
@@ -595,15 +595,15 @@
     "xga_pg": 1.133
    },
    "last5": {
-    "ga": 6.0,
-    "ga_pg": 1.2,
-    "goals": 13.0,
-    "goals_pg": 2.6,
+    "ga": 4.0,
+    "ga_pg": 0.8,
+    "goals": 9.0,
+    "goals_pg": 1.8,
     "played": 5,
-    "xg": 9.7,
-    "xg_pg": 1.94,
-    "xga": 6.2,
-    "xga_pg": 1.24
+    "xg": 8.2,
+    "xg_pg": 1.64,
+    "xga": 4.7,
+    "xga_pg": 0.94
    }
   },
   "Paris Saint Germain": {

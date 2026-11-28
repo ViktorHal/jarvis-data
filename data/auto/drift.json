@@ -12562,7 +12562,7 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T13:15:42Z",
+  "fetchedAt": "2026-11-28T13:17:09Z",
   "lines": 1570,
   "note": "first and latest de-margined Pinnacle probability per line; drift = last - first"
  }

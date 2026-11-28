@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T10:32:23Z",
+  "fetchedAt": "2026-11-28T13:19:05Z",
   "league": "Bundesliga",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
@@ -102,26 +102,26 @@
   },
   "Borussia Mönchengladbach": {
    "all": {
-    "ga": 26.0,
-    "ga_pg": 2.6,
-    "goals": 12.0,
-    "goals_pg": 1.2,
-    "played": 10,
-    "xg": 15.3,
-    "xg_pg": 1.53,
-    "xga": 23.0,
+    "ga": 29.0,
+    "ga_pg": 2.636,
+    "goals": 15.0,
+    "goals_pg": 1.364,
+    "played": 11,
+    "xg": 17.7,
+    "xg_pg": 1.609,
+    "xga": 25.3,
     "xga_pg": 2.3
    },
    "away": {
-    "ga": 15.0,
+    "ga": 18.0,
     "ga_pg": 3.0,
-    "goals": 5.0,
-    "goals_pg": 1.0,
-    "played": 5,
-    "xg": 7.1,
-    "xg_pg": 1.42,
-    "xga": 12.7,
-    "xga_pg": 2.54
+    "goals": 8.0,
+    "goals_pg": 1.333,
+    "played": 6,
+    "xg": 9.5,
+    "xg_pg": 1.583,
+    "xga": 14.9,
+    "xga_pg": 2.483
    },
    "home": {
     "ga": 11.0,
@@ -135,15 +135,15 @@
     "xga_pg": 2.08
    },
    "last5": {
-    "ga": 8.0,
-    "ga_pg": 1.6,
-    "goals": 5.0,
-    "goals_pg": 1.0,
+    "ga": 9.0,
+    "ga_pg": 1.8,
+    "goals": 7.0,
+    "goals_pg": 1.4,
     "played": 5,
-    "xg": 6.7,
-    "xg_pg": 1.34,
-    "xga": 8.9,
-    "xga_pg": 1.78
+    "xg": 8.2,
+    "xg_pg": 1.64,
+    "xga": 9.3,
+    "xga_pg": 1.86
    }
   },
   "Eintracht Frankfurt": {
@@ -792,15 +792,15 @@
   },
   "Werder Bremen": {
    "all": {
-    "ga": 15.0,
-    "ga_pg": 1.5,
-    "goals": 21.0,
-    "goals_pg": 2.1,
-    "played": 10,
-    "xg": 16.3,
-    "xg_pg": 1.63,
-    "xga": 15.4,
-    "xga_pg": 1.54
+    "ga": 18.0,
+    "ga_pg": 1.636,
+    "goals": 24.0,
+    "goals_pg": 2.182,
+    "played": 11,
+    "xg": 18.6,
+    "xg_pg": 1.691,
+    "xga": 17.7,
+    "xga_pg": 1.609
    },
    "away": {
     "ga": 10.0,
@@ -814,26 +814,26 @@
     "xga_pg": 1.68
    },
    "home": {
-    "ga": 5.0,
-    "ga_pg": 1.0,
-    "goals": 14.0,
-    "goals_pg": 2.8,
-    "played": 5,
-    "xg": 9.0,
-    "xg_pg": 1.8,
-    "xga": 6.9,
-    "xga_pg": 1.38
+    "ga": 8.0,
+    "ga_pg": 1.333,
+    "goals": 17.0,
+    "goals_pg": 2.833,
+    "played": 6,
+    "xg": 11.3,
+    "xg_pg": 1.883,
+    "xga": 9.3,
+    "xga_pg": 1.55
    },
    "last5": {
-    "ga": 5.0,
-    "ga_pg": 1.0,
-    "goals": 11.0,
-    "goals_pg": 2.2,
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 12.0,
+    "goals_pg": 2.4,
     "played": 5,
-    "xg": 10.4,
-    "xg_pg": 2.08,
-    "xga": 7.0,
-    "xga_pg": 1.4
+    "xg": 10.1,
+    "xg_pg": 2.02,
+    "xga": 8.1,
+    "xga_pg": 1.62
    }
   }
  }

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T10:32:41Z",
+  "fetchedAt": "2026-11-28T13:19:26Z",
   "league": "Belgian Pro League",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
@@ -286,26 +286,26 @@
   },
   "KV Kortrijk": {
    "all": {
-    "ga": 24.0,
+    "ga": 26.0,
     "ga_pg": 2.0,
-    "goals": 4.0,
-    "goals_pg": 0.333,
-    "played": 12,
-    "xg": 13.7,
-    "xg_pg": 1.142,
-    "xga": 22.3,
-    "xga_pg": 1.858
+    "goals": 6.0,
+    "goals_pg": 0.462,
+    "played": 13,
+    "xg": 15.6,
+    "xg_pg": 1.2,
+    "xga": 24.8,
+    "xga_pg": 1.908
    },
    "away": {
-    "ga": 12.0,
+    "ga": 14.0,
     "ga_pg": 2.0,
-    "goals": 1.0,
-    "goals_pg": 0.167,
-    "played": 6,
-    "xg": 6.8,
-    "xg_pg": 1.133,
-    "xga": 13.4,
-    "xga_pg": 2.233
+    "goals": 3.0,
+    "goals_pg": 0.429,
+    "played": 7,
+    "xg": 8.6,
+    "xg_pg": 1.229,
+    "xga": 15.9,
+    "xga_pg": 2.271
    },
    "home": {
     "ga": 12.0,
@@ -319,15 +319,15 @@
     "xga_pg": 1.483
    },
    "last5": {
-    "ga": 9.0,
-    "ga_pg": 1.8,
-    "goals": 2.0,
-    "goals_pg": 0.4,
+    "ga": 8.0,
+    "ga_pg": 1.6,
+    "goals": 4.0,
+    "goals_pg": 0.8,
     "played": 5,
-    "xg": 6.3,
-    "xg_pg": 1.26,
-    "xga": 8.6,
-    "xga_pg": 1.72
+    "xg": 7.4,
+    "xg_pg": 1.48,
+    "xga": 9.5,
+    "xga_pg": 1.9
    }
   },
   "La Louvière": {
@@ -470,15 +470,15 @@
   },
   "OH Leuven": {
    "all": {
-    "ga": 18.0,
-    "ga_pg": 1.5,
-    "goals": 12.0,
-    "goals_pg": 1.0,
-    "played": 12,
-    "xg": 17.0,
-    "xg_pg": 1.417,
-    "xga": 26.2,
-    "xga_pg": 2.183
+    "ga": 20.0,
+    "ga_pg": 1.538,
+    "goals": 14.0,
+    "goals_pg": 1.077,
+    "played": 13,
+    "xg": 19.5,
+    "xg_pg": 1.5,
+    "xga": 28.0,
+    "xga_pg": 2.154
    },
    "away": {
     "ga": 10.0,
@@ -492,26 +492,26 @@
     "xga_pg": 2.667
    },
    "home": {
-    "ga": 8.0,
-    "ga_pg": 1.333,
-    "goals": 8.0,
-    "goals_pg": 1.333,
-    "played": 6,
-    "xg": 9.4,
-    "xg_pg": 1.567,
-    "xga": 10.1,
-    "xga_pg": 1.683
+    "ga": 10.0,
+    "ga_pg": 1.429,
+    "goals": 10.0,
+    "goals_pg": 1.429,
+    "played": 7,
+    "xg": 11.8,
+    "xg_pg": 1.686,
+    "xga": 12.0,
+    "xga_pg": 1.714
    },
    "last5": {
-    "ga": 5.0,
-    "ga_pg": 1.0,
-    "goals": 7.0,
-    "goals_pg": 1.4,
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 8.0,
+    "goals_pg": 1.6,
     "played": 5,
-    "xg": 8.4,
-    "xg_pg": 1.68,
-    "xga": 10.7,
-    "xga_pg": 2.14
+    "xg": 9.0,
+    "xg_pg": 1.8,
+    "xga": 10.9,
+    "xga_pg": 2.18
    }
   },
   "SK Beveren": {

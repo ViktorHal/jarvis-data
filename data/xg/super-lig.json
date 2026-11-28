@@ -1,24 +1,24 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T10:32:36Z",
+  "fetchedAt": "2026-11-28T13:19:20Z",
   "league": "Super Lig",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
   "source": "https://statz.ai/competitions/super-lig/xg",
-  "updatedText": "Updated 27 November 2026, after the last game"
+  "updatedText": "Updated 28 November 2026, after the last game"
  },
  "teams": {
   "Alanyaspor": {
    "all": {
-    "ga": 20.0,
-    "ga_pg": 1.667,
-    "goals": 10.0,
-    "goals_pg": 0.833,
-    "played": 12,
-    "xg": 13.8,
-    "xg_pg": 1.15,
-    "xga": 21.8,
-    "xga_pg": 1.817
+    "ga": 22.0,
+    "ga_pg": 1.692,
+    "goals": 11.0,
+    "goals_pg": 0.846,
+    "played": 13,
+    "xg": 14.3,
+    "xg_pg": 1.1,
+    "xga": 23.8,
+    "xga_pg": 1.831
    },
    "away": {
     "ga": 14.0,
@@ -32,26 +32,26 @@
     "xga_pg": 1.929
    },
    "home": {
-    "ga": 6.0,
-    "ga_pg": 1.2,
-    "goals": 4.0,
-    "goals_pg": 0.8,
-    "played": 5,
-    "xg": 6.8,
-    "xg_pg": 1.36,
-    "xga": 8.3,
-    "xga_pg": 1.66
+    "ga": 8.0,
+    "ga_pg": 1.333,
+    "goals": 5.0,
+    "goals_pg": 0.833,
+    "played": 6,
+    "xg": 7.3,
+    "xg_pg": 1.217,
+    "xga": 10.3,
+    "xga_pg": 1.717
    },
    "last5": {
-    "ga": 14.0,
-    "ga_pg": 2.8,
-    "goals": 2.0,
-    "goals_pg": 0.4,
+    "ga": 13.0,
+    "ga_pg": 2.6,
+    "goals": 3.0,
+    "goals_pg": 0.6,
     "played": 5,
-    "xg": 5.6,
-    "xg_pg": 1.12,
-    "xga": 11.9,
-    "xga_pg": 2.38
+    "xg": 5.4,
+    "xg_pg": 1.08,
+    "xga": 9.7,
+    "xga_pg": 1.94
    }
   },
   "Amed SK": {
@@ -470,26 +470,26 @@
   },
   "Kasımpaşa": {
    "all": {
-    "ga": 12.0,
-    "ga_pg": 1.0,
-    "goals": 19.0,
-    "goals_pg": 1.583,
-    "played": 12,
-    "xg": 15.5,
-    "xg_pg": 1.292,
-    "xga": 14.8,
-    "xga_pg": 1.233
+    "ga": 15.0,
+    "ga_pg": 1.154,
+    "goals": 21.0,
+    "goals_pg": 1.615,
+    "played": 13,
+    "xg": 16.5,
+    "xg_pg": 1.269,
+    "xga": 17.0,
+    "xga_pg": 1.308
    },
    "away": {
-    "ga": 5.0,
-    "ga_pg": 0.833,
-    "goals": 8.0,
-    "goals_pg": 1.333,
-    "played": 6,
-    "xg": 6.5,
-    "xg_pg": 1.083,
-    "xga": 7.6,
-    "xga_pg": 1.267
+    "ga": 8.0,
+    "ga_pg": 1.143,
+    "goals": 10.0,
+    "goals_pg": 1.429,
+    "played": 7,
+    "xg": 7.5,
+    "xg_pg": 1.071,
+    "xga": 9.8,
+    "xga_pg": 1.4
    },
    "home": {
     "ga": 7.0,
@@ -503,15 +503,15 @@
     "xga_pg": 1.2
    },
    "last5": {
-    "ga": 4.0,
-    "ga_pg": 0.8,
-    "goals": 11.0,
-    "goals_pg": 2.2,
+    "ga": 6.0,
+    "ga_pg": 1.2,
+    "goals": 9.0,
+    "goals_pg": 1.8,
     "played": 5,
-    "xg": 7.9,
-    "xg_pg": 1.58,
-    "xga": 5.7,
-    "xga_pg": 1.14
+    "xg": 6.9,
+    "xg_pg": 1.38,
+    "xga": 6.3,
+    "xga_pg": 1.26
    }
   },
   "Kocaelispor": {
@@ -562,26 +562,26 @@
   },
   "Konyaspor": {
    "all": {
-    "ga": 18.0,
-    "ga_pg": 1.5,
-    "goals": 8.0,
-    "goals_pg": 0.667,
-    "played": 12,
-    "xg": 13.2,
-    "xg_pg": 1.1,
-    "xga": 15.4,
-    "xga_pg": 1.283
+    "ga": 19.0,
+    "ga_pg": 1.462,
+    "goals": 10.0,
+    "goals_pg": 0.769,
+    "played": 13,
+    "xg": 15.2,
+    "xg_pg": 1.169,
+    "xga": 15.9,
+    "xga_pg": 1.223
    },
    "away": {
-    "ga": 7.0,
-    "ga_pg": 1.4,
-    "goals": 2.0,
-    "goals_pg": 0.4,
-    "played": 5,
-    "xg": 5.7,
-    "xg_pg": 1.14,
-    "xga": 6.1,
-    "xga_pg": 1.22
+    "ga": 8.0,
+    "ga_pg": 1.333,
+    "goals": 4.0,
+    "goals_pg": 0.667,
+    "played": 6,
+    "xg": 7.7,
+    "xg_pg": 1.283,
+    "xga": 6.6,
+    "xga_pg": 1.1
    },
    "home": {
     "ga": 11.0,
@@ -597,26 +597,26 @@
    "last5": {
     "ga": 10.0,
     "ga_pg": 2.0,
-    "goals": 4.0,
-    "goals_pg": 0.8,
+    "goals": 6.0,
+    "goals_pg": 1.2,
     "played": 5,
-    "xg": 5.5,
-    "xg_pg": 1.1,
-    "xga": 6.9,
-    "xga_pg": 1.38
+    "xg": 7.1,
+    "xg_pg": 1.42,
+    "xga": 6.1,
+    "xga_pg": 1.22
    }
   },
   "Rizespor": {
    "all": {
-    "ga": 16.0,
-    "ga_pg": 1.333,
-    "goals": 15.0,
-    "goals_pg": 1.25,
-    "played": 12,
-    "xg": 19.2,
-    "xg_pg": 1.6,
-    "xga": 14.9,
-    "xga_pg": 1.242
+    "ga": 18.0,
+    "ga_pg": 1.385,
+    "goals": 18.0,
+    "goals_pg": 1.385,
+    "played": 13,
+    "xg": 21.4,
+    "xg_pg": 1.646,
+    "xga": 15.9,
+    "xga_pg": 1.223
    },
    "away": {
     "ga": 5.0,
@@ -630,26 +630,26 @@
     "xga_pg": 1.214
    },
    "home": {
-    "ga": 11.0,
-    "ga_pg": 2.2,
-    "goals": 5.0,
-    "goals_pg": 1.0,
-    "played": 5,
-    "xg": 9.8,
-    "xg_pg": 1.96,
-    "xga": 6.4,
-    "xga_pg": 1.28
+    "ga": 13.0,
+    "ga_pg": 2.167,
+    "goals": 8.0,
+    "goals_pg": 1.333,
+    "played": 6,
+    "xg": 12.0,
+    "xg_pg": 2.0,
+    "xga": 7.4,
+    "xga_pg": 1.233
    },
    "last5": {
     "ga": 7.0,
     "ga_pg": 1.4,
-    "goals": 8.0,
-    "goals_pg": 1.6,
+    "goals": 10.0,
+    "goals_pg": 2.0,
     "played": 5,
-    "xg": 9.9,
-    "xg_pg": 1.98,
-    "xga": 5.7,
-    "xga_pg": 1.14
+    "xg": 11.3,
+    "xg_pg": 2.26,
+    "xga": 5.6,
+    "xga_pg": 1.12
    }
   },
   "Samsunspor": {
