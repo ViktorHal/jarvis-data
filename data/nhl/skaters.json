@@ -1,8 +1,8 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T04:32:58Z",
+  "fetchedAt": "2026-11-28T10:31:59Z",
   "minGames": 5,
-  "rows": 791,
+  "rows": 793,
   "season": "2026-27",
   "source": "https://api.nhle.com/stats/rest/en/skater/summary?limit=100&start=0&cayenneExp=seasonId%3D20262027%20and%20gameTypeId%3D2"
  },
@@ -1143,6 +1143,14 @@
    "team": "FLA",
    "toi_pg_sec": 508.4666
   },
+  "Cole Sillinger": {
+   "gp": 24,
+   "points_pg": 0.41666,
+   "pos": "C",
+   "shots_pg": 1.417,
+   "team": "CBJ",
+   "toi_pg_sec": 944.25
+  },
   "Cole Smith": {
    "gp": 26,
    "points_pg": 0.26923,
@@ -1886,6 +1894,14 @@
    "shots_pg": 1.071,
    "team": "ANA",
    "toi_pg_sec": 673.7142
+  },
+  "Fraser Minten": {
+   "gp": 25,
+   "points_pg": 0.6,
+   "pos": "C",
+   "shots_pg": 2.0,
+   "team": "BOS",
+   "toi_pg_sec": 974.92
   },
   "Freddy Gaudreau": {
    "gp": 23,
@@ -2870,6 +2886,14 @@
    "shots_pg": 1.136,
    "team": "MTL",
    "toi_pg_sec": 1304.7272
+  },
+  "Kailer Yamamoto": {
+   "gp": 18,
+   "points_pg": 0.66666,
+   "pos": "R",
+   "shots_pg": 1.778,
+   "team": "UTA",
+   "toi_pg_sec": 951.6666
   },
   "Kasperi Kapanen": {
    "gp": 28,
@@ -4255,6 +4279,14 @@
    "team": "STL",
    "toi_pg_sec": 1049.125
   },
+  "Pavel Dorofeyev": {
+   "gp": 21,
+   "points_pg": 0.57142,
+   "pos": "R",
+   "shots_pg": 3.048,
+   "team": "NYR",
+   "toi_pg_sec": 1006.3333
+  },
   "Pavel Mintyukov": {
    "gp": 23,
    "points_pg": 0.3913,
@@ -4766,6 +4798,14 @@
    "shots_pg": 1.636,
    "team": "NYR",
    "toi_pg_sec": 835.7272
+  },
+  "Scott Sabourin": {
+   "gp": 9,
+   "points_pg": 0.22222,
+   "pos": "R",
+   "shots_pg": 0.556,
+   "team": "TBL",
+   "toi_pg_sec": 567.8888
   },
   "Sean Couturier": {
    "gp": 28,
@@ -5654,6 +5694,14 @@
    "shots_pg": 0.962,
    "team": "SJS",
    "toi_pg_sec": 634.3076
+  },
+  "Zayne Parekh": {
+   "gp": 27,
+   "points_pg": 0.4074,
+   "pos": "D",
+   "shots_pg": 1.741,
+   "team": "CGY",
+   "toi_pg_sec": 1120.3703
   },
   "Zeev Buium": {
    "gp": 28,
