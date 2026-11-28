@@ -6264,6 +6264,142 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T17:00:00Z"
   },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Corners_Over_10_5": {
+   "close": 0.40743,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 74,
+   "open": 0.38508,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Corners_Over_8_5": {
+   "close": 0.63208,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 74,
+   "open": 0.60983,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Corners_Over_9_5": {
+   "close": 0.52236,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 74,
+   "open": 0.4947,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Corners_Under_10_5": {
+   "close": 0.59257,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 74,
+   "open": 0.61492,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Corners_Under_8_5": {
+   "close": 0.36792,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 74,
+   "open": 0.39017,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Corners_Under_9_5": {
+   "close": 0.47764,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 74,
+   "open": 0.5053,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Match_result_Draw": {
+   "close": 0.27304,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 86,
+   "open": 0.24452,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Match_result_Estrela_da_Amadora": {
+   "close": 0.24232,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 86,
+   "open": 0.19734,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Match_result_Vitoria_Guimaraes": {
+   "close": 0.48464,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 86,
+   "open": 0.55814,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Total_goals_Over_1_5": {
+   "close": 0.76625,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 86,
+   "open": 0.76081,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Total_goals_Over_2_5": {
+   "close": 0.53933,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 86,
+   "open": 0.53157,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Total_goals_Over_3_5": {
+   "close": 0.32322,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 86,
+   "open": 0.3216,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Total_goals_Over_4_5": {
+   "close": 0.16614,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 86,
+   "open": 0.1697,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Total_goals_Under_1_5": {
+   "close": 0.23375,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 86,
+   "open": 0.23919,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Total_goals_Under_2_5": {
+   "close": 0.46067,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 86,
+   "open": 0.46843,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Total_goals_Under_3_5": {
+   "close": 0.67678,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 86,
+   "open": 0.6784,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
+  "2026-11-28-vitoria-guimaraes-estrela-da-amadora|Total_goals_Under_4_5": {
+   "close": 0.83386,
+   "closeAt": "2026-11-28T19:51:35Z",
+   "n": 86,
+   "open": 0.8303,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:30:00Z"
+  },
   "2026-11-28-west-bromwich-albion-bristol-city|Corners_Over_10_5": {
    "close": 0.473,
    "closeAt": "2026-11-28T13:46:56Z",
@@ -6698,9 +6834,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T20:16:19Z",
+  "fetchedAt": "2026-11-28T20:35:51Z",
   "keptDays": 45,
-  "lines": 837,
+  "lines": 854,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }

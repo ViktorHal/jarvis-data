@@ -1,1030 +1,1304 @@
 {
  "events": [
   {
-   "away": "Alverca",
-   "books": {
-    "atg_se": {
-     "totals": {
-      "3.5": {
-       "over": 8.0,
-       "under": 1.05
-      }
-     }
-    },
-    "betmgm_se": {
-     "h2h": {
-      "away": 1.05,
-      "draw": 7.0,
-      "home": 67.0
-     }
-    },
-    "betsson": {
-     "h2h": {
-      "away": 1.0,
-      "draw": 19.0,
-      "home": 51.0
-     },
-     "totals": {
-      "2.5": {
-       "over": 3.4,
-       "under": 1.24
-      }
-     }
-    },
-    "expekt_se": {
-     "h2h": {
-      "away": 1.05,
-      "draw": 7.0,
-      "home": 67.0
-     }
-    },
-    "leovegas_se": {
-     "totals": {
-      "3.5": {
-       "over": 6.25,
-       "under": 1.02
-      }
-     }
-    },
-    "mrgreen_se": {
-     "h2h": {
-      "away": 1.03,
-      "draw": 13.0,
-      "home": 126.0
-     }
-    },
-    "nordicbet": {
-     "h2h": {
-      "away": 1.0,
-      "draw": 19.0,
-      "home": 46.0
-     },
-     "totals": {
-      "2.5": {
-       "over": 3.7,
-       "under": 1.2
-      }
-     }
-    },
-    "sport888_se": {
-     "h2h": {
-      "away": 1.04,
-      "draw": 13.0,
-      "home": 126.0
-     }
-    },
-    "svenskaspel_se": {
-     "totals": {
-      "3.5": {
-       "over": 8.0,
-       "under": 1.05
-      }
-     }
-    },
-    "unibet_se": {
-     "totals": {
-      "3.5": {
-       "over": 10.0,
-       "under": 1.03
-      }
-     }
-    }
-   },
-   "home": "Académico de Viseu",
-   "id": "ee7e0fb3eb049d403134cefaf634c7d5",
-   "league": "Portugal - Primeira Liga",
-   "sportKey": "soccer_portugal_primeira_liga",
-   "start": "2026-11-28T18:04:00Z"
-  },
-  {
-   "away": "CF Estrela",
+   "away": "Montréal Canadiens",
    "books": {
     "atg_se": {
      "h2h": {
-      "away": 3.9,
-      "draw": 3.7,
-      "home": 1.85
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.75,
-       "under": 2.02
-      }
+      "away": 2.6,
+      "draw": 4.3,
+      "home": 2.5
      }
     },
     "betinia_se": {
      "h2h": {
-      "away": 3.67,
-      "draw": 3.5,
-      "home": 1.95
+      "away": 1.83,
+      "home": 1.74
      }
     },
     "betmgm_se": {
      "h2h": {
-      "away": 3.7,
-      "draw": 3.5,
-      "home": 1.79
+      "away": 2.55,
+      "draw": 4.3,
+      "home": 2.48
      }
     },
     "betsson": {
      "h2h": {
-      "away": 3.7,
-      "draw": 3.45,
-      "home": 1.92
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.75,
-       "under": 1.98
-      }
+      "away": 1.91,
+      "home": 1.89
      }
     },
     "campobet_se": {
      "h2h": {
-      "away": 3.67,
-      "draw": 3.5,
-      "home": 1.95
+      "away": 1.83,
+      "home": 1.74
      }
     },
     "expekt_se": {
      "h2h": {
-      "away": 3.7,
-      "draw": 3.5,
-      "home": 1.79
+      "away": 2.5,
+      "draw": 4.2,
+      "home": 2.43
      }
     },
     "hajper_se": {
      "h2h": {
-      "away": 3.7,
-      "draw": 3.6,
-      "home": 1.92
+      "away": 1.88,
+      "home": 1.93
      }
     },
     "leovegas_se": {
      "h2h": {
-      "away": 3.7,
-      "draw": 3.5,
-      "home": 1.79
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.7,
-       "under": 1.97
-      }
-     }
-    },
-    "mrgreen_se": {
-     "h2h": {
-      "away": 3.75,
-      "draw": 3.3,
-      "home": 1.95
+      "away": 2.55,
+      "draw": 4.3,
+      "home": 2.48
      }
     },
     "nordicbet": {
      "h2h": {
-      "away": 3.7,
-      "draw": 3.45,
-      "home": 1.92
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.75,
-       "under": 1.98
-      }
+      "away": 1.91,
+      "home": 1.89
      }
     },
     "sport888_se": {
      "h2h": {
-      "away": 3.75,
-      "draw": 3.3,
-      "home": 1.95
-     }
-    },
-    "svenskaspel_se": {
-     "h2h": {
-      "away": 3.9,
-      "draw": 3.7,
-      "home": 1.85
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.71,
-       "under": 1.97
-      }
-     }
-    },
-    "unibet_se": {
-     "h2h": {
-      "away": 3.7,
-      "draw": 3.5,
-      "home": 1.8
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.71,
-       "under": 1.97
-      }
-     }
-    }
-   },
-   "home": "Vitória SC",
-   "id": "3348c02fd713356ec319779bd5edc561",
-   "league": "Portugal - Primeira Liga",
-   "sportKey": "soccer_portugal_primeira_liga",
-   "start": "2026-11-28T20:30:00Z"
-  },
-  {
-   "away": "Estoril",
-   "books": {
-    "atg_se": {
-     "h2h": {
-      "away": 4.3,
-      "draw": 3.5,
-      "home": 1.82
-     },
-     "totals": {
-      "2.5": {
-       "over": 2.0,
-       "under": 1.76
-      }
-     }
-    },
-    "betinia_se": {
-     "h2h": {
-      "away": 4.25,
-      "draw": 3.75,
-      "home": 1.76
-     }
-    },
-    "betmgm_se": {
-     "h2h": {
-      "away": 4.1,
-      "draw": 3.3,
-      "home": 1.75
-     }
-    },
-    "betsson": {
-     "h2h": {
-      "away": 4.25,
-      "draw": 3.45,
-      "home": 1.78
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.92,
-       "under": 1.82
-      }
-     }
-    },
-    "campobet_se": {
-     "h2h": {
-      "away": 4.25,
-      "draw": 3.75,
-      "home": 1.76
-     }
-    },
-    "expekt_se": {
-     "h2h": {
-      "away": 4.1,
-      "draw": 3.3,
-      "home": 1.75
-     }
-    },
-    "hajper_se": {
-     "h2h": {
-      "away": 4.1,
-      "draw": 3.55,
-      "home": 1.8
-     }
-    },
-    "leovegas_se": {
-     "h2h": {
-      "away": 4.1,
-      "draw": 3.3,
-      "home": 1.75
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.94,
-       "under": 1.72
-      }
-     }
-    },
-    "mrgreen_se": {
-     "h2h": {
-      "away": 4.0,
-      "draw": 3.4,
-      "home": 1.85
-     }
-    },
-    "nordicbet": {
-     "h2h": {
-      "away": 4.25,
-      "draw": 3.45,
-      "home": 1.78
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.92,
-       "under": 1.82
-      }
-     }
-    },
-    "sport888_se": {
-     "h2h": {
-      "away": 4.0,
-      "draw": 3.4,
-      "home": 1.85
-     }
-    },
-    "svenskaspel_se": {
-     "h2h": {
-      "away": 4.3,
-      "draw": 3.5,
-      "home": 1.82
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.95,
-       "under": 1.73
-      }
-     }
-    },
-    "unibet_se": {
-     "h2h": {
-      "away": 4.1,
-      "draw": 3.35,
-      "home": 1.76
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.95,
-       "under": 1.73
-      }
-     }
-    }
-   },
-   "home": "Gil Vicente",
-   "id": "588984eaf08b356b49055b534cef52e6",
-   "league": "Portugal - Primeira Liga",
-   "sportKey": "soccer_portugal_primeira_liga",
-   "start": "2026-11-29T18:00:00Z"
-  },
-  {
-   "away": "Sporting Lisbon",
-   "books": {
-    "atg_se": {
-     "h2h": {
-      "away": 4.25,
-      "draw": 3.55,
-      "home": 1.85
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.93,
-       "under": 1.83
-      }
-     }
-    },
-    "betinia_se": {
-     "h2h": {
-      "away": 3.67,
-      "draw": 3.6,
-      "home": 1.92
-     }
-    },
-    "betmgm_se": {
-     "h2h": {
-      "away": 3.95,
-      "draw": 3.3,
-      "home": 1.78
-     }
-    },
-    "betsson": {
-     "h2h": {
-      "away": 3.95,
-      "draw": 3.3,
-      "home": 1.92
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.85,
-       "under": 1.88
-      }
-     }
-    },
-    "campobet_se": {
-     "h2h": {
-      "away": 3.67,
-      "draw": 3.6,
-      "home": 1.92
-     }
-    },
-    "expekt_se": {
-     "h2h": {
-      "away": 3.95,
-      "draw": 3.3,
-      "home": 1.78
-     }
-    },
-    "hajper_se": {
-     "h2h": {
-      "away": 3.95,
-      "draw": 3.35,
-      "home": 1.9
-     }
-    },
-    "leovegas_se": {
-     "h2h": {
-      "away": 3.95,
-      "draw": 3.3,
-      "home": 1.78
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.88,
-       "under": 1.78
-      }
-     }
-    },
-    "mrgreen_se": {
-     "h2h": {
-      "away": 3.75,
-      "draw": 3.4,
-      "home": 1.91
-     }
-    },
-    "nordicbet": {
-     "h2h": {
-      "away": 3.95,
-      "draw": 3.3,
-      "home": 1.92
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.85,
-       "under": 1.88
-      }
-     }
-    },
-    "sport888_se": {
-     "h2h": {
-      "away": 3.75,
-      "draw": 3.4,
+      "away": 1.91,
       "home": 1.91
      }
     },
     "svenskaspel_se": {
      "h2h": {
-      "away": 4.25,
-      "draw": 3.55,
+      "away": 2.55,
+      "draw": 4.3,
+      "home": 2.48
+     }
+    },
+    "unibet_se": {
+     "h2h": {
+      "away": 2.55,
+      "draw": 4.3,
+      "home": 2.48
+     }
+    }
+   },
+   "home": "Vegas Golden Knights",
+   "id": "6a172659dcbd6344e1b89ea63f20786c",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-28T21:10:00Z"
+  },
+  {
+   "away": "Tampa Bay Lightning",
+   "books": {
+    "atg_se": {
+     "h2h": {
+      "away": 2.55,
+      "draw": 4.2,
+      "home": 2.5
+     }
+    },
+    "betinia_se": {
+     "h2h": {
+      "away": 1.74,
+      "home": 1.83
+     }
+    },
+    "betmgm_se": {
+     "h2h": {
+      "away": 2.55,
+      "draw": 4.2,
+      "home": 2.5
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 1.86,
+      "home": 1.94
+     }
+    },
+    "campobet_se": {
+     "h2h": {
+      "away": 1.74,
+      "home": 1.83
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 2.5,
+      "draw": 4.1,
+      "home": 2.45
+     }
+    },
+    "hajper_se": {
+     "h2h": {
+      "away": 1.87,
+      "home": 1.94
+     }
+    },
+    "leovegas_se": {
+     "h2h": {
+      "away": 2.55,
+      "draw": 4.2,
+      "home": 2.5
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 1.86,
+      "home": 1.94
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 1.91,
+      "home": 1.91
+     }
+    },
+    "svenskaspel_se": {
+     "h2h": {
+      "away": 2.55,
+      "draw": 4.2,
+      "home": 2.5
+     }
+    },
+    "unibet_se": {
+     "h2h": {
+      "away": 2.55,
+      "draw": 4.2,
+      "home": 2.5
+     }
+    }
+   },
+   "home": "Florida Panthers",
+   "id": "caa1c061c2ace9568a038a36abf48a25",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-28T23:10:00Z"
+  },
+  {
+   "away": "Calgary Flames",
+   "books": {
+    "atg_se": {
+     "h2h": {
+      "away": 3.45,
+      "draw": 4.6,
+      "home": 1.89
+     }
+    },
+    "betinia_se": {
+     "h2h": {
+      "away": 2.2,
+      "home": 1.5
+     }
+    },
+    "betmgm_se": {
+     "h2h": {
+      "away": 3.45,
+      "draw": 4.6,
+      "home": 1.89
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 2.47,
+      "home": 1.54
+     }
+    },
+    "campobet_se": {
+     "h2h": {
+      "away": 2.2,
+      "home": 1.5
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 3.4,
+      "draw": 4.5,
       "home": 1.85
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.89,
-       "under": 1.79
-      }
+     }
+    },
+    "hajper_se": {
+     "h2h": {
+      "away": 2.48,
+      "home": 1.55
+     }
+    },
+    "leovegas_se": {
+     "h2h": {
+      "away": 3.45,
+      "draw": 4.6,
+      "home": 1.89
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 2.47,
+      "home": 1.54
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 2.38,
+      "home": 1.57
+     }
+    },
+    "svenskaspel_se": {
+     "h2h": {
+      "away": 3.45,
+      "draw": 4.6,
+      "home": 1.89
      }
     },
     "unibet_se": {
      "h2h": {
-      "away": 3.95,
-      "draw": 3.3,
+      "away": 3.45,
+      "draw": 4.6,
+      "home": 1.89
+     }
+    }
+   },
+   "home": "New York Rangers",
+   "id": "79a04197d6f55ccaf3fbccea1207874b",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T00:10:00Z"
+  },
+  {
+   "away": "Ottawa Senators",
+   "books": {
+    "atg_se": {
+     "h2h": {
+      "away": 4.3,
+      "draw": 5.4,
+      "home": 1.64
+     }
+    },
+    "betinia_se": {
+     "h2h": {
+      "away": 2.7,
+      "home": 1.33
+     }
+    },
+    "betmgm_se": {
+     "h2h": {
+      "away": 4.3,
+      "draw": 5.4,
+      "home": 1.64
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 3.1,
+      "home": 1.37
+     }
+    },
+    "campobet_se": {
+     "h2h": {
+      "away": 2.7,
+      "home": 1.33
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 4.2,
+      "draw": 5.3,
+      "home": 1.6
+     }
+    },
+    "hajper_se": {
+     "h2h": {
+      "away": 3.0,
+      "home": 1.39
+     }
+    },
+    "leovegas_se": {
+     "h2h": {
+      "away": 4.3,
+      "draw": 5.4,
+      "home": 1.64
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 3.1,
+      "home": 1.37
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 2.9,
+      "home": 1.4
+     }
+    },
+    "svenskaspel_se": {
+     "h2h": {
+      "away": 4.3,
+      "draw": 5.4,
+      "home": 1.64
+     }
+    },
+    "unibet_se": {
+     "h2h": {
+      "away": 4.3,
+      "draw": 5.4,
+      "home": 1.64
+     }
+    }
+   },
+   "home": "Carolina Hurricanes",
+   "id": "e52a03fb10019b305f480dbb4b76f824",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T00:10:00Z"
+  },
+  {
+   "away": "Nashville Predators",
+   "books": {
+    "atg_se": {
+     "h2h": {
+      "away": 2.5,
+      "draw": 4.3,
+      "home": 2.5
+     }
+    },
+    "betinia_se": {
+     "h2h": {
+      "away": 1.83,
+      "home": 1.74
+     }
+    },
+    "betmgm_se": {
+     "h2h": {
+      "away": 2.5,
+      "draw": 4.3,
+      "home": 2.5
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 1.92,
+      "home": 1.88
+     }
+    },
+    "campobet_se": {
+     "h2h": {
+      "away": 1.83,
+      "home": 1.74
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 2.45,
+      "draw": 4.2,
+      "home": 2.45
+     }
+    },
+    "hajper_se": {
+     "h2h": {
+      "away": 1.89,
+      "home": 1.92
+     }
+    },
+    "leovegas_se": {
+     "h2h": {
+      "away": 2.5,
+      "draw": 4.3,
+      "home": 2.5
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 1.92,
+      "home": 1.88
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 1.91,
+      "home": 1.91
+     }
+    },
+    "svenskaspel_se": {
+     "h2h": {
+      "away": 2.5,
+      "draw": 4.3,
+      "home": 2.5
+     }
+    },
+    "unibet_se": {
+     "h2h": {
+      "away": 2.5,
+      "draw": 4.3,
+      "home": 2.5
+     }
+    }
+   },
+   "home": "Detroit Red Wings",
+   "id": "5b55930ad4bc2fc98ab0d37fa53d7a59",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T00:10:00Z"
+  },
+  {
+   "away": "Winnipeg Jets",
+   "books": {
+    "atg_se": {
+     "h2h": {
+      "away": 3.7,
+      "draw": 4.7,
+      "home": 1.83
+     }
+    },
+    "betinia_se": {
+     "h2h": {
+      "away": 2.3,
+      "home": 1.45
+     }
+    },
+    "betmgm_se": {
+     "h2h": {
+      "away": 3.7,
+      "draw": 4.7,
+      "home": 1.83
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 2.48,
+      "home": 1.54
+     }
+    },
+    "campobet_se": {
+     "h2h": {
+      "away": 2.3,
+      "home": 1.45
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 3.6,
+      "draw": 4.6,
       "home": 1.79
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.89,
-       "under": 1.79
-      }
-     }
-    }
-   },
-   "home": "FC Porto",
-   "id": "e2c82af8f115ac10036b905eb29e4f37",
-   "league": "Portugal - Primeira Liga",
-   "sportKey": "soccer_portugal_primeira_liga",
-   "start": "2026-11-29T20:30:00Z"
-  },
-  {
-   "away": "Famalicão",
-   "books": {
-    "atg_se": {
-     "h2h": {
-      "away": 15.0,
-      "draw": 7.0,
-      "home": 1.17
-     },
-     "totals": {
-      "3.5": {
-       "over": 2.04,
-       "under": 1.73
-      }
-     }
-    },
-    "betinia_se": {
-     "h2h": {
-      "away": 13.0,
-      "draw": 6.5,
-      "home": 1.18
-     }
-    },
-    "betmgm_se": {
-     "h2h": {
-      "away": 13.0,
-      "draw": 6.5,
-      "home": 1.13
-     }
-    },
-    "betsson": {
-     "h2h": {
-      "away": 14.5,
-      "draw": 7.1,
-      "home": 1.15
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.43,
-       "under": 2.72
-      }
-     }
-    },
-    "campobet_se": {
-     "h2h": {
-      "away": 13.0,
-      "draw": 6.5,
-      "home": 1.18
-     }
-    },
-    "expekt_se": {
-     "h2h": {
-      "away": 13.0,
-      "draw": 6.5,
-      "home": 1.13
      }
     },
     "hajper_se": {
      "h2h": {
-      "away": 12.5,
-      "draw": 6.8,
-      "home": 1.17
+      "away": 2.5,
+      "home": 1.53
      }
     },
     "leovegas_se": {
      "h2h": {
-      "away": 13.0,
-      "draw": 6.5,
-      "home": 1.13
-     },
-     "totals": {
-      "3.5": {
-       "over": 2.0,
-       "under": 1.7
-      }
-     }
-    },
-    "mrgreen_se": {
-     "h2h": {
-      "away": 13.0,
-      "draw": 7.0,
-      "home": 1.17
+      "away": 3.7,
+      "draw": 4.7,
+      "home": 1.83
      }
     },
     "nordicbet": {
      "h2h": {
-      "away": 14.5,
-      "draw": 7.1,
-      "home": 1.15
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.43,
-       "under": 2.72
-      }
+      "away": 2.48,
+      "home": 1.54
      }
     },
     "sport888_se": {
      "h2h": {
-      "away": 13.0,
-      "draw": 7.0,
-      "home": 1.17
+      "away": 2.5,
+      "home": 1.53
      }
     },
     "svenskaspel_se": {
      "h2h": {
-      "away": 15.0,
-      "draw": 7.0,
-      "home": 1.17
-     },
-     "totals": {
-      "3.5": {
-       "over": 2.0,
-       "under": 1.7
-      }
+      "away": 3.7,
+      "draw": 4.7,
+      "home": 1.83
      }
     },
     "unibet_se": {
      "h2h": {
-      "away": 13.0,
-      "draw": 6.75,
-      "home": 1.14
-     },
-     "totals": {
-      "3.5": {
-       "over": 2.0,
-       "under": 1.7
-      }
+      "away": 3.7,
+      "draw": 4.7,
+      "home": 1.83
      }
     }
    },
-   "home": "Benfica",
-   "id": "cbe76870424e24c03bf811910914148f",
-   "league": "Portugal - Primeira Liga",
-   "sportKey": "soccer_portugal_primeira_liga",
-   "start": "2026-11-30T20:15:00Z"
+   "home": "New Jersey Devils",
+   "id": "274d3542bf8eff313ed96f04ff26e743",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T00:10:00Z"
   },
   {
-   "away": "Braga",
+   "away": "Toronto Maple Leafs",
    "books": {
     "atg_se": {
      "h2h": {
-      "away": 1.43,
-      "draw": 4.4,
-      "home": 7.5
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.83,
-       "under": 1.91
-      }
+      "away": 2.75,
+      "draw": 4.2,
+      "home": 2.33
      }
     },
     "betinia_se": {
      "h2h": {
-      "away": 1.44,
-      "draw": 4.2,
-      "home": 6.67
+      "away": 1.91,
+      "home": 1.67
      }
     },
     "betmgm_se": {
      "h2h": {
-      "away": 1.38,
+      "away": 2.75,
       "draw": 4.2,
-      "home": 6.75
+      "home": 2.33
      }
     },
     "betsson": {
      "h2h": {
-      "away": 1.45,
-      "draw": 4.15,
-      "home": 6.3
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.92,
-       "under": 1.82
-      }
+      "away": 2.07,
+      "home": 1.76
      }
     },
     "campobet_se": {
      "h2h": {
-      "away": 1.44,
-      "draw": 4.2,
-      "home": 6.67
+      "away": 1.91,
+      "home": 1.67
      }
     },
     "expekt_se": {
      "h2h": {
-      "away": 1.38,
-      "draw": 4.2,
-      "home": 6.75
+      "away": 2.7,
+      "draw": 4.1,
+      "home": 2.3
      }
     },
     "hajper_se": {
      "h2h": {
-      "away": 1.46,
-      "draw": 4.1,
-      "home": 6.4
+      "away": 2.03,
+      "home": 1.79
      }
     },
     "leovegas_se": {
      "h2h": {
-      "away": 1.38,
+      "away": 2.75,
       "draw": 4.2,
-      "home": 6.75
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.79,
-       "under": 1.87
-      }
-     }
-    },
-    "mrgreen_se": {
-     "h2h": {
-      "away": 1.44,
-      "draw": 4.0,
-      "home": 6.5
+      "home": 2.33
      }
     },
     "nordicbet": {
      "h2h": {
-      "away": 1.45,
-      "draw": 4.15,
-      "home": 6.3
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.92,
-       "under": 1.82
-      }
+      "away": 2.07,
+      "home": 1.76
      }
     },
     "sport888_se": {
      "h2h": {
-      "away": 1.44,
-      "draw": 4.0,
-      "home": 6.5
+      "away": 2.1,
+      "home": 1.73
      }
     },
     "svenskaspel_se": {
      "h2h": {
-      "away": 1.43,
-      "draw": 4.4,
-      "home": 7.5
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.8,
-       "under": 1.88
-      }
-     }
-    },
-    "unibet_se": {
-     "h2h": {
-      "away": 1.38,
+      "away": 2.75,
       "draw": 4.2,
-      "home": 6.75
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.8,
-       "under": 1.88
-      }
+      "home": 2.33
+     }
+    },
+    "unibet_se": {
+     "h2h": {
+      "away": 2.75,
+      "draw": 4.2,
+      "home": 2.33
      }
     }
    },
-   "home": "Casa Pia",
-   "id": "61b7d270b965f9804d2d2ed500f41214",
-   "league": "Portugal - Primeira Liga",
-   "sportKey": "soccer_portugal_primeira_liga",
-   "start": "2026-11-30T20:15:00Z"
+   "home": "Pittsburgh Penguins",
+   "id": "2eb8dba3fd1115cc292ba861af377253",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T00:10:00Z"
   },
   {
-   "away": "CS Maritimo",
+   "away": "Washington Capitals",
    "books": {
     "atg_se": {
      "h2h": {
-      "away": 17.0,
-      "draw": 8.0,
-      "home": 1.14
-     },
-     "totals": {
-      "3.5": {
-       "over": 1.97,
-       "under": 1.77
-      }
+      "away": 2.35,
+      "draw": 4.25,
+      "home": 2.7
+     }
+    },
+    "betinia_se": {
+     "h2h": {
+      "away": 1.71,
+      "home": 1.87
      }
     },
     "betmgm_se": {
      "h2h": {
-      "away": 15.0,
-      "draw": 7.0,
-      "home": 1.11
+      "away": 2.35,
+      "draw": 4.25,
+      "home": 2.7
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 1.83,
+      "home": 1.98
+     }
+    },
+    "campobet_se": {
+     "h2h": {
+      "away": 1.71,
+      "home": 1.87
      }
     },
     "expekt_se": {
      "h2h": {
-      "away": 15.0,
-      "draw": 7.0,
-      "home": 1.11
+      "away": 2.3,
+      "draw": 4.2,
+      "home": 2.65
      }
     },
     "hajper_se": {
      "h2h": {
-      "away": 14.25,
-      "draw": 7.3,
-      "home": 1.13
+      "away": 1.85,
+      "home": 1.96
      }
     },
     "leovegas_se": {
      "h2h": {
-      "away": 15.0,
-      "draw": 7.0,
-      "home": 1.11
-     },
-     "totals": {
-      "3.5": {
-       "over": 1.93,
-       "under": 1.73
-      }
+      "away": 2.35,
+      "draw": 4.25,
+      "home": 2.7
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 1.83,
+      "home": 1.98
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 1.8,
+      "home": 2.0
      }
     },
     "svenskaspel_se": {
      "h2h": {
-      "away": 17.0,
-      "draw": 8.0,
-      "home": 1.14
-     },
-     "totals": {
-      "3.5": {
-       "over": 1.94,
-       "under": 1.74
-      }
+      "away": 2.35,
+      "draw": 4.25,
+      "home": 2.7
      }
     },
     "unibet_se": {
      "h2h": {
-      "away": 15.0,
-      "draw": 7.5,
-      "home": 1.11
-     },
-     "totals": {
-      "3.5": {
-       "over": 1.94,
-       "under": 1.74
-      }
+      "away": 2.35,
+      "draw": 4.25,
+      "home": 2.7
      }
     }
    },
-   "home": "Sporting Lisbon",
-   "id": "56a02a03982a905c03953d377b5c6fca",
-   "league": "Portugal - Primeira Liga",
-   "sportKey": "soccer_portugal_primeira_liga",
-   "start": "2026-12-04T20:15:00Z"
+   "home": "St Louis Blues",
+   "id": "13c3edd2c9dc19cce0a916e9db43cc44",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T00:10:00Z"
   },
   {
-   "away": "Benfica",
+   "away": "New York Islanders",
    "books": {
     "atg_se": {
      "h2h": {
-      "away": 1.1,
-      "draw": 10.0,
-      "home": 21.0
-     },
-     "totals": {
-      "3.5": {
-       "over": 1.76,
-       "under": 2.0
-      }
+      "away": 2.4,
+      "draw": 4.25,
+      "home": 2.63
+     }
+    },
+    "betinia_se": {
+     "h2h": {
+      "away": 1.71,
+      "home": 1.87
      }
     },
     "betmgm_se": {
      "h2h": {
-      "away": 1.06,
-      "draw": 9.0,
-      "home": 19.0
+      "away": 2.4,
+      "draw": 4.25,
+      "home": 2.63
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 1.83,
+      "home": 1.98
+     }
+    },
+    "campobet_se": {
+     "h2h": {
+      "away": 1.71,
+      "home": 1.87
      }
     },
     "expekt_se": {
      "h2h": {
-      "away": 1.06,
-      "draw": 9.0,
-      "home": 19.0
-     }
-    },
-    "leovegas_se": {
-     "h2h": {
-      "away": 1.06,
-      "draw": 9.0,
-      "home": 19.0
-     },
-     "totals": {
-      "3.5": {
-       "over": 1.72,
-       "under": 1.95
-      }
-     }
-    },
-    "svenskaspel_se": {
-     "h2h": {
-      "away": 1.1,
-      "draw": 10.0,
-      "home": 21.0
-     },
-     "totals": {
-      "3.5": {
-       "over": 1.73,
-       "under": 1.96
-      }
-     }
-    },
-    "unibet_se": {
-     "h2h": {
-      "away": 1.07,
-      "draw": 9.0,
-      "home": 19.0
-     },
-     "totals": {
-      "3.5": {
-       "over": 1.73,
-       "under": 1.96
-      }
-     }
-    }
-   },
-   "home": "Nacional",
-   "id": "db356900ca7369849202796ddb2f4de3",
-   "league": "Portugal - Primeira Liga",
-   "sportKey": "soccer_portugal_primeira_liga",
-   "start": "2026-12-05T15:30:00Z"
-  },
-  {
-   "away": "FC Porto",
-   "books": {
-    "atg_se": {
-     "h2h": {
-      "away": 1.44,
-      "draw": 4.1,
-      "home": 7.5
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.97,
-       "under": 1.78
-      }
-     }
-    },
-    "betmgm_se": {
-     "h2h": {
-      "away": 1.4,
-      "draw": 3.85,
-      "home": 7.0
-     }
-    },
-    "expekt_se": {
-     "h2h": {
-      "away": 1.4,
-      "draw": 3.85,
-      "home": 7.0
+      "away": 2.35,
+      "draw": 4.2,
+      "home": 2.55
      }
     },
     "hajper_se": {
      "h2h": {
-      "away": 1.45,
-      "draw": 3.95,
-      "home": 6.8
+      "away": 1.85,
+      "home": 1.96
      }
     },
     "leovegas_se": {
      "h2h": {
-      "away": 1.4,
-      "draw": 3.85,
-      "home": 7.0
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.93,
-       "under": 1.73
-      }
+      "away": 2.4,
+      "draw": 4.25,
+      "home": 2.63
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 1.83,
+      "home": 1.98
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 1.8,
+      "home": 2.0
      }
     },
     "svenskaspel_se": {
      "h2h": {
-      "away": 1.44,
-      "draw": 4.1,
-      "home": 7.5
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.94,
-       "under": 1.74
-      }
+      "away": 2.4,
+      "draw": 4.25,
+      "home": 2.63
      }
     },
     "unibet_se": {
      "h2h": {
-      "away": 1.41,
-      "draw": 3.9,
-      "home": 7.0
-     },
-     "totals": {
-      "2.5": {
-       "over": 1.94,
-       "under": 1.74
-      }
+      "away": 2.4,
+      "draw": 4.25,
+      "home": 2.63
      }
     }
    },
-   "home": "Santa Clara",
-   "id": "215201a5d9c8850949b82127fcb6f441",
-   "league": "Portugal - Primeira Liga",
-   "sportKey": "soccer_portugal_primeira_liga",
-   "start": "2026-12-05T18:00:00Z"
+   "home": "Philadelphia Flyers",
+   "id": "2b6e5d5ff42cf859e0a34051ee14caf2",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T00:40:00Z"
+  },
+  {
+   "away": "Utah Mammoth",
+   "books": {
+    "atg_se": {
+     "h2h": {
+      "away": 3.15,
+      "draw": 4.5,
+      "home": 2.02
+     }
+    },
+    "betinia_se": {
+     "h2h": {
+      "away": 2.1,
+      "home": 1.56
+     }
+    },
+    "betmgm_se": {
+     "h2h": {
+      "away": 3.15,
+      "draw": 4.5,
+      "home": 2.02
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 2.24,
+      "home": 1.65
+     }
+    },
+    "campobet_se": {
+     "h2h": {
+      "away": 2.1,
+      "home": 1.56
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 3.1,
+      "draw": 4.5,
+      "home": 1.97
+     }
+    },
+    "hajper_se": {
+     "h2h": {
+      "away": 2.2,
+      "home": 1.68
+     }
+    },
+    "leovegas_se": {
+     "h2h": {
+      "away": 3.15,
+      "draw": 4.5,
+      "home": 2.02
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 2.24,
+      "home": 1.65
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 2.2,
+      "home": 1.67
+     }
+    },
+    "svenskaspel_se": {
+     "h2h": {
+      "away": 3.15,
+      "draw": 4.5,
+      "home": 2.02
+     }
+    },
+    "unibet_se": {
+     "h2h": {
+      "away": 3.15,
+      "draw": 4.5,
+      "home": 2.02
+     }
+    }
+   },
+   "home": "Dallas Stars",
+   "id": "c7d8345f0df3b99a79c00eefada5673a",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T01:10:00Z"
+  },
+  {
+   "away": "Anaheim Ducks",
+   "books": {
+    "atg_se": {
+     "h2h": {
+      "away": 3.0,
+      "draw": 4.35,
+      "home": 2.15
+     }
+    },
+    "betinia_se": {
+     "h2h": {
+      "away": 2.05,
+      "home": 1.59
+     }
+    },
+    "betmgm_se": {
+     "h2h": {
+      "away": 3.0,
+      "draw": 4.35,
+      "home": 2.15
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 2.17,
+      "home": 1.69
+     }
+    },
+    "campobet_se": {
+     "h2h": {
+      "away": 2.05,
+      "home": 1.59
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 2.9,
+      "draw": 4.25,
+      "home": 2.1
+     }
+    },
+    "hajper_se": {
+     "h2h": {
+      "away": 2.16,
+      "home": 1.71
+     }
+    },
+    "leovegas_se": {
+     "h2h": {
+      "away": 3.0,
+      "draw": 4.35,
+      "home": 2.15
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 2.17,
+      "home": 1.69
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 2.2,
+      "home": 1.67
+     }
+    },
+    "svenskaspel_se": {
+     "h2h": {
+      "away": 3.0,
+      "draw": 4.35,
+      "home": 2.15
+     }
+    },
+    "unibet_se": {
+     "h2h": {
+      "away": 3.0,
+      "draw": 4.35,
+      "home": 2.15
+     }
+    }
+   },
+   "home": "Los Angeles Kings",
+   "id": "b593db6702ca42144f478008ba894214",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T02:10:00Z"
+  },
+  {
+   "away": "San Jose Sharks",
+   "books": {
+    "atg_se": {
+     "h2h": {
+      "away": 4.3,
+      "draw": 5.0,
+      "home": 1.67
+     }
+    },
+    "betinia_se": {
+     "h2h": {
+      "away": 2.65,
+      "home": 1.34
+     }
+    },
+    "betmgm_se": {
+     "h2h": {
+      "away": 4.3,
+      "draw": 5.0,
+      "home": 1.67
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 2.87,
+      "home": 1.42
+     }
+    },
+    "campobet_se": {
+     "h2h": {
+      "away": 2.65,
+      "home": 1.34
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 4.25,
+      "draw": 4.9,
+      "home": 1.64
+     }
+    },
+    "hajper_se": {
+     "h2h": {
+      "away": 2.9,
+      "home": 1.42
+     }
+    },
+    "leovegas_se": {
+     "h2h": {
+      "away": 4.3,
+      "draw": 5.0,
+      "home": 1.67
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 2.87,
+      "home": 1.42
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 2.9,
+      "home": 1.4
+     }
+    },
+    "svenskaspel_se": {
+     "h2h": {
+      "away": 4.3,
+      "draw": 5.0,
+      "home": 1.67
+     }
+    },
+    "unibet_se": {
+     "h2h": {
+      "away": 4.3,
+      "draw": 5.0,
+      "home": 1.67
+     }
+    }
+   },
+   "home": "Colorado Avalanche",
+   "id": "b23cbb8c5378e792e7ac624fec34b7f5",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T02:10:00Z"
+  },
+  {
+   "away": "Edmonton Oilers",
+   "books": {
+    "atg_se": {
+     "h2h": {
+      "away": 1.94,
+      "draw": 4.5,
+      "home": 3.4
+     }
+    },
+    "betinia_se": {
+     "h2h": {
+      "away": 1.53,
+      "home": 2.15
+     }
+    },
+    "betmgm_se": {
+     "h2h": {
+      "away": 1.94,
+      "draw": 4.5,
+      "home": 3.4
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 1.58,
+      "home": 2.38
+     }
+    },
+    "campobet_se": {
+     "h2h": {
+      "away": 1.53,
+      "home": 2.15
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 1.91,
+      "draw": 4.35,
+      "home": 3.35
+     }
+    },
+    "hajper_se": {
+     "h2h": {
+      "away": 1.58,
+      "home": 2.35
+     }
+    },
+    "leovegas_se": {
+     "h2h": {
+      "away": 1.94,
+      "draw": 4.5,
+      "home": 3.4
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 1.58,
+      "home": 2.38
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 1.61,
+      "home": 2.3
+     }
+    },
+    "svenskaspel_se": {
+     "h2h": {
+      "away": 1.94,
+      "draw": 4.5,
+      "home": 3.4
+     }
+    },
+    "unibet_se": {
+     "h2h": {
+      "away": 1.94,
+      "draw": 4.5,
+      "home": 3.4
+     }
+    }
+   },
+   "home": "Seattle Kraken",
+   "id": "94344b740781b59e4e387c487269635a",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T03:10:00Z"
+  },
+  {
+   "away": "Minnesota Wild",
+   "books": {
+    "atg_se": {
+     "h2h": {
+      "away": 1.62,
+      "draw": 4.9,
+      "home": 4.75
+     }
+    },
+    "betmgm_se": {
+     "h2h": {
+      "away": 1.62,
+      "draw": 4.9,
+      "home": 4.75
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 1.4,
+      "home": 2.96
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 1.57,
+      "draw": 4.8,
+      "home": 4.7
+     }
+    },
+    "hajper_se": {
+     "h2h": {
+      "away": 1.37,
+      "home": 3.0
+     }
+    },
+    "leovegas_se": {
+     "h2h": {
+      "away": 1.62,
+      "draw": 4.9,
+      "home": 4.75
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 1.4,
+      "home": 2.96
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 1.36,
+      "home": 3.1
+     }
+    },
+    "svenskaspel_se": {
+     "h2h": {
+      "away": 1.62,
+      "draw": 4.9,
+      "home": 4.75
+     }
+    },
+    "unibet_se": {
+     "h2h": {
+      "away": 1.62,
+      "draw": 4.9,
+      "home": 4.75
+     }
+    }
+   },
+   "home": "Chicago Blackhawks",
+   "id": "2e9a7d84e410bdc748e3ae873274abe8",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T19:10:00Z"
+  },
+  {
+   "away": "Vancouver Canucks",
+   "books": {
+    "atg_se": {
+     "h2h": {
+      "away": 4.8,
+      "draw": 4.9,
+      "home": 1.61
+     }
+    },
+    "betmgm_se": {
+     "h2h": {
+      "away": 4.8,
+      "draw": 4.9,
+      "home": 1.61
+     }
+    },
+    "betsson": {
+     "h2h": {
+      "away": 3.2,
+      "home": 1.35
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 4.75,
+      "draw": 4.8,
+      "home": 1.57
+     }
+    },
+    "hajper_se": {
+     "h2h": {
+      "away": 3.1,
+      "home": 1.34
+     }
+    },
+    "leovegas_se": {
+     "h2h": {
+      "away": 4.8,
+      "draw": 4.9,
+      "home": 1.61
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 3.2,
+      "home": 1.35
+     }
+    },
+    "sport888_se": {
+     "h2h": {
+      "away": 3.1,
+      "home": 1.36
+     }
+    },
+    "svenskaspel_se": {
+     "h2h": {
+      "away": 4.8,
+      "draw": 4.9,
+      "home": 1.61
+     }
+    },
+    "unibet_se": {
+     "h2h": {
+      "away": 4.8,
+      "draw": 4.9,
+      "home": 1.61
+     }
+    }
+   },
+   "home": "Boston Bruins",
+   "id": "181ab785c9c2ca31d695c5e51238f74e",
+   "league": "NHL",
+   "sportKey": "icehockey_nhl",
+   "start": "2026-11-29T22:00:00Z"
   }
  ],
  "meta": {
+  "allowanceThisRun": 14,
   "books": [
    "betmgm_se",
    "svenskaspel_se",
@@ -1054,7 +1328,6 @@
    "expekt_se",
    "hajper_se",
    "leovegas_se",
-   "mrgreen_se",
    "nordicbet",
    "pinnacle",
    "sport888_se",
@@ -1063,25 +1336,29 @@
   ],
   "calls": [
    {
-    "at": "2026-11-28T20:02:12Z",
-    "credits": 2,
-    "events": 9,
-    "key": "soccer_portugal_primeira_liga",
-    "league": "Portugal - Primeira Liga"
+    "at": "2026-11-28T20:35:51Z",
+    "credits": 1,
+    "events": 15,
+    "key": "icehockey_nhl",
+    "league": "NHL"
    }
   ],
   "cap": 450,
-  "creditsThisMonth": 10,
-  "events": 9,
-  "fetchedAt": "2026-11-28T20:02:12Z",
+  "creditsThisMonth": 11,
+  "creditsToday": 1,
+  "day": 14,
+  "events": 15,
+  "fetchedAt": "2026-11-28T20:35:51Z",
   "hisBooks": [
    "betmgm_se",
    "svenskaspel_se"
   ],
   "keys": [
-   "soccer_portugal_primeira_liga"
+   "icehockey_nhl"
   ],
-  "markets": "h2h,totals",
+  "leaguesAsked": 1,
+  "leaguesWanted": 1,
+  "markets": "h2h",
   "note": "prices exactly as the-odds-api.com returned them, in its own team names",
   "region": "se"
  }
