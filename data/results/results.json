@@ -18553,11 +18553,68 @@
     3,
     5
    ]
+  },
+  {
+   "away": "Avalanche",
+   "awayAbbrev": "COL",
+   "ended": "SO",
+   "home": "Wild",
+   "homeAbbrev": "MIN",
+   "id": "2026020408",
+   "league": "NHL",
+   "reg": [
+    3,
+    3
+   ],
+   "score": [
+    3,
+    4
+   ],
+   "sport": "nhl",
+   "start": "2026-11-27T21:00:00Z"
+  },
+  {
+   "away": "Kings",
+   "awayAbbrev": "LAK",
+   "ended": "REG",
+   "home": "Ducks",
+   "homeAbbrev": "ANA",
+   "id": "2026020409",
+   "league": "NHL",
+   "reg": [
+    3,
+    5
+   ],
+   "score": [
+    3,
+    5
+   ],
+   "sport": "nhl",
+   "start": "2026-11-27T21:00:00Z"
+  },
+  {
+   "away": "Golden Knights",
+   "awayAbbrev": "VGK",
+   "ended": "REG",
+   "home": "Sharks",
+   "homeAbbrev": "SJS",
+   "id": "2026020410",
+   "league": "NHL",
+   "reg": [
+    4,
+    1
+   ],
+   "score": [
+    4,
+    1
+   ],
+   "sport": "nhl",
+   "start": "2026-11-27T21:00:00Z"
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-27T23:24:10Z",
-  "matches": 103,
+  "fetchedAt": "2026-11-28T00:17:05Z",
+  "matches": 106,
   "note": "settle bets with jarvis/settle.py; football cards = yellow + red as FotMob counts them; goals markets settle on the score after 90 minutes (ended AET/Pen -> needs a manual check)",
   "sources": {
    "fotmob": {
@@ -18566,7 +18623,7 @@
     "pending": 0
    },
    "nhl": {
-    "new": 0,
+    "new": 3,
     "ok": true
    },
    "shl": {
