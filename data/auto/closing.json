@@ -64,6 +64,126 @@
    "openAt": "2026-11-27T19:46:25Z",
    "start": "2026-11-27T21:00:00Z"
   },
+  "2026-11-28-al-ettifaq-al-hilal|Corners_Over_10_5": {
+   "close": 0.4452,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.45136,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Corners_Over_9_5": {
+   "close": 0.54832,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.55436,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Corners_Under_10_5": {
+   "close": 0.5548,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.54864,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Corners_Under_9_5": {
+   "close": 0.45168,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.44564,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Match_result_Al_Ettifaq": {
+   "close": 0.09527,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.09501,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Match_result_Al_Hilal": {
+   "close": 0.7761,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.77165,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Match_result_Draw": {
+   "close": 0.12863,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.13334,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Total_goals_Over_1_5": {
+   "close": 0.86158,
+   "closeAt": "2026-11-28T09:47:15Z",
+   "n": 53,
+   "open": 0.85801,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Total_goals_Over_2_5": {
+   "close": 0.71136,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.709,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Total_goals_Over_3_5": {
+   "close": 0.50866,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.5064,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Total_goals_Over_4_5": {
+   "close": 0.31796,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.32067,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Total_goals_Under_1_5": {
+   "close": 0.13842,
+   "closeAt": "2026-11-28T09:47:15Z",
+   "n": 53,
+   "open": 0.14199,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Total_goals_Under_2_5": {
+   "close": 0.28864,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.291,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Total_goals_Under_3_5": {
+   "close": 0.49134,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.4936,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
+  "2026-11-28-al-ettifaq-al-hilal|Total_goals_Under_4_5": {
+   "close": 0.68204,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.67933,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:20:00Z"
+  },
   "2026-11-28-al-hazem-al-nassr|Corners_Over_10_5": {
    "close": 0.47855,
    "closeAt": "2026-11-28T10:47:42Z",
@@ -320,6 +440,22 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T12:30:00Z"
   },
+  "2026-11-28-brynas-if-hc-orebro|Moneyline_incl_OT_Brynas_IF": {
+   "close": 0.68085,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.67858,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:15:00Z"
+  },
+  "2026-11-28-brynas-if-hc-orebro|Moneyline_incl_OT_HC_Orebro": {
+   "close": 0.31915,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.32142,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:15:00Z"
+  },
   "2026-11-28-buffalo-sabres-pittsburgh-penguins|Moneyline_incl_OT_Buffalo_Sabres": {
    "close": 0.54605,
    "closeAt": "2026-11-27T22:46:28Z",
@@ -487,6 +623,318 @@
    "open": 0.35047,
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T01:00:00Z"
+  },
+  "2026-11-28-fc-koln-elversberg|Corners_Over_10_5": {
+   "close": 0.45364,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.43801,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-fc-koln-elversberg|Corners_Over_9_5": {
+   "close": 0.56359,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.54789,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-fc-koln-elversberg|Corners_Under_10_5": {
+   "close": 0.54636,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.56199,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-fc-koln-elversberg|Corners_Under_9_5": {
+   "close": 0.43641,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.45211,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-fc-koln-elversberg|Match_result_Draw": {
+   "close": 0.25399,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.25331,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-fc-koln-elversberg|Match_result_Elversberg": {
+   "close": 0.26078,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.27799,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-fc-koln-elversberg|Match_result_FC_Koln": {
+   "close": 0.48523,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.46869,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-fc-koln-elversberg|Total_goals_Over_2_5": {
+   "close": 0.58112,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.58632,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-fc-koln-elversberg|Total_goals_Over_3_5": {
+   "close": 0.369,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.3717,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-fc-koln-elversberg|Total_goals_Under_2_5": {
+   "close": 0.41888,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.41368,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-fc-koln-elversberg|Total_goals_Under_3_5": {
+   "close": 0.631,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.6283,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-frosinone-parma|Corners_Over_10_5": {
+   "close": 0.53999,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 50,
+   "open": 0.5279,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Corners_Over_11_5": {
+   "close": 0.42817,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 50,
+   "open": 0.41655,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Corners_Over_9_5": {
+   "close": 0.63282,
+   "closeAt": "2026-11-27T19:46:25Z",
+   "n": 4,
+   "open": 0.63282,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Corners_Under_10_5": {
+   "close": 0.46001,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 50,
+   "open": 0.4721,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Corners_Under_11_5": {
+   "close": 0.57183,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 50,
+   "open": 0.58345,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Corners_Under_9_5": {
+   "close": 0.36718,
+   "closeAt": "2026-11-27T19:46:25Z",
+   "n": 4,
+   "open": 0.36718,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Match_result_Draw": {
+   "close": 0.1879,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.18541,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Match_result_Frosinone": {
+   "close": 0.66178,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.64718,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Match_result_Parma": {
+   "close": 0.15032,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.16741,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Total_goals_Over_2_5": {
+   "close": 0.69079,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.69814,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Total_goals_Over_3_5": {
+   "close": 0.48605,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.48748,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Total_goals_Over_4_5": {
+   "close": 0.29771,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.28819,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Total_goals_Under_2_5": {
+   "close": 0.30921,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.30186,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Total_goals_Under_3_5": {
+   "close": 0.51395,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.51252,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-frosinone-parma|Total_goals_Under_4_5": {
+   "close": 0.70229,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.71181,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:00:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Corners_Over_10_5": {
+   "close": 0.4556,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.45136,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Corners_Over_9_5": {
+   "close": 0.56178,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.55764,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Corners_Under_10_5": {
+   "close": 0.5444,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.54864,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Corners_Under_9_5": {
+   "close": 0.43822,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.44236,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Match_result_Bayern_Munich": {
+   "close": 0.69964,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.75662,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Match_result_Draw": {
+   "close": 0.16991,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.13921,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Match_result_Hamburger_SV": {
+   "close": 0.13045,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.10418,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Total_goals_Over_2_5": {
+   "close": 0.66688,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 48,
+   "open": 0.7085,
+   "openAt": "2026-11-27T21:48:10Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Total_goals_Over_3_5": {
+   "close": 0.45257,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.50658,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Total_goals_Over_4_5": {
+   "close": 0.29147,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.31793,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Total_goals_Under_2_5": {
+   "close": 0.33312,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 48,
+   "open": 0.2915,
+   "openAt": "2026-11-27T21:48:10Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Total_goals_Under_3_5": {
+   "close": 0.54743,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.49342,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-hamburger-sv-bayern-munich|Total_goals_Under_4_5": {
+   "close": 0.70853,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.68207,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
   },
   "2026-11-28-hertha-bsc-karlsruher|Corners_Over_10_5": {
    "close": 0.46568,
@@ -848,6 +1296,94 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T12:30:00Z"
   },
+  "2026-11-28-mainz-05-union-berlin|Corners_Over_10_5": {
+   "close": 0.44006,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.44305,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-mainz-05-union-berlin|Corners_Over_9_5": {
+   "close": 0.5529,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.55508,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-mainz-05-union-berlin|Corners_Under_10_5": {
+   "close": 0.55994,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.55695,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-mainz-05-union-berlin|Corners_Under_9_5": {
+   "close": 0.4471,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.44492,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-mainz-05-union-berlin|Match_result_Draw": {
+   "close": 0.19544,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.19894,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-mainz-05-union-berlin|Match_result_Mainz_05": {
+   "close": 0.65769,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.6488,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-mainz-05-union-berlin|Match_result_Union_Berlin": {
+   "close": 0.14687,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.15226,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-mainz-05-union-berlin|Total_goals_Over_2_5": {
+   "close": 0.62749,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.61689,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-mainz-05-union-berlin|Total_goals_Over_3_5": {
+   "close": 0.41241,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.40202,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-mainz-05-union-berlin|Total_goals_Under_2_5": {
+   "close": 0.37251,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.38311,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-mainz-05-union-berlin|Total_goals_Under_3_5": {
+   "close": 0.58759,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.59798,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
   "2026-11-28-new-york-islanders-winnipeg-jets|Moneyline_incl_OT_New_York_Islanders": {
    "close": 0.51955,
    "closeAt": "2026-11-27T22:46:28Z",
@@ -863,6 +1399,110 @@
    "open": 0.4716,
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T00:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Corners_Over_10_5": {
+   "close": 0.39041,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.38961,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Corners_Over_8_5": {
+   "close": 0.61005,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.60951,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Corners_Over_9_5": {
+   "close": 0.49781,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.49784,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Corners_Under_10_5": {
+   "close": 0.60959,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.61039,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Corners_Under_8_5": {
+   "close": 0.38995,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.39049,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Corners_Under_9_5": {
+   "close": 0.50219,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 52,
+   "open": 0.50216,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Match_result_Draw": {
+   "close": 0.27422,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.278,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Match_result_Paderborn": {
+   "close": 0.34741,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.37173,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Match_result_Schalke_04": {
+   "close": 0.37838,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.35026,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Total_goals_Over_2_5": {
+   "close": 0.58862,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.53217,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Total_goals_Over_3_5": {
+   "close": 0.3789,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.32449,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Total_goals_Under_2_5": {
+   "close": 0.41138,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.46783,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
+  },
+  "2026-11-28-paderborn-schalke-04|Total_goals_Under_3_5": {
+   "close": 0.6211,
+   "closeAt": "2026-11-28T13:46:56Z",
+   "n": 64,
+   "open": 0.67551,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:30:00Z"
   },
   "2026-11-28-preston-north-end-norwich-city|Corners_Over_10_5": {
    "close": 0.47515,
@@ -1240,6 +1880,38 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T13:00:00Z"
   },
+  "2026-11-28-skelleftea-aik-farjestads-bk|Moneyline_incl_OT_Farjestads_BK": {
+   "close": 0.467,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.46364,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:15:00Z"
+  },
+  "2026-11-28-skelleftea-aik-farjestads-bk|Moneyline_incl_OT_Skelleftea_AIK": {
+   "close": 0.533,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.53636,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:15:00Z"
+  },
+  "2026-11-28-timra-ik-linkopings-hc|Moneyline_incl_OT_Linkopings_HC": {
+   "close": 0.35091,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.35265,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:15:00Z"
+  },
+  "2026-11-28-timra-ik-linkopings-hc|Moneyline_incl_OT_Timra_IK": {
+   "close": 0.64909,
+   "closeAt": "2026-11-28T12:46:36Z",
+   "n": 62,
+   "open": 0.64735,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T14:15:00Z"
+  },
   "m1|Match_result_Away": {
    "close": 0.16552,
    "closeAt": "2026-11-27T21:00:00Z",
@@ -1266,9 +1938,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T13:46:56Z",
+  "fetchedAt": "2026-11-28T14:41:26Z",
   "keptDays": 45,
-  "lines": 158,
+  "lines": 242,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
