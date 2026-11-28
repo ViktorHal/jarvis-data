@@ -37,7 +37,7 @@ try:  # hockey model 1.2 (production for hockey from 26 Nov 2026 when its inputs
 except Exception:  # a missing or broken hockey12.py falls back to 1.1, recorded per match
     hockey12 = None
 
-VERSION = "3.9"
+VERSION = "3.10"
 
 DEFAULT_CONFIG = {
     "mode": "shadow",                 # "shadow" | "active"
@@ -109,6 +109,14 @@ DEFAULT_CONFIG = {
     # odds 3-8, where the backtest found soft bookmakers' prices lag Pinnacle's.
     "hunt": {"fair": [3.0, 8.0], "driftMin": 0.02, "max": 24,
              "groups": ["Match result", "Moneyline (incl. OT)"]},
+    # 3.10 GRID ANCHOR (research/market_grid.json). Pinnacle quotes 1X2 and the totals around 2.5-3.5, so after
+    # 3.8 the model still priced over 1.5, both teams to score, team goals and every builder leg in the very same
+    # match where its view of over 2.5 had been overruled. Instead the two goal rates are now fitted to Pinnacle's
+    # own de-margined prices and that grid prices the rest. Measured on Pinnacle's slate of 27 Nov 2026: the
+    # fitted grid came within 0.8 points of Pinnacle's price on lines it was not fitted to (over 1.5, 3.5, 4.5),
+    # where the model was 4.0-5.6 points out. cv is the extra spread the market's own distribution has over
+    # independent Poisson (0.25 fitted on those lines; 0 is the plain grid).
+    "marketGrid": {"cv": 0.25, "maxResidual": 0.02},
 }
 
 SPORT_KEY = {"football": "football", "ice hockey": "hockey", "hockey": "hockey",
@@ -349,15 +357,84 @@ def leg_predicate(group, selection, hn, an):
     return None
 
 
-def joint_grid_prob(lh, la, legs, hn, an, rho=None):
+def joint_grid_prob(lh, la, legs, hn, an, rho=None, cv=0.0):
     """Exact probability that every goal leg wins, from the Dixon-Coles grid. None if a leg
     is not a goal market (those combinations stay in shadow until a joint model exists)."""
     preds = [leg_predicate(g, s, hn, an) for g, s in legs]
     if any(p is None for p in preds):
         return None
-    g = model.score_grid(lh, la, rho)
+    return grid_prob(mixed_grid(lh, la, cv, rho), preds)
+
+
+def grid_prob(g, preds):
     n = len(g)
     return sum(g[i][j] for i in range(n) for j in range(n) if all(f(i, j) for f in preds))
+
+
+def mixed_grid(lh, la, cv=0.0, rho=None):
+    """3.10: the Dixon-Coles score grid with the two goal rates multiplied by a random factor of mean 1 and
+    coefficient of variation cv (a three-point discretisation that matches that mean and variance). The market's
+    own goal distribution is slightly wider than independent Poisson with the same mean, because the market is
+    also uncertain about the rates; cv 0 is the plain grid. Fitted against Pinnacle's own prices: see
+    research/market_grid.json."""
+    if not cv:
+        return model.score_grid(lh, la, rho)
+    d = cv * math.sqrt(1.5)
+    out = None
+    for k, w in ((1 - d, 1 / 6), (1.0, 2 / 3), (1 + d, 1 / 6)):
+        g = model.score_grid(max(lh * k, 0.02), max(la * k, 0.02), rho)
+        out = [[w * v for v in r] for r in g] if out is None else [[a + w * b for a, b in zip(ra, rb)] for ra, rb in zip(out, g)]
+    s = sum(map(sum, out))
+    return [[v / s for v in r] for r in out]
+
+
+def _grid_1x2_totals(g):
+    n = len(g)
+    H = sum(g[i][j] for i in range(n) for j in range(n) if i > j)
+    D = sum(g[i][i] for i in range(n))
+    tot = {}
+    for i in range(n):
+        for j in range(n):
+            tot[i + j] = tot.get(i + j, 0.0) + g[i][j]
+    return H, D, 1 - H - D, tot
+
+
+def fit_market_grid(h, d, a, totals, cv=0.0, rho=None):
+    """3.10 GRID ANCHOR. Find the two goal rates whose grid best matches Pinnacle's own de-margined prices:
+    the 1X2 set (h, d, a) and totals {line: probability of over}. Two parameters against four or more numbers.
+    The fitted grid then prices the goal lines Pinnacle does NOT quote - over 1.5, both teams to score, team
+    goals, every bet-builder combination - instead of the model, which the market has already overruled on the
+    lines it does quote. On Pinnacle's own slate of 27 Nov 2026 the fitted grid came within 0.8 points of
+    Pinnacle's price on the lines it was not fitted to, where Jarvis' model was 4-5.6 points out
+    (research/market_grid.json). Returns (lam_home, lam_away, residual), the
+    residual being the root-mean-square error per price, so that a match quoting many lines is judged like one
+    quoting few; or None. Deterministic: a coarse walk on total and supremacy, then finer ones."""
+    if not (isinstance(h, float) and isinstance(d, float) and isinstance(a, float)) or not totals:
+        return None
+
+    def loss(T, S):
+        lh, la = (T + S) / 2, (T - S) / 2
+        if lh <= 0.02 or la <= 0.02:
+            return 9e9
+        H, D, A, tot = _grid_1x2_totals(mixed_grid(lh, la, cv, rho))
+        e = (H - h) ** 2 + (D - d) ** 2 + (A - a) ** 2
+        for L, p in totals.items():
+            e += (sum(v for k, v in tot.items() if k > L) - p) ** 2
+        return e
+
+    n_t = 3 + len(totals)
+    T, S, best = 2.7, 0.0, None
+    for step in (0.8, 0.2, 0.05, 0.01):
+        for _ in range(12):
+            cands = [(loss(T + i * step, S + j * step), T + i * step, S + j * step)
+                     for i in (-1, 0, 1) for j in (-1, 0, 1)]
+            e, T2, S2 = min(cands)
+            if (T2, S2) == (T, S):
+                break
+            T, S, best = T2, S2, e
+    if best is None:
+        best = loss(T, S)
+    return (T + S) / 2, (T - S) / 2, math.sqrt(best / n_t)
 
 
 def combo_quantile(legs_pq, q):
@@ -626,6 +703,37 @@ def process_match(m, statuses, now, cfg):
             sets_by_group[x["group"]] = True
     stale_min = cfg.get("staleOddsMin", 180)
     stale_keys = [kk for kk, t in odds_at.items() if (odds_age_minutes(t, now) or 0) > stale_min]
+    # 3.10 grid anchor: fit the goal rates to Pinnacle's own 1X2 and totals, for the goal lines it does not quote
+    mg, mgrid, mnames = cfg.get("marketGrid") or {}, None, None
+    if sport == "football" and cfg.get("marketAnchor") and mg.get("cv") is not None:
+        hn0, an0 = inp["home"].get("name", "Home"), inp["away"].get("name", "Away")
+        tri = [pm.get(line_key("Match result", x)) for x in (hn0, "Draw", an0)]
+        tot = {}
+        for x in priced["markets"]:
+            t = re.match(r"Over (\d+(?:\.\d+)?)$", x["selection"]) if x["group"] == "Total goals" else None
+            kk = line_key(x["group"], x["selection"])
+            if t and kk in pm:
+                tot[float(t.group(1))] = pm[kk]
+        if all(isinstance(v, float) for v in tri) and tot:
+            fitted = fit_market_grid(*tri, tot, mg["cv"], model.P["dc_rho"])
+            if fitted and fitted[2] <= mg.get("maxResidual", 0.02):
+                mgrid = fitted
+                mnames = (hn0, an0)
+    grid_cache = {} if mgrid is None else {"g": mixed_grid(mgrid[0], mgrid[1], mg["cv"], model.P["dc_rho"])}
+    # 3.10: the same grid fitted to the FIRST prices seen today, so a goal line Pinnacle does not quote still
+    # knows which way the market has moved (research/line_drift_totals.json: on the over/under market the
+    # movement is the whole signal - a soft price beating Pinnacle's fair price without it returned -5%)
+    drift = m.get("drift") or {}
+    if mgrid is not None and drift:
+        tri0 = [(drift.get(line_key("Match result", x)) or {}).get("first") for x in mnames[:1] + ("Draw",) + mnames[1:]]
+        tot0 = {L: (drift.get(line_key("Total goals", f"Over {L:g}")) or {}).get("first") for L in tot}
+        tot0 = {L: v for L, v in tot0.items() if isinstance(v, float)}
+        if all(isinstance(v, float) for v in tri0) and tot0:
+            was = fit_market_grid(*tri0, tot0, mg["cv"], model.P["dc_rho"])
+            if was and was[2] <= mg.get("maxResidual", 0.02):
+                grid_cache["was"] = mixed_grid(was[0], was[1], mg["cv"], model.P["dc_rho"])
+                seen = [e["since"] for e in drift.values() if e.get("since")]
+                grid_cache["sinceWas"] = min(seen) if seen else None
     rows = []
     for x in priced["markets"]:
         k = line_key(x["group"], x["selection"])
@@ -647,8 +755,20 @@ def process_match(m, statuses, now, cfg):
         anchored = bool(cfg.get("marketAnchor")) and ref_kind == "novig"
         p_model = p
         row_tier = tier
+        moved = None
+        if not anchored and mgrid is not None and x["group"] in GOAL_FAMILIES_ALL:
+            pred = leg_predicate(x["group"], x["selection"], *mnames)
+            if pred is not None:               # a goal line Pinnacle does not quote: the fitted market grid prices it
+                p, anchored, row_tier = grid_prob(grid_cache["g"], [pred]), "grid", "M"
+                if "was" in grid_cache:
+                    moved = {"move": round((p - grid_prob(grid_cache["was"], [pred])) * 100, 1),
+                             "since": grid_cache["sinceWas"], "kind": "grid"}
+        if anchored is True and k in drift and drift[k].get("move") is not None:
+            moved = {"move": round(drift[k]["move"] * 100, 1), "since": drift[k].get("since"), "kind": "price"}
         if anchored:
-            p, row_tier = p_ref, "M"           # minimum = 3% over Pinnacle's fair price (research/value_backtest.py)
+            if anchored is True:
+                p = p_ref                      # minimum = 3% over Pinnacle's fair price (research/value_backtest.py)
+            row_tier = "M"
             s = prob_summary(p, "M", cfg)
             lo1, hi1 = v1_band(p, "M", cfg)
         typed = isinstance(mgm.get(k), (int, float)) and mgm.get(k) > 1
@@ -691,7 +811,9 @@ def process_match(m, statuses, now, cfg):
         })
         if anchored:
             rows[-1]["probModel"] = x["prob"]
-            rows[-1]["anchored"] = True
+            rows[-1]["anchored"] = anchored
+        if moved is not None and abs(moved["move"]) >= 0.5:
+            rows[-1]["drift"] = moved
         if h12_used:
             rows[-1]["prob11"] = h12_info["prob11"].get(k)
     # Shadow model 1.2: same inputs plus the P2 fields; stored next to 1.1, never used to decide.
@@ -725,8 +847,13 @@ def process_match(m, statuses, now, cfg):
         out["hockeyModel"] = {k: v for k, v in h12_info.items() if k != "prob11"}
     if sport == "football":
         lh, la = football_lambdas(inp)
-        out["grid"] = {"lh": round(lh, 6), "la": round(la, 6), "rho": model.P["dc_rho"],
+        out["grid"] = {"lh": round(lh, 6), "la": round(la, 6), "rho": model.P["dc_rho"], "cv": 0.0,
                        "home": inp["home"].get("name", "Home"), "away": inp["away"].get("name", "Away")}
+        if mgrid is not None:                  # 3.10: builders and combos use the market's rates
+            out["grid"].update(lh=round(mgrid[0], 6), la=round(mgrid[1], 6), cv=mg["cv"], source="market",
+                               residual=round(mgrid[2], 5), modelLh=round(lh, 6), modelLa=round(la, 6))
+            out["expected"] = dict(out["expected"], market_home_goals=round(mgrid[0], 2),
+                                   market_away_goals=round(mgrid[1], 2))
     return out
 
 
@@ -848,7 +975,8 @@ def _pick(r):
 
 
 def _anchored_goals(m, cfg):
-    """3.8: an anchored football match (Pinnacle's complete 1X2 set present): its goal markets are the market's."""
+    """3.8: an anchored football match (Pinnacle's complete 1X2 set present): its goal markets are the market's,
+    either directly (anchored true) or through the grid fitted to Pinnacle's prices (anchored "grid", 3.10)."""
     return bool(cfg.get("marketAnchor")) and m.get("sport") == "football" and any(
         r.get("anchored") and r["group"] == "Match result" for r in m["markets"])
 
@@ -863,13 +991,44 @@ def extra_products(processed, cfg, rules, room, add, taken):
     ck, cb, pb = hr["check"], hr["combo"], hr["playerBuilder"]
     trust = {m["id"]: _distrusted(m, cfg) for m in processed}
     ok_trust = lambda m, r: FAMILY_GROUP.get(r["group"], r["group"]) not in trust[m["id"]]
-    ok_group = lambda m, r: ok_trust(m, r) and not (r["group"] in GOAL_FAMILIES_ALL and _anchored_goals(m, cfg))
+    # 3.10: a goal line of an anchored match may be offered again when the PRICE comes from the market - either
+    # Pinnacle's own de-margined price or the grid fitted to it. Only a goal line still priced by the model is
+    # kept out, because 3.8 established that the model's goal prices are worth nothing against the market.
+    ok_group = lambda m, r: ok_trust(m, r) and not (r["group"] in GOAL_FAMILIES_ALL and _anchored_goals(m, cfg)
+                                                    and not r.get("anchored"))
     # what the value singles and goal builders already hold (never offered twice)
     used_keys = set()
     for b in add.products:
         for mid, r in _rows_of(b):
             used_keys.add((mid, _gkey(r)))
-    # same-match builders first (owner's favourite): a likely goal leg (over/yes) + a likely player-shots leg. Priced as independent legs:
+    # check-the-price singles: the most likely line per match without a public price, in a sensible price range.
+    # 3.10: run twice. First only lines whose probability comes from the MARKET (Pinnacle's own de-margined price
+    # or the grid fitted to it) - over 1.5 goals, a team to score, both teams to score. They are the most widely
+    # offered bets at his three bookmakers and the only check singles whose price rests on something measurable,
+    # so they get the first slot of the match. Then the builders and combos below, then everything else.
+    def check_pass(market_only):
+        for m in processed:
+            if not room(m["id"]):
+                continue
+            lines = [r for r in m["markets"] if r["group"] in CHECK_FAMILIES and _checkable(r, rules) and ok_group(m, r)
+                     and _calibrated(m, r) and _near(m, r, cfg) and (r.get("anchored") or not market_only)
+                     and r["prob"] / 100 >= ck["minProb"] and ck["minOdds"][0] <= r["minOdds"] <= ck["minOdds"][1]
+                     and (m["id"], r["key"]) not in taken]
+            seen = {k for mid, k in used_keys if mid == m["id"]}      # not again what another product already holds
+            for r in sorted(lines, key=lambda r: -r["prob"]):
+                grp = _gkey(r)
+                if grp in seen:
+                    continue
+                seen.add(grp)
+                if add({"tier": "safe" if r["prob"] >= 70 else "value", "kind": "check", "pick": _pick(r),
+                        "matchId": m["id"], "event": m["event"], "start": m["start"], "needsPrice": True, "line": r},
+                       [m["id"]]):
+                    used_keys.add((m["id"], grp))
+
+    check_pass(True)                      # market-priced goal lines take the first slot of each match
+
+
+    # same-match builders (owner's favourite): a likely goal leg (over/yes) + a likely player-shots leg. Priced as independent legs:
     # both lean the same way (more attacking play), so the real joint chance is at least the product - cautious.
     for m in processed:
         if not room(m["id"]):
@@ -939,24 +1098,7 @@ def extra_products(processed, cfg, rules, room, add, taken):
         if add(bet, [m["id"] for m, _ in legs]):
             used_keys |= {(m["id"], _gkey(r)) for m, r in legs}
             n_combo += 1
-    # check-at-BetMGM singles: the most likely unpriced line per match in a sensible price range
-    for m in processed:
-        if not room(m["id"]):
-            continue
-        lines = [r for r in m["markets"] if r["group"] in CHECK_FAMILIES and _checkable(r, rules) and ok_group(m, r)
-                 and _calibrated(m, r) and _near(m, r, cfg)
-                 and r["prob"] / 100 >= ck["minProb"] and ck["minOdds"][0] <= r["minOdds"] <= ck["minOdds"][1]
-                 and (m["id"], r["key"]) not in taken]
-        seen = {k for mid, k in used_keys if mid == m["id"]}      # not again what a combo/builder/single already holds
-        for r in sorted(lines, key=lambda r: -r["prob"]):
-            grp = _gkey(r)
-            if grp in seen:
-                continue
-            seen.add(grp)
-            add({"tier": "safe" if r["prob"] >= 70 else "value", "kind": "check", "pick": _pick(r), "matchId": m["id"], "event": m["event"],
-                 "start": m["start"], "needsPrice": True, "line": r}, [m["id"]])
-
-
+    check_pass(False)                     # then every other likely line without a public price
 def build_products(processed, open_bets, cfg, rules):
     hr = (cfg.get("hitrate") or {}) if cfg.get("profile") == "hitrate" else None
     per_event = {}

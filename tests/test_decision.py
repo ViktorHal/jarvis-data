@@ -929,12 +929,16 @@ def test_38_market_anchor():
         ms = [priced_match(i) for i in range(3)]
         res = D.run({"now": NOW, "matches": ms, "markets": STATUSES, "openBets": [], "config": {"mode": "active"}})
         rows = [r for m in res["matches"] for r in m["markets"]]
-        anchored = [r for r in rows if r.get("anchored")]
+        anchored = [r for r in rows if r.get("anchored") is True]
         assert anchored, "complete Pinnacle sets anchor the probability"
         for r in anchored:
             assert r["prob"] == r["pMarket"] and "probModel" in r and r["gap"] == 0
             if r.get("odds") is not None:
                 assert not r["v1"]["post"]      # Pinnacle-only price: never a value single
+        # 3.10: the goal lines Pinnacle does not quote are priced by the grid fitted to the prices it does
+        grid = [r for r in rows if r.get("anchored") == "grid"]
+        assert grid and all("probModel" in r and r["group"] in D.GOAL_FAMILIES_ALL for r in grid)
+        assert all(r.get("pMarket") is None for r in grid)        # no direct price of their own
         assert not [b for b in res["products"] if "line" in b and not b.get("kind")]
         # a typed bookmaker price that beats the minimum does post
         m = priced_match(0)
@@ -998,3 +1002,97 @@ def test_39_only_lines_a_bookmaker_quotes_are_offered():
     # and a market without a quoted range (goals) is untouched
     assert D._near(m, {"group": "Total goals", "selection": "Over 2.5"}, cfg)
     assert all(rng[g][0] <= rng[g][1] for g in rng)
+
+
+def test_310_mixed_grid_keeps_the_mean_and_widens_the_total():
+    """The market's goal distribution is a little wider than independent Poisson with the same mean, because the
+    market is also unsure of the rates. cv adds exactly that, without moving the expected number of goals."""
+    plain, wide = D.mixed_grid(1.6, 1.1, 0.0), D.mixed_grid(1.6, 1.1, 0.25)
+    for g in (plain, wide):
+        assert abs(sum(map(sum, g)) - 1) < 1e-9
+    mean = lambda g: sum((i + j) * g[i][j] for i in range(len(g)) for j in range(len(g)))
+    var = lambda g: sum(((i + j) - mean(g)) ** 2 * g[i][j] for i in range(len(g)) for j in range(len(g)))
+    assert mean(wide) == pytest.approx(mean(plain), abs=0.01)
+    assert var(wide) > var(plain) * 1.05
+    # and the extremes grow, which is what the market's own prices showed
+    assert D.grid_prob(wide, [lambda i, j: i + j > 4.5]) > D.grid_prob(plain, [lambda i, j: i + j > 4.5])
+
+
+def test_310_fit_market_grid_recovers_the_rates_that_made_the_prices():
+    for lh, la, cv in ((1.6, 1.1, 0.0), (2.1, 0.7, 0.25), (1.0, 1.0, 0.25), (0.9, 2.3, 0.25)):
+        g = D.mixed_grid(lh, la, cv)
+        h, d, a, tot = D._grid_1x2_totals(g)
+        totals = {L: sum(v for k, v in tot.items() if k > L) for L in (1.5, 2.5, 3.5)}
+        got = D.fit_market_grid(h, d, a, totals, cv)
+        assert got is not None
+        assert got[0] == pytest.approx(lh, abs=0.02) and got[1] == pytest.approx(la, abs=0.02)
+        assert got[2] < 0.002
+    # prices no grid can produce (a draw more likely than either win at four goals a game) come back with a
+    # residual far above the configured limit, which is what makes process_match fall back to the model
+    bad = D.fit_market_grid(0.2, 0.6, 0.2, {2.5: 0.95, 3.5: 0.9}, 0.25)
+    assert bad is not None and bad[2] > 10 * D.DEFAULT_CONFIG["marketGrid"]["maxResidual"]
+    assert D.fit_market_grid(None, 0.3, 0.3, {2.5: 0.5}, 0.25) is None
+    assert D.fit_market_grid(0.4, 0.3, 0.3, {}, 0.25) is None
+
+
+def test_310_goal_lines_pinnacle_does_not_quote_are_priced_by_the_fitted_grid():
+    D.DEFAULT_CONFIG["marketAnchor"] = True
+    try:
+        cfg = D.load_config()
+        res = D.run({"now": NOW, "matches": [priced_match(i) for i in range(3)], "markets": STATUSES,
+                     "openBets": [], "config": {"mode": "active", "profile": "hitrate"}})
+        for m in res["matches"]:
+            g = m["grid"]
+            assert g["source"] == "market" and g["cv"] == cfg["marketGrid"]["cv"] and "modelLh" in g
+            grid = D.mixed_grid(g["lh"], g["la"], g["cv"], g["rho"])
+            for r in m["markets"]:
+                if r.get("anchored") != "grid":
+                    continue
+                pred = D.leg_predicate(r["group"], r["selection"], g["home"], g["away"])
+                assert r["prob"] == pytest.approx(D.grid_prob(grid, [pred]) * 100, abs=0.06)
+                assert r["nEff"] == cfg["nEff"]["M"] and r["minOdds"] >= round(100 / r["prob"], 2)
+            # a market-priced goal line may be offered again; one still priced by the model may not
+            offered = {(r["group"], r["selection"]) for b in res["products"] for mid, r in D._rows_of(b) if mid == m["id"]}
+            model_only = {(r["group"], r["selection"]) for r in m["markets"]
+                          if r["group"] in D.GOAL_FAMILIES_ALL and not r.get("anchored")}
+            assert not (offered & model_only)
+        assert [b for b in res["products"] if b.get("kind") == "check"
+                and any(r.get("anchored") for _, r in D._rows_of(b))], "market-priced goal checks are posted"
+    finally:
+        D.DEFAULT_CONFIG["marketAnchor"] = False
+
+
+def test_310_the_market_move_reaches_the_lines_pinnacle_does_not_quote():
+    """research/line_drift_totals.json: on the over/under market the movement is the whole signal - a soft price
+    beating Pinnacle's fair price without it returned -5% over 2,243 bets, with it +5.8% and a closing-line value
+    of +6.9% over 470. A line Pinnacle does not quote has no movement of its own, so it gets the movement of the
+    grid: fit it twice, to the first prices seen and to the latest."""
+    D.DEFAULT_CONFIG["marketAnchor"] = True
+    try:
+        m = priced_match(0)
+        novig = D.market_probs([{"group": r["group"], "selection": r["selection"]}
+                                for r in model.run({"sport": "football", **m["inputs"]})["markets"]], m["marketOdds"])
+        # this morning the market was three points shorter on every over
+        m["drift"] = {}
+        for k, p in novig.items():
+            if k.startswith("Match_result") or k.startswith("Total_goals"):
+                first = p - 0.03 if "_Over_" in k else p + 0.03 if "_Under_" in k else p
+                m["drift"][k] = {"move": round(p - first, 5), "first": round(first, 5), "since": "2026-11-25T09:00:00Z"}
+        res = D.run({"now": NOW, "matches": [m], "markets": STATUSES, "openBets": [], "config": {"mode": "active"}})
+        rows = {(r["group"], r["selection"]): r for r in res["matches"][0]["markets"]}
+        quoted = rows[("Total goals", "Over 2.5")]
+        assert quoted["anchored"] is True and quoted["drift"]["kind"] == "price"
+        assert quoted["drift"]["move"] == pytest.approx(3.0, abs=0.01)
+        derived = rows[("Team goals", "Home0 over 1.5")]      # Pinnacle quotes no team totals here
+        assert derived["anchored"] == "grid" and derived["drift"]["kind"] == "grid"
+        assert derived["drift"]["move"] > 0.5 and derived["drift"]["since"] == "2026-11-25T09:00:00Z"
+        # and the other way round for the lines the move went against
+        for key in (("Total goals", "Under 3.5"), ("Both teams to score", "No")):
+            if key in rows and rows[key].get("drift"):
+                assert rows[key]["drift"]["move"] < 0
+        # no drift recorded means no drift field anywhere
+        plain = D.run({"now": NOW, "matches": [priced_match(0)], "markets": STATUSES, "openBets": [],
+                       "config": {"mode": "active"}})
+        assert not [r for r in plain["matches"][0]["markets"] if r.get("drift")]
+    finally:
+        D.DEFAULT_CONFIG["marketAnchor"] = False

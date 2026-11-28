@@ -632,11 +632,19 @@ def build(now=None):
     out = D.run(payload)
     for b in out["products"]:
         b["needsSquadCheck"] = any(r.get("group", "").startswith("Player") for _, r in D._rows_of(b))
-    # ranking for the scan (it posts the best of these): value singles first (they beat Pinnacle's own price, the
-    # only kind with a measured edge), then by chance of winning, lines without a player before player lines
+    # Ranking for the scan, which posts the best of these. Value singles first (they beat Pinnacle's own price,
+    # the only kind with a measured edge), then every product whose price rests on the market - Pinnacle's own
+    # de-margined price or the grid fitted to it (decision.py 3.10) - then the rest, which are the model's word
+    # alone; within each group the ones needing a squad check come last and the likeliest first.
+    dmin = 100 * (D.DEFAULT_CONFIG.get("hunt") or {}).get("driftMin", 0.02)
+
     def rank(b):
         conf = b.get("confidence") if b.get("confidence") is not None else b["line"]["prob"]
-        return (0 if "line" in b and b["line"].get("odds") and not b.get("kind") else 1, b["needsSquadCheck"], -conf)
+        rows = [r for _, r in D._rows_of(b)]
+        value = "line" in b and b["line"].get("odds") and not b.get("kind")
+        market = all(r.get("anchored") for r in rows)
+        moving = market and all((r.get("drift") or {}).get("move", -9) >= dmin for r in rows)
+        return (0 if value else 1 if moving else 2 if market else 3, b["needsSquadCheck"], -conf)
     out["products"].sort(key=rank)
     for i, b in enumerate(out["products"]):
         b["rank"] = i + 1
@@ -649,7 +657,7 @@ def build(now=None):
         board.append({"id": r["id"], "event": r["event"], "sport": r["sport"], "league": pm[r["id"]]["league"], "start": r["start"],
                       "expected": r["expected"], "goalModel": pm[r["id"]]["auto"]["goalModel"],
                       "coverage": (r.get("coverage") or {}).get("pct"),
-                      "lines": [{k: x.get(k) for k in ("group", "selection", "key", "prob", "minOdds", "odds", "pMarket", "gap", "ev", "status")}
+                      "lines": [{k: x.get(k) for k in ("group", "selection", "key", "prob", "minOdds", "odds", "pMarket", "gap", "ev", "status", "anchored", "probModel", "drift")}
                                 | {"post": x[out["rules"]]["post"]} for x in keep[:25]]})
     meta = {"fetchedAt": now_iso(), "oddsFetchedAt": odds["meta"].get("fetchedAt"), "repoCommit": repo.commit,
             "decisionVersion": out["decisionVersion"], "rules": out["rules"], "profile": out["profile"],

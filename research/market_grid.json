@@ -1,0 +1,203 @@
+{
+ "test1_fittedGridVsPinnaclesOtherLines": {
+  "matches": 205,
+  "fittedTo": [
+   2.5
+  ],
+  "byCv": {
+   "0.0": {
+    "fitRmsPP": 0.423,
+    "over1.5": {
+     "n": 108,
+     "meanPP": 1.47,
+     "meanAbsPP": 1.48,
+     "maxAbsPP": 3.23
+    },
+    "over3.5": {
+     "n": 199,
+     "meanPP": -1.26,
+     "meanAbsPP": 1.29,
+     "maxAbsPP": 3.0
+    },
+    "over4.5": {
+     "n": 100,
+     "meanPP": -1.74,
+     "meanAbsPP": 1.76,
+     "maxAbsPP": 4.1
+    },
+    "over5.5": {
+     "n": 25,
+     "meanPP": -1.75,
+     "meanAbsPP": 1.75,
+     "maxAbsPP": 3.23
+    }
+   },
+   "0.15": {
+    "fitRmsPP": 0.414,
+    "over1.5": {
+     "n": 108,
+     "meanPP": 1.21,
+     "meanAbsPP": 1.22,
+     "maxAbsPP": 3.0
+    },
+    "over3.5": {
+     "n": 199,
+     "meanPP": -0.87,
+     "meanAbsPP": 0.96,
+     "maxAbsPP": 2.47
+    },
+    "over4.5": {
+     "n": 100,
+     "meanPP": -1.12,
+     "meanAbsPP": 1.26,
+     "maxAbsPP": 3.35
+    },
+    "over5.5": {
+     "n": 25,
+     "meanPP": -0.98,
+     "meanAbsPP": 1.08,
+     "maxAbsPP": 2.64
+    }
+   },
+   "0.25": {
+    "fitRmsPP": 0.401,
+    "over1.5": {
+     "n": 108,
+     "meanPP": 0.75,
+     "meanAbsPP": 0.85,
+     "maxAbsPP": 2.51
+    },
+    "over3.5": {
+     "n": 199,
+     "meanPP": -0.18,
+     "meanAbsPP": 0.6,
+     "maxAbsPP": 1.95
+    },
+    "over4.5": {
+     "n": 100,
+     "meanPP": -0.03,
+     "meanAbsPP": 0.81,
+     "maxAbsPP": 3.0
+    },
+    "over5.5": {
+     "n": 25,
+     "meanPP": 0.42,
+     "meanAbsPP": 0.8,
+     "maxAbsPP": 2.72
+    }
+   },
+   "0.35": {
+    "fitRmsPP": 0.401,
+    "over1.5": {
+     "n": 108,
+     "meanPP": 0.02,
+     "meanAbsPP": 0.55,
+     "maxAbsPP": 1.82
+    },
+    "over3.5": {
+     "n": 199,
+     "meanPP": 0.85,
+     "meanAbsPP": 0.95,
+     "maxAbsPP": 3.11
+    },
+    "over4.5": {
+     "n": 100,
+     "meanPP": 1.57,
+     "meanAbsPP": 1.61,
+     "maxAbsPP": 4.99
+    },
+    "over5.5": {
+     "n": 25,
+     "meanPP": 2.49,
+     "meanAbsPP": 2.49,
+     "maxAbsPP": 6.09
+    }
+   }
+  }
+ },
+ "test1_fittedToTwoLines": {
+  "matches": 205,
+  "fittedTo": [
+   2.5,
+   3.5
+  ],
+  "byCv": {
+   "0.25": {
+    "fitRmsPP": 0.419,
+    "over1.5": {
+     "n": 108,
+     "meanPP": 0.8,
+     "meanAbsPP": 0.83,
+     "maxAbsPP": 2.35
+    },
+    "over4.5": {
+     "n": 100,
+     "meanPP": -0.03,
+     "meanAbsPP": 0.58,
+     "maxAbsPP": 2.27
+    },
+    "over5.5": {
+     "n": 25,
+     "meanPP": 0.29,
+     "meanAbsPP": 0.6,
+     "maxAbsPP": 2.3
+    }
+   }
+  }
+ },
+ "test1b_jarvisModelVsPinnacleSameLines": {
+  "over1.5": {
+   "n": 69,
+   "meanPP": 1.12,
+   "meanAbsPP": 4.02,
+   "maxAbsPP": 20.3
+  },
+  "over2.5": {
+   "n": 98,
+   "meanPP": -0.71,
+   "meanAbsPP": 5.32,
+   "maxAbsPP": 24.7
+  },
+  "over3.5": {
+   "n": 100,
+   "meanPP": -1.99,
+   "meanAbsPP": 5.59,
+   "maxAbsPP": 25.3
+  },
+  "over4.5": {
+   "n": 67,
+   "meanPP": -2.49,
+   "meanAbsPP": 5.16,
+   "maxAbsPP": 22.9
+  }
+ },
+ "test2_outcomesNotFittedTo": {
+  "matches": 820,
+  "baseRates": {
+   "over1.5": 0.7415,
+   "over3.5": 0.2915,
+   "btts": 0.5244,
+   "homeOver1.5": 0.4049
+  },
+  "over1.5": {
+   "baseRate": 0.57152,
+   "fittedGrid_cv0.0": 0.56298,
+   "fittedGrid_cv0.25": 0.56275
+  },
+  "over3.5": {
+   "baseRate": 0.60346,
+   "fittedGrid_cv0.0": 0.58396,
+   "fittedGrid_cv0.25": 0.58389
+  },
+  "btts": {
+   "baseRate": 0.69196,
+   "fittedGrid_cv0.0": 0.68583,
+   "fittedGrid_cv0.25": 0.68593
+  },
+  "homeOver1.5": {
+   "baseRate": 0.67494,
+   "fittedGrid_cv0.0": 0.62906,
+   "fittedGrid_cv0.25": 0.62912
+  }
+ }
+}
