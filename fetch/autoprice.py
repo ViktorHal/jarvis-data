@@ -708,8 +708,9 @@ def build(now=None):
                 m["drift"] = d
     except Exception as e:                       # the drift file must never stop a run
         print(f"drift skipped: {e}", file=sys.stderr)
+    booked = 0
     try:
-        attach_book_odds(matches, repo, now, D)
+        booked = attach_book_odds(matches, repo, now, D) or 0
     except Exception as e:                       # the bookmaker feed must never stop a run
         print(f"bookOdds skipped: {e}", file=sys.stderr)
     payload = {"now": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "markets": settings["markets"], "config": settings["config"],
@@ -742,11 +743,12 @@ def build(now=None):
         board.append({"id": r["id"], "event": r["event"], "sport": r["sport"], "league": pm[r["id"]]["league"], "start": r["start"],
                       "expected": r["expected"], "goalModel": pm[r["id"]]["auto"]["goalModel"],
                       "coverage": (r.get("coverage") or {}).get("pct"),
-                      "lines": [{k: x.get(k) for k in ("group", "selection", "key", "prob", "minOdds", "odds", "pMarket", "gap", "ev", "status", "anchored", "probModel", "drift")}
+                      "lines": [{k: x.get(k) for k in ("group", "selection", "key", "prob", "minOdds", "odds", "pMarket", "gap", "ev", "status", "anchored", "probModel", "drift", "book", "bookPrice")}
                                 | {"post": x[out["rules"]]["post"]} for x in keep[:25]]})
     meta = {"fetchedAt": now_iso(), "oddsFetchedAt": odds["meta"].get("fetchedAt"), "repoCommit": repo.commit,
             "decisionVersion": out["decisionVersion"], "rules": out["rules"], "profile": out["profile"],
             "matches": len(matches), "skipped": len(skipped), "products": len(out["products"]),
+            "bookPriced": booked,
             "note": "priced by code from repo data and Pinnacle; line-ups, injuries and referees are NOT known to the robot"}
     return {"meta": meta, "products": out["products"], "favourites": out["favourites"], "hunts": out.get("hunts", []), "matches": board,
             "skipped": skipped, "summary": out["summary"]}, payload

@@ -2,7 +2,8 @@ name: fetch odds
 
 on:
   schedule:
-    - cron: "15 6-22 * * *"   # every hour 07:15-23:15 Stockholm (winter); 2 requests per run, ~34 per day.
+    - cron: "15 5-22 * * *"   # every hour 06:15-23:15 Stockholm (winter); 2 requests per run, ~36 per day,
+    # well under pinnapi's 80. The 05 UTC hour exists so the bookmaker step below lands before the morning scan.
     # :15 and not :35 because GitHub runs cron 10-15 minutes late and the scans start at 07:44, 11:44, 13:44,
     # 17:44 and 20:10 Stockholm: on 28 Nov the 07:35 fetch landed at 07:47, three minutes after the scan had
     # already cloned the repo, so the whole morning was priced on the previous evening's odds.
@@ -39,9 +40,17 @@ jobs:
         run: python fetch/run_odds.py
       # His own bookmakers' prices, so he stops checking them by hand (fetch/oddsapi.py). The free plan is 500
       # credits a MONTH and one request costs markets x regions, so this runs three times a day, two leagues at
-      # a time: 12 credits a day, about 370 a month, under the robot's own cap of 450. The hours are UTC and sit
-      # about half an hour before the scans that make final calls (11:44, 17:44 and 20:10 Stockholm). Without the
-      # ODDSAPI_KEY secret the script writes nothing and says so, and everything else carries on.
+      # a time: 12 credits a day, 360 a month, under the robot's own cap of 450.
+      #
+      # The five scans run at 07:44, 11:44, 13:44, 17:44 and 20:10 Stockholm = 06:44, 10:44, 12:44, 16:44 and
+      # 19:10 UTC, and a book price older than BOOK_MAX_AGE_H (6 h) is ignored. Three fetches cover all five:
+      #   05 UTC -> 06:44 (+1 h) and 10:44 (+5 h)
+      #   11 UTC -> 12:44 (+1 h) and 16:44 (+5 h)
+      #   18 UTC -> 19:10 (+1 h)
+      # The old hours were 10, 16 and 19; 19:15 lands AFTER the 19:10 scan, so the evening scan - the one that
+      # prices the late kick-offs - never saw a bookmaker price. Each fetch also keeps a 25-45 minute margin on
+      # the scan after it, because GitHub runs cron 10-15 minutes late.
+      # Without the ODDSAPI_KEY secret the script writes nothing and says so, and everything else carries on.
       - name: bookmaker prices (BetMGM, Svenska Spel)
         continue-on-error: true
         env:
@@ -50,7 +59,7 @@ jobs:
           H=$(date -u +%H)
           if [ "${{ inputs.books }}" = "true" ]; then H=force; fi
           case "$H" in
-            10|16|19|force) python fetch/oddsapi.py --max-keys=2 --markets=h2h,totals --hours=10 ;;
+            05|11|18|force) python fetch/oddsapi.py --max-keys=2 --markets=h2h,totals --hours=10 ;;
             *) echo "not a bookmaker-price hour ($H UTC)" ;;
           esac
       - name: price every match (data/auto)
