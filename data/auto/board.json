@@ -132,14 +132,14 @@
   },
   {
    "event": "Standard Liege – Club Brugge",
-   "fair": 1.64,
+   "fair": 1.63,
    "key": "Match_result_Club_Brugge",
    "matchId": "2026-11-29-standard-liege-club-brugge",
    "minOdds": 1.69,
-   "odds": 1.5556,
-   "pMarket": 61.1,
+   "odds": 1.5682,
+   "pMarket": 61.3,
    "pick": "Club Brugge (Match result)",
-   "prob": 61.1,
+   "prob": 61.3,
    "start": "2026-11-29T17:30:00Z",
    "value": false
   },
@@ -213,17 +213,31 @@
   },
   {
    "event": "Charleroi – Beveren",
-   "fair": 5.03,
+   "fair": 4.88,
    "key": "Match_result_Beveren",
    "matchId": "2026-11-28-charleroi-beveren",
-   "minOdds": 5.18,
-   "move": 2.9,
+   "minOdds": 5.03,
+   "move": 3.6,
    "pick": "Beveren (Match result)",
-   "pinnacle": 4.87,
-   "prob": 19.9,
+   "pinnacle": 4.72,
+   "prob": 20.5,
    "since": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T19:45:00Z",
    "wasProb": 16.9
+  },
+  {
+   "event": "Charleroi – Beveren",
+   "fair": 4.26,
+   "key": "Match_result_Draw",
+   "matchId": "2026-11-28-charleroi-beveren",
+   "minOdds": 4.39,
+   "move": 1.7,
+   "pick": "Draw (Match result)",
+   "pinnacle": 4.11,
+   "prob": 23.5,
+   "since": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T19:45:00Z",
+   "wasProb": 21.9
   },
   {
    "event": "Lommel – Zulte Waregem",
@@ -240,57 +254,43 @@
    "wasProb": 25.7
   },
   {
-   "event": "Charleroi – Beveren",
-   "fair": 4.31,
-   "key": "Match_result_Draw",
-   "matchId": "2026-11-28-charleroi-beveren",
-   "minOdds": 4.44,
-   "move": 1.4,
-   "pick": "Draw (Match result)",
-   "pinnacle": 4.16,
-   "prob": 23.2,
-   "since": "2026-11-27T20:47:13Z",
-   "start": "2026-11-28T19:45:00Z",
-   "wasProb": 21.9
-  },
-  {
    "event": "Nice – Troyes",
-   "fair": 5.0,
+   "fair": 4.98,
    "key": "Match_result_Troyes",
    "matchId": "2026-11-28-nice-troyes",
-   "minOdds": 5.15,
-   "move": 1.2,
+   "minOdds": 5.13,
+   "move": 1.4,
    "pick": "Troyes (Match result)",
-   "pinnacle": 4.86,
-   "prob": 20.0,
+   "pinnacle": 4.83,
+   "prob": 20.1,
    "since": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T19:45:00Z",
    "wasProb": 18.7
   },
   {
    "event": "Vitoria Guimaraes – Estrela da Amadora",
-   "fair": 4.46,
+   "fair": 4.41,
    "key": "Match_result_Estrela_da_Amadora",
    "matchId": "2026-11-28-vitoria-guimaraes-estrela-da-amadora",
-   "minOdds": 4.6,
-   "move": 2.7,
+   "minOdds": 4.54,
+   "move": 3.0,
    "pick": "Estrela da Amadora (Match result)",
-   "pinnacle": 4.32,
-   "prob": 22.4,
+   "pinnacle": 4.27,
+   "prob": 22.7,
    "since": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T20:30:00Z",
    "wasProb": 19.7
   },
   {
    "event": "Vitoria Guimaraes – Estrela da Amadora",
-   "fair": 3.88,
+   "fair": 3.86,
    "key": "Match_result_Draw",
    "matchId": "2026-11-28-vitoria-guimaraes-estrela-da-amadora",
-   "minOdds": 4.0,
-   "move": 1.3,
+   "minOdds": 3.98,
+   "move": 1.5,
    "pick": "Draw (Match result)",
-   "pinnacle": 3.76,
-   "prob": 25.8,
+   "pinnacle": 3.74,
+   "prob": 25.9,
    "since": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T20:30:00Z",
    "wasProb": 24.5
@@ -1460,11 +1460,11 @@
     "cards": 4.15,
     "cardsModel": "v2",
     "corners": 10.9,
-    "corners_away": 6.07,
-    "corners_home": 4.86,
+    "corners_away": 6.08,
+    "corners_home": 4.85,
     "home_goals": 1.53,
-    "market_away_goals": 1.56,
-    "market_home_goals": 1.31,
+    "market_away_goals": 1.57,
+    "market_home_goals": 1.3,
     "setPieceModel": "v2"
    },
    "goalModel": "stats",
@@ -1498,11 +1498,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Hannover_96_over_2_5",
-     "minOdds": 1.17,
+     "minOdds": 1.16,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 89.4,
+     "prob": 89.5,
      "probModel": null,
      "selection": "Hannover 96 over 2.5",
      "status": "trial"
@@ -1518,7 +1518,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 86.7,
+     "prob": 86.8,
      "probModel": null,
      "selection": "Under 6.5",
      "status": "trial"
@@ -1566,11 +1566,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Osnabruck_over_2_5",
-     "minOdds": 1.28,
+     "minOdds": 1.29,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 81.6,
+     "prob": 81.5,
      "probModel": null,
      "selection": "Osnabruck over 2.5",
      "status": "trial"
@@ -1586,7 +1586,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 80.2,
+     "prob": 80.3,
      "probModel": null,
      "selection": "Hannover 96 over 3.5",
      "status": "trial"
@@ -1595,7 +1595,7 @@
      "anchored": "grid",
      "drift": {
       "kind": "grid",
-      "move": -0.9,
+      "move": -0.8,
       "since": "2026-11-27T19:46:25Z"
      },
      "ev": -4.5,
@@ -1603,10 +1603,10 @@
      "group": "Team goals",
      "key": "Team_goals_Hannover_96_over_0_5",
      "minOdds": 1.32,
-     "odds": 1.2203,
-     "pMarket": 78.0,
+     "odds": 1.2183,
+     "pMarket": 78.2,
      "post": false,
-     "prob": 78.3,
+     "prob": 78.4,
      "probModel": 65.6,
      "selection": "Hannover 96 over 0.5",
      "status": "active"
@@ -1622,7 +1622,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.5,
+     "prob": 77.4,
      "probModel": null,
      "selection": "Over 2.5",
      "status": "trial"
@@ -1658,7 +1658,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 75.7,
+     "prob": 75.8,
      "probModel": null,
      "selection": "Under 5.5",
      "status": "trial"
@@ -1674,7 +1674,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 72.8,
+     "prob": 72.9,
      "probModel": null,
      "selection": "Over 8.5",
      "status": "trial"
@@ -1699,18 +1699,18 @@
      "anchored": "grid",
      "drift": {
       "kind": "grid",
-      "move": -2.7,
+      "move": -2.8,
       "since": "2026-11-27T19:46:25Z"
      },
      "ev": -5.5,
      "gap": -0.6,
      "group": "Team goals",
      "key": "Team_goals_Osnabruck_over_0_5",
-     "minOdds": 1.43,
-     "odds": 1.3096,
-     "pMarket": 72.7,
+     "minOdds": 1.44,
+     "odds": 1.3115,
+     "pMarket": 72.6,
      "post": false,
-     "prob": 72.2,
+     "prob": 72.0,
      "probModel": 78.3,
      "selection": "Osnabruck over 0.5",
      "status": "active"
@@ -1724,9 +1724,9 @@
      "key": "Double_chance_Hannover_96_or_draw",
      "minOdds": 1.48,
      "odds": null,
-     "pMarket": 69.7,
+     "pMarket": 69.9,
      "post": false,
-     "prob": 69.7,
+     "prob": 69.9,
      "probModel": 52.9,
      "selection": "Hannover 96 or draw",
      "status": "active"
@@ -1758,7 +1758,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 67.9,
+     "prob": 68.1,
      "probModel": null,
      "selection": "Hannover 96 over 4.5",
      "status": "trial"
@@ -1770,11 +1770,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Osnabruck_over_3_5",
-     "minOdds": 1.57,
+     "minOdds": 1.58,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 67.5,
+     "prob": 67.4,
      "probModel": null,
      "selection": "Osnabruck over 3.5",
      "status": "trial"
@@ -1803,18 +1803,18 @@
      "anchored": true,
      "drift": {
       "kind": "price",
-      "move": -1.4,
+      "move": -1.3,
       "since": "2026-11-28T09:47:15Z"
      },
-     "ev": -6.9,
+     "ev": -6.2,
      "gap": 0.0,
      "group": "Corners",
      "key": "Corners_Under_11_5",
      "minOdds": 1.69,
-     "odds": 1.5263,
-     "pMarket": 61.0,
+     "odds": 1.5348,
+     "pMarket": 61.1,
      "post": false,
-     "prob": 61.0,
+     "prob": 61.1,
      "probModel": 58.9,
      "selection": "Under 11.5",
      "status": "trial"
@@ -1826,11 +1826,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_4_5",
-     "minOdds": 1.79,
+     "minOdds": 1.78,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 60.0,
+     "prob": 60.1,
      "probModel": null,
      "selection": "Under 4.5",
      "status": "trial"
@@ -12113,7 +12113,7 @@
     "away_goals": 1.15,
     "home_goals": 1.32,
     "market_away_goals": 1.17,
-    "market_home_goals": 1.84
+    "market_home_goals": 1.83
    },
    "goalModel": "stats",
    "id": "2026-11-28-vitoria-guimaraes-estrela-da-amadora",
@@ -12198,7 +12198,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 83.2,
+     "prob": 83.1,
      "probModel": 73.4,
      "selection": "Vitoria Guimaraes over 0.5",
      "status": "active"
@@ -12231,10 +12231,10 @@
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
      "minOdds": 1.27,
-     "odds": 1.1835,
-     "pMarket": 81.2,
+     "odds": 1.1825,
+     "pMarket": 81.3,
      "post": false,
-     "prob": 81.2,
+     "prob": 81.3,
      "probModel": 89.5,
      "selection": "Under 4.5",
      "status": "active"
@@ -12251,28 +12251,12 @@
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.24,
-     "odds": 1.2146,
+     "odds": 1.2155,
      "pMarket": 79.1,
      "post": false,
      "prob": 79.1,
      "probModel": 71.4,
      "selection": "Over 1.5",
-     "status": "active"
-    },
-    {
-     "anchored": true,
-     "drift": null,
-     "ev": null,
-     "gap": 0.0,
-     "group": "Double chance",
-     "key": "Double_chance_Vitoria_Guimaraes_or_draw",
-     "minOdds": 1.33,
-     "odds": null,
-     "pMarket": 77.6,
-     "post": false,
-     "prob": 77.6,
-     "probModel": 68.5,
-     "selection": "Vitoria Guimaraes or draw",
      "status": "active"
     },
     {
@@ -12297,12 +12281,28 @@
      "ev": null,
      "gap": 0.0,
      "group": "Double chance",
-     "key": "Double_chance_Vitoria_Guimaraes_or_Estrela_da_Amadora",
-     "minOdds": 1.39,
+     "key": "Double_chance_Vitoria_Guimaraes_or_draw",
+     "minOdds": 1.34,
      "odds": null,
-     "pMarket": 74.2,
+     "pMarket": 77.3,
      "post": false,
-     "prob": 74.2,
+     "prob": 77.3,
+     "probModel": 68.5,
+     "selection": "Vitoria Guimaraes or draw",
+     "status": "active"
+    },
+    {
+     "anchored": true,
+     "drift": null,
+     "ev": null,
+     "gap": 0.0,
+     "group": "Double chance",
+     "key": "Double_chance_Vitoria_Guimaraes_or_Estrela_da_Amadora",
+     "minOdds": 1.4,
+     "odds": null,
+     "pMarket": 74.1,
+     "post": false,
+     "prob": 74.1,
      "probModel": 71.4,
      "selection": "Vitoria Guimaraes or Estrela da Amadora",
      "status": "active"
@@ -12346,11 +12346,11 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Vitoria_Guimaraes",
-     "minOdds": 1.48,
+     "minOdds": 1.49,
      "odds": null,
-     "pMarket": 69.8,
+     "pMarket": 69.4,
      "post": false,
-     "prob": 69.8,
+     "prob": 69.4,
      "probModel": 55.9,
      "selection": "Vitoria Guimaraes",
      "status": "active"
@@ -12359,18 +12359,18 @@
      "anchored": "grid",
      "drift": {
       "kind": "grid",
-      "move": 5.3,
+      "move": 5.5,
       "since": "2026-11-27T19:46:25Z"
      },
      "ev": -5.5,
-     "gap": -0.5,
+     "gap": -0.6,
      "group": "Team goals",
      "key": "Team_goals_Estrela_da_Amadora_over_0_5",
      "minOdds": 1.44,
-     "odds": 1.3876,
-     "pMarket": 68.6,
+     "odds": 1.3831,
+     "pMarket": 68.9,
      "post": false,
-     "prob": 68.1,
+     "prob": 68.3,
      "probModel": 68.2,
      "selection": "Estrela da Amadora over 0.5",
      "status": "active"
@@ -12395,18 +12395,18 @@
      "anchored": true,
      "drift": {
       "kind": "price",
-      "move": -3.4,
+      "move": -3.3,
       "since": "2026-11-27T20:47:13Z"
      },
-     "ev": -4.0,
+     "ev": -3.9,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_3_5",
      "minOdds": 1.6,
      "odds": 1.4902,
-     "pMarket": 64.4,
+     "pMarket": 64.5,
      "post": false,
-     "prob": 64.4,
+     "prob": 64.5,
      "probModel": 76.4,
      "selection": "Under 3.5",
      "status": "active"
@@ -14080,11 +14080,11 @@
     "cards": 3.08,
     "cardsModel": "v2",
     "corners": 10.5,
-    "corners_away": 6.8,
-    "corners_home": 4.2,
+    "corners_away": 6.81,
+    "corners_home": 4.19,
     "home_goals": 1.72,
-    "market_away_goals": 2.29,
-    "market_home_goals": 1.21,
+    "market_away_goals": 2.3,
+    "market_home_goals": 1.2,
     "setPieceModel": "v2"
    },
    "goalModel": "stats",
@@ -14194,11 +14194,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Club_Brugge_over_3_5",
-     "minOdds": 1.23,
+     "minOdds": 1.22,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 85.3,
+     "prob": 85.4,
      "probModel": null,
      "selection": "Club Brugge over 3.5",
      "status": "trial"
@@ -14206,15 +14206,15 @@
     {
      "anchored": true,
      "drift": null,
-     "ev": -4.5,
+     "ev": -4.2,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.22,
-     "odds": 1.1245,
-     "pMarket": 84.9,
+     "odds": 1.1264,
+     "pMarket": 85.1,
      "post": false,
-     "prob": 84.9,
+     "prob": 85.1,
      "probModel": 89.0,
      "selection": "Over 1.5",
      "status": "active"
@@ -14244,9 +14244,9 @@
      "key": "Double_chance_Club_Brugge_or_draw",
      "minOdds": 1.27,
      "odds": null,
-     "pMarket": 81.5,
+     "pMarket": 81.6,
      "post": false,
-     "prob": 81.5,
+     "prob": 81.6,
      "probModel": 66.6,
      "selection": "Club Brugge or draw",
      "status": "active"
@@ -14274,11 +14274,11 @@
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_4_5",
-     "minOdds": 1.32,
+     "minOdds": 1.31,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 79.8,
+     "prob": 79.9,
      "probModel": null,
      "selection": "Under 4.5",
      "status": "trial"
@@ -14292,9 +14292,9 @@
      "key": "Double_chance_Standard_Liege_or_Club_Brugge",
      "minOdds": 1.3,
      "odds": null,
-     "pMarket": 79.6,
+     "pMarket": 79.7,
      "post": false,
-     "prob": 79.6,
+     "prob": 79.7,
      "probModel": 77.6,
      "selection": "Standard Liege or Club Brugge",
      "status": "active"
@@ -14338,11 +14338,11 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Club_Brugge",
-     "minOdds": 1.35,
+     "minOdds": 1.34,
      "odds": null,
-     "pMarket": 76.7,
+     "pMarket": 76.9,
      "post": false,
-     "prob": 76.7,
+     "prob": 76.9,
      "probModel": 57.0,
      "selection": "Club Brugge",
      "status": "active"
@@ -14358,7 +14358,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 75.3,
+     "prob": 75.4,
      "probModel": null,
      "selection": "Club Brugge over 4.5",
      "status": "trial"
@@ -14374,7 +14374,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 74.8,
+     "prob": 74.7,
      "probModel": null,
      "selection": "Standard Liege over 2.5",
      "status": "trial"
@@ -14414,15 +14414,15 @@
     {
      "anchored": true,
      "drift": null,
-     "ev": -4.8,
+     "ev": -4.3,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
-     "minOdds": 1.42,
-     "odds": 1.3049,
-     "pMarket": 73.0,
+     "minOdds": 1.41,
+     "odds": 1.3096,
+     "pMarket": 73.1,
      "post": false,
-     "prob": 73.0,
+     "prob": 73.1,
      "probModel": 68.6,
      "selection": "Under 4.5",
      "status": "active"
@@ -14448,6 +14448,22 @@
      "drift": null,
      "ev": null,
      "gap": null,
+     "group": "Corners",
+     "key": "Corners_Over_8_5",
+     "minOdds": 1.52,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 69.5,
+     "probModel": null,
+     "selection": "Over 8.5",
+     "status": "trial"
+    },
+    {
+     "anchored": null,
+     "drift": null,
+     "ev": null,
+     "gap": null,
      "group": "Player shots",
      "key": "Player_shots_Salieu_Drammeh_1_",
      "minOdds": 1.52,
@@ -14460,33 +14476,17 @@
      "status": "trial"
     },
     {
-     "anchored": null,
-     "drift": null,
-     "ev": null,
-     "gap": null,
-     "group": "Corners",
-     "key": "Corners_Over_8_5",
-     "minOdds": 1.53,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 69.4,
-     "probModel": null,
-     "selection": "Over 8.5",
-     "status": "trial"
-    },
-    {
      "anchored": "grid",
      "drift": null,
-     "ev": -5.3,
-     "gap": -0.4,
+     "ev": -5.1,
+     "gap": -0.2,
      "group": "Team goals",
      "key": "Team_goals_Standard_Liege_over_0_5",
      "minOdds": 1.49,
-     "odds": 1.3663,
-     "pMarket": 69.7,
+     "odds": 1.3717,
+     "pMarket": 69.4,
      "post": false,
-     "prob": 69.3,
+     "prob": 69.2,
      "probModel": 82.1,
      "selection": "Standard Liege over 0.5",
      "status": "active"
@@ -17940,14 +17940,14 @@
    "event": "Charleroi – Beveren",
    "expected": {
     "away_goals": 1.07,
-    "cards": 3.47,
+    "cards": 3.49,
     "cardsModel": "v2",
     "corners": 10.1,
-    "corners_away": 4.22,
-    "corners_home": 5.7,
+    "corners_away": 4.25,
+    "corners_home": 5.64,
     "home_goals": 2.42,
-    "market_away_goals": 1.02,
-    "market_home_goals": 1.9,
+    "market_away_goals": 1.04,
+    "market_home_goals": 1.87,
     "setPieceModel": "v2"
    },
    "goalModel": "stats",
@@ -17985,7 +17985,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 93.2,
+     "prob": 93.1,
      "probModel": null,
      "selection": "Under 6.5",
      "status": "trial"
@@ -18011,22 +18011,6 @@
      "drift": null,
      "ev": null,
      "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Charleroi_over_2_5",
-     "minOdds": 1.19,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 87.6,
-     "probModel": null,
-     "selection": "Charleroi over 2.5",
-     "status": "trial"
-    },
-    {
-     "anchored": null,
-     "drift": null,
-     "ev": null,
-     "gap": null,
      "group": "Player shots",
      "key": "Player_shots_Freddy_Mbemba_1_",
      "minOdds": 1.2,
@@ -18036,6 +18020,22 @@
      "prob": 87.3,
      "probModel": null,
      "selection": "Freddy Mbemba 1+",
+     "status": "trial"
+    },
+    {
+     "anchored": null,
+     "drift": null,
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Charleroi_over_2_5",
+     "minOdds": 1.2,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 87.2,
+     "probModel": null,
+     "selection": "Charleroi over 2.5",
      "status": "trial"
     },
     {
@@ -18065,7 +18065,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 85.6,
+     "prob": 85.4,
      "probModel": null,
      "selection": "Under 5.5",
      "status": "trial"
@@ -18074,18 +18074,18 @@
      "anchored": "grid",
      "drift": {
       "kind": "grid",
-      "move": -2.2,
+      "move": -2.6,
       "since": "2026-11-27T19:46:25Z"
      },
      "ev": null,
      "gap": null,
      "group": "Team goals",
      "key": "Team_goals_Charleroi_over_0_5",
-     "minOdds": 1.23,
+     "minOdds": 1.24,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 84.1,
+     "prob": 83.7,
      "probModel": 91.1,
      "selection": "Charleroi over 0.5",
      "status": "active"
@@ -18094,18 +18094,18 @@
      "anchored": true,
      "drift": {
       "kind": "price",
-      "move": 2.3,
+      "move": 2.5,
       "since": "2026-11-27T20:47:13Z"
      },
      "ev": -3.8,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
-     "minOdds": 1.2,
-     "odds": 1.1686,
-     "pMarket": 82.3,
+     "minOdds": 1.19,
+     "odds": 1.1664,
+     "pMarket": 82.5,
      "post": false,
-     "prob": 82.3,
+     "prob": 82.5,
      "probModel": 72.9,
      "selection": "Under 4.5",
      "status": "active"
@@ -18117,11 +18117,11 @@
      "gap": 0.0,
      "group": "Double chance",
      "key": "Double_chance_Charleroi_or_draw",
-     "minOdds": 1.29,
+     "minOdds": 1.3,
      "odds": null,
-     "pMarket": 80.1,
+     "pMarket": 79.5,
      "post": false,
-     "prob": 80.1,
+     "prob": 79.5,
      "probModel": 85.4,
      "selection": "Charleroi or draw",
      "status": "active"
@@ -18146,18 +18146,18 @@
      "anchored": true,
      "drift": {
       "kind": "price",
-      "move": -1.4,
+      "move": -1.6,
       "since": "2026-11-27T20:47:13Z"
      },
-     "ev": -4.0,
+     "ev": -3.9,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
      "minOdds": 1.33,
-     "odds": 1.2375,
-     "pMarket": 77.6,
+     "odds": 1.2404,
+     "pMarket": 77.4,
      "post": false,
-     "prob": 77.6,
+     "prob": 77.4,
      "probModel": 86.7,
      "selection": "Over 1.5",
      "status": "active"
@@ -18179,22 +18179,6 @@
      "status": "trial"
     },
     {
-     "anchored": null,
-     "drift": null,
-     "ev": null,
-     "gap": null,
-     "group": "Team corners",
-     "key": "Team_corners_Charleroi_over_3_5",
-     "minOdds": 1.37,
-     "odds": null,
-     "pMarket": null,
-     "post": false,
-     "prob": 77.0,
-     "probModel": null,
-     "selection": "Charleroi over 3.5",
-     "status": "trial"
-    },
-    {
      "anchored": true,
      "drift": null,
      "ev": null,
@@ -18203,9 +18187,9 @@
      "key": "Double_chance_Charleroi_or_Beveren",
      "minOdds": 1.35,
      "odds": null,
-     "pMarket": 76.8,
+     "pMarket": 76.5,
      "post": false,
-     "prob": 76.8,
+     "prob": 76.5,
      "probModel": 81.3,
      "selection": "Charleroi or Beveren",
      "status": "active"
@@ -18221,9 +18205,25 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 76.3,
+     "prob": 76.5,
      "probModel": null,
      "selection": "Under 12.5",
+     "status": "trial"
+    },
+    {
+     "anchored": null,
+     "drift": null,
+     "ev": null,
+     "gap": null,
+     "group": "Team corners",
+     "key": "Team_corners_Charleroi_over_3_5",
+     "minOdds": 1.38,
+     "odds": null,
+     "pMarket": null,
+     "post": false,
+     "prob": 76.4,
+     "probModel": null,
+     "selection": "Charleroi over 3.5",
      "status": "trial"
     },
     {
@@ -18237,7 +18237,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 75.8,
+     "prob": 75.6,
      "probModel": null,
      "selection": "Over 7.5",
      "status": "trial"
@@ -18253,26 +18253,10 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 75.1,
+     "prob": 75.4,
      "probModel": null,
      "selection": "Beveren over 2.5",
      "status": "trial"
-    },
-    {
-     "anchored": true,
-     "drift": null,
-     "ev": null,
-     "gap": 0.0,
-     "group": "Draw no bet",
-     "key": "Draw_no_bet_Charleroi",
-     "minOdds": 1.39,
-     "odds": null,
-     "pMarket": 74.1,
-     "post": false,
-     "prob": 74.1,
-     "probModel": 82.1,
-     "selection": "Charleroi",
-     "status": "active"
     },
     {
      "anchored": null,
@@ -18291,17 +18275,33 @@
      "status": "trial"
     },
     {
+     "anchored": true,
+     "drift": null,
+     "ev": null,
+     "gap": 0.0,
+     "group": "Draw no bet",
+     "key": "Draw_no_bet_Charleroi",
+     "minOdds": 1.41,
+     "odds": null,
+     "pMarket": 73.2,
+     "post": false,
+     "prob": 73.2,
+     "probModel": 82.1,
+     "selection": "Charleroi",
+     "status": "active"
+    },
+    {
      "anchored": null,
      "drift": null,
      "ev": null,
      "gap": null,
      "group": "Cards",
      "key": "Cards_Under_4_5",
-     "minOdds": 1.45,
+     "minOdds": 1.46,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 72.8,
+     "prob": 72.5,
      "probModel": null,
      "selection": "Under 4.5",
      "status": "trial"
@@ -18333,7 +18333,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 67.5,
+     "prob": 67.7,
      "probModel": null,
      "selection": "Under 11.5",
      "status": "trial"
@@ -18365,7 +18365,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 66.7,
+     "prob": 67.0,
      "probModel": null,
      "selection": "Over 2.5",
      "status": "trial"
@@ -22074,7 +22074,7 @@
    "event": "Real Madrid – Alaves",
    "expected": {
     "away_goals": 0.94,
-    "cards": 3.62,
+    "cards": 3.63,
     "cardsModel": "v2",
     "corners": 10.8,
     "corners_away": 3.32,
@@ -22103,22 +22103,6 @@
      "probModel": null,
      "selection": "Kylian Mbappé 1+",
      "status": "trial"
-    },
-    {
-     "anchored": true,
-     "drift": null,
-     "ev": null,
-     "gap": 0.0,
-     "group": "Double chance",
-     "key": "Double_chance_Real_Madrid_or_draw",
-     "minOdds": 1.09,
-     "odds": null,
-     "pMarket": 95.2,
-     "post": false,
-     "prob": 95.2,
-     "probModel": 86.4,
-     "selection": "Real Madrid or draw",
-     "status": "active"
     },
     {
      "anchored": "grid",
@@ -22151,6 +22135,22 @@
      "probModel": null,
      "selection": "Real Madrid over 2.5",
      "status": "trial"
+    },
+    {
+     "anchored": true,
+     "drift": null,
+     "ev": null,
+     "gap": 0.0,
+     "group": "Double chance",
+     "key": "Double_chance_Real_Madrid_or_draw",
+     "minOdds": 1.09,
+     "odds": null,
+     "pMarket": 95.1,
+     "post": false,
+     "prob": 95.1,
+     "probModel": 86.4,
+     "selection": "Real Madrid or draw",
+     "status": "active"
     },
     {
      "anchored": true,
@@ -22259,7 +22259,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 85.6,
+     "prob": 85.5,
      "probModel": null,
      "selection": "Real Madrid over 4.5",
      "status": "trial"
@@ -22268,7 +22268,7 @@
      "anchored": true,
      "drift": {
       "kind": "price",
-      "move": -1.1,
+      "move": -1.2,
       "since": "2026-11-27T20:47:13Z"
      },
      "ev": -3.0,
@@ -22375,11 +22375,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Real_Madrid_over_5_5",
-     "minOdds": 1.36,
+     "minOdds": 1.37,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 77.1,
+     "prob": 77.0,
      "probModel": null,
      "selection": "Real Madrid over 5.5",
      "status": "trial"
@@ -22403,15 +22403,15 @@
     {
      "anchored": true,
      "drift": null,
-     "ev": -5.5,
+     "ev": -5.4,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_2_5",
      "minOdds": 1.42,
-     "odds": 1.2967,
-     "pMarket": 72.9,
+     "odds": 1.2959,
+     "pMarket": 73.0,
      "post": false,
-     "prob": 72.9,
+     "prob": 73.0,
      "probModel": 62.2,
      "selection": "Over 2.5",
      "status": "active"
@@ -22580,9 +22580,9 @@
      "key": "Double_chance_Paris_Saint_Germain_or_draw",
      "minOdds": 1.11,
      "odds": null,
-     "pMarket": 93.0,
+     "pMarket": 92.9,
      "post": false,
-     "prob": 93.0,
+     "prob": 92.9,
      "probModel": 75.4,
      "selection": "Paris Saint-Germain or draw",
      "status": "active"
@@ -22666,7 +22666,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 87.2,
+     "prob": 87.1,
      "probModel": null,
      "selection": "Paris Saint-Germain over 3.5",
      "status": "trial"
@@ -22778,11 +22778,11 @@
      "gap": null,
      "group": "Team corners",
      "key": "Team_corners_Paris_Saint_Germain_over_4_5",
-     "minOdds": 1.34,
+     "minOdds": 1.35,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 78.2,
+     "prob": 78.1,
      "probModel": null,
      "selection": "Paris Saint-Germain over 4.5",
      "status": "trial"
@@ -22815,11 +22815,11 @@
       "since": "2026-11-27T19:46:25Z"
      },
      "ev": -6.5,
-     "gap": -1.4,
+     "gap": -1.3,
      "group": "Team goals",
      "key": "Team_goals_Paris_Saint_Germain_over_1_5",
      "minOdds": 1.39,
-     "odds": 1.2558,
+     "odds": 1.2564,
      "pMarket": 75.8,
      "post": false,
      "prob": 74.5,
@@ -22948,14 +22948,14 @@
    "event": "Le Mans – Lille",
    "expected": {
     "away_goals": 1.17,
-    "cards": 3.48,
+    "cards": 3.49,
     "cardsModel": "v2",
     "corners": 9.0,
     "corners_away": 5.08,
-    "corners_home": 3.89,
+    "corners_home": 3.9,
     "home_goals": 1.72,
-    "market_away_goals": 1.61,
-    "market_home_goals": 1.04,
+    "market_away_goals": 1.59,
+    "market_home_goals": 1.02,
     "setPieceModel": "v2"
    },
    "goalModel": "stats",
@@ -22982,18 +22982,18 @@
      "anchored": "grid",
      "drift": {
       "kind": "grid",
-      "move": 1.0,
+      "move": 0.7,
       "since": "2026-11-27T19:46:25Z"
      },
      "ev": null,
      "gap": null,
      "group": "Total goals",
      "key": "Total_goals_Over_0_5",
-     "minOdds": 1.13,
+     "minOdds": 1.14,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 91.4,
+     "prob": 91.1,
      "probModel": 93.8,
      "selection": "Over 0.5",
      "status": "active"
@@ -23002,18 +23002,18 @@
      "anchored": "grid",
      "drift": {
       "kind": "grid",
-      "move": -1.8,
+      "move": -1.3,
       "since": "2026-11-27T19:46:25Z"
      },
      "ev": null,
      "gap": null,
      "group": "Total goals",
      "key": "Total_goals_Under_4_5",
-     "minOdds": 1.2,
+     "minOdds": 1.19,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 86.2,
+     "prob": 86.8,
      "probModel": 83.2,
      "selection": "Under 4.5",
      "status": "active"
@@ -23061,7 +23061,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 83.5,
+     "prob": 83.4,
      "probModel": null,
      "selection": "Lille over 2.5",
      "status": "trial"
@@ -23086,18 +23086,18 @@
      "anchored": "grid",
      "drift": {
       "kind": "grid",
-      "move": 2.7,
+      "move": 2.3,
       "since": "2026-11-27T19:46:25Z"
      },
      "ev": -4.6,
      "gap": 0.2,
      "group": "Team goals",
      "key": "Team_goals_Lille_over_0_5",
-     "minOdds": 1.24,
-     "odds": 1.2053,
-     "pMarket": 79.0,
+     "minOdds": 1.25,
+     "odds": 1.2114,
+     "pMarket": 78.6,
      "post": false,
-     "prob": 79.2,
+     "prob": 78.8,
      "probModel": 69.1,
      "selection": "Lille over 0.5",
      "status": "active"
@@ -23170,20 +23170,40 @@
      "anchored": true,
      "drift": {
       "kind": "price",
-      "move": 3.7,
+      "move": 3.0,
       "since": "2026-11-27T20:47:13Z"
      },
      "ev": -3.5,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
-     "minOdds": 1.34,
-     "odds": 1.3106,
-     "pMarket": 73.6,
+     "minOdds": 1.35,
+     "odds": 1.3226,
+     "pMarket": 73.0,
      "post": false,
-     "prob": 73.6,
+     "prob": 73.0,
      "probModel": 79.2,
      "selection": "Over 1.5",
+     "status": "active"
+    },
+    {
+     "anchored": true,
+     "drift": {
+      "kind": "price",
+      "move": 1.0,
+      "since": "2026-11-28T11:48:29Z"
+     },
+     "ev": -3.5,
+     "gap": 0.0,
+     "group": "Total goals",
+     "key": "Total_goals_Under_3_5",
+     "minOdds": 1.42,
+     "odds": 1.3247,
+     "pMarket": 72.8,
+     "post": false,
+     "prob": 72.8,
+     "probModel": 67.0,
+     "selection": "Under 3.5",
      "status": "active"
     },
     {
@@ -23195,9 +23215,9 @@
      "key": "Double_chance_Le_Mans_or_Lille",
      "minOdds": 1.42,
      "odds": null,
-     "pMarket": 73.0,
+     "pMarket": 72.7,
      "post": false,
-     "prob": 73.0,
+     "prob": 72.7,
      "probModel": 74.9,
      "selection": "Le Mans or Lille",
      "status": "active"
@@ -23217,22 +23237,6 @@
      "probModel": null,
      "selection": "Under 4.5",
      "status": "trial"
-    },
-    {
-     "anchored": true,
-     "drift": null,
-     "ev": -3.5,
-     "gap": 0.0,
-     "group": "Total goals",
-     "key": "Total_goals_Under_3_5",
-     "minOdds": 1.43,
-     "odds": 1.339,
-     "pMarket": 72.1,
-     "post": false,
-     "prob": 72.1,
-     "probModel": 67.0,
-     "selection": "Under 3.5",
-     "status": "active"
     },
     {
      "anchored": null,
@@ -23341,7 +23345,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 66.9,
+     "prob": 67.0,
      "probModel": null,
      "selection": "Over 2.5",
      "status": "trial"
@@ -23363,20 +23367,20 @@
      "status": "trial"
     },
     {
-     "anchored": "grid",
+     "anchored": null,
      "drift": null,
-     "ev": -4.9,
-     "gap": -0.1,
-     "group": "Team goals",
-     "key": "Team_goals_Le_Mans_over_0_5",
-     "minOdds": 1.61,
-     "odds": 1.4854,
-     "pMarket": 64.1,
+     "ev": null,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Jean_Vercruysse_1_",
+     "minOdds": 1.66,
+     "odds": null,
+     "pMarket": null,
      "post": false,
      "prob": 64.1,
-     "probModel": 82.2,
-     "selection": "Le Mans over 0.5",
-     "status": "active"
+     "probModel": null,
+     "selection": "Jean Vercruysse 1+",
+     "status": "trial"
     }
    ],
    "sport": "football",
@@ -23387,11 +23391,11 @@
    "event": "Nice – Troyes",
    "expected": {
     "away_goals": 1.27,
-    "cards": 3.41,
+    "cards": 3.42,
     "cardsModel": "v2",
     "corners": 9.0,
-    "corners_away": 3.84,
-    "corners_home": 5.11,
+    "corners_away": 3.85,
+    "corners_home": 5.1,
     "home_goals": 1.42,
     "market_away_goals": 1.01,
     "market_home_goals": 1.81,
@@ -23412,7 +23416,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 93.7,
+     "prob": 93.6,
      "probModel": null,
      "selection": "Under 6.5",
      "status": "trial"
@@ -23516,7 +23520,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 83.7,
+     "prob": 83.6,
      "probModel": null,
      "selection": "Nice over 2.5",
      "status": "trial"
@@ -23598,9 +23602,9 @@
      "key": "Double_chance_Nice_or_draw",
      "minOdds": 1.29,
      "odds": null,
-     "pMarket": 80.0,
+     "pMarket": 79.9,
      "post": false,
-     "prob": 80.0,
+     "prob": 79.9,
      "probModel": 67.1,
      "selection": "Nice or draw",
      "status": "active"
@@ -23658,22 +23662,6 @@
      "status": "trial"
     },
     {
-     "anchored": true,
-     "drift": null,
-     "ev": null,
-     "gap": 0.0,
-     "group": "Double chance",
-     "key": "Double_chance_Nice_or_Troyes",
-     "minOdds": 1.38,
-     "odds": null,
-     "pMarket": 75.2,
-     "post": false,
-     "prob": 75.2,
-     "probModel": 72.7,
-     "selection": "Nice or Troyes",
-     "status": "active"
-    },
-    {
      "anchored": null,
      "drift": null,
      "ev": null,
@@ -23688,6 +23676,22 @@
      "probModel": null,
      "selection": "Dermane Karim 1+",
      "status": "trial"
+    },
+    {
+     "anchored": true,
+     "drift": null,
+     "ev": null,
+     "gap": 0.0,
+     "group": "Double chance",
+     "key": "Double_chance_Nice_or_Troyes",
+     "minOdds": 1.38,
+     "odds": null,
+     "pMarket": 75.1,
+     "post": false,
+     "prob": 75.1,
+     "probModel": 72.7,
+     "selection": "Nice or Troyes",
+     "status": "active"
     },
     {
      "anchored": null,
@@ -23714,9 +23718,9 @@
      "key": "Draw_no_bet_Nice",
      "minOdds": 1.41,
      "odds": null,
-     "pMarket": 73.4,
+     "pMarket": 73.3,
      "post": false,
-     "prob": 73.4,
+     "prob": 73.3,
      "probModel": 54.8,
      "selection": "Nice",
      "status": "active"
@@ -23732,7 +23736,7 @@
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 70.7,
+     "prob": 70.6,
      "probModel": null,
      "selection": "Nice over 3.5",
      "status": "trial"
@@ -23794,15 +23798,15 @@
      "drift": null,
      "ev": null,
      "gap": null,
-     "group": "Corners",
-     "key": "Corners_Over_7_5",
+     "group": "Cards",
+     "key": "Cards_Over_2_5",
      "minOdds": 1.62,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 65.6,
+     "prob": 65.7,
      "probModel": null,
-     "selection": "Over 7.5",
+     "selection": "Over 2.5",
      "status": "trial"
     },
     {
@@ -23810,15 +23814,15 @@
      "drift": null,
      "ev": null,
      "gap": null,
-     "group": "Cards",
-     "key": "Cards_Over_2_5",
+     "group": "Corners",
+     "key": "Corners_Over_7_5",
      "minOdds": 1.62,
      "odds": null,
      "pMarket": null,
      "post": false,
-     "prob": 65.6,
+     "prob": 65.5,
      "probModel": null,
-     "selection": "Over 2.5",
+     "selection": "Over 7.5",
      "status": "trial"
     }
    ],
@@ -24256,7 +24260,7 @@
    "coverage": 32,
    "event": "Cambuur Leeuwaarden – Sparta Rotterdam",
    "expected": {
-    "away_goals": 1.49,
+    "away_goals": 1.48,
     "home_goals": 2.13,
     "market_away_goals": 1.52,
     "market_home_goals": 2.17
@@ -24324,7 +24328,7 @@
       "move": 1.5,
       "since": "2026-11-27T20:47:13Z"
      },
-     "ev": -3.7,
+     "ev": -3.6,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_1_5",
@@ -24333,7 +24337,7 @@
      "pMarket": 86.7,
      "post": false,
      "prob": 86.7,
-     "probModel": 88.2,
+     "probModel": 88.1,
      "selection": "Over 1.5",
      "status": "active"
     },
@@ -24385,7 +24389,7 @@
      "pMarket": 77.5,
      "post": false,
      "prob": 77.2,
-     "probModel": 77.5,
+     "probModel": 77.3,
      "selection": "Sparta Rotterdam over 0.5",
      "status": "active"
     },
@@ -24414,10 +24418,10 @@
      "key": "Double_chance_Cambuur_Leeuwaarden_or_draw",
      "minOdds": 1.4,
      "odds": null,
-     "pMarket": 73.8,
+     "pMarket": 73.9,
      "post": false,
-     "prob": 73.8,
-     "probModel": 73.7,
+     "prob": 73.9,
+     "probModel": 73.8,
      "selection": "Cambuur Leeuwaarden or draw",
      "status": "active"
     },
@@ -24444,16 +24448,16 @@
       "move": 2.8,
       "since": "2026-11-27T20:47:13Z"
      },
-     "ev": -3.9,
+     "ev": -4.0,
      "gap": 0.0,
      "group": "Total goals",
      "key": "Total_goals_Over_2_5",
      "minOdds": 1.4,
-     "odds": 1.3717,
+     "odds": 1.3704,
      "pMarket": 70.1,
      "post": false,
      "prob": 70.1,
-     "probModel": 70.2,
+     "probModel": 70.0,
      "selection": "Over 2.5",
      "status": "active"
     },
@@ -24473,7 +24477,7 @@
      "pMarket": 69.0,
      "post": false,
      "prob": 69.0,
-     "probModel": 70.2,
+     "probModel": 70.3,
      "selection": "Under 4.5",
      "status": "active"
     },
@@ -24493,7 +24497,7 @@
      "pMarket": null,
      "post": false,
      "prob": 68.5,
-     "probModel": 68.8,
+     "probModel": 68.7,
      "selection": "Yes",
      "status": "active"
     },
@@ -24504,12 +24508,12 @@
      "gap": 0.0,
      "group": "Draw no bet",
      "key": "Draw_no_bet_Cambuur_Leeuwaarden",
-     "minOdds": 1.56,
+     "minOdds": 1.55,
      "odds": null,
-     "pMarket": 66.4,
+     "pMarket": 66.5,
      "post": false,
-     "prob": 66.4,
-     "probModel": 66.3,
+     "prob": 66.5,
+     "probModel": 66.5,
      "selection": "Cambuur Leeuwaarden",
      "status": "active"
     },
@@ -24520,13 +24524,13 @@
       "move": 5.3,
       "since": "2026-11-27T19:46:25Z"
      },
-     "ev": -4.6,
-     "gap": 0.1,
+     "ev": -3.0,
+     "gap": 1.1,
      "group": "Team goals",
      "key": "Team_goals_Cambuur_Leeuwaarden_over_1_5",
      "minOdds": 1.57,
-     "odds": 1.5208,
-     "pMarket": 62.6,
+     "odds": 1.5464,
+     "pMarket": 61.6,
      "post": false,
      "prob": 62.7,
      "probModel": 62.9,
@@ -25511,13 +25515,13 @@
  ],
  "meta": {
   "decisionVersion": "3.13",
-  "fetchedAt": "2026-11-28T17:31:47Z",
+  "fetchedAt": "2026-11-28T17:46:48Z",
   "matches": 73,
   "note": "priced by code from repo data and Pinnacle; line-ups, injuries and referees are NOT known to the robot",
-  "oddsFetchedAt": "2026-11-28T17:31:45Z",
+  "oddsFetchedAt": "2026-11-28T17:46:46Z",
   "products": 107,
   "profile": "hitrate",
-  "repoCommit": "64367f85a8230096bac29362465df402c9508f15",
+  "repoCommit": "5c96e278a4840042dbd87aec2b0351a5382e9d71",
   "rules": "v1",
   "skipped": 1
  },
@@ -27162,7 +27166,66 @@
    "tier": "safe"
   },
   {
-   "confidence": 76.5,
+   "event": "Fulham – Bournemouth",
+   "kind": "check",
+   "line": {
+    "anchored": "grid",
+    "ev": null,
+    "fair": 1.31,
+    "gap": null,
+    "group": "Total goals",
+    "key": "Total_goals_Over_1_5",
+    "minOdds": 1.35,
+    "minOddsV1": 1.35,
+    "minOddsV2": 1.35,
+    "nEff": 20000,
+    "odds": null,
+    "oddsAgeMin": 0,
+    "oddsStale": false,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 76.2,
+    "prob": 76.4,
+    "probHigh": 76.4,
+    "probLow": 76.4,
+    "probModel": 77.5,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 20
+    },
+    "qualityScore": 43,
+    "selection": "Over 1.5",
+    "status": "active",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 43 < 55"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 43 < 55"
+     ]
+    }
+   },
+   "matchId": "2026-11-29-fulham-bournemouth",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Over 1.5 (Total goals)",
+   "rank": 28,
+   "sharedWith": [
+    72
+   ],
+   "start": "2026-11-29T14:05:00Z",
+   "tier": "safe"
+  },
+  {
+   "confidence": 76.4,
    "kind": "combo",
    "legs": [
     {
@@ -27268,16 +27331,11 @@
      "start": "2026-11-29T10:30:00Z"
     },
     {
-     "event": "Le Mans – Lille",
+     "event": "Sunderland – Tottenham Hotspur",
      "line": {
       "anchored": "grid",
-      "drift": {
-       "kind": "grid",
-       "move": 1.0,
-       "since": "2026-11-27T19:46:25Z"
-      },
       "ev": null,
-      "fair": 1.09,
+      "fair": 1.1,
       "gap": null,
       "group": "Total goals",
       "key": "Total_goals_Over_0_5",
@@ -27290,11 +27348,11 @@
       "oddsStale": false,
       "pMarket": null,
       "pMarketKind": null,
-      "pQ": 91.3,
-      "prob": 91.4,
-      "probHigh": 91.4,
-      "probLow": 91.4,
-      "probModel": 93.8,
+      "pQ": 91.0,
+      "prob": 91.2,
+      "probHigh": 91.2,
+      "probLow": 91.2,
+      "probModel": 92.0,
       "qualityBreakdown": {
        "data": 7,
        "ev": 0,
@@ -27319,9 +27377,9 @@
        ]
       }
      },
-     "matchId": "2026-11-28-le-mans-lille",
+     "matchId": "2026-11-29-sunderland-tottenham-hotspur",
      "pick": "Over 0.5 (Total goals)",
-     "start": "2026-11-28T19:45:00Z"
+     "start": "2026-11-29T14:05:00Z"
     }
    ],
    "minOdds": 1.35,
@@ -27329,72 +27387,13 @@
    "needsSquadCheck": false,
    "odds": null,
    "pick": "Over 0.5 (Total goals) + Over 0.5 (Total goals) + Over 0.5 (Total goals)",
-   "rank": 28,
-   "sharedWith": [
-    63,
-    103
-   ],
-   "start": "2026-11-28T19:45:00Z",
-   "tier": "combo"
-  },
-  {
-   "event": "Fulham – Bournemouth",
-   "kind": "check",
-   "line": {
-    "anchored": "grid",
-    "ev": null,
-    "fair": 1.31,
-    "gap": null,
-    "group": "Total goals",
-    "key": "Total_goals_Over_1_5",
-    "minOdds": 1.35,
-    "minOddsV1": 1.35,
-    "minOddsV2": 1.35,
-    "nEff": 20000,
-    "odds": null,
-    "oddsAgeMin": 0,
-    "oddsStale": false,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 76.2,
-    "prob": 76.4,
-    "probHigh": 76.4,
-    "probLow": 76.4,
-    "probModel": 77.5,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 20
-    },
-    "qualityScore": 43,
-    "selection": "Over 1.5",
-    "status": "active",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 43 < 55"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 43 < 55"
-     ]
-    }
-   },
-   "matchId": "2026-11-29-fulham-bournemouth",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Over 1.5 (Total goals)",
    "rank": 29,
    "sharedWith": [
-    72
+    63,
+    86
    ],
-   "start": "2026-11-29T14:05:00Z",
-   "tier": "safe"
+   "start": "2026-11-29T10:30:00Z",
+   "tier": "combo"
   },
   {
    "event": "Internazionale – Genoa",
@@ -27606,7 +27605,7 @@
     "prob": 68.5,
     "probHigh": 68.5,
     "probLow": 68.5,
-    "probModel": 68.8,
+    "probModel": 68.7,
     "qualityBreakdown": {
      "data": 6,
      "ev": 0,
@@ -27769,8 +27768,8 @@
     "gap": null,
     "group": "Cards",
     "key": "Cards_Under_4_5",
-    "minOdds": 1.32,
-    "minOddsV1": 1.32,
+    "minOdds": 1.31,
+    "minOddsV1": 1.31,
     "minOddsV2": 1.3,
     "nEff": 164,
     "odds": null,
@@ -27778,10 +27777,10 @@
     "oddsStale": null,
     "pMarket": null,
     "pMarketKind": null,
-    "pQ": 77.0,
-    "prob": 79.8,
-    "probHigh": 84.8,
-    "probLow": 74.8,
+    "pQ": 77.1,
+    "prob": 79.9,
+    "probHigh": 84.9,
+    "probLow": 74.9,
     "qualityBreakdown": {
      "data": 7,
      "ev": 0,
@@ -28217,6 +28216,63 @@
    "tier": "safe"
   },
   {
+   "event": "Osnabruck – Hannover 96",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.32,
+    "gap": null,
+    "group": "Cards",
+    "key": "Cards_Under_5_5",
+    "minOdds": 1.39,
+    "minOddsV1": 1.39,
+    "minOddsV2": 1.38,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 72.9,
+    "prob": 75.8,
+    "probHigh": 80.8,
+    "probLow": 70.8,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 5.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-osnabruck-hannover-96",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 5.5 (Cards)",
+   "rank": 44,
+   "sharedWith": [
+    60
+   ],
+   "start": "2026-11-28T19:30:00Z",
+   "tier": "safe"
+  },
+  {
    "event": "Brighton – Newcastle United",
    "kind": "check",
    "line": {
@@ -28266,68 +28322,11 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 5.5 (Cards)",
-   "rank": 44,
+   "rank": 45,
    "sharedWith": [
     21
    ],
    "start": "2026-11-29T14:05:00Z",
-   "tier": "safe"
-  },
-  {
-   "event": "Osnabruck – Hannover 96",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.32,
-    "gap": null,
-    "group": "Cards",
-    "key": "Cards_Under_5_5",
-    "minOdds": 1.39,
-    "minOddsV1": 1.39,
-    "minOddsV2": 1.38,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 72.8,
-    "prob": 75.7,
-    "probHigh": 80.7,
-    "probLow": 70.7,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Under 5.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-osnabruck-hannover-96",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Under 5.5 (Cards)",
-   "rank": 45,
-   "sharedWith": [
-    60
-   ],
-   "start": "2026-11-28T19:30:00Z",
    "tier": "safe"
   },
   {
@@ -28610,7 +28609,7 @@
    "pick": "Over 2.5 (Cards)",
    "rank": 50,
    "sharedWith": [
-    54
+    53
    ],
    "start": "2026-11-29T14:05:00Z",
    "tier": "safe"
@@ -29015,63 +29014,6 @@
    "tier": "safe"
   },
   {
-   "event": "Charleroi – Beveren",
-   "kind": "check",
-   "line": {
-    "ev": null,
-    "fair": 1.37,
-    "gap": null,
-    "group": "Cards",
-    "key": "Cards_Under_4_5",
-    "minOdds": 1.45,
-    "minOddsV1": 1.45,
-    "minOddsV2": 1.44,
-    "nEff": 164,
-    "odds": null,
-    "oddsAgeMin": null,
-    "oddsStale": null,
-    "pMarket": null,
-    "pMarketKind": null,
-    "pQ": 69.8,
-    "prob": 72.8,
-    "probHigh": 77.8,
-    "probLow": 67.8,
-    "qualityBreakdown": {
-     "data": 7,
-     "ev": 0,
-     "evidence": 9,
-     "info": 2,
-     "market": 5,
-     "model": 10
-    },
-    "qualityScore": 33,
-    "selection": "Under 4.5",
-    "status": "trial",
-    "v1": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    },
-    "v2": {
-     "post": false,
-     "why": [
-      "quality 33 < 60"
-     ]
-    }
-   },
-   "matchId": "2026-11-28-charleroi-beveren",
-   "needsPrice": true,
-   "needsSquadCheck": false,
-   "pick": "Under 4.5 (Cards)",
-   "rank": 58,
-   "sharedWith": [
-    47
-   ],
-   "start": "2026-11-28T19:45:00Z",
-   "tier": "safe"
-  },
-  {
    "event": "Real Sociedad – Sevilla",
    "kind": "check",
    "line": {
@@ -29121,7 +29063,7 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 11.5 (Corners)",
-   "rank": 59,
+   "rank": 58,
    "sharedWith": [
     41
    ],
@@ -29178,9 +29120,66 @@
    "needsPrice": true,
    "needsSquadCheck": false,
    "pick": "Under 4.5 (Cards)",
+   "rank": 59,
+   "sharedWith": [
+    54
+   ],
+   "start": "2026-11-28T19:45:00Z",
+   "tier": "safe"
+  },
+  {
+   "event": "Charleroi – Beveren",
+   "kind": "check",
+   "line": {
+    "ev": null,
+    "fair": 1.38,
+    "gap": null,
+    "group": "Cards",
+    "key": "Cards_Under_4_5",
+    "minOdds": 1.46,
+    "minOddsV1": 1.46,
+    "minOddsV2": 1.44,
+    "nEff": 164,
+    "odds": null,
+    "oddsAgeMin": null,
+    "oddsStale": null,
+    "pMarket": null,
+    "pMarketKind": null,
+    "pQ": 69.5,
+    "prob": 72.5,
+    "probHigh": 77.5,
+    "probLow": 67.5,
+    "qualityBreakdown": {
+     "data": 7,
+     "ev": 0,
+     "evidence": 9,
+     "info": 2,
+     "market": 5,
+     "model": 10
+    },
+    "qualityScore": 33,
+    "selection": "Under 4.5",
+    "status": "trial",
+    "v1": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    },
+    "v2": {
+     "post": false,
+     "why": [
+      "quality 33 < 60"
+     ]
+    }
+   },
+   "matchId": "2026-11-28-charleroi-beveren",
+   "needsPrice": true,
+   "needsSquadCheck": false,
+   "pick": "Under 4.5 (Cards)",
    "rank": 60,
    "sharedWith": [
-    53
+    47
    ],
    "start": "2026-11-28T19:45:00Z",
    "tier": "safe"
@@ -29536,8 +29535,8 @@
     "gap": null,
     "group": "Team corners",
     "key": "Team_corners_Osnabruck_over_3_5",
-    "minOdds": 1.57,
-    "minOddsV1": 1.57,
+    "minOdds": 1.58,
+    "minOddsV1": 1.58,
     "minOddsV2": 1.56,
     "nEff": 164,
     "odds": null,
@@ -29545,10 +29544,10 @@
     "oddsStale": null,
     "pMarket": null,
     "pMarketKind": null,
-    "pQ": 64.3,
-    "prob": 67.5,
-    "probHigh": 72.5,
-    "probLow": 62.5,
+    "pQ": 64.2,
+    "prob": 67.4,
+    "probHigh": 72.4,
+    "probLow": 62.4,
     "qualityBreakdown": {
      "data": 7,
      "ev": 0,
@@ -30554,21 +30553,26 @@
    "tier": "safe"
   },
   {
-   "confidence": 72.2,
+   "confidence": 72.1,
    "kind": "combo",
    "legs": [
     {
-     "event": "Sunderland – Tottenham Hotspur",
+     "event": "Le Mans – Lille",
      "line": {
       "anchored": "grid",
+      "drift": {
+       "kind": "grid",
+       "move": 0.7,
+       "since": "2026-11-27T19:46:25Z"
+      },
       "ev": null,
       "fair": 1.1,
       "gap": null,
       "group": "Total goals",
       "key": "Total_goals_Over_0_5",
-      "minOdds": 1.13,
-      "minOddsV1": 1.13,
-      "minOddsV2": 1.13,
+      "minOdds": 1.14,
+      "minOddsV1": 1.14,
+      "minOddsV2": 1.14,
       "nEff": 20000,
       "odds": null,
       "oddsAgeMin": 0,
@@ -30576,10 +30580,10 @@
       "pMarket": null,
       "pMarketKind": null,
       "pQ": 91.0,
-      "prob": 91.2,
-      "probHigh": 91.2,
-      "probLow": 91.2,
-      "probModel": 92.0,
+      "prob": 91.1,
+      "probHigh": 91.1,
+      "probLow": 91.1,
+      "probModel": 93.8,
       "qualityBreakdown": {
        "data": 7,
        "ev": 0,
@@ -30604,9 +30608,9 @@
        ]
       }
      },
-     "matchId": "2026-11-29-sunderland-tottenham-hotspur",
+     "matchId": "2026-11-28-le-mans-lille",
      "pick": "Over 0.5 (Total goals)",
-     "start": "2026-11-29T14:05:00Z"
+     "start": "2026-11-28T19:45:00Z"
     },
     {
      "event": "FC Magdeburg – Energie Cottbus",
@@ -30717,9 +30721,9 @@
    "rank": 85,
    "sharedWith": [
     16,
-    86
+    103
    ],
-   "start": "2026-11-29T12:30:00Z",
+   "start": "2026-11-28T19:45:00Z",
    "tier": "combo"
   },
   {
@@ -30943,6 +30947,117 @@
    "tier": "builder"
   },
   {
+   "confidence": 64.7,
+   "event": "Charleroi – Beveren",
+   "kind": "playerBuilder",
+   "legs": [
+    {
+     "anchored": "grid",
+     "drift": {
+      "kind": "grid",
+      "move": -2.6,
+      "since": "2026-11-27T19:46:25Z"
+     },
+     "ev": null,
+     "fair": 1.19,
+     "gap": null,
+     "group": "Team goals",
+     "key": "Team_goals_Charleroi_over_0_5",
+     "minOdds": 1.24,
+     "minOddsV1": 1.24,
+     "minOddsV2": 1.24,
+     "nEff": 20000,
+     "odds": null,
+     "oddsAgeMin": 0,
+     "oddsStale": false,
+     "pMarket": null,
+     "pMarketKind": null,
+     "pQ": 83.5,
+     "prob": 83.7,
+     "probHigh": 83.7,
+     "probLow": 83.7,
+     "probModel": 91.1,
+     "qualityBreakdown": {
+      "data": 7,
+      "ev": 0,
+      "evidence": 9,
+      "info": 2,
+      "market": 5,
+      "model": 20
+     },
+     "qualityScore": 43,
+     "selection": "Charleroi over 0.5",
+     "status": "active",
+     "v1": {
+      "post": false,
+      "why": [
+       "quality 43 < 55"
+      ]
+     },
+     "v2": {
+      "post": false,
+      "why": [
+       "quality 43 < 55"
+      ]
+     }
+    },
+    {
+     "ev": null,
+     "fair": 1.29,
+     "gap": null,
+     "group": "Player shots",
+     "key": "Player_shots_Aur_lien_Scheidler_2_",
+     "minOdds": 1.36,
+     "minOddsV1": 1.36,
+     "minOddsV2": 1.35,
+     "nEff": 164,
+     "odds": null,
+     "oddsAgeMin": null,
+     "oddsStale": null,
+     "pMarket": null,
+     "pMarketKind": null,
+     "pQ": 74.4,
+     "prob": 77.3,
+     "probHigh": 82.3,
+     "probLow": 72.3,
+     "qualityBreakdown": {
+      "data": 7,
+      "ev": 0,
+      "evidence": 9,
+      "info": 2,
+      "market": 5,
+      "model": 10
+     },
+     "qualityScore": 33,
+     "selection": "Aurélien Scheidler 2+",
+     "status": "trial",
+     "v1": {
+      "post": false,
+      "why": [
+       "quality 33 < 60"
+      ]
+     },
+     "v2": {
+      "post": false,
+      "why": [
+       "quality 33 < 60"
+      ]
+     }
+    }
+   ],
+   "matchId": "2026-11-28-charleroi-beveren",
+   "minOdds": 1.6,
+   "needsPrice": true,
+   "needsSquadCheck": true,
+   "pick": "Charleroi over 0.5 (Team goals) + Aurélien Scheidler 2+ (Player shots)",
+   "rank": 89,
+   "sharedWith": [
+    92
+   ],
+   "start": "2026-11-28T19:45:00Z",
+   "tier": "builder"
+  },
+  {
    "confidence": 64.6,
    "event": "Swansea City – Cardiff City",
    "kind": "playerBuilder",
@@ -31041,7 +31156,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Žan Vipotnik 2+ (Player shots)",
-   "rank": 89,
+   "rank": 90,
    "sharedWith": [
     94
    ],
@@ -31049,7 +31164,7 @@
    "tier": "builder"
   },
   {
-   "confidence": 64.4,
+   "confidence": 64.3,
    "event": "Vitoria Guimaraes – Estrela da Amadora",
    "kind": "playerBuilder",
    "legs": [
@@ -31069,10 +31184,10 @@
      "oddsStale": false,
      "pMarket": null,
      "pMarketKind": null,
-     "pQ": 83.0,
-     "prob": 83.2,
-     "probHigh": 83.2,
-     "probLow": 83.2,
+     "pQ": 82.9,
+     "prob": 83.1,
+     "probHigh": 83.1,
+     "probLow": 83.1,
      "probModel": 73.4,
      "qualityBreakdown": {
       "data": 7,
@@ -31143,11 +31258,11 @@
     }
    ],
    "matchId": "2026-11-28-vitoria-guimaraes-estrela-da-amadora",
-   "minOdds": 1.6,
+   "minOdds": 1.61,
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Vitoria Guimaraes over 0.5 (Team goals) + Alioune Ndoye 2+ (Player shots)",
-   "rank": 90,
+   "rank": 91,
    "start": "2026-11-28T20:30:00Z",
    "tier": "builder"
   },
@@ -31250,7 +31365,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Dylan Vente 2+ (Player shots)",
-   "rank": 91,
+   "rank": 92,
    "sharedWith": [
     76
    ],
@@ -31356,7 +31471,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Nahir Besara 1+ (Player shots on target)",
-   "rank": 92,
+   "rank": 93,
    "sharedWith": [
     99
    ],
@@ -31462,7 +31577,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Sirius over 0.5 (Team goals) + Isak Bjerkebo 2+ (Player shots)",
-   "rank": 93,
+   "rank": 94,
    "start": "2026-11-29T14:00:00Z",
    "tier": "builder"
   },
@@ -31570,7 +31685,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Momoh Kamara 2+ (Player shots)",
-   "rank": 94,
+   "rank": 95,
    "sharedWith": [
     58
    ],
@@ -31680,7 +31795,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 1.5 (Total goals) + Mexx Meerdink 2+ (Player shots)",
-   "rank": 95,
+   "rank": 96,
    "sharedWith": [
     100
    ],
@@ -31786,84 +31901,83 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Over 0.5 (Total goals) + Sead Hakšabanović 2+ (Player shots)",
-   "rank": 96,
+   "rank": 97,
    "start": "2026-11-29T14:00:00Z",
    "tier": "builder"
   },
   {
-   "confidence": 62.7,
-   "event": "Charleroi – Beveren",
+   "confidence": 62.5,
+   "event": "Standard Liege – Club Brugge",
    "kind": "playerBuilder",
    "legs": [
     {
-     "anchored": "grid",
-     "drift": {
-      "kind": "grid",
-      "move": -0.7,
-      "since": "2026-11-27T19:46:25Z"
-     },
-     "ev": null,
-     "fair": 1.07,
-     "gap": null,
+     "anchored": true,
+     "ev": -4.2,
+     "fair": 1.18,
+     "gap": 0.0,
      "group": "Total goals",
-     "key": "Total_goals_Over_0_5",
-     "minOdds": 1.11,
-     "minOddsV1": 1.11,
-     "minOddsV2": 1.11,
+     "key": "Total_goals_Over_1_5",
+     "minOdds": 1.22,
+     "minOddsV1": 1.22,
+     "minOddsV2": 1.22,
      "nEff": 20000,
-     "odds": null,
+     "odds": 1.1264,
      "oddsAgeMin": 0,
      "oddsStale": false,
-     "pMarket": null,
-     "pMarketKind": null,
-     "pQ": 93.1,
-     "prob": 93.2,
-     "probHigh": 93.2,
-     "probLow": 93.2,
-     "probModel": 96.5,
+     "pMarket": 85.1,
+     "pMarketKind": "novig",
+     "pQ": 84.9,
+     "prob": 85.1,
+     "probHigh": 85.1,
+     "probLow": 85.1,
+     "probModel": 89.0,
      "qualityBreakdown": {
       "data": 7,
-      "ev": 0,
+      "ev": 0.0,
       "evidence": 9,
       "info": 2,
-      "market": 5,
+      "market": 10,
       "model": 20
      },
-     "qualityScore": 43,
-     "selection": "Over 0.5",
+     "qualityScore": 48,
+     "selection": "Over 1.5",
      "status": "active",
      "v1": {
       "post": false,
       "why": [
-       "quality 43 < 55"
+       "price 1.13 below min 1.22 (edge)",
+       "quality 48 < 55",
+       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
       ]
      },
      "v2": {
       "post": false,
       "why": [
-       "quality 43 < 55"
+       "price 1.13 below min 1.22",
+       "quality 48 < 55",
+       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
       ]
      }
     },
     {
      "ev": null,
-     "fair": 1.49,
+     "fair": 1.36,
      "gap": null,
-     "group": "Player shots on target",
-     "key": "Player_shots_on_target_Aur_lien_Scheidler_1_",
-     "minOdds": 1.58,
-     "minOddsV1": 1.58,
-     "minOddsV2": 1.56,
+     "group": "Player shots",
+     "key": "Player_shots_Nicol_Tresoldi_2_",
+     "minOdds": 1.44,
+     "minOddsV1": 1.44,
+     "minOddsV2": 1.43,
      "nEff": 164,
      "odds": null,
      "oddsAgeMin": null,
      "oddsStale": null,
      "pMarket": null,
      "pMarketKind": null,
-     "pQ": 64.1,
-     "prob": 67.3,
-     "probHigh": 72.3,
-     "probLow": 62.3,
+     "pQ": 70.4,
+     "prob": 73.4,
+     "probHigh": 78.4,
+     "probLow": 68.4,
      "qualityBreakdown": {
       "data": 7,
       "ev": 0,
@@ -31873,7 +31987,7 @@
       "model": 10
      },
      "qualityScore": 33,
-     "selection": "Aurélien Scheidler 1+",
+     "selection": "Nicolò Tresoldi 2+",
      "status": "trial",
      "v1": {
       "post": false,
@@ -31889,16 +32003,16 @@
      }
     }
    ],
-   "matchId": "2026-11-28-charleroi-beveren",
+   "matchId": "2026-11-29-standard-liege-club-brugge",
    "minOdds": 1.65,
    "needsPrice": true,
    "needsSquadCheck": true,
-   "pick": "Over 0.5 (Total goals) + Aurélien Scheidler 1+ (Player shots on target)",
-   "rank": 97,
+   "pick": "Over 1.5 (Total goals) + Nicolò Tresoldi 2+ (Player shots)",
+   "rank": 98,
    "sharedWith": [
-    92
+    84
    ],
-   "start": "2026-11-28T19:45:00Z",
+   "start": "2026-11-29T17:30:00Z",
    "tier": "builder"
   },
   {
@@ -32005,7 +32119,7 @@
    "needsPrice": true,
    "needsSquadCheck": true,
    "pick": "Halmstads over 0.5 (Team goals) + Hussein Carneil 2+ (Player shots)",
-   "rank": 98,
+   "rank": 99,
    "sharedWith": [
     57
    ],
@@ -32169,7 +32283,7 @@
    "needsSquadCheck": true,
    "odds": null,
    "pick": "Donyell Malen 2+ (Player shots) + Kylian Mbappé 2+ (Player shots) + Franco Mastantuono 2+ (Player shots)",
-   "rank": 99,
+   "rank": 100,
    "sharedWith": [
     10,
     25,
@@ -32177,116 +32291,6 @@
    ],
    "start": "2026-11-28T20:00:00Z",
    "tier": "combo"
-  },
-  {
-   "confidence": 62.3,
-   "event": "Standard Liege – Club Brugge",
-   "kind": "playerBuilder",
-   "legs": [
-    {
-     "anchored": true,
-     "ev": -4.5,
-     "fair": 1.18,
-     "gap": 0.0,
-     "group": "Total goals",
-     "key": "Total_goals_Over_1_5",
-     "minOdds": 1.22,
-     "minOddsV1": 1.22,
-     "minOddsV2": 1.22,
-     "nEff": 20000,
-     "odds": 1.1245,
-     "oddsAgeMin": 0,
-     "oddsStale": false,
-     "pMarket": 84.9,
-     "pMarketKind": "novig",
-     "pQ": 84.7,
-     "prob": 84.9,
-     "probHigh": 84.9,
-     "probLow": 84.9,
-     "probModel": 89.0,
-     "qualityBreakdown": {
-      "data": 7,
-      "ev": 0.0,
-      "evidence": 9,
-      "info": 2,
-      "market": 10,
-      "model": 20
-     },
-     "qualityScore": 48,
-     "selection": "Over 1.5",
-     "status": "active",
-     "v1": {
-      "post": false,
-      "why": [
-       "price 1.12 below min 1.22 (edge)",
-       "quality 48 < 55",
-       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
-      ]
-     },
-     "v2": {
-      "post": false,
-      "why": [
-       "price 1.12 below min 1.22",
-       "quality 48 < 55",
-       "reference: Pinnacle's price only - worth it only if a bookmaker pays the minimum"
-      ]
-     }
-    },
-    {
-     "ev": null,
-     "fair": 1.36,
-     "gap": null,
-     "group": "Player shots",
-     "key": "Player_shots_Nicol_Tresoldi_2_",
-     "minOdds": 1.44,
-     "minOddsV1": 1.44,
-     "minOddsV2": 1.43,
-     "nEff": 164,
-     "odds": null,
-     "oddsAgeMin": null,
-     "oddsStale": null,
-     "pMarket": null,
-     "pMarketKind": null,
-     "pQ": 70.4,
-     "prob": 73.4,
-     "probHigh": 78.4,
-     "probLow": 68.4,
-     "qualityBreakdown": {
-      "data": 7,
-      "ev": 0,
-      "evidence": 9,
-      "info": 2,
-      "market": 5,
-      "model": 10
-     },
-     "qualityScore": 33,
-     "selection": "Nicolò Tresoldi 2+",
-     "status": "trial",
-     "v1": {
-      "post": false,
-      "why": [
-       "quality 33 < 60"
-      ]
-     },
-     "v2": {
-      "post": false,
-      "why": [
-       "quality 33 < 60"
-      ]
-     }
-    }
-   ],
-   "matchId": "2026-11-29-standard-liege-club-brugge",
-   "minOdds": 1.66,
-   "needsPrice": true,
-   "needsSquadCheck": true,
-   "pick": "Over 1.5 (Total goals) + Nicolò Tresoldi 2+ (Player shots)",
-   "rank": 100,
-   "sharedWith": [
-    84
-   ],
-   "start": "2026-11-29T17:30:00Z",
-   "tier": "builder"
   },
   {
    "confidence": 61.3,

@@ -3608,6 +3608,126 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T15:30:00Z"
   },
+  "2026-11-28-motherwell-hibernian|Corners_Over_10_5": {
+   "close": 0.46737,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.46775,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Corners_Over_9_5": {
+   "close": 0.58502,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.58452,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Corners_Under_10_5": {
+   "close": 0.53263,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.53225,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Corners_Under_9_5": {
+   "close": 0.41498,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.41548,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Match_result_Draw": {
+   "close": 0.27965,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.27515,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Match_result_Hibernian": {
+   "close": 0.36619,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.36582,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Match_result_Motherwell": {
+   "close": 0.35416,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.35903,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Total_goals_Over_1_5": {
+   "close": 0.77708,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.78925,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Total_goals_Over_2_5": {
+   "close": 0.53728,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.55944,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Total_goals_Over_3_5": {
+   "close": 0.32654,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.34644,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Total_goals_Over_4_5": {
+   "close": 0.17421,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.18874,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Total_goals_Under_1_5": {
+   "close": 0.22292,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.21075,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Total_goals_Under_2_5": {
+   "close": 0.46272,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.44056,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Total_goals_Under_3_5": {
+   "close": 0.67346,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.65356,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-motherwell-hibernian|Total_goals_Under_4_5": {
+   "close": 0.82579,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.81126,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
   "2026-11-28-new-york-islanders-winnipeg-jets|Moneyline_incl_OT_New_York_Islanders": {
    "close": 0.51955,
    "closeAt": "2026-11-27T22:46:28Z",
@@ -3863,6 +3983,126 @@
    "open": 0.78733,
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T12:30:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Corners_Over_10_5": {
+   "close": 0.6002,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.54626,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Corners_Over_11_5": {
+   "close": 0.49351,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.43604,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Corners_Over_12_5": {
+   "close": 0.37863,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 9,
+   "open": 0.3649,
+   "openAt": "2026-11-28T13:46:56Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Corners_Under_10_5": {
+   "close": 0.3998,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.45374,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Corners_Under_11_5": {
+   "close": 0.50649,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 59,
+   "open": 0.56396,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Corners_Under_12_5": {
+   "close": 0.62137,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 9,
+   "open": 0.6351,
+   "openAt": "2026-11-28T13:46:56Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Match_result_Draw": {
+   "close": 0.11086,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.11885,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Match_result_Go_Ahead_Eagles": {
+   "close": 0.08012,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.09499,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Match_result_PSV": {
+   "close": 0.80902,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.78616,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Total_goals_Over_2_5": {
+   "close": 0.77281,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.80643,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Total_goals_Over_3_5": {
+   "close": 0.57382,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.63286,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Total_goals_Over_4_5": {
+   "close": 0.37402,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.44248,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Total_goals_Under_2_5": {
+   "close": 0.22719,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.19357,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Total_goals_Under_3_5": {
+   "close": 0.42618,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.36714,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
+  },
+  "2026-11-28-psv-go-ahead-eagles|Total_goals_Under_4_5": {
+   "close": 0.62598,
+   "closeAt": "2026-11-28T16:48:17Z",
+   "n": 71,
+   "open": 0.55752,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T17:45:00Z"
   },
   "2026-11-28-queens-park-rangers-sheffield-united|Corners_Over_10_5": {
    "close": 0.45245,
@@ -5186,9 +5426,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T17:31:45Z",
+  "fetchedAt": "2026-11-28T17:46:46Z",
   "keptDays": 45,
-  "lines": 648,
+  "lines": 678,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
