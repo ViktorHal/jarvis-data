@@ -57,10 +57,30 @@
    "time": "15:15"
   },
   {
+   "ag": 6,
    "away": "Färjestad BK",
    "date": "2026-11-28",
+   "hg": 3,
    "home": "Skellefteå AIK",
-   "played": false,
+   "overtime": false,
+   "periods": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     2
+    ]
+   ],
+   "played": true,
+   "reg_ag": 6,
+   "reg_hg": 3,
+   "shootout": false,
    "startUTC": "2026-11-28T14:15:00Z",
    "time": "15:15"
   },
@@ -118,7 +138,7 @@
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T16:49:41Z",
+  "fetchedAt": "2026-11-28T17:16:32Z",
   "source": "https://stats.swehockey.se/ScheduleAndResults/Schedule/20961"
  }
 }

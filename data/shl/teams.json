@@ -1,9 +1,9 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T16:49:41Z",
+  "fetchedAt": "2026-11-28T17:16:32Z",
   "games": 364,
   "note": "gf/ga exclude the shootout winner's extra goal; reg_* = regulation time (periods 1-3)",
-  "played": 139,
+  "played": 140,
   "season": "2026/27",
   "series": 20961,
   "source": "https://stats.swehockey.se/ScheduleAndResults/Schedule/20961"
@@ -340,29 +340,20 @@
    "reg_gf_pg": 3.227
   },
   "Färjestad BK": {
-   "away_ga_pg": 1.5,
-   "away_gf_pg": 4.1,
-   "away_gp": 10,
-   "ga_pg": 1.421,
-   "gf_pg": 3.684,
-   "gp": 19,
+   "away_ga_pg": 1.636,
+   "away_gf_pg": 4.273,
+   "away_gp": 11,
+   "ga_pg": 1.5,
+   "gf_pg": 3.8,
+   "gp": 20,
    "home_ga_pg": 1.333,
    "home_gf_pg": 3.222,
    "home_gp": 9,
-   "l10_ga_pg": 1.9,
-   "l10_gf_pg": 3.5,
+   "l10_ga_pg": 2.0,
+   "l10_gf_pg": 3.7,
    "l10_gp": 10,
-   "lastGame": "2026-11-26",
+   "lastGame": "2026-11-28",
    "log": [
-    {
-     "date": "2026-10-17",
-     "ga": 2,
-     "gf": 4,
-     "opp": "Linköping HC",
-     "reg_ga": 2,
-     "reg_gf": 4,
-     "venue": "A"
-    },
     {
      "date": "2026-10-22",
      "ga": 0,
@@ -443,11 +434,20 @@
      "reg_ga": 4,
      "reg_gf": 4,
      "venue": "A"
+    },
+    {
+     "date": "2026-11-28",
+     "ga": 3,
+     "gf": 6,
+     "opp": "Skellefteå AIK",
+     "reg_ga": 3,
+     "reg_gf": 6,
+     "venue": "A"
     }
    ],
    "played_yesterday": false,
-   "reg_ga_pg": 1.421,
-   "reg_gf_pg": 3.632
+   "reg_ga_pg": 1.5,
+   "reg_gf_pg": 3.75
   },
   "HV 71": {
    "away_ga_pg": 3.6,
@@ -1113,26 +1113,17 @@
    "away_ga_pg": 2.889,
    "away_gf_pg": 3.222,
    "away_gp": 9,
-   "ga_pg": 2.632,
-   "gf_pg": 3.579,
-   "gp": 19,
-   "home_ga_pg": 2.4,
-   "home_gf_pg": 3.9,
-   "home_gp": 10,
-   "l10_ga_pg": 2.8,
-   "l10_gf_pg": 3.8,
+   "ga_pg": 2.8,
+   "gf_pg": 3.55,
+   "gp": 20,
+   "home_ga_pg": 2.727,
+   "home_gf_pg": 3.818,
+   "home_gp": 11,
+   "l10_ga_pg": 3.2,
+   "l10_gf_pg": 3.9,
    "l10_gp": 10,
-   "lastGame": "2026-11-26",
+   "lastGame": "2026-11-28",
    "log": [
-    {
-     "date": "2026-10-17",
-     "ga": 2,
-     "gf": 2,
-     "opp": "Frölunda HC",
-     "reg_ga": 2,
-     "reg_gf": 2,
-     "venue": "A"
-    },
     {
      "date": "2026-10-22",
      "ga": 1,
@@ -1213,11 +1204,20 @@
      "reg_ga": 4,
      "reg_gf": 1,
      "venue": "H"
+    },
+    {
+     "date": "2026-11-28",
+     "ga": 6,
+     "gf": 3,
+     "opp": "Färjestad BK",
+     "reg_ga": 6,
+     "reg_gf": 3,
+     "venue": "H"
     }
    ],
    "played_yesterday": false,
-   "reg_ga_pg": 2.579,
-   "reg_gf_pg": 3.526
+   "reg_ga_pg": 2.75,
+   "reg_gf_pg": 3.5
   },
   "Timrå IK": {
    "away_ga_pg": 2.75,

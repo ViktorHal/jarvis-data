@@ -146,7 +146,7 @@
   "Lampinen, Jani": {
    "ga": 11.0,
    "gaa": 4.62,
-   "gp_team": 19.0,
+   "gp_team": 20.0,
    "gpi": 3.0,
    "shutouts": 0.0,
    "sog": 59.0,
@@ -166,15 +166,15 @@
    "toi": "784:33"
   },
   "Larmi, Emil": {
-   "ga": 13.0,
-   "gaa": 1.44,
-   "gp_team": 19.0,
-   "gpi": 9.0,
+   "ga": 16.0,
+   "gaa": 1.59,
+   "gp_team": 20.0,
+   "gpi": 10.0,
    "shutouts": 1.0,
-   "sog": 220.0,
-   "sv_pct": 0.9409,
+   "sog": 253.0,
+   "sv_pct": 0.9368,
    "team": "FBK",
-   "toi": "543:30"
+   "toi": "603:30"
   },
   "Larsson, Filip": {
    "ga": 23.0,
@@ -221,15 +221,15 @@
    "toi": "374:08"
   },
   "Mann, Strauss": {
-   "ga": 33.0,
-   "gaa": 2.06,
-   "gp_team": 18.0,
-   "gpi": 16.0,
+   "ga": 38.0,
+   "gaa": 2.23,
+   "gp_team": 19.0,
+   "gpi": 17.0,
    "shutouts": 0.0,
-   "sog": 339.0,
-   "sv_pct": 0.9027,
+   "sog": 362.0,
+   "sv_pct": 0.895,
    "team": "SKE",
-   "toi": "962:52"
+   "toi": "1021:19"
   },
   "Marmenlind, Daniel": {
    "ga": 18.0,
@@ -267,7 +267,7 @@
   "Ringquist, Anton": {
    "ga": 4.0,
    "gaa": 6.23,
-   "gp_team": 8.0,
+   "gp_team": 9.0,
    "gpi": 1.0,
    "shutouts": 0.0,
    "sog": 16.0,
@@ -289,7 +289,7 @@
   "Thelin, Melker": {
    "ga": 14.0,
    "gaa": 1.37,
-   "gp_team": 19.0,
+   "gp_team": 20.0,
    "gpi": 10.0,
    "shutouts": 3.0,
    "sog": 234.0,
@@ -332,8 +332,8 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T16:49:41Z",
-  "lastUpdate": "2026-11-28 17:47",
+  "fetchedAt": "2026-11-28T17:16:33Z",
+  "lastUpdate": "2026-11-28 18:02",
   "note": "team = federation code (e.g. FBK Färjestad, RBK Rögle); gp_team = team games, gpi = games this goalie played",
   "season": "2026/27",
   "source": "https://stats.swehockey.se/Players/Statistics/LeadingGoaliesSVS/20961"
