@@ -21181,15 +21181,1276 @@
     3,
     4
    ]
+  },
+  {
+   "away": "Parma",
+   "corners": [
+    10,
+    5
+   ],
+   "ended": "FT",
+   "home": "Frosinone",
+   "id": "5749763",
+   "league": "Serie A",
+   "leagueId": 55,
+   "players": [
+    {
+     "name": "Lorenzo Palmisani",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Anthony Oyono",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Gabriele Calvani",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Ilario Monterisi",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Gabriele Bracaglia",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Giacomo Calò",
+     "shots": 4,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Patrizio Masini",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Farès Ghedjemis",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Romano Schmid",
+     "shots": 2,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Giorgi Kvernadze",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Tomás Bobček",
+     "shots": 6,
+     "sot": 4,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Giorgio Cittadini",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Alessio Zerbin",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Matteo Cichella",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Aleksa Terzić",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Seydou Fini",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Giovanni Daffara",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Enrico Del Prato",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Mariano Troilo",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Abdoulaye Ndiaye",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Benjamín Cremaschi",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Giovanni Fabbian",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Hans Nicolussi Caviglia",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Mandela Keita",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Franco Carboni",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Nesta Elphege",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "El Bilal Touré",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Adrián Bernabé",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Pontus Almqvist",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Sascha Britschgi",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Matija Frigan",
+     "shots": 2,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "playersKnown": true,
+   "red": [
+    0,
+    0
+   ],
+   "score": [
+    3,
+    0
+   ],
+   "sport": "football",
+   "start": "2026-11-28T14:00:00.000Z",
+   "yellow": [
+    1,
+    3
+   ]
+  },
+  {
+   "away": "Virtus Entella",
+   "corners": [
+    7,
+    4
+   ],
+   "ended": "FT",
+   "home": "Ascoli",
+   "id": "5967170",
+   "league": "Serie B",
+   "leagueId": 86,
+   "players": [
+    {
+     "name": "Samuele Vitale",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Lorenzo Venuti",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Marcos Curado",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Nicholas Rizzo",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Andrea Silipo",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Giovanni Corradini",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Samuele Damiani",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Don Bolsius",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Abdoul Guiébré",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Matteo Brunori",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Simone D'Uffizi",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Giacomo De Pieri",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Tommaso Milanese",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Sergiu Perciun",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Amine Chakir",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Federico Del Frate",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Luca Vignali",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Nicolas Previtali",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Ivan Marconi",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Francesco Mezzoni",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Andrea Franzoni",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Lucas Felippe",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Leonardo Benedetti",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Stefano Di Mario",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Giacomo Corona",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Luigi Cuppone",
+     "shots": 5,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Marwane Kritta",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Mattia Tirelli",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Mattia Valori",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Bernat Guiu",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Niccolò Squizzato",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "playersKnown": true,
+   "red": [
+    0,
+    0
+   ],
+   "score": [
+    2,
+    0
+   ],
+   "sport": "football",
+   "start": "2026-11-28T14:00:00.000Z",
+   "yellow": [
+    3,
+    3
+   ]
+  },
+  {
+   "away": "Juve Stabia",
+   "corners": [
+    0,
+    4
+   ],
+   "ended": "FT",
+   "home": "Carrarese",
+   "id": "5967171",
+   "league": "Serie B",
+   "leagueId": 86,
+   "players": [
+    {
+     "name": "Semuel Pizzignacco",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Fabio Ruggeri",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Filippo Oliana",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Filippo Reale",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Niccolò Belloni",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Nicolás Schiavi",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Tommaso Rubino",
+     "shots": 4,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Matthias Braunöder",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Jonas Rouhi",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Fabio Abiuso",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Gabriele Parlanti",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Luka Topalović",
+     "shots": 2,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Jacopo Martini",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Moustapha Cissé",
+     "shots": 2,
+     "sot": 2,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Lorenzo Romani",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Nicolò Cudrig",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Paolo Vismara",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Tommaso Maggioni",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Matteo Baldi",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Marco Bellich",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Manuel Ricciardi",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Nermin Karić",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Justin Kumi",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Christian Pierobon",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Kevin Piscopo",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Leonardo Candellone",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Fabio Maistro",
+     "shots": 4,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Thomas Battistella",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Luigi Caccavo",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Antonio Di Nardo",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Giuseppe Sibilli",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Federico Artioli",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "playersKnown": true,
+   "red": [
+    0,
+    2
+   ],
+   "score": [
+    3,
+    1
+   ],
+   "sport": "football",
+   "start": "2026-11-28T14:00:00.000Z",
+   "yellow": [
+    0,
+    3
+   ]
+  },
+  {
+   "away": "Hellas Verona",
+   "corners": [
+    3,
+    9
+   ],
+   "ended": "FT",
+   "home": "Empoli",
+   "id": "5967173",
+   "league": "Serie B",
+   "leagueId": 86,
+   "players": [
+    {
+     "name": "Jacopo Seghetti",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Karim Zedadka",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Dawid Bembnista",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Marco Curto",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Niccolò Corrado",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Filippo Bandinelli",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Gerard Yepes",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Filippo Distefano",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Edoardo Saporiti",
+     "shots": 2,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Joseph Ceesay",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Stiven Shpendi",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Luca Belardinelli",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Matteo Egan",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Duccio Degli Innocenti",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Edoardo Biondini",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Simone Perilli",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Gabriele Zappa",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Tobias Slotsager",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Andrias Edmundsson",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Martin Frese",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Edoardo Iannoni",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Nunzio Lella",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Dailon Livramento",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Abdou Harroui",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Amin Sarr",
+     "shots": 4,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Daniel Mosquera",
+     "shots": 5,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Suat Serdar",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Caleb Ekuban",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Andréa Le Borgne",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Rubén Akalé",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Kacper Sezonienko",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "playersKnown": true,
+   "red": [
+    0,
+    0
+   ],
+   "score": [
+    2,
+    2
+   ],
+   "sport": "football",
+   "start": "2026-11-28T14:00:00.000Z",
+   "yellow": [
+    2,
+    4
+   ]
+  },
+  {
+   "away": "Linköping HC",
+   "ended": "REG",
+   "home": "Timrå IK",
+   "id": "2026-11-28-Timrå IK-Linköping HC",
+   "league": "SHL",
+   "reg": [
+    3,
+    0
+   ],
+   "score": [
+    3,
+    0
+   ],
+   "sport": "shl",
+   "start": "2026-11-28T14:15:00Z"
+  },
+  {
+   "away": "Al Hilal",
+   "corners": [
+    4,
+    4
+   ],
+   "ended": "FT",
+   "home": "Al-Ettifaq",
+   "id": "1000021470",
+   "league": "Saudi Pro League",
+   "leagueId": 536,
+   "players": [
+    {
+     "name": "Marek Rodák",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Abdullah Khateeb",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Pedro Henrique",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Jack Hendry",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Yasir Shammari",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Abdoulaye Kanté",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Wafi Sharif",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Meshal Al Alaeli",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Álvaro Medrán",
+     "shots": 2,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Sultan Harun",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Bersant Celina",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "name": "Marzouq Tambakti",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Abdulelah Hawsawi",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Khalid Al Ghannam",
+     "shots": 2,
+     "sot": 1,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Meshal Sibyani",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Turki Al Madani",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "name": "Yassine Bounou",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Mohammed Mahzari",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Hassan Al Tambakti",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Kalidou Koulibaly",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Théo Hernández",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Milinković-Savić",
+     "shots": 5,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Mohamed Kanno",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Nasser Al Dawsari",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Crysencio Summerville",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Gabriel Martinelli",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Ollie Watkins",
+     "shots": 4,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "name": "Sultan Mandash",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Murad Al Hawsawi",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Hamad Al Yami",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Ali Lajami",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "name": "Mohamed Meïté",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "playersKnown": true,
+   "red": [
+    0,
+    0
+   ],
+   "score": [
+    1,
+    3
+   ],
+   "sport": "football",
+   "start": "2026-11-28T14:20:00.000Z",
+   "yellow": [
+    2,
+    0
+   ]
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T15:53:21Z",
-  "matches": 120,
+  "fetchedAt": "2026-11-28T16:18:08Z",
+  "matches": 126,
   "note": "settle bets with jarvis/settle.py; football cards = yellow + red as FotMob counts them; goals markets settle on the score after 90 minutes (ended AET/Pen -> needs a manual check)",
   "sources": {
    "fotmob": {
-    "new": 10,
+    "new": 5,
     "ok": true,
     "pending": 0
    },
@@ -21198,7 +22459,7 @@
     "ok": true
    },
    "shl": {
-    "games": 8,
+    "games": 9,
     "ok": true
    }
   }
