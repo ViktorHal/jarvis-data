@@ -5,55 +5,20 @@
    "books": {
     "atg_se": {
      "totals": {
-      "2.5": {
-       "over": 3.3,
-       "under": 1.27
+      "3.5": {
+       "over": 8.0,
+       "under": 1.05
       }
      }
     },
     "betmgm_se": {
      "h2h": {
-      "away": 1.01,
-      "draw": 12.0,
-      "home": 46.0
+      "away": 1.05,
+      "draw": 7.0,
+      "home": 67.0
      }
     },
     "betsson": {
-     "h2h": {
-      "away": 1.0,
-      "draw": 17.0,
-      "home": 56.0
-     },
-     "totals": {
-      "2.5": {
-       "over": 2.92,
-       "under": 1.31
-      }
-     }
-    },
-    "expekt_se": {
-     "h2h": {
-      "away": 1.01,
-      "draw": 12.0,
-      "home": 46.0
-     }
-    },
-    "leovegas_se": {
-     "totals": {
-      "2.5": {
-       "over": 3.3,
-       "under": 1.21
-      }
-     }
-    },
-    "mrgreen_se": {
-     "h2h": {
-      "away": 1.0,
-      "draw": 41.0,
-      "home": 151.0
-     }
-    },
-    "nordicbet": {
      "h2h": {
       "away": 1.0,
       "draw": 19.0,
@@ -61,31 +26,66 @@
      },
      "totals": {
       "2.5": {
-       "over": 3.1,
-       "under": 1.28
+       "over": 3.4,
+       "under": 1.24
+      }
+     }
+    },
+    "expekt_se": {
+     "h2h": {
+      "away": 1.05,
+      "draw": 7.0,
+      "home": 67.0
+     }
+    },
+    "leovegas_se": {
+     "totals": {
+      "3.5": {
+       "over": 6.25,
+       "under": 1.02
+      }
+     }
+    },
+    "mrgreen_se": {
+     "h2h": {
+      "away": 1.03,
+      "draw": 13.0,
+      "home": 126.0
+     }
+    },
+    "nordicbet": {
+     "h2h": {
+      "away": 1.0,
+      "draw": 19.0,
+      "home": 46.0
+     },
+     "totals": {
+      "2.5": {
+       "over": 3.7,
+       "under": 1.2
       }
      }
     },
     "sport888_se": {
      "h2h": {
-      "away": 1.0,
-      "draw": 41.0,
-      "home": 151.0
+      "away": 1.04,
+      "draw": 13.0,
+      "home": 126.0
      }
     },
     "svenskaspel_se": {
      "totals": {
-      "2.5": {
-       "over": 3.3,
-       "under": 1.27
+      "3.5": {
+       "over": 8.0,
+       "under": 1.05
       }
      }
     },
     "unibet_se": {
      "totals": {
-      "2.5": {
-       "over": 3.4,
-       "under": 1.25
+      "3.5": {
+       "over": 10.0,
+       "under": 1.03
       }
      }
     }
@@ -101,128 +101,128 @@
    "books": {
     "atg_se": {
      "h2h": {
-      "away": 3.95,
-      "draw": 3.65,
+      "away": 3.9,
+      "draw": 3.7,
       "home": 1.85
      },
      "totals": {
       "2.5": {
-       "over": 1.76,
-       "under": 2.0
+       "over": 1.75,
+       "under": 2.02
       }
      }
     },
     "betinia_se": {
      "h2h": {
-      "away": 3.75,
-      "draw": 3.6,
-      "home": 1.9
+      "away": 3.67,
+      "draw": 3.5,
+      "home": 1.95
      }
     },
     "betmgm_se": {
      "h2h": {
-      "away": 3.75,
-      "draw": 3.45,
-      "home": 1.78
+      "away": 3.7,
+      "draw": 3.5,
+      "home": 1.79
      }
     },
     "betsson": {
      "h2h": {
       "away": 3.7,
-      "draw": 3.4,
+      "draw": 3.45,
       "home": 1.92
      },
      "totals": {
       "2.5": {
-       "over": 1.78,
+       "over": 1.75,
        "under": 1.98
       }
      }
     },
     "campobet_se": {
      "h2h": {
-      "away": 3.75,
-      "draw": 3.6,
-      "home": 1.9
+      "away": 3.67,
+      "draw": 3.5,
+      "home": 1.95
      }
     },
     "expekt_se": {
      "h2h": {
-      "away": 3.75,
-      "draw": 3.45,
-      "home": 1.78
+      "away": 3.7,
+      "draw": 3.5,
+      "home": 1.79
      }
     },
     "hajper_se": {
      "h2h": {
-      "away": 3.8,
-      "draw": 3.65,
-      "home": 1.89
+      "away": 3.7,
+      "draw": 3.6,
+      "home": 1.92
      }
     },
     "leovegas_se": {
      "h2h": {
-      "away": 3.75,
-      "draw": 3.45,
-      "home": 1.78
+      "away": 3.7,
+      "draw": 3.5,
+      "home": 1.79
      },
      "totals": {
       "2.5": {
-       "over": 1.72,
-       "under": 1.95
+       "over": 1.7,
+       "under": 1.97
       }
      }
     },
     "mrgreen_se": {
      "h2h": {
-      "away": 3.8,
-      "draw": 3.4,
-      "home": 1.91
+      "away": 3.75,
+      "draw": 3.3,
+      "home": 1.95
      }
     },
     "nordicbet": {
      "h2h": {
       "away": 3.7,
-      "draw": 3.4,
+      "draw": 3.45,
       "home": 1.92
      },
      "totals": {
       "2.5": {
-       "over": 1.78,
+       "over": 1.75,
        "under": 1.98
       }
      }
     },
     "sport888_se": {
      "h2h": {
-      "away": 3.8,
-      "draw": 3.4,
-      "home": 1.91
+      "away": 3.75,
+      "draw": 3.3,
+      "home": 1.95
      }
     },
     "svenskaspel_se": {
      "h2h": {
-      "away": 3.95,
-      "draw": 3.65,
+      "away": 3.9,
+      "draw": 3.7,
       "home": 1.85
      },
      "totals": {
       "2.5": {
-       "over": 1.73,
-       "under": 1.96
+       "over": 1.71,
+       "under": 1.97
       }
      }
     },
     "unibet_se": {
      "h2h": {
-      "away": 3.75,
-      "draw": 3.45,
-      "home": 1.79
+      "away": 3.7,
+      "draw": 3.5,
+      "home": 1.8
      },
      "totals": {
       "2.5": {
-       "over": 1.73,
-       "under": 1.96
+       "over": 1.71,
+       "under": 1.97
       }
      }
     }
@@ -1063,7 +1063,7 @@
   ],
   "calls": [
    {
-    "at": "2026-11-28T19:51:36Z",
+    "at": "2026-11-28T20:02:12Z",
     "credits": 2,
     "events": 9,
     "key": "soccer_portugal_primeira_liga",
@@ -1071,9 +1071,9 @@
    }
   ],
   "cap": 450,
-  "creditsThisMonth": 8,
+  "creditsThisMonth": 10,
   "events": 9,
-  "fetchedAt": "2026-11-28T19:51:36Z",
+  "fetchedAt": "2026-11-28T20:02:12Z",
   "hisBooks": [
    "betmgm_se",
    "svenskaspel_se"

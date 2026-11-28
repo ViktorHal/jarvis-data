@@ -1208,6 +1208,142 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T01:00:00Z"
   },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Corners_Over_10_5": {
+   "close": 0.48601,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.48735,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Corners_Over_11_5": {
+   "close": 0.38354,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.38508,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Corners_Over_9_5": {
+   "close": 0.59464,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.59459,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Corners_Under_10_5": {
+   "close": 0.51399,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.51265,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Corners_Under_11_5": {
+   "close": 0.61646,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.61492,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Corners_Under_9_5": {
+   "close": 0.40536,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 68,
+   "open": 0.40541,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Match_result_Cambuur_Leeuwaarden": {
+   "close": 0.51803,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.45223,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Match_result_Draw": {
+   "close": 0.22162,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.24096,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Match_result_Sparta_Rotterdam": {
+   "close": 0.26035,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.30682,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Total_goals_Over_1_5": {
+   "close": 0.86723,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.85168,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Total_goals_Over_2_5": {
+   "close": 0.70168,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.67285,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Total_goals_Over_3_5": {
+   "close": 0.49771,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.47269,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Total_goals_Over_4_5": {
+   "close": 0.31108,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.29123,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Total_goals_Under_1_5": {
+   "close": 0.13277,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.14832,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Total_goals_Under_2_5": {
+   "close": 0.29832,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.32715,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Total_goals_Under_3_5": {
+   "close": 0.50229,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.52731,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-cambuur-leeuwaarden-sparta-rotterdam|Total_goals_Under_4_5": {
+   "close": 0.68892,
+   "closeAt": "2026-11-28T18:46:57Z",
+   "n": 80,
+   "open": 0.70877,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
   "2026-11-28-cercle-brugge-mechelen|Corners_Over_10_5": {
    "close": 0.48287,
    "closeAt": "2026-11-28T15:52:00Z",
@@ -5480,6 +5616,110 @@
    "openAt": "2026-11-27T20:47:13Z",
    "start": "2026-11-28T13:00:00Z"
   },
+  "2026-11-28-real-madrid-alaves|Corners_Over_10_5": {
+   "close": 0.45615,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 65,
+   "open": 0.44519,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Corners_Over_9_5": {
+   "close": 0.5694,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 65,
+   "open": 0.55421,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Corners_Under_10_5": {
+   "close": 0.54385,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 65,
+   "open": 0.55481,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Corners_Under_9_5": {
+   "close": 0.4306,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 65,
+   "open": 0.44579,
+   "openAt": "2026-11-27T19:46:25Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Match_result_Alaves": {
+   "close": 0.04859,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 77,
+   "open": 0.04686,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Match_result_Draw": {
+   "close": 0.09788,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 77,
+   "open": 0.08784,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Match_result_Real_Madrid": {
+   "close": 0.85353,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 77,
+   "open": 0.86531,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Total_goals_Over_2_5": {
+   "close": 0.72979,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 77,
+   "open": 0.73313,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Total_goals_Over_3_5": {
+   "close": 0.52816,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 77,
+   "open": 0.53638,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Total_goals_Over_4_5": {
+   "close": 0.33204,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 77,
+   "open": 0.34192,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Total_goals_Under_2_5": {
+   "close": 0.27021,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 77,
+   "open": 0.26687,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Total_goals_Under_3_5": {
+   "close": 0.47184,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 77,
+   "open": 0.46362,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
+  "2026-11-28-real-madrid-alaves|Total_goals_Under_4_5": {
+   "close": 0.66796,
+   "closeAt": "2026-11-28T17:46:46Z",
+   "n": 77,
+   "open": 0.65808,
+   "openAt": "2026-11-27T20:47:13Z",
+   "start": "2026-11-28T20:00:00Z"
+  },
   "2026-11-28-samsunspor-genclerbirligi|Corners_Over_10_5": {
    "close": 0.41111,
    "closeAt": "2026-11-28T11:48:29Z",
@@ -6458,9 +6698,9 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T19:51:36Z",
+  "fetchedAt": "2026-11-28T20:02:12Z",
   "keptDays": 45,
-  "lines": 807,
+  "lines": 837,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
  }
 }
