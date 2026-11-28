@@ -332,8 +332,8 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T18:18:53Z",
-  "lastUpdate": "2026-11-28 18:02",
+  "fetchedAt": "2026-11-28T19:17:09Z",
+  "lastUpdate": "2026-11-28 20:16",
   "note": "team = federation code (e.g. FBK Färjestad, RBK Rögle); gp_team = team games, gpi = games this goalie played",
   "season": "2026/27",
   "source": "https://stats.swehockey.se/Players/Statistics/LeadingGoaliesSVS/20961"

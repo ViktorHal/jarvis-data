@@ -113,10 +113,30 @@
    "time": "15:15"
   },
   {
+   "ag": 1,
    "away": "IF Björklöven",
    "date": "2026-11-28",
+   "hg": 3,
    "home": "HV 71",
-   "played": false,
+   "overtime": false,
+   "periods": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "played": true,
+   "reg_ag": 1,
+   "reg_hg": 3,
+   "shootout": false,
    "startUTC": "2026-11-28T17:00:00Z",
    "time": "18:00"
   },
@@ -138,7 +158,7 @@
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T18:18:52Z",
+  "fetchedAt": "2026-11-28T19:17:08Z",
   "source": "https://stats.swehockey.se/ScheduleAndResults/Schedule/20961"
  }
 }
