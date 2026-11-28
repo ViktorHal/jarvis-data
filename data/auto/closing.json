@@ -138,7 +138,7 @@
   }
  },
  "meta": {
-  "fetchedAt": "2026-11-28T11:48:29Z",
+  "fetchedAt": "2026-11-28T12:15:21Z",
   "keptDays": 45,
   "lines": 17,
   "note": "last de-margined Pinnacle probability before kick-off, per line (key = matchId|lineKey); for measuring closing-line value"
