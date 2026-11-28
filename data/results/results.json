@@ -18648,11 +18648,49 @@
    ],
    "sport": "nhl",
    "start": "2026-11-28T00:30:00Z"
+  },
+  {
+   "away": "Penguins",
+   "awayAbbrev": "PIT",
+   "ended": "REG",
+   "home": "Sabres",
+   "homeAbbrev": "BUF",
+   "id": "2026020413",
+   "league": "NHL",
+   "reg": [
+    3,
+    6
+   ],
+   "score": [
+    3,
+    6
+   ],
+   "sport": "nhl",
+   "start": "2026-11-28T01:00:00Z"
+  },
+  {
+   "away": "Kraken",
+   "awayAbbrev": "SEA",
+   "ended": "REG",
+   "home": "Oilers",
+   "homeAbbrev": "EDM",
+   "id": "2026020414",
+   "league": "NHL",
+   "reg": [
+    2,
+    4
+   ],
+   "score": [
+    2,
+    4
+   ],
+   "sport": "nhl",
+   "start": "2026-11-28T01:00:00Z"
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T03:18:13Z",
-  "matches": 108,
+  "fetchedAt": "2026-11-28T04:16:34Z",
+  "matches": 110,
   "note": "settle bets with jarvis/settle.py; football cards = yellow + red as FotMob counts them; goals markets settle on the score after 90 minutes (ended AET/Pen -> needs a manual check)",
   "sources": {
    "fotmob": {
@@ -18661,7 +18699,7 @@
     "pending": 0
    },
    "nhl": {
-    "new": 1,
+    "new": 2,
     "ok": true
    },
    "shl": {
