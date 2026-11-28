@@ -1,0 +1,168 @@
+{
+ "round": "Omgang 4981",
+ "matches": 13,
+ "expectedDraws": 3.21,
+ "chanceOfNoDraw": 2.49,
+ "homeIsMostLikelyIn": 13,
+ "systems": {
+  "maxChance13": {
+   "signs": [
+    "12",
+    "1",
+    "1",
+    "1",
+    "12",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "12",
+    "12"
+   ],
+   "rows": 16,
+   "cost": 16,
+   "p13": 0.0733,
+   "p12plus": 0.809,
+   "p11plus": 4.17,
+   "p10plus": 13.43,
+   "valueRatio": 9.65,
+   "matchesWithDraw": 0,
+   "expectedCorrect": 7.6
+  },
+  "nearlyFree": {
+   "signs": [
+    "12",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "12",
+    "1",
+    "12",
+    "12"
+   ],
+   "rows": 16,
+   "cost": 16,
+   "p13": 0.0706,
+   "p12plus": 0.783,
+   "p11plus": 4.06,
+   "p10plus": 13.12,
+   "valueRatio": 12.86,
+   "matchesWithDraw": 0,
+   "expectedCorrect": 7.57
+  },
+  "chosen": {
+   "signs": [
+    "12",
+    "1",
+    "1",
+    "12",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "12",
+    "1",
+    "12",
+    "1"
+   ],
+   "rows": 16,
+   "cost": 16,
+   "p13": 0.056,
+   "p12plus": 0.653,
+   "p11plus": 3.54,
+   "p10plus": 11.89,
+   "valueRatio": 26.84,
+   "matchesWithDraw": 0,
+   "expectedCorrect": 7.48
+  },
+  "maxValue": {
+   "signs": [
+    "1",
+    "2",
+    "X2",
+    "2",
+    "12",
+    "12",
+    "2",
+    "1",
+    "1",
+    "2",
+    "12",
+    "2",
+    "1"
+   ],
+   "rows": 16,
+   "cost": 16,
+   "p13": 0.0018,
+   "p12plus": 0.037,
+   "p11plus": 0.34,
+   "p10plus": 1.92,
+   "valueRatio": 599.28,
+   "matchesWithDraw": 1,
+   "expectedCorrect": 6.08
+  }
+ },
+ "doubleWorth": {
+  "1 Ipswich": {
+   "chanceX": 1.96,
+   "shareX": 1.59
+  },
+  "2 Man Utd": {
+   "chanceX": 1.65,
+   "shareX": 2.18
+  },
+  "3 Leeds": {
+   "chanceX": 1.49,
+   "shareX": 3.37
+  },
+  "4 Birmingham": {
+   "chanceX": 1.47,
+   "shareX": 3.87
+  },
+  "5 Derby": {
+   "chanceX": 1.75,
+   "shareX": 2.02
+  },
+  "6 Millwall": {
+   "chanceX": 1.48,
+   "shareX": 2.1
+  },
+  "7 West Brom": {
+   "chanceX": 1.52,
+   "shareX": 3.32
+  },
+  "8 QPR": {
+   "chanceX": 1.5,
+   "shareX": 1.77
+  },
+  "9 West Ham": {
+   "chanceX": 1.36,
+   "shareX": 1.84
+  },
+  "10 Wrexham": {
+   "chanceX": 1.69,
+   "shareX": 2.7
+  },
+  "11 Luton": {
+   "chanceX": 1.4,
+   "shareX": 1.93
+  },
+  "12 Sheffield Wed": {
+   "chanceX": 1.82,
+   "shareX": 3.19
+  },
+  "13 Wycombe": {
+   "chanceX": 1.85,
+   "shareX": 1.85
+  }
+ },
+ "note": "The posted system maximised the chance of 13 correct, which puts its doubles in the most open matches. In a pool the dividend is shared, so a double is worth most where the PUBLIC is wrong, not where the match is closest. value = sum over the system's 16 rows of model probability / public probability: the expected dividend of the system relative to an average row, so it is expected payout."
+}
