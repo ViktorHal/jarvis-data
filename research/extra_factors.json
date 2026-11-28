@@ -1,0 +1,61 @@
+{
+ "matches": 24646,
+ "source": "football-data.co.uk with Pinnacle closing 1X2, de-margined",
+ "method": "logistic regression of a home win on logit(market) + one factor, fitted on the first 70% by date and scored on the last 30%; a positive improvement means the factor adds something the market had not priced",
+ "h2h": {
+  "n": 19354,
+  "test": 5807,
+  "coefFactor": -0.0327,
+  "se": 0.0191,
+  "tStat": -1.72,
+  "coefMarket": 1.161,
+  "logloss": {
+   "marketAlone": 0.60812,
+   "refitMarket": 0.60737,
+   "plusFactor": 0.60738
+  },
+  "improvementVsMarket": 0.00075
+ },
+ "form": {
+  "n": 23468,
+  "test": 7041,
+  "coefFactor": -0.0198,
+  "se": 0.0178,
+  "tStat": -1.12,
+  "coefMarket": 1.131,
+  "logloss": {
+   "marketAlone": 0.61213,
+   "refitMarket": 0.61167,
+   "plusFactor": 0.6115
+  },
+  "improvementVsMarket": 0.00063
+ },
+ "table": {
+  "n": 20879,
+  "test": 6264,
+  "coefFactor": -0.0605,
+  "se": 0.0198,
+  "tStat": -3.06,
+  "coefMarket": 1.172,
+  "logloss": {
+   "marketAlone": 0.61446,
+   "refitMarket": 0.61448,
+   "plusFactor": 0.61395
+  },
+  "improvementVsMarket": 0.00051
+ },
+ "gdiff": {
+  "n": 20879,
+  "test": 6264,
+  "coefFactor": -0.0813,
+  "se": 0.0203,
+  "tStat": -4.01,
+  "coefMarket": 1.196,
+  "logloss": {
+   "marketAlone": 0.61446,
+   "refitMarket": 0.6147,
+   "plusFactor": 0.6139
+  },
+  "improvementVsMarket": 0.00055
+ }
+}
