@@ -18689,7 +18689,7 @@
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T10:17:28Z",
+  "fetchedAt": "2026-11-28T11:17:59Z",
   "matches": 110,
   "note": "settle bets with jarvis/settle.py; football cards = yellow + red as FotMob counts them; goals markets settle on the score after 90 minutes (ended AET/Pen -> needs a manual check)",
   "sources": {
