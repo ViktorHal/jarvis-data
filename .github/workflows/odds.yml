@@ -32,6 +32,21 @@ jobs:
         env:
           PINNAPI_KEY: ${{ secrets.PINNAPI_KEY }}
         run: python fetch/run_odds.py
+      # His own bookmakers' prices, so he stops checking them by hand (fetch/oddsapi.py). The free plan is 500
+      # credits a MONTH and one request costs markets x regions, so this runs three times a day, two leagues at
+      # a time: 12 credits a day, about 370 a month, under the robot's own cap of 450. The hours are UTC and sit
+      # about half an hour before the scans that make final calls (11:44, 17:44 and 20:10 Stockholm). Without the
+      # ODDSAPI_KEY secret the script writes nothing and says so, and everything else carries on.
+      - name: bookmaker prices (BetMGM, Svenska Spel)
+        continue-on-error: true
+        env:
+          ODDSAPI_KEY: ${{ secrets.ODDSAPI_KEY }}
+        run: |
+          H=$(date -u +%H)
+          case "$H" in
+            10|16|19) python fetch/oddsapi.py --max-keys=2 --markets=h2h,totals --hours=10 ;;
+            *) echo "not a bookmaker-price hour ($H UTC)" ;;
+          esac
       - name: price every match (data/auto)
         continue-on-error: true
         run: python fetch/autoprice.py

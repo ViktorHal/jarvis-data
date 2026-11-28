@@ -517,6 +517,75 @@ def hockey_match(repo, ev, odds_meta, D):
             "auto": {"goalModel": "h12", "names": {"home": kh, "away": ka}}, "priceSets": sets}, None
 
 
+BOOK_MAX_AGE_H = 6       # a bookmaker price older than this is not a price he could take now
+
+
+def attach_book_odds(matches, repo, now, D):
+    """3.13: the prices his OWN bookmakers publish, from data/oddsapi/odds.json (fetch/oddsapi.py, region se:
+    BetMGM, Svenska Spel and the rest). decision.py then compares its minimum with what he can actually get,
+    so a pick is only posted when a bookmaker already pays it - which is the whole point, because going
+    through thirty matches at three bookmakers by hand is a full-time job.
+    Hockey totals are deliberately ignored: like Pinnacle's, they include overtime, and Jarvis' total-goals
+    lines are regulation time only."""
+    feed = repo.get("oddsapi/odds.json") or {}
+    at = ((feed.get("meta") or {}).get("fetchedAt") or "")
+    if not feed.get("events"):
+        return 0
+    try:
+        age = (now - datetime.fromisoformat(at.replace("Z", "+00:00"))).total_seconds() / 3600
+    except Exception:
+        return 0
+    if age > BOOK_MAX_AGE_H or age < -1:
+        print(f"bookOdds ignored: feed is {age:.1f} h old", file=sys.stderr)
+        return 0
+    by = {}
+    for ev in feed["events"]:
+        by[(fold(ev.get("home")), fold(ev.get("away")))] = ev
+    hit = 0
+    for m in matches:
+        names = ((m.get("auto") or {}).get("names") or {})
+        hn, an = names.get("home") or (m.get("inputs") or {}).get("home", {}).get("name"),             names.get("away") or (m.get("inputs") or {}).get("away", {}).get("name")
+        jh = (m.get("inputs") or {}).get("home", {}).get("name") or hn
+        ja = (m.get("inputs") or {}).get("away", {}).get("name") or an
+        ev = None
+        for (fh, fa), cand in by.items():
+            if not (fh and fa):
+                continue
+            if (fold(hn)[:6] in fh or fh[:6] in fold(hn)) and (fold(an)[:6] in fa or fa[:6] in fold(an)):
+                ev = cand
+                break
+        if ev is None:
+            continue
+        hockey = str(m.get("sport", "")).lower().startswith("ice") or m.get("h12") is not None
+        out = {}
+        for bk, mk in (ev.get("books") or {}).items():
+            h2h = mk.get("h2h") or {}
+            if h2h.get("home") and h2h.get("away"):
+                if hockey:
+                    out.setdefault(D.line_key("Moneyline (incl. OT)", jh), {})[bk] = h2h["home"]
+                    out.setdefault(D.line_key("Moneyline (incl. OT)", ja), {})[bk] = h2h["away"]
+                elif h2h.get("draw"):
+                    out.setdefault(D.line_key("Match result", jh), {})[bk] = h2h["home"]
+                    out.setdefault(D.line_key("Match result", "Draw"), {})[bk] = h2h["draw"]
+                    out.setdefault(D.line_key("Match result", ja), {})[bk] = h2h["away"]
+            if hockey:
+                continue
+            for line, oversunder in (mk.get("totals") or {}).items():
+                try:
+                    L = float(line)
+                except (TypeError, ValueError):
+                    continue
+                for side, sel in (("over", f"Over {L:g}"), ("under", f"Under {L:g}")):
+                    if oversunder.get(side):
+                        out.setdefault(D.line_key("Total goals", sel), {})[bk] = oversunder[side]
+        if out:
+            m["bookOdds"] = out
+            m["bookOddsAt"] = at
+            hit += 1
+    print(f"bookOdds: {hit} of {len(matches)} matches priced by his own bookmakers ({at})", file=sys.stderr)
+    return hit
+
+
 def drift_update(matches, now, path="auto/drift.json"):
     """Keep, per match and line, the first and the latest de-margined Pinnacle probability seen. Jarvis bets
     with the movement, not against it: research/line_drift.json."""
@@ -627,6 +696,10 @@ def build(now=None):
                 m["drift"] = d
     except Exception as e:                       # the drift file must never stop a run
         print(f"drift skipped: {e}", file=sys.stderr)
+    try:
+        attach_book_odds(matches, repo, now, D)
+    except Exception as e:                       # the bookmaker feed must never stop a run
+        print(f"bookOdds skipped: {e}", file=sys.stderr)
     payload = {"now": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "markets": settings["markets"], "config": settings["config"],
                "openBets": [], "matches": matches}
     out = D.run(payload)

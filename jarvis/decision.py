@@ -37,7 +37,7 @@ try:  # hockey model 1.2 (production for hockey from 26 Nov 2026 when its inputs
 except Exception:  # a missing or broken hockey12.py falls back to 1.1, recorded per match
     hockey12 = None
 
-VERSION = "3.12"
+VERSION = "3.13"
 
 DEFAULT_CONFIG = {
     "mode": "shadow",                 # "shadow" | "active"
@@ -713,6 +713,7 @@ def process_match(m, statuses, now, cfg):
     tier = data_tier(dq)
     mo_ref = m.get("marketOdds") or {}
     mgm = m.get("mgmLines") or {}
+    books = m.get("bookOdds") or {}        # 3.13: {line key: {bookmaker: price}} from the Swedish odds feed
     pm = market_probs(priced["markets"], mo_ref)
     sources = m.get("flags", {}).get("priceSources", 0)
     lineup = m.get("flags", {}).get("lineup", "unknown")
@@ -776,7 +777,15 @@ def process_match(m, statuses, now, cfg):
         s = prob_summary(p, tier, cfg)
         lo1, hi1 = v1_band(p, tier, cfg)
         status = statuses.get(x["group"], {}).get("status", "shadow")
-        odds = mgm.get(k) if isinstance(mgm.get(k), (int, float)) else mo_ref.get(k)
+        # The price he can actually bet at: one he typed, else the best his own bookmakers publish in the
+        # Swedish odds feed (3.13), else the public reference, which is Pinnacle and NOT a price he can take.
+        book, book_price = None, None
+        for bk, pr in sorted((books.get(k) or {}).items()):
+            if isinstance(pr, (int, float)) and pr > 1 and (book_price is None or pr > book_price):
+                book, book_price = bk, pr
+        odds = mgm.get(k) if isinstance(mgm.get(k), (int, float)) else book_price
+        odds = odds if isinstance(odds, (int, float)) and odds > 1 else (
+            odds if odds is not None else mo_ref.get(k))
         odds = odds if isinstance(odds, (int, float)) and odds > 1 else None
         # Gap check: de-margined set when complete; otherwise a single public price, de-margined
         # with an assumed 5% overround, so a one-sided price can no longer skip the check.
@@ -806,7 +815,7 @@ def process_match(m, statuses, now, cfg):
             row_tier = "M"
             s = prob_summary(p, "M", cfg)
             lo1, hi1 = v1_band(p, "M", cfg)
-        typed = isinstance(mgm.get(k), (int, float)) and mgm.get(k) > 1
+        typed = (isinstance(mgm.get(k), (int, float)) and mgm.get(k) > 1) or book_price is not None
         gap = (p - p_ref) if p_ref is not None else None
         q, qb = quality_score(None if odds is None else ev(p, odds), status, tier, sources, gap, lineup, dq)
         # 3.11: on a market-priced line the market is moving toward, the required cushion drops (see driftEdge)
@@ -850,6 +859,11 @@ def process_match(m, statuses, now, cfg):
             "oddsAgeMin": age,
             "oddsStale": None if age is None else age > stale_min,
         })
+        if book_price is not None:         # 3.13: which of his bookmakers published this, and at what price
+            rows[-1]["book"] = book
+            rows[-1]["bookPrice"] = book_price
+            rows[-1]["bookOdds"] = {bk: pr for bk, pr in (books.get(k) or {}).items()
+                                    if isinstance(pr, (int, float)) and pr > 1}
         if anchored:
             rows[-1]["probModel"] = x["prob"]
             rows[-1]["anchored"] = anchored

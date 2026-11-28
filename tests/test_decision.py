@@ -1174,3 +1174,39 @@ def test_312_a_grid_priced_line_is_as_stale_as_the_prices_it_was_fitted_to():
         assert [b for b in fresh["products"] if any(r.get("anchored") == "grid" for _, r in D._rows_of(b))]
     finally:
         D.DEFAULT_CONFIG["marketAnchor"] = False
+
+
+def test_313_a_bookmaker_price_from_the_feed_decides_instead_of_a_price_check():
+    """The owner cannot check thirty matches at three bookmakers by hand. When the Swedish odds feed already
+    carries his bookmakers' prices, Jarvis compares its minimum with what he can actually get, names the
+    bookmaker, and only posts what is playable - no checking at all."""
+    D.DEFAULT_CONFIG["marketAnchor"] = True
+    try:
+        base = priced_match(0)
+        key = D.line_key("Total goals", "Over 1.5")
+        # what the line needs, from a run with no bookmaker prices at all
+        plain = D.process_match(dict(base), STATUSES, NOW, D.load_config())
+        row = [r for r in plain["markets"] if r["key"] == key][0]
+        need = row["minOdds"]
+        assert row.get("book") is None and row.get("odds") is not None   # Pinnacle's own price, not his
+        assert [w for w in row["v1"]["why"] if w.startswith("reference: Pinnacle")]
+
+        generous = dict(base, bookOdds={key: {"svenskaspel": round(need + 0.05, 2), "betmgm": round(need - 0.03, 2)}})
+        r2 = [r for r in D.process_match(generous, STATUSES, NOW, D.load_config())["markets"] if r["key"] == key][0]
+        assert r2["book"] == "svenskaspel" and r2["bookPrice"] == round(need + 0.05, 2)
+        assert r2["odds"] == r2["bookPrice"], "the best of his own bookmakers is the price that counts"
+        assert not [w for w in r2["v1"]["why"] if w.startswith("reference: Pinnacle")]
+        assert r2["v1"]["post"], "a bookmaker already pays the minimum, so it is playable"
+        assert r2["ev"] is not None and r2["ev"] > 0
+
+        stingy = dict(base, bookOdds={key: {"svenskaspel": round(need - 0.10, 2)}})
+        r3 = [r for r in D.process_match(stingy, STATUSES, NOW, D.load_config())["markets"] if r["key"] == key][0]
+        assert r3["book"] == "svenskaspel" and not r3["v1"]["post"]
+        assert [w for w in r3["v1"]["why"] if w.startswith("price ")], r3["v1"]["why"]
+
+        # a price he typed himself still wins: it is what he actually saw
+        typed = dict(base, bookOdds={key: {"svenskaspel": 9.0}}, mgmLines={key: round(need + 0.01, 2)})
+        r4 = [r for r in D.process_match(typed, STATUSES, NOW, D.load_config())["markets"] if r["key"] == key][0]
+        assert r4["odds"] == round(need + 0.01, 2) and r4["bookPrice"] == 9.0
+    finally:
+        D.DEFAULT_CONFIG["marketAnchor"] = False

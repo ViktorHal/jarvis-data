@@ -1,0 +1,234 @@
+"""BetMGM and Svenska Spel prices from the-odds-api.com, so the owner stops checking prices by hand.
+
+Why this exists (owner, 28 Nov 2026): "it is impossible for me to go through 30 matches a day at three
+bookmakers, that is a full-time job on its own". Jarvis can never open a bookmaker's site - that rule stands -
+but the-odds-api.com is a licensed odds feed with a documented free tier, and its SWEDISH region carries both
+of the bookmakers he mostly plays at: BetMGM and Svenska Spel (also ATG, Betsson, LeoVegas, Mr Green,
+NordicBet, Unibet, 888sport, Betinia, CampoBet, Expekt, Hajper). Bet365 is not in any European region, so it
+stays a manual extra. With these prices Jarvis compares its own minimum with what the bookmaker actually pays
+BEFORE posting, and only posts bets he can place - no checking at all.
+
+THE BUDGET IS THE WHOLE DESIGN. The free plan is 500 credits a MONTH, not a day, and one request costs
+(markets x regions) credits. So the robot spends them only on the matches it is about to post:
+  * it asks /v4/sports first, which costs nothing, to learn the exact sport keys;
+  * it then looks at data/auto/board.json and takes the leagues of the products that could actually be posted
+    (every row priced by the market) starting inside --hours;
+  * at most --max-keys leagues per run, one market by default (totals), so a run costs 2-4 credits;
+  * data/oddsapi/usage.json counts the month and the robot never makes the request that would pass CAP (450,
+    below the 500 the plan gives, so a mistake cannot cost him money). The count is written BEFORE the
+    request, so a crash mid-request still counts.
+The key comes from the ODDSAPI_KEY secret and is never printed, logged or put in a stored URL.
+
+Writes data/oddsapi/odds.json: per event, the de-margined-ready raw prices per bookmaker, in the API's own
+team names and with its own numbers, nothing computed. autoprice.py matches them to Jarvis' matches.
+
+usage: python3 fetch/oddsapi.py [--markets=totals] [--hours=10] [--max-keys=3] [--all-leagues]
+"""
+import json
+import os
+import re
+import sys
+import unicodedata
+import urllib.error
+from datetime import datetime, timedelta, timezone
+
+from common import Log, get, now_iso, write_json
+import common
+
+CAP = 450                     # credits a month; the free plan gives 500
+BASE = "https://api.the-odds-api.com/v4"
+REGION = "se"                 # the only region with BetMGM and Svenska Spel
+WANT_BOOKS = ("betmgm", "svenskaspel", "betsson", "unibet", "nordicbet", "leovegas", "mrgreen", "888sport_se",
+              "betinia", "campobet", "expekt", "hajper", "atg")
+# Jarvis' league names (as they appear on the board) -> a word to look for in the API's sport titles
+LEAGUE_HINT = {
+    "England - Premier League": "epl", "England - Championship": "championship",
+    "Spain - La Liga": "la liga", "Italy - Serie A": "serie a", "Germany - Bundesliga": "bundesliga",
+    "France - Ligue 1": "ligue 1", "Netherlands - Eredivisie": "eredivisie",
+    "Portugal - Primeira Liga": "primeira", "Belgium - Pro League": "belgium",
+    "Turkey - Super League": "turkey", "Scotland - Premiership": "scotland",
+    "Sweden - Allsvenskan": "allsvenskan", "UEFA - Champions League": "champions league",
+    "UEFA - Europa League": "europa league", "UEFA - Europa Conference League": "conference league",
+    "NHL": "nhl", "Sweden - SHL": "sweden hockey", "Saudi Arabia - Pro League": "saudi",
+    "Japan - J1 League": "japan", "Australia - A-League": "aleague",
+}
+
+
+def norm(s):
+    return re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().lower())
+
+
+def _usage_path():
+    return os.path.join(common.DATA, "oddsapi", "usage.json")
+
+
+def load_usage():
+    try:
+        with open(_usage_path(), encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def take_credits(usage, month, n):
+    """Reserve n credits for `month` if that stays under CAP; persist immediately. True if allowed."""
+    used = int(usage.get(month, 0))
+    if used + n > CAP:
+        return False
+    usage[month] = used + n
+    for m in sorted(k for k in usage if re.fullmatch(r"\d{4}-\d{2}", k))[:-6]:
+        usage.pop(m, None)
+    write_json("oddsapi/usage.json", usage)
+    return True
+
+
+def sport_keys(log):
+    """/v4/sports costs no credits. Returns [{key, title, group}] of the active sports."""
+    try:
+        js = json.loads(get(f"{BASE}/sports/?apiKey={os.environ['ODDSAPI_KEY']}", retries=2, timeout=40)
+                        .decode("utf-8"))
+        return [s for s in js if s.get("active")]
+    except Exception as e:
+        log.fail("oddsapi sports", f"{BASE}/sports", e)
+        return []
+
+
+def leagues_wanted(board, now, hours, market_only=True):
+    """The leagues of the products the scan could actually post, soonest first."""
+    out = []
+    starts = {m.get("id"): m.get("start") for m in board.get("matches") or []}
+    lg = {m.get("id"): m.get("league") for m in board.get("matches") or []}
+    horizon = (now + timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for p in board.get("products") or []:
+        rows = [p["line"]] if p.get("line") else [l for l in (p.get("legs") or []) if isinstance(l, dict)]
+        if market_only and not all(r.get("anchored") for r in rows):
+            continue
+        for mid in {p.get("matchId")} | {l.get("matchId") for l in (p.get("legs") or []) if isinstance(l, dict)}:
+            s = starts.get(mid) or p.get("start")
+            if mid and s and s <= horizon and lg.get(mid) and lg[mid] not in out:
+                out.append(lg[mid])
+    return out
+
+
+def match_key(league, sports):
+    hint = LEAGUE_HINT.get(league)
+    if not hint:
+        return None
+    for s in sports:
+        if norm(hint) in norm(s.get("title")) or norm(hint) in norm(s.get("key")):
+            return s["key"]
+    return None
+
+
+def parse_event(ev):
+    """One event -> {start, home, away, books: {book: {"h2h": {...}, "totals": {line: {over, under}}}}}."""
+    out = {"id": ev.get("id"), "start": ev.get("commence_time"), "home": ev.get("home_team"),
+           "away": ev.get("away_team"), "books": {}}
+    for b in ev.get("bookmakers") or []:
+        key = b.get("key")
+        if key not in WANT_BOOKS:
+            continue
+        got = {}
+        for m in b.get("markets") or []:
+            if m.get("key") == "h2h":
+                h = {}
+                for o in m.get("outcomes") or []:
+                    side = ("home" if o.get("name") == ev.get("home_team") else
+                            "away" if o.get("name") == ev.get("away_team") else
+                            "draw" if str(o.get("name")).lower() == "draw" else None)
+                    if side and isinstance(o.get("price"), (int, float)):
+                        h[side] = o["price"]
+                if h:
+                    got["h2h"] = h
+            elif m.get("key") == "totals":
+                t = {}
+                for o in m.get("outcomes") or []:
+                    pt, nm, pr = o.get("point"), str(o.get("name")).lower(), o.get("price")
+                    if pt is None or nm not in ("over", "under") or not isinstance(pr, (int, float)):
+                        continue
+                    t.setdefault(f"{float(pt):g}", {})[nm] = pr
+                if t:
+                    got["totals"] = {k: v for k, v in t.items() if "over" in v and "under" in v}
+        if got:
+            out["books"][key] = got
+    return out if out["books"] else None
+
+
+def run(log: Log, now=None, markets="totals", hours=10, max_keys=3, all_leagues=False):
+    if not os.environ.get("ODDSAPI_KEY"):
+        log.fail("oddsapi", "the-odds-api.com", "no ODDSAPI_KEY secret; set it and this runs by itself")
+        return
+    now = now or datetime.now(timezone.utc)
+    month = now.strftime("%Y-%m")
+    usage = load_usage()
+    try:
+        board = json.load(open(os.path.join(common.DATA, "auto", "board.json"), encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        log.fail("oddsapi", "data/auto/board.json", f"no board to aim at: {e}")
+        return
+    sports = sport_keys(log)
+    if not sports:
+        return
+    want = leagues_wanted(board, now, hours) if not all_leagues else list(LEAGUE_HINT)
+    keys, seen = [], set()
+    for lg in want:
+        k = match_key(lg, sports)
+        if k and k not in seen:
+            seen.add(k)
+            keys.append((lg, k))
+        if len(keys) >= max_keys:
+            break
+    if not keys:
+        log.ok("oddsapi", BASE, 0, f"nothing to price in the next {hours} h")
+        write_json("oddsapi/odds.json", {"meta": {"fetchedAt": now_iso(), "events": 0, "keys": [],
+                                                  "markets": markets, "region": REGION,
+                                                  "note": "no market-priced product inside the window"},
+                                         "events": []})
+        return
+    per = len(markets.split(","))
+    events, calls, remaining = [], [], None
+    for lg, k in keys:
+        if not take_credits(usage, month, per):
+            log.fail("oddsapi", f"{BASE}/sports/{k}/odds", f"monthly cap {CAP} reached; no request made")
+            break
+        url = f"{BASE}/sports/{k}/odds/?regions={REGION}&markets={markets}&oddsFormat=decimal"
+        try:
+            raw = get(url + f"&apiKey={os.environ['ODDSAPI_KEY']}", retries=2, timeout=60)
+            js = json.loads(raw.decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            log.fail(f"oddsapi {k}", url, f"HTTP {e.code}")
+            calls.append({"key": k, "league": lg, "error": f"HTTP {e.code}", "at": now_iso()})
+            continue
+        except Exception as e:
+            log.fail(f"oddsapi {k}", url, e)
+            calls.append({"key": k, "league": lg, "error": str(e)[:120], "at": now_iso()})
+            continue
+        got = [p for p in (parse_event(e) for e in js) if p]
+        for g in got:
+            g["league"] = lg
+            g["sportKey"] = k
+        events += got
+        calls.append({"key": k, "league": lg, "events": len(got), "credits": per, "at": now_iso()})
+    write_json("oddsapi/odds.json", {
+        "meta": {"fetchedAt": now_iso(), "events": len(events), "region": REGION, "markets": markets,
+                 "keys": [k for _, k in keys], "calls": calls, "creditsThisMonth": usage.get(month, 0),
+                 "cap": CAP, "books": list(WANT_BOOKS),
+                 "note": "prices exactly as the-odds-api.com returned them, in its own team names"},
+        "events": events})
+    log.ok("oddsapi", BASE, len(events), f"{usage.get(month, 0)}/{CAP} credits used this month")
+
+
+if __name__ == "__main__":
+    kw = {}
+    for a in sys.argv[1:]:
+        if a.startswith("--markets="):
+            kw["markets"] = a.split("=", 1)[1]
+        elif a.startswith("--hours="):
+            kw["hours"] = int(a.split("=", 1)[1])
+        elif a.startswith("--max-keys="):
+            kw["max_keys"] = int(a.split("=", 1)[1])
+        elif a == "--all-leagues":
+            kw["all_leagues"] = True
+    log = Log()
+    run(log, **kw)
+    print(json.dumps(log.sources, indent=1))
