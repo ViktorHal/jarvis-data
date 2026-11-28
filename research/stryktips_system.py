@@ -21,7 +21,7 @@ with the small prizes that actually pay. On omgang 4981 that rule moved the four
 matches (Derby, Wycombe) and onto the ones the public had wrong (Birmingham, Wrexham), for 2.8 times the expected
 payout at 76% of the chance of 13.
 
-usage: python3 research/stryktips_system.py <stryktips.json> [--pick]
+usage: python3 research/stryktips_system.py <stryktips.json> [--pick] [--budget=24]
        --pick prints {"recommended": {...}, "alternatives": {...}} as JSON; without it, the whole frontier.
 """
 import itertools
@@ -31,7 +31,9 @@ import os
 import sys
 
 SIGNS = ("1", "X", "2")
-BUDGET = 16
+BUDGET = 24         # rows, one krona each (owner, 28 Nov 2026: "I may play for at most 24 a Saturday"). At 16 the
+                    # budget bought four half covers; 24 buys three and one FULL cover, which is where a draw
+                    # first earns its place - a covered match cannot go wrong, cross or not.
 
 
 def load(path):
@@ -73,7 +75,7 @@ def correct_dist(ms, system):
     return {13 - k: sum(dist[: k + 1]) for k in range(4)}
 
 
-def best_for(ms, lam):
+def best_for(ms, lam, budget=None):
     """Maximise sum of (log V + lam * log P) over systems within the row budget. Exact: the per-match choice of
     which subset of a given size is independent, and the budget is spent by trying every pattern of sizes."""
     per = []
@@ -87,7 +89,7 @@ def best_for(ms, lam):
     best = None
     for d in range(0, 5):
         for t in range(0, 3):
-            if 2 ** d * 3 ** t > BUDGET:
+            if 2 ** d * 3 ** t > (budget or BUDGET):
                 continue
             base = sum(score(m, per[i][1]) for i, m in enumerate(ms))
             gain2 = sorted(range(len(ms)), key=lambda i: -(score(ms[i], per[i][2]) - score(ms[i], per[i][1])))
@@ -118,19 +120,19 @@ def describe(ms, system):
             "expectedCorrect": round(sum(p_of(m, S) for m, S in zip(ms, system)), 2)}
 
 
-def frontier(ms, lams=(0, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 5, 6, 8, 12, 20)):
+def frontier(ms, lams=(0, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 5, 6, 8, 12, 20), budget=None):
     out, seen = [], set()
     for lam in lams:
-        d = describe(ms, best_for(ms, lam))
+        d = describe(ms, best_for(ms, lam, budget))
         if tuple(d["signs"]) not in seen:
             seen.add(tuple(d["signs"]))
             out.append(dict(d, lam=lam))
     return out
 
 
-def pick(ms, keep13=0.70, keep10=0.85):
+def pick(ms, keep13=0.70, keep10=0.85, budget=None):
     """The system with the best expected payout that still keeps most of the chance."""
-    fr = frontier(ms)
+    fr = frontier(ms, budget=budget)
     best13 = max(d["p13"] for d in fr)
     best10 = max(d["p10plus"] for d in fr)
     ok = [d for d in fr if d["p13"] >= keep13 * best13 and d["p10plus"] >= keep10 * best10]
@@ -145,8 +147,12 @@ def pick(ms, keep13=0.70, keep10=0.85):
 if __name__ == "__main__":
     path = sys.argv[1] if len(sys.argv) > 1 else "/tmp/stryktips.json"
     doc, ms = load(path)
+    budget = BUDGET
+    for a in sys.argv:
+        if a.startswith("--budget="):
+            budget = int(a.split("=")[1])
     if "--pick" in sys.argv:
-        print(json.dumps(pick(ms), indent=1))
+        print(json.dumps(dict(pick(ms, budget=budget), budget=budget), indent=1))
         raise SystemExit
     print(f'{doc["round"]}  {len(ms)} matches')
     exp_draws = sum(m["p"]["X"] for m in ms)
@@ -157,10 +163,11 @@ if __name__ == "__main__":
           f'most likely sign is 1 in {sum(1 for m in ms if max(m["p"], key=m["p"].get) == "1")} of {len(ms)}')
     print()
     cur = [tuple(s for s in SIGNS if s in sg) for sg in doc["system"]["signs"]]
+    print(f"budget {budget} rows")
     print("as posted      ", json.dumps(describe(ms, cur)))
     seen = {}
     for lam in [0, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 5, 8, 20]:
-        sysm = best_for(ms, lam)
+        sysm = best_for(ms, lam, budget)
         d = describe(ms, sysm)
         if tuple(d["signs"]) in seen:
             continue

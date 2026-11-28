@@ -77,3 +77,39 @@ class Systems(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Budget(unittest.TestCase):
+    """24 rows, not 16 (owner, 28 Nov 2026): the eighth extra krona buys a full cover, and that is the first
+    point at which covering a draw is worth anything at all."""
+    TMP = "/tmp/_test_stryktips_budget.json"
+
+    def tearDown(self):
+        if os.path.exists(self.TMP):
+            os.remove(self.TMP)
+
+    def test_the_default_budget_is_24_and_the_flag_overrides_it(self):
+        self.assertEqual(S.BUDGET, 24)
+        ms = [({"1": 45.0, "X": 27.0, "2": 28.0}, {"1": 45, "X": 27, "2": 28}) for _ in range(13)]
+        import json
+        json.dump(coupon(ms), open(self.TMP, "w"))
+        _, ms = S.load(self.TMP)
+        rows = lambda sysm: __import__("math").prod(len(x) for x in sysm)
+        self.assertLessEqual(rows(S.best_for(ms, 3)), 24)
+        self.assertLessEqual(rows(S.best_for(ms, 3, budget=16)), 16)
+        self.assertLessEqual(rows(S.best_for(ms, 3, budget=8)), 8)
+
+    def test_a_full_cover_appears_once_the_budget_allows_it(self):
+        """With 24 rows the best system for the chance of 13 covers one match completely - draw included."""
+        ms = [({"1": 45.0, "X": 27.0, "2": 28.0}, {"1": 45, "X": 27, "2": 28}) for _ in range(13)]
+        import json
+        json.dump(coupon(ms), open(self.TMP, "w"))
+        _, ms = S.load(self.TMP)
+        at24 = S.best_for(ms, 20, budget=24)
+        at16 = S.best_for(ms, 20, budget=16)
+        self.assertTrue(any(len(x) == 3 for x in at24), "a full cover at 24 rows")
+        self.assertFalse(any(len(x) == 3 for x in at16), "no full cover fits in 16 rows beside three doubles")
+        self.assertTrue(any("X" in x for x in at24), "and that is how a draw gets played")
+        d24, d16 = S.correct_dist(ms, at24), S.correct_dist(ms, at16)
+        self.assertGreater(d24[13], d16[13])
+        self.assertGreater(d24[10], d16[10])
