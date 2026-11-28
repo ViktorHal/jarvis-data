@@ -1,11 +1,11 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T13:19:23Z",
+  "fetchedAt": "2026-11-28T16:33:18Z",
   "league": "Scottish Premiership",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
   "source": "https://statz.ai/competitions/scottish-premiership/xg",
-  "updatedText": "Updated 24 November 2026, after the last game"
+  "updatedText": "Updated 28 November 2026, after the last game"
  },
  "teams": {
   "Aberdeen": {

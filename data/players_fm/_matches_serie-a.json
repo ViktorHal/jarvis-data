@@ -35545,6 +35545,293 @@
     }
    ],
    "utc": "2026-11-27T19:45:00Z"
+  },
+  {
+   "away": "Parma",
+   "home": "Frosinone",
+   "id": "5749763",
+   "players": [
+    {
+     "id": 1289655,
+     "minutes": 90,
+     "name": "Lorenzo Palmisani",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1235421,
+     "minutes": 90,
+     "name": "Anthony Oyono",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1415326,
+     "minutes": 90,
+     "name": "Gabriele Calvani",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1117058,
+     "minutes": 45,
+     "name": "Ilario Monterisi",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1396091,
+     "minutes": 79,
+     "name": "Gabriele Bracaglia",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 746829,
+     "minutes": 78,
+     "name": "Giacomo Calò",
+     "shots": 4,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1189223,
+     "minutes": 90,
+     "name": "Patrizio Masini",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1523327,
+     "minutes": 90,
+     "name": "Farès Ghedjemis",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 749488,
+     "minutes": 90,
+     "name": "Romano Schmid",
+     "shots": 2,
+     "sot": 2,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1342748,
+     "minutes": 74,
+     "name": "Giorgi Kvernadze",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1024946,
+     "minutes": 82,
+     "name": "Tomás Bobček",
+     "shots": 6,
+     "sot": 4,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1327513,
+     "minutes": 45,
+     "name": "Giorgio Cittadini",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 850295,
+     "minutes": 16,
+     "name": "Alessio Zerbin",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1670272,
+     "minutes": 12,
+     "name": "Matteo Cichella",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 992025,
+     "minutes": 11,
+     "name": "Aleksa Terzić",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1445163,
+     "minutes": 8,
+     "name": "Seydou Fini",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1519035,
+     "minutes": 90,
+     "name": "Giovanni Daffara",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 935380,
+     "minutes": 90,
+     "name": "Enrico Del Prato",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1520184,
+     "minutes": 90,
+     "name": "Mariano Troilo",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1053676,
+     "minutes": 90,
+     "name": "Abdoulaye Ndiaye",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1354177,
+     "minutes": 71,
+     "name": "Benjamín Cremaschi",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1276505,
+     "minutes": 59,
+     "name": "Giovanni Fabbian",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 845994,
+     "minutes": 60,
+     "name": "Hans Nicolussi Caviglia",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1239749,
+     "minutes": 90,
+     "name": "Mandela Keita",
+     "shots": 3,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1199360,
+     "minutes": 59,
+     "name": "Franco Carboni",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1460253,
+     "minutes": 90,
+     "name": "Nesta Elphege",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1054114,
+     "minutes": 90,
+     "name": "El Bilal Touré",
+     "shots": 2,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 951714,
+     "minutes": 30,
+     "name": "Adrián Bernabé",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 822589,
+     "minutes": 31,
+     "name": "Pontus Almqvist",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1693531,
+     "minutes": 31,
+     "name": "Sascha Britschgi",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 1190371,
+     "minutes": 19,
+     "name": "Matija Frigan",
+     "shots": 2,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-28T14:00:00.000Z"
   }
  ]
 }

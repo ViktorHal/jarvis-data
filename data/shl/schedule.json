@@ -1,18 +1,58 @@
 {
  "games": [
   {
+   "ag": 0,
    "away": "Örebro HK",
    "date": "2026-11-28",
+   "hg": 3,
    "home": "Brynäs IF",
-   "played": false,
+   "overtime": false,
+   "periods": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "played": true,
+   "reg_ag": 0,
+   "reg_hg": 3,
+   "shootout": false,
    "startUTC": "2026-11-28T14:15:00Z",
    "time": "15:15"
   },
   {
+   "ag": 2,
    "away": "Djurgårdens IF",
    "date": "2026-11-28",
+   "hg": 1,
    "home": "IF Malmö Redhawks",
-   "played": false,
+   "overtime": false,
+   "periods": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "played": true,
+   "reg_ag": 2,
+   "reg_hg": 1,
+   "shootout": false,
    "startUTC": "2026-11-28T14:15:00Z",
    "time": "15:15"
   },
@@ -25,30 +65,10 @@
    "time": "15:15"
   },
   {
-   "ag": 0,
    "away": "Linköping HC",
    "date": "2026-11-28",
-   "hg": 3,
    "home": "Timrå IK",
-   "overtime": false,
-   "periods": [
-    [
-     1,
-     0
-    ],
-    [
-     2,
-     0
-    ],
-    [
-     0,
-     0
-    ]
-   ],
-   "played": true,
-   "reg_ag": 0,
-   "reg_hg": 3,
-   "shootout": false,
+   "played": false,
    "startUTC": "2026-11-28T14:15:00Z",
    "time": "15:15"
   },
@@ -78,7 +98,7 @@
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T16:18:12Z",
+  "fetchedAt": "2026-11-28T16:32:44Z",
   "source": "https://stats.swehockey.se/ScheduleAndResults/Schedule/20961"
  }
 }

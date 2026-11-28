@@ -1,11 +1,11 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T13:19:02Z",
+  "fetchedAt": "2026-11-28T16:32:58Z",
   "league": "Serie A",
   "note": "statz.ai's own xG model; last5 = last five league games",
   "season": "2026/2027",
   "source": "https://statz.ai/competitions/serie-a/xg",
-  "updatedText": "Updated 27 November 2026, after the last game"
+  "updatedText": "Updated 28 November 2026, after the last game"
  },
  "teams": {
   "AC Milan": {

@@ -7581,14 +7581,82 @@
     }
    ],
    "time": "19:00"
+  },
+  {
+   "away": "Örebro HK",
+   "codes": [
+    "BIF",
+    "ÖHK"
+   ],
+   "date": "2026-11-28",
+   "final": [
+    3,
+    0
+   ],
+   "goalies": [],
+   "goals": [
+    3,
+    0
+   ],
+   "home": "Brynäs IF",
+   "id": "1110074",
+   "overtime": false,
+   "reg": [
+    3,
+    0
+   ],
+   "shootout": false,
+   "shots": [
+    20,
+    29
+   ],
+   "starters": [
+    null,
+    null
+   ],
+   "time": "15:15"
+  },
+  {
+   "away": "Djurgårdens IF",
+   "codes": [
+    "MIF",
+    "DIF"
+   ],
+   "date": "2026-11-28",
+   "final": [
+    1,
+    2
+   ],
+   "goalies": [],
+   "goals": [
+    1,
+    2
+   ],
+   "home": "IF Malmö Redhawks",
+   "id": "1110075",
+   "overtime": false,
+   "reg": [
+    1,
+    2
+   ],
+   "shootout": false,
+   "shots": [
+    25,
+    21
+   ],
+   "starters": [
+    null,
+    null
+   ],
+   "time": "15:15"
   }
  ],
  "meta": {
-  "fetchedAt": "2026-11-28T13:18:52Z",
-  "fetchedThisRun": 0,
-  "games": 136,
+  "fetchedAt": "2026-11-28T16:32:49Z",
+  "fetchedThisRun": 2,
+  "games": 138,
   "note": "shots/goals incl. overtime, excl. shootout; starters = GK In at 00:00",
-  "played": 136,
+  "played": 138,
   "season": "2026/27",
   "series": "20961",
   "source": "https://stats.swehockey.se/Game/Events/<id>"

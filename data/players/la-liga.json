@@ -1,12 +1,19 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T13:19:45Z",
+  "fetchedAt": "2026-11-28T16:33:40Z",
   "league": "La Liga",
   "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
   "season": "2026/27",
   "source": "https://playerstats.football/la-liga/stats/<stat>"
  },
  "players": {
+  "Abde Ezzalzouli": {
+   "id": "37297124",
+   "minutes": 844,
+   "shots": 20.0,
+   "shots_p90": 2.13,
+   "team": "Real Betis"
+  },
   "Adrián Dela": {
    "id": "4545454",
    "minutes": 944,
@@ -43,11 +50,11 @@
   },
   "Antony": {
    "id": "12393293",
-   "minutes": 779,
-   "shots": 40.0,
-   "shots_p90": 4.62,
+   "minutes": 842,
+   "shots": 41.0,
+   "shots_p90": 4.38,
    "sot": 17.0,
-   "sot_p90": 1.96,
+   "sot_p90": 1.82,
    "team": "Real Betis"
   },
   "Arda Güler": {
@@ -69,8 +76,6 @@
   "Ayoze Pérez": {
    "id": "1396",
    "minutes": 663,
-   "shots": 19.0,
-   "shots_p90": 2.58,
    "sot": 8.0,
    "sot_p90": 1.09,
    "team": "Villarreal"
@@ -95,9 +100,9 @@
   },
   "Cucho Hernández": {
    "id": "240195",
-   "minutes": 589,
-   "sot": 7.0,
-   "sot_p90": 1.07,
+   "minutes": 652,
+   "sot": 8.0,
+   "sot_p90": 1.1,
    "team": "Real Betis"
   },
   "Edu Expósito": {
@@ -145,11 +150,11 @@
   },
   "Isco": {
    "id": "185972",
-   "minutes": 704,
-   "shots": 22.0,
-   "shots_p90": 2.81,
-   "sot": 12.0,
-   "sot_p90": 1.53,
+   "minutes": 795,
+   "shots": 26.0,
+   "shots_p90": 2.94,
+   "sot": 15.0,
+   "sot_p90": 1.7,
    "team": "Real Betis"
   },
   "Iván Romero": {
@@ -179,8 +184,8 @@
   },
   "Jorge de Frutos": {
    "id": "447094",
-   "minutes": 778,
-   "sot": 8.0,
+   "minutes": 869,
+   "sot": 9.0,
    "sot_p90": 0.93,
    "team": "Rayo Vallecano"
   },
@@ -263,9 +268,9 @@
   },
   "Nelson Deossa": {
    "id": "37555046",
-   "minutes": 469,
+   "minutes": 481,
    "shots": 22.0,
-   "shots_p90": 4.22,
+   "shots_p90": 4.12,
    "team": "Real Betis"
   },
   "Nico Williams": {
@@ -300,9 +305,9 @@
   },
   "Pablo Fornals": {
    "id": "186815",
-   "minutes": 878,
-   "shots": 22.0,
-   "shots_p90": 2.26,
+   "minutes": 957,
+   "shots": 23.0,
+   "shots_p90": 2.16,
    "team": "Real Betis"
   },
   "Pablo García": {
@@ -325,9 +330,9 @@
   },
   "Pedro Díaz": {
    "id": "445829",
-   "minutes": 621,
-   "shots": 28.0,
-   "shots_p90": 4.06,
+   "minutes": 639,
+   "shots": 29.0,
+   "shots_p90": 4.08,
    "team": "Rayo Vallecano"
   },
   "Pierre-Emerick Aubameyang": {
@@ -364,11 +369,11 @@
   },
   "Sergio Camello": {
    "id": "7698443",
-   "minutes": 836,
-   "shots": 26.0,
-   "shots_p90": 2.8,
-   "sot": 14.0,
-   "sot_p90": 1.51,
+   "minutes": 909,
+   "shots": 31.0,
+   "shots_p90": 3.07,
+   "sot": 15.0,
+   "sot_p90": 1.49,
    "team": "Rayo Vallecano"
   },
   "Tajon Buchanan": {

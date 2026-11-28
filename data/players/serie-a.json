@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T13:19:50Z",
+  "fetchedAt": "2026-11-28T16:33:45Z",
   "league": "Serie A",
   "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
   "season": "2026/27",
@@ -14,7 +14,7 @@
    "shots_p90": 2.56,
    "sot": 9.0,
    "sot_p90": 1.1,
-   "team": "Fiorentina"
+   "team": "Torino"
   },
   "Alphadjo Cissè": {
    "id": "37622541",
@@ -139,18 +139,18 @@
   },
   "El Bilal Touré": {
    "id": "30446920",
-   "minutes": 898,
+   "minutes": 988,
    "sot": 7.0,
-   "sot_p90": 0.7,
+   "sot_p90": 0.64,
    "team": "Parma"
   },
   "Farès Ghedjemis": {
    "id": "37591823",
-   "minutes": 776,
-   "shots": 34.0,
-   "shots_p90": 3.94,
-   "sot": 13.0,
-   "sot_p90": 1.51,
+   "minutes": 866,
+   "shots": 35.0,
+   "shots_p90": 3.64,
+   "sot": 14.0,
+   "sot_p90": 1.45,
    "team": "Frosinone"
   },
   "Federico Bernardeschi": {
@@ -177,15 +177,6 @@
    "sot": 14.0,
    "sot_p90": 1.33,
    "team": "Fiorentina"
-  },
-  "Giorgi Kvernadze": {
-   "id": "37567627",
-   "minutes": 963,
-   "shots": 35.0,
-   "shots_p90": 3.27,
-   "sot": 8.0,
-   "sot_p90": 0.75,
-   "team": "Frosinone"
   },
   "Giovanni Simeone": {
    "id": "130032",
@@ -295,8 +286,6 @@
    "minutes": 578,
    "shots": 20.0,
    "shots_p90": 3.11,
-   "sot": 7.0,
-   "sot_p90": 1.09,
    "team": "Como"
   },
   "Mateo Pellegrino": {

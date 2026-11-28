@@ -38074,6 +38074,293 @@
     }
    ],
    "utc": "2026-11-27T20:00:00Z"
+  },
+  {
+   "away": "Rayo Vallecano",
+   "home": "Real Betis",
+   "id": "5868141",
+   "players": [
+    {
+     "id": 999171,
+     "minutes": 90,
+     "name": "Álvaro Vallés",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 427438,
+     "minutes": 63,
+     "name": "Héctor Bellerín",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 195305,
+     "minutes": 90,
+     "name": "Marc Bartra",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1188375,
+     "minutes": 90,
+     "name": "Natan",
+     "shots": 1,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 743192,
+     "minutes": 45,
+     "name": "Júnior Firpo",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 683450,
+     "minutes": 79,
+     "name": "Pablo Fornals",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 640220,
+     "minutes": 90,
+     "name": "Marc Roca",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 967622,
+     "minutes": 63,
+     "name": "Antony",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 191315,
+     "minutes": 90,
+     "name": "Isco",
+     "shots": 4,
+     "sot": 3,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 1209399,
+     "minutes": 90,
+     "name": "Abdessamad Ezzalzouli",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 852071,
+     "minutes": 63,
+     "name": "Juan Hernández",
+     "shots": 3,
+     "sot": 1,
+     "started": true,
+     "team": "home"
+    },
+    {
+     "id": 750028,
+     "minutes": 45,
+     "name": "Fran García",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 676533,
+     "minutes": 27,
+     "name": "Aitor Ruibal",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1793845,
+     "minutes": 27,
+     "name": "José Antonio Morante",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 942365,
+     "minutes": 27,
+     "name": "Troy Parrott",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 1315711,
+     "minutes": 11,
+     "name": "Nelson Deossa",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "home"
+    },
+    {
+     "id": 602845,
+     "minutes": 90,
+     "name": "Emil Audero",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 970578,
+     "minutes": 90,
+     "name": "Andrei Rațiu",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 184521,
+     "minutes": 90,
+     "name": "Florian Lejeune",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 872396,
+     "minutes": 90,
+     "name": "Pathé Ciss",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 927646,
+     "minutes": 90,
+     "name": "Adrià Pedrosa",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 1889232,
+     "minutes": 86,
+     "name": "Gnangoro Bouare",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 571615,
+     "minutes": 90,
+     "name": "Unai López",
+     "shots": 0,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 797901,
+     "minutes": 90,
+     "name": "Jorge de Frutos",
+     "shots": 2,
+     "sot": 1,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 638010,
+     "minutes": 73,
+     "name": "Isi Palazón",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 474658,
+     "minutes": 65,
+     "name": "Álvaro García",
+     "shots": 1,
+     "sot": 0,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 980422,
+     "minutes": 73,
+     "name": "Sergio Camello",
+     "shots": 6,
+     "sot": 2,
+     "started": true,
+     "team": "away"
+    },
+    {
+     "id": 939061,
+     "minutes": 25,
+     "name": "Giorgi Tsitaishvili",
+     "shots": 1,
+     "sot": 1,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 715069,
+     "minutes": 17,
+     "name": "Pedro Díaz",
+     "shots": 1,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 915264,
+     "minutes": 17,
+     "name": "Randy Nteka",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    },
+    {
+     "id": 956622,
+     "minutes": 4,
+     "name": "Óscar Valentín",
+     "shots": 0,
+     "sot": 0,
+     "started": false,
+     "team": "away"
+    }
+   ],
+   "utc": "2026-11-28T13:00:00.000Z"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "fetchedAt": "2026-11-28T13:19:40Z",
+  "fetchedAt": "2026-11-28T16:33:34Z",
   "league": "Championship",
   "note": "top-50 leaderboards for total shots and shots on target; per-90 as published",
   "season": "2026/27",
@@ -27,11 +27,11 @@
   },
   "Anthony Musaba": {
    "id": "32404512",
-   "minutes": 803,
-   "shots": 27.0,
-   "shots_p90": 3.03,
+   "minutes": 878,
+   "shots": 28.0,
+   "shots_p90": 2.87,
    "sot": 12.0,
-   "sot_p90": 1.34,
+   "sot_p90": 1.23,
    "team": "Norwich City"
   },
   "Cian Ashford": {
@@ -68,9 +68,9 @@
   },
   "Jayden Fevrier": {
    "id": "24817368",
-   "minutes": 732,
-   "shots": 26.0,
-   "shots_p90": 3.2,
+   "minutes": 766,
+   "shots": 27.0,
+   "shots_p90": 3.17,
    "team": "Blackburn Rovers"
   },
   "Joël Piroe": {
@@ -123,9 +123,9 @@
   },
   "Mathias Kvistgaarden": {
    "id": "37522719",
-   "minutes": 769,
-   "sot": 9.0,
-   "sot_p90": 1.05,
+   "minutes": 843,
+   "sot": 10.0,
+   "sot_p90": 1.07,
    "team": "Norwich City"
   },
   "Moussa Yeo": {
@@ -138,18 +138,23 @@
   "Paul Smyth": {
    "id": "149574",
    "minutes": 938,
-   "shots": 25.0,
-   "shots_p90": 2.4,
    "sot": 11.0,
    "sot_p90": 1.06,
    "team": "Queens Park Rangers"
   },
   "Rafiki Saïd": {
    "id": "529664",
-   "minutes": 592,
-   "shots": 29.0,
-   "shots_p90": 4.41,
+   "minutes": 612,
+   "shots": 31.0,
+   "shots_p90": 4.56,
    "team": "Wolverhampton Wanderers"
+  },
+  "Reeco Hackett": {
+   "id": "1494679",
+   "minutes": 976,
+   "shots": 26.0,
+   "shots_p90": 2.4,
+   "team": "Lincoln City"
   },
   "Richard Kone": {
    "id": "37735348",
